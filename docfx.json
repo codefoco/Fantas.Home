@@ -42,14 +42,14 @@
         ],
         "exclude": [
           "obj/**",
-          "_site/**"
+          "docs/**"
         ]
       }
     ],
     "xref": [
       "Y"
     ],
-    "dest": "_site",
+    "dest": "docs",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
