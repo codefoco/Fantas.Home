@@ -1,0 +1,916 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class GraphicsDeviceManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class GraphicsDeviceManager
+   ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager">
+  
+  
+  <h1 id="Microsoft_Xna_Framework_GraphicsDeviceManager" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager" class="text-break">Class GraphicsDeviceManager
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">GraphicsDeviceManager</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.IGraphicsDeviceService.html">IGraphicsDeviceService</a></div>
+    <div><span class="xref">System.IDisposable</span></div>
+    <div><a class="xref" href="Microsoft.Xna.Framework.IGraphicsDeviceManager.html">IGraphicsDeviceManager</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.html">Microsoft.Xna.Framework</a></h6>
+  <h6><strong>Assembly</strong>: MonoGame.Framework.dll</h6>
+  <h5 id="Microsoft_Xna_Framework_GraphicsDeviceManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class GraphicsDeviceManager : IGraphicsDeviceService, IDisposable, IGraphicsDeviceManager</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager__ctor_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.#ctor*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager__ctor_Microsoft_Xna_Framework_Game_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.#ctor(Microsoft.Xna.Framework.Game)">GraphicsDeviceManager(Game)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GraphicsDeviceManager(Game game)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Game.html">Game</a></td>
+        <td><span class="parametername">game</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_DefaultBackBufferHeight" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.DefaultBackBufferHeight">DefaultBackBufferHeight</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DefaultBackBufferHeight = 480</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_DefaultBackBufferWidth" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.DefaultBackBufferWidth">DefaultBackBufferWidth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DefaultBackBufferWidth = 800</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_GraphicsDevice_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.GraphicsDevice*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_GraphicsDevice" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.GraphicsDevice">GraphicsDevice</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GraphicsDevice GraphicsDevice { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_GraphicsProfile_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.GraphicsProfile*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_GraphicsProfile" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.GraphicsProfile">GraphicsProfile</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GraphicsProfile GraphicsProfile { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsProfile.html">GraphicsProfile</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_HardwareModeSwitch_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.HardwareModeSwitch*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_HardwareModeSwitch" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.HardwareModeSwitch">HardwareModeSwitch</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HardwareModeSwitch { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_IsFullScreen_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.IsFullScreen*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_IsFullScreen" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.IsFullScreen">IsFullScreen</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsFullScreen { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferHalfPixelOffset_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferHalfPixelOffset*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferHalfPixelOffset" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferHalfPixelOffset">PreferHalfPixelOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PreferHalfPixelOffset { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferMultiSampling_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferMultiSampling*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferMultiSampling" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferMultiSampling">PreferMultiSampling</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PreferMultiSampling { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferFormat_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferFormat*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferFormat" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferFormat">PreferredBackBufferFormat</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SurfaceFormat PreferredBackBufferFormat { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SurfaceFormat.html">SurfaceFormat</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferHeight_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferHeight*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferHeight" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferHeight">PreferredBackBufferHeight</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PreferredBackBufferHeight { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferWidth_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferWidth*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredBackBufferWidth" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredBackBufferWidth">PreferredBackBufferWidth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PreferredBackBufferWidth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredDepthStencilFormat_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredDepthStencilFormat*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreferredDepthStencilFormat" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreferredDepthStencilFormat">PreferredDepthStencilFormat</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DepthFormat PreferredDepthStencilFormat { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.DepthFormat.html">DepthFormat</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_SupportedOrientations_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.SupportedOrientations*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_SupportedOrientations" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.SupportedOrientations">SupportedOrientations</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DisplayOrientation SupportedOrientations { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.DisplayOrientation.html">DisplayOrientation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_SynchronizeWithVerticalRetrace_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.SynchronizeWithVerticalRetrace*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_SynchronizeWithVerticalRetrace" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.SynchronizeWithVerticalRetrace">SynchronizeWithVerticalRetrace</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SynchronizeWithVerticalRetrace { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_ApplyChanges_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.ApplyChanges*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_ApplyChanges" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.ApplyChanges">ApplyChanges()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ApplyChanges()</code></pre>
+  </div>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_BeginDraw_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.BeginDraw*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_BeginDraw" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.BeginDraw">BeginDraw()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool BeginDraw()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_Dispose_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Dispose*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_Dispose" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_Dispose_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Dispose*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_Dispose_System_Boolean_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">disposing</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_EndDraw_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.EndDraw*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_EndDraw" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.EndDraw">EndDraw()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EndDraw()</code></pre>
+  </div>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_Finalize_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Finalize*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_Finalize" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Finalize">Finalize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+  </div>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceCreated_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceCreated*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceCreated_System_EventArgs_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceCreated(System.EventArgs)">OnDeviceCreated(EventArgs)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnDeviceCreated(EventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventArgs</span></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceDisposing_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceDisposing*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceDisposing_System_EventArgs_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceDisposing(System.EventArgs)">OnDeviceDisposing(EventArgs)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnDeviceDisposing(EventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventArgs</span></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceReset_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceReset*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceReset_System_EventArgs_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceReset(System.EventArgs)">OnDeviceReset(EventArgs)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnDeviceReset(EventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventArgs</span></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceResetting_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceResetting*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_OnDeviceResetting_System_EventArgs_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.OnDeviceResetting(System.EventArgs)">OnDeviceResetting(EventArgs)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnDeviceResetting(EventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventArgs</span></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_ToggleFullScreen_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.ToggleFullScreen*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_ToggleFullScreen" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.ToggleFullScreen">ToggleFullScreen()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleFullScreen()</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_DeviceCreated" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.DeviceCreated">DeviceCreated</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; DeviceCreated</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<span class="xref">System.EventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_DeviceDisposing" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.DeviceDisposing">DeviceDisposing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; DeviceDisposing</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<span class="xref">System.EventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_DeviceReset" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.DeviceReset">DeviceReset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; DeviceReset</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<span class="xref">System.EventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_DeviceResetting" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.DeviceResetting">DeviceResetting</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; DeviceResetting</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<span class="xref">System.EventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_Disposed" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Disposed">Disposed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; Disposed</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<span class="xref">System.EventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_PreparingDeviceSettings" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.PreparingDeviceSettings">PreparingDeviceSettings</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;PreparingDeviceSettingsEventArgs&gt; PreparingDeviceSettings</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs.html">PreparingDeviceSettingsEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  
+  
+  <a id="Microsoft_Xna_Framework_GraphicsDeviceManager_Microsoft_Xna_Framework_IGraphicsDeviceManager_CreateDevice_" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Microsoft#Xna#Framework#IGraphicsDeviceManager#CreateDevice*"></a>
+  <h4 id="Microsoft_Xna_Framework_GraphicsDeviceManager_Microsoft_Xna_Framework_IGraphicsDeviceManager_CreateDevice" data-uid="Microsoft.Xna.Framework.GraphicsDeviceManager.Microsoft#Xna#Framework#IGraphicsDeviceManager#CreateDevice">IGraphicsDeviceManager.CreateDevice()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void IGraphicsDeviceManager.CreateDevice()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.IGraphicsDeviceService.html">IGraphicsDeviceService</a>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <a class="xref" href="Microsoft.Xna.Framework.IGraphicsDeviceManager.html">IGraphicsDeviceManager</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

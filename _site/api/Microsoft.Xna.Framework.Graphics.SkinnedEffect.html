@@ -1,0 +1,914 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SkinnedEffect
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SkinnedEffect
+   ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect">
+  
+  
+  <h1 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect" class="text-break">Class SkinnedEffect
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html">GraphicsResource</a></div>
+    <div class="level2"><a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html">Effect</a></div>
+    <div class="level3"><span class="xref">SkinnedEffect</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+    <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectMatrices.html">IEffectMatrices</a></div>
+    <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectLights.html">IEffectLights</a></div>
+    <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectFog.html">IEffectFog</a></div>
+    <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectBones.html">IEffectBones</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html#Microsoft_Xna_Framework_Graphics_Effect_Dispose_System_Boolean_">Effect.Dispose(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html#Microsoft_Xna_Framework_Graphics_Effect_GraphicsDeviceResetting">Effect.GraphicsDeviceResetting()</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html#Microsoft_Xna_Framework_Graphics_Effect_Parameters">Effect.Parameters</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html#Microsoft_Xna_Framework_Graphics_Effect_Techniques">Effect.Techniques</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html#Microsoft_Xna_Framework_Graphics_Effect_CurrentTechnique">Effect.CurrentTechnique</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Dispose">GraphicsResource.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_ToString">GraphicsResource.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_GraphicsDevice">GraphicsResource.GraphicsDevice</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_IsDisposed">GraphicsResource.IsDisposed</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Name">GraphicsResource.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Tag">GraphicsResource.Tag</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsResource.html#Microsoft_Xna_Framework_Graphics_GraphicsResource_Disposing">GraphicsResource.Disposing</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Microsoft.Xna.Framework.Graphics.html">Microsoft.Xna.Framework.Graphics</a></h6>
+  <h6><strong>Assembly</strong>: MonoGame.Framework.dll</h6>
+  <h5 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SkinnedEffect : Effect, IDisposable, IEffectMatrices, IEffectLights, IEffectFog, IEffectBones</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.#ctor*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect__ctor_Microsoft_Xna_Framework_Graphics_GraphicsDevice_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.#ctor(Microsoft.Xna.Framework.Graphics.GraphicsDevice)">SkinnedEffect(GraphicsDevice)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SkinnedEffect(GraphicsDevice device)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.GraphicsDevice.html">GraphicsDevice</a></td>
+        <td><span class="parametername">device</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect__ctor_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.#ctor*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect__ctor_Microsoft_Xna_Framework_Graphics_SkinnedEffect_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.#ctor(Microsoft.Xna.Framework.Graphics.SkinnedEffect)">SkinnedEffect(SkinnedEffect)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SkinnedEffect(SkinnedEffect cloneSource)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.SkinnedEffect.html">SkinnedEffect</a></td>
+        <td><span class="parametername">cloneSource</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_MaxBones" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.MaxBones">MaxBones</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MaxBones = 72</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Alpha_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Alpha*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Alpha" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Alpha">Alpha</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Alpha { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_AmbientLightColor_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.AmbientLightColor*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_AmbientLightColor" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.AmbientLightColor">AmbientLightColor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 AmbientLightColor { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DiffuseColor_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DiffuseColor*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DiffuseColor" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DiffuseColor">DiffuseColor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 DiffuseColor { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight0_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight0*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight0" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight0">DirectionalLight0</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DirectionalLight DirectionalLight0 { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.DirectionalLight.html">DirectionalLight</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight1_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight1*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight1" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight1">DirectionalLight1</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DirectionalLight DirectionalLight1 { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.DirectionalLight.html">DirectionalLight</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight2_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight2*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_DirectionalLight2" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.DirectionalLight2">DirectionalLight2</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DirectionalLight DirectionalLight2 { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.DirectionalLight.html">DirectionalLight</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_EmissiveColor_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.EmissiveColor*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_EmissiveColor" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.EmissiveColor">EmissiveColor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 EmissiveColor { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogColor_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogColor*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogColor" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogColor">FogColor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 FogColor { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogEnabled*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogEnabled" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogEnabled">FogEnabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool FogEnabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogEnd_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogEnd*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogEnd" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogEnd">FogEnd</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float FogEnd { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogStart_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogStart*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_FogStart" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.FogStart">FogStart</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float FogStart { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_PreferPerPixelLighting_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.PreferPerPixelLighting*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_PreferPerPixelLighting" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.PreferPerPixelLighting">PreferPerPixelLighting</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PreferPerPixelLighting { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Projection_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Projection*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Projection" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Projection">Projection</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix Projection { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_SpecularColor_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.SpecularColor*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_SpecularColor" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.SpecularColor">SpecularColor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 SpecularColor { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_SpecularPower_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.SpecularPower*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_SpecularPower" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.SpecularPower">SpecularPower</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float SpecularPower { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Texture_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Texture*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Texture" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Texture">Texture</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Texture2D Texture { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Texture2D.html">Texture2D</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_View_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.View*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_View" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.View">View</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix View { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_WeightsPerVertex_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.WeightsPerVertex*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_WeightsPerVertex" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.WeightsPerVertex">WeightsPerVertex</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int WeightsPerVertex { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_World_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.World*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_World" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.World">World</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix World { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Clone_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Clone*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Clone" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Clone">Clone()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Effect Clone()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html">Effect</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html#Microsoft_Xna_Framework_Graphics_Effect_Clone">Effect.Clone()</a></div>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_EnableDefaultLighting_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.EnableDefaultLighting*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_EnableDefaultLighting" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.EnableDefaultLighting">EnableDefaultLighting()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnableDefaultLighting()</code></pre>
+  </div>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_GetBoneTransforms_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.GetBoneTransforms*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_GetBoneTransforms_System_Int32_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.GetBoneTransforms(System.Int32)">GetBoneTransforms(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix[] GetBoneTransforms(int count)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">count</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_OnApply_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.OnApply*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_OnApply" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.OnApply">OnApply()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnApply()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Microsoft.Xna.Framework.Graphics.Effect.html#Microsoft_Xna_Framework_Graphics_Effect_OnApply">Effect.OnApply()</a></div>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_SetBoneTransforms_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.SetBoneTransforms*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_SetBoneTransforms_Microsoft_Xna_Framework_Matrix___" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.SetBoneTransforms(Microsoft.Xna.Framework.Matrix[])">SetBoneTransforms(Matrix[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBoneTransforms(Matrix[] boneTransforms)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Microsoft.Xna.Framework.Matrix.html">Matrix</a>[]</td>
+        <td><span class="parametername">boneTransforms</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  
+  
+  <a id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Microsoft_Xna_Framework_Graphics_IEffectLights_LightingEnabled_" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Microsoft#Xna#Framework#Graphics#IEffectLights#LightingEnabled*"></a>
+  <h4 id="Microsoft_Xna_Framework_Graphics_SkinnedEffect_Microsoft_Xna_Framework_Graphics_IEffectLights_LightingEnabled" data-uid="Microsoft.Xna.Framework.Graphics.SkinnedEffect.Microsoft#Xna#Framework#Graphics#IEffectLights#LightingEnabled">IEffectLights.LightingEnabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IEffectLights.LightingEnabled { get; set; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectMatrices.html">IEffectMatrices</a>
+  </div>
+  <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectLights.html">IEffectLights</a>
+  </div>
+  <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectFog.html">IEffectFog</a>
+  </div>
+  <div>
+      <a class="xref" href="Microsoft.Xna.Framework.Graphics.IEffectBones.html">IEffectBones</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

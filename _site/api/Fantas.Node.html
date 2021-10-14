@@ -1,0 +1,1764 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Node
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Node
+   ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Fantas.Node">
+  
+  
+  <h1 id="Fantas_Node" data-uid="Fantas.Node" class="text-break">Class Node
+  </h1>
+  <div class="markdown level0 summary"><p>Base Node for other Nodes</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Node</span></div>
+      <div class="level2"><a class="xref" href="Fantas.CameraNode.html">CameraNode</a></div>
+      <div class="level2"><a class="xref" href="Fantas.LabelNode.html">LabelNode</a></div>
+      <div class="level2"><a class="xref" href="Fantas.ParticleEmitterNode.html">ParticleEmitterNode</a></div>
+      <div class="level2"><a class="xref" href="Fantas.Scene.html">Scene</a></div>
+      <div class="level2"><a class="xref" href="Fantas.ShapeNode.html">ShapeNode</a></div>
+      <div class="level2"><a class="xref" href="Fantas.SpriteNode.html">SpriteNode</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Fantas.html">Fantas</a></h6>
+  <h6><strong>Assembly</strong>: Fantas.dll</h6>
+  <h5 id="Fantas_Node_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Node : Object</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Fantas_Node__ctor_" data-uid="Fantas.Node.#ctor*"></a>
+  <h4 id="Fantas_Node__ctor" data-uid="Fantas.Node.#ctor">Node()</h4>
+  <div class="markdown level1 summary"><p>Create a generic node
+Usually used as parent for other nodes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Node()</code></pre>
+  </div>
+  
+  
+  <a id="Fantas_Node__ctor_" data-uid="Fantas.Node.#ctor*"></a>
+  <h4 id="Fantas_Node__ctor_Fantas_Node_" data-uid="Fantas.Node.#ctor(Fantas.Node)">Node(Node)</h4>
+  <div class="markdown level1 summary"><p>Copy the node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Node(Node other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Node.html">Node</a></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Fantas_Node_Alpha_" data-uid="Fantas.Node.Alpha*"></a>
+  <h4 id="Fantas_Node_Alpha" data-uid="Fantas.Node.Alpha">Alpha</h4>
+  <div class="markdown level1 summary"><p>Transparency applied to the node and childrens</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Alpha { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_Children_" data-uid="Fantas.Node.Children*"></a>
+  <h4 id="Fantas_Node_Children" data-uid="Fantas.Node.Children">Children</h4>
+  <div class="markdown level1 summary"><p>Children add to this node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;Node&gt; Children { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="Fantas.Node.html">Node</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_Click_" data-uid="Fantas.Node.Click*"></a>
+  <h4 id="Fantas_Node_Click" data-uid="Fantas.Node.Click">Click</h4>
+  <div class="markdown level1 summary"><p>Called when mouse left button clicked within the node
+(called after left button down, left button up)
+call back contains the node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NodeMouseButtonEvent Click { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.NodeMouseButtonEvent.html">NodeMouseButtonEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_DoubleClick_" data-uid="Fantas.Node.DoubleClick*"></a>
+  <h4 id="Fantas_Node_DoubleClick" data-uid="Fantas.Node.DoubleClick">DoubleClick</h4>
+  <div class="markdown level1 summary"><p>Called when mouse left button doule-clicked within the node
+call back contains the node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NodeMouseButtonEvent DoubleClick { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.NodeMouseButtonEvent.html">NodeMouseButtonEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_DoubleTap_" data-uid="Fantas.Node.DoubleTap*"></a>
+  <h4 id="Fantas_Node_DoubleTap" data-uid="Fantas.Node.DoubleTap">DoubleTap</h4>
+  <div class="markdown level1 summary"><p>Called when node frame is double tapped
+call back contains the node tapped and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NodeTapEvent DoubleTap { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.NodeTapEvent.html">NodeTapEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_Frame_" data-uid="Fantas.Node.Frame*"></a>
+  <h4 id="Fantas_Node_Frame" data-uid="Fantas.Node.Frame">Frame</h4>
+  <div class="markdown level1 summary"><p>Node Frame without children</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RectangleF Frame { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Drawing.RectangleF</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_HasAnimation_" data-uid="Fantas.Node.HasAnimation*"></a>
+  <h4 id="Fantas_Node_HasAnimation" data-uid="Fantas.Node.HasAnimation">HasAnimation</h4>
+  <div class="markdown level1 summary"><p>Check if not is running animations</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAnimation { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_Hidden_" data-uid="Fantas.Node.Hidden*"></a>
+  <h4 id="Fantas_Node_Hidden" data-uid="Fantas.Node.Hidden">Hidden</h4>
+  <div class="markdown level1 summary"><p>Node visibility (when is hidden)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Hidden { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_Hold_" data-uid="Fantas.Node.Hold*"></a>
+  <h4 id="Fantas_Node_Hold" data-uid="Fantas.Node.Hold">Hold</h4>
+  <div class="markdown level1 summary"><p>Called when node frame is pressed and hold
+call back contains the node tapped and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NodeTapEvent Hold { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.NodeTapEvent.html">NodeTapEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_LeftButtonDown_" data-uid="Fantas.Node.LeftButtonDown*"></a>
+  <h4 id="Fantas_Node_LeftButtonDown" data-uid="Fantas.Node.LeftButtonDown">LeftButtonDown</h4>
+  <div class="markdown level1 summary"><p>Called when mouse left button is pressed over the node
+call back contains the node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NodeMouseButtonEvent LeftButtonDown { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.NodeMouseButtonEvent.html">NodeMouseButtonEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_LeftButtonUp_" data-uid="Fantas.Node.LeftButtonUp*"></a>
+  <h4 id="Fantas_Node_LeftButtonUp" data-uid="Fantas.Node.LeftButtonUp">LeftButtonUp</h4>
+  <div class="markdown level1 summary"><p>Called when mouse left button is released over the node
+call back contains the node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NodeMouseButtonEvent LeftButtonUp { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.NodeMouseButtonEvent.html">NodeMouseButtonEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_MiddleClick_" data-uid="Fantas.Node.MiddleClick*"></a>
+  <h4 id="Fantas_Node_MiddleClick" data-uid="Fantas.Node.MiddleClick">MiddleClick</h4>
+  <div class="markdown level1 summary"><p>Called when mouse left button middle-clicked within the node
+call back contains the node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NodeMouseButtonEvent MiddleClick { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.NodeMouseButtonEvent.html">NodeMouseButtonEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_MouseEnter_" data-uid="Fantas.Node.MouseEnter*"></a>
+  <h4 id="Fantas_Node_MouseEnter" data-uid="Fantas.Node.MouseEnter">MouseEnter</h4>
+  <div class="markdown level1 summary"><p>Called when mouse enter node frame
+call back contains the node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NodeMouseMoveEvent MouseEnter { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.NodeMouseMoveEvent.html">NodeMouseMoveEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_MouseLeave_" data-uid="Fantas.Node.MouseLeave*"></a>
+  <h4 id="Fantas_Node_MouseLeave" data-uid="Fantas.Node.MouseLeave">MouseLeave</h4>
+  <div class="markdown level1 summary"><p>Called when mouse leave node
+call back contains the node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NodeMouseMoveEvent MouseLeave { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.NodeMouseMoveEvent.html">NodeMouseMoveEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_MouseOver_" data-uid="Fantas.Node.MouseOver*"></a>
+  <h4 id="Fantas_Node_MouseOver" data-uid="Fantas.Node.MouseOver">MouseOver</h4>
+  <div class="markdown level1 summary"><p>Called when mouse move over node
+call back contains the node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NodeMouseMoveEvent MouseOver { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.NodeMouseMoveEvent.html">NodeMouseMoveEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_Name_" data-uid="Fantas.Node.Name*"></a>
+  <h4 id="Fantas_Node_Name" data-uid="Fantas.Node.Name">Name</h4>
+  <div class="markdown level1 summary"><p>optional name of the node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_Parent_" data-uid="Fantas.Node.Parent*"></a>
+  <h4 id="Fantas_Node_Parent" data-uid="Fantas.Node.Parent">Parent</h4>
+  <div class="markdown level1 summary"><p>Parent node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Node Parent { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Node.html">Node</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_Paused_" data-uid="Fantas.Node.Paused*"></a>
+  <h4 id="Fantas_Node_Paused" data-uid="Fantas.Node.Paused">Paused</h4>
+  <div class="markdown level1 summary"><p>Pause animation of node (and children)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Paused { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_PhysicsBody_" data-uid="Fantas.Node.PhysicsBody*"></a>
+  <h4 id="Fantas_Node_PhysicsBody" data-uid="Fantas.Node.PhysicsBody">PhysicsBody</h4>
+  <div class="markdown level1 summary"><p>PhysicsBody of node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PhysicsBody PhysicsBody { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Physics.PhysicsBody.html">PhysicsBody</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_Position_" data-uid="Fantas.Node.Position*"></a>
+  <h4 id="Fantas_Node_Position" data-uid="Fantas.Node.Position">Position</h4>
+  <div class="markdown level1 summary"><p>Position relative to the parent node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PointF Position { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Drawing.PointF</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_RightClick_" data-uid="Fantas.Node.RightClick*"></a>
+  <h4 id="Fantas_Node_RightClick" data-uid="Fantas.Node.RightClick">RightClick</h4>
+  <div class="markdown level1 summary"><p>Called when mouse left button right-clicked within the node
+call back contains the node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NodeMouseButtonEvent RightClick { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.NodeMouseButtonEvent.html">NodeMouseButtonEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_Scene_" data-uid="Fantas.Node.Scene*"></a>
+  <h4 id="Fantas_Node_Scene" data-uid="Fantas.Node.Scene">Scene</h4>
+  <div class="markdown level1 summary"><p>Get the scene the node was added</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Scene Scene { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Scene.html">Scene</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_Speed_" data-uid="Fantas.Node.Speed*"></a>
+  <h4 id="Fantas_Node_Speed" data-uid="Fantas.Node.Speed">Speed</h4>
+  <div class="markdown level1 summary"><p>Controls the animation speed of node (and children)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Speed { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_Tap_" data-uid="Fantas.Node.Tap*"></a>
+  <h4 id="Fantas_Node_Tap" data-uid="Fantas.Node.Tap">Tap</h4>
+  <div class="markdown level1 summary"><p>Called when node frame is tapped
+call back contains the node tapped and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NodeTapEvent Tap { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.NodeTapEvent.html">NodeTapEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_XScale_" data-uid="Fantas.Node.XScale*"></a>
+  <h4 id="Fantas_Node_XScale" data-uid="Fantas.Node.XScale">XScale</h4>
+  <div class="markdown level1 summary"><p>X scale factor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float XScale { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_YScale_" data-uid="Fantas.Node.YScale*"></a>
+  <h4 id="Fantas_Node_YScale" data-uid="Fantas.Node.YScale">YScale</h4>
+  <div class="markdown level1 summary"><p>Y scale factor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float YScale { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_ZPosition_" data-uid="Fantas.Node.ZPosition*"></a>
+  <h4 id="Fantas_Node_ZPosition" data-uid="Fantas.Node.ZPosition">ZPosition</h4>
+  <div class="markdown level1 summary"><p>Node Z offset (0-bottom, + closer to camera)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ZPosition { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_ZRotation_" data-uid="Fantas.Node.ZRotation*"></a>
+  <h4 id="Fantas_Node_ZRotation" data-uid="Fantas.Node.ZRotation">ZRotation</h4>
+  <div class="markdown level1 summary"><p>Z-rotation (euler angle) using anchor as pivot</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double ZRotation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Fantas_Node_AddChild_" data-uid="Fantas.Node.AddChild*"></a>
+  <h4 id="Fantas_Node_AddChild_Fantas_Node_" data-uid="Fantas.Node.AddChild(Fantas.Node)">AddChild(Node)</h4>
+  <div class="markdown level1 summary"><p>Add a new child node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddChild(Node child)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Node.html">Node</a></td>
+        <td><span class="parametername">child</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_CalculateAccumulatedFrame_" data-uid="Fantas.Node.CalculateAccumulatedFrame*"></a>
+  <h4 id="Fantas_Node_CalculateAccumulatedFrame" data-uid="Fantas.Node.CalculateAccumulatedFrame">CalculateAccumulatedFrame()</h4>
+  <div class="markdown level1 summary"><p>Calculate the frame of this node and all children</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RectangleF CalculateAccumulatedFrame()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Drawing.RectangleF</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_ContainsPoint_" data-uid="Fantas.Node.ContainsPoint*"></a>
+  <h4 id="Fantas_Node_ContainsPoint_System_Drawing_PointF_" data-uid="Fantas.Node.ContainsPoint(System.Drawing.PointF)">ContainsPoint(PointF)</h4>
+  <div class="markdown level1 summary"><p>Check if the point is inside the node frame</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsPoint(PointF point)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Drawing.PointF</span></td>
+        <td><span class="parametername">point</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_ConvertPointFromNode_" data-uid="Fantas.Node.ConvertPointFromNode*"></a>
+  <h4 id="Fantas_Node_ConvertPointFromNode_System_Drawing_PointF_Fantas_Node_" data-uid="Fantas.Node.ConvertPointFromNode(System.Drawing.PointF,Fantas.Node)">ConvertPointFromNode(PointF, Node)</h4>
+  <div class="markdown level1 summary"><p>Transform point from the from source node to this node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PointF ConvertPointFromNode(PointF point, Node sourceNode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Drawing.PointF</span></td>
+        <td><span class="parametername">point</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Fantas.Node.html">Node</a></td>
+        <td><span class="parametername">sourceNode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Drawing.PointF</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_ConvertPointToNode_" data-uid="Fantas.Node.ConvertPointToNode*"></a>
+  <h4 id="Fantas_Node_ConvertPointToNode_System_Drawing_PointF_Fantas_Node_" data-uid="Fantas.Node.ConvertPointToNode(System.Drawing.PointF,Fantas.Node)">ConvertPointToNode(PointF, Node)</h4>
+  <div class="markdown level1 summary"><p>Transform point from the from this node to another node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PointF ConvertPointToNode(PointF point, Node toNode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Drawing.PointF</span></td>
+        <td><span class="parametername">point</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Fantas.Node.html">Node</a></td>
+        <td><span class="parametername">toNode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Drawing.PointF</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_Copy_" data-uid="Fantas.Node.Copy*"></a>
+  <h4 id="Fantas_Node_Copy" data-uid="Fantas.Node.Copy">Copy()</h4>
+  <div class="markdown level1 summary"><p>Copy this node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual Node Copy()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Node.html">Node</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_GetAnimationForKey_" data-uid="Fantas.Node.GetAnimationForKey*"></a>
+  <h4 id="Fantas_Node_GetAnimationForKey_System_String_" data-uid="Fantas.Node.GetAnimationForKey(System.String)">GetAnimationForKey(String)</h4>
+  <div class="markdown level1 summary"><p>Get the animation for the key</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Animation GetAnimationForKey(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Animation.html">Animation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_GetChildNode_" data-uid="Fantas.Node.GetChildNode*"></a>
+  <h4 id="Fantas_Node_GetChildNode_System_String_" data-uid="Fantas.Node.GetChildNode(System.String)">GetChildNode(String)</h4>
+  <div class="markdown level1 summary"><p>Search a child node with the given name</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Node GetChildNode(string childName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">childName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Node.html">Node</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_GetNodeAtPoint_" data-uid="Fantas.Node.GetNodeAtPoint*"></a>
+  <h4 id="Fantas_Node_GetNodeAtPoint_System_Drawing_PointF_" data-uid="Fantas.Node.GetNodeAtPoint(System.Drawing.PointF)">GetNodeAtPoint(PointF)</h4>
+  <div class="markdown level1 summary"><p>Get the top visible node from the point</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Node GetNodeAtPoint(PointF point)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Drawing.PointF</span></td>
+        <td><span class="parametername">point</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Node.html">Node</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_GetNodesAtPoint_" data-uid="Fantas.Node.GetNodesAtPoint*"></a>
+  <h4 id="Fantas_Node_GetNodesAtPoint_System_Drawing_PointF_" data-uid="Fantas.Node.GetNodesAtPoint(System.Drawing.PointF)">GetNodesAtPoint(PointF)</h4>
+  <div class="markdown level1 summary"><p>Get the list of visible nodes at the point</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;Node&gt; GetNodesAtPoint(PointF point)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Drawing.PointF</span></td>
+        <td><span class="parametername">point</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="Fantas.Node.html">Node</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_InParentHierarchy_" data-uid="Fantas.Node.InParentHierarchy*"></a>
+  <h4 id="Fantas_Node_InParentHierarchy_Fantas_Node_" data-uid="Fantas.Node.InParentHierarchy(Fantas.Node)">InParentHierarchy(Node)</h4>
+  <div class="markdown level1 summary"><p>Check if the node is in the hierarchy</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool InParentHierarchy(Node other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Node.html">Node</a></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_InsertChild_" data-uid="Fantas.Node.InsertChild*"></a>
+  <h4 id="Fantas_Node_InsertChild_System_Int32_Fantas_Node_" data-uid="Fantas.Node.InsertChild(System.Int32,Fantas.Node)">InsertChild(Int32, Node)</h4>
+  <div class="markdown level1 summary"><p>Insert a child into the index position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InsertChild(int index, Node child)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Fantas.Node.html">Node</a></td>
+        <td><span class="parametername">child</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_IntersectsNode_" data-uid="Fantas.Node.IntersectsNode*"></a>
+  <h4 id="Fantas_Node_IntersectsNode_Fantas_Node_" data-uid="Fantas.Node.IntersectsNode(Fantas.Node)">IntersectsNode(Node)</h4>
+  <div class="markdown level1 summary"><p>Check if one node overlaps with the other</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IntersectsNode(Node other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Node.html">Node</a></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_MoveToParent_" data-uid="Fantas.Node.MoveToParent*"></a>
+  <h4 id="Fantas_Node_MoveToParent_Fantas_Node_" data-uid="Fantas.Node.MoveToParent(Fantas.Node)">MoveToParent(Node)</h4>
+  <div class="markdown level1 summary"><p>Change node parent</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveToParent(Node newParent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Node.html">Node</a></td>
+        <td><span class="parametername">newParent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_RemoveAllAnimations_" data-uid="Fantas.Node.RemoveAllAnimations*"></a>
+  <h4 id="Fantas_Node_RemoveAllAnimations" data-uid="Fantas.Node.RemoveAllAnimations">RemoveAllAnimations()</h4>
+  <div class="markdown level1 summary"><p>Remove all animations from node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveAllAnimations()</code></pre>
+  </div>
+  
+  
+  <a id="Fantas_Node_RemoveAllChildren_" data-uid="Fantas.Node.RemoveAllChildren*"></a>
+  <h4 id="Fantas_Node_RemoveAllChildren" data-uid="Fantas.Node.RemoveAllChildren">RemoveAllChildren()</h4>
+  <div class="markdown level1 summary"><p>Remove all children from node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveAllChildren()</code></pre>
+  </div>
+  
+  
+  <a id="Fantas_Node_RemoveAnimationForKey_" data-uid="Fantas.Node.RemoveAnimationForKey*"></a>
+  <h4 id="Fantas_Node_RemoveAnimationForKey_System_String_" data-uid="Fantas.Node.RemoveAnimationForKey(System.String)">RemoveAnimationForKey(String)</h4>
+  <div class="markdown level1 summary"><p>Remove all animations with the given key</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveAnimationForKey(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_RemoveChildren_" data-uid="Fantas.Node.RemoveChildren*"></a>
+  <h4 id="Fantas_Node_RemoveChildren_System_Collections_Generic_IReadOnlyList_Fantas_Node__" data-uid="Fantas.Node.RemoveChildren(System.Collections.Generic.IReadOnlyList{Fantas.Node})">RemoveChildren(IReadOnlyList&lt;Node&gt;)</h4>
+  <div class="markdown level1 summary"><p>Remove a list of children from this node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveChildren(IReadOnlyList&lt;Node&gt; toRemove)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="Fantas.Node.html">Node</a>&gt;</td>
+        <td><span class="parametername">toRemove</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_RemoveFromParent_" data-uid="Fantas.Node.RemoveFromParent*"></a>
+  <h4 id="Fantas_Node_RemoveFromParent" data-uid="Fantas.Node.RemoveFromParent">RemoveFromParent()</h4>
+  <div class="markdown level1 summary"><p>Remove node from parent</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveFromParent()</code></pre>
+  </div>
+  
+  
+  <a id="Fantas_Node_RenderToTexture_" data-uid="Fantas.Node.RenderToTexture*"></a>
+  <h4 id="Fantas_Node_RenderToTexture" data-uid="Fantas.Node.RenderToTexture">RenderToTexture()</h4>
+  <div class="markdown level1 summary"><p>Render node to a Texture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Texture RenderToTexture()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Texture.html">Texture</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_RunAnimation_" data-uid="Fantas.Node.RunAnimation*"></a>
+  <h4 id="Fantas_Node_RunAnimation_Fantas_Animation_" data-uid="Fantas.Node.RunAnimation(Fantas.Animation)">RunAnimation(Animation)</h4>
+  <div class="markdown level1 summary"><p>Adds an animation to the list of actions executed by the node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RunAnimation(Animation animation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Animation.html">Animation</a></td>
+        <td><span class="parametername">animation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_RunAnimation_" data-uid="Fantas.Node.RunAnimation*"></a>
+  <h4 id="Fantas_Node_RunAnimation_Fantas_Animation_System_Action_" data-uid="Fantas.Node.RunAnimation(Fantas.Animation,System.Action)">RunAnimation(Animation, Action)</h4>
+  <div class="markdown level1 summary"><p>Adds an animation to the list of actions executed by the node.
+And runs the completion handler when the animation is done</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RunAnimation(Animation animation, Action completionHandler)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Animation.html">Animation</a></td>
+        <td><span class="parametername">animation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">completionHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_RunAnimation_" data-uid="Fantas.Node.RunAnimation*"></a>
+  <h4 id="Fantas_Node_RunAnimation_Fantas_Animation_System_String_" data-uid="Fantas.Node.RunAnimation(Fantas.Animation,System.String)">RunAnimation(Animation, String)</h4>
+  <div class="markdown level1 summary"><p>Adds an animation (with a key) to the list of actions executed by the node,</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RunAnimation(Animation animation, string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Animation.html">Animation</a></td>
+        <td><span class="parametername">animation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_RunAnimationAsync_" data-uid="Fantas.Node.RunAnimationAsync*"></a>
+  <h4 id="Fantas_Node_RunAnimationAsync_Fantas_Animation_" data-uid="Fantas.Node.RunAnimationAsync(Fantas.Animation)">RunAnimationAsync(Animation)</h4>
+  <div class="markdown level1 summary"><p>Create a task to add a animation to the node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task RunAnimationAsync(Animation animation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Animation.html">Animation</a></td>
+        <td><span class="parametername">animation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_SetScale_" data-uid="Fantas.Node.SetScale*"></a>
+  <h4 id="Fantas_Node_SetScale_System_Single_" data-uid="Fantas.Node.SetScale(System.Single)">SetScale(Single)</h4>
+  <div class="markdown level1 summary"><p>Set X/Y scale</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetScale(float scale)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">scale</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_ToString_" data-uid="Fantas.Node.ToString*"></a>
+  <h4 id="Fantas_Node_ToString" data-uid="Fantas.Node.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Display node as string</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
