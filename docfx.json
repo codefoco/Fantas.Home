@@ -17,6 +17,7 @@
         "files": [
           "api/**.yml",
           "api/index.md"
+          
         ]
       },
       {
@@ -31,7 +32,9 @@
     "resource": [
       {
         "files": [
-          "images/**"
+          "images/**",
+          "logo.svg",
+          "favicon.ico"
         ]
       }
     ],
