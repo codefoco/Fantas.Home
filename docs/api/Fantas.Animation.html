@@ -75,7 +75,18 @@
   </h1>
   <div class="markdown level0 summary"><p>Animation class (Move, Scale, Rotate, Fade...)</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 conceptual">
+<p>The class <a class="xref" href="Fantas.Animation.html"><code>Animation</code></a> is used to animamate nodes. You can create a sequences of animations or a group of animations.</p>
+<p>For instance, to make one node move from 100 points up and 100 points right you can use <a class="xref" href="Fantas.Animation.html#Fantas_Animation_MoveBy_System_Numerics_Vector2_System_Double_"><code>Animation.MoveBy</code></a></p>
+<pre><code class="lang-cs">    // Create animation to move a node
+    Animation moveBy = Animation.MoveBy(100, 100);
+
+    // Run animation on node
+    node.RunAnimation(moveBy);
+
+</code></pre>
+<p>To combine multiple animations you can use <a class="xref" href="Fantas.Animation.html#Fantas_Animation_Group_Fantas_Animation___"><code>Animation.Group</code></a> to execute animation in parallel or <a class="xref" href="Fantas.Animation.html#Fantas_Animation_Sequence_Fantas_Animation___"><code>Animation.Sequence</code></a> to execute in sequence.</p>
+</div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
@@ -1967,6 +1978,9 @@ You have to manually create FadeIn/FadeOut reverses</p>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/codefoco/Fantas.Web/blob/main/apidoc/Fantas.Animation.md/#L2" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

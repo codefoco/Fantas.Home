@@ -808,24 +808,6 @@ references:
   commentId: N:Fantas.Extensions
   fullName: Fantas.Extensions
   nameWithType: Fantas.Extensions
-- uid: Fantas.Extensions.OutlinePositionExtensions
-  name: OutlinePositionExtensions
-  href: api/Fantas.Extensions.OutlinePositionExtensions.html
-  commentId: T:Fantas.Extensions.OutlinePositionExtensions
-  fullName: Fantas.Extensions.OutlinePositionExtensions
-  nameWithType: OutlinePositionExtensions
-- uid: Fantas.Extensions.OutlinePositionExtensions.GetAlphaFactor(Fantas.OutlinePosition,System.Single)
-  name: GetAlphaFactor(OutlinePosition, Single)
-  href: api/Fantas.Extensions.OutlinePositionExtensions.html#Fantas_Extensions_OutlinePositionExtensions_GetAlphaFactor_Fantas_OutlinePosition_System_Single_
-  commentId: M:Fantas.Extensions.OutlinePositionExtensions.GetAlphaFactor(Fantas.OutlinePosition,System.Single)
-  fullName: Fantas.Extensions.OutlinePositionExtensions.GetAlphaFactor(Fantas.OutlinePosition, System.Single)
-  nameWithType: OutlinePositionExtensions.GetAlphaFactor(OutlinePosition, Single)
-- uid: Fantas.Extensions.OutlinePositionExtensions.GetAlphaFactor*
-  name: GetAlphaFactor
-  href: api/Fantas.Extensions.OutlinePositionExtensions.html#Fantas_Extensions_OutlinePositionExtensions_GetAlphaFactor_
-  commentId: Overload:Fantas.Extensions.OutlinePositionExtensions.GetAlphaFactor
-  fullName: Fantas.Extensions.OutlinePositionExtensions.GetAlphaFactor
-  nameWithType: OutlinePositionExtensions.GetAlphaFactor
 - uid: Fantas.Extensions.RandomExtensions
   name: RandomExtensions
   href: api/Fantas.Extensions.RandomExtensions.html

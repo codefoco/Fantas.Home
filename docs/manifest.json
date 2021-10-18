@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Animation.html",
-          "hash": "5PoYZphzQgX45T4YOSHXOoQSUA0TxGCRPjOvnxN9Mq4="
+          "hash": "ruTZhkvKfAnnso7wL9GKB5/6lMC5bvIuV4GmLZOQXig="
         }
       },
       "is_incremental": true,
@@ -101,18 +101,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Extensions.OutlinePositionExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Extensions.OutlinePositionExtensions.html",
-          "hash": "gsEeZyEXqK3Fg9eeI/EBV7MF6luKb2twmxCaKPITQxU="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Fantas.Extensions.RandomExtensions.yml",
       "output": {
         ".html": {
@@ -129,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Extensions.html",
-          "hash": "sz1DSWNFQFyxdxqMDPIR0ECqmC1JAkpYvTq4e6VZZ0A="
+          "hash": "xhlNi/Cnjeh49N9gnyoZlpYVPzxJHEL0oaKZVSMPcKw="
         }
       },
       "is_incremental": true,
@@ -525,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.OutlinePosition.html",
-          "hash": "a8T/9aE9lzYmjqdKiPjmOCHkcXlGpXMnVtlnel85cgI="
+          "hash": "lPj5/bcOiUW9xp4M9d+M1G0mu2Tit9nuSfCj/28iZR0="
         }
       },
       "is_incremental": true,
@@ -933,7 +921,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "yZvYCq60D6vLCQLCgvAVJZsiGHE1tg957UPy3iP8UvA="
+          "hash": "qfKgJtAVRmIDpYCeljbX+qaf8MRF/mHVJZ8xaPQ6HTE="
         }
       },
       "is_incremental": false,
