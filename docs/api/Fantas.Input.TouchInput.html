@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class TouchInput
    ">
-    <meta name="generator" content="docfx 2.58.4.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -91,14 +91,14 @@
   </h3>
   
   
-  <a id="Fantas_Input_TouchInput_DoubleTap_" data-uid="Fantas.Input.TouchInput.DoubleTap*"></a>
-  <h4 id="Fantas_Input_TouchInput_DoubleTap" data-uid="Fantas.Input.TouchInput.DoubleTap">DoubleTap</h4>
-  <div class="markdown level1 summary"><p>Double Tap gesture</p>
+  <a id="Fantas_Input_TouchInput_AnyTouch_" data-uid="Fantas.Input.TouchInput.AnyTouch*"></a>
+  <h4 id="Fantas_Input_TouchInput_AnyTouch" data-uid="Fantas.Input.TouchInput.AnyTouch">AnyTouch</h4>
+  <div class="markdown level1 summary"><p>Check if there is any Touch event just happened</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TapEvent DoubleTap { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool AnyTouch { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -110,21 +110,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.TapEvent.html">TapEvent</a></td>
-        <td></td>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if there are any touches in the Down or Moved state, false otherwise</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Fantas_Input_TouchInput_Drag_" data-uid="Fantas.Input.TouchInput.Drag*"></a>
-  <h4 id="Fantas_Input_TouchInput_Drag" data-uid="Fantas.Input.TouchInput.Drag">Drag</h4>
-  <div class="markdown level1 summary"><p>Pan / Drag gesture</p>
+  <a id="Fantas_Input_TouchInput_AnyTouchDown_" data-uid="Fantas.Input.TouchInput.AnyTouchDown*"></a>
+  <h4 id="Fantas_Input_TouchInput_AnyTouchDown" data-uid="Fantas.Input.TouchInput.AnyTouchDown">AnyTouchDown</h4>
+  <div class="markdown level1 summary"><p>Check if there is any TouchDown event that just happened</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DragEvent Drag { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool AnyTouchDown { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -136,21 +137,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.DragEvent.html">DragEvent</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Fantas_Input_TouchInput_DragComplete_" data-uid="Fantas.Input.TouchInput.DragComplete*"></a>
-  <h4 id="Fantas_Input_TouchInput_DragComplete" data-uid="Fantas.Input.TouchInput.DragComplete">DragComplete</h4>
-  <div class="markdown level1 summary"><p>Drag/Pan complete (untouch the screen)</p>
+  <a id="Fantas_Input_TouchInput_AnyTouchUp_" data-uid="Fantas.Input.TouchInput.AnyTouchUp*"></a>
+  <h4 id="Fantas_Input_TouchInput_AnyTouchUp" data-uid="Fantas.Input.TouchInput.AnyTouchUp">AnyTouchUp</h4>
+  <div class="markdown level1 summary"><p>Check if there is any TouchUp event that just happened</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GestureCompleteEvent DragComplete { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool AnyTouchUp { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -162,21 +163,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.GestureCompleteEvent.html">GestureCompleteEvent</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Fantas_Input_TouchInput_DragStart_" data-uid="Fantas.Input.TouchInput.DragStart*"></a>
-  <h4 id="Fantas_Input_TouchInput_DragStart" data-uid="Fantas.Input.TouchInput.DragStart">DragStart</h4>
-  <div class="markdown level1 summary"><p>Pan / Drag gesture Started</p>
+  <a id="Fantas_Input_TouchInput_IsDoubleTapEnabled_" data-uid="Fantas.Input.TouchInput.IsDoubleTapEnabled*"></a>
+  <h4 id="Fantas_Input_TouchInput_IsDoubleTapEnabled" data-uid="Fantas.Input.TouchInput.IsDoubleTapEnabled">IsDoubleTapEnabled</h4>
+  <div class="markdown level1 summary"><p>Enable/Disable Double Tap gesture</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DragEvent DragStart { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsDoubleTapEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -188,21 +189,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.DragEvent.html">DragEvent</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Fantas_Input_TouchInput_Hold_" data-uid="Fantas.Input.TouchInput.Hold*"></a>
-  <h4 id="Fantas_Input_TouchInput_Hold" data-uid="Fantas.Input.TouchInput.Hold">Hold</h4>
-  <div class="markdown level1 summary"><p>Long press on screen</p>
+  <a id="Fantas_Input_TouchInput_IsLongPressEnabled_" data-uid="Fantas.Input.TouchInput.IsLongPressEnabled*"></a>
+  <h4 id="Fantas_Input_TouchInput_IsLongPressEnabled" data-uid="Fantas.Input.TouchInput.IsLongPressEnabled">IsLongPressEnabled</h4>
+  <div class="markdown level1 summary"><p>Enable/Disable Long Press gesture</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TapEvent Hold { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsLongPressEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -214,21 +215,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.TapEvent.html">TapEvent</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Fantas_Input_TouchInput_Pinch_" data-uid="Fantas.Input.TouchInput.Pinch*"></a>
-  <h4 id="Fantas_Input_TouchInput_Pinch" data-uid="Fantas.Input.TouchInput.Pinch">Pinch</h4>
-  <div class="markdown level1 summary"><p>Two fingers Pinch/Zoom gesture</p>
+  <a id="Fantas_Input_TouchInput_IsNodeEventsEnabled_" data-uid="Fantas.Input.TouchInput.IsNodeEventsEnabled*"></a>
+  <h4 id="Fantas_Input_TouchInput_IsNodeEventsEnabled" data-uid="Fantas.Input.TouchInput.IsNodeEventsEnabled">IsNodeEventsEnabled</h4>
+  <div class="markdown level1 summary"><p>Enable/Disable touch/gesture node events
+Tap/DoubleTap/LongPress/TouchUpInside</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PinchEvent Pinch { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsNodeEventsEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -240,21 +242,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.PinchEvent.html">PinchEvent</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Fantas_Input_TouchInput_PinchComplete_" data-uid="Fantas.Input.TouchInput.PinchComplete*"></a>
-  <h4 id="Fantas_Input_TouchInput_PinchComplete" data-uid="Fantas.Input.TouchInput.PinchComplete">PinchComplete</h4>
-  <div class="markdown level1 summary"><p>Pinch/Zoom gesture completed</p>
+  <a id="Fantas_Input_TouchInput_IsPanEnabled_" data-uid="Fantas.Input.TouchInput.IsPanEnabled*"></a>
+  <h4 id="Fantas_Input_TouchInput_IsPanEnabled" data-uid="Fantas.Input.TouchInput.IsPanEnabled">IsPanEnabled</h4>
+  <div class="markdown level1 summary"><p>Enable/Disable Pan gesture</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GestureCompleteEvent PinchComplete { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsPanEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -266,21 +268,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.GestureCompleteEvent.html">GestureCompleteEvent</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Fantas_Input_TouchInput_PinchStart_" data-uid="Fantas.Input.TouchInput.PinchStart*"></a>
-  <h4 id="Fantas_Input_TouchInput_PinchStart" data-uid="Fantas.Input.TouchInput.PinchStart">PinchStart</h4>
-  <div class="markdown level1 summary"><p>Two fingers Pinch/Zoom gesture started</p>
+  <a id="Fantas_Input_TouchInput_IsPinchEnabled_" data-uid="Fantas.Input.TouchInput.IsPinchEnabled*"></a>
+  <h4 id="Fantas_Input_TouchInput_IsPinchEnabled" data-uid="Fantas.Input.TouchInput.IsPinchEnabled">IsPinchEnabled</h4>
+  <div class="markdown level1 summary"><p>Enable/Disable Pinch gesture</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PinchEvent PinchStart { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsPinchEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -292,21 +294,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.PinchEvent.html">PinchEvent</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Fantas_Input_TouchInput_Swipe_" data-uid="Fantas.Input.TouchInput.Swipe*"></a>
-  <h4 id="Fantas_Input_TouchInput_Swipe" data-uid="Fantas.Input.TouchInput.Swipe">Swipe</h4>
-  <div class="markdown level1 summary"><p>Swipe gesture event (quick swipe on the screen)</p>
+  <a id="Fantas_Input_TouchInput_IsSwipeEnabled_" data-uid="Fantas.Input.TouchInput.IsSwipeEnabled*"></a>
+  <h4 id="Fantas_Input_TouchInput_IsSwipeEnabled" data-uid="Fantas.Input.TouchInput.IsSwipeEnabled">IsSwipeEnabled</h4>
+  <div class="markdown level1 summary"><p>Enable/Disable Swipe gesture</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static SwipeEvent Swipe { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsSwipeEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -318,21 +320,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.SwipeEvent.html">SwipeEvent</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Fantas_Input_TouchInput_Tap_" data-uid="Fantas.Input.TouchInput.Tap*"></a>
-  <h4 id="Fantas_Input_TouchInput_Tap" data-uid="Fantas.Input.TouchInput.Tap">Tap</h4>
-  <div class="markdown level1 summary"><p>Single Tap gesture</p>
+  <a id="Fantas_Input_TouchInput_IsTapEnabled_" data-uid="Fantas.Input.TouchInput.IsTapEnabled*"></a>
+  <h4 id="Fantas_Input_TouchInput_IsTapEnabled" data-uid="Fantas.Input.TouchInput.IsTapEnabled">IsTapEnabled</h4>
+  <div class="markdown level1 summary"><p>Enable/Disable Tap gesture</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TapEvent Tap { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsTapEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -344,21 +346,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.TapEvent.html">TapEvent</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Fantas_Input_TouchInput_TouchDown_" data-uid="Fantas.Input.TouchInput.TouchDown*"></a>
-  <h4 id="Fantas_Input_TouchInput_TouchDown" data-uid="Fantas.Input.TouchInput.TouchDown">TouchDown</h4>
-  <div class="markdown level1 summary"><p>TouchDown event</p>
+  <a id="Fantas_Input_TouchInput_Touches_" data-uid="Fantas.Input.TouchInput.Touches*"></a>
+  <h4 id="Fantas_Input_TouchInput_Touches" data-uid="Fantas.Input.TouchInput.Touches">Touches</h4>
+  <div class="markdown level1 summary"><p>Get current frame touches information</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TouchEvent TouchDown { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static IReadOnlyList&lt;TouchInfo&gt; Touches { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -370,63 +372,203 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.TouchEvent.html">TouchEvent</a></td>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="Fantas.Input.TouchInfo.html">TouchInfo</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
   
   
-  <a id="Fantas_Input_TouchInput_TouchMove_" data-uid="Fantas.Input.TouchInput.TouchMove*"></a>
-  <h4 id="Fantas_Input_TouchInput_TouchMove" data-uid="Fantas.Input.TouchInput.TouchMove">TouchMove</h4>
-  <div class="markdown level1 summary"><p>TouchMove event</p>
+  <a id="Fantas_Input_TouchInput_DisableGestures_" data-uid="Fantas.Input.TouchInput.DisableGestures*"></a>
+  <h4 id="Fantas_Input_TouchInput_DisableGestures" data-uid="Fantas.Input.TouchInput.DisableGestures">DisableGestures()</h4>
+  <div class="markdown level1 summary"><p>Disable All Touch gestures</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TouchEvent TouchMove { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static void DisableGestures()</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  
+  
+  <a id="Fantas_Input_TouchInput_InvokeDoubleTap_" data-uid="Fantas.Input.TouchInput.InvokeDoubleTap*"></a>
+  <h4 id="Fantas_Input_TouchInput_InvokeDoubleTap_System_Drawing_PointF_" data-uid="Fantas.Input.TouchInput.InvokeDoubleTap(System.Drawing.PointF)">InvokeDoubleTap(PointF)</h4>
+  <div class="markdown level1 summary"><p>Invoke DoubleTap event handlers</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InvokeDoubleTap(PointF location)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.TouchEvent.html">TouchEvent</a></td>
+        <td><span class="xref">System.Drawing.PointF</span></td>
+        <td><span class="parametername">location</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Fantas_Input_TouchInput_TouchUp_" data-uid="Fantas.Input.TouchInput.TouchUp*"></a>
-  <h4 id="Fantas_Input_TouchInput_TouchUp" data-uid="Fantas.Input.TouchInput.TouchUp">TouchUp</h4>
-  <div class="markdown level1 summary"><p>TouchMove event</p>
+  <a id="Fantas_Input_TouchInput_InvokeLongPress_" data-uid="Fantas.Input.TouchInput.InvokeLongPress*"></a>
+  <h4 id="Fantas_Input_TouchInput_InvokeLongPress_System_Drawing_PointF_" data-uid="Fantas.Input.TouchInput.InvokeLongPress(System.Drawing.PointF)">InvokeLongPress(PointF)</h4>
+  <div class="markdown level1 summary"><p>Invoke LongPress event handlers</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TouchEvent TouchUp { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static void InvokeLongPress(PointF location)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.TouchEvent.html">TouchEvent</a></td>
+        <td><span class="xref">System.Drawing.PointF</span></td>
+        <td><span class="parametername">location</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Fantas_Input_TouchInput_InvokeTap_" data-uid="Fantas.Input.TouchInput.InvokeTap*"></a>
+  <h4 id="Fantas_Input_TouchInput_InvokeTap_System_Drawing_PointF_" data-uid="Fantas.Input.TouchInput.InvokeTap(System.Drawing.PointF)">InvokeTap(PointF)</h4>
+  <div class="markdown level1 summary"><p>Invoke Tap event handlers</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InvokeTap(PointF location)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Drawing.PointF</span></td>
+        <td><span class="parametername">location</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Input_TouchInput_InvokeTouchDown_" data-uid="Fantas.Input.TouchInput.InvokeTouchDown*"></a>
+  <h4 id="Fantas_Input_TouchInput_InvokeTouchDown_Fantas_Input_TouchInfo_" data-uid="Fantas.Input.TouchInput.InvokeTouchDown(Fantas.Input.TouchInfo)">InvokeTouchDown(TouchInfo)</h4>
+  <div class="markdown level1 summary"><p>Invoke TouchDown handlers</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InvokeTouchDown(TouchInfo touchInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.TouchInfo.html">TouchInfo</a></td>
+        <td><span class="parametername">touchInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Input_TouchInput_InvokeTouchMove_" data-uid="Fantas.Input.TouchInput.InvokeTouchMove*"></a>
+  <h4 id="Fantas_Input_TouchInput_InvokeTouchMove_Fantas_Input_TouchInfo_" data-uid="Fantas.Input.TouchInput.InvokeTouchMove(Fantas.Input.TouchInfo)">InvokeTouchMove(TouchInfo)</h4>
+  <div class="markdown level1 summary"><p>Invoke TouchMove handlers</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InvokeTouchMove(TouchInfo touchInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.TouchInfo.html">TouchInfo</a></td>
+        <td><span class="parametername">touchInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Input_TouchInput_InvokeTouchUp_" data-uid="Fantas.Input.TouchInput.InvokeTouchUp*"></a>
+  <h4 id="Fantas_Input_TouchInput_InvokeTouchUp_Fantas_Input_TouchInfo_" data-uid="Fantas.Input.TouchInput.InvokeTouchUp(Fantas.Input.TouchInfo)">InvokeTouchUp(TouchInfo)</h4>
+  <div class="markdown level1 summary"><p>Invoke TouchUp handlers</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InvokeTouchUp(TouchInfo touchInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.TouchInfo.html">TouchInfo</a></td>
+        <td><span class="parametername">touchInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Input_TouchInput_ResetTouch_" data-uid="Fantas.Input.TouchInput.ResetTouch*"></a>
+  <h4 id="Fantas_Input_TouchInput_ResetTouch" data-uid="Fantas.Input.TouchInput.ResetTouch">ResetTouch()</h4>
+  <div class="markdown level1 summary"><p>Reset Touch buffer (used by tests)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ResetTouch()</code></pre>
+  </div>
 </article>
           </div>
           

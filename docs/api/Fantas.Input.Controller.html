@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Controller
    ">
-    <meta name="generator" content="docfx 2.58.4.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -85,20 +85,20 @@
   <h6><strong>Assembly</strong>: Fantas.dll</h6>
   <h5 id="Fantas_Input_Controller_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Controller : Object</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class Controller : Object</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Fantas_Input_Controller_ButtonAPressed_" data-uid="Fantas.Input.Controller.ButtonAPressed*"></a>
-  <h4 id="Fantas_Input_Controller_ButtonAPressed" data-uid="Fantas.Input.Controller.ButtonAPressed">ButtonAPressed</h4>
-  <div class="markdown level1 summary"><p>GameController A button was pressed</p>
+  <a id="Fantas_Input_Controller_AnyButtonPressed_" data-uid="Fantas.Input.Controller.AnyButtonPressed*"></a>
+  <h4 id="Fantas_Input_Controller_AnyButtonPressed" data-uid="Fantas.Input.Controller.AnyButtonPressed">AnyButtonPressed</h4>
+  <div class="markdown level1 summary"><p>Return true if any controller button was just pressed</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonEvent ButtonAPressed { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool AnyButtonPressed { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -110,21 +110,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.ButtonEvent.html">ButtonEvent</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Fantas_Input_Controller_ButtonAReleased_" data-uid="Fantas.Input.Controller.ButtonAReleased*"></a>
-  <h4 id="Fantas_Input_Controller_ButtonAReleased" data-uid="Fantas.Input.Controller.ButtonAReleased">ButtonAReleased</h4>
-  <div class="markdown level1 summary"><p>GameController A button was released</p>
+  <a id="Fantas_Input_Controller_AnyButtonReleased_" data-uid="Fantas.Input.Controller.AnyButtonReleased*"></a>
+  <h4 id="Fantas_Input_Controller_AnyButtonReleased" data-uid="Fantas.Input.Controller.AnyButtonReleased">AnyButtonReleased</h4>
+  <div class="markdown level1 summary"><p>Return true if any controller button was just released</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonEvent ButtonAReleased { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool AnyButtonReleased { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -136,21 +136,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.ButtonEvent.html">ButtonEvent</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Fantas_Input_Controller_ButtonBPressed_" data-uid="Fantas.Input.Controller.ButtonBPressed*"></a>
-  <h4 id="Fantas_Input_Controller_ButtonBPressed" data-uid="Fantas.Input.Controller.ButtonBPressed">ButtonBPressed</h4>
-  <div class="markdown level1 summary"><p>GameController B button was pressed</p>
+  <a id="Fantas_Input_Controller_CurrentButtonsState_" data-uid="Fantas.Input.Controller.CurrentButtonsState*"></a>
+  <h4 id="Fantas_Input_Controller_CurrentButtonsState" data-uid="Fantas.Input.Controller.CurrentButtonsState">CurrentButtonsState</h4>
+  <div class="markdown level1 summary"><p>Get combined button states</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonEvent ButtonBPressed { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ControllerButtons CurrentButtonsState { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -162,449 +162,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.ButtonEvent.html">ButtonEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Input_Controller_ButtonBReleased_" data-uid="Fantas.Input.Controller.ButtonBReleased*"></a>
-  <h4 id="Fantas_Input_Controller_ButtonBReleased" data-uid="Fantas.Input.Controller.ButtonBReleased">ButtonBReleased</h4>
-  <div class="markdown level1 summary"><p>GameController B button was released</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonEvent ButtonBReleased { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.ButtonEvent.html">ButtonEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Input_Controller_ButtonLeftShoulderPressed_" data-uid="Fantas.Input.Controller.ButtonLeftShoulderPressed*"></a>
-  <h4 id="Fantas_Input_Controller_ButtonLeftShoulderPressed" data-uid="Fantas.Input.Controller.ButtonLeftShoulderPressed">ButtonLeftShoulderPressed</h4>
-  <div class="markdown level1 summary"><p>GameController LeftShoulder button was pressed</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonEvent ButtonLeftShoulderPressed { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.ButtonEvent.html">ButtonEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Input_Controller_ButtonLeftShoulderReleased_" data-uid="Fantas.Input.Controller.ButtonLeftShoulderReleased*"></a>
-  <h4 id="Fantas_Input_Controller_ButtonLeftShoulderReleased" data-uid="Fantas.Input.Controller.ButtonLeftShoulderReleased">ButtonLeftShoulderReleased</h4>
-  <div class="markdown level1 summary"><p>GameController LeftShoulder button was released</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonEvent ButtonLeftShoulderReleased { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.ButtonEvent.html">ButtonEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Input_Controller_ButtonLeftThumbstickPressed_" data-uid="Fantas.Input.Controller.ButtonLeftThumbstickPressed*"></a>
-  <h4 id="Fantas_Input_Controller_ButtonLeftThumbstickPressed" data-uid="Fantas.Input.Controller.ButtonLeftThumbstickPressed">ButtonLeftThumbstickPressed</h4>
-  <div class="markdown level1 summary"><p>GameController LeftThumbstick button was pressed</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonEvent ButtonLeftThumbstickPressed { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.ButtonEvent.html">ButtonEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Input_Controller_ButtonLeftThumbstickReleased_" data-uid="Fantas.Input.Controller.ButtonLeftThumbstickReleased*"></a>
-  <h4 id="Fantas_Input_Controller_ButtonLeftThumbstickReleased" data-uid="Fantas.Input.Controller.ButtonLeftThumbstickReleased">ButtonLeftThumbstickReleased</h4>
-  <div class="markdown level1 summary"><p>GameController LeftThumbstick button was released</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonEvent ButtonLeftThumbstickReleased { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.ButtonEvent.html">ButtonEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Input_Controller_ButtonMenuPressed_" data-uid="Fantas.Input.Controller.ButtonMenuPressed*"></a>
-  <h4 id="Fantas_Input_Controller_ButtonMenuPressed" data-uid="Fantas.Input.Controller.ButtonMenuPressed">ButtonMenuPressed</h4>
-  <div class="markdown level1 summary"><p>GameController Menu/Start button was pressed</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonEvent ButtonMenuPressed { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.ButtonEvent.html">ButtonEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Input_Controller_ButtonMenuReleased_" data-uid="Fantas.Input.Controller.ButtonMenuReleased*"></a>
-  <h4 id="Fantas_Input_Controller_ButtonMenuReleased" data-uid="Fantas.Input.Controller.ButtonMenuReleased">ButtonMenuReleased</h4>
-  <div class="markdown level1 summary"><p>GameController Menu/Start button was released</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonEvent ButtonMenuReleased { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.ButtonEvent.html">ButtonEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Input_Controller_ButtonOptionsPressed_" data-uid="Fantas.Input.Controller.ButtonOptionsPressed*"></a>
-  <h4 id="Fantas_Input_Controller_ButtonOptionsPressed" data-uid="Fantas.Input.Controller.ButtonOptionsPressed">ButtonOptionsPressed</h4>
-  <div class="markdown level1 summary"><p>GameController Options/Back button was pressed</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonEvent ButtonOptionsPressed { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.ButtonEvent.html">ButtonEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Input_Controller_ButtonOptionsReleased_" data-uid="Fantas.Input.Controller.ButtonOptionsReleased*"></a>
-  <h4 id="Fantas_Input_Controller_ButtonOptionsReleased" data-uid="Fantas.Input.Controller.ButtonOptionsReleased">ButtonOptionsReleased</h4>
-  <div class="markdown level1 summary"><p>GameController Options/Back button was released</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonEvent ButtonOptionsReleased { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.ButtonEvent.html">ButtonEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Input_Controller_ButtonRightShoulderPressed_" data-uid="Fantas.Input.Controller.ButtonRightShoulderPressed*"></a>
-  <h4 id="Fantas_Input_Controller_ButtonRightShoulderPressed" data-uid="Fantas.Input.Controller.ButtonRightShoulderPressed">ButtonRightShoulderPressed</h4>
-  <div class="markdown level1 summary"><p>GameController RightShoulder button was pressed</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonEvent ButtonRightShoulderPressed { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.ButtonEvent.html">ButtonEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Input_Controller_ButtonRightShoulderReleased_" data-uid="Fantas.Input.Controller.ButtonRightShoulderReleased*"></a>
-  <h4 id="Fantas_Input_Controller_ButtonRightShoulderReleased" data-uid="Fantas.Input.Controller.ButtonRightShoulderReleased">ButtonRightShoulderReleased</h4>
-  <div class="markdown level1 summary"><p>GameController RightShoulder button was released</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonEvent ButtonRightShoulderReleased { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.ButtonEvent.html">ButtonEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Input_Controller_ButtonRightThumbstickPressed_" data-uid="Fantas.Input.Controller.ButtonRightThumbstickPressed*"></a>
-  <h4 id="Fantas_Input_Controller_ButtonRightThumbstickPressed" data-uid="Fantas.Input.Controller.ButtonRightThumbstickPressed">ButtonRightThumbstickPressed</h4>
-  <div class="markdown level1 summary"><p>GameController RightThumbstick button was pressed</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonEvent ButtonRightThumbstickPressed { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.ButtonEvent.html">ButtonEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Input_Controller_ButtonRightThumbstickReleased_" data-uid="Fantas.Input.Controller.ButtonRightThumbstickReleased*"></a>
-  <h4 id="Fantas_Input_Controller_ButtonRightThumbstickReleased" data-uid="Fantas.Input.Controller.ButtonRightThumbstickReleased">ButtonRightThumbstickReleased</h4>
-  <div class="markdown level1 summary"><p>GameController RightThumbstick button was released</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonEvent ButtonRightThumbstickReleased { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.ButtonEvent.html">ButtonEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Input_Controller_ButtonXPressed_" data-uid="Fantas.Input.Controller.ButtonXPressed*"></a>
-  <h4 id="Fantas_Input_Controller_ButtonXPressed" data-uid="Fantas.Input.Controller.ButtonXPressed">ButtonXPressed</h4>
-  <div class="markdown level1 summary"><p>GameController X button was pressed</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonEvent ButtonXPressed { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.ButtonEvent.html">ButtonEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Input_Controller_ButtonXReleased_" data-uid="Fantas.Input.Controller.ButtonXReleased*"></a>
-  <h4 id="Fantas_Input_Controller_ButtonXReleased" data-uid="Fantas.Input.Controller.ButtonXReleased">ButtonXReleased</h4>
-  <div class="markdown level1 summary"><p>GameController X button was released</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonEvent ButtonXReleased { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.ButtonEvent.html">ButtonEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Input_Controller_ButtonYPressed_" data-uid="Fantas.Input.Controller.ButtonYPressed*"></a>
-  <h4 id="Fantas_Input_Controller_ButtonYPressed" data-uid="Fantas.Input.Controller.ButtonYPressed">ButtonYPressed</h4>
-  <div class="markdown level1 summary"><p>GameController Y button was pressed</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonEvent ButtonYPressed { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.ButtonEvent.html">ButtonEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Input_Controller_ButtonYReleased_" data-uid="Fantas.Input.Controller.ButtonYReleased*"></a>
-  <h4 id="Fantas_Input_Controller_ButtonYReleased" data-uid="Fantas.Input.Controller.ButtonYReleased">ButtonYReleased</h4>
-  <div class="markdown level1 summary"><p>GameController Y button was released</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonEvent ButtonYReleased { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.ButtonEvent.html">ButtonEvent</a></td>
+        <td><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -1001,6 +559,32 @@
   </table>
   
   
+  <a id="Fantas_Input_Controller_Index_" data-uid="Fantas.Input.Controller.Index*"></a>
+  <h4 id="Fantas_Input_Controller_Index" data-uid="Fantas.Input.Controller.Index">Index</h4>
+  <div class="markdown level1 summary"><p>Get controller index</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Index { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Fantas_Input_Controller_IsConnected_" data-uid="Fantas.Input.Controller.IsConnected*"></a>
   <h4 id="Fantas_Input_Controller_IsConnected" data-uid="Fantas.Input.Controller.IsConnected">IsConnected</h4>
   <div class="markdown level1 summary"><p>Check if the controller is connected</p>
@@ -1027,14 +611,14 @@
   </table>
   
   
-  <a id="Fantas_Input_Controller_LeftThumbstickChanged_" data-uid="Fantas.Input.Controller.LeftThumbstickChanged*"></a>
-  <h4 id="Fantas_Input_Controller_LeftThumbstickChanged" data-uid="Fantas.Input.Controller.LeftThumbstickChanged">LeftThumbstickChanged</h4>
-  <div class="markdown level1 summary"><p>GameController left thumbstick was changed</p>
+  <a id="Fantas_Input_Controller_LeftThumbstickValue_" data-uid="Fantas.Input.Controller.LeftThumbstickValue*"></a>
+  <h4 id="Fantas_Input_Controller_LeftThumbstickValue" data-uid="Fantas.Input.Controller.LeftThumbstickValue">LeftThumbstickValue</h4>
+  <div class="markdown level1 summary"><p>Left thumbstick position value</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ThumbstickChangedEvent LeftThumbstickChanged { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Vector2 LeftThumbstickValue { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1046,85 +630,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.ThumbstickChangedEvent.html">ThumbstickChangedEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Input_Controller_LeftThumbstickXAxis_" data-uid="Fantas.Input.Controller.LeftThumbstickXAxis*"></a>
-  <h4 id="Fantas_Input_Controller_LeftThumbstickXAxis" data-uid="Fantas.Input.Controller.LeftThumbstickXAxis">LeftThumbstickXAxis</h4>
-  <div class="markdown level1 summary"><p>Left thumbstick X axis value</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float LeftThumbstickXAxis { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Input_Controller_LeftThumbstickYAxis_" data-uid="Fantas.Input.Controller.LeftThumbstickYAxis*"></a>
-  <h4 id="Fantas_Input_Controller_LeftThumbstickYAxis" data-uid="Fantas.Input.Controller.LeftThumbstickYAxis">LeftThumbstickYAxis</h4>
-  <div class="markdown level1 summary"><p>Left thumbstick Y axis value</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float LeftThumbstickYAxis { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Input_Controller_LeftTriggerChanged_" data-uid="Fantas.Input.Controller.LeftTriggerChanged*"></a>
-  <h4 id="Fantas_Input_Controller_LeftTriggerChanged" data-uid="Fantas.Input.Controller.LeftTriggerChanged">LeftTriggerChanged</h4>
-  <div class="markdown level1 summary"><p>GameController left trigger button was changed</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonValueChangedEvent LeftTriggerChanged { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.ButtonValueChangedEvent.html">ButtonValueChangedEvent</a></td>
+        <td><span class="xref">System.Numerics.Vector2</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1157,14 +663,14 @@
   </table>
   
   
-  <a id="Fantas_Input_Controller_RightThumbstickChanged_" data-uid="Fantas.Input.Controller.RightThumbstickChanged*"></a>
-  <h4 id="Fantas_Input_Controller_RightThumbstickChanged" data-uid="Fantas.Input.Controller.RightThumbstickChanged">RightThumbstickChanged</h4>
-  <div class="markdown level1 summary"><p>GameController right thumbstick was changed</p>
+  <a id="Fantas_Input_Controller_RightThumbstickValue_" data-uid="Fantas.Input.Controller.RightThumbstickValue*"></a>
+  <h4 id="Fantas_Input_Controller_RightThumbstickValue" data-uid="Fantas.Input.Controller.RightThumbstickValue">RightThumbstickValue</h4>
+  <div class="markdown level1 summary"><p>Right thumbstick position value</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ThumbstickChangedEvent RightThumbstickChanged { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Vector2 RightThumbstickValue { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1176,85 +682,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.ThumbstickChangedEvent.html">ThumbstickChangedEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Input_Controller_RightThumbstickXAxis_" data-uid="Fantas.Input.Controller.RightThumbstickXAxis*"></a>
-  <h4 id="Fantas_Input_Controller_RightThumbstickXAxis" data-uid="Fantas.Input.Controller.RightThumbstickXAxis">RightThumbstickXAxis</h4>
-  <div class="markdown level1 summary"><p>Right thumbstick X axis value</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float RightThumbstickXAxis { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Input_Controller_RightThumbstickYAxis_" data-uid="Fantas.Input.Controller.RightThumbstickYAxis*"></a>
-  <h4 id="Fantas_Input_Controller_RightThumbstickYAxis" data-uid="Fantas.Input.Controller.RightThumbstickYAxis">RightThumbstickYAxis</h4>
-  <div class="markdown level1 summary"><p>Right thumbstick Y axis value</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float RightThumbstickYAxis { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Input_Controller_RightTriggerChanged_" data-uid="Fantas.Input.Controller.RightTriggerChanged*"></a>
-  <h4 id="Fantas_Input_Controller_RightTriggerChanged" data-uid="Fantas.Input.Controller.RightTriggerChanged">RightTriggerChanged</h4>
-  <div class="markdown level1 summary"><p>GameController right trigger button was changed</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonValueChangedEvent RightTriggerChanged { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.ButtonValueChangedEvent.html">ButtonValueChangedEvent</a></td>
+        <td><span class="xref">System.Numerics.Vector2</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1290,13 +718,13 @@
   
   
   <a id="Fantas_Input_Controller_IsButtonDown_" data-uid="Fantas.Input.Controller.IsButtonDown*"></a>
-  <h4 id="Fantas_Input_Controller_IsButtonDown_Fantas_Input_Button_" data-uid="Fantas.Input.Controller.IsButtonDown(Fantas.Input.Button)">IsButtonDown(Button)</h4>
+  <h4 id="Fantas_Input_Controller_IsButtonDown_Fantas_Input_ControllerButtons_" data-uid="Fantas.Input.Controller.IsButtonDown(Fantas.Input.ControllerButtons)">IsButtonDown(ControllerButtons)</h4>
   <div class="markdown level1 summary"><p>Return true if the given button is current pressed</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsButtonDown(Button button)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsButtonDown(ControllerButtons button)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1309,9 +737,10 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.Button.html">Button</a></td>
+        <td><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></td>
         <td><span class="parametername">button</span></td>
-        <td></td>
+        <td><p>Controller Button (A, B, X, Y, etc)</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1326,20 +755,21 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>Return true if the given button is current pressed</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
   <a id="Fantas_Input_Controller_IsButtonPressed_" data-uid="Fantas.Input.Controller.IsButtonPressed*"></a>
-  <h4 id="Fantas_Input_Controller_IsButtonPressed_Fantas_Input_Button_" data-uid="Fantas.Input.Controller.IsButtonPressed(Fantas.Input.Button)">IsButtonPressed(Button)</h4>
+  <h4 id="Fantas_Input_Controller_IsButtonPressed_Fantas_Input_ControllerButtons_" data-uid="Fantas.Input.Controller.IsButtonPressed(Fantas.Input.ControllerButtons)">IsButtonPressed(ControllerButtons)</h4>
   <div class="markdown level1 summary"><p>Return true if the given button was just pressed</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsButtonPressed(Button button)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsButtonPressed(ControllerButtons button)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1352,9 +782,10 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.Button.html">Button</a></td>
+        <td><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></td>
         <td><span class="parametername">button</span></td>
-        <td></td>
+        <td><p>Controller Button (A, B, X, Y, etc)</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1369,20 +800,21 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>Return true if the given button was just pressed</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
   <a id="Fantas_Input_Controller_IsButtonReleased_" data-uid="Fantas.Input.Controller.IsButtonReleased*"></a>
-  <h4 id="Fantas_Input_Controller_IsButtonReleased_Fantas_Input_Button_" data-uid="Fantas.Input.Controller.IsButtonReleased(Fantas.Input.Button)">IsButtonReleased(Button)</h4>
+  <h4 id="Fantas_Input_Controller_IsButtonReleased_Fantas_Input_ControllerButtons_" data-uid="Fantas.Input.Controller.IsButtonReleased(Fantas.Input.ControllerButtons)">IsButtonReleased(ControllerButtons)</h4>
   <div class="markdown level1 summary"><p>Return true if the given button was just released</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsButtonReleased(Button button)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsButtonReleased(ControllerButtons button)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1395,9 +827,10 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.Button.html">Button</a></td>
+        <td><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></td>
         <td><span class="parametername">button</span></td>
-        <td></td>
+        <td><p>Controller Button (A, B, X, Y, etc)</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1419,13 +852,13 @@
   
   
   <a id="Fantas_Input_Controller_IsButtonUp_" data-uid="Fantas.Input.Controller.IsButtonUp*"></a>
-  <h4 id="Fantas_Input_Controller_IsButtonUp_Fantas_Input_Button_" data-uid="Fantas.Input.Controller.IsButtonUp(Fantas.Input.Button)">IsButtonUp(Button)</h4>
+  <h4 id="Fantas_Input_Controller_IsButtonUp_Fantas_Input_ControllerButtons_" data-uid="Fantas.Input.Controller.IsButtonUp(Fantas.Input.ControllerButtons)">IsButtonUp(ControllerButtons)</h4>
   <div class="markdown level1 summary"><p>Return true if the given button is current released</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsButtonUp(Button button)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsButtonUp(ControllerButtons button)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1438,9 +871,10 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.Button.html">Button</a></td>
+        <td><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></td>
         <td><span class="parametername">button</span></td>
-        <td></td>
+        <td><p>Controller Button (A, B, X, Y, etc)</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1455,7 +889,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>Return true if the given button is current released</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1488,6 +923,58 @@
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">rightMotor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="Fantas_Input_Controller_Connected" data-uid="Fantas.Input.Controller.Connected">Connected</h4>
+  <div class="markdown level1 summary"><p>Notification when Controller is connected or disconnected.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;ControllerChangedEventArgs&gt; Connected</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Fantas.Input.ControllerChangedEventArgs.html">ControllerChangedEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Fantas_Input_Controller_Disconnected" data-uid="Fantas.Input.Controller.Disconnected">Disconnected</h4>
+  <div class="markdown level1 summary"><p>Notification when Controller lost its connection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;ControllerChangedEventArgs&gt; Disconnected</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Fantas.Input.ControllerChangedEventArgs.html">ControllerChangedEventArgs</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

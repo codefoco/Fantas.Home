@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class RectangleExtensions
    ">
-    <meta name="generator" content="docfx 2.58.4.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -172,6 +172,59 @@
       <tr>
         <td><span class="xref">System.Drawing.PointF</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_RectangleExtensions_GetIntersectionDepth_" data-uid="Fantas.RectangleExtensions.GetIntersectionDepth*"></a>
+  <h4 id="Fantas_RectangleExtensions_GetIntersectionDepth_System_Drawing_RectangleF_System_Drawing_RectangleF_" data-uid="Fantas.RectangleExtensions.GetIntersectionDepth(System.Drawing.RectangleF,System.Drawing.RectangleF)">GetIntersectionDepth(RectangleF, RectangleF)</h4>
+  <div class="markdown level1 summary"><p>Calculates the signed depth of intersection between two rectangles.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 GetIntersectionDepth(this RectangleF rectA, RectangleF rectB)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Drawing.RectangleF</span></td>
+        <td><span class="parametername">rectA</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Drawing.RectangleF</span></td>
+        <td><span class="parametername">rectB</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Numerics.Vector2</span></td>
+        <td><p>The amount of overlap between two intersecting rectangles. These
+depth values can be negative depending on which wides the rectangles
+intersect. This allows callers to determine the correct direction
+to push objects in order to resolve collisions.
+If the rectangles are not intersecting, Vector2.Zero is returned.</p>
+</td>
       </tr>
     </tbody>
   </table>

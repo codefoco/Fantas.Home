@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Node
    ">
-    <meta name="generator" content="docfx 2.58.4.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -141,7 +141,7 @@ Usually used as parent for other nodes</p>
   
   <a id="Fantas_Node_Alpha_" data-uid="Fantas.Node.Alpha*"></a>
   <h4 id="Fantas_Node_Alpha" data-uid="Fantas.Node.Alpha">Alpha</h4>
-  <div class="markdown level1 summary"><p>Transparency applied to the node and childrens</p>
+  <div class="markdown level1 summary"><p>Transparency applied to the node and children's</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -191,16 +191,14 @@ Usually used as parent for other nodes</p>
   </table>
   
   
-  <a id="Fantas_Node_Click_" data-uid="Fantas.Node.Click*"></a>
-  <h4 id="Fantas_Node_Click" data-uid="Fantas.Node.Click">Click</h4>
-  <div class="markdown level1 summary"><p>Called when mouse left button clicked within the node
-(called after left button down, left button up)
-call back contains the node clicked and the point (scene coordinates)</p>
+  <a id="Fantas_Node_Cursor_" data-uid="Fantas.Node.Cursor*"></a>
+  <h4 id="Fantas_Node_Cursor" data-uid="Fantas.Node.Cursor">Cursor</h4>
+  <div class="markdown level1 summary"><p>Custom mouse cursor for node</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NodeMouseButtonEvent Click { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Cursor Cursor { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -212,61 +210,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.NodeMouseButtonEvent.html">NodeMouseButtonEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Node_DoubleClick_" data-uid="Fantas.Node.DoubleClick*"></a>
-  <h4 id="Fantas_Node_DoubleClick" data-uid="Fantas.Node.DoubleClick">DoubleClick</h4>
-  <div class="markdown level1 summary"><p>Called when mouse left button doule-clicked within the node
-call back contains the node clicked and the point (scene coordinates)</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NodeMouseButtonEvent DoubleClick { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.NodeMouseButtonEvent.html">NodeMouseButtonEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Node_DoubleTap_" data-uid="Fantas.Node.DoubleTap*"></a>
-  <h4 id="Fantas_Node_DoubleTap" data-uid="Fantas.Node.DoubleTap">DoubleTap</h4>
-  <div class="markdown level1 summary"><p>Called when node frame is double tapped
-call back contains the node tapped and the point (scene coordinates)</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NodeTapEvent DoubleTap { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.NodeTapEvent.html">NodeTapEvent</a></td>
+        <td><a class="xref" href="Fantas.Input.Cursor.html">Cursor</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -351,15 +295,14 @@ call back contains the node tapped and the point (scene coordinates)</p>
   </table>
   
   
-  <a id="Fantas_Node_Hold_" data-uid="Fantas.Node.Hold*"></a>
-  <h4 id="Fantas_Node_Hold" data-uid="Fantas.Node.Hold">Hold</h4>
-  <div class="markdown level1 summary"><p>Called when node frame is pressed and hold
-call back contains the node tapped and the point (scene coordinates)</p>
+  <a id="Fantas_Node_IsHitTestEnabled_" data-uid="Fantas.Node.IsHitTestEnabled*"></a>
+  <h4 id="Fantas_Node_IsHitTestEnabled" data-uid="Fantas.Node.IsHitTestEnabled">IsHitTestEnabled</h4>
+  <div class="markdown level1 summary"><p>Flag to control if Node can be hit-test by Mouse/Touch node events</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NodeTapEvent Hold { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsHitTestEnabled { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -371,22 +314,21 @@ call back contains the node tapped and the point (scene coordinates)</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.NodeTapEvent.html">NodeTapEvent</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Fantas_Node_LeftButtonDown_" data-uid="Fantas.Node.LeftButtonDown*"></a>
-  <h4 id="Fantas_Node_LeftButtonDown" data-uid="Fantas.Node.LeftButtonDown">LeftButtonDown</h4>
-  <div class="markdown level1 summary"><p>Called when mouse left button is pressed over the node
-call back contains the node clicked and the point (scene coordinates)</p>
+  <a id="Fantas_Node_IsMouseOver_" data-uid="Fantas.Node.IsMouseOver*"></a>
+  <h4 id="Fantas_Node_IsMouseOver" data-uid="Fantas.Node.IsMouseOver">IsMouseOver</h4>
+  <div class="markdown level1 summary"><p>True if the mouse cursor position is over the node</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NodeMouseButtonEvent LeftButtonDown { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsMouseOver { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -398,22 +340,21 @@ call back contains the node clicked and the point (scene coordinates)</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.NodeMouseButtonEvent.html">NodeMouseButtonEvent</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Fantas_Node_LeftButtonUp_" data-uid="Fantas.Node.LeftButtonUp*"></a>
-  <h4 id="Fantas_Node_LeftButtonUp" data-uid="Fantas.Node.LeftButtonUp">LeftButtonUp</h4>
-  <div class="markdown level1 summary"><p>Called when mouse left button is released over the node
-call back contains the node clicked and the point (scene coordinates)</p>
+  <a id="Fantas_Node_IsTouchOver_" data-uid="Fantas.Node.IsTouchOver*"></a>
+  <h4 id="Fantas_Node_IsTouchOver" data-uid="Fantas.Node.IsTouchOver">IsTouchOver</h4>
+  <div class="markdown level1 summary"><p>True if Node is current being touch</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NodeMouseButtonEvent LeftButtonUp { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsTouchOver { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -425,22 +366,21 @@ call back contains the node clicked and the point (scene coordinates)</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.NodeMouseButtonEvent.html">NodeMouseButtonEvent</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Fantas_Node_MiddleClick_" data-uid="Fantas.Node.MiddleClick*"></a>
-  <h4 id="Fantas_Node_MiddleClick" data-uid="Fantas.Node.MiddleClick">MiddleClick</h4>
-  <div class="markdown level1 summary"><p>Called when mouse left button middle-clicked within the node
-call back contains the node clicked and the point (scene coordinates)</p>
+  <a id="Fantas_Node_MouseButtonPressed_" data-uid="Fantas.Node.MouseButtonPressed*"></a>
+  <h4 id="Fantas_Node_MouseButtonPressed" data-uid="Fantas.Node.MouseButtonPressed">MouseButtonPressed</h4>
+  <div class="markdown level1 summary"><p>Mouse button that was pressed over the node</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NodeMouseButtonEvent MiddleClick { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public MouseButtons MouseButtonPressed { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -452,88 +392,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.NodeMouseButtonEvent.html">NodeMouseButtonEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Node_MouseEnter_" data-uid="Fantas.Node.MouseEnter*"></a>
-  <h4 id="Fantas_Node_MouseEnter" data-uid="Fantas.Node.MouseEnter">MouseEnter</h4>
-  <div class="markdown level1 summary"><p>Called when mouse enter node frame
-call back contains the node clicked and the point (scene coordinates)</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NodeMouseMoveEvent MouseEnter { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.NodeMouseMoveEvent.html">NodeMouseMoveEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Node_MouseLeave_" data-uid="Fantas.Node.MouseLeave*"></a>
-  <h4 id="Fantas_Node_MouseLeave" data-uid="Fantas.Node.MouseLeave">MouseLeave</h4>
-  <div class="markdown level1 summary"><p>Called when mouse leave node
-call back contains the node clicked and the point (scene coordinates)</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NodeMouseMoveEvent MouseLeave { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.NodeMouseMoveEvent.html">NodeMouseMoveEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Fantas_Node_MouseOver_" data-uid="Fantas.Node.MouseOver*"></a>
-  <h4 id="Fantas_Node_MouseOver" data-uid="Fantas.Node.MouseOver">MouseOver</h4>
-  <div class="markdown level1 summary"><p>Called when mouse move over node
-call back contains the node clicked and the point (scene coordinates)</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NodeMouseMoveEvent MouseOver { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.NodeMouseMoveEvent.html">NodeMouseMoveEvent</a></td>
+        <td><a class="xref" href="Fantas.Input.MouseButtons.html">MouseButtons</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -670,33 +529,6 @@ call back contains the node clicked and the point (scene coordinates)</p>
   </table>
   
   
-  <a id="Fantas_Node_RightClick_" data-uid="Fantas.Node.RightClick*"></a>
-  <h4 id="Fantas_Node_RightClick" data-uid="Fantas.Node.RightClick">RightClick</h4>
-  <div class="markdown level1 summary"><p>Called when mouse left button right-clicked within the node
-call back contains the node clicked and the point (scene coordinates)</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NodeMouseButtonEvent RightClick { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Fantas.Input.NodeMouseButtonEvent.html">NodeMouseButtonEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Fantas_Node_Scene_" data-uid="Fantas.Node.Scene*"></a>
   <h4 id="Fantas_Node_Scene" data-uid="Fantas.Node.Scene">Scene</h4>
   <div class="markdown level1 summary"><p>Get the scene the node was added</p>
@@ -749,15 +581,14 @@ call back contains the node clicked and the point (scene coordinates)</p>
   </table>
   
   
-  <a id="Fantas_Node_Tap_" data-uid="Fantas.Node.Tap*"></a>
-  <h4 id="Fantas_Node_Tap" data-uid="Fantas.Node.Tap">Tap</h4>
-  <div class="markdown level1 summary"><p>Called when node frame is tapped
-call back contains the node tapped and the point (scene coordinates)</p>
+  <a id="Fantas_Node_Tag_" data-uid="Fantas.Node.Tag*"></a>
+  <h4 id="Fantas_Node_Tag" data-uid="Fantas.Node.Tag">Tag</h4>
+  <div class="markdown level1 summary"><p>User defined value to store custom information about this node.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NodeTapEvent Tap { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public object Tag { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -769,7 +600,33 @@ call back contains the node tapped and the point (scene coordinates)</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.NodeTapEvent.html">NodeTapEvent</a></td>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_TouchCount_" data-uid="Fantas.Node.TouchCount*"></a>
+  <h4 id="Fantas_Node_TouchCount" data-uid="Fantas.Node.TouchCount">TouchCount</h4>
+  <div class="markdown level1 summary"><p>Total of current touches within the Node frame</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TouchCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -958,7 +815,8 @@ call back contains the node tapped and the point (scene coordinates)</p>
       <tr>
         <td><span class="xref">System.Drawing.PointF</span></td>
         <td><span class="parametername">point</span></td>
-        <td></td>
+        <td><p>point in parent coordinates</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -973,7 +831,8 @@ call back contains the node tapped and the point (scene coordinates)</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>Return true if the node frame contains the point</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1001,12 +860,14 @@ call back contains the node tapped and the point (scene coordinates)</p>
       <tr>
         <td><span class="xref">System.Drawing.PointF</span></td>
         <td><span class="parametername">point</span></td>
-        <td></td>
+        <td><p>point in reference parent coordinates</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Fantas.Node.html">Node</a></td>
         <td><span class="parametername">sourceNode</span></td>
-        <td></td>
+        <td><p>reference to be converted</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1021,7 +882,8 @@ call back contains the node tapped and the point (scene coordinates)</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Drawing.PointF</span></td>
-        <td></td>
+        <td><p>Return point converted from reference</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1049,12 +911,14 @@ call back contains the node tapped and the point (scene coordinates)</p>
       <tr>
         <td><span class="xref">System.Drawing.PointF</span></td>
         <td><span class="parametername">point</span></td>
-        <td></td>
+        <td><p>point in parent coordinates</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Fantas.Node.html">Node</a></td>
         <td><span class="parametername">toNode</span></td>
-        <td></td>
+        <td><p>Node to be used as reference</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1069,7 +933,8 @@ call back contains the node tapped and the point (scene coordinates)</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Drawing.PointF</span></td>
-        <td></td>
+        <td><p>Return point converted to reference node</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1123,7 +988,8 @@ call back contains the node tapped and the point (scene coordinates)</p>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">key</span></td>
-        <td></td>
+        <td><p>Key used on RunAnimation</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1138,7 +1004,8 @@ call back contains the node tapped and the point (scene coordinates)</p>
     <tbody>
       <tr>
         <td><a class="xref" href="Fantas.Animation.html">Animation</a></td>
-        <td></td>
+        <td><p>Return the animation associated with key or null if wasn't found</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1166,7 +1033,8 @@ call back contains the node tapped and the point (scene coordinates)</p>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">childName</span></td>
-        <td></td>
+        <td><p>name of child</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1181,7 +1049,8 @@ call back contains the node tapped and the point (scene coordinates)</p>
     <tbody>
       <tr>
         <td><a class="xref" href="Fantas.Node.html">Node</a></td>
-        <td></td>
+        <td><p>Return node with the given name, or null if wasn't found</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1224,7 +1093,8 @@ call back contains the node tapped and the point (scene coordinates)</p>
     <tbody>
       <tr>
         <td><a class="xref" href="Fantas.Node.html">Node</a></td>
-        <td></td>
+        <td><p>Return the first visible node that intersect the point</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1252,7 +1122,8 @@ call back contains the node tapped and the point (scene coordinates)</p>
       <tr>
         <td><span class="xref">System.Drawing.PointF</span></td>
         <td><span class="parametername">point</span></td>
-        <td></td>
+        <td><p>point in parent coordinates</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1267,7 +1138,8 @@ call back contains the node tapped and the point (scene coordinates)</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="Fantas.Node.html">Node</a>&gt;</td>
-        <td></td>
+        <td><p>List of node that intersect the point</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1275,7 +1147,7 @@ call back contains the node tapped and the point (scene coordinates)</p>
   
   <a id="Fantas_Node_InParentHierarchy_" data-uid="Fantas.Node.InParentHierarchy*"></a>
   <h4 id="Fantas_Node_InParentHierarchy_Fantas_Node_" data-uid="Fantas.Node.InParentHierarchy(Fantas.Node)">InParentHierarchy(Node)</h4>
-  <div class="markdown level1 summary"><p>Check if the node is in the hierarchy</p>
+  <div class="markdown level1 summary"><p>Check if the node is in the hierarchy under other node</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1338,12 +1210,14 @@ call back contains the node tapped and the point (scene coordinates)</p>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
-        <td></td>
+        <td><p>Index of child</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Fantas.Node.html">Node</a></td>
         <td><span class="parametername">child</span></td>
-        <td></td>
+        <td><p>Child to be inserted</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1371,7 +1245,8 @@ call back contains the node tapped and the point (scene coordinates)</p>
       <tr>
         <td><a class="xref" href="Fantas.Node.html">Node</a></td>
         <td><span class="parametername">other</span></td>
-        <td></td>
+        <td><p>Other node</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1386,7 +1261,8 @@ call back contains the node tapped and the point (scene coordinates)</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>Return true if node frame intersects with other node frame</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1414,6 +1290,445 @@ call back contains the node tapped and the point (scene coordinates)</p>
       <tr>
         <td><a class="xref" href="Fantas.Node.html">Node</a></td>
         <td><span class="parametername">newParent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_OnClick_" data-uid="Fantas.Node.OnClick*"></a>
+  <h4 id="Fantas_Node_OnClick_Fantas_Input_MouseEventArgs_" data-uid="Fantas.Node.OnClick(Fantas.Input.MouseEventArgs)">OnClick(MouseEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Called when mouse left button clicked within the children node
+(called after left button down, left button up)
+call back contains the node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnClick(MouseEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.MouseEventArgs.html">MouseEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_OnDoubleClick_" data-uid="Fantas.Node.OnDoubleClick*"></a>
+  <h4 id="Fantas_Node_OnDoubleClick_Fantas_Input_MouseEventArgs_" data-uid="Fantas.Node.OnDoubleClick(Fantas.Input.MouseEventArgs)">OnDoubleClick(MouseEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Called when mouse left button double-clicked within the children node
+call back contains the node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnDoubleClick(MouseEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.MouseEventArgs.html">MouseEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_OnDoubleTap_" data-uid="Fantas.Node.OnDoubleTap*"></a>
+  <h4 id="Fantas_Node_OnDoubleTap_Fantas_Input_TapEventArgs_" data-uid="Fantas.Node.OnDoubleTap(Fantas.Input.TapEventArgs)">OnDoubleTap(TapEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Called when double tap within the children node
+call back contains the node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnDoubleTap(TapEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.TapEventArgs.html">TapEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_OnLongPress_" data-uid="Fantas.Node.OnLongPress*"></a>
+  <h4 id="Fantas_Node_OnLongPress_Fantas_Input_TapEventArgs_" data-uid="Fantas.Node.OnLongPress(Fantas.Input.TapEventArgs)">OnLongPress(TapEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Called when tap and hold (long press) the children node
+call back contains the node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnLongPress(TapEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.TapEventArgs.html">TapEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_OnMouseDown_" data-uid="Fantas.Node.OnMouseDown*"></a>
+  <h4 id="Fantas_Node_OnMouseDown_Fantas_Input_MouseEventArgs_" data-uid="Fantas.Node.OnMouseDown(Fantas.Input.MouseEventArgs)">OnMouseDown(MouseEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Called when mouse left button is pressed over the children node
+call back contains the node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnMouseDown(MouseEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.MouseEventArgs.html">MouseEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_OnMouseEnter_" data-uid="Fantas.Node.OnMouseEnter*"></a>
+  <h4 id="Fantas_Node_OnMouseEnter" data-uid="Fantas.Node.OnMouseEnter">OnMouseEnter()</h4>
+  <div class="markdown level1 summary"><p>Called when mouse enter children node frame
+call back contains the node clicked and the point (scene coordinates)
+This event wont be triggered for Scene, only for children nodes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnMouseEnter()</code></pre>
+  </div>
+  
+  
+  <a id="Fantas_Node_OnMouseHover_" data-uid="Fantas.Node.OnMouseHover*"></a>
+  <h4 id="Fantas_Node_OnMouseHover" data-uid="Fantas.Node.OnMouseHover">OnMouseHover()</h4>
+  <div class="markdown level1 summary"><p>Called when mouse move over children node
+call back contains the node clicked and the point (scene coordinates)
+This event wont be triggered for Scene, only for children nodes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnMouseHover()</code></pre>
+  </div>
+  
+  
+  <a id="Fantas_Node_OnMouseLeave_" data-uid="Fantas.Node.OnMouseLeave*"></a>
+  <h4 id="Fantas_Node_OnMouseLeave" data-uid="Fantas.Node.OnMouseLeave">OnMouseLeave()</h4>
+  <div class="markdown level1 summary"><p>Called when mouse leave node
+call back contains the node clicked and the point (scene coordinates)
+This event wont be triggered for Scene, only for children nodes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnMouseLeave()</code></pre>
+  </div>
+  
+  
+  <a id="Fantas_Node_OnMouseUp_" data-uid="Fantas.Node.OnMouseUp*"></a>
+  <h4 id="Fantas_Node_OnMouseUp_Fantas_Input_MouseEventArgs_" data-uid="Fantas.Node.OnMouseUp(Fantas.Input.MouseEventArgs)">OnMouseUp(MouseEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Called when mouse left button is released over the children node
+call back contains the node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnMouseUp(MouseEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.MouseEventArgs.html">MouseEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_OnTap_" data-uid="Fantas.Node.OnTap*"></a>
+  <h4 id="Fantas_Node_OnTap_Fantas_Input_TapEventArgs_" data-uid="Fantas.Node.OnTap(Fantas.Input.TapEventArgs)">OnTap(TapEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Called when tap within the children node
+call back contains the node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnTap(TapEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.TapEventArgs.html">TapEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_OnTouchDownInside_" data-uid="Fantas.Node.OnTouchDownInside*"></a>
+  <h4 id="Fantas_Node_OnTouchDownInside_Fantas_Input_TouchEventArgs_" data-uid="Fantas.Node.OnTouchDownInside(Fantas.Input.TouchEventArgs)">OnTouchDownInside(TouchEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Called when user start a touch within the Node bounds</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnTouchDownInside(TouchEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.TouchEventArgs.html">TouchEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_OnTouchDragEnter_" data-uid="Fantas.Node.OnTouchDragEnter*"></a>
+  <h4 id="Fantas_Node_OnTouchDragEnter_Fantas_Input_TouchEventArgs_" data-uid="Fantas.Node.OnTouchDragEnter(Fantas.Input.TouchEventArgs)">OnTouchDragEnter(TouchEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Called when touch is dragged inside back of node frame</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnTouchDragEnter(TouchEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.TouchEventArgs.html">TouchEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_OnTouchDragExit_" data-uid="Fantas.Node.OnTouchDragExit*"></a>
+  <h4 id="Fantas_Node_OnTouchDragExit_Fantas_Input_TouchEventArgs_" data-uid="Fantas.Node.OnTouchDragExit(Fantas.Input.TouchEventArgs)">OnTouchDragExit(TouchEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Called when touch is dragged outside of node frame</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnTouchDragExit(TouchEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.TouchEventArgs.html">TouchEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_OnTouchDragInside_" data-uid="Fantas.Node.OnTouchDragInside*"></a>
+  <h4 id="Fantas_Node_OnTouchDragInside_Fantas_Input_TouchEventArgs_" data-uid="Fantas.Node.OnTouchDragInside(Fantas.Input.TouchEventArgs)">OnTouchDragInside(TouchEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Called when touch is dragged within the Node frame</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnTouchDragInside(TouchEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.TouchEventArgs.html">TouchEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_OnTouchDragOutside_" data-uid="Fantas.Node.OnTouchDragOutside*"></a>
+  <h4 id="Fantas_Node_OnTouchDragOutside_Fantas_Input_TouchEventArgs_" data-uid="Fantas.Node.OnTouchDragOutside(Fantas.Input.TouchEventArgs)">OnTouchDragOutside(TouchEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Called when touch is dragged outside the Node frame (after it start a TouchUpInside operation)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnTouchDragOutside(TouchEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.TouchEventArgs.html">TouchEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_OnTouchUpInside_" data-uid="Fantas.Node.OnTouchUpInside*"></a>
+  <h4 id="Fantas_Node_OnTouchUpInside_Fantas_Input_TouchEventArgs_" data-uid="Fantas.Node.OnTouchUpInside(Fantas.Input.TouchEventArgs)">OnTouchUpInside(TouchEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Called on touch up within the Node frame</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnTouchUpInside(TouchEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.TouchEventArgs.html">TouchEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_OnTouchUpOutside_" data-uid="Fantas.Node.OnTouchUpOutside*"></a>
+  <h4 id="Fantas_Node_OnTouchUpOutside_Fantas_Input_TouchEventArgs_" data-uid="Fantas.Node.OnTouchUpOutside(Fantas.Input.TouchEventArgs)">OnTouchUpOutside(TouchEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Called on touch up outside the Node frame</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnTouchUpOutside(TouchEventArgs args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.TouchEventArgs.html">TouchEventArgs</a></td>
+        <td><span class="parametername">args</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1464,6 +1779,35 @@ call back contains the node tapped and the point (scene coordinates)</p>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">key</span></td>
+        <td><p>Key used on RunAnimation</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_RemoveChild_" data-uid="Fantas.Node.RemoveChild*"></a>
+  <h4 id="Fantas_Node_RemoveChild_Fantas_Node_" data-uid="Fantas.Node.RemoveChild(Fantas.Node)">RemoveChild(Node)</h4>
+  <div class="markdown level1 summary"><p>Remove a single child from node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveChild(Node child)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Node.html">Node</a></td>
+        <td><span class="parametername">child</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1529,7 +1873,8 @@ call back contains the node tapped and the point (scene coordinates)</p>
     <tbody>
       <tr>
         <td><a class="xref" href="Fantas.Texture.html">Texture</a></td>
-        <td></td>
+        <td><p>Return a Texture object with the rendered contents of node</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1557,7 +1902,8 @@ call back contains the node tapped and the point (scene coordinates)</p>
       <tr>
         <td><a class="xref" href="Fantas.Animation.html">Animation</a></td>
         <td><span class="parametername">animation</span></td>
-        <td></td>
+        <td><p>animation to be executed</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1586,7 +1932,8 @@ And runs the completion handler when the animation is done</p>
       <tr>
         <td><a class="xref" href="Fantas.Animation.html">Animation</a></td>
         <td><span class="parametername">animation</span></td>
-        <td></td>
+        <td><p>animation to be executed</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Action</span></td>
@@ -1619,7 +1966,8 @@ And runs the completion handler when the animation is done</p>
       <tr>
         <td><a class="xref" href="Fantas.Animation.html">Animation</a></td>
         <td><span class="parametername">animation</span></td>
-        <td></td>
+        <td><p>animation to be executed</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
@@ -1652,7 +2000,8 @@ And runs the completion handler when the animation is done</p>
       <tr>
         <td><a class="xref" href="Fantas.Animation.html">Animation</a></td>
         <td><span class="parametername">animation</span></td>
-        <td></td>
+        <td><p>Return a Task</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1695,7 +2044,8 @@ And runs the completion handler when the animation is done</p>
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">scale</span></td>
-        <td></td>
+        <td><p>New scale</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1721,6 +2071,445 @@ And runs the completion handler when the animation is done</p>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
+        <td><p>String representation of node</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="Fantas_Node_Click" data-uid="Fantas.Node.Click">Click</h4>
+  <div class="markdown level1 summary"><p>Called when mouse left button clicked within the children node
+(called after left button down, left button up)
+call back contains the node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;MouseEventArgs&gt; Click</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Fantas.Input.MouseEventArgs.html">MouseEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Fantas_Node_DoubleClick" data-uid="Fantas.Node.DoubleClick">DoubleClick</h4>
+  <div class="markdown level1 summary"><p>Called when mouse left button double-clicked within the children node
+call back contains the node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;MouseEventArgs&gt; DoubleClick</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Fantas.Input.MouseEventArgs.html">MouseEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Fantas_Node_DoubleTap" data-uid="Fantas.Node.DoubleTap">DoubleTap</h4>
+  <div class="markdown level1 summary"><p>Called when node frame is double tapped
+call back contains the node tapped and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;TapEventArgs&gt; DoubleTap</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Fantas.Input.TapEventArgs.html">TapEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Fantas_Node_LongPress" data-uid="Fantas.Node.LongPress">LongPress</h4>
+  <div class="markdown level1 summary"><p>Called when node frame is pressed and hold (long press)
+call back contains the node tapped and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;TapEventArgs&gt; LongPress</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Fantas.Input.TapEventArgs.html">TapEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Fantas_Node_MouseDown" data-uid="Fantas.Node.MouseDown">MouseDown</h4>
+  <div class="markdown level1 summary"><p>Called when mouse left button is pressed over the children node
+call back contains the node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;MouseEventArgs&gt; MouseDown</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Fantas.Input.MouseEventArgs.html">MouseEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Fantas_Node_MouseEnter" data-uid="Fantas.Node.MouseEnter">MouseEnter</h4>
+  <div class="markdown level1 summary"><p>Called when mouse enter children node frame
+call back contains the node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler MouseEnter</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Fantas_Node_MouseHover" data-uid="Fantas.Node.MouseHover">MouseHover</h4>
+  <div class="markdown level1 summary"><p>Called when mouse move over children node
+call back contains the node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler MouseHover</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Fantas_Node_MouseLeave" data-uid="Fantas.Node.MouseLeave">MouseLeave</h4>
+  <div class="markdown level1 summary"><p>Called when mouse leave node
+call back contains the children node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler MouseLeave</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Fantas_Node_MouseUp" data-uid="Fantas.Node.MouseUp">MouseUp</h4>
+  <div class="markdown level1 summary"><p>Called when mouse left button is released over the children node
+call back contains the node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;MouseEventArgs&gt; MouseUp</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Fantas.Input.MouseEventArgs.html">MouseEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Fantas_Node_Tap" data-uid="Fantas.Node.Tap">Tap</h4>
+  <div class="markdown level1 summary"><p>Called when node frame is tapped
+call back contains the node tapped and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;TapEventArgs&gt; Tap</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Fantas.Input.TapEventArgs.html">TapEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Fantas_Node_TouchDownInside" data-uid="Fantas.Node.TouchDownInside">TouchDownInside</h4>
+  <div class="markdown level1 summary"><p>Called when touch event starts within the Node frame</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;TouchEventArgs&gt; TouchDownInside</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Fantas.Input.TouchEventArgs.html">TouchEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Fantas_Node_TouchDragEnter" data-uid="Fantas.Node.TouchDragEnter">TouchDragEnter</h4>
+  <div class="markdown level1 summary"><p>Called when touch is dragged inside back of node frame</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;TouchEventArgs&gt; TouchDragEnter</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Fantas.Input.TouchEventArgs.html">TouchEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Fantas_Node_TouchDragExit" data-uid="Fantas.Node.TouchDragExit">TouchDragExit</h4>
+  <div class="markdown level1 summary"><p>Called when touch is dragged outside of node frame</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;TouchEventArgs&gt; TouchDragExit</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Fantas.Input.TouchEventArgs.html">TouchEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Fantas_Node_TouchDragInside" data-uid="Fantas.Node.TouchDragInside">TouchDragInside</h4>
+  <div class="markdown level1 summary"><p>Called when touch is dragged within the Node frame</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;TouchEventArgs&gt; TouchDragInside</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Fantas.Input.TouchEventArgs.html">TouchEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Fantas_Node_TouchDragOutside" data-uid="Fantas.Node.TouchDragOutside">TouchDragOutside</h4>
+  <div class="markdown level1 summary"><p>Called when touch is dragged outside the Node frame (after it start a TouchUpInside operation)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;TouchEventArgs&gt; TouchDragOutside</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Fantas.Input.TouchEventArgs.html">TouchEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Fantas_Node_TouchUpInside" data-uid="Fantas.Node.TouchUpInside">TouchUpInside</h4>
+  <div class="markdown level1 summary"><p>Called on touch up within the Node frame</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;TouchEventArgs&gt; TouchUpInside</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Fantas.Input.TouchEventArgs.html">TouchEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Fantas_Node_TouchUpOutside" data-uid="Fantas.Node.TouchUpOutside">TouchUpOutside</h4>
+  <div class="markdown level1 summary"><p>Called on touch up outside the Node frame</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;TouchEventArgs&gt; TouchUpOutside</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Fantas.Input.TouchEventArgs.html">TouchEventArgs</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

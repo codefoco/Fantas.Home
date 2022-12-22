@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class KeyboardInput
    ">
-    <meta name="generator" content="docfx 2.58.4.0">
+    <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -91,14 +91,14 @@
   </h3>
   
   
-  <a id="Fantas_Input_KeyboardInput_KeyDown_" data-uid="Fantas.Input.KeyboardInput.KeyDown*"></a>
-  <h4 id="Fantas_Input_KeyboardInput_KeyDown" data-uid="Fantas.Input.KeyboardInput.KeyDown">KeyDown</h4>
-  <div class="markdown level1 summary"><p>Key down event</p>
+  <a id="Fantas_Input_KeyboardInput_AnyKeyPressed_" data-uid="Fantas.Input.KeyboardInput.AnyKeyPressed*"></a>
+  <h4 id="Fantas_Input_KeyboardInput_AnyKeyPressed" data-uid="Fantas.Input.KeyboardInput.AnyKeyPressed">AnyKeyPressed</h4>
+  <div class="markdown level1 summary"><p>Check if any key was just pressed</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static KeyEvent KeyDown { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool AnyKeyPressed { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -110,21 +110,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.KeyEvent.html">KeyEvent</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Fantas_Input_KeyboardInput_KeyUp_" data-uid="Fantas.Input.KeyboardInput.KeyUp*"></a>
-  <h4 id="Fantas_Input_KeyboardInput_KeyUp" data-uid="Fantas.Input.KeyboardInput.KeyUp">KeyUp</h4>
-  <div class="markdown level1 summary"><p>Key up event</p>
+  <a id="Fantas_Input_KeyboardInput_AnyKeyReleased_" data-uid="Fantas.Input.KeyboardInput.AnyKeyReleased*"></a>
+  <h4 id="Fantas_Input_KeyboardInput_AnyKeyReleased" data-uid="Fantas.Input.KeyboardInput.AnyKeyReleased">AnyKeyReleased</h4>
+  <div class="markdown level1 summary"><p>Check if any key was just released</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static KeyEvent KeyUp { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool AnyKeyReleased { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -136,7 +136,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.KeyEvent.html">KeyEvent</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -145,14 +145,14 @@
   </h3>
   
   
-  <a id="Fantas_Input_KeyboardInput_IsKeyDown_" data-uid="Fantas.Input.KeyboardInput.IsKeyDown*"></a>
-  <h4 id="Fantas_Input_KeyboardInput_IsKeyDown_Fantas_Input_Key_" data-uid="Fantas.Input.KeyboardInput.IsKeyDown(Fantas.Input.Key)">IsKeyDown(Key)</h4>
-  <div class="markdown level1 summary"><p>Check the if the given key from keyboard is down</p>
+  <a id="Fantas_Input_KeyboardInput_InvokeKeyDown_" data-uid="Fantas.Input.KeyboardInput.InvokeKeyDown*"></a>
+  <h4 id="Fantas_Input_KeyboardInput_InvokeKeyDown_Fantas_Input_Keys_" data-uid="Fantas.Input.KeyboardInput.InvokeKeyDown(Fantas.Input.Keys)">InvokeKeyDown(Keys)</h4>
+  <div class="markdown level1 summary"><p>Invoke KeyDown event handlers</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsKeyDown(Key key)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void InvokeKeyDown(Keys keys)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -165,9 +165,66 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.Key.html">Key</a></td>
-        <td><span class="parametername">key</span></td>
+        <td><a class="xref" href="Fantas.Input.Keys.html">Keys</a></td>
+        <td><span class="parametername">keys</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Input_KeyboardInput_InvokeKeyUp_" data-uid="Fantas.Input.KeyboardInput.InvokeKeyUp*"></a>
+  <h4 id="Fantas_Input_KeyboardInput_InvokeKeyUp_Fantas_Input_Keys_" data-uid="Fantas.Input.KeyboardInput.InvokeKeyUp(Fantas.Input.Keys)">InvokeKeyUp(Keys)</h4>
+  <div class="markdown level1 summary"><p>Invoke KeyUp event handlers</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InvokeKeyUp(Keys keyCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.Keys.html">Keys</a></td>
+        <td><span class="parametername">keyCode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Input_KeyboardInput_IsKeyDown_" data-uid="Fantas.Input.KeyboardInput.IsKeyDown*"></a>
+  <h4 id="Fantas_Input_KeyboardInput_IsKeyDown_Fantas_Input_Keys_" data-uid="Fantas.Input.KeyboardInput.IsKeyDown(Fantas.Input.Keys)">IsKeyDown(Keys)</h4>
+  <div class="markdown level1 summary"><p>Check the if the given key from keyboard is down</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsKeyDown(Keys keyCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Input.Keys.html">Keys</a></td>
+        <td><span class="parametername">keyCode</span></td>
+        <td><p>Keyboard key (Q, W, A, S, Space, etc)</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -189,13 +246,13 @@
   
   
   <a id="Fantas_Input_KeyboardInput_IsKeyPressed_" data-uid="Fantas.Input.KeyboardInput.IsKeyPressed*"></a>
-  <h4 id="Fantas_Input_KeyboardInput_IsKeyPressed_Fantas_Input_Key_" data-uid="Fantas.Input.KeyboardInput.IsKeyPressed(Fantas.Input.Key)">IsKeyPressed(Key)</h4>
+  <h4 id="Fantas_Input_KeyboardInput_IsKeyPressed_Fantas_Input_Keys_" data-uid="Fantas.Input.KeyboardInput.IsKeyPressed(Fantas.Input.Keys)">IsKeyPressed(Keys)</h4>
   <div class="markdown level1 summary"><p>Check the if the given key was just pressed</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsKeyPressed(Key key)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsKeyPressed(Keys keyCode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -208,9 +265,10 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.Key.html">Key</a></td>
-        <td><span class="parametername">key</span></td>
-        <td></td>
+        <td><a class="xref" href="Fantas.Input.Keys.html">Keys</a></td>
+        <td><span class="parametername">keyCode</span></td>
+        <td><p>Keyboard key (Q, W, A, S, Space, etc)</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -225,20 +283,21 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>Return true if the key was just pressed</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
   <a id="Fantas_Input_KeyboardInput_IsKeyReleased_" data-uid="Fantas.Input.KeyboardInput.IsKeyReleased*"></a>
-  <h4 id="Fantas_Input_KeyboardInput_IsKeyReleased_Fantas_Input_Key_" data-uid="Fantas.Input.KeyboardInput.IsKeyReleased(Fantas.Input.Key)">IsKeyReleased(Key)</h4>
+  <h4 id="Fantas_Input_KeyboardInput_IsKeyReleased_Fantas_Input_Keys_" data-uid="Fantas.Input.KeyboardInput.IsKeyReleased(Fantas.Input.Keys)">IsKeyReleased(Keys)</h4>
   <div class="markdown level1 summary"><p>Check the if the given key was just released</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsKeyReleased(Key key)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsKeyReleased(Keys keyCode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -251,9 +310,10 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.Key.html">Key</a></td>
-        <td><span class="parametername">key</span></td>
-        <td></td>
+        <td><a class="xref" href="Fantas.Input.Keys.html">Keys</a></td>
+        <td><span class="parametername">keyCode</span></td>
+        <td><p>Keyboard key (Q, W, A, S, Space, etc)</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -268,20 +328,21 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>Return true if the key was just released</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
   <a id="Fantas_Input_KeyboardInput_IsKeyUp_" data-uid="Fantas.Input.KeyboardInput.IsKeyUp*"></a>
-  <h4 id="Fantas_Input_KeyboardInput_IsKeyUp_Fantas_Input_Key_" data-uid="Fantas.Input.KeyboardInput.IsKeyUp(Fantas.Input.Key)">IsKeyUp(Key)</h4>
+  <h4 id="Fantas_Input_KeyboardInput_IsKeyUp_Fantas_Input_Keys_" data-uid="Fantas.Input.KeyboardInput.IsKeyUp(Fantas.Input.Keys)">IsKeyUp(Keys)</h4>
   <div class="markdown level1 summary"><p>Check the if the given key from keyboard is up</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsKeyUp(Key key)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsKeyUp(Keys keyCode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -294,9 +355,10 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.Input.Key.html">Key</a></td>
-        <td><span class="parametername">key</span></td>
-        <td></td>
+        <td><a class="xref" href="Fantas.Input.Keys.html">Keys</a></td>
+        <td><span class="parametername">keyCode</span></td>
+        <td><p>Keyboard key (Q, W, A, S, Space, etc)</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -311,7 +373,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>Return true if the key is not pressed</p>
+</td>
       </tr>
     </tbody>
   </table>

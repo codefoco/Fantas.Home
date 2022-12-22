@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "bovHWY+hdnxH7vpzK0gLvt20reGna0FfTqp3YXeE4LU="
+          "hash": "JiOEeQWRaV3bVx+lphN6SpkjCY0wNqUKl4QJwU1dSW4="
         }
       },
       "is_incremental": true,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Animation.html",
-          "hash": "ruTZhkvKfAnnso7wL9GKB5/6lMC5bvIuV4GmLZOQXig="
+          "hash": "Rqare6Hm4KtaMFQLZvSWjeeSGG5f2wgsZyZ0hgx6njE="
         }
       },
       "is_incremental": true,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.AnimationTimingFunction.html",
-          "hash": "/uFrKY/UyPpC4hnnRR7s90vcAKCNIFJHMgnISLlfsng="
+          "hash": "DMXTfYRw2jFrDMYSMhqwnxI5B4Fj6F5cMg2TlSttx9I="
         }
       },
       "is_incremental": true,
@@ -45,7 +45,67 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.AnimationTimingMode.html",
-          "hash": "cpr9U/pgsw1s9n025JZLe+hzELCmuaqitdPMrfjjjs4="
+          "hash": "LDaWEIBwyZMi3S6ewiHlckBzdXfu2BJjgRdAdC5u3dI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Audio.AudioSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Audio.AudioSession.html",
+          "hash": "400VorFK7PbrY60YRbHwkfFQIw3LObb6pJvcwS/haOw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Audio.Music.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Audio.Music.html",
+          "hash": "qYnxmho5s21Arsykl1VQoGaXPrilFi4yb99POn/xfqA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Audio.MusicPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Audio.MusicPlayer.html",
+          "hash": "0Ixa8ZggGrspC62FbGbrBtCpLkTszzoJXdm8lrCXoyY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Audio.SoundEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Audio.SoundEffect.html",
+          "hash": "HahEgPO9dpeiNU9Qqg0xmbU5DajIWdXtV2iE6erqcRI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Audio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Audio.html",
+          "hash": "m3WNfRM564Y4PV2lbt9XdBmAsTjUPBdOM7MQTLsVQWI="
         }
       },
       "is_incremental": true,
@@ -57,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.BlendMode.html",
-          "hash": "CFv+Dic8fvdH7LA5Bd3vswOHx4uCYvLLu/uHJHTogbc="
+          "hash": "fj8YoZqbdWXKEIU1GkBZFJmhXsGCtfWJHgnJkoTYhxs="
         }
       },
       "is_incremental": true,
@@ -69,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.CameraNode.html",
-          "hash": "TG8/8532bmN7nL9PQt3/F0X4+6PYkqy277hiu1XJQ5M="
+          "hash": "5M4jQx9YWI+/30MTgZj7i1WX/JYo8ij08uD9SxnC1jk="
         }
       },
       "is_incremental": true,
@@ -81,7 +141,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.CircleNode.html",
-          "hash": "0nSyvQ++EwbOLwLVdd6D+8CV4kUFdwuZNAlC1EZP/70="
+          "hash": "dPgcRohAD5771O49BHyZntZ1rPtKD2m0fxPvOfWTVrk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.ColorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.ColorExtensions.html",
+          "hash": "6ozMHF5mZlJtu0zGF5x/kkf4VXPoPhPYRjy7e94TcII="
         }
       },
       "is_incremental": true,
@@ -93,31 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.EllipseNode.html",
-          "hash": "NDRBCysjrW7KnyhHLhAQPwUoz0su+M6+q0dSJJloH8Q="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Extensions.RandomExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Extensions.RandomExtensions.html",
-          "hash": "j35ytrHmc/7BkM8k1h9IrhdQ+sC/0DgoR3/urpUSP9k="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Extensions.html",
-          "hash": "xhlNi/Cnjeh49N9gnyoZlpYVPzxJHEL0oaKZVSMPcKw="
+          "hash": "y7v59vH8TdmQHJ6/DMEYTBahJNAlZwhL8Mq2FOKDrbQ="
         }
       },
       "is_incremental": true,
@@ -129,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Game.html",
-          "hash": "afNu9IQRjX/RTbJjiwZx3KpLg9GCl0FyCTvmLSRr4bg="
+          "hash": "vLyhRMKhTBKJ0R4oH/Woagzu9XOGhLKtiQR7ihkvrEA="
         }
       },
       "is_incremental": true,
@@ -141,43 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.GameOptions.html",
-          "hash": "AkU8N0YgU8nlFB7FEBfJxBXg3l9kSeUCYn0PlPWwoJo="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.Button.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.Button.html",
-          "hash": "bOcj9Wcsk6hvJ0m38QtNztCKBLWfxovwtZGnmWoLP3M="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.ButtonEvent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.ButtonEvent.html",
-          "hash": "MWEIWWlLWNctxudasAihr6MHqf4HiyThg1Nfr/7NdT8="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.ButtonValueChangedEvent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.ButtonValueChangedEvent.html",
-          "hash": "JcQwNX3rfOhstqLBTPaW2HWhX8BZM2+NdB1F9rzQkvc="
+          "hash": "EGGzM2VdHIeUKkTweLlE7/gI2uHqyHYNGVl+Rf29BsQ="
         }
       },
       "is_incremental": true,
@@ -189,7 +201,43 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Input.Controller.html",
-          "hash": "T6lVna52vGSXwVzY42JvqkbqefaN56rTk+5gTrcZ6Iw="
+          "hash": "ndp2PO8bOVLcgOFqqOtm2go/S+apmhLtZX52m8a2e0E="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.ControllerButtonEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.ControllerButtonEventArgs.html",
+          "hash": "RFuY7rC2CtrgCmohpsfduVgVyVfRXCGUEglNNNSroiw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.ControllerButtons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.ControllerButtons.html",
+          "hash": "jytqOP5eBl4suOW9oCVhAGqi2QAkp++egCIF8RPTQWs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.ControllerChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.ControllerChangedEventArgs.html",
+          "hash": "UzU5rWiepL58rwcCFWbyDUJDpkocrmCnRquBzhTc7r8="
         }
       },
       "is_incremental": true,
@@ -201,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Input.ControllerInput.html",
-          "hash": "7WpZFwZbuQW52ZmCwGKIg3oxZDLSHCX/6Hu0l/q7Qp0="
+          "hash": "InxnG0cF3SkMydeJ+HHlHuFRC9DRrff1SrglNT5E9mc="
         }
       },
       "is_incremental": true,
@@ -209,11 +257,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.DragEvent.yml",
+      "source_relative_path": "api/Fantas.Input.ControllerThumbstickChangedEventArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Fantas.Input.DragEvent.html",
-          "hash": "LAhIo3Xx2MBtvjVxbx1IBcQGiFudhXbzeXZYYGR2vYA="
+          "relative_path": "api/Fantas.Input.ControllerThumbstickChangedEventArgs.html",
+          "hash": "vZhIOD7Kt850gNJoHyk7C8fiefjoNiAhy+jB5HVaPDQ="
         }
       },
       "is_incremental": true,
@@ -221,11 +269,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.GestureCompleteEvent.yml",
+      "source_relative_path": "api/Fantas.Input.ControllerTriggerChangedEventArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Fantas.Input.GestureCompleteEvent.html",
-          "hash": "iB5SuqwR6b/29K8t0a0x/YgdcaHY/oq2gTEaZqdnij4="
+          "relative_path": "api/Fantas.Input.ControllerTriggerChangedEventArgs.html",
+          "hash": "Q5OQcF5ok4sQ0eG6N+XSwzbE3ceKCgIm+8pWQhQs3sE="
         }
       },
       "is_incremental": true,
@@ -233,11 +281,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.GestureMagnifyEvent.yml",
+      "source_relative_path": "api/Fantas.Input.Cursor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Fantas.Input.GestureMagnifyEvent.html",
-          "hash": "P50qMdZWJaf4+hPcGmTz54jaK4BlDLKdQ3r0Dr1bzSU="
+          "relative_path": "api/Fantas.Input.Cursor.html",
+          "hash": "+0mEDt+LvtOhb6jPLva7mwsiGZACCMIet1Cb9ZyMNEA="
         }
       },
       "is_incremental": true,
@@ -245,11 +293,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.Key.yml",
+      "source_relative_path": "api/Fantas.Input.Cursors.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Fantas.Input.Key.html",
-          "hash": "CiYC/WKUnsAfk6nr30KpI9nM290//XfnbTEZQV8NKjo="
+          "relative_path": "api/Fantas.Input.Cursors.html",
+          "hash": "k1KSMbn72xnwyWydfuee/ufug70UvzrJG7YVeVSKuxk="
         }
       },
       "is_incremental": true,
@@ -257,11 +305,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.KeyEvent.yml",
+      "source_relative_path": "api/Fantas.Input.KeyEventArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Fantas.Input.KeyEvent.html",
-          "hash": "0AnpcTPc/Op3P982R4GA7vKhG5rj7aoi6klx+toKHcM="
+          "relative_path": "api/Fantas.Input.KeyEventArgs.html",
+          "hash": "Dk3kQNfgYMxeYBRuTc8L+PpI4slv2Aje1pnzZgZ7Yg8="
         }
       },
       "is_incremental": true,
@@ -273,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Input.KeyboardInput.html",
-          "hash": "oKfLi6si4M+XcVpftJReLWb80RHmLe7JPnar+cPG+Uc="
+          "hash": "b1KyJ7Y8i+2vbONEwzRNkAysT8LYR/TtzJkWzalENN0="
         }
       },
       "is_incremental": true,
@@ -281,11 +329,35 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.MouseButtonEvent.yml",
+      "source_relative_path": "api/Fantas.Input.Keys.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Fantas.Input.MouseButtonEvent.html",
-          "hash": "/JsKhHvU+gMJXOAFkBgiclLE+o5XpxoBffz4AEwExsk="
+          "relative_path": "api/Fantas.Input.Keys.html",
+          "hash": "D1xdJzcaGSPe/B2GBXzq3o53VCgbA4uW5ZrKK9lPdfY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.MouseButtons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.MouseButtons.html",
+          "hash": "VmZY+uGpcJud9stODkIHyapf0OspXTMiM2r9x1V1oCM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.MouseEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.MouseEventArgs.html",
+          "hash": "Fl4QvQ4nlf9lACakUP5oiOur1SxTM07UjnokUM5+iBY="
         }
       },
       "is_incremental": true,
@@ -297,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Input.MouseInput.html",
-          "hash": "h7hmqDkKiVqR4fz0RfDaSSrqn+zZzHWbpvR7AFsYdo0="
+          "hash": "3JxLPRXbHeTIcaah3TaKjStYGpoqSYic3K4IzQijFqo="
         }
       },
       "is_incremental": true,
@@ -305,11 +377,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.MouseMoveEvent.yml",
+      "source_relative_path": "api/Fantas.Input.PanEventArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Fantas.Input.MouseMoveEvent.html",
-          "hash": "Sm0i3qsw09O1AeN0M0c+IQUGiC44KU7eeKMKoQoDuLQ="
+          "relative_path": "api/Fantas.Input.PanEventArgs.html",
+          "hash": "Ew5/TS6R7EIroVIhpFr6efbp1uQCXvukSIl9GWvSb30="
         }
       },
       "is_incremental": true,
@@ -317,59 +389,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.MouseWheelEvent.yml",
+      "source_relative_path": "api/Fantas.Input.PinchEventArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Fantas.Input.MouseWheelEvent.html",
-          "hash": "iyIeMmOZdWTajRNdG3+DsMKWNnHwe0E/4hEEeQoe8ro="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.NodeMouseButtonEvent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.NodeMouseButtonEvent.html",
-          "hash": "v4gJbaZlHVuA8YBkgUms3ZCDPMMY6VaX3ptcRhd7Y+o="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.NodeMouseMoveEvent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.NodeMouseMoveEvent.html",
-          "hash": "upzzMsmot1WMqahhjiBpYbGppMAgkOYDMvAf7AeSFLs="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.NodeTapEvent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.NodeTapEvent.html",
-          "hash": "nxRy+1G3k1rXj0+/20rpSfLG6UVTZuzsZ5Nq2IOkYY0="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.PinchEvent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.PinchEvent.html",
-          "hash": "7Ll8RS8XeGNE14zcSzAEAA0PI3mOaAHKbc6JaX/fDys="
+          "relative_path": "api/Fantas.Input.PinchEventArgs.html",
+          "hash": "MJo6VZnzyn8Mqejl+CYptUYfb3t6EL84dOl1IWaP/Wo="
         }
       },
       "is_incremental": true,
@@ -381,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Input.SwipeDirection.html",
-          "hash": "/IEMY06kg6CnkLk7L3HJdv5fTfoseZF0iFiuYp3Xzqs="
+          "hash": "jKWbkZGCcId1okl0ml40Fd+VI7PZa8UTgD1RVwRfdeY="
         }
       },
       "is_incremental": true,
@@ -389,11 +413,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.SwipeEvent.yml",
+      "source_relative_path": "api/Fantas.Input.SwipeEventArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Fantas.Input.SwipeEvent.html",
-          "hash": "qLaZ2hvX9nghEudOFT8aYnbxqSGDP2LPnp4Nc2G+T0c="
+          "relative_path": "api/Fantas.Input.SwipeEventArgs.html",
+          "hash": "Z3W8n/O2WixjD3Cwtl/bAc6ImTpbqbvLtZnjuFdgvag="
         }
       },
       "is_incremental": true,
@@ -401,11 +425,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.TapEvent.yml",
+      "source_relative_path": "api/Fantas.Input.TapEventArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Fantas.Input.TapEvent.html",
-          "hash": "CfOXHz3/c3qKT0hk1cNpCQd/xV5R9EKXAgeSLTWs3ig="
+          "relative_path": "api/Fantas.Input.TapEventArgs.html",
+          "hash": "QDCfa2qOeL14A49IjwoPrdnDxKCiyWNDuHtv81K9FT8="
         }
       },
       "is_incremental": true,
@@ -413,11 +437,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.ThumbstickChangedEvent.yml",
+      "source_relative_path": "api/Fantas.Input.TouchDevice.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Fantas.Input.ThumbstickChangedEvent.html",
-          "hash": "Lnyw023UQ6ujVXp7S1ppJdRx7wSYRgBfkjVUghVZfX8="
+          "relative_path": "api/Fantas.Input.TouchDevice.html",
+          "hash": "HwATB5denpCS502Qrew5vNtXc4V42xK4RVt+GoGhZ7A="
         }
       },
       "is_incremental": true,
@@ -425,11 +449,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.TouchEvent.yml",
+      "source_relative_path": "api/Fantas.Input.TouchEventArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Fantas.Input.TouchEvent.html",
-          "hash": "GgJ21Y9VJ0x3g8jzMwMpf2KA671e0Izh1dxVvuFAKnc="
+          "relative_path": "api/Fantas.Input.TouchEventArgs.html",
+          "hash": "5CcrO4BrSXrY0wSE+BaNqh1f06nS0HgyEOTOUaT7yjM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.TouchInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.TouchInfo.html",
+          "hash": "sf/ae3kK3CPmcomOnRV/8UpD+Mx0WKM4Q0AuVdBW1fo="
         }
       },
       "is_incremental": true,
@@ -441,7 +477,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Input.TouchInput.html",
-          "hash": "3a4Rd9X+KJkxMcKDemfP5Jyum2oyZWBj6VPhVxBDSnI="
+          "hash": "SPLZ3d5F/gzoSGKJUTg8fGJWltu4kdbeJtdene96JpI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.TouchState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.TouchState.html",
+          "hash": "6/6BJ1jgSyTspxuYAd9OLTue2MhleRwiY8x9qROJngI="
         }
       },
       "is_incremental": true,
@@ -453,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Input.html",
-          "hash": "5/aFwtPUFcNV/lwR6ldXEWs2cm9tZkMAzg236Ria2FU="
+          "hash": "Z0RoSW7IMEofHjK51G21JfBU4mMBdERi9c1x/UDi0xM="
         }
       },
       "is_incremental": true,
@@ -465,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.LabelHorizontalAlignmentMode.html",
-          "hash": "kQOGZqINioJjgryZZsx+DND3Sy6HP89OH4UWXN7IVD8="
+          "hash": "pdV9rrWsTQ3g8v1m7t4HePyRq1YrB6Ig2eJfTefTskA="
         }
       },
       "is_incremental": true,
@@ -477,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.LabelNode.html",
-          "hash": "7draEhuMsLlql+nfapKsAAnXf2oIUZ+NvaA0sQuPwzU="
+          "hash": "J0iTuh1s6SAX/eKhaCoVa5yweC+GMJAyG08gexXZARY="
         }
       },
       "is_incremental": true,
@@ -489,7 +537,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.LabelVerticalAlignmentMode.html",
-          "hash": "B3tyrUD1g3QGkD15zLypuv4lXX0KBeMZj9/5p+lbKrY="
+          "hash": "Hd7jlhQ28M8KARUBKlFcfTZg+PSllu+GabOCAVUkDJQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.MathClamp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.MathClamp.html",
+          "hash": "QOsHRpaVKnQ/rXNv04yvcWl4S4crn7pJ9RxPk+r4QfM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.MathLerp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.MathLerp.html",
+          "hash": "8QKIxA9CNl0Z7pfStVbSwPYLDl325EUNCrUFVdhUog0="
         }
       },
       "is_incremental": true,
@@ -501,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Node.html",
-          "hash": "2XK/VTLHZjN+gNt1APR/awlBz4cj/FxG/0I9w04Uo6M="
+          "hash": "C2KJieGcGzn/CywnyONOYj/2Ju8J3Fk0xE7B8ATV+m8="
         }
       },
       "is_incremental": true,
@@ -513,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.OutlinePosition.html",
-          "hash": "lPj5/bcOiUW9xp4M9d+M1G0mu2Tit9nuSfCj/28iZR0="
+          "hash": "9o4sHFq0F/kPwAr3KxCx89MycsGxXA+ZKBdfCG72KIM="
         }
       },
       "is_incremental": true,
@@ -525,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.ParticleEmitterNode.html",
-          "hash": "5TBuKwh/cVCez0YCiTZVwMl4SGzIH+fq2KAkawtvHG4="
+          "hash": "JkoUWIwzIxpoZ99I2o9LCOIIYhzsKm+/W14OAvh8cGM="
         }
       },
       "is_incremental": true,
@@ -537,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Physics.CircleBody.html",
-          "hash": "+JmDzmPqA+FRJDzye4MB9dIehsR3DwVj5UsUuPubkwg="
+          "hash": "EsZE20mawBREHm0wuW8AtUU0f49KtkBSdBady4IjEhg="
         }
       },
       "is_incremental": true,
@@ -549,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Physics.ContactEvent.html",
-          "hash": "7jln4jaJrcZkJwJcTx/Z1chPiykAPv7rDytU74//d2s="
+          "hash": "GcqZhAnN9MneSY10QqRUBa/53wxkpIJT3UEMcjZe/T8="
         }
       },
       "is_incremental": true,
@@ -561,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Physics.ContactHandler.html",
-          "hash": "VRCgRgHKTpe59NGvcFRASUD5K0aDX7EaNOkbhgaNUIQ="
+          "hash": "zAVKOKnJkA4Nlr4SYlsHSqSCL73J2qMveKxNQrDyK1I="
         }
       },
       "is_incremental": true,
@@ -573,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Physics.ContactInfo.html",
-          "hash": "7/6qQTTmBTh1eof9L8mXEahsJ+oNe1rvhR4gKSpnC+o="
+          "hash": "p9YRULJRRM6fzALrRmz4diRtoSGKo+OyQ3oJ8D9k210="
         }
       },
       "is_incremental": true,
@@ -585,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Physics.Edge.html",
-          "hash": "2iNlVq72QbjY08gEmpE8kgttGaHIAK/GFVIFQRLbCp4="
+          "hash": "w30msKPd2Y1BxCyfps8PERfbp+JBEY7x3YVobUJM3Rs="
         }
       },
       "is_incremental": true,
@@ -597,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Physics.NodeExtensions.html",
-          "hash": "EFk02XIkf17Cud+WaJzGvegFxuaVWhV5wkoUNXH+KZc="
+          "hash": "SumgvhHYFq4bu6OxYan+U+VmkZLLusE1v+NxrBExxv8="
         }
       },
       "is_incremental": true,
@@ -609,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Physics.PhysicsBody.html",
-          "hash": "FHqn3FF/V+gfRmI38hY5QIvAOIMMUhgpzZS2AkN92g4="
+          "hash": "0uNknSbXWQGACFs+XSI5YQwxAKEF8T/+uU0Rrvkqyh0="
         }
       },
       "is_incremental": true,
@@ -621,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Physics.PhysicsJoint.html",
-          "hash": "s8iEIdhrMWEgL/AlpazVuCHjmX3DNIuxh7+4K4aECAE="
+          "hash": "15kuYv0XNxAL3P06RfATRi9uonAy4dcOTJnvsFvXiIU="
         }
       },
       "is_incremental": true,
@@ -633,7 +705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Physics.PhysicsJointFixed.html",
-          "hash": "qQ+8b1GbZbBfxFbejfkYRGdjC6w+IiULKpTuZMeGU4E="
+          "hash": "TNv3DTZ/Ctha+yldyGN+BKoV9tDC9xoRgyj0wdqycYE="
         }
       },
       "is_incremental": true,
@@ -645,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Physics.PhysicsJointLimit.html",
-          "hash": "KY6dtRlCPtnW0/gpUNsSqdny7BT5SSXmKt2EOXnbqwc="
+          "hash": "FMMcTlSmgJMP9Di6APcOW6Hnd0Dxs7Dmm3GNpe2ASoA="
         }
       },
       "is_incremental": true,
@@ -657,7 +729,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Physics.PhysicsJointPin.html",
-          "hash": "qYB2ujPKukdb3t/5KsUyFQXwFt7a4XIas3fpH7EFdtw="
+          "hash": "wLfKy+Ff5cpNCoDTvjzYRdtlOuJ4OWIfpU67md/NZAo="
         }
       },
       "is_incremental": true,
@@ -669,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Physics.PhysicsJointSliding.html",
-          "hash": "3vEZ8vL1/gcNREq+aXJeCY+oXBhZwKXCKzETpjdRpfA="
+          "hash": "8Gkj0YH5csrIAvS1t8APmDsVvYX9j57K4cWvtZRaUtY="
         }
       },
       "is_incremental": true,
@@ -681,7 +753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Physics.PhysicsJointSpring.html",
-          "hash": "2dxV4ScjnGGYY4L0fAxGfOfeFupYZdOn9elFAYDjXJo="
+          "hash": "pKA1z+QLZASQNsQ4WOksaOkYxn32Jl+969R21nzVcAU="
         }
       },
       "is_incremental": true,
@@ -693,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Physics.PhysicsWorld.html",
-          "hash": "S2dSxbEtcswmRXw2QJaxOnhkBrrSgTYBjcPdY38Bnas="
+          "hash": "uDX0PfEtQEl5q4V8FYpImCAwHs6XqSwHx4RppSIzw4g="
         }
       },
       "is_incremental": true,
@@ -705,7 +777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Physics.PolygonBody.html",
-          "hash": "6IfJgLpDgfZG8jbT/YKM2K9sXpx01R+M7M5yc4C2Nko="
+          "hash": "0EhTcxrdPwdOy2BYyvXg0KTBvRotvUN3Grc/afTIArM="
         }
       },
       "is_incremental": true,
@@ -717,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Physics.PolygonEdge.html",
-          "hash": "wP+e9Y5lKw2cs2nmZO6w+hSwVkm8Pqo40CGIyne56lY="
+          "hash": "BD2QQqvxexjKDNEMb1NfNbnFVuBBCJGUR/Eyd15w06I="
         }
       },
       "is_incremental": true,
@@ -729,7 +801,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Physics.RaycastHit.html",
-          "hash": "yNi0WNB2N8viiCYMX4ae/g5o4hoUnP1PbuV36RCBSqU="
+          "hash": "Xcyjz0mnuXl+J0HlnU/fJm5GRjFC6DcEHti+6K5KWFk="
         }
       },
       "is_incremental": true,
@@ -741,7 +813,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Physics.RectangleBody.html",
-          "hash": "kL0z0G8b33nITAjadmegFpezTM9ch96UDwKRIpKhrbQ="
+          "hash": "uTTKXS/ZNr/jqoVL6HLio20sID8poxAnQSN3kxUlR+o="
         }
       },
       "is_incremental": true,
@@ -753,7 +825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Physics.RectangleEdge.html",
-          "hash": "G0R4r1FBgt4/yxDuWkZ8ME+61YCY+g2YMYb4vLie/3s="
+          "hash": "jkfyQTwS+JWjkdQE7R/VsijOUjDEqEBFVsaUI8mt4Ac="
         }
       },
       "is_incremental": true,
@@ -765,7 +837,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Physics.html",
-          "hash": "jS7sz0bu6FA3H0tJME0kFUaRIJFa1h64w9NV/KtpIWQ="
+          "hash": "d4Bj2fAbnPrbU2UNKlQ/xyDGJWcvkoOZ4SBzGv1+16Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.PointExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.PointExtension.html",
+          "hash": "1ZNcO3YKVZODR+WP3nAGZEJ6lRuH2aCsy+ZQr9FkevI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.RandomExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.RandomExtensions.html",
+          "hash": "UUF/AeTVhXHg6EA8IMJ7dA6j0/IrH+vxpvjxGeHh8+M="
         }
       },
       "is_incremental": true,
@@ -777,7 +873,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.RectangleExtensions.html",
-          "hash": "KOMyUXcYDwibqP7ZFo1mIXPmjQsa0pTaIGO1cbaCocY="
+          "hash": "fQ4e7vXunxDdpsb0jzCekVGdZDGAkxqBAELSEcA7yEk="
         }
       },
       "is_incremental": true,
@@ -789,7 +885,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.RectangleNode.html",
-          "hash": "Xy4uf73R6Q/YwMUhVsxgnvSiqfi1y/rt2SnwYyVgIuc="
+          "hash": "zFyOSKa+EWUZ8g6lDZV/vXhD8tyE+uhvosNkjhlVB9U="
         }
       },
       "is_incremental": true,
@@ -801,7 +897,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Scene.html",
-          "hash": "c2riZ9SnoSYFmSK3r09jrjGYVALUzhPT2XFIhEXl+aY="
+          "hash": "+ieou4p3oZ3F/1q73cjw6i4WgXQvh3ldjAfNpYBMM1Q="
         }
       },
       "is_incremental": true,
@@ -813,7 +909,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.SceneScaleMode.html",
-          "hash": "Tiwd3xUVe+6jtekQjgUgPMSc46DjY/Ivi5LAgECE/Wg="
+          "hash": "+UUgi1949NT7qvmS3ZzAGCsLGciOBEpIKVOKx/R1CvY="
         }
       },
       "is_incremental": true,
@@ -825,7 +921,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.ShapeNode.html",
-          "hash": "a+xbgHxr4rJ+n+hA6GkWpFxV2JAXC9cJjzAOC4AH898="
+          "hash": "9+UdgaMulgiQq4/fKpVTcm8DgpMhsgOUPzy5gyToJ3w="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.SpriteLineNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.SpriteLineNode.html",
+          "hash": "AmgTc3fFWdNsi6+idd9YE/l1+A1cNk2bMgl+CBw1EN8="
         }
       },
       "is_incremental": true,
@@ -837,7 +945,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.SpriteNode.html",
-          "hash": "T2qz11+gA9cYbNyp+BOEpNI4PIKgNxoGRvQbDxPfXgw="
+          "hash": "s+v1X7rEgot3bA9ebWodrqU9Ykj/l+dQ3uNa4wQSy64="
         }
       },
       "is_incremental": true,
@@ -849,7 +957,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Texture.html",
-          "hash": "xlqGg9zbRmGcjjzz4n5FqMjoSKfZiEhq029hfTW6UgM="
+          "hash": "6ltSyF7o/wTTHcaq/nihIS70G+jShGY7BzwqnEoE1+M="
         }
       },
       "is_incremental": true,
@@ -861,7 +969,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.TextureAtlas.html",
-          "hash": "Lx7ny9yTxKxZtTuDpA0X4EO3IVIaJ2FQKvJwVvyyI2E="
+          "hash": "PzyvURyMjagWX4RwD4T3t/ab9rbkrePvPfj2ukFNMFg="
         }
       },
       "is_incremental": true,
@@ -873,7 +981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.Time.html",
-          "hash": "EWmtkr/xbDmBKC70FgEufbSzoNJQ0QiV/U5hH/dOpZw="
+          "hash": "acGp1eCIeuBfOJQ5oIXP/uLXD+7YAM5j79gP97SOslE="
         }
       },
       "is_incremental": true,
@@ -885,7 +993,67 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.TriangleNode.html",
-          "hash": "zJN+EGtsEWZXO7YUP2HVoBMyktILBqtl8oqiqHP6LrU="
+          "hash": "grYhdcxgcouDFdbIfprHeJ2X6WL5Fubho8895La7VEQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.UI.ButtonNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.UI.ButtonNode.html",
+          "hash": "Ijsphm5wtXR2Pl4KY/MTCDlxGpr4bUH96GJWKFeMCfM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.UI.ControlNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.UI.ControlNode.html",
+          "hash": "JKjWF+oKIpBbMxd1nq3jR56gPpFB4S/X+7vWyIzx1vY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.UI.ControlState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.UI.ControlState.html",
+          "hash": "aWFd/AVeok8uEftjz9Rckwnyn+O4C8P43biz6LxUXrE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.UI.html",
+          "hash": "daY25SMk/ylo10/J4wzy704LuLqTE5De19YEAbdpr6k="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Vector2Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Vector2Extensions.html",
+          "hash": "VpM6AlXbIHTg5QzYgeJgUf4baLLxrmuNGiHG6e7gSNg="
         }
       },
       "is_incremental": true,
@@ -897,7 +1065,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Fantas.html",
-          "hash": "1EUKyvPAZfCW5JuNZt0olD3fKFI0sN/NKg2TVd4bneY="
+          "hash": "ToW6lbnxG72HuQSv5mAwFuQKG3iVaawMRru9IGvaQAI="
         }
       },
       "is_incremental": true,
@@ -909,7 +1077,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "LMtoYcy9+3OZKX4XW1QNti6jMH2VBFdFRFmpZpCpyqQ="
+          "hash": "2fll4gokjADWmf5Z3S/FczimTBo2NvLNftgxDqIA3PA="
         }
       },
       "is_incremental": true,
@@ -921,7 +1089,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "qfKgJtAVRmIDpYCeljbX+qaf8MRF/mHVJZ8xaPQ6HTE="
+          "hash": "dzisQGq4ch2rlHkh+/aM1oAjMnOrx5S3cTFotm9Raxo="
         }
       },
       "is_incremental": false,
@@ -933,7 +1101,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "JLHO/z5N5hv1Gp4MHbTw0SjE2TByE7zu/5enM6aB1tc="
+          "hash": "GDkeZsAtbYhIfCvDlojgjUbvuMHmaqUVYf1ntYBVsIA="
         }
       },
       "is_incremental": true,
@@ -949,6 +1117,18 @@
         }
       },
       "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "eula.md",
+      "output": {
+        ".html": {
+          "relative_path": "eula.html",
+          "hash": "JzjIT0apk11CVutssvPh1Mj3Pss50nuNx7Cu47IeXsI="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1007,12 +1187,48 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/fantas_small.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/fantas_small.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/screenshort_vs.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/screenshort_vs.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/screenshot.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/screenshot.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "OSTZqEQZe2PUIo7+xgvjpeZ/bcEYciJEqxRZri6ydBE="
+          "hash": "lFiPs19Bmmq3BWNGnUHFBAFHOByJElg7sFh46HMrzj8="
         }
       },
       "is_incremental": true,
@@ -1027,6 +1243,18 @@
         }
       },
       "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "setup_windows.md",
+      "output": {
+        ".html": {
+          "relative_path": "setup_windows.html",
+          "hash": "Bm67aR2xEMK1bOx4e9FyvQyL9JX0Hvv/imi7OJP1AcU="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1054,14 +1282,14 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 4,
-          "skipped_file_count": 4
+          "total_file_count": 6,
+          "skipped_file_count": 6
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 75,
-          "skipped_file_count": 75
+          "total_file_count": 89,
+          "skipped_file_count": 89
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
