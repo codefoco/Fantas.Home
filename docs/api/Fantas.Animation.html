@@ -1107,6 +1107,226 @@ The animations will run in parallel
   </table>
   
   
+  <a id="Fantas_Animation_MoveXBy_" data-uid="Fantas.Animation.MoveXBy*"></a>
+  <h4 id="Fantas_Animation_MoveXBy_System_Single_System_Double_" data-uid="Fantas.Animation.MoveXBy(System.Single,System.Double)">MoveXBy(Single, Double)</h4>
+  <div class="markdown level1 summary"><p>Move a node horizontally relative to the current position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation MoveXBy(float deltaX, double duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">deltaX</span></td>
+        <td><p>Delta X</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>Duration (in Seconds)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Animation.html">Animation</a></td>
+        <td><p>Animation object that can be executed on a Node</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Animation_MoveYBy_" data-uid="Fantas.Animation.MoveYBy*"></a>
+  <h4 id="Fantas_Animation_MoveYBy_System_Single_System_Double_" data-uid="Fantas.Animation.MoveYBy(System.Single,System.Double)">MoveYBy(Single, Double)</h4>
+  <div class="markdown level1 summary"><p>Move a node vertically relative to the current position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation MoveYBy(float deltaY, double duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">deltaY</span></td>
+        <td><p>Delta Y</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>Duration (in Seconds)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Animation.html">Animation</a></td>
+        <td><p>Animation object that can be executed on a Node</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Animation_OrbitNode_" data-uid="Fantas.Animation.OrbitNode*"></a>
+  <h4 id="Fantas_Animation_OrbitNode_Fantas_Node_System_Double_System_Double_System_Double_" data-uid="Fantas.Animation.OrbitNode(Fantas.Node,System.Double,System.Double,System.Double)">OrbitNode(Node, Double, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Rotate Node around another Node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation OrbitNode(Node center, double angle, double duration, double factor = 1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Node.html">Node</a></td>
+        <td><span class="parametername">center</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">angle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">factor</span></td>
+        <td><p>Radius factor for the end of the orbit (1 remain same)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Animation.html">Animation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Animation_OrbitPoint_" data-uid="Fantas.Animation.OrbitPoint*"></a>
+  <h4 id="Fantas_Animation_OrbitPoint_System_Drawing_PointF_System_Double_System_Double_System_Double_" data-uid="Fantas.Animation.OrbitPoint(System.Drawing.PointF,System.Double,System.Double,System.Double)">OrbitPoint(PointF, Double, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Rotate Node around a pivot</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation OrbitPoint(PointF center, double angle, double duration, double factor = 1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Drawing.PointF</span></td>
+        <td><span class="parametername">center</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">angle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">factor</span></td>
+        <td><p>Radius factor for the end of the orbit (1 remain same)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Animation.html">Animation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Fantas_Animation_RemoveFromParent_" data-uid="Fantas.Animation.RemoveFromParent*"></a>
   <h4 id="Fantas_Animation_RemoveFromParent" data-uid="Fantas.Animation.RemoveFromParent">RemoveFromParent()</h4>
   <div class="markdown level1 summary"><p>When performed, removed the Node from the parent.</p>
@@ -1980,6 +2200,118 @@ a1 -&gt; a2 -&gt; a3</p>
         <td><a class="xref" href="Fantas.Animation.html">Animation</a></td>
         <td><p>Animation object that can be executed on a SpriteNode</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Animation_SineHorizontal_" data-uid="Fantas.Animation.SineHorizontal*"></a>
+  <h4 id="Fantas_Animation_SineHorizontal_System_Single_System_Single_System_Double_" data-uid="Fantas.Animation.SineHorizontal(System.Single,System.Single,System.Double)">SineHorizontal(Single, Single, Double)</h4>
+  <div class="markdown level1 summary"><p>Oscillate node vertical position using a Sine wave</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation SineHorizontal(float amplitude, float frequency, double duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">amplitude</span></td>
+        <td><p>Amplitude of sine movement</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">frequency</span></td>
+        <td><p>Frequency of oscilation</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>Duration of oscilation in seconds</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Animation.html">Animation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Animation_SineVertical_" data-uid="Fantas.Animation.SineVertical*"></a>
+  <h4 id="Fantas_Animation_SineVertical_System_Single_System_Single_System_Double_" data-uid="Fantas.Animation.SineVertical(System.Single,System.Single,System.Double)">SineVertical(Single, Single, Double)</h4>
+  <div class="markdown level1 summary"><p>Oscillate node vertical position using a Sine wave</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation SineVertical(float amplitude, float frequency, double duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">amplitude</span></td>
+        <td><p>Amplitude of sine movement</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">frequency</span></td>
+        <td><p>Frequency of oscilation</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>Duration of oscilation in seconds</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Animation.html">Animation</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>

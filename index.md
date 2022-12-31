@@ -22,7 +22,7 @@ The design and the architecture of Fantas were heavily influenced by other .NET 
 Fantas is commercial product, in other to use read the end user license agreemen
 
 ## Quick Start:
-* [Windows](setup_windows.md)
-* [macOS](setup_mac.md)
-* [Linux](setup_linux.md)
+* [Windows](windows.md)
+* [macOS](mac.md)
+* [Linux](linux.md)
 

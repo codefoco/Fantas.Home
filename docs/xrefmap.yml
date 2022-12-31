@@ -235,6 +235,54 @@ references:
   commentId: Overload:Fantas.Animation.MoveToY
   fullName: Fantas.Animation.MoveToY
   nameWithType: Animation.MoveToY
+- uid: Fantas.Animation.MoveXBy(System.Single,System.Double)
+  name: MoveXBy(Single, Double)
+  href: api/Fantas.Animation.html#Fantas_Animation_MoveXBy_System_Single_System_Double_
+  commentId: M:Fantas.Animation.MoveXBy(System.Single,System.Double)
+  fullName: Fantas.Animation.MoveXBy(System.Single, System.Double)
+  nameWithType: Animation.MoveXBy(Single, Double)
+- uid: Fantas.Animation.MoveXBy*
+  name: MoveXBy
+  href: api/Fantas.Animation.html#Fantas_Animation_MoveXBy_
+  commentId: Overload:Fantas.Animation.MoveXBy
+  fullName: Fantas.Animation.MoveXBy
+  nameWithType: Animation.MoveXBy
+- uid: Fantas.Animation.MoveYBy(System.Single,System.Double)
+  name: MoveYBy(Single, Double)
+  href: api/Fantas.Animation.html#Fantas_Animation_MoveYBy_System_Single_System_Double_
+  commentId: M:Fantas.Animation.MoveYBy(System.Single,System.Double)
+  fullName: Fantas.Animation.MoveYBy(System.Single, System.Double)
+  nameWithType: Animation.MoveYBy(Single, Double)
+- uid: Fantas.Animation.MoveYBy*
+  name: MoveYBy
+  href: api/Fantas.Animation.html#Fantas_Animation_MoveYBy_
+  commentId: Overload:Fantas.Animation.MoveYBy
+  fullName: Fantas.Animation.MoveYBy
+  nameWithType: Animation.MoveYBy
+- uid: Fantas.Animation.OrbitNode(Fantas.Node,System.Double,System.Double,System.Double)
+  name: OrbitNode(Node, Double, Double, Double)
+  href: api/Fantas.Animation.html#Fantas_Animation_OrbitNode_Fantas_Node_System_Double_System_Double_System_Double_
+  commentId: M:Fantas.Animation.OrbitNode(Fantas.Node,System.Double,System.Double,System.Double)
+  fullName: Fantas.Animation.OrbitNode(Fantas.Node, System.Double, System.Double, System.Double)
+  nameWithType: Animation.OrbitNode(Node, Double, Double, Double)
+- uid: Fantas.Animation.OrbitNode*
+  name: OrbitNode
+  href: api/Fantas.Animation.html#Fantas_Animation_OrbitNode_
+  commentId: Overload:Fantas.Animation.OrbitNode
+  fullName: Fantas.Animation.OrbitNode
+  nameWithType: Animation.OrbitNode
+- uid: Fantas.Animation.OrbitPoint(System.Drawing.PointF,System.Double,System.Double,System.Double)
+  name: OrbitPoint(PointF, Double, Double, Double)
+  href: api/Fantas.Animation.html#Fantas_Animation_OrbitPoint_System_Drawing_PointF_System_Double_System_Double_System_Double_
+  commentId: M:Fantas.Animation.OrbitPoint(System.Drawing.PointF,System.Double,System.Double,System.Double)
+  fullName: Fantas.Animation.OrbitPoint(System.Drawing.PointF, System.Double, System.Double, System.Double)
+  nameWithType: Animation.OrbitPoint(PointF, Double, Double, Double)
+- uid: Fantas.Animation.OrbitPoint*
+  name: OrbitPoint
+  href: api/Fantas.Animation.html#Fantas_Animation_OrbitPoint_
+  commentId: Overload:Fantas.Animation.OrbitPoint
+  fullName: Fantas.Animation.OrbitPoint
+  nameWithType: Animation.OrbitPoint
 - uid: Fantas.Animation.RemoveFromParent
   name: RemoveFromParent()
   href: api/Fantas.Animation.html#Fantas_Animation_RemoveFromParent
@@ -448,6 +496,30 @@ references:
   commentId: Overload:Fantas.Animation.SetTexture
   fullName: Fantas.Animation.SetTexture
   nameWithType: Animation.SetTexture
+- uid: Fantas.Animation.SineHorizontal(System.Single,System.Single,System.Double)
+  name: SineHorizontal(Single, Single, Double)
+  href: api/Fantas.Animation.html#Fantas_Animation_SineHorizontal_System_Single_System_Single_System_Double_
+  commentId: M:Fantas.Animation.SineHorizontal(System.Single,System.Single,System.Double)
+  fullName: Fantas.Animation.SineHorizontal(System.Single, System.Single, System.Double)
+  nameWithType: Animation.SineHorizontal(Single, Single, Double)
+- uid: Fantas.Animation.SineHorizontal*
+  name: SineHorizontal
+  href: api/Fantas.Animation.html#Fantas_Animation_SineHorizontal_
+  commentId: Overload:Fantas.Animation.SineHorizontal
+  fullName: Fantas.Animation.SineHorizontal
+  nameWithType: Animation.SineHorizontal
+- uid: Fantas.Animation.SineVertical(System.Single,System.Single,System.Double)
+  name: SineVertical(Single, Single, Double)
+  href: api/Fantas.Animation.html#Fantas_Animation_SineVertical_System_Single_System_Single_System_Double_
+  commentId: M:Fantas.Animation.SineVertical(System.Single,System.Single,System.Double)
+  fullName: Fantas.Animation.SineVertical(System.Single, System.Single, System.Double)
+  nameWithType: Animation.SineVertical(Single, Single, Double)
+- uid: Fantas.Animation.SineVertical*
+  name: SineVertical
+  href: api/Fantas.Animation.html#Fantas_Animation_SineVertical_
+  commentId: Overload:Fantas.Animation.SineVertical
+  fullName: Fantas.Animation.SineVertical
+  nameWithType: Animation.SineVertical
 - uid: Fantas.Animation.Speed
   name: Speed
   href: api/Fantas.Animation.html#Fantas_Animation_Speed
@@ -4891,6 +4963,18 @@ references:
   commentId: Overload:Fantas.Node.Alpha
   fullName: Fantas.Node.Alpha
   nameWithType: Node.Alpha
+- uid: Fantas.Node.Bottom
+  name: Bottom
+  href: api/Fantas.Node.html#Fantas_Node_Bottom
+  commentId: P:Fantas.Node.Bottom
+  fullName: Fantas.Node.Bottom
+  nameWithType: Node.Bottom
+- uid: Fantas.Node.Bottom*
+  name: Bottom
+  href: api/Fantas.Node.html#Fantas_Node_Bottom_
+  commentId: Overload:Fantas.Node.Bottom
+  fullName: Fantas.Node.Bottom
+  nameWithType: Node.Bottom
 - uid: Fantas.Node.CalculateAccumulatedFrame
   name: CalculateAccumulatedFrame()
   href: api/Fantas.Node.html#Fantas_Node_CalculateAccumulatedFrame
@@ -4903,6 +4987,18 @@ references:
   commentId: Overload:Fantas.Node.CalculateAccumulatedFrame
   fullName: Fantas.Node.CalculateAccumulatedFrame
   nameWithType: Node.CalculateAccumulatedFrame
+- uid: Fantas.Node.Center
+  name: Center
+  href: api/Fantas.Node.html#Fantas_Node_Center
+  commentId: P:Fantas.Node.Center
+  fullName: Fantas.Node.Center
+  nameWithType: Node.Center
+- uid: Fantas.Node.Center*
+  name: Center
+  href: api/Fantas.Node.html#Fantas_Node_Center_
+  commentId: Overload:Fantas.Node.Center
+  fullName: Fantas.Node.Center
+  nameWithType: Node.Center
 - uid: Fantas.Node.Children
   name: Children
   href: api/Fantas.Node.html#Fantas_Node_Children
@@ -5065,6 +5161,18 @@ references:
   commentId: Overload:Fantas.Node.HasAnimation
   fullName: Fantas.Node.HasAnimation
   nameWithType: Node.HasAnimation
+- uid: Fantas.Node.Height
+  name: Height
+  href: api/Fantas.Node.html#Fantas_Node_Height
+  commentId: P:Fantas.Node.Height
+  fullName: Fantas.Node.Height
+  nameWithType: Node.Height
+- uid: Fantas.Node.Height*
+  name: Height
+  href: api/Fantas.Node.html#Fantas_Node_Height_
+  commentId: Overload:Fantas.Node.Height
+  fullName: Fantas.Node.Height
+  nameWithType: Node.Height
 - uid: Fantas.Node.Hidden
   name: Hidden
   href: api/Fantas.Node.html#Fantas_Node_Hidden
@@ -5149,6 +5257,18 @@ references:
   commentId: Overload:Fantas.Node.IsTouchOver
   fullName: Fantas.Node.IsTouchOver
   nameWithType: Node.IsTouchOver
+- uid: Fantas.Node.Left
+  name: Left
+  href: api/Fantas.Node.html#Fantas_Node_Left
+  commentId: P:Fantas.Node.Left
+  fullName: Fantas.Node.Left
+  nameWithType: Node.Left
+- uid: Fantas.Node.Left*
+  name: Left
+  href: api/Fantas.Node.html#Fantas_Node_Left_
+  commentId: Overload:Fantas.Node.Left
+  fullName: Fantas.Node.Left
+  nameWithType: Node.Left
 - uid: Fantas.Node.LongPress
   name: LongPress
   href: api/Fantas.Node.html#Fantas_Node_LongPress
@@ -5221,6 +5341,48 @@ references:
   commentId: Overload:Fantas.Node.Name
   fullName: Fantas.Node.Name
   nameWithType: Node.Name
+- uid: Fantas.Node.Offset(System.Numerics.Vector2)
+  name: Offset(Vector2)
+  href: api/Fantas.Node.html#Fantas_Node_Offset_System_Numerics_Vector2_
+  commentId: M:Fantas.Node.Offset(System.Numerics.Vector2)
+  fullName: Fantas.Node.Offset(System.Numerics.Vector2)
+  nameWithType: Node.Offset(Vector2)
+- uid: Fantas.Node.Offset(System.Single,System.Single)
+  name: Offset(Single, Single)
+  href: api/Fantas.Node.html#Fantas_Node_Offset_System_Single_System_Single_
+  commentId: M:Fantas.Node.Offset(System.Single,System.Single)
+  fullName: Fantas.Node.Offset(System.Single, System.Single)
+  nameWithType: Node.Offset(Single, Single)
+- uid: Fantas.Node.Offset*
+  name: Offset
+  href: api/Fantas.Node.html#Fantas_Node_Offset_
+  commentId: Overload:Fantas.Node.Offset
+  fullName: Fantas.Node.Offset
+  nameWithType: Node.Offset
+- uid: Fantas.Node.OffsetX(System.Single)
+  name: OffsetX(Single)
+  href: api/Fantas.Node.html#Fantas_Node_OffsetX_System_Single_
+  commentId: M:Fantas.Node.OffsetX(System.Single)
+  fullName: Fantas.Node.OffsetX(System.Single)
+  nameWithType: Node.OffsetX(Single)
+- uid: Fantas.Node.OffsetX*
+  name: OffsetX
+  href: api/Fantas.Node.html#Fantas_Node_OffsetX_
+  commentId: Overload:Fantas.Node.OffsetX
+  fullName: Fantas.Node.OffsetX
+  nameWithType: Node.OffsetX
+- uid: Fantas.Node.OffsetY(System.Single)
+  name: OffsetY(Single)
+  href: api/Fantas.Node.html#Fantas_Node_OffsetY_System_Single_
+  commentId: M:Fantas.Node.OffsetY(System.Single)
+  fullName: Fantas.Node.OffsetY(System.Single)
+  nameWithType: Node.OffsetY(Single)
+- uid: Fantas.Node.OffsetY*
+  name: OffsetY
+  href: api/Fantas.Node.html#Fantas_Node_OffsetY_
+  commentId: Overload:Fantas.Node.OffsetY
+  fullName: Fantas.Node.OffsetY
+  nameWithType: Node.OffsetY
 - uid: Fantas.Node.OnClick(Fantas.Input.MouseEventArgs)
   name: OnClick(MouseEventArgs)
   href: api/Fantas.Node.html#Fantas_Node_OnClick_Fantas_Input_MouseEventArgs_
@@ -5560,6 +5722,18 @@ references:
   commentId: Overload:Fantas.Node.RenderToTexture
   fullName: Fantas.Node.RenderToTexture
   nameWithType: Node.RenderToTexture
+- uid: Fantas.Node.Right
+  name: Right
+  href: api/Fantas.Node.html#Fantas_Node_Right
+  commentId: P:Fantas.Node.Right
+  fullName: Fantas.Node.Right
+  nameWithType: Node.Right
+- uid: Fantas.Node.Right*
+  name: Right
+  href: api/Fantas.Node.html#Fantas_Node_Right_
+  commentId: Overload:Fantas.Node.Right
+  fullName: Fantas.Node.Right
+  nameWithType: Node.Right
 - uid: Fantas.Node.RunAnimation(Fantas.Animation)
   name: RunAnimation(Animation)
   href: api/Fantas.Node.html#Fantas_Node_RunAnimation_Fantas_Animation_
@@ -5650,6 +5824,18 @@ references:
   commentId: E:Fantas.Node.Tap
   fullName: Fantas.Node.Tap
   nameWithType: Node.Tap
+- uid: Fantas.Node.Top
+  name: Top
+  href: api/Fantas.Node.html#Fantas_Node_Top
+  commentId: P:Fantas.Node.Top
+  fullName: Fantas.Node.Top
+  nameWithType: Node.Top
+- uid: Fantas.Node.Top*
+  name: Top
+  href: api/Fantas.Node.html#Fantas_Node_Top_
+  commentId: Overload:Fantas.Node.Top
+  fullName: Fantas.Node.Top
+  nameWithType: Node.Top
 - uid: Fantas.Node.ToString
   name: ToString()
   href: api/Fantas.Node.html#Fantas_Node_ToString
@@ -5716,6 +5902,30 @@ references:
   commentId: E:Fantas.Node.TouchUpOutside
   fullName: Fantas.Node.TouchUpOutside
   nameWithType: Node.TouchUpOutside
+- uid: Fantas.Node.Width
+  name: Width
+  href: api/Fantas.Node.html#Fantas_Node_Width
+  commentId: P:Fantas.Node.Width
+  fullName: Fantas.Node.Width
+  nameWithType: Node.Width
+- uid: Fantas.Node.Width*
+  name: Width
+  href: api/Fantas.Node.html#Fantas_Node_Width_
+  commentId: Overload:Fantas.Node.Width
+  fullName: Fantas.Node.Width
+  nameWithType: Node.Width
+- uid: Fantas.Node.X
+  name: X
+  href: api/Fantas.Node.html#Fantas_Node_X
+  commentId: P:Fantas.Node.X
+  fullName: Fantas.Node.X
+  nameWithType: Node.X
+- uid: Fantas.Node.X*
+  name: X
+  href: api/Fantas.Node.html#Fantas_Node_X_
+  commentId: Overload:Fantas.Node.X
+  fullName: Fantas.Node.X
+  nameWithType: Node.X
 - uid: Fantas.Node.XScale
   name: XScale
   href: api/Fantas.Node.html#Fantas_Node_XScale
@@ -5728,6 +5938,18 @@ references:
   commentId: Overload:Fantas.Node.XScale
   fullName: Fantas.Node.XScale
   nameWithType: Node.XScale
+- uid: Fantas.Node.Y
+  name: Y
+  href: api/Fantas.Node.html#Fantas_Node_Y
+  commentId: P:Fantas.Node.Y
+  fullName: Fantas.Node.Y
+  nameWithType: Node.Y
+- uid: Fantas.Node.Y*
+  name: Y
+  href: api/Fantas.Node.html#Fantas_Node_Y_
+  commentId: Overload:Fantas.Node.Y
+  fullName: Fantas.Node.Y
+  nameWithType: Node.Y
 - uid: Fantas.Node.YScale
   name: YScale
   href: api/Fantas.Node.html#Fantas_Node_YScale
@@ -8734,6 +8956,66 @@ references:
   commentId: Overload:Fantas.SpriteNode.Copy
   fullName: Fantas.SpriteNode.Copy
   nameWithType: SpriteNode.Copy
+- uid: Fantas.SpriteNode.ExpandHeight(System.Single)
+  name: ExpandHeight(Single)
+  href: api/Fantas.SpriteNode.html#Fantas_SpriteNode_ExpandHeight_System_Single_
+  commentId: M:Fantas.SpriteNode.ExpandHeight(System.Single)
+  fullName: Fantas.SpriteNode.ExpandHeight(System.Single)
+  nameWithType: SpriteNode.ExpandHeight(Single)
+- uid: Fantas.SpriteNode.ExpandHeight*
+  name: ExpandHeight
+  href: api/Fantas.SpriteNode.html#Fantas_SpriteNode_ExpandHeight_
+  commentId: Overload:Fantas.SpriteNode.ExpandHeight
+  fullName: Fantas.SpriteNode.ExpandHeight
+  nameWithType: SpriteNode.ExpandHeight
+- uid: Fantas.SpriteNode.ExpandWidth(System.Single)
+  name: ExpandWidth(Single)
+  href: api/Fantas.SpriteNode.html#Fantas_SpriteNode_ExpandWidth_System_Single_
+  commentId: M:Fantas.SpriteNode.ExpandWidth(System.Single)
+  fullName: Fantas.SpriteNode.ExpandWidth(System.Single)
+  nameWithType: SpriteNode.ExpandWidth(Single)
+- uid: Fantas.SpriteNode.ExpandWidth*
+  name: ExpandWidth
+  href: api/Fantas.SpriteNode.html#Fantas_SpriteNode_ExpandWidth_
+  commentId: Overload:Fantas.SpriteNode.ExpandWidth
+  fullName: Fantas.SpriteNode.ExpandWidth
+  nameWithType: SpriteNode.ExpandWidth
+- uid: Fantas.SpriteNode.Height
+  name: Height
+  href: api/Fantas.SpriteNode.html#Fantas_SpriteNode_Height
+  commentId: P:Fantas.SpriteNode.Height
+  fullName: Fantas.SpriteNode.Height
+  nameWithType: SpriteNode.Height
+- uid: Fantas.SpriteNode.Height*
+  name: Height
+  href: api/Fantas.SpriteNode.html#Fantas_SpriteNode_Height_
+  commentId: Overload:Fantas.SpriteNode.Height
+  fullName: Fantas.SpriteNode.Height
+  nameWithType: SpriteNode.Height
+- uid: Fantas.SpriteNode.Inflate(System.Numerics.Vector2)
+  name: Inflate(Vector2)
+  href: api/Fantas.SpriteNode.html#Fantas_SpriteNode_Inflate_System_Numerics_Vector2_
+  commentId: M:Fantas.SpriteNode.Inflate(System.Numerics.Vector2)
+  fullName: Fantas.SpriteNode.Inflate(System.Numerics.Vector2)
+  nameWithType: SpriteNode.Inflate(Vector2)
+- uid: Fantas.SpriteNode.Inflate(System.Single)
+  name: Inflate(Single)
+  href: api/Fantas.SpriteNode.html#Fantas_SpriteNode_Inflate_System_Single_
+  commentId: M:Fantas.SpriteNode.Inflate(System.Single)
+  fullName: Fantas.SpriteNode.Inflate(System.Single)
+  nameWithType: SpriteNode.Inflate(Single)
+- uid: Fantas.SpriteNode.Inflate(System.Single,System.Single)
+  name: Inflate(Single, Single)
+  href: api/Fantas.SpriteNode.html#Fantas_SpriteNode_Inflate_System_Single_System_Single_
+  commentId: M:Fantas.SpriteNode.Inflate(System.Single,System.Single)
+  fullName: Fantas.SpriteNode.Inflate(System.Single, System.Single)
+  nameWithType: SpriteNode.Inflate(Single, Single)
+- uid: Fantas.SpriteNode.Inflate*
+  name: Inflate
+  href: api/Fantas.SpriteNode.html#Fantas_SpriteNode_Inflate_
+  commentId: Overload:Fantas.SpriteNode.Inflate
+  fullName: Fantas.SpriteNode.Inflate
+  nameWithType: SpriteNode.Inflate
 - uid: Fantas.SpriteNode.ScaleTo(System.Drawing.SizeF)
   name: ScaleTo(SizeF)
   href: api/Fantas.SpriteNode.html#Fantas_SpriteNode_ScaleTo_System_Drawing_SizeF_
@@ -8794,6 +9076,18 @@ references:
   commentId: Overload:Fantas.SpriteNode.TopRightColor
   fullName: Fantas.SpriteNode.TopRightColor
   nameWithType: SpriteNode.TopRightColor
+- uid: Fantas.SpriteNode.Width
+  name: Width
+  href: api/Fantas.SpriteNode.html#Fantas_SpriteNode_Width
+  commentId: P:Fantas.SpriteNode.Width
+  fullName: Fantas.SpriteNode.Width
+  nameWithType: SpriteNode.Width
+- uid: Fantas.SpriteNode.Width*
+  name: Width
+  href: api/Fantas.SpriteNode.html#Fantas_SpriteNode_Width_
+  commentId: Overload:Fantas.SpriteNode.Width
+  fullName: Fantas.SpriteNode.Width
+  nameWithType: SpriteNode.Width
 - uid: Fantas.Texture
   name: Texture
   href: api/Fantas.Texture.html

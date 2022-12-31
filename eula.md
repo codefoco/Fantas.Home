@@ -1,5 +1,5 @@
 
-```
+```text
 
 END USER LICENSE AGREEMENT FOR FANTAS
 

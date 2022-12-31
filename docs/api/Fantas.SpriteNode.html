@@ -90,6 +90,18 @@
       <a class="xref" href="Fantas.Node.html#Fantas_Node_ToString">Node.ToString()</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Offset_System_Numerics_Vector2_">Node.Offset(Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Offset_System_Single_System_Single_">Node.Offset(Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OffsetX_System_Single_">Node.OffsetX(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OffsetY_System_Single_">Node.OffsetY(Single)</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_CalculateAccumulatedFrame">Node.CalculateAccumulatedFrame()</a>
     </div>
     <div>
@@ -229,6 +241,27 @@
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_Frame">Node.Frame</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_X">Node.X</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Y">Node.Y</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Center">Node.Center</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Left">Node.Left</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Right">Node.Right</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Top">Node.Top</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Bottom">Node.Bottom</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_ZPosition">Node.ZPosition</a>
@@ -631,6 +664,32 @@
   </table>
   
   
+  <a id="Fantas_SpriteNode_Height_" data-uid="Fantas.SpriteNode.Height*"></a>
+  <h4 id="Fantas_SpriteNode_Height" data-uid="Fantas.SpriteNode.Height">Height</h4>
+  <div class="markdown level1 summary"><p>Height of SpriteNode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Height { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Fantas_SpriteNode_Size_" data-uid="Fantas.SpriteNode.Size*"></a>
   <h4 id="Fantas_SpriteNode_Size" data-uid="Fantas.SpriteNode.Size">Size</h4>
   <div class="markdown level1 summary"><p>Sprite node size</p>
@@ -733,6 +792,32 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Fantas_SpriteNode_Width_" data-uid="Fantas.SpriteNode.Width*"></a>
+  <h4 id="Fantas_SpriteNode_Width" data-uid="Fantas.SpriteNode.Width">Width</h4>
+  <div class="markdown level1 summary"><p>Width of SpriteNode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Width { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -763,6 +848,153 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Fantas.Node.html#Fantas_Node_Copy">Node.Copy()</a></div>
+  
+  
+  <a id="Fantas_SpriteNode_ExpandHeight_" data-uid="Fantas.SpriteNode.ExpandHeight*"></a>
+  <h4 id="Fantas_SpriteNode_ExpandHeight_System_Single_" data-uid="Fantas.SpriteNode.ExpandHeight(System.Single)">ExpandHeight(Single)</h4>
+  <div class="markdown level1 summary"><p>Increase the Height of SpriteNode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExpandHeight(float delta)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">delta</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_SpriteNode_ExpandWidth_" data-uid="Fantas.SpriteNode.ExpandWidth*"></a>
+  <h4 id="Fantas_SpriteNode_ExpandWidth_System_Single_" data-uid="Fantas.SpriteNode.ExpandWidth(System.Single)">ExpandWidth(Single)</h4>
+  <div class="markdown level1 summary"><p>Increase the Width of SpriteNode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExpandWidth(float delta)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">delta</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_SpriteNode_Inflate_" data-uid="Fantas.SpriteNode.Inflate*"></a>
+  <h4 id="Fantas_SpriteNode_Inflate_System_Numerics_Vector2_" data-uid="Fantas.SpriteNode.Inflate(System.Numerics.Vector2)">Inflate(Vector2)</h4>
+  <div class="markdown level1 summary"><p>Increase the size of SpriteNode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Inflate(Vector2 delta)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Numerics.Vector2</span></td>
+        <td><span class="parametername">delta</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_SpriteNode_Inflate_" data-uid="Fantas.SpriteNode.Inflate*"></a>
+  <h4 id="Fantas_SpriteNode_Inflate_System_Single_" data-uid="Fantas.SpriteNode.Inflate(System.Single)">Inflate(Single)</h4>
+  <div class="markdown level1 summary"><p>Increase the size of SpriteNode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Inflate(float delta)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">delta</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_SpriteNode_Inflate_" data-uid="Fantas.SpriteNode.Inflate*"></a>
+  <h4 id="Fantas_SpriteNode_Inflate_System_Single_System_Single_" data-uid="Fantas.SpriteNode.Inflate(System.Single,System.Single)">Inflate(Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Increase the size of SpriteNode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Inflate(float x, float y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>delta added to width</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>delta added to height</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Fantas_SpriteNode_ScaleTo_" data-uid="Fantas.SpriteNode.ScaleTo*"></a>
