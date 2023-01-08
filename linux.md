@@ -1,11 +1,11 @@
-# Quick Start on Mac
+# Quick Start on Linux
 
 ## Setup development
 
-Fantas will Visual Studio Mac 2022 or superior.
+Fantas work on Linux using modern .NET.
 
-* The latest [Visual Studio Mac](https://visualstudio.microsoft.com/#vsmac-section) is recommended.
-* Install [⬇ Fantas.Extension](https://github.com/codefoco/Fantas.Home/releases/download/v1.0/Fantas.Extension.mpack) for Visual Studio Mac.
+* [Install .NET on Linux](https://learn.microsoft.com/en-us/dotnet/core/install/linux).
+* Install Fantas templates for `dotnet new`.
 
 * Go to `Visual Studio > Extensions...` Menu option.
 

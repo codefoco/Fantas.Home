@@ -13,13 +13,13 @@ Fantas also includes a physics engine that can be used to simulate realistic phy
 
 Overall, Fantas is a powerful tool for building 2D games and interactive experiences on mobile or Desktop.
 
-Fantas is cross platform and support Android, iOS/tvOS, macOS, Linux and Windows.
+Fantas is cross platform and supports Android, iOS/tvOS, macOS, Linux and Windows.
 
 Fantas can be used to develop games on any platform that supports .NET.
 
-The design and the architecture of Fantas were heavily influenced by other .NET libraries like WinForms and other gaming libraries like Cocos.
+The design and architecture of Fantas was heavily influenced by other .NET libraries like WinForms, MonoGame and gaming libraries like Cocos.
 
-Fantas is commercial product, in other to use read the end user license agreemen
+Fantas is a commercial product. If you want to use it, please read the end user license agreement.
 
 ## Quick Start:
 * [Windows](windows.md)
