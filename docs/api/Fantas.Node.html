@@ -194,6 +194,58 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
   </table>
   
   
+  <a id="Fantas_Node_CanBringForward_" data-uid="Fantas.Node.CanBringForward*"></a>
+  <h4 id="Fantas_Node_CanBringForward" data-uid="Fantas.Node.CanBringForward">CanBringForward</h4>
+  <div class="markdown level1 summary"><p>True if node can be brought forward among siblings</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanBringForward { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_CanSendBackward_" data-uid="Fantas.Node.CanSendBackward*"></a>
+  <h4 id="Fantas_Node_CanSendBackward" data-uid="Fantas.Node.CanSendBackward">CanSendBackward</h4>
+  <div class="markdown level1 summary"><p>True if node can be sent backward among siblings</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanSendBackward { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Fantas_Node_Center_" data-uid="Fantas.Node.Center*"></a>
   <h4 id="Fantas_Node_Center" data-uid="Fantas.Node.Center">Center</h4>
   <div class="markdown level1 summary"><p>Center location of Node</p>
@@ -1003,6 +1055,58 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
       <tr>
         <td><a class="xref" href="Fantas.Node.html">Node</a></td>
         <td><span class="parametername">child</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_BringForward_" data-uid="Fantas.Node.BringForward*"></a>
+  <h4 id="Fantas_Node_BringForward" data-uid="Fantas.Node.BringForward">BringForward()</h4>
+  <div class="markdown level1 summary"><p>Move node forward inside parent children</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BringForward()</code></pre>
+  </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.NotImplementedException</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_BringToFront_" data-uid="Fantas.Node.BringToFront*"></a>
+  <h4 id="Fantas_Node_BringToFront" data-uid="Fantas.Node.BringToFront">BringToFront()</h4>
+  <div class="markdown level1 summary"><p>Move node to the front in the among siblings</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BringToFront()</code></pre>
+  </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.NotImplementedException</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -2377,6 +2481,58 @@ And runs the completion handler when the animation is done</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_SendBackward_" data-uid="Fantas.Node.SendBackward*"></a>
+  <h4 id="Fantas_Node_SendBackward" data-uid="Fantas.Node.SendBackward">SendBackward()</h4>
+  <div class="markdown level1 summary"><p>Move node backward inside parent children</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendBackward()</code></pre>
+  </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.NotImplementedException</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Node_SendToBack_" data-uid="Fantas.Node.SendToBack*"></a>
+  <h4 id="Fantas_Node_SendToBack" data-uid="Fantas.Node.SendToBack">SendToBack()</h4>
+  <div class="markdown level1 summary"><p>Move node to the back inside parent children</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendToBack()</code></pre>
+  </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.NotImplementedException</span></td>
         <td></td>
       </tr>
     </tbody>

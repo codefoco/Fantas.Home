@@ -79,7 +79,28 @@
 <h2 id="create-new-project">Create new project</h2>
 <p>After installing Visual Studio Mac extension, create a new project using File New Project:</p>
 <p><img src="images/screenshot_vsmac.png" alt="screenshot_vs"></p>
-<p>The extension added options to create a new game for Desktop, Android, iOS and tvOS</p>
+<p>The extension added options to create a new game for Desktop, macOS (native), Android, iOS and tvOS</p>
+<h2 id="or-using-dotnet-new-command-line">Or Using dotnet new command line</h2>
+<p>If you want to create new game using new .NET instead of the classic you can do from the command line:</p>
+<ul>
+<li>Install Fantas templates for <code>dotnet new</code>.</li>
+</ul>
+<pre><code>dotnet new install Fantas.Templates
+</code></pre>
+<p>This will install .NET Fantas templates, you can crate a new desktop game doing</p>
+<pre><code>mkdir MyGame
+cd MyGame
+dotnet new fantas-desktop
+</code></pre>
+<p>This are the templates available:</p>
+<pre><code>--------------------------------------------  --------------  --------  ---------------------------
+Fantas Android Game (.NET)                    fantas-android  [C#]      android/mobile/games
+Fantas Desktop DirectX Game (.NET - Windows)  fantas-directx  [C#]      desktop/games/linux/windows
+Fantas Desktop Game (.NET)                    fantas-desktop  [C#]      desktop/games/linux/windows
+Fantas iOS Game (.NET)                        fantas-ios      [C#]      ios/games
+Fantas macOS Game (.NET)                      fantas-mac      [C#]      macos/games
+Fantas tvOS Game (.NET)                       fantas-tvos     [C#]      tvos/games
+</code></pre>
 </article>
           </div>
           

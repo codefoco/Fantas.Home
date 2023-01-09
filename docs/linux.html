@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Quick Start on Windows </title>
+    <title>Quick Start on Linux </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Quick Start on Windows ">
+    <meta name="title" content="Quick Start on Linux ">
     <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="favicon.ico">
@@ -60,17 +60,21 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="quick-start-on-windows">Quick Start on Windows</h1>
+<h1 id="quick-start-on-linux">Quick Start on Linux</h1>
 
 <h2 id="setup-development">Setup development</h2>
-<p>Fantas will work with most .NET tools (Visual Studio 2017 or superior).</p>
+<p>Fantas work on Linux using modern .NET.</p>
 <ul>
-<li>The latest <a href="https://visualstudio.microsoft.com/">Visual Studio</a> is recommended.</li>
-<li>Install <a href="https://github.com/codefoco/Fantas.Home/releases/download/v1.0/Fantas.Extension.vsix">⬇ Fantas.Extension</a> for Visual Studio.</li>
+<li><a href="https://learn.microsoft.com/en-us/dotnet/core/install/linux">Install .NET on Linux</a>.</li>
+<li>Install Fantas templates for <code>dotnet new</code>.</li>
 </ul>
-<h2 id="create-new-project">Create new project</h2>
-<p>After installing Visual Studio extension, create a new project using File New Project:</p>
-<p><img src="images/screenshort_vs.png" alt="screenshot_vs"></p>
+<pre><code>dotnet new install Fantas.Templates
+</code></pre>
+<p>This will install .NET Fantas templates, you can crate a new desktop game doing</p>
+<pre><code>mkdir MyGame
+cd MyGame
+dotnet new fantas-desktop
+</code></pre>
 </article>
           </div>
           
@@ -79,7 +83,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/codefoco/Fantas.Web/blob/main/setup_windows.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/codefoco/Fantas.Web/blob/main/linux.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

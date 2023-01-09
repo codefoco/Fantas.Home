@@ -4975,6 +4975,30 @@ references:
   commentId: Overload:Fantas.Node.Bottom
   fullName: Fantas.Node.Bottom
   nameWithType: Node.Bottom
+- uid: Fantas.Node.BringForward
+  name: BringForward()
+  href: api/Fantas.Node.html#Fantas_Node_BringForward
+  commentId: M:Fantas.Node.BringForward
+  fullName: Fantas.Node.BringForward()
+  nameWithType: Node.BringForward()
+- uid: Fantas.Node.BringForward*
+  name: BringForward
+  href: api/Fantas.Node.html#Fantas_Node_BringForward_
+  commentId: Overload:Fantas.Node.BringForward
+  fullName: Fantas.Node.BringForward
+  nameWithType: Node.BringForward
+- uid: Fantas.Node.BringToFront
+  name: BringToFront()
+  href: api/Fantas.Node.html#Fantas_Node_BringToFront
+  commentId: M:Fantas.Node.BringToFront
+  fullName: Fantas.Node.BringToFront()
+  nameWithType: Node.BringToFront()
+- uid: Fantas.Node.BringToFront*
+  name: BringToFront
+  href: api/Fantas.Node.html#Fantas_Node_BringToFront_
+  commentId: Overload:Fantas.Node.BringToFront
+  fullName: Fantas.Node.BringToFront
+  nameWithType: Node.BringToFront
 - uid: Fantas.Node.CalculateAccumulatedFrame
   name: CalculateAccumulatedFrame()
   href: api/Fantas.Node.html#Fantas_Node_CalculateAccumulatedFrame
@@ -4987,6 +5011,30 @@ references:
   commentId: Overload:Fantas.Node.CalculateAccumulatedFrame
   fullName: Fantas.Node.CalculateAccumulatedFrame
   nameWithType: Node.CalculateAccumulatedFrame
+- uid: Fantas.Node.CanBringForward
+  name: CanBringForward
+  href: api/Fantas.Node.html#Fantas_Node_CanBringForward
+  commentId: P:Fantas.Node.CanBringForward
+  fullName: Fantas.Node.CanBringForward
+  nameWithType: Node.CanBringForward
+- uid: Fantas.Node.CanBringForward*
+  name: CanBringForward
+  href: api/Fantas.Node.html#Fantas_Node_CanBringForward_
+  commentId: Overload:Fantas.Node.CanBringForward
+  fullName: Fantas.Node.CanBringForward
+  nameWithType: Node.CanBringForward
+- uid: Fantas.Node.CanSendBackward
+  name: CanSendBackward
+  href: api/Fantas.Node.html#Fantas_Node_CanSendBackward
+  commentId: P:Fantas.Node.CanSendBackward
+  fullName: Fantas.Node.CanSendBackward
+  nameWithType: Node.CanSendBackward
+- uid: Fantas.Node.CanSendBackward*
+  name: CanSendBackward
+  href: api/Fantas.Node.html#Fantas_Node_CanSendBackward_
+  commentId: Overload:Fantas.Node.CanSendBackward
+  fullName: Fantas.Node.CanSendBackward
+  nameWithType: Node.CanSendBackward
 - uid: Fantas.Node.Center
   name: Center
   href: api/Fantas.Node.html#Fantas_Node_Center
@@ -5782,6 +5830,30 @@ references:
   commentId: Overload:Fantas.Node.Scene
   fullName: Fantas.Node.Scene
   nameWithType: Node.Scene
+- uid: Fantas.Node.SendBackward
+  name: SendBackward()
+  href: api/Fantas.Node.html#Fantas_Node_SendBackward
+  commentId: M:Fantas.Node.SendBackward
+  fullName: Fantas.Node.SendBackward()
+  nameWithType: Node.SendBackward()
+- uid: Fantas.Node.SendBackward*
+  name: SendBackward
+  href: api/Fantas.Node.html#Fantas_Node_SendBackward_
+  commentId: Overload:Fantas.Node.SendBackward
+  fullName: Fantas.Node.SendBackward
+  nameWithType: Node.SendBackward
+- uid: Fantas.Node.SendToBack
+  name: SendToBack()
+  href: api/Fantas.Node.html#Fantas_Node_SendToBack
+  commentId: M:Fantas.Node.SendToBack
+  fullName: Fantas.Node.SendToBack()
+  nameWithType: Node.SendToBack()
+- uid: Fantas.Node.SendToBack*
+  name: SendToBack
+  href: api/Fantas.Node.html#Fantas_Node_SendToBack_
+  commentId: Overload:Fantas.Node.SendToBack
+  fullName: Fantas.Node.SendToBack
+  nameWithType: Node.SendToBack
 - uid: Fantas.Node.SetScale(System.Single)
   name: SetScale(Single)
   href: api/Fantas.Node.html#Fantas_Node_SetScale_System_Single_
