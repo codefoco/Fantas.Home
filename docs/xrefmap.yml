@@ -1393,6 +1393,72 @@ references:
   commentId: Overload:Fantas.EllipseNode.Width
   fullName: Fantas.EllipseNode.Width
   nameWithType: EllipseNode.Width
+- uid: Fantas.Font
+  name: Font
+  href: api/Fantas.Font.html
+  commentId: T:Fantas.Font
+  fullName: Fantas.Font
+  nameWithType: Font
+- uid: Fantas.Font.DefaultFont
+  name: DefaultFont
+  href: api/Fantas.Font.html#Fantas_Font_DefaultFont
+  commentId: P:Fantas.Font.DefaultFont
+  fullName: Fantas.Font.DefaultFont
+  nameWithType: Font.DefaultFont
+- uid: Fantas.Font.DefaultFont*
+  name: DefaultFont
+  href: api/Fantas.Font.html#Fantas_Font_DefaultFont_
+  commentId: Overload:Fantas.Font.DefaultFont
+  fullName: Fantas.Font.DefaultFont
+  nameWithType: Font.DefaultFont
+- uid: Fantas.Font.FromCompressedResource(System.Reflection.Assembly,System.String)
+  name: FromCompressedResource(Assembly, String)
+  href: api/Fantas.Font.html#Fantas_Font_FromCompressedResource_System_Reflection_Assembly_System_String_
+  commentId: M:Fantas.Font.FromCompressedResource(System.Reflection.Assembly,System.String)
+  fullName: Fantas.Font.FromCompressedResource(System.Reflection.Assembly, System.String)
+  nameWithType: Font.FromCompressedResource(Assembly, String)
+- uid: Fantas.Font.FromCompressedResource(System.Reflection.Assembly,System.String,System.Single)
+  name: FromCompressedResource(Assembly, String, Single)
+  href: api/Fantas.Font.html#Fantas_Font_FromCompressedResource_System_Reflection_Assembly_System_String_System_Single_
+  commentId: M:Fantas.Font.FromCompressedResource(System.Reflection.Assembly,System.String,System.Single)
+  fullName: Fantas.Font.FromCompressedResource(System.Reflection.Assembly, System.String, System.Single)
+  nameWithType: Font.FromCompressedResource(Assembly, String, Single)
+- uid: Fantas.Font.FromCompressedResource*
+  name: FromCompressedResource
+  href: api/Fantas.Font.html#Fantas_Font_FromCompressedResource_
+  commentId: Overload:Fantas.Font.FromCompressedResource
+  fullName: Fantas.Font.FromCompressedResource
+  nameWithType: Font.FromCompressedResource
+- uid: Fantas.Font.FromResource(System.Reflection.Assembly,System.String)
+  name: FromResource(Assembly, String)
+  href: api/Fantas.Font.html#Fantas_Font_FromResource_System_Reflection_Assembly_System_String_
+  commentId: M:Fantas.Font.FromResource(System.Reflection.Assembly,System.String)
+  fullName: Fantas.Font.FromResource(System.Reflection.Assembly, System.String)
+  nameWithType: Font.FromResource(Assembly, String)
+- uid: Fantas.Font.FromResource(System.Reflection.Assembly,System.String,System.Single)
+  name: FromResource(Assembly, String, Single)
+  href: api/Fantas.Font.html#Fantas_Font_FromResource_System_Reflection_Assembly_System_String_System_Single_
+  commentId: M:Fantas.Font.FromResource(System.Reflection.Assembly,System.String,System.Single)
+  fullName: Fantas.Font.FromResource(System.Reflection.Assembly, System.String, System.Single)
+  nameWithType: Font.FromResource(Assembly, String, Single)
+- uid: Fantas.Font.FromResource*
+  name: FromResource
+  href: api/Fantas.Font.html#Fantas_Font_FromResource_
+  commentId: Overload:Fantas.Font.FromResource
+  fullName: Fantas.Font.FromResource
+  nameWithType: Font.FromResource
+- uid: Fantas.Font.Name
+  name: Name
+  href: api/Fantas.Font.html#Fantas_Font_Name
+  commentId: P:Fantas.Font.Name
+  fullName: Fantas.Font.Name
+  nameWithType: Font.Name
+- uid: Fantas.Font.Name*
+  name: Name
+  href: api/Fantas.Font.html#Fantas_Font_Name_
+  commentId: Overload:Fantas.Font.Name
+  fullName: Fantas.Font.Name
+  nameWithType: Font.Name
 - uid: Fantas.Game
   name: Game
   href: api/Fantas.Game.html
@@ -1453,6 +1519,18 @@ references:
   commentId: Overload:Fantas.Game.Exit
   fullName: Fantas.Game.Exit
   nameWithType: Game.Exit
+- uid: Fantas.Game.GameOptions
+  name: GameOptions
+  href: api/Fantas.Game.html#Fantas_Game_GameOptions
+  commentId: P:Fantas.Game.GameOptions
+  fullName: Fantas.Game.GameOptions
+  nameWithType: Game.GameOptions
+- uid: Fantas.Game.GameOptions*
+  name: GameOptions
+  href: api/Fantas.Game.html#Fantas_Game_GameOptions_
+  commentId: Overload:Fantas.Game.GameOptions
+  fullName: Fantas.Game.GameOptions
+  nameWithType: Game.GameOptions
 - uid: Fantas.Game.GetSceneSnapshot
   name: GetSceneSnapshot()
   href: api/Fantas.Game.html#Fantas_Game_GetSceneSnapshot
@@ -4621,6 +4699,18 @@ references:
   commentId: Overload:Fantas.LabelNode.Copy
   fullName: Fantas.LabelNode.Copy
   nameWithType: LabelNode.Copy
+- uid: Fantas.LabelNode.Font
+  name: Font
+  href: api/Fantas.LabelNode.html#Fantas_LabelNode_Font
+  commentId: P:Fantas.LabelNode.Font
+  fullName: Fantas.LabelNode.Font
+  nameWithType: LabelNode.Font
+- uid: Fantas.LabelNode.Font*
+  name: Font
+  href: api/Fantas.LabelNode.html#Fantas_LabelNode_Font_
+  commentId: Overload:Fantas.LabelNode.Font
+  fullName: Fantas.LabelNode.Font
+  nameWithType: LabelNode.Font
 - uid: Fantas.LabelNode.HorizontalAlignmentMode
   name: HorizontalAlignmentMode
   href: api/Fantas.LabelNode.html#Fantas_LabelNode_HorizontalAlignmentMode
@@ -6988,30 +7078,72 @@ references:
   commentId: T:Fantas.Physics.NodeExtensions
   fullName: Fantas.Physics.NodeExtensions
   nameWithType: NodeExtensions
-- uid: Fantas.Physics.NodeExtensions.SetupBody(Fantas.CircleNode)
-  name: SetupBody(CircleNode)
-  href: api/Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupBody_Fantas_CircleNode_
-  commentId: M:Fantas.Physics.NodeExtensions.SetupBody(Fantas.CircleNode)
-  fullName: Fantas.Physics.NodeExtensions.SetupBody(Fantas.CircleNode)
-  nameWithType: NodeExtensions.SetupBody(CircleNode)
-- uid: Fantas.Physics.NodeExtensions.SetupBody(Fantas.RectangleNode)
-  name: SetupBody(RectangleNode)
-  href: api/Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupBody_Fantas_RectangleNode_
-  commentId: M:Fantas.Physics.NodeExtensions.SetupBody(Fantas.RectangleNode)
-  fullName: Fantas.Physics.NodeExtensions.SetupBody(Fantas.RectangleNode)
-  nameWithType: NodeExtensions.SetupBody(RectangleNode)
-- uid: Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpriteNode)
-  name: SetupBody(SpriteNode)
-  href: api/Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupBody_Fantas_SpriteNode_
-  commentId: M:Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpriteNode)
-  fullName: Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpriteNode)
-  nameWithType: NodeExtensions.SetupBody(SpriteNode)
+- uid: Fantas.Physics.NodeExtensions.SetupBody(Fantas.CircleNode,System.Int32)
+  name: SetupBody(CircleNode, Int32)
+  href: api/Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupBody_Fantas_CircleNode_System_Int32_
+  commentId: M:Fantas.Physics.NodeExtensions.SetupBody(Fantas.CircleNode,System.Int32)
+  fullName: Fantas.Physics.NodeExtensions.SetupBody(Fantas.CircleNode, System.Int32)
+  nameWithType: NodeExtensions.SetupBody(CircleNode, Int32)
+- uid: Fantas.Physics.NodeExtensions.SetupBody(Fantas.PolygonNode,System.Int32)
+  name: SetupBody(PolygonNode, Int32)
+  href: api/Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupBody_Fantas_PolygonNode_System_Int32_
+  commentId: M:Fantas.Physics.NodeExtensions.SetupBody(Fantas.PolygonNode,System.Int32)
+  fullName: Fantas.Physics.NodeExtensions.SetupBody(Fantas.PolygonNode, System.Int32)
+  nameWithType: NodeExtensions.SetupBody(PolygonNode, Int32)
+- uid: Fantas.Physics.NodeExtensions.SetupBody(Fantas.RectangleNode,System.Int32)
+  name: SetupBody(RectangleNode, Int32)
+  href: api/Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupBody_Fantas_RectangleNode_System_Int32_
+  commentId: M:Fantas.Physics.NodeExtensions.SetupBody(Fantas.RectangleNode,System.Int32)
+  fullName: Fantas.Physics.NodeExtensions.SetupBody(Fantas.RectangleNode, System.Int32)
+  nameWithType: NodeExtensions.SetupBody(RectangleNode, Int32)
+- uid: Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpriteNode,System.Int32)
+  name: SetupBody(SpriteNode, Int32)
+  href: api/Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupBody_Fantas_SpriteNode_System_Int32_
+  commentId: M:Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpriteNode,System.Int32)
+  fullName: Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpriteNode, System.Int32)
+  nameWithType: NodeExtensions.SetupBody(SpriteNode, Int32)
+- uid: Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpritePolylineNode,System.Int32)
+  name: SetupBody(SpritePolylineNode, Int32)
+  href: api/Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupBody_Fantas_SpritePolylineNode_System_Int32_
+  commentId: M:Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpritePolylineNode,System.Int32)
+  fullName: Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpritePolylineNode, System.Int32)
+  nameWithType: NodeExtensions.SetupBody(SpritePolylineNode, Int32)
+- uid: Fantas.Physics.NodeExtensions.SetupBody(Fantas.TriangleNode,System.Int32)
+  name: SetupBody(TriangleNode, Int32)
+  href: api/Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupBody_Fantas_TriangleNode_System_Int32_
+  commentId: M:Fantas.Physics.NodeExtensions.SetupBody(Fantas.TriangleNode,System.Int32)
+  fullName: Fantas.Physics.NodeExtensions.SetupBody(Fantas.TriangleNode, System.Int32)
+  nameWithType: NodeExtensions.SetupBody(TriangleNode, Int32)
 - uid: Fantas.Physics.NodeExtensions.SetupBody*
   name: SetupBody
   href: api/Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupBody_
   commentId: Overload:Fantas.Physics.NodeExtensions.SetupBody
   fullName: Fantas.Physics.NodeExtensions.SetupBody
   nameWithType: NodeExtensions.SetupBody
+- uid: Fantas.Physics.NodeExtensions.SetupEdge(Fantas.RectangleNode,System.Int32)
+  name: SetupEdge(RectangleNode, Int32)
+  href: api/Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupEdge_Fantas_RectangleNode_System_Int32_
+  commentId: M:Fantas.Physics.NodeExtensions.SetupEdge(Fantas.RectangleNode,System.Int32)
+  fullName: Fantas.Physics.NodeExtensions.SetupEdge(Fantas.RectangleNode, System.Int32)
+  nameWithType: NodeExtensions.SetupEdge(RectangleNode, Int32)
+- uid: Fantas.Physics.NodeExtensions.SetupEdge(Fantas.Scene,System.Int32)
+  name: SetupEdge(Scene, Int32)
+  href: api/Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupEdge_Fantas_Scene_System_Int32_
+  commentId: M:Fantas.Physics.NodeExtensions.SetupEdge(Fantas.Scene,System.Int32)
+  fullName: Fantas.Physics.NodeExtensions.SetupEdge(Fantas.Scene, System.Int32)
+  nameWithType: NodeExtensions.SetupEdge(Scene, Int32)
+- uid: Fantas.Physics.NodeExtensions.SetupEdge(Fantas.SpriteNode,System.Int32)
+  name: SetupEdge(SpriteNode, Int32)
+  href: api/Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupEdge_Fantas_SpriteNode_System_Int32_
+  commentId: M:Fantas.Physics.NodeExtensions.SetupEdge(Fantas.SpriteNode,System.Int32)
+  fullName: Fantas.Physics.NodeExtensions.SetupEdge(Fantas.SpriteNode, System.Int32)
+  nameWithType: NodeExtensions.SetupEdge(SpriteNode, Int32)
+- uid: Fantas.Physics.NodeExtensions.SetupEdge*
+  name: SetupEdge
+  href: api/Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupEdge_
+  commentId: Overload:Fantas.Physics.NodeExtensions.SetupEdge
+  fullName: Fantas.Physics.NodeExtensions.SetupEdge
+  nameWithType: NodeExtensions.SetupEdge
 - uid: Fantas.Physics.PhysicsBody
   name: PhysicsBody
   href: api/Fantas.Physics.PhysicsBody.html
@@ -7852,6 +7984,45 @@ references:
   commentId: Overload:Fantas.PointExtension.ToVector2
   fullName: Fantas.PointExtension.ToVector2
   nameWithType: PointExtension.ToVector2
+- uid: Fantas.PolygonNode
+  name: PolygonNode
+  href: api/Fantas.PolygonNode.html
+  commentId: T:Fantas.PolygonNode
+  fullName: Fantas.PolygonNode
+  nameWithType: PolygonNode
+- uid: Fantas.PolygonNode.#ctor(Fantas.PolygonNode)
+  name: PolygonNode(PolygonNode)
+  href: api/Fantas.PolygonNode.html#Fantas_PolygonNode__ctor_Fantas_PolygonNode_
+  commentId: M:Fantas.PolygonNode.#ctor(Fantas.PolygonNode)
+  fullName: Fantas.PolygonNode.PolygonNode(Fantas.PolygonNode)
+  nameWithType: PolygonNode.PolygonNode(PolygonNode)
+- uid: Fantas.PolygonNode.#ctor(System.Drawing.PointF[])
+  name: PolygonNode(PointF[])
+  href: api/Fantas.PolygonNode.html#Fantas_PolygonNode__ctor_System_Drawing_PointF___
+  commentId: M:Fantas.PolygonNode.#ctor(System.Drawing.PointF[])
+  name.vb: PolygonNode(PointF())
+  fullName: Fantas.PolygonNode.PolygonNode(System.Drawing.PointF[])
+  fullName.vb: Fantas.PolygonNode.PolygonNode(System.Drawing.PointF())
+  nameWithType: PolygonNode.PolygonNode(PointF[])
+  nameWithType.vb: PolygonNode.PolygonNode(PointF())
+- uid: Fantas.PolygonNode.#ctor*
+  name: PolygonNode
+  href: api/Fantas.PolygonNode.html#Fantas_PolygonNode__ctor_
+  commentId: Overload:Fantas.PolygonNode.#ctor
+  fullName: Fantas.PolygonNode.PolygonNode
+  nameWithType: PolygonNode.PolygonNode
+- uid: Fantas.PolygonNode.Points
+  name: Points
+  href: api/Fantas.PolygonNode.html#Fantas_PolygonNode_Points
+  commentId: P:Fantas.PolygonNode.Points
+  fullName: Fantas.PolygonNode.Points
+  nameWithType: PolygonNode.Points
+- uid: Fantas.PolygonNode.Points*
+  name: Points
+  href: api/Fantas.PolygonNode.html#Fantas_PolygonNode_Points_
+  commentId: Overload:Fantas.PolygonNode.Points
+  fullName: Fantas.PolygonNode.Points
+  nameWithType: PolygonNode.Points
 - uid: Fantas.RandomExtensions
   name: RandomExtensions
   href: api/Fantas.RandomExtensions.html
@@ -8800,6 +8971,84 @@ references:
   commentId: Overload:Fantas.ShapeNode.StrokeColor
   fullName: Fantas.ShapeNode.StrokeColor
   nameWithType: ShapeNode.StrokeColor
+- uid: Fantas.SpriteFrameNode
+  name: SpriteFrameNode
+  href: api/Fantas.SpriteFrameNode.html
+  commentId: T:Fantas.SpriteFrameNode
+  fullName: Fantas.SpriteFrameNode
+  nameWithType: SpriteFrameNode
+- uid: Fantas.SpriteFrameNode.#ctor(System.Drawing.SizeF)
+  name: SpriteFrameNode(SizeF)
+  href: api/Fantas.SpriteFrameNode.html#Fantas_SpriteFrameNode__ctor_System_Drawing_SizeF_
+  commentId: M:Fantas.SpriteFrameNode.#ctor(System.Drawing.SizeF)
+  fullName: Fantas.SpriteFrameNode.SpriteFrameNode(System.Drawing.SizeF)
+  nameWithType: SpriteFrameNode.SpriteFrameNode(SizeF)
+- uid: Fantas.SpriteFrameNode.#ctor(System.Drawing.SizeF,System.Drawing.Color)
+  name: SpriteFrameNode(SizeF, Color)
+  href: api/Fantas.SpriteFrameNode.html#Fantas_SpriteFrameNode__ctor_System_Drawing_SizeF_System_Drawing_Color_
+  commentId: M:Fantas.SpriteFrameNode.#ctor(System.Drawing.SizeF,System.Drawing.Color)
+  fullName: Fantas.SpriteFrameNode.SpriteFrameNode(System.Drawing.SizeF, System.Drawing.Color)
+  nameWithType: SpriteFrameNode.SpriteFrameNode(SizeF, Color)
+- uid: Fantas.SpriteFrameNode.#ctor(System.Drawing.SizeF,System.Drawing.Color,System.Single)
+  name: SpriteFrameNode(SizeF, Color, Single)
+  href: api/Fantas.SpriteFrameNode.html#Fantas_SpriteFrameNode__ctor_System_Drawing_SizeF_System_Drawing_Color_System_Single_
+  commentId: M:Fantas.SpriteFrameNode.#ctor(System.Drawing.SizeF,System.Drawing.Color,System.Single)
+  fullName: Fantas.SpriteFrameNode.SpriteFrameNode(System.Drawing.SizeF, System.Drawing.Color, System.Single)
+  nameWithType: SpriteFrameNode.SpriteFrameNode(SizeF, Color, Single)
+- uid: Fantas.SpriteFrameNode.#ctor*
+  name: SpriteFrameNode
+  href: api/Fantas.SpriteFrameNode.html#Fantas_SpriteFrameNode__ctor_
+  commentId: Overload:Fantas.SpriteFrameNode.#ctor
+  fullName: Fantas.SpriteFrameNode.SpriteFrameNode
+  nameWithType: SpriteFrameNode.SpriteFrameNode
+- uid: Fantas.SpriteFrameNode.FrameAlpha
+  name: FrameAlpha
+  href: api/Fantas.SpriteFrameNode.html#Fantas_SpriteFrameNode_FrameAlpha
+  commentId: P:Fantas.SpriteFrameNode.FrameAlpha
+  fullName: Fantas.SpriteFrameNode.FrameAlpha
+  nameWithType: SpriteFrameNode.FrameAlpha
+- uid: Fantas.SpriteFrameNode.FrameAlpha*
+  name: FrameAlpha
+  href: api/Fantas.SpriteFrameNode.html#Fantas_SpriteFrameNode_FrameAlpha_
+  commentId: Overload:Fantas.SpriteFrameNode.FrameAlpha
+  fullName: Fantas.SpriteFrameNode.FrameAlpha
+  nameWithType: SpriteFrameNode.FrameAlpha
+- uid: Fantas.SpriteFrameNode.FrameColor
+  name: FrameColor
+  href: api/Fantas.SpriteFrameNode.html#Fantas_SpriteFrameNode_FrameColor
+  commentId: P:Fantas.SpriteFrameNode.FrameColor
+  fullName: Fantas.SpriteFrameNode.FrameColor
+  nameWithType: SpriteFrameNode.FrameColor
+- uid: Fantas.SpriteFrameNode.FrameColor*
+  name: FrameColor
+  href: api/Fantas.SpriteFrameNode.html#Fantas_SpriteFrameNode_FrameColor_
+  commentId: Overload:Fantas.SpriteFrameNode.FrameColor
+  fullName: Fantas.SpriteFrameNode.FrameColor
+  nameWithType: SpriteFrameNode.FrameColor
+- uid: Fantas.SpriteFrameNode.FrameThickness
+  name: FrameThickness
+  href: api/Fantas.SpriteFrameNode.html#Fantas_SpriteFrameNode_FrameThickness
+  commentId: P:Fantas.SpriteFrameNode.FrameThickness
+  fullName: Fantas.SpriteFrameNode.FrameThickness
+  nameWithType: SpriteFrameNode.FrameThickness
+- uid: Fantas.SpriteFrameNode.FrameThickness*
+  name: FrameThickness
+  href: api/Fantas.SpriteFrameNode.html#Fantas_SpriteFrameNode_FrameThickness_
+  commentId: Overload:Fantas.SpriteFrameNode.FrameThickness
+  fullName: Fantas.SpriteFrameNode.FrameThickness
+  nameWithType: SpriteFrameNode.FrameThickness
+- uid: Fantas.SpriteFrameNode.OnSizeChanged
+  name: OnSizeChanged()
+  href: api/Fantas.SpriteFrameNode.html#Fantas_SpriteFrameNode_OnSizeChanged
+  commentId: M:Fantas.SpriteFrameNode.OnSizeChanged
+  fullName: Fantas.SpriteFrameNode.OnSizeChanged()
+  nameWithType: SpriteFrameNode.OnSizeChanged()
+- uid: Fantas.SpriteFrameNode.OnSizeChanged*
+  name: OnSizeChanged
+  href: api/Fantas.SpriteFrameNode.html#Fantas_SpriteFrameNode_OnSizeChanged_
+  commentId: Overload:Fantas.SpriteFrameNode.OnSizeChanged
+  fullName: Fantas.SpriteFrameNode.OnSizeChanged
+  nameWithType: SpriteFrameNode.OnSizeChanged
 - uid: Fantas.SpriteLineNode
   name: SpriteLineNode
   href: api/Fantas.SpriteLineNode.html
@@ -8812,6 +9061,12 @@ references:
   commentId: M:Fantas.SpriteLineNode.#ctor
   fullName: Fantas.SpriteLineNode.SpriteLineNode()
   nameWithType: SpriteLineNode.SpriteLineNode()
+- uid: Fantas.SpriteLineNode.#ctor(Fantas.SpriteLineNode)
+  name: SpriteLineNode(SpriteLineNode)
+  href: api/Fantas.SpriteLineNode.html#Fantas_SpriteLineNode__ctor_Fantas_SpriteLineNode_
+  commentId: M:Fantas.SpriteLineNode.#ctor(Fantas.SpriteLineNode)
+  fullName: Fantas.SpriteLineNode.SpriteLineNode(Fantas.SpriteLineNode)
+  nameWithType: SpriteLineNode.SpriteLineNode(SpriteLineNode)
 - uid: Fantas.SpriteLineNode.#ctor(System.Drawing.PointF,System.Drawing.PointF)
   name: SpriteLineNode(PointF, PointF)
   href: api/Fantas.SpriteLineNode.html#Fantas_SpriteLineNode__ctor_System_Drawing_PointF_System_Drawing_PointF_
@@ -8896,6 +9151,18 @@ references:
   commentId: Overload:Fantas.SpriteLineNode.Thickness
   fullName: Fantas.SpriteLineNode.Thickness
   nameWithType: SpriteLineNode.Thickness
+- uid: Fantas.SpriteLineNode.UpdatePoints(System.Drawing.PointF,System.Drawing.PointF)
+  name: UpdatePoints(PointF, PointF)
+  href: api/Fantas.SpriteLineNode.html#Fantas_SpriteLineNode_UpdatePoints_System_Drawing_PointF_System_Drawing_PointF_
+  commentId: M:Fantas.SpriteLineNode.UpdatePoints(System.Drawing.PointF,System.Drawing.PointF)
+  fullName: Fantas.SpriteLineNode.UpdatePoints(System.Drawing.PointF, System.Drawing.PointF)
+  nameWithType: SpriteLineNode.UpdatePoints(PointF, PointF)
+- uid: Fantas.SpriteLineNode.UpdatePoints*
+  name: UpdatePoints
+  href: api/Fantas.SpriteLineNode.html#Fantas_SpriteLineNode_UpdatePoints_
+  commentId: Overload:Fantas.SpriteLineNode.UpdatePoints
+  fullName: Fantas.SpriteLineNode.UpdatePoints
+  nameWithType: SpriteLineNode.UpdatePoints
 - uid: Fantas.SpriteNode
   name: SpriteNode
   href: api/Fantas.SpriteNode.html
@@ -9088,6 +9355,18 @@ references:
   commentId: Overload:Fantas.SpriteNode.Inflate
   fullName: Fantas.SpriteNode.Inflate
   nameWithType: SpriteNode.Inflate
+- uid: Fantas.SpriteNode.OnSizeChanged
+  name: OnSizeChanged()
+  href: api/Fantas.SpriteNode.html#Fantas_SpriteNode_OnSizeChanged
+  commentId: M:Fantas.SpriteNode.OnSizeChanged
+  fullName: Fantas.SpriteNode.OnSizeChanged()
+  nameWithType: SpriteNode.OnSizeChanged()
+- uid: Fantas.SpriteNode.OnSizeChanged*
+  name: OnSizeChanged
+  href: api/Fantas.SpriteNode.html#Fantas_SpriteNode_OnSizeChanged_
+  commentId: Overload:Fantas.SpriteNode.OnSizeChanged
+  fullName: Fantas.SpriteNode.OnSizeChanged
+  nameWithType: SpriteNode.OnSizeChanged
 - uid: Fantas.SpriteNode.ScaleTo(System.Drawing.SizeF)
   name: ScaleTo(SizeF)
   href: api/Fantas.SpriteNode.html#Fantas_SpriteNode_ScaleTo_System_Drawing_SizeF_
@@ -9160,6 +9439,87 @@ references:
   commentId: Overload:Fantas.SpriteNode.Width
   fullName: Fantas.SpriteNode.Width
   nameWithType: SpriteNode.Width
+- uid: Fantas.SpritePolylineNode
+  name: SpritePolylineNode
+  href: api/Fantas.SpritePolylineNode.html
+  commentId: T:Fantas.SpritePolylineNode
+  fullName: Fantas.SpritePolylineNode
+  nameWithType: SpritePolylineNode
+- uid: Fantas.SpritePolylineNode.#ctor(Fantas.SpritePolylineNode)
+  name: SpritePolylineNode(SpritePolylineNode)
+  href: api/Fantas.SpritePolylineNode.html#Fantas_SpritePolylineNode__ctor_Fantas_SpritePolylineNode_
+  commentId: M:Fantas.SpritePolylineNode.#ctor(Fantas.SpritePolylineNode)
+  fullName: Fantas.SpritePolylineNode.SpritePolylineNode(Fantas.SpritePolylineNode)
+  nameWithType: SpritePolylineNode.SpritePolylineNode(SpritePolylineNode)
+- uid: Fantas.SpritePolylineNode.#ctor(System.Drawing.PointF[])
+  name: SpritePolylineNode(PointF[])
+  href: api/Fantas.SpritePolylineNode.html#Fantas_SpritePolylineNode__ctor_System_Drawing_PointF___
+  commentId: M:Fantas.SpritePolylineNode.#ctor(System.Drawing.PointF[])
+  name.vb: SpritePolylineNode(PointF())
+  fullName: Fantas.SpritePolylineNode.SpritePolylineNode(System.Drawing.PointF[])
+  fullName.vb: Fantas.SpritePolylineNode.SpritePolylineNode(System.Drawing.PointF())
+  nameWithType: SpritePolylineNode.SpritePolylineNode(PointF[])
+  nameWithType.vb: SpritePolylineNode.SpritePolylineNode(PointF())
+- uid: Fantas.SpritePolylineNode.#ctor(System.Drawing.PointF[],System.Drawing.Color)
+  name: SpritePolylineNode(PointF[], Color)
+  href: api/Fantas.SpritePolylineNode.html#Fantas_SpritePolylineNode__ctor_System_Drawing_PointF___System_Drawing_Color_
+  commentId: M:Fantas.SpritePolylineNode.#ctor(System.Drawing.PointF[],System.Drawing.Color)
+  name.vb: SpritePolylineNode(PointF(), Color)
+  fullName: Fantas.SpritePolylineNode.SpritePolylineNode(System.Drawing.PointF[], System.Drawing.Color)
+  fullName.vb: Fantas.SpritePolylineNode.SpritePolylineNode(System.Drawing.PointF(), System.Drawing.Color)
+  nameWithType: SpritePolylineNode.SpritePolylineNode(PointF[], Color)
+  nameWithType.vb: SpritePolylineNode.SpritePolylineNode(PointF(), Color)
+- uid: Fantas.SpritePolylineNode.#ctor(System.Drawing.PointF[],System.Drawing.Color,System.Single)
+  name: SpritePolylineNode(PointF[], Color, Single)
+  href: api/Fantas.SpritePolylineNode.html#Fantas_SpritePolylineNode__ctor_System_Drawing_PointF___System_Drawing_Color_System_Single_
+  commentId: M:Fantas.SpritePolylineNode.#ctor(System.Drawing.PointF[],System.Drawing.Color,System.Single)
+  name.vb: SpritePolylineNode(PointF(), Color, Single)
+  fullName: Fantas.SpritePolylineNode.SpritePolylineNode(System.Drawing.PointF[], System.Drawing.Color, System.Single)
+  fullName.vb: Fantas.SpritePolylineNode.SpritePolylineNode(System.Drawing.PointF(), System.Drawing.Color, System.Single)
+  nameWithType: SpritePolylineNode.SpritePolylineNode(PointF[], Color, Single)
+  nameWithType.vb: SpritePolylineNode.SpritePolylineNode(PointF(), Color, Single)
+- uid: Fantas.SpritePolylineNode.#ctor*
+  name: SpritePolylineNode
+  href: api/Fantas.SpritePolylineNode.html#Fantas_SpritePolylineNode__ctor_
+  commentId: Overload:Fantas.SpritePolylineNode.#ctor
+  fullName: Fantas.SpritePolylineNode.SpritePolylineNode
+  nameWithType: SpritePolylineNode.SpritePolylineNode
+- uid: Fantas.SpritePolylineNode.Color
+  name: Color
+  href: api/Fantas.SpritePolylineNode.html#Fantas_SpritePolylineNode_Color
+  commentId: P:Fantas.SpritePolylineNode.Color
+  fullName: Fantas.SpritePolylineNode.Color
+  nameWithType: SpritePolylineNode.Color
+- uid: Fantas.SpritePolylineNode.Color*
+  name: Color
+  href: api/Fantas.SpritePolylineNode.html#Fantas_SpritePolylineNode_Color_
+  commentId: Overload:Fantas.SpritePolylineNode.Color
+  fullName: Fantas.SpritePolylineNode.Color
+  nameWithType: SpritePolylineNode.Color
+- uid: Fantas.SpritePolylineNode.Points
+  name: Points
+  href: api/Fantas.SpritePolylineNode.html#Fantas_SpritePolylineNode_Points
+  commentId: P:Fantas.SpritePolylineNode.Points
+  fullName: Fantas.SpritePolylineNode.Points
+  nameWithType: SpritePolylineNode.Points
+- uid: Fantas.SpritePolylineNode.Points*
+  name: Points
+  href: api/Fantas.SpritePolylineNode.html#Fantas_SpritePolylineNode_Points_
+  commentId: Overload:Fantas.SpritePolylineNode.Points
+  fullName: Fantas.SpritePolylineNode.Points
+  nameWithType: SpritePolylineNode.Points
+- uid: Fantas.SpritePolylineNode.Thickness
+  name: Thickness
+  href: api/Fantas.SpritePolylineNode.html#Fantas_SpritePolylineNode_Thickness
+  commentId: P:Fantas.SpritePolylineNode.Thickness
+  fullName: Fantas.SpritePolylineNode.Thickness
+  nameWithType: SpritePolylineNode.Thickness
+- uid: Fantas.SpritePolylineNode.Thickness*
+  name: Thickness
+  href: api/Fantas.SpritePolylineNode.html#Fantas_SpritePolylineNode_Thickness_
+  commentId: Overload:Fantas.SpritePolylineNode.Thickness
+  fullName: Fantas.SpritePolylineNode.Thickness
+  nameWithType: SpritePolylineNode.Thickness
 - uid: Fantas.Texture
   name: Texture
   href: api/Fantas.Texture.html
@@ -9490,6 +9850,15 @@ references:
   commentId: M:Fantas.TriangleNode.#ctor(System.Drawing.PointF,System.Drawing.PointF,System.Drawing.PointF)
   fullName: Fantas.TriangleNode.TriangleNode(System.Drawing.PointF, System.Drawing.PointF, System.Drawing.PointF)
   nameWithType: TriangleNode.TriangleNode(PointF, PointF, PointF)
+- uid: Fantas.TriangleNode.#ctor(System.Drawing.PointF[])
+  name: TriangleNode(PointF[])
+  href: api/Fantas.TriangleNode.html#Fantas_TriangleNode__ctor_System_Drawing_PointF___
+  commentId: M:Fantas.TriangleNode.#ctor(System.Drawing.PointF[])
+  name.vb: TriangleNode(PointF())
+  fullName: Fantas.TriangleNode.TriangleNode(System.Drawing.PointF[])
+  fullName.vb: Fantas.TriangleNode.TriangleNode(System.Drawing.PointF())
+  nameWithType: TriangleNode.TriangleNode(PointF[])
+  nameWithType.vb: TriangleNode.TriangleNode(PointF())
 - uid: Fantas.TriangleNode.#ctor*
   name: TriangleNode
   href: api/Fantas.TriangleNode.html#Fantas_TriangleNode__ctor_
@@ -9544,6 +9913,18 @@ references:
   commentId: Overload:Fantas.TriangleNode.PointC
   fullName: Fantas.TriangleNode.PointC
   nameWithType: TriangleNode.PointC
+- uid: Fantas.TriangleNode.Points
+  name: Points
+  href: api/Fantas.TriangleNode.html#Fantas_TriangleNode_Points
+  commentId: P:Fantas.TriangleNode.Points
+  fullName: Fantas.TriangleNode.Points
+  nameWithType: TriangleNode.Points
+- uid: Fantas.TriangleNode.Points*
+  name: Points
+  href: api/Fantas.TriangleNode.html#Fantas_TriangleNode_Points_
+  commentId: Overload:Fantas.TriangleNode.Points
+  fullName: Fantas.TriangleNode.Points
+  nameWithType: TriangleNode.Points
 - uid: Fantas.UI
   name: Fantas.UI
   href: api/Fantas.UI.html

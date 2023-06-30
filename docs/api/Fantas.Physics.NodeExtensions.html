@@ -92,13 +92,13 @@
   
   
   <a id="Fantas_Physics_NodeExtensions_SetupBody_" data-uid="Fantas.Physics.NodeExtensions.SetupBody*"></a>
-  <h4 id="Fantas_Physics_NodeExtensions_SetupBody_Fantas_CircleNode_" data-uid="Fantas.Physics.NodeExtensions.SetupBody(Fantas.CircleNode)">SetupBody(CircleNode)</h4>
+  <h4 id="Fantas_Physics_NodeExtensions_SetupBody_Fantas_CircleNode_System_Int32_" data-uid="Fantas.Physics.NodeExtensions.SetupBody(Fantas.CircleNode,System.Int32)">SetupBody(CircleNode, Int32)</h4>
   <div class="markdown level1 summary"><p>Set a physics body to a circle node</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SetupBody(this CircleNode circleNode)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void SetupBody(this CircleNode circleNode, int category = -1)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -115,17 +115,57 @@
         <td><span class="parametername">circleNode</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">category</span></td>
+        <td><p>body category</p>
+</td>
+      </tr>
     </tbody>
   </table>
   
   
   <a id="Fantas_Physics_NodeExtensions_SetupBody_" data-uid="Fantas.Physics.NodeExtensions.SetupBody*"></a>
-  <h4 id="Fantas_Physics_NodeExtensions_SetupBody_Fantas_RectangleNode_" data-uid="Fantas.Physics.NodeExtensions.SetupBody(Fantas.RectangleNode)">SetupBody(RectangleNode)</h4>
+  <h4 id="Fantas_Physics_NodeExtensions_SetupBody_Fantas_PolygonNode_System_Int32_" data-uid="Fantas.Physics.NodeExtensions.SetupBody(Fantas.PolygonNode,System.Int32)">SetupBody(PolygonNode, Int32)</h4>
+  <div class="markdown level1 summary"><p>Set a physics body to a polygon node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetupBody(this PolygonNode polygon, int category = -1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.PolygonNode.html">PolygonNode</a></td>
+        <td><span class="parametername">polygon</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">category</span></td>
+        <td><p>body category</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Physics_NodeExtensions_SetupBody_" data-uid="Fantas.Physics.NodeExtensions.SetupBody*"></a>
+  <h4 id="Fantas_Physics_NodeExtensions_SetupBody_Fantas_RectangleNode_System_Int32_" data-uid="Fantas.Physics.NodeExtensions.SetupBody(Fantas.RectangleNode,System.Int32)">SetupBody(RectangleNode, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SetupBody(this RectangleNode rectangleNode)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void SetupBody(this RectangleNode rectangleNode, int category = -1)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -142,18 +182,24 @@
         <td><span class="parametername">rectangleNode</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">category</span></td>
+        <td><p>body category</p>
+</td>
+      </tr>
     </tbody>
   </table>
   
   
   <a id="Fantas_Physics_NodeExtensions_SetupBody_" data-uid="Fantas.Physics.NodeExtensions.SetupBody*"></a>
-  <h4 id="Fantas_Physics_NodeExtensions_SetupBody_Fantas_SpriteNode_" data-uid="Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpriteNode)">SetupBody(SpriteNode)</h4>
+  <h4 id="Fantas_Physics_NodeExtensions_SetupBody_Fantas_SpriteNode_System_Int32_" data-uid="Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpriteNode,System.Int32)">SetupBody(SpriteNode, Int32)</h4>
   <div class="markdown level1 summary"><p>Set a physics body to a sprite node</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SetupBody(this SpriteNode spriteNode)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void SetupBody(this SpriteNode spriteNode, int category = -1)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -169,6 +215,181 @@
         <td><a class="xref" href="Fantas.SpriteNode.html">SpriteNode</a></td>
         <td><span class="parametername">spriteNode</span></td>
         <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">category</span></td>
+        <td><p>body category</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Physics_NodeExtensions_SetupBody_" data-uid="Fantas.Physics.NodeExtensions.SetupBody*"></a>
+  <h4 id="Fantas_Physics_NodeExtensions_SetupBody_Fantas_SpritePolylineNode_System_Int32_" data-uid="Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpritePolylineNode,System.Int32)">SetupBody(SpritePolylineNode, Int32)</h4>
+  <div class="markdown level1 summary"><p>Set a physics body to a sprite polyline node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetupBody(this SpritePolylineNode polyline, int category = -1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.SpritePolylineNode.html">SpritePolylineNode</a></td>
+        <td><span class="parametername">polyline</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">category</span></td>
+        <td><p>body category</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Physics_NodeExtensions_SetupBody_" data-uid="Fantas.Physics.NodeExtensions.SetupBody*"></a>
+  <h4 id="Fantas_Physics_NodeExtensions_SetupBody_Fantas_TriangleNode_System_Int32_" data-uid="Fantas.Physics.NodeExtensions.SetupBody(Fantas.TriangleNode,System.Int32)">SetupBody(TriangleNode, Int32)</h4>
+  <div class="markdown level1 summary"><p>Set a physics body to a sprite node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetupBody(this TriangleNode triangle, int category = -1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.TriangleNode.html">TriangleNode</a></td>
+        <td><span class="parametername">triangle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">category</span></td>
+        <td><p>body category</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Physics_NodeExtensions_SetupEdge_" data-uid="Fantas.Physics.NodeExtensions.SetupEdge*"></a>
+  <h4 id="Fantas_Physics_NodeExtensions_SetupEdge_Fantas_RectangleNode_System_Int32_" data-uid="Fantas.Physics.NodeExtensions.SetupEdge(Fantas.RectangleNode,System.Int32)">SetupEdge(RectangleNode, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetupEdge(this RectangleNode rectangleNode, int category = -1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.RectangleNode.html">RectangleNode</a></td>
+        <td><span class="parametername">rectangleNode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">category</span></td>
+        <td><p>body category</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Physics_NodeExtensions_SetupEdge_" data-uid="Fantas.Physics.NodeExtensions.SetupEdge*"></a>
+  <h4 id="Fantas_Physics_NodeExtensions_SetupEdge_Fantas_Scene_System_Int32_" data-uid="Fantas.Physics.NodeExtensions.SetupEdge(Fantas.Scene,System.Int32)">SetupEdge(Scene, Int32)</h4>
+  <div class="markdown level1 summary"><p>Set a physics body edge to an scene</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetupEdge(this Scene scene, int category = -1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.Scene.html">Scene</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">category</span></td>
+        <td><p>body category</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_Physics_NodeExtensions_SetupEdge_" data-uid="Fantas.Physics.NodeExtensions.SetupEdge*"></a>
+  <h4 id="Fantas_Physics_NodeExtensions_SetupEdge_Fantas_SpriteNode_System_Int32_" data-uid="Fantas.Physics.NodeExtensions.SetupEdge(Fantas.SpriteNode,System.Int32)">SetupEdge(SpriteNode, Int32)</h4>
+  <div class="markdown level1 summary"><p>Set a physics body edge to a sprite node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetupEdge(this SpriteNode spriteNode, int category = -1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.SpriteNode.html">SpriteNode</a></td>
+        <td><span class="parametername">spriteNode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">category</span></td>
+        <td><p>body category</p>
+</td>
       </tr>
     </tbody>
   </table>

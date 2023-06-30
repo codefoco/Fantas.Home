@@ -94,6 +94,9 @@ Sprite drawing can be batched.</p>
       <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_ScaleTo_System_Drawing_SizeF_">SpriteNode.ScaleTo(SizeF)</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_OnSizeChanged">SpriteNode.OnSizeChanged()</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_Inflate_System_Numerics_Vector2_">SpriteNode.Inflate(Vector2)</a>
     </div>
     <div>
@@ -470,6 +473,34 @@ Sprite drawing can be batched.</p>
   
   
   <a id="Fantas_SpriteLineNode__ctor_" data-uid="Fantas.SpriteLineNode.#ctor*"></a>
+  <h4 id="Fantas_SpriteLineNode__ctor_Fantas_SpriteLineNode_" data-uid="Fantas.SpriteLineNode.#ctor(Fantas.SpriteLineNode)">SpriteLineNode(SpriteLineNode)</h4>
+  <div class="markdown level1 summary"><p>Copy SpriteLineNode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SpriteLineNode(SpriteLineNode other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fantas.SpriteLineNode.html">SpriteLineNode</a></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_SpriteLineNode__ctor_" data-uid="Fantas.SpriteLineNode.#ctor*"></a>
   <h4 id="Fantas_SpriteLineNode__ctor_System_Drawing_PointF_System_Drawing_PointF_" data-uid="Fantas.SpriteLineNode.#ctor(System.Drawing.PointF,System.Drawing.PointF)">SpriteLineNode(PointF, PointF)</h4>
   <div class="markdown level1 summary"><p>Construct SpriteLineNode from startPoint to endPoint</p>
 </div>
@@ -713,9 +744,47 @@ Sprite drawing can be batched.</p>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Fantas_SpriteLineNode_UpdatePoints_" data-uid="Fantas.SpriteLineNode.UpdatePoints*"></a>
+  <h4 id="Fantas_SpriteLineNode_UpdatePoints_System_Drawing_PointF_System_Drawing_PointF_" data-uid="Fantas.SpriteLineNode.UpdatePoints(System.Drawing.PointF,System.Drawing.PointF)">UpdatePoints(PointF, PointF)</h4>
+  <div class="markdown level1 summary"><p>Update SpriteLine Start and End</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdatePoints(PointF start, PointF end)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Drawing.PointF</span></td>
+        <td><span class="parametername">start</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Drawing.PointF</span></td>
+        <td><span class="parametername">end</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupBody_Fantas_SpriteNode_">NodeExtensions.SetupBody(SpriteNode)</a>
+      <a class="xref" href="Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupBody_Fantas_SpriteNode_System_Int32_">NodeExtensions.SetupBody(SpriteNode, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupEdge_Fantas_SpriteNode_System_Int32_">NodeExtensions.SetupEdge(SpriteNode, Int32)</a>
   </div>
 </article>
           </div>

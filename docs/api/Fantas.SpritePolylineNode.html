@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class RectangleNode
+    <title>Class SpritePolylineNode
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class RectangleNode
+    <meta name="title" content="Class SpritePolylineNode
    ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -68,38 +68,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Fantas.RectangleNode">
+            <article class="content wrap" id="_content" data-uid="Fantas.SpritePolylineNode">
   
   
-  <h1 id="Fantas_RectangleNode" data-uid="Fantas.RectangleNode" class="text-break">Class RectangleNode
+  <h1 id="Fantas_SpritePolylineNode" data-uid="Fantas.SpritePolylineNode" class="text-break">Class SpritePolylineNode
   </h1>
-  <div class="markdown level0 summary"><p>Rectangle/Round Rectangle shape node</p>
+  <div class="markdown level0 summary"><p>Polyline made of multiple sprite node lines</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><a class="xref" href="Fantas.Node.html">Node</a></div>
-    <div class="level2"><a class="xref" href="Fantas.ShapeNode.html">ShapeNode</a></div>
-    <div class="level3"><span class="xref">RectangleNode</span></div>
+    <div class="level2"><span class="xref">SpritePolylineNode</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Fantas.ShapeNode.html#Fantas_ShapeNode_StrokeColor">ShapeNode.StrokeColor</a>
-    </div>
-    <div>
-      <a class="xref" href="Fantas.ShapeNode.html#Fantas_ShapeNode_FillColor">ShapeNode.FillColor</a>
-    </div>
-    <div>
-      <a class="xref" href="Fantas.ShapeNode.html#Fantas_ShapeNode_BlendMode">ShapeNode.BlendMode</a>
-    </div>
-    <div>
-      <a class="xref" href="Fantas.ShapeNode.html#Fantas_ShapeNode_LineWidth">ShapeNode.LineWidth</a>
-    </div>
-    <div>
-      <a class="xref" href="Fantas.ShapeNode.html#Fantas_ShapeNode_Antialiased">ShapeNode.Antialiased</a>
-    </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_Copy">Node.Copy()</a>
     </div>
@@ -281,6 +265,12 @@
       <a class="xref" href="Fantas.Node.html#Fantas_Node_Center">Node.Center</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Width">Node.Width</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Height">Node.Height</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_Left">Node.Left</a>
     </div>
     <div>
@@ -406,22 +396,22 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Fantas.html">Fantas</a></h6>
   <h6><strong>Assembly</strong>: Fantas.dll</h6>
-  <h5 id="Fantas_RectangleNode_syntax">Syntax</h5>
+  <h5 id="Fantas_SpritePolylineNode_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RectangleNode : ShapeNode</code></pre>
+    <pre><code class="lang-csharp hljs">public class SpritePolylineNode : Node</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="Fantas_RectangleNode__ctor_" data-uid="Fantas.RectangleNode.#ctor*"></a>
-  <h4 id="Fantas_RectangleNode__ctor_Fantas_RectangleNode_" data-uid="Fantas.RectangleNode.#ctor(Fantas.RectangleNode)">RectangleNode(RectangleNode)</h4>
-  <div class="markdown level1 summary"><p>Create copy of other rectangle node</p>
+  <a id="Fantas_SpritePolylineNode__ctor_" data-uid="Fantas.SpritePolylineNode.#ctor*"></a>
+  <h4 id="Fantas_SpritePolylineNode__ctor_Fantas_SpritePolylineNode_" data-uid="Fantas.SpritePolylineNode.#ctor(Fantas.SpritePolylineNode)">SpritePolylineNode(SpritePolylineNode)</h4>
+  <div class="markdown level1 summary"><p>Copy SpritePolylineNode</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RectangleNode(RectangleNode other)</code></pre>
+    <pre><code class="lang-csharp hljs">public SpritePolylineNode(SpritePolylineNode other)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -434,50 +424,37 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Fantas.RectangleNode.html">RectangleNode</a></td>
+        <td><a class="xref" href="Fantas.SpritePolylineNode.html">SpritePolylineNode</a></td>
         <td><span class="parametername">other</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="Fantas_RectangleNode__ctor_" data-uid="Fantas.RectangleNode.#ctor*"></a>
-  <h4 id="Fantas_RectangleNode__ctor_System_Drawing_SizeF_" data-uid="Fantas.RectangleNode.#ctor(System.Drawing.SizeF)">RectangleNode(SizeF)</h4>
-  <div class="markdown level1 summary"><p>Create a rectangle node</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RectangleNode(SizeF size)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
+        <th>Condition</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Drawing.SizeF</span></td>
-        <td><span class="parametername">size</span></td>
+        <td><span class="xref">System.ArgumentNullException</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Fantas_RectangleNode__ctor_" data-uid="Fantas.RectangleNode.#ctor*"></a>
-  <h4 id="Fantas_RectangleNode__ctor_System_Drawing_SizeF_System_Single_" data-uid="Fantas.RectangleNode.#ctor(System.Drawing.SizeF,System.Single)">RectangleNode(SizeF, Single)</h4>
-  <div class="markdown level1 summary"><p>Create round rectangle with corner radius</p>
+  <a id="Fantas_SpritePolylineNode__ctor_" data-uid="Fantas.SpritePolylineNode.#ctor*"></a>
+  <h4 id="Fantas_SpritePolylineNode__ctor_System_Drawing_PointF___" data-uid="Fantas.SpritePolylineNode.#ctor(System.Drawing.PointF[])">SpritePolylineNode(PointF[])</h4>
+  <div class="markdown level1 summary"><p>Ctor SpritePolylineNode</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RectangleNode(SizeF size, float cornerRadius)</code></pre>
+    <pre><code class="lang-csharp hljs">public SpritePolylineNode(PointF[] points)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -490,13 +467,79 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Drawing.SizeF</span></td>
-        <td><span class="parametername">size</span></td>
+        <td><span class="xref">System.Drawing.PointF</span>[]</td>
+        <td><span class="parametername">points</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_SpritePolylineNode__ctor_" data-uid="Fantas.SpritePolylineNode.#ctor*"></a>
+  <h4 id="Fantas_SpritePolylineNode__ctor_System_Drawing_PointF___System_Drawing_Color_" data-uid="Fantas.SpritePolylineNode.#ctor(System.Drawing.PointF[],System.Drawing.Color)">SpritePolylineNode(PointF[], Color)</h4>
+  <div class="markdown level1 summary"><p>Ctor SpritePolylineNode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SpritePolylineNode(PointF[] points, Color color)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Drawing.PointF</span>[]</td>
+        <td><span class="parametername">points</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Drawing.Color</span></td>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Fantas_SpritePolylineNode__ctor_" data-uid="Fantas.SpritePolylineNode.#ctor*"></a>
+  <h4 id="Fantas_SpritePolylineNode__ctor_System_Drawing_PointF___System_Drawing_Color_System_Single_" data-uid="Fantas.SpritePolylineNode.#ctor(System.Drawing.PointF[],System.Drawing.Color,System.Single)">SpritePolylineNode(PointF[], Color, Single)</h4>
+  <div class="markdown level1 summary"><p>Ctor SpritePolylineNode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SpritePolylineNode(PointF[] points, Color color, float thickness)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Drawing.PointF</span>[]</td>
+        <td><span class="parametername">points</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Drawing.Color</span></td>
+        <td><span class="parametername">color</span></td>
         <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">cornerRadius</span></td>
+        <td><span class="parametername">thickness</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -505,14 +548,14 @@
   </h3>
   
   
-  <a id="Fantas_RectangleNode_Height_" data-uid="Fantas.RectangleNode.Height*"></a>
-  <h4 id="Fantas_RectangleNode_Height" data-uid="Fantas.RectangleNode.Height">Height</h4>
-  <div class="markdown level1 summary"><p>Rectangle node height</p>
+  <a id="Fantas_SpritePolylineNode_Color_" data-uid="Fantas.SpritePolylineNode.Color*"></a>
+  <h4 id="Fantas_SpritePolylineNode_Color" data-uid="Fantas.SpritePolylineNode.Color">Color</h4>
+  <div class="markdown level1 summary"><p>Get sprite polyline color</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Height { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Color Color { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -524,21 +567,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
+        <td><span class="xref">System.Drawing.Color</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Fantas_RectangleNode_Size_" data-uid="Fantas.RectangleNode.Size*"></a>
-  <h4 id="Fantas_RectangleNode_Size" data-uid="Fantas.RectangleNode.Size">Size</h4>
-  <div class="markdown level1 summary"><p>Rectangle node size</p>
+  <a id="Fantas_SpritePolylineNode_Points_" data-uid="Fantas.SpritePolylineNode.Points*"></a>
+  <h4 id="Fantas_SpritePolylineNode_Points" data-uid="Fantas.SpritePolylineNode.Points">Points</h4>
+  <div class="markdown level1 summary"><p>Return the points from the polyline</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SizeF Size { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public PointF[] Points { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -550,21 +593,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Drawing.SizeF</span></td>
+        <td><span class="xref">System.Drawing.PointF</span>[]</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Fantas_RectangleNode_Width_" data-uid="Fantas.RectangleNode.Width*"></a>
-  <h4 id="Fantas_RectangleNode_Width" data-uid="Fantas.RectangleNode.Width">Width</h4>
-  <div class="markdown level1 summary"><p>Rectangle node width</p>
+  <a id="Fantas_SpritePolylineNode_Thickness_" data-uid="Fantas.SpritePolylineNode.Thickness*"></a>
+  <h4 id="Fantas_SpritePolylineNode_Thickness" data-uid="Fantas.SpritePolylineNode.Thickness">Thickness</h4>
+  <div class="markdown level1 summary"><p>Get sprite polyline thickness</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Width { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public float Thickness { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -583,10 +626,7 @@
   </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupBody_Fantas_RectangleNode_System_Int32_">NodeExtensions.SetupBody(RectangleNode, Int32)</a>
-  </div>
-  <div>
-      <a class="xref" href="Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupEdge_Fantas_RectangleNode_System_Int32_">NodeExtensions.SetupEdge(RectangleNode, Int32)</a>
+      <a class="xref" href="Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupBody_Fantas_SpritePolylineNode_System_Int32_">NodeExtensions.SetupBody(SpritePolylineNode, Int32)</a>
   </div>
 </article>
           </div>
