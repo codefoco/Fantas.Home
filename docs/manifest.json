@@ -1,5 +1,4 @@
 {
-  "homepages": [],
   "source_base_path": "/Users/viniciusjarina/projects/Fantas.Home",
   "xrefmap": "xrefmap.yml",
   "files": [
@@ -8,1115 +7,9 @@
       "source_relative_path": "README.md",
       "output": {
         ".html": {
-          "relative_path": "README.html",
-          "hash": "JiOEeQWRaV3bVx+lphN6SpkjCY0wNqUKl4QJwU1dSW4="
+          "relative_path": "README.html"
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Animation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Animation.html",
-          "hash": "npEqg+NWT+JpXQMxHkwa0qOCfbKGenQd/BpxlBfeOR8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.AnimationTimingFunction.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.AnimationTimingFunction.html",
-          "hash": "DMXTfYRw2jFrDMYSMhqwnxI5B4Fj6F5cMg2TlSttx9I="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.AnimationTimingMode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.AnimationTimingMode.html",
-          "hash": "LDaWEIBwyZMi3S6ewiHlckBzdXfu2BJjgRdAdC5u3dI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Audio.AudioSession.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Audio.AudioSession.html",
-          "hash": "400VorFK7PbrY60YRbHwkfFQIw3LObb6pJvcwS/haOw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Audio.Music.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Audio.Music.html",
-          "hash": "qYnxmho5s21Arsykl1VQoGaXPrilFi4yb99POn/xfqA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Audio.MusicPlayer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Audio.MusicPlayer.html",
-          "hash": "0Ixa8ZggGrspC62FbGbrBtCpLkTszzoJXdm8lrCXoyY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Audio.SoundEffect.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Audio.SoundEffect.html",
-          "hash": "HahEgPO9dpeiNU9Qqg0xmbU5DajIWdXtV2iE6erqcRI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Audio.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Audio.html",
-          "hash": "m3WNfRM564Y4PV2lbt9XdBmAsTjUPBdOM7MQTLsVQWI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.BlendMode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.BlendMode.html",
-          "hash": "fj8YoZqbdWXKEIU1GkBZFJmhXsGCtfWJHgnJkoTYhxs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.CameraNode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.CameraNode.html",
-          "hash": "URzXafMAzDjR5d/I/eybf4GrV6qQMYDSVr4HMZSZQwk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.CircleNode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.CircleNode.html",
-          "hash": "aXBJiip8JC+KBYpjnF/dr1TCC+LNmTEEgyWb2k7yDTk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.ColorExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.ColorExtensions.html",
-          "hash": "6ozMHF5mZlJtu0zGF5x/kkf4VXPoPhPYRjy7e94TcII="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.EllipseNode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.EllipseNode.html",
-          "hash": "W7wRR0cOBnOgFHLk5gIIrfBwt67DMCM3YhrDw8PdApE="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Font.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Font.html",
-          "hash": "+G6gHufSPnDIC31dKYlJNIJ9c+YsHTWKV5b2M1TczlE="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Game.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Game.html",
-          "hash": "rU6BzsCDBmQEXkXr9hCV4ULr08nrX9qrsaBjTyyQxoU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.GameOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.GameOptions.html",
-          "hash": "EGGzM2VdHIeUKkTweLlE7/gI2uHqyHYNGVl+Rf29BsQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.Controller.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.Controller.html",
-          "hash": "ndp2PO8bOVLcgOFqqOtm2go/S+apmhLtZX52m8a2e0E="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.ControllerButtonEventArgs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.ControllerButtonEventArgs.html",
-          "hash": "RFuY7rC2CtrgCmohpsfduVgVyVfRXCGUEglNNNSroiw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.ControllerButtons.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.ControllerButtons.html",
-          "hash": "jytqOP5eBl4suOW9oCVhAGqi2QAkp++egCIF8RPTQWs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.ControllerChangedEventArgs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.ControllerChangedEventArgs.html",
-          "hash": "UzU5rWiepL58rwcCFWbyDUJDpkocrmCnRquBzhTc7r8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.ControllerInput.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.ControllerInput.html",
-          "hash": "InxnG0cF3SkMydeJ+HHlHuFRC9DRrff1SrglNT5E9mc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.ControllerThumbstickChangedEventArgs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.ControllerThumbstickChangedEventArgs.html",
-          "hash": "vZhIOD7Kt850gNJoHyk7C8fiefjoNiAhy+jB5HVaPDQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.ControllerTriggerChangedEventArgs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.ControllerTriggerChangedEventArgs.html",
-          "hash": "Q5OQcF5ok4sQ0eG6N+XSwzbE3ceKCgIm+8pWQhQs3sE="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.Cursor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.Cursor.html",
-          "hash": "+0mEDt+LvtOhb6jPLva7mwsiGZACCMIet1Cb9ZyMNEA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.Cursors.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.Cursors.html",
-          "hash": "k1KSMbn72xnwyWydfuee/ufug70UvzrJG7YVeVSKuxk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.KeyEventArgs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.KeyEventArgs.html",
-          "hash": "Dk3kQNfgYMxeYBRuTc8L+PpI4slv2Aje1pnzZgZ7Yg8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.KeyboardInput.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.KeyboardInput.html",
-          "hash": "b1KyJ7Y8i+2vbONEwzRNkAysT8LYR/TtzJkWzalENN0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.Keys.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.Keys.html",
-          "hash": "D1xdJzcaGSPe/B2GBXzq3o53VCgbA4uW5ZrKK9lPdfY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.MouseButtons.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.MouseButtons.html",
-          "hash": "VmZY+uGpcJud9stODkIHyapf0OspXTMiM2r9x1V1oCM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.MouseEventArgs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.MouseEventArgs.html",
-          "hash": "Fl4QvQ4nlf9lACakUP5oiOur1SxTM07UjnokUM5+iBY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.MouseInput.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.MouseInput.html",
-          "hash": "3JxLPRXbHeTIcaah3TaKjStYGpoqSYic3K4IzQijFqo="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.PanEventArgs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.PanEventArgs.html",
-          "hash": "Ew5/TS6R7EIroVIhpFr6efbp1uQCXvukSIl9GWvSb30="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.PinchEventArgs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.PinchEventArgs.html",
-          "hash": "MJo6VZnzyn8Mqejl+CYptUYfb3t6EL84dOl1IWaP/Wo="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.SwipeDirection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.SwipeDirection.html",
-          "hash": "jKWbkZGCcId1okl0ml40Fd+VI7PZa8UTgD1RVwRfdeY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.SwipeEventArgs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.SwipeEventArgs.html",
-          "hash": "Z3W8n/O2WixjD3Cwtl/bAc6ImTpbqbvLtZnjuFdgvag="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.TapEventArgs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.TapEventArgs.html",
-          "hash": "QDCfa2qOeL14A49IjwoPrdnDxKCiyWNDuHtv81K9FT8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.TouchDevice.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.TouchDevice.html",
-          "hash": "HwATB5denpCS502Qrew5vNtXc4V42xK4RVt+GoGhZ7A="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.TouchEventArgs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.TouchEventArgs.html",
-          "hash": "5CcrO4BrSXrY0wSE+BaNqh1f06nS0HgyEOTOUaT7yjM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.TouchInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.TouchInfo.html",
-          "hash": "sf/ae3kK3CPmcomOnRV/8UpD+Mx0WKM4Q0AuVdBW1fo="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.TouchInput.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.TouchInput.html",
-          "hash": "SPLZ3d5F/gzoSGKJUTg8fGJWltu4kdbeJtdene96JpI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.TouchState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.TouchState.html",
-          "hash": "6/6BJ1jgSyTspxuYAd9OLTue2MhleRwiY8x9qROJngI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Input.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Input.html",
-          "hash": "Z0RoSW7IMEofHjK51G21JfBU4mMBdERi9c1x/UDi0xM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.LabelHorizontalAlignmentMode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.LabelHorizontalAlignmentMode.html",
-          "hash": "pdV9rrWsTQ3g8v1m7t4HePyRq1YrB6Ig2eJfTefTskA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.LabelNode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.LabelNode.html",
-          "hash": "jzN1PxlQM+Y0sBd6F54FWF2NHFdZ7517cZI8MAUCOSU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.LabelVerticalAlignmentMode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.LabelVerticalAlignmentMode.html",
-          "hash": "Hd7jlhQ28M8KARUBKlFcfTZg+PSllu+GabOCAVUkDJQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.MathClamp.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.MathClamp.html",
-          "hash": "QOsHRpaVKnQ/rXNv04yvcWl4S4crn7pJ9RxPk+r4QfM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.MathLerp.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.MathLerp.html",
-          "hash": "8QKIxA9CNl0Z7pfStVbSwPYLDl325EUNCrUFVdhUog0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Node.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Node.html",
-          "hash": "UCi4dRld/QhKTMpmxk48V1bRsY3aKtF1ioKutOK5WrI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.OutlinePosition.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.OutlinePosition.html",
-          "hash": "9o4sHFq0F/kPwAr3KxCx89MycsGxXA+ZKBdfCG72KIM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.ParticleEmitterNode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.ParticleEmitterNode.html",
-          "hash": "oC6l3COXNHOFDyhO9UsKtkXd7tciYqsD6VrVWTSLwRk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Physics.CircleBody.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Physics.CircleBody.html",
-          "hash": "EsZE20mawBREHm0wuW8AtUU0f49KtkBSdBady4IjEhg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Physics.ContactEvent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Physics.ContactEvent.html",
-          "hash": "GcqZhAnN9MneSY10QqRUBa/53wxkpIJT3UEMcjZe/T8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Physics.ContactHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Physics.ContactHandler.html",
-          "hash": "zAVKOKnJkA4Nlr4SYlsHSqSCL73J2qMveKxNQrDyK1I="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Physics.ContactInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Physics.ContactInfo.html",
-          "hash": "p9YRULJRRM6fzALrRmz4diRtoSGKo+OyQ3oJ8D9k210="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Physics.Edge.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Physics.Edge.html",
-          "hash": "w30msKPd2Y1BxCyfps8PERfbp+JBEY7x3YVobUJM3Rs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Physics.NodeExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Physics.NodeExtensions.html",
-          "hash": "VlcD13glH0xsvt59tmBfQlslaX9tS7ZL/fJpEQBJeyU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Physics.PhysicsBody.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Physics.PhysicsBody.html",
-          "hash": "0uNknSbXWQGACFs+XSI5YQwxAKEF8T/+uU0Rrvkqyh0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Physics.PhysicsJoint.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Physics.PhysicsJoint.html",
-          "hash": "15kuYv0XNxAL3P06RfATRi9uonAy4dcOTJnvsFvXiIU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Physics.PhysicsJointFixed.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Physics.PhysicsJointFixed.html",
-          "hash": "TNv3DTZ/Ctha+yldyGN+BKoV9tDC9xoRgyj0wdqycYE="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Physics.PhysicsJointLimit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Physics.PhysicsJointLimit.html",
-          "hash": "FMMcTlSmgJMP9Di6APcOW6Hnd0Dxs7Dmm3GNpe2ASoA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Physics.PhysicsJointPin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Physics.PhysicsJointPin.html",
-          "hash": "wLfKy+Ff5cpNCoDTvjzYRdtlOuJ4OWIfpU67md/NZAo="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Physics.PhysicsJointSliding.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Physics.PhysicsJointSliding.html",
-          "hash": "8Gkj0YH5csrIAvS1t8APmDsVvYX9j57K4cWvtZRaUtY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Physics.PhysicsJointSpring.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Physics.PhysicsJointSpring.html",
-          "hash": "pKA1z+QLZASQNsQ4WOksaOkYxn32Jl+969R21nzVcAU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Physics.PhysicsWorld.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Physics.PhysicsWorld.html",
-          "hash": "uDX0PfEtQEl5q4V8FYpImCAwHs6XqSwHx4RppSIzw4g="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Physics.PolygonBody.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Physics.PolygonBody.html",
-          "hash": "0EhTcxrdPwdOy2BYyvXg0KTBvRotvUN3Grc/afTIArM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Physics.PolygonEdge.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Physics.PolygonEdge.html",
-          "hash": "BD2QQqvxexjKDNEMb1NfNbnFVuBBCJGUR/Eyd15w06I="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Physics.RaycastHit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Physics.RaycastHit.html",
-          "hash": "Xcyjz0mnuXl+J0HlnU/fJm5GRjFC6DcEHti+6K5KWFk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Physics.RectangleBody.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Physics.RectangleBody.html",
-          "hash": "uTTKXS/ZNr/jqoVL6HLio20sID8poxAnQSN3kxUlR+o="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Physics.RectangleEdge.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Physics.RectangleEdge.html",
-          "hash": "jkfyQTwS+JWjkdQE7R/VsijOUjDEqEBFVsaUI8mt4Ac="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Physics.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Physics.html",
-          "hash": "d4Bj2fAbnPrbU2UNKlQ/xyDGJWcvkoOZ4SBzGv1+16Q="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.PointExtension.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.PointExtension.html",
-          "hash": "1ZNcO3YKVZODR+WP3nAGZEJ6lRuH2aCsy+ZQr9FkevI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.PolygonNode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.PolygonNode.html",
-          "hash": "HUSnYsToO+fycLwBDwWOxDGCfhvUAwle3Js9J38mAO0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.RandomExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.RandomExtensions.html",
-          "hash": "UUF/AeTVhXHg6EA8IMJ7dA6j0/IrH+vxpvjxGeHh8+M="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.RectangleExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.RectangleExtensions.html",
-          "hash": "fQ4e7vXunxDdpsb0jzCekVGdZDGAkxqBAELSEcA7yEk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.RectangleNode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.RectangleNode.html",
-          "hash": "ZLLOw17MkSjYIyvdJMnkR8Tz32oT87gdagicGJjF0BM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Scene.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Scene.html",
-          "hash": "InHoq0DeHJ18ZTE0daofkAxxKW2/HIibgmAd1hO/2HQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.SceneScaleMode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.SceneScaleMode.html",
-          "hash": "+UUgi1949NT7qvmS3ZzAGCsLGciOBEpIKVOKx/R1CvY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.ShapeNode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.ShapeNode.html",
-          "hash": "zC/v7jua4lsgkLQCQF32APr5Vd6ITjskTQp2FSJSB9I="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.SpriteFrameNode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.SpriteFrameNode.html",
-          "hash": "bIeFvdIxVWRLHpTJUallmpVaKtLPLThJBqG8xdQcicw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.SpriteLineNode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.SpriteLineNode.html",
-          "hash": "0weFtsEML1Qtp6uwKga2F6OHrkFv2wsl++OE/+tHf7s="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.SpriteNode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.SpriteNode.html",
-          "hash": "n5ziCu4B05jjcBupZo6x2+sBMnFot9QLsG3OWWfFVAk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.SpritePolylineNode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.SpritePolylineNode.html",
-          "hash": "UJ/YsHyT9DlFs5cWUMMjoqt+jSTMisyMtyK23vHuunw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Texture.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Texture.html",
-          "hash": "6ltSyF7o/wTTHcaq/nihIS70G+jShGY7BzwqnEoE1+M="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.TextureAtlas.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.TextureAtlas.html",
-          "hash": "PzyvURyMjagWX4RwD4T3t/ab9rbkrePvPfj2ukFNMFg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Time.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Time.html",
-          "hash": "acGp1eCIeuBfOJQ5oIXP/uLXD+7YAM5j79gP97SOslE="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.TriangleNode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.TriangleNode.html",
-          "hash": "wcswUaCk5XXNMV9CQnZXseCylZT9o3VnJRplPBbZDjc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.UI.ButtonNode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.UI.ButtonNode.html",
-          "hash": "kI9qRLippsTCfoZOgJ0TZEHRRsgwvK8EMr5Dsf6fr2g="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.UI.ControlNode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.UI.ControlNode.html",
-          "hash": "C1QovZwHZMIiLWTgxU0adwZcs21VdDWJdUMnbtriJR0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.UI.ControlState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.UI.ControlState.html",
-          "hash": "aWFd/AVeok8uEftjz9Rckwnyn+O4C8P43biz6LxUXrE="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.UI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.UI.html",
-          "hash": "daY25SMk/ylo10/J4wzy704LuLqTE5De19YEAbdpr6k="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.Vector2Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.Vector2Extensions.html",
-          "hash": "VpM6AlXbIHTg5QzYgeJgUf4baLLxrmuNGiHG6e7gSNg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Fantas.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Fantas.html",
-          "hash": "GBH/Cv/OUfDm+vmJscyCsPcUT60c0Pf3704ciQsmGs8="
-        }
-      },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1124,23 +17,9 @@
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
-          "relative_path": "api/index.html",
-          "hash": "2fll4gokjADWmf5Z3S/FczimTBo2NvLNftgxDqIA3PA="
+          "relative_path": "api/index.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "a2juF7Zk2hcy+W2ESnZ6ybOYEMhPMgQLCGurhZtfV1s="
-        }
-      },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1148,23 +27,22 @@
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
-          "relative_path": "articles/intro.html",
-          "hash": "GDkeZsAtbYhIfCvDlojgjUbvuMHmaqUVYf1ntYBVsIA="
+          "relative_path": "articles/intro.html"
         }
       },
-      "is_incremental": true,
       "version": ""
     },
     {
       "type": "Toc",
       "source_relative_path": "articles/toc.yml",
       "output": {
+        ".json": {
+          "relative_path": "articles/toc.json"
+        },
         ".html": {
-          "relative_path": "articles/toc.html",
-          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+          "relative_path": "articles/toc.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1172,11 +50,9 @@
       "source_relative_path": "eula.md",
       "output": {
         ".html": {
-          "relative_path": "eula.html",
-          "hash": "4LFmmqd3ZMAhAlxJYT+rsxVwKC1q2+4sC7/0PDw4584="
+          "relative_path": "eula.html"
         }
       },
-      "is_incremental": true,
       "version": ""
     },
     {
@@ -1187,7 +63,6 @@
           "relative_path": "favicon.ico"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1198,7 +73,6 @@
           "relative_path": "images/fantas.dx.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1209,7 +83,6 @@
           "relative_path": "images/fantas.monogame.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1220,7 +93,6 @@
           "relative_path": "images/fantas.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1231,7 +103,6 @@
           "relative_path": "images/fantas.spritekit.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1242,7 +113,6 @@
           "relative_path": "images/fantas_small.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1253,7 +123,6 @@
           "relative_path": "images/screenshort_vs.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1264,7 +133,6 @@
           "relative_path": "images/screenshot.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1275,7 +143,6 @@
           "relative_path": "images/screenshot_vsmac.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1286,7 +153,6 @@
           "relative_path": "images/vsmac_extensions.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1294,11 +160,9 @@
       "source_relative_path": "index.md",
       "output": {
         ".html": {
-          "relative_path": "index.html",
-          "hash": "drmBTWq/utmWHDRBAAUH4u9NXEN2Tv3TfI8nXdrx6mc="
+          "relative_path": "index.html"
         }
       },
-      "is_incremental": true,
       "version": ""
     },
     {
@@ -1306,11 +170,9 @@
       "source_relative_path": "linux.md",
       "output": {
         ".html": {
-          "relative_path": "linux.html",
-          "hash": "8dFj1ZMqNR3tOyFgdlFLyVCRWfQmYhm6sDR2s2IAXR8="
+          "relative_path": "linux.html"
         }
       },
-      "is_incremental": true,
       "version": ""
     },
     {
@@ -1321,7 +183,6 @@
           "relative_path": "logo.svg"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1329,23 +190,22 @@
       "source_relative_path": "mac.md",
       "output": {
         ".html": {
-          "relative_path": "mac.html",
-          "hash": "3Jepwdl5TfIJ25OkomY6iAXR7YBloadooyyyLnmuQAA="
+          "relative_path": "mac.html"
         }
       },
-      "is_incremental": true,
       "version": ""
     },
     {
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
         ".html": {
-          "relative_path": "toc.html",
-          "hash": "Si1vxZ0U9xrBQ2tpvoGpd7QuKqF7VFDqZ3UMg5wP9kI="
+          "relative_path": "toc.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1353,63 +213,12 @@
       "source_relative_path": "windows.md",
       "output": {
         ".html": {
-          "relative_path": "windows.html",
-          "hash": "lJiIm/yniGmTr/O36A1yfxwkMpONF+0CzO9dVmyD2AU="
+          "relative_path": "windows.html"
         }
       },
-      "is_incremental": true,
       "version": ""
     }
   ],
-  "incremental_info": [
-    {
-      "status": {
-        "can_incremental": true,
-        "incrementalPhase": "build",
-        "total_file_count": 0,
-        "skipped_file_count": 0
-      },
-      "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 8,
-          "skipped_file_count": 8
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 93,
-          "skipped_file_count": 63
-        },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        }
-      }
-    },
-    {
-      "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
-        "incrementalPhase": "postProcessing",
-        "total_file_count": 0,
-        "skipped_file_count": 0
-      },
-      "processors": {}
-    }
-  ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"
