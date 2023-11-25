@@ -6,3 +6,5 @@
 /**/packages/
 /**/bin/
 /**/obj/
+.DS_Store
+nugets/*

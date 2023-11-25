@@ -1,0 +1,732 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.Audio.SoundEffect
+  commentId: T:Fantas.Audio.SoundEffect
+  id: SoundEffect
+  parent: Fantas.Audio
+  children:
+  - Fantas.Audio.SoundEffect.Duration
+  - Fantas.Audio.SoundEffect.FromFile(System.String)
+  - Fantas.Audio.SoundEffect.FromName(System.String)
+  - Fantas.Audio.SoundEffect.FromResource(System.Reflection.Assembly,System.String)
+  - Fantas.Audio.SoundEffect.FromResource(System.String)
+  - Fantas.Audio.SoundEffect.FromStream(System.String,System.IO.Stream)
+  - Fantas.Audio.SoundEffect.Name
+  - Fantas.Audio.SoundEffect.Play
+  - Fantas.Audio.SoundEffect.Play(System.Single,System.Single,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: SoundEffect
+  nameWithType: SoundEffect
+  fullName: Fantas.Audio.SoundEffect
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Audio/SoundEffect.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Audio
+  summary: >-
+    Sound Effect is a short sound, like a click or explosion
+
+    Recommended format:
+
+    WAV or CAF (on Apple platforms)
+  example: []
+  syntax:
+    content: public sealed class SoundEffect
+    content.vb: Public NotInheritable Class SoundEffect
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Fantas.Audio.SoundEffect.FromFile(System.String)
+  commentId: M:Fantas.Audio.SoundEffect.FromFile(System.String)
+  id: FromFile(System.String)
+  parent: Fantas.Audio.SoundEffect
+  langs:
+  - csharp
+  - vb
+  name: FromFile(string)
+  nameWithType: SoundEffect.FromFile(string)
+  fullName: Fantas.Audio.SoundEffect.FromFile(string)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Audio/SoundEffect.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Audio
+  summary: Load a sound effect from file
+  example: []
+  syntax:
+    content: public static SoundEffect FromFile(string fileName)
+    parameters:
+    - id: fileName
+      type: System.String
+      description: ''
+    return:
+      type: Fantas.Audio.SoundEffect
+      description: ''
+    content.vb: Public Shared Function FromFile(fileName As String) As SoundEffect
+  overload: Fantas.Audio.SoundEffect.FromFile*
+  nameWithType.vb: SoundEffect.FromFile(String)
+  fullName.vb: Fantas.Audio.SoundEffect.FromFile(String)
+  name.vb: FromFile(String)
+- uid: Fantas.Audio.SoundEffect.FromName(System.String)
+  commentId: M:Fantas.Audio.SoundEffect.FromName(System.String)
+  id: FromName(System.String)
+  parent: Fantas.Audio.SoundEffect
+  langs:
+  - csharp
+  - vb
+  name: FromName(string)
+  nameWithType: SoundEffect.FromName(string)
+  fullName: Fantas.Audio.SoundEffect.FromName(string)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Audio/SoundEffect.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Audio
+  summary: Load a sound effect by name
+  example: []
+  syntax:
+    content: public static SoundEffect FromName(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    return:
+      type: Fantas.Audio.SoundEffect
+      description: ''
+    content.vb: Public Shared Function FromName(name As String) As SoundEffect
+  overload: Fantas.Audio.SoundEffect.FromName*
+  nameWithType.vb: SoundEffect.FromName(String)
+  fullName.vb: Fantas.Audio.SoundEffect.FromName(String)
+  name.vb: FromName(String)
+- uid: Fantas.Audio.SoundEffect.FromResource(System.String)
+  commentId: M:Fantas.Audio.SoundEffect.FromResource(System.String)
+  id: FromResource(System.String)
+  parent: Fantas.Audio.SoundEffect
+  langs:
+  - csharp
+  - vb
+  name: FromResource(string)
+  nameWithType: SoundEffect.FromResource(string)
+  fullName: Fantas.Audio.SoundEffect.FromResource(string)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Audio/SoundEffect.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Audio
+  summary: Load Sound Effect from embedded resource
+  example: []
+  syntax:
+    content: public static SoundEffect FromResource(string resourceName)
+    parameters:
+    - id: resourceName
+      type: System.String
+      description: ''
+    return:
+      type: Fantas.Audio.SoundEffect
+      description: ''
+    content.vb: Public Shared Function FromResource(resourceName As String) As SoundEffect
+  overload: Fantas.Audio.SoundEffect.FromResource*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: ''
+  nameWithType.vb: SoundEffect.FromResource(String)
+  fullName.vb: Fantas.Audio.SoundEffect.FromResource(String)
+  name.vb: FromResource(String)
+- uid: Fantas.Audio.SoundEffect.FromResource(System.Reflection.Assembly,System.String)
+  commentId: M:Fantas.Audio.SoundEffect.FromResource(System.Reflection.Assembly,System.String)
+  id: FromResource(System.Reflection.Assembly,System.String)
+  parent: Fantas.Audio.SoundEffect
+  langs:
+  - csharp
+  - vb
+  name: FromResource(Assembly, string)
+  nameWithType: SoundEffect.FromResource(Assembly, string)
+  fullName: Fantas.Audio.SoundEffect.FromResource(System.Reflection.Assembly, string)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Audio/SoundEffect.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Audio
+  summary: Load Sound Effect from embedded resource
+  example: []
+  syntax:
+    content: public static SoundEffect FromResource(Assembly assembly, string resourceName)
+    parameters:
+    - id: assembly
+      type: System.Reflection.Assembly
+      description: Assembly where is located the embedded resource
+    - id: resourceName
+      type: System.String
+      description: embedded resource name
+    return:
+      type: Fantas.Audio.SoundEffect
+      description: ''
+    content.vb: Public Shared Function FromResource(assembly As Assembly, resourceName As String) As SoundEffect
+  overload: Fantas.Audio.SoundEffect.FromResource*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: ''
+  nameWithType.vb: SoundEffect.FromResource(Assembly, String)
+  fullName.vb: Fantas.Audio.SoundEffect.FromResource(System.Reflection.Assembly, String)
+  name.vb: FromResource(Assembly, String)
+- uid: Fantas.Audio.SoundEffect.FromStream(System.String,System.IO.Stream)
+  commentId: M:Fantas.Audio.SoundEffect.FromStream(System.String,System.IO.Stream)
+  id: FromStream(System.String,System.IO.Stream)
+  parent: Fantas.Audio.SoundEffect
+  langs:
+  - csharp
+  - vb
+  name: FromStream(string, Stream)
+  nameWithType: SoundEffect.FromStream(string, Stream)
+  fullName: Fantas.Audio.SoundEffect.FromStream(string, System.IO.Stream)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Audio/SoundEffect.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Audio
+  summary: Load a sound effect from stream
+  example: []
+  syntax:
+    content: public static SoundEffect FromStream(string name, Stream stream)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    - id: stream
+      type: System.IO.Stream
+      description: ''
+    return:
+      type: Fantas.Audio.SoundEffect
+      description: ''
+    content.vb: Public Shared Function FromStream(name As String, stream As Stream) As SoundEffect
+  overload: Fantas.Audio.SoundEffect.FromStream*
+  nameWithType.vb: SoundEffect.FromStream(String, Stream)
+  fullName.vb: Fantas.Audio.SoundEffect.FromStream(String, System.IO.Stream)
+  name.vb: FromStream(String, Stream)
+- uid: Fantas.Audio.SoundEffect.Play
+  commentId: M:Fantas.Audio.SoundEffect.Play
+  id: Play
+  parent: Fantas.Audio.SoundEffect
+  langs:
+  - csharp
+  - vb
+  name: Play()
+  nameWithType: SoundEffect.Play()
+  fullName: Fantas.Audio.SoundEffect.Play()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Audio/SoundEffect.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Audio
+  summary: Play sound effect (fire and forget)
+  example: []
+  syntax:
+    content: public void Play()
+    content.vb: Public Sub Play()
+  overload: Fantas.Audio.SoundEffect.Play*
+- uid: Fantas.Audio.SoundEffect.Play(System.Single,System.Single,System.Single)
+  commentId: M:Fantas.Audio.SoundEffect.Play(System.Single,System.Single,System.Single)
+  id: Play(System.Single,System.Single,System.Single)
+  parent: Fantas.Audio.SoundEffect
+  langs:
+  - csharp
+  - vb
+  name: Play(float, float, float)
+  nameWithType: SoundEffect.Play(float, float, float)
+  fullName: Fantas.Audio.SoundEffect.Play(float, float, float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Audio/SoundEffect.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Audio
+  summary: >-
+    Play sound effect changing the volume, pitch and pan
+
+    volume of sound fx 0-mute 1-max volume
+
+    pitch -1 one octave bellow, 0 - original, 1 one octave above
+
+    pan -1 all the way to left speaker, 0 normal, 1 all the way to the right
+  example: []
+  syntax:
+    content: public void Play(float volume, float pitch, float pan)
+    parameters:
+    - id: volume
+      type: System.Single
+      description: ''
+    - id: pitch
+      type: System.Single
+      description: ''
+    - id: pan
+      type: System.Single
+      description: ''
+    content.vb: Public Sub Play(volume As Single, pitch As Single, pan As Single)
+  overload: Fantas.Audio.SoundEffect.Play*
+  nameWithType.vb: SoundEffect.Play(Single, Single, Single)
+  fullName.vb: Fantas.Audio.SoundEffect.Play(Single, Single, Single)
+  name.vb: Play(Single, Single, Single)
+- uid: Fantas.Audio.SoundEffect.Name
+  commentId: P:Fantas.Audio.SoundEffect.Name
+  id: Name
+  parent: Fantas.Audio.SoundEffect
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SoundEffect.Name
+  fullName: Fantas.Audio.SoundEffect.Name
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Audio/SoundEffect.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Audio
+  summary: Name of sound effect
+  example: []
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: Fantas.Audio.SoundEffect.Name*
+- uid: Fantas.Audio.SoundEffect.Duration
+  commentId: P:Fantas.Audio.SoundEffect.Duration
+  id: Duration
+  parent: Fantas.Audio.SoundEffect
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: SoundEffect.Duration
+  fullName: Fantas.Audio.SoundEffect.Duration
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Audio/SoundEffect.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Audio
+  summary: Duration in seconds
+  example: []
+  syntax:
+    content: public float Duration { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Duration As Single
+  overload: Fantas.Audio.SoundEffect.Duration*
+references:
+- uid: Fantas.Audio
+  commentId: N:Fantas.Audio
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.Audio
+  nameWithType: Fantas.Audio
+  fullName: Fantas.Audio
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Audio
+    name: Audio
+    isExternal: true
+    href: Fantas.Audio.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Audio
+    name: Audio
+    isExternal: true
+    href: Fantas.Audio.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.Audio.SoundEffect.FromFile*
+  commentId: Overload:Fantas.Audio.SoundEffect.FromFile
+  isExternal: true
+  href: Fantas.Audio.SoundEffect.html#Fantas_Audio_SoundEffect_FromFile_System_String_
+  name: FromFile
+  nameWithType: SoundEffect.FromFile
+  fullName: Fantas.Audio.SoundEffect.FromFile
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Fantas.Audio.SoundEffect
+  commentId: T:Fantas.Audio.SoundEffect
+  parent: Fantas.Audio
+  isExternal: true
+  href: Fantas.Audio.SoundEffect.html
+  name: SoundEffect
+  nameWithType: SoundEffect
+  fullName: Fantas.Audio.SoundEffect
+- uid: Fantas.Audio.SoundEffect.FromName*
+  commentId: Overload:Fantas.Audio.SoundEffect.FromName
+  isExternal: true
+  href: Fantas.Audio.SoundEffect.html#Fantas_Audio_SoundEffect_FromName_System_String_
+  name: FromName
+  nameWithType: SoundEffect.FromName
+  fullName: Fantas.Audio.SoundEffect.FromName
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
+- uid: Fantas.Audio.SoundEffect.FromResource*
+  commentId: Overload:Fantas.Audio.SoundEffect.FromResource
+  isExternal: true
+  href: Fantas.Audio.SoundEffect.html#Fantas_Audio_SoundEffect_FromResource_System_String_
+  name: FromResource
+  nameWithType: SoundEffect.FromResource
+  fullName: Fantas.Audio.SoundEffect.FromResource
+- uid: System.Reflection.Assembly
+  commentId: T:System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  name: Assembly
+  nameWithType: Assembly
+  fullName: System.Reflection.Assembly
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+- uid: Fantas.Audio.SoundEffect.FromStream*
+  commentId: Overload:Fantas.Audio.SoundEffect.FromStream
+  isExternal: true
+  href: Fantas.Audio.SoundEffect.html#Fantas_Audio_SoundEffect_FromStream_System_String_System_IO_Stream_
+  name: FromStream
+  nameWithType: SoundEffect.FromStream
+  fullName: Fantas.Audio.SoundEffect.FromStream
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: Fantas.Audio.SoundEffect.Play*
+  commentId: Overload:Fantas.Audio.SoundEffect.Play
+  isExternal: true
+  href: Fantas.Audio.SoundEffect.html#Fantas_Audio_SoundEffect_Play
+  name: Play
+  nameWithType: SoundEffect.Play
+  fullName: Fantas.Audio.SoundEffect.Play
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Fantas.Audio.SoundEffect.Name*
+  commentId: Overload:Fantas.Audio.SoundEffect.Name
+  isExternal: true
+  href: Fantas.Audio.SoundEffect.html#Fantas_Audio_SoundEffect_Name
+  name: Name
+  nameWithType: SoundEffect.Name
+  fullName: Fantas.Audio.SoundEffect.Name
+- uid: Fantas.Audio.SoundEffect.Duration*
+  commentId: Overload:Fantas.Audio.SoundEffect.Duration
+  isExternal: true
+  href: Fantas.Audio.SoundEffect.html#Fantas_Audio_SoundEffect_Duration
+  name: Duration
+  nameWithType: SoundEffect.Duration
+  fullName: Fantas.Audio.SoundEffect.Duration

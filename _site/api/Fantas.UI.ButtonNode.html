@@ -1,0 +1,1013 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ButtonNode
+ | Fantas </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ButtonNode
+ | Fantas ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.json">
+      <meta name="docfx:tocrel" content="toc.json">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="Fantas">
+            Fantas
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Fantas.UI.ButtonNode">
+
+
+
+  <h1 id="Fantas_UI_ButtonNode" data-uid="Fantas.UI.ButtonNode" class="text-break">
+    Class ButtonNode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Fantas.html">Fantas</a>.<a class="xref" href="Fantas.UI.html">UI</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Fantas.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Button Node</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ButtonNode : ControlNode</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="Fantas.Node.html">Node</a></div>
+      <div><a class="xref" href="Fantas.SpriteNode.html">SpriteNode</a></div>
+      <div><a class="xref" href="Fantas.UI.ControlNode.html">ControlNode</a></div>
+      <div><span class="xref">ButtonNode</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Fantas.UI.ControlNode.html#Fantas_UI_ControlNode_OnMouseEnter">ControlNode.OnMouseEnter()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.UI.ControlNode.html#Fantas_UI_ControlNode_OnMouseDown_Fantas_Input_MouseEventArgs_">ControlNode.OnMouseDown(MouseEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.UI.ControlNode.html#Fantas_UI_ControlNode_OnMouseUp_Fantas_Input_MouseEventArgs_">ControlNode.OnMouseUp(MouseEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.UI.ControlNode.html#Fantas_UI_ControlNode_OnMouseLeave">ControlNode.OnMouseLeave()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.UI.ControlNode.html#Fantas_UI_ControlNode_OnTouchDownInside_Fantas_Input_TouchEventArgs_">ControlNode.OnTouchDownInside(TouchEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.UI.ControlNode.html#Fantas_UI_ControlNode_OnTouchDragEnter_Fantas_Input_TouchEventArgs_">ControlNode.OnTouchDragEnter(TouchEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.UI.ControlNode.html#Fantas_UI_ControlNode_OnTouchDragExit_Fantas_Input_TouchEventArgs_">ControlNode.OnTouchDragExit(TouchEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.UI.ControlNode.html#Fantas_UI_ControlNode_Enabled">ControlNode.Enabled</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.UI.ControlNode.html#Fantas_UI_ControlNode_State">ControlNode.State</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_Copy">SpriteNode.Copy()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_ScaleTo_System_Drawing_SizeF_">SpriteNode.ScaleTo(SizeF)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_OnSizeChanged">SpriteNode.OnSizeChanged()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_Inflate_System_Numerics_Vector2_">SpriteNode.Inflate(Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_Inflate_System_Single_System_Single_">SpriteNode.Inflate(float, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_Inflate_System_Single_">SpriteNode.Inflate(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_ExpandWidth_System_Single_">SpriteNode.ExpandWidth(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_ExpandHeight_System_Single_">SpriteNode.ExpandHeight(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_BlendMode">SpriteNode.BlendMode</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_AnchorPoint">SpriteNode.AnchorPoint</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_Color">SpriteNode.Color</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_TopLeftColor">SpriteNode.TopLeftColor</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_TopRightColor">SpriteNode.TopRightColor</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_TopColor">SpriteNode.TopColor</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_BottomRightColor">SpriteNode.BottomRightColor</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_RightColor">SpriteNode.RightColor</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_BottomLeftColor">SpriteNode.BottomLeftColor</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_LeftColor">SpriteNode.LeftColor</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_BottomColor">SpriteNode.BottomColor</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_ColorBlendFactor">SpriteNode.ColorBlendFactor</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_CenterRect">SpriteNode.CenterRect</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_Size">SpriteNode.Size</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_Width">SpriteNode.Width</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_Height">SpriteNode.Height</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_Texture">SpriteNode.Texture</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ToString">Node.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Offset_System_Numerics_Vector2_">Node.Offset(Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Offset_System_Single_System_Single_">Node.Offset(float, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OffsetX_System_Single_">Node.OffsetX(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OffsetY_System_Single_">Node.OffsetY(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_CalculateAccumulatedFrame">Node.CalculateAccumulatedFrame()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_RenderToTexture">Node.RenderToTexture()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_SetScale_System_Single_">Node.SetScale(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_SetScale_System_Numerics_Vector2_">Node.SetScale(Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_AddChild_Fantas_Node_">Node.AddChild(Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_InsertChild_System_Int32_Fantas_Node_">Node.InsertChild(int, Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_MoveToParent_Fantas_Node_">Node.MoveToParent(Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_RemoveFromParent">Node.RemoveFromParent()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_RemoveAllChildren">Node.RemoveAllChildren()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_RemoveChildren_System_Collections_Generic_IReadOnlyList_Fantas_Node__">Node.RemoveChildren(IReadOnlyList&lt;Node&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_RemoveChild_Fantas_Node_">Node.RemoveChild(Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_InParentHierarchy_Fantas_Node_">Node.InParentHierarchy(Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_RunAnimation_Fantas_Animation_">Node.RunAnimation(Animation)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_RunAnimation_Fantas_Animation_System_Action_">Node.RunAnimation(Animation, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_RunAnimation_Fantas_Animation_System_String_">Node.RunAnimation(Animation, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_RunAnimationAsync_Fantas_Animation_">Node.RunAnimationAsync(Animation)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_GetAnimationForKey_System_String_">Node.GetAnimationForKey(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_RemoveAnimationForKey_System_String_">Node.RemoveAnimationForKey(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_RemoveAllAnimations">Node.RemoveAllAnimations()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ContainsPoint_System_Drawing_PointF_">Node.ContainsPoint(PointF)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_GetNodeAtPoint_System_Drawing_PointF_">Node.GetNodeAtPoint(PointF)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_GetChildNode_System_String_">Node.GetChildNode(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_GetNodesAtPoint_System_Drawing_PointF_">Node.GetNodesAtPoint(PointF)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_IntersectsNode_Fantas_Node_">Node.IntersectsNode(Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertPointFromNode_System_Drawing_PointF_Fantas_Node_">Node.ConvertPointFromNode(PointF, Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertPointToNode_System_Drawing_PointF_Fantas_Node_">Node.ConvertPointToNode(PointF, Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_BringForward">Node.BringForward()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_BringToFront">Node.BringToFront()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_SendBackward">Node.SendBackward()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_SendToBack">Node.SendToBack()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnTap_Fantas_Input_TapEventArgs_">Node.OnTap(TapEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnLongPress_Fantas_Input_TapEventArgs_">Node.OnLongPress(TapEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnDoubleTap_Fantas_Input_TapEventArgs_">Node.OnDoubleTap(TapEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnTouchDragInside_Fantas_Input_TouchEventArgs_">Node.OnTouchDragInside(TouchEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnTouchDragOutside_Fantas_Input_TouchEventArgs_">Node.OnTouchDragOutside(TouchEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnTouchUpOutside_Fantas_Input_TouchEventArgs_">Node.OnTouchUpOutside(TouchEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnDoubleClick_Fantas_Input_MouseEventArgs_">Node.OnDoubleClick(MouseEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnMouseHover">Node.OnMouseHover()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Name">Node.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Tag">Node.Tag</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Cursor">Node.Cursor</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Position">Node.Position</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Frame">Node.Frame</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_X">Node.X</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Y">Node.Y</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Center">Node.Center</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Left">Node.Left</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Right">Node.Right</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Top">Node.Top</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Bottom">Node.Bottom</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ZPosition">Node.ZPosition</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ZRotation">Node.ZRotation</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_XScale">Node.XScale</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_YScale">Node.YScale</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Scale">Node.Scale</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Scene">Node.Scene</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Parent">Node.Parent</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Children">Node.Children</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_PhysicsBody">Node.PhysicsBody</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Hidden">Node.Hidden</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Alpha">Node.Alpha</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_HasAnimation">Node.HasAnimation</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Paused">Node.Paused</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Speed">Node.Speed</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_IsHitTestEnabled">Node.IsHitTestEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_CanBringForward">Node.CanBringForward</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_CanSendBackward">Node.CanSendBackward</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_IsMouseOver">Node.IsMouseOver</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseButtonPressed">Node.MouseButtonPressed</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_IsTouchOver">Node.IsTouchOver</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_TouchCount">Node.TouchCount</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Tap">Node.Tap</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_DoubleTap">Node.DoubleTap</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_LongPress">Node.LongPress</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_TouchDownInside">Node.TouchDownInside</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_TouchDragEnter">Node.TouchDragEnter</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_TouchDragExit">Node.TouchDragExit</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_TouchDragInside">Node.TouchDragInside</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_TouchDragOutside">Node.TouchDragOutside</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_TouchUpInside">Node.TouchUpInside</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_TouchUpOutside">Node.TouchUpOutside</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseDown">Node.MouseDown</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseUp">Node.MouseUp</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Click">Node.Click</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_DoubleClick">Node.DoubleClick</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseEnter">Node.MouseEnter</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseHover">Node.MouseHover</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseLeave">Node.MouseLeave</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupBody_Fantas_SpriteNode_System_Int32_">NodeExtensions.SetupBody(SpriteNode, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupEdge_Fantas_SpriteNode_System_Int32_">NodeExtensions.SetupEdge(SpriteNode, int)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Fantas_UI_ButtonNode__ctor_" data-uid="Fantas.UI.ButtonNode.#ctor*"></a>
+
+  <h3 id="Fantas_UI_ButtonNode__ctor" data-uid="Fantas.UI.ButtonNode.#ctor">
+  ButtonNode()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Construct ButtonNode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ButtonNode()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Fantas_UI_ButtonNode_DisabledTexture_" data-uid="Fantas.UI.ButtonNode.DisabledTexture*"></a>
+
+  <h3 id="Fantas_UI_ButtonNode_DisabledTexture" data-uid="Fantas.UI.ButtonNode.DisabledTexture">
+  DisabledTexture
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Default Disabled ButtonNode texture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Texture DisabledTexture { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Texture.html">Texture</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_UI_ButtonNode_HoverTexture_" data-uid="Fantas.UI.ButtonNode.HoverTexture*"></a>
+
+  <h3 id="Fantas_UI_ButtonNode_HoverTexture" data-uid="Fantas.UI.ButtonNode.HoverTexture">
+  HoverTexture
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Default Hover ButtonNode texture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Texture HoverTexture { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Texture.html">Texture</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_UI_ButtonNode_LabelNode_" data-uid="Fantas.UI.ButtonNode.LabelNode*"></a>
+
+  <h3 id="Fantas_UI_ButtonNode_LabelNode" data-uid="Fantas.UI.ButtonNode.LabelNode">
+  LabelNode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Button Label</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LabelNode LabelNode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.LabelNode.html">LabelNode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_UI_ButtonNode_NormalTexture_" data-uid="Fantas.UI.ButtonNode.NormalTexture*"></a>
+
+  <h3 id="Fantas_UI_ButtonNode_NormalTexture" data-uid="Fantas.UI.ButtonNode.NormalTexture">
+  NormalTexture
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Default Normal ButtonNode texture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Texture NormalTexture { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Texture.html">Texture</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_UI_ButtonNode_PressedTexture_" data-uid="Fantas.UI.ButtonNode.PressedTexture*"></a>
+
+  <h3 id="Fantas_UI_ButtonNode_PressedTexture" data-uid="Fantas.UI.ButtonNode.PressedTexture">
+  PressedTexture
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Default Pressed ButtonNode texture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Texture PressedTexture { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Texture.html">Texture</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_UI_ButtonNode_Text_" data-uid="Fantas.UI.ButtonNode.Text*"></a>
+
+  <h3 id="Fantas_UI_ButtonNode_Text" data-uid="Fantas.UI.ButtonNode.Text">
+  Text
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Button text</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Text { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_UI_ButtonNode_TextColor_" data-uid="Fantas.UI.ButtonNode.TextColor*"></a>
+
+  <h3 id="Fantas_UI_ButtonNode_TextColor" data-uid="Fantas.UI.ButtonNode.TextColor">
+  TextColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Button text color</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color TextColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.color">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Fantas_UI_ButtonNode_OnClick_" data-uid="Fantas.UI.ButtonNode.OnClick*"></a>
+
+  <h3 id="Fantas_UI_ButtonNode_OnClick_Fantas_Input_MouseEventArgs_" data-uid="Fantas.UI.ButtonNode.OnClick(Fantas.Input.MouseEventArgs)">
+  OnClick(MouseEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Node override to call Press</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnClick(MouseEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.MouseEventArgs.html">MouseEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_UI_ButtonNode_OnPressed_" data-uid="Fantas.UI.ButtonNode.OnPressed*"></a>
+
+  <h3 id="Fantas_UI_ButtonNode_OnPressed" data-uid="Fantas.UI.ButtonNode.OnPressed">
+  OnPressed()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when Button is pressed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnPressed()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_UI_ButtonNode_OnStateChanged_" data-uid="Fantas.UI.ButtonNode.OnStateChanged*"></a>
+
+  <h3 id="Fantas_UI_ButtonNode_OnStateChanged" data-uid="Fantas.UI.ButtonNode.OnStateChanged">
+  OnStateChanged()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update Button Texture on state change</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnStateChanged()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_UI_ButtonNode_OnTouchUpInside_" data-uid="Fantas.UI.ButtonNode.OnTouchUpInside*"></a>
+
+  <h3 id="Fantas_UI_ButtonNode_OnTouchUpInside_Fantas_Input_TouchEventArgs_" data-uid="Fantas.UI.ButtonNode.OnTouchUpInside(Fantas.Input.TouchEventArgs)">
+  OnTouchUpInside(TouchEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Node override to call Press</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnTouchUpInside(TouchEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.TouchEventArgs.html">TouchEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_UI_ButtonNode_Press_" data-uid="Fantas.UI.ButtonNode.Press*"></a>
+
+  <h3 id="Fantas_UI_ButtonNode_Press" data-uid="Fantas.UI.ButtonNode.Press">
+  Press()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Trigger button pressed event</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Press()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="Fantas_UI_ButtonNode_Pressed" data-uid="Fantas.UI.ButtonNode.Pressed">
+  Pressed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Event called when Button is pressed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;EventArgs&gt; Pressed</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventargs">EventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ButtonNode.cs" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

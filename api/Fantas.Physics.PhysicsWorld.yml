@@ -1,0 +1,1262 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.Physics.PhysicsWorld
+  commentId: T:Fantas.Physics.PhysicsWorld
+  id: PhysicsWorld
+  parent: Fantas.Physics
+  children:
+  - Fantas.Physics.PhysicsWorld.AddJoint(Fantas.Physics.PhysicsJoint)
+  - Fantas.Physics.PhysicsWorld.DefaultCollisionHandler
+  - Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.PointF)
+  - Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.PointF,System.Int32)
+  - Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.RectangleF)
+  - Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.RectangleF,System.Int32)
+  - Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.PointF)
+  - Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.PointF,System.Int32)
+  - Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.RectangleF)
+  - Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.RectangleF,System.Int32)
+  - Fantas.Physics.PhysicsWorld.GetPairCollisionHandler(System.Int32,System.Int32)
+  - Fantas.Physics.PhysicsWorld.Gravity
+  - Fantas.Physics.PhysicsWorld.Iterations
+  - Fantas.Physics.PhysicsWorld.Raycast(System.Drawing.PointF,System.Drawing.PointF)
+  - Fantas.Physics.PhysicsWorld.Raycast(System.Drawing.PointF,System.Drawing.PointF,System.Int32)
+  - Fantas.Physics.PhysicsWorld.RaycastBodies(System.Drawing.PointF,System.Drawing.PointF)
+  - Fantas.Physics.PhysicsWorld.RaycastBodies(System.Drawing.PointF,System.Drawing.PointF,System.Int32)
+  - Fantas.Physics.PhysicsWorld.RemoveAllJoints
+  - Fantas.Physics.PhysicsWorld.RemoveJoint(Fantas.Physics.PhysicsJoint)
+  - Fantas.Physics.PhysicsWorld.Speed
+  langs:
+  - csharp
+  - vb
+  name: PhysicsWorld
+  nameWithType: PhysicsWorld
+  fullName: Fantas.Physics.PhysicsWorld
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: >-
+    The PhysicsWorld provides:
+
+
+    Global values such as Gravity.
+
+    Connecting PhysicsBodies with the AddJoint(PhysicsJoint) method.
+
+    Raising events when PhysicsBody begin or end contact with each other(DidBeginContact, DidEndContact).
+  example: []
+  syntax:
+    content: public sealed class PhysicsWorld
+    content.vb: Public NotInheritable Class PhysicsWorld
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Fantas.Physics.PhysicsWorld.GetPairCollisionHandler(System.Int32,System.Int32)
+  commentId: M:Fantas.Physics.PhysicsWorld.GetPairCollisionHandler(System.Int32,System.Int32)
+  id: GetPairCollisionHandler(System.Int32,System.Int32)
+  parent: Fantas.Physics.PhysicsWorld
+  langs:
+  - csharp
+  - vb
+  name: GetPairCollisionHandler(int, int)
+  nameWithType: PhysicsWorld.GetPairCollisionHandler(int, int)
+  fullName: Fantas.Physics.PhysicsWorld.GetPairCollisionHandler(int, int)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: event when two bodies contact begin
+  example: []
+  syntax:
+    content: public ContactHandler GetPairCollisionHandler(int collisionTypeA, int collisionTypeB)
+    parameters:
+    - id: collisionTypeA
+      type: System.Int32
+    - id: collisionTypeB
+      type: System.Int32
+    return:
+      type: Fantas.Physics.ContactHandler
+    content.vb: Public Function GetPairCollisionHandler(collisionTypeA As Integer, collisionTypeB As Integer) As ContactHandler
+  overload: Fantas.Physics.PhysicsWorld.GetPairCollisionHandler*
+  nameWithType.vb: PhysicsWorld.GetPairCollisionHandler(Integer, Integer)
+  fullName.vb: Fantas.Physics.PhysicsWorld.GetPairCollisionHandler(Integer, Integer)
+  name.vb: GetPairCollisionHandler(Integer, Integer)
+- uid: Fantas.Physics.PhysicsWorld.AddJoint(Fantas.Physics.PhysicsJoint)
+  commentId: M:Fantas.Physics.PhysicsWorld.AddJoint(Fantas.Physics.PhysicsJoint)
+  id: AddJoint(Fantas.Physics.PhysicsJoint)
+  parent: Fantas.Physics.PhysicsWorld
+  langs:
+  - csharp
+  - vb
+  name: AddJoint(PhysicsJoint)
+  nameWithType: PhysicsWorld.AddJoint(PhysicsJoint)
+  fullName: Fantas.Physics.PhysicsWorld.AddJoint(Fantas.Physics.PhysicsJoint)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Add joint to world
+  example: []
+  syntax:
+    content: public void AddJoint(PhysicsJoint joint)
+    parameters:
+    - id: joint
+      type: Fantas.Physics.PhysicsJoint
+      description: ''
+    content.vb: Public Sub AddJoint(joint As PhysicsJoint)
+  overload: Fantas.Physics.PhysicsWorld.AddJoint*
+- uid: Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.PointF)
+  commentId: M:Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.PointF)
+  id: GetBody(System.Drawing.PointF)
+  parent: Fantas.Physics.PhysicsWorld
+  langs:
+  - csharp
+  - vb
+  name: GetBody(PointF)
+  nameWithType: PhysicsWorld.GetBody(PointF)
+  fullName: Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.PointF)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Returns the first PhysicsBody found that contains a point.
+  example: []
+  syntax:
+    content: public PhysicsBody GetBody(PointF point)
+    parameters:
+    - id: point
+      type: System.Drawing.PointF
+      description: ''
+    return:
+      type: Fantas.Physics.PhysicsBody
+      description: ''
+    content.vb: Public Function GetBody(point As PointF) As PhysicsBody
+  overload: Fantas.Physics.PhysicsWorld.GetBody*
+- uid: Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.RectangleF)
+  commentId: M:Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.RectangleF)
+  id: GetBody(System.Drawing.RectangleF)
+  parent: Fantas.Physics.PhysicsWorld
+  langs:
+  - csharp
+  - vb
+  name: GetBody(RectangleF)
+  nameWithType: PhysicsWorld.GetBody(RectangleF)
+  fullName: Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.RectangleF)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Returns the first PhysicsBody whose shape intersects a rectangle.
+  example: []
+  syntax:
+    content: public PhysicsBody GetBody(RectangleF rect)
+    parameters:
+    - id: rect
+      type: System.Drawing.RectangleF
+      description: ''
+    return:
+      type: Fantas.Physics.PhysicsBody
+      description: ''
+    content.vb: Public Function GetBody(rect As RectangleF) As PhysicsBody
+  overload: Fantas.Physics.PhysicsWorld.GetBody*
+- uid: Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.PointF,System.Int32)
+  commentId: M:Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.PointF,System.Int32)
+  id: GetBody(System.Drawing.PointF,System.Int32)
+  parent: Fantas.Physics.PhysicsWorld
+  langs:
+  - csharp
+  - vb
+  name: GetBody(PointF, int)
+  nameWithType: PhysicsWorld.GetBody(PointF, int)
+  fullName: Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.PointF, int)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Get the physical body at point that match the filter mask
+  example: []
+  syntax:
+    content: public PhysicsBody GetBody(PointF point, int category)
+    parameters:
+    - id: point
+      type: System.Drawing.PointF
+      description: ''
+    - id: category
+      type: System.Int32
+      description: ''
+    return:
+      type: Fantas.Physics.PhysicsBody
+      description: ''
+    content.vb: Public Function GetBody(point As PointF, category As Integer) As PhysicsBody
+  overload: Fantas.Physics.PhysicsWorld.GetBody*
+  nameWithType.vb: PhysicsWorld.GetBody(PointF, Integer)
+  fullName.vb: Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.PointF, Integer)
+  name.vb: GetBody(PointF, Integer)
+- uid: Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.RectangleF,System.Int32)
+  commentId: M:Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.RectangleF,System.Int32)
+  id: GetBody(System.Drawing.RectangleF,System.Int32)
+  parent: Fantas.Physics.PhysicsWorld
+  langs:
+  - csharp
+  - vb
+  name: GetBody(RectangleF, int)
+  nameWithType: PhysicsWorld.GetBody(RectangleF, int)
+  fullName: Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.RectangleF, int)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Get the first body inside the rectangle bound that match the filter
+  example: []
+  syntax:
+    content: public PhysicsBody GetBody(RectangleF rect, int category)
+    parameters:
+    - id: rect
+      type: System.Drawing.RectangleF
+      description: ''
+    - id: category
+      type: System.Int32
+      description: ''
+    return:
+      type: Fantas.Physics.PhysicsBody
+      description: ''
+    content.vb: Public Function GetBody(rect As RectangleF, category As Integer) As PhysicsBody
+  overload: Fantas.Physics.PhysicsWorld.GetBody*
+  nameWithType.vb: PhysicsWorld.GetBody(RectangleF, Integer)
+  fullName.vb: Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.RectangleF, Integer)
+  name.vb: GetBody(RectangleF, Integer)
+- uid: Fantas.Physics.PhysicsWorld.Raycast(System.Drawing.PointF,System.Drawing.PointF,System.Int32)
+  commentId: M:Fantas.Physics.PhysicsWorld.Raycast(System.Drawing.PointF,System.Drawing.PointF,System.Int32)
+  id: Raycast(System.Drawing.PointF,System.Drawing.PointF,System.Int32)
+  parent: Fantas.Physics.PhysicsWorld
+  langs:
+  - csharp
+  - vb
+  name: Raycast(PointF, PointF, int)
+  nameWithType: PhysicsWorld.Raycast(PointF, PointF, int)
+  fullName: Fantas.Physics.PhysicsWorld.Raycast(System.Drawing.PointF, System.Drawing.PointF, int)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Return the first body that intersect with the raycast
+  example: []
+  syntax:
+    content: public RaycastHit Raycast(PointF rayStart, PointF rayEnd, int categories)
+    parameters:
+    - id: rayStart
+      type: System.Drawing.PointF
+      description: ''
+    - id: rayEnd
+      type: System.Drawing.PointF
+      description: ''
+    - id: categories
+      type: System.Int32
+      description: ''
+    return:
+      type: Fantas.Physics.RaycastHit
+      description: ''
+    content.vb: Public Function Raycast(rayStart As PointF, rayEnd As PointF, categories As Integer) As RaycastHit
+  overload: Fantas.Physics.PhysicsWorld.Raycast*
+  nameWithType.vb: PhysicsWorld.Raycast(PointF, PointF, Integer)
+  fullName.vb: Fantas.Physics.PhysicsWorld.Raycast(System.Drawing.PointF, System.Drawing.PointF, Integer)
+  name.vb: Raycast(PointF, PointF, Integer)
+- uid: Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.PointF)
+  commentId: M:Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.PointF)
+  id: EnumarateBodies(System.Drawing.PointF)
+  parent: Fantas.Physics.PhysicsWorld
+  langs:
+  - csharp
+  - vb
+  name: EnumarateBodies(PointF)
+  nameWithType: PhysicsWorld.EnumarateBodies(PointF)
+  fullName: Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.PointF)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Enumerate all physical bodies at point
+  example: []
+  syntax:
+    content: public IReadOnlyList<PhysicsBody> EnumarateBodies(PointF point)
+    parameters:
+    - id: point
+      type: System.Drawing.PointF
+      description: ''
+    return:
+      type: System.Collections.Generic.IReadOnlyList{Fantas.Physics.PhysicsBody}
+      description: ''
+    content.vb: Public Function EnumarateBodies(point As PointF) As IReadOnlyList(Of PhysicsBody)
+  overload: Fantas.Physics.PhysicsWorld.EnumarateBodies*
+- uid: Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.RectangleF)
+  commentId: M:Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.RectangleF)
+  id: EnumarateBodies(System.Drawing.RectangleF)
+  parent: Fantas.Physics.PhysicsWorld
+  langs:
+  - csharp
+  - vb
+  name: EnumarateBodies(RectangleF)
+  nameWithType: PhysicsWorld.EnumarateBodies(RectangleF)
+  fullName: Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.RectangleF)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Enumerate all physical bodies inside the rectangle
+  example: []
+  syntax:
+    content: public IReadOnlyList<PhysicsBody> EnumarateBodies(RectangleF rect)
+    parameters:
+    - id: rect
+      type: System.Drawing.RectangleF
+      description: ''
+    return:
+      type: System.Collections.Generic.IReadOnlyList{Fantas.Physics.PhysicsBody}
+      description: ''
+    content.vb: Public Function EnumarateBodies(rect As RectangleF) As IReadOnlyList(Of PhysicsBody)
+  overload: Fantas.Physics.PhysicsWorld.EnumarateBodies*
+- uid: Fantas.Physics.PhysicsWorld.RaycastBodies(System.Drawing.PointF,System.Drawing.PointF)
+  commentId: M:Fantas.Physics.PhysicsWorld.RaycastBodies(System.Drawing.PointF,System.Drawing.PointF)
+  id: RaycastBodies(System.Drawing.PointF,System.Drawing.PointF)
+  parent: Fantas.Physics.PhysicsWorld
+  langs:
+  - csharp
+  - vb
+  name: RaycastBodies(PointF, PointF)
+  nameWithType: PhysicsWorld.RaycastBodies(PointF, PointF)
+  fullName: Fantas.Physics.PhysicsWorld.RaycastBodies(System.Drawing.PointF, System.Drawing.PointF)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Get all bodies that intersect the raycast
+  example: []
+  syntax:
+    content: public IReadOnlyList<RaycastHit> RaycastBodies(PointF rayStart, PointF rayEnd)
+    parameters:
+    - id: rayStart
+      type: System.Drawing.PointF
+      description: ''
+    - id: rayEnd
+      type: System.Drawing.PointF
+      description: ''
+    return:
+      type: System.Collections.Generic.IReadOnlyList{Fantas.Physics.RaycastHit}
+      description: ''
+    content.vb: Public Function RaycastBodies(rayStart As PointF, rayEnd As PointF) As IReadOnlyList(Of RaycastHit)
+  overload: Fantas.Physics.PhysicsWorld.RaycastBodies*
+- uid: Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.PointF,System.Int32)
+  commentId: M:Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.PointF,System.Int32)
+  id: EnumarateBodies(System.Drawing.PointF,System.Int32)
+  parent: Fantas.Physics.PhysicsWorld
+  langs:
+  - csharp
+  - vb
+  name: EnumarateBodies(PointF, int)
+  nameWithType: PhysicsWorld.EnumarateBodies(PointF, int)
+  fullName: Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.PointF, int)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Enumerate all physical bodies at point that match the filter
+  example: []
+  syntax:
+    content: public IReadOnlyList<PhysicsBody> EnumarateBodies(PointF point, int categories)
+    parameters:
+    - id: point
+      type: System.Drawing.PointF
+      description: ''
+    - id: categories
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Collections.Generic.IReadOnlyList{Fantas.Physics.PhysicsBody}
+      description: ''
+    content.vb: Public Function EnumarateBodies(point As PointF, categories As Integer) As IReadOnlyList(Of PhysicsBody)
+  overload: Fantas.Physics.PhysicsWorld.EnumarateBodies*
+  nameWithType.vb: PhysicsWorld.EnumarateBodies(PointF, Integer)
+  fullName.vb: Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.PointF, Integer)
+  name.vb: EnumarateBodies(PointF, Integer)
+- uid: Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.RectangleF,System.Int32)
+  commentId: M:Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.RectangleF,System.Int32)
+  id: EnumarateBodies(System.Drawing.RectangleF,System.Int32)
+  parent: Fantas.Physics.PhysicsWorld
+  langs:
+  - csharp
+  - vb
+  name: EnumarateBodies(RectangleF, int)
+  nameWithType: PhysicsWorld.EnumarateBodies(RectangleF, int)
+  fullName: Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.RectangleF, int)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Enumerate all physical bodies inside the rectangle and match the filter
+  example: []
+  syntax:
+    content: public IReadOnlyList<PhysicsBody> EnumarateBodies(RectangleF rect, int categories)
+    parameters:
+    - id: rect
+      type: System.Drawing.RectangleF
+      description: ''
+    - id: categories
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Collections.Generic.IReadOnlyList{Fantas.Physics.PhysicsBody}
+      description: ''
+    content.vb: Public Function EnumarateBodies(rect As RectangleF, categories As Integer) As IReadOnlyList(Of PhysicsBody)
+  overload: Fantas.Physics.PhysicsWorld.EnumarateBodies*
+  nameWithType.vb: PhysicsWorld.EnumarateBodies(RectangleF, Integer)
+  fullName.vb: Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.RectangleF, Integer)
+  name.vb: EnumarateBodies(RectangleF, Integer)
+- uid: Fantas.Physics.PhysicsWorld.RaycastBodies(System.Drawing.PointF,System.Drawing.PointF,System.Int32)
+  commentId: M:Fantas.Physics.PhysicsWorld.RaycastBodies(System.Drawing.PointF,System.Drawing.PointF,System.Int32)
+  id: RaycastBodies(System.Drawing.PointF,System.Drawing.PointF,System.Int32)
+  parent: Fantas.Physics.PhysicsWorld
+  langs:
+  - csharp
+  - vb
+  name: RaycastBodies(PointF, PointF, int)
+  nameWithType: PhysicsWorld.RaycastBodies(PointF, PointF, int)
+  fullName: Fantas.Physics.PhysicsWorld.RaycastBodies(System.Drawing.PointF, System.Drawing.PointF, int)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Get all bodies that intersect the raycast and match the filter
+  example: []
+  syntax:
+    content: public IReadOnlyList<RaycastHit> RaycastBodies(PointF rayStart, PointF rayEnd, int categories)
+    parameters:
+    - id: rayStart
+      type: System.Drawing.PointF
+      description: ''
+    - id: rayEnd
+      type: System.Drawing.PointF
+      description: ''
+    - id: categories
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Collections.Generic.IReadOnlyList{Fantas.Physics.RaycastHit}
+      description: ''
+    content.vb: Public Function RaycastBodies(rayStart As PointF, rayEnd As PointF, categories As Integer) As IReadOnlyList(Of RaycastHit)
+  overload: Fantas.Physics.PhysicsWorld.RaycastBodies*
+  nameWithType.vb: PhysicsWorld.RaycastBodies(PointF, PointF, Integer)
+  fullName.vb: Fantas.Physics.PhysicsWorld.RaycastBodies(System.Drawing.PointF, System.Drawing.PointF, Integer)
+  name.vb: RaycastBodies(PointF, PointF, Integer)
+- uid: Fantas.Physics.PhysicsWorld.Raycast(System.Drawing.PointF,System.Drawing.PointF)
+  commentId: M:Fantas.Physics.PhysicsWorld.Raycast(System.Drawing.PointF,System.Drawing.PointF)
+  id: Raycast(System.Drawing.PointF,System.Drawing.PointF)
+  parent: Fantas.Physics.PhysicsWorld
+  langs:
+  - csharp
+  - vb
+  name: Raycast(PointF, PointF)
+  nameWithType: PhysicsWorld.Raycast(PointF, PointF)
+  fullName: Fantas.Physics.PhysicsWorld.Raycast(System.Drawing.PointF, System.Drawing.PointF)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Returns the first PhysicsBody that intersects a ray defined by two points.
+  example: []
+  syntax:
+    content: public RaycastHit Raycast(PointF rayStart, PointF rayEnd)
+    parameters:
+    - id: rayStart
+      type: System.Drawing.PointF
+      description: ''
+    - id: rayEnd
+      type: System.Drawing.PointF
+      description: ''
+    return:
+      type: Fantas.Physics.RaycastHit
+      description: ''
+    content.vb: Public Function Raycast(rayStart As PointF, rayEnd As PointF) As RaycastHit
+  overload: Fantas.Physics.PhysicsWorld.Raycast*
+- uid: Fantas.Physics.PhysicsWorld.RemoveAllJoints
+  commentId: M:Fantas.Physics.PhysicsWorld.RemoveAllJoints
+  id: RemoveAllJoints
+  parent: Fantas.Physics.PhysicsWorld
+  langs:
+  - csharp
+  - vb
+  name: RemoveAllJoints()
+  nameWithType: PhysicsWorld.RemoveAllJoints()
+  fullName: Fantas.Physics.PhysicsWorld.RemoveAllJoints()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Removes all PhysicsJoints.
+  example: []
+  syntax:
+    content: public void RemoveAllJoints()
+    content.vb: Public Sub RemoveAllJoints()
+  overload: Fantas.Physics.PhysicsWorld.RemoveAllJoints*
+- uid: Fantas.Physics.PhysicsWorld.RemoveJoint(Fantas.Physics.PhysicsJoint)
+  commentId: M:Fantas.Physics.PhysicsWorld.RemoveJoint(Fantas.Physics.PhysicsJoint)
+  id: RemoveJoint(Fantas.Physics.PhysicsJoint)
+  parent: Fantas.Physics.PhysicsWorld
+  langs:
+  - csharp
+  - vb
+  name: RemoveJoint(PhysicsJoint)
+  nameWithType: PhysicsWorld.RemoveJoint(PhysicsJoint)
+  fullName: Fantas.Physics.PhysicsWorld.RemoveJoint(Fantas.Physics.PhysicsJoint)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Removes the specified PhysicsJoint.
+  example: []
+  syntax:
+    content: public void RemoveJoint(PhysicsJoint joint)
+    parameters:
+    - id: joint
+      type: Fantas.Physics.PhysicsJoint
+      description: ''
+    content.vb: Public Sub RemoveJoint(joint As PhysicsJoint)
+  overload: Fantas.Physics.PhysicsWorld.RemoveJoint*
+- uid: Fantas.Physics.PhysicsWorld.Gravity
+  commentId: P:Fantas.Physics.PhysicsWorld.Gravity
+  id: Gravity
+  parent: Fantas.Physics.PhysicsWorld
+  langs:
+  - csharp
+  - vb
+  name: Gravity
+  nameWithType: PhysicsWorld.Gravity
+  fullName: Fantas.Physics.PhysicsWorld.Gravity
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Gravitational acceleration
+  example: []
+  syntax:
+    content: public Vector2 Gravity { get; set; }
+    parameters: []
+    return:
+      type: System.Numerics.Vector2
+    content.vb: Public Property Gravity As Vector2
+  overload: Fantas.Physics.PhysicsWorld.Gravity*
+- uid: Fantas.Physics.PhysicsWorld.Speed
+  commentId: P:Fantas.Physics.PhysicsWorld.Speed
+  id: Speed
+  parent: Fantas.Physics.PhysicsWorld
+  langs:
+  - csharp
+  - vb
+  name: Speed
+  nameWithType: PhysicsWorld.Speed
+  fullName: Fantas.Physics.PhysicsWorld.Speed
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: The speed at which the physics simulation runs.
+  example: []
+  syntax:
+    content: public float Speed { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Speed As Single
+  overload: Fantas.Physics.PhysicsWorld.Speed*
+- uid: Fantas.Physics.PhysicsWorld.Iterations
+  commentId: P:Fantas.Physics.PhysicsWorld.Iterations
+  id: Iterations
+  parent: Fantas.Physics.PhysicsWorld
+  langs:
+  - csharp
+  - vb
+  name: Iterations
+  nameWithType: PhysicsWorld.Iterations
+  fullName: Fantas.Physics.PhysicsWorld.Iterations
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: >-
+    Number of iterations to be used by impulse solver
+
+    The default value is 10, for a more precise use a higher value
+
+    For a faster solver use a lower value
+
+    (This only affect Chipmunk/MonoGame backend)
+  example: []
+  syntax:
+    content: public int Iterations { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Iterations As Integer
+  overload: Fantas.Physics.PhysicsWorld.Iterations*
+- uid: Fantas.Physics.PhysicsWorld.DefaultCollisionHandler
+  commentId: P:Fantas.Physics.PhysicsWorld.DefaultCollisionHandler
+  id: DefaultCollisionHandler
+  parent: Fantas.Physics.PhysicsWorld
+  langs:
+  - csharp
+  - vb
+  name: DefaultCollisionHandler
+  nameWithType: PhysicsWorld.DefaultCollisionHandler
+  fullName: Fantas.Physics.PhysicsWorld.DefaultCollisionHandler
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: event when two bodies contact begin
+  example: []
+  syntax:
+    content: public ContactHandler DefaultCollisionHandler { get; }
+    parameters: []
+    return:
+      type: Fantas.Physics.ContactHandler
+    content.vb: Public ReadOnly Property DefaultCollisionHandler As ContactHandler
+  overload: Fantas.Physics.PhysicsWorld.DefaultCollisionHandler*
+references:
+- uid: Fantas.Physics
+  commentId: N:Fantas.Physics
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.Physics
+  nameWithType: Fantas.Physics
+  fullName: Fantas.Physics
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Physics
+    name: Physics
+    isExternal: true
+    href: Fantas.Physics.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Physics
+    name: Physics
+    isExternal: true
+    href: Fantas.Physics.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.Physics.PhysicsWorld.GetPairCollisionHandler*
+  commentId: Overload:Fantas.Physics.PhysicsWorld.GetPairCollisionHandler
+  isExternal: true
+  href: Fantas.Physics.PhysicsWorld.html#Fantas_Physics_PhysicsWorld_GetPairCollisionHandler_System_Int32_System_Int32_
+  name: GetPairCollisionHandler
+  nameWithType: PhysicsWorld.GetPairCollisionHandler
+  fullName: Fantas.Physics.PhysicsWorld.GetPairCollisionHandler
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Fantas.Physics.ContactHandler
+  commentId: T:Fantas.Physics.ContactHandler
+  parent: Fantas.Physics
+  isExternal: true
+  href: Fantas.Physics.ContactHandler.html
+  name: ContactHandler
+  nameWithType: ContactHandler
+  fullName: Fantas.Physics.ContactHandler
+- uid: Fantas.Physics.PhysicsWorld.AddJoint*
+  commentId: Overload:Fantas.Physics.PhysicsWorld.AddJoint
+  isExternal: true
+  href: Fantas.Physics.PhysicsWorld.html#Fantas_Physics_PhysicsWorld_AddJoint_Fantas_Physics_PhysicsJoint_
+  name: AddJoint
+  nameWithType: PhysicsWorld.AddJoint
+  fullName: Fantas.Physics.PhysicsWorld.AddJoint
+- uid: Fantas.Physics.PhysicsJoint
+  commentId: T:Fantas.Physics.PhysicsJoint
+  parent: Fantas.Physics
+  isExternal: true
+  href: Fantas.Physics.PhysicsJoint.html
+  name: PhysicsJoint
+  nameWithType: PhysicsJoint
+  fullName: Fantas.Physics.PhysicsJoint
+- uid: Fantas.Physics.PhysicsWorld.GetBody*
+  commentId: Overload:Fantas.Physics.PhysicsWorld.GetBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsWorld.html#Fantas_Physics_PhysicsWorld_GetBody_System_Drawing_PointF_
+  name: GetBody
+  nameWithType: PhysicsWorld.GetBody
+  fullName: Fantas.Physics.PhysicsWorld.GetBody
+- uid: System.Drawing.PointF
+  commentId: T:System.Drawing.PointF
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  name: PointF
+  nameWithType: PointF
+  fullName: System.Drawing.PointF
+- uid: Fantas.Physics.PhysicsBody
+  commentId: T:Fantas.Physics.PhysicsBody
+  parent: Fantas.Physics
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html
+  name: PhysicsBody
+  nameWithType: PhysicsBody
+  fullName: Fantas.Physics.PhysicsBody
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: System.Drawing.RectangleF
+  commentId: T:System.Drawing.RectangleF
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.rectanglef
+  name: RectangleF
+  nameWithType: RectangleF
+  fullName: System.Drawing.RectangleF
+- uid: Fantas.Physics.PhysicsWorld.Raycast*
+  commentId: Overload:Fantas.Physics.PhysicsWorld.Raycast
+  isExternal: true
+  href: Fantas.Physics.PhysicsWorld.html#Fantas_Physics_PhysicsWorld_Raycast_System_Drawing_PointF_System_Drawing_PointF_System_Int32_
+  name: Raycast
+  nameWithType: PhysicsWorld.Raycast
+  fullName: Fantas.Physics.PhysicsWorld.Raycast
+- uid: Fantas.Physics.RaycastHit
+  commentId: T:Fantas.Physics.RaycastHit
+  parent: Fantas.Physics
+  isExternal: true
+  href: Fantas.Physics.RaycastHit.html
+  name: RaycastHit
+  nameWithType: RaycastHit
+  fullName: Fantas.Physics.RaycastHit
+- uid: Fantas.Physics.PhysicsWorld.EnumarateBodies*
+  commentId: Overload:Fantas.Physics.PhysicsWorld.EnumarateBodies
+  isExternal: true
+  href: Fantas.Physics.PhysicsWorld.html#Fantas_Physics_PhysicsWorld_EnumarateBodies_System_Drawing_PointF_
+  name: EnumarateBodies
+  nameWithType: PhysicsWorld.EnumarateBodies
+  fullName: Fantas.Physics.PhysicsWorld.EnumarateBodies
+- uid: System.Collections.Generic.IReadOnlyList{Fantas.Physics.PhysicsBody}
+  commentId: T:System.Collections.Generic.IReadOnlyList{Fantas.Physics.PhysicsBody}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<PhysicsBody>
+  nameWithType: IReadOnlyList<PhysicsBody>
+  fullName: System.Collections.Generic.IReadOnlyList<Fantas.Physics.PhysicsBody>
+  nameWithType.vb: IReadOnlyList(Of PhysicsBody)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of Fantas.Physics.PhysicsBody)
+  name.vb: IReadOnlyList(Of PhysicsBody)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - uid: Fantas.Physics.PhysicsBody
+    name: PhysicsBody
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fantas.Physics.PhysicsBody
+    name: PhysicsBody
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyList`1
+  commentId: T:System.Collections.Generic.IReadOnlyList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<T>
+  nameWithType: IReadOnlyList<T>
+  fullName: System.Collections.Generic.IReadOnlyList<T>
+  nameWithType.vb: IReadOnlyList(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of T)
+  name.vb: IReadOnlyList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Fantas.Physics.PhysicsWorld.RaycastBodies*
+  commentId: Overload:Fantas.Physics.PhysicsWorld.RaycastBodies
+  isExternal: true
+  href: Fantas.Physics.PhysicsWorld.html#Fantas_Physics_PhysicsWorld_RaycastBodies_System_Drawing_PointF_System_Drawing_PointF_
+  name: RaycastBodies
+  nameWithType: PhysicsWorld.RaycastBodies
+  fullName: Fantas.Physics.PhysicsWorld.RaycastBodies
+- uid: System.Collections.Generic.IReadOnlyList{Fantas.Physics.RaycastHit}
+  commentId: T:System.Collections.Generic.IReadOnlyList{Fantas.Physics.RaycastHit}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<RaycastHit>
+  nameWithType: IReadOnlyList<RaycastHit>
+  fullName: System.Collections.Generic.IReadOnlyList<Fantas.Physics.RaycastHit>
+  nameWithType.vb: IReadOnlyList(Of RaycastHit)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of Fantas.Physics.RaycastHit)
+  name.vb: IReadOnlyList(Of RaycastHit)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - uid: Fantas.Physics.RaycastHit
+    name: RaycastHit
+    isExternal: true
+    href: Fantas.Physics.RaycastHit.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fantas.Physics.RaycastHit
+    name: RaycastHit
+    isExternal: true
+    href: Fantas.Physics.RaycastHit.html
+  - name: )
+- uid: Fantas.Physics.PhysicsWorld.RemoveAllJoints*
+  commentId: Overload:Fantas.Physics.PhysicsWorld.RemoveAllJoints
+  isExternal: true
+  href: Fantas.Physics.PhysicsWorld.html#Fantas_Physics_PhysicsWorld_RemoveAllJoints
+  name: RemoveAllJoints
+  nameWithType: PhysicsWorld.RemoveAllJoints
+  fullName: Fantas.Physics.PhysicsWorld.RemoveAllJoints
+- uid: Fantas.Physics.PhysicsWorld.RemoveJoint*
+  commentId: Overload:Fantas.Physics.PhysicsWorld.RemoveJoint
+  isExternal: true
+  href: Fantas.Physics.PhysicsWorld.html#Fantas_Physics_PhysicsWorld_RemoveJoint_Fantas_Physics_PhysicsJoint_
+  name: RemoveJoint
+  nameWithType: PhysicsWorld.RemoveJoint
+  fullName: Fantas.Physics.PhysicsWorld.RemoveJoint
+- uid: Fantas.Physics.PhysicsWorld.Gravity*
+  commentId: Overload:Fantas.Physics.PhysicsWorld.Gravity
+  isExternal: true
+  href: Fantas.Physics.PhysicsWorld.html#Fantas_Physics_PhysicsWorld_Gravity
+  name: Gravity
+  nameWithType: PhysicsWorld.Gravity
+  fullName: Fantas.Physics.PhysicsWorld.Gravity
+- uid: System.Numerics.Vector2
+  commentId: T:System.Numerics.Vector2
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  name: Vector2
+  nameWithType: Vector2
+  fullName: System.Numerics.Vector2
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: Fantas.Physics.PhysicsWorld.Speed*
+  commentId: Overload:Fantas.Physics.PhysicsWorld.Speed
+  isExternal: true
+  href: Fantas.Physics.PhysicsWorld.html#Fantas_Physics_PhysicsWorld_Speed
+  name: Speed
+  nameWithType: PhysicsWorld.Speed
+  fullName: Fantas.Physics.PhysicsWorld.Speed
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Fantas.Physics.PhysicsWorld.Iterations*
+  commentId: Overload:Fantas.Physics.PhysicsWorld.Iterations
+  isExternal: true
+  href: Fantas.Physics.PhysicsWorld.html#Fantas_Physics_PhysicsWorld_Iterations
+  name: Iterations
+  nameWithType: PhysicsWorld.Iterations
+  fullName: Fantas.Physics.PhysicsWorld.Iterations
+- uid: Fantas.Physics.PhysicsWorld.DefaultCollisionHandler*
+  commentId: Overload:Fantas.Physics.PhysicsWorld.DefaultCollisionHandler
+  isExternal: true
+  href: Fantas.Physics.PhysicsWorld.html#Fantas_Physics_PhysicsWorld_DefaultCollisionHandler
+  name: DefaultCollisionHandler
+  nameWithType: PhysicsWorld.DefaultCollisionHandler
+  fullName: Fantas.Physics.PhysicsWorld.DefaultCollisionHandler

@@ -1,0 +1,2549 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Scene
+ | Fantas </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Scene
+ | Fantas ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.json">
+      <meta name="docfx:tocrel" content="toc.json">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="Fantas">
+            Fantas
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Fantas.Scene">
+
+
+
+  <h1 id="Fantas_Scene" data-uid="Fantas.Scene" class="text-break">
+    Class Scene
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Fantas.html">Fantas</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Fantas.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Scene is where all nodes are displayed</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Scene : Node</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="Fantas.Node.html">Node</a></div>
+      <div><span class="xref">Scene</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ToString">Node.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Offset_System_Numerics_Vector2_">Node.Offset(Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Offset_System_Single_System_Single_">Node.Offset(float, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OffsetX_System_Single_">Node.OffsetX(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OffsetY_System_Single_">Node.OffsetY(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_CalculateAccumulatedFrame">Node.CalculateAccumulatedFrame()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_RenderToTexture">Node.RenderToTexture()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_SetScale_System_Single_">Node.SetScale(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_SetScale_System_Numerics_Vector2_">Node.SetScale(Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_AddChild_Fantas_Node_">Node.AddChild(Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_InsertChild_System_Int32_Fantas_Node_">Node.InsertChild(int, Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_MoveToParent_Fantas_Node_">Node.MoveToParent(Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_RemoveFromParent">Node.RemoveFromParent()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_RemoveAllChildren">Node.RemoveAllChildren()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_RemoveChildren_System_Collections_Generic_IReadOnlyList_Fantas_Node__">Node.RemoveChildren(IReadOnlyList&lt;Node&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_RemoveChild_Fantas_Node_">Node.RemoveChild(Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_InParentHierarchy_Fantas_Node_">Node.InParentHierarchy(Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_RunAnimation_Fantas_Animation_">Node.RunAnimation(Animation)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_RunAnimation_Fantas_Animation_System_Action_">Node.RunAnimation(Animation, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_RunAnimation_Fantas_Animation_System_String_">Node.RunAnimation(Animation, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_RunAnimationAsync_Fantas_Animation_">Node.RunAnimationAsync(Animation)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_GetAnimationForKey_System_String_">Node.GetAnimationForKey(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_RemoveAnimationForKey_System_String_">Node.RemoveAnimationForKey(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_RemoveAllAnimations">Node.RemoveAllAnimations()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ContainsPoint_System_Drawing_PointF_">Node.ContainsPoint(PointF)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_GetNodeAtPoint_System_Drawing_PointF_">Node.GetNodeAtPoint(PointF)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_GetChildNode_System_String_">Node.GetChildNode(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_GetNodesAtPoint_System_Drawing_PointF_">Node.GetNodesAtPoint(PointF)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_IntersectsNode_Fantas_Node_">Node.IntersectsNode(Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertPointFromNode_System_Drawing_PointF_Fantas_Node_">Node.ConvertPointFromNode(PointF, Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertPointToNode_System_Drawing_PointF_Fantas_Node_">Node.ConvertPointToNode(PointF, Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_BringForward">Node.BringForward()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_BringToFront">Node.BringToFront()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_SendBackward">Node.SendBackward()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_SendToBack">Node.SendToBack()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnTouchDownInside_Fantas_Input_TouchEventArgs_">Node.OnTouchDownInside(TouchEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnTouchDragEnter_Fantas_Input_TouchEventArgs_">Node.OnTouchDragEnter(TouchEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnTouchDragExit_Fantas_Input_TouchEventArgs_">Node.OnTouchDragExit(TouchEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnTouchDragInside_Fantas_Input_TouchEventArgs_">Node.OnTouchDragInside(TouchEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnTouchDragOutside_Fantas_Input_TouchEventArgs_">Node.OnTouchDragOutside(TouchEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnTouchUpInside_Fantas_Input_TouchEventArgs_">Node.OnTouchUpInside(TouchEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnTouchUpOutside_Fantas_Input_TouchEventArgs_">Node.OnTouchUpOutside(TouchEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnClick_Fantas_Input_MouseEventArgs_">Node.OnClick(MouseEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnMouseEnter">Node.OnMouseEnter()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnMouseHover">Node.OnMouseHover()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnMouseLeave">Node.OnMouseLeave()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Name">Node.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Tag">Node.Tag</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Cursor">Node.Cursor</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Position">Node.Position</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Frame">Node.Frame</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_X">Node.X</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Y">Node.Y</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Center">Node.Center</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Width">Node.Width</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Height">Node.Height</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Left">Node.Left</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Right">Node.Right</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Top">Node.Top</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Bottom">Node.Bottom</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ZPosition">Node.ZPosition</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ZRotation">Node.ZRotation</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_XScale">Node.XScale</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_YScale">Node.YScale</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Scale">Node.Scale</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Scene">Node.Scene</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Parent">Node.Parent</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Children">Node.Children</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_PhysicsBody">Node.PhysicsBody</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Hidden">Node.Hidden</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Alpha">Node.Alpha</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_HasAnimation">Node.HasAnimation</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Paused">Node.Paused</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Speed">Node.Speed</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_IsHitTestEnabled">Node.IsHitTestEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_CanBringForward">Node.CanBringForward</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_CanSendBackward">Node.CanSendBackward</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_IsMouseOver">Node.IsMouseOver</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseButtonPressed">Node.MouseButtonPressed</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_IsTouchOver">Node.IsTouchOver</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_TouchCount">Node.TouchCount</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_TouchDownInside">Node.TouchDownInside</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_TouchDragEnter">Node.TouchDragEnter</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_TouchDragExit">Node.TouchDragExit</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_TouchDragInside">Node.TouchDragInside</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_TouchDragOutside">Node.TouchDragOutside</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_TouchUpInside">Node.TouchUpInside</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_TouchUpOutside">Node.TouchUpOutside</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Click">Node.Click</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseEnter">Node.MouseEnter</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseHover">Node.MouseHover</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseLeave">Node.MouseLeave</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupEdge_Fantas_Scene_System_Int32_">NodeExtensions.SetupEdge(Scene, int)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Fantas_Scene__ctor_" data-uid="Fantas.Scene.#ctor*"></a>
+
+  <h3 id="Fantas_Scene__ctor" data-uid="Fantas.Scene.#ctor">
+  Scene()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create a scene
+The size of the scene will match the logical device dimension in points
+for instance on iPhone 8, scene size will be 375 x 667
+On Desktop platforms the default initial window size will be 800 x 480
+The origin will be on the bottom left</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Scene()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene__ctor_" data-uid="Fantas.Scene.#ctor*"></a>
+
+  <h3 id="Fantas_Scene__ctor_Fantas_Scene_" data-uid="Fantas.Scene.#ctor(Fantas.Scene)">
+  Scene(Scene)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Copy scene constructor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Scene(Scene other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Fantas.Scene.html">Scene</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene__ctor_" data-uid="Fantas.Scene.#ctor*"></a>
+
+  <h3 id="Fantas_Scene__ctor_System_Drawing_SizeF_" data-uid="Fantas.Scene.#ctor(System.Drawing.SizeF)">
+  Scene(SizeF)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create a Scene with the given logical size
+The origin will be on the bottom left</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Scene(SizeF size)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.sizef">SizeF</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Fantas_Scene_AnchorPoint_" data-uid="Fantas.Scene.AnchorPoint*"></a>
+
+  <h3 id="Fantas_Scene_AnchorPoint" data-uid="Fantas.Scene.AnchorPoint">
+  AnchorPoint
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Scene origin in the viewport</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PointF AnchorPoint { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_BackgroundColor_" data-uid="Fantas.Scene.BackgroundColor*"></a>
+
+  <h3 id="Fantas_Scene_BackgroundColor" data-uid="Fantas.Scene.BackgroundColor">
+  BackgroundColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>BackgroundColor of the scene</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color BackgroundColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.color">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_Camera_" data-uid="Fantas.Scene.Camera*"></a>
+
+  <h3 id="Fantas_Scene_Camera" data-uid="Fantas.Scene.Camera">
+  Camera
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CameraNode Camera { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.CameraNode.html">CameraNode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_CurrentScene_" data-uid="Fantas.Scene.CurrentScene*"></a>
+
+  <h3 id="Fantas_Scene_CurrentScene" data-uid="Fantas.Scene.CurrentScene">
+  CurrentScene
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Current scene running in the game</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Scene CurrentScene { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Scene.html">Scene</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_PhysicsWorld_" data-uid="Fantas.Scene.PhysicsWorld*"></a>
+
+  <h3 id="Fantas_Scene_PhysicsWorld" data-uid="Fantas.Scene.PhysicsWorld">
+  PhysicsWorld
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get/Create PhysicsWorld</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PhysicsWorld PhysicsWorld { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Physics.PhysicsWorld.html">PhysicsWorld</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_Size_" data-uid="Fantas.Scene.Size*"></a>
+
+  <h3 id="Fantas_Scene_Size" data-uid="Fantas.Scene.Size">
+  Size
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Size of the scene (points)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SizeF Size { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.sizef">SizeF</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Fantas_Scene_ConvertPointFromWindow_" data-uid="Fantas.Scene.ConvertPointFromWindow*"></a>
+
+  <h3 id="Fantas_Scene_ConvertPointFromWindow_System_Drawing_Point_" data-uid="Fantas.Scene.ConvertPointFromWindow(System.Drawing.Point)">
+  ConvertPointFromWindow(Point)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Convert from Windows coordinates to Scene</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PointF ConvertPointFromWindow(Point windowPoint)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>windowPoint</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.point">Point</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd><p>Point in Scene coordinates</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_ConvertPointToWindow_" data-uid="Fantas.Scene.ConvertPointToWindow*"></a>
+
+  <h3 id="Fantas_Scene_ConvertPointToWindow_System_Drawing_PointF_" data-uid="Fantas.Scene.ConvertPointToWindow(System.Drawing.PointF)">
+  ConvertPointToWindow(PointF)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Convert from Scene coordinates to Window</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Point ConvertPointToWindow(PointF scenePoint)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>scenePoint</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.point">Point</a></dt>
+    <dd><p>Return point in Window coordinates (logical)</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_Copy_" data-uid="Fantas.Scene.Copy*"></a>
+
+  <h3 id="Fantas_Scene_Copy" data-uid="Fantas.Scene.Copy">
+  Copy()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Copy this scene</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override Node Copy()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Node.html">Node</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_Finish_" data-uid="Fantas.Scene.Finish*"></a>
+
+  <h3 id="Fantas_Scene_Finish" data-uid="Fantas.Scene.Finish">
+  Finish()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when the scene is no longer being presented</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Finish()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnControllerButtonPressed_" data-uid="Fantas.Scene.OnControllerButtonPressed*"></a>
+
+  <h3 id="Fantas_Scene_OnControllerButtonPressed_Fantas_Input_ControllerButtonEventArgs_" data-uid="Fantas.Scene.OnControllerButtonPressed(Fantas.Input.ControllerButtonEventArgs)">
+  OnControllerButtonPressed(ControllerButtonEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when the controller button is pressed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnControllerButtonPressed(ControllerButtonEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.ControllerButtonEventArgs.html">ControllerButtonEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnControllerButtonReleased_" data-uid="Fantas.Scene.OnControllerButtonReleased*"></a>
+
+  <h3 id="Fantas_Scene_OnControllerButtonReleased_Fantas_Input_ControllerButtonEventArgs_" data-uid="Fantas.Scene.OnControllerButtonReleased(Fantas.Input.ControllerButtonEventArgs)">
+  OnControllerButtonReleased(ControllerButtonEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when the controller button is released</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnControllerButtonReleased(ControllerButtonEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.ControllerButtonEventArgs.html">ControllerButtonEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnControllerConnected_" data-uid="Fantas.Scene.OnControllerConnected*"></a>
+
+  <h3 id="Fantas_Scene_OnControllerConnected_Fantas_Input_ControllerChangedEventArgs_" data-uid="Fantas.Scene.OnControllerConnected(Fantas.Input.ControllerChangedEventArgs)">
+  OnControllerConnected(ControllerChangedEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when the controller is connected</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnControllerConnected(ControllerChangedEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.ControllerChangedEventArgs.html">ControllerChangedEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnControllerDisconnected_" data-uid="Fantas.Scene.OnControllerDisconnected*"></a>
+
+  <h3 id="Fantas_Scene_OnControllerDisconnected_Fantas_Input_ControllerChangedEventArgs_" data-uid="Fantas.Scene.OnControllerDisconnected(Fantas.Input.ControllerChangedEventArgs)">
+  OnControllerDisconnected(ControllerChangedEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when the controller is disconnected</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnControllerDisconnected(ControllerChangedEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.ControllerChangedEventArgs.html">ControllerChangedEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnControllerLeftThumbstickChanged_" data-uid="Fantas.Scene.OnControllerLeftThumbstickChanged*"></a>
+
+  <h3 id="Fantas_Scene_OnControllerLeftThumbstickChanged_Fantas_Input_ControllerThumbstickChangedEventArgs_" data-uid="Fantas.Scene.OnControllerLeftThumbstickChanged(Fantas.Input.ControllerThumbstickChangedEventArgs)">
+  OnControllerLeftThumbstickChanged(ControllerThumbstickChangedEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when the controller left thumbstick is position changed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnControllerLeftThumbstickChanged(ControllerThumbstickChangedEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.ControllerThumbstickChangedEventArgs.html">ControllerThumbstickChangedEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnControllerLeftTriggerChanged_" data-uid="Fantas.Scene.OnControllerLeftTriggerChanged*"></a>
+
+  <h3 id="Fantas_Scene_OnControllerLeftTriggerChanged_Fantas_Input_ControllerTriggerChangedEventArgs_" data-uid="Fantas.Scene.OnControllerLeftTriggerChanged(Fantas.Input.ControllerTriggerChangedEventArgs)">
+  OnControllerLeftTriggerChanged(ControllerTriggerChangedEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when the controller left trigger is position changed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnControllerLeftTriggerChanged(ControllerTriggerChangedEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.ControllerTriggerChangedEventArgs.html">ControllerTriggerChangedEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnControllerRightThumbstickChanged_" data-uid="Fantas.Scene.OnControllerRightThumbstickChanged*"></a>
+
+  <h3 id="Fantas_Scene_OnControllerRightThumbstickChanged_Fantas_Input_ControllerThumbstickChangedEventArgs_" data-uid="Fantas.Scene.OnControllerRightThumbstickChanged(Fantas.Input.ControllerThumbstickChangedEventArgs)">
+  OnControllerRightThumbstickChanged(ControllerThumbstickChangedEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when the controller right thumbstick is position changed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnControllerRightThumbstickChanged(ControllerThumbstickChangedEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.ControllerThumbstickChangedEventArgs.html">ControllerThumbstickChangedEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnControllerRightTriggerChanged_" data-uid="Fantas.Scene.OnControllerRightTriggerChanged*"></a>
+
+  <h3 id="Fantas_Scene_OnControllerRightTriggerChanged_Fantas_Input_ControllerTriggerChangedEventArgs_" data-uid="Fantas.Scene.OnControllerRightTriggerChanged(Fantas.Input.ControllerTriggerChangedEventArgs)">
+  OnControllerRightTriggerChanged(ControllerTriggerChangedEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when the controller right trigger is position changed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnControllerRightTriggerChanged(ControllerTriggerChangedEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.ControllerTriggerChangedEventArgs.html">ControllerTriggerChangedEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnDoubleClick_" data-uid="Fantas.Scene.OnDoubleClick*"></a>
+
+  <h3 id="Fantas_Scene_OnDoubleClick_Fantas_Input_MouseEventArgs_" data-uid="Fantas.Scene.OnDoubleClick(Fantas.Input.MouseEventArgs)">
+  OnDoubleClick(MouseEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when mouse button double-clicked</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnDoubleClick(MouseEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.MouseEventArgs.html">MouseEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnDoubleTap_" data-uid="Fantas.Scene.OnDoubleTap*"></a>
+
+  <h3 id="Fantas_Scene_OnDoubleTap_Fantas_Input_TapEventArgs_" data-uid="Fantas.Scene.OnDoubleTap(Fantas.Input.TapEventArgs)">
+  OnDoubleTap(TapEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on double tap gesture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnDoubleTap(TapEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.TapEventArgs.html">TapEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnKeyDown_" data-uid="Fantas.Scene.OnKeyDown*"></a>
+
+  <h3 id="Fantas_Scene_OnKeyDown_Fantas_Input_KeyEventArgs_" data-uid="Fantas.Scene.OnKeyDown(Fantas.Input.KeyEventArgs)">
+  OnKeyDown(KeyEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when keyboard key is pressed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnKeyDown(KeyEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.KeyEventArgs.html">KeyEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnKeyUp_" data-uid="Fantas.Scene.OnKeyUp*"></a>
+
+  <h3 id="Fantas_Scene_OnKeyUp_Fantas_Input_KeyEventArgs_" data-uid="Fantas.Scene.OnKeyUp(Fantas.Input.KeyEventArgs)">
+  OnKeyUp(KeyEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when keyboard key is released</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnKeyUp(KeyEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.KeyEventArgs.html">KeyEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnLongPress_" data-uid="Fantas.Scene.OnLongPress*"></a>
+
+  <h3 id="Fantas_Scene_OnLongPress_Fantas_Input_TapEventArgs_" data-uid="Fantas.Scene.OnLongPress(Fantas.Input.TapEventArgs)">
+  OnLongPress(TapEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on long press gesture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnLongPress(TapEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.TapEventArgs.html">TapEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnMouseDown_" data-uid="Fantas.Scene.OnMouseDown*"></a>
+
+  <h3 id="Fantas_Scene_OnMouseDown_Fantas_Input_MouseEventArgs_" data-uid="Fantas.Scene.OnMouseDown(Fantas.Input.MouseEventArgs)">
+  OnMouseDown(MouseEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when mouse button is pressed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnMouseDown(MouseEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.MouseEventArgs.html">MouseEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnMouseDrag_" data-uid="Fantas.Scene.OnMouseDrag*"></a>
+
+  <h3 id="Fantas_Scene_OnMouseDrag_Fantas_Input_MouseEventArgs_" data-uid="Fantas.Scene.OnMouseDrag(Fantas.Input.MouseEventArgs)">
+  OnMouseDrag(MouseEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on mouse drag (click + move)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnMouseDrag(MouseEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.MouseEventArgs.html">MouseEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnMouseMove_" data-uid="Fantas.Scene.OnMouseMove*"></a>
+
+  <h3 id="Fantas_Scene_OnMouseMove_Fantas_Input_MouseEventArgs_" data-uid="Fantas.Scene.OnMouseMove(Fantas.Input.MouseEventArgs)">
+  OnMouseMove(MouseEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on mouse moved</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnMouseMove(MouseEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.MouseEventArgs.html">MouseEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnMouseUp_" data-uid="Fantas.Scene.OnMouseUp*"></a>
+
+  <h3 id="Fantas_Scene_OnMouseUp_Fantas_Input_MouseEventArgs_" data-uid="Fantas.Scene.OnMouseUp(Fantas.Input.MouseEventArgs)">
+  OnMouseUp(MouseEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when mouse button is released</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnMouseUp(MouseEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.MouseEventArgs.html">MouseEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnMouseWheel_" data-uid="Fantas.Scene.OnMouseWheel*"></a>
+
+  <h3 id="Fantas_Scene_OnMouseWheel_Fantas_Input_MouseEventArgs_" data-uid="Fantas.Scene.OnMouseWheel(Fantas.Input.MouseEventArgs)">
+  OnMouseWheel(MouseEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Mouse scroll wheel changed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnMouseWheel(MouseEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.MouseEventArgs.html">MouseEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnPan_" data-uid="Fantas.Scene.OnPan*"></a>
+
+  <h3 id="Fantas_Scene_OnPan_Fantas_Input_PanEventArgs_" data-uid="Fantas.Scene.OnPan(Fantas.Input.PanEventArgs)">
+  OnPan(PanEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on pan gesture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnPan(PanEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.PanEventArgs.html">PanEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnPanComplete_" data-uid="Fantas.Scene.OnPanComplete*"></a>
+
+  <h3 id="Fantas_Scene_OnPanComplete" data-uid="Fantas.Scene.OnPanComplete">
+  OnPanComplete()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on pan complete gesture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnPanComplete()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnPanStart_" data-uid="Fantas.Scene.OnPanStart*"></a>
+
+  <h3 id="Fantas_Scene_OnPanStart_Fantas_Input_PanEventArgs_" data-uid="Fantas.Scene.OnPanStart(Fantas.Input.PanEventArgs)">
+  OnPanStart(PanEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on pan start gesture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnPanStart(PanEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.PanEventArgs.html">PanEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnPinch_" data-uid="Fantas.Scene.OnPinch*"></a>
+
+  <h3 id="Fantas_Scene_OnPinch_Fantas_Input_PinchEventArgs_" data-uid="Fantas.Scene.OnPinch(Fantas.Input.PinchEventArgs)">
+  OnPinch(PinchEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on pinch gesture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnPinch(PinchEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.PinchEventArgs.html">PinchEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnPinchComplete_" data-uid="Fantas.Scene.OnPinchComplete*"></a>
+
+  <h3 id="Fantas_Scene_OnPinchComplete" data-uid="Fantas.Scene.OnPinchComplete">
+  OnPinchComplete()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on pinch complete gesture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnPinchComplete()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnPinchStart_" data-uid="Fantas.Scene.OnPinchStart*"></a>
+
+  <h3 id="Fantas_Scene_OnPinchStart_Fantas_Input_PinchEventArgs_" data-uid="Fantas.Scene.OnPinchStart(Fantas.Input.PinchEventArgs)">
+  OnPinchStart(PinchEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on pinch start gesture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnPinchStart(PinchEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.PinchEventArgs.html">PinchEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnSwipe_" data-uid="Fantas.Scene.OnSwipe*"></a>
+
+  <h3 id="Fantas_Scene_OnSwipe_Fantas_Input_SwipeEventArgs_" data-uid="Fantas.Scene.OnSwipe(Fantas.Input.SwipeEventArgs)">
+  OnSwipe(SwipeEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on swipe gesture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnSwipe(SwipeEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.SwipeEventArgs.html">SwipeEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnTap_" data-uid="Fantas.Scene.OnTap*"></a>
+
+  <h3 id="Fantas_Scene_OnTap_Fantas_Input_TapEventArgs_" data-uid="Fantas.Scene.OnTap(Fantas.Input.TapEventArgs)">
+  OnTap(TapEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on tap gesture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnTap(TapEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.TapEventArgs.html">TapEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnTouchDown_" data-uid="Fantas.Scene.OnTouchDown*"></a>
+
+  <h3 id="Fantas_Scene_OnTouchDown_Fantas_Input_TouchEventArgs_" data-uid="Fantas.Scene.OnTouchDown(Fantas.Input.TouchEventArgs)">
+  OnTouchDown(TouchEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when screen touch begin</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnTouchDown(TouchEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.TouchEventArgs.html">TouchEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnTouchMove_" data-uid="Fantas.Scene.OnTouchMove*"></a>
+
+  <h3 id="Fantas_Scene_OnTouchMove_Fantas_Input_TouchEventArgs_" data-uid="Fantas.Scene.OnTouchMove(Fantas.Input.TouchEventArgs)">
+  OnTouchMove(TouchEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when screen touch move</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnTouchMove(TouchEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.TouchEventArgs.html">TouchEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_OnTouchUp_" data-uid="Fantas.Scene.OnTouchUp*"></a>
+
+  <h3 id="Fantas_Scene_OnTouchUp_Fantas_Input_TouchEventArgs_" data-uid="Fantas.Scene.OnTouchUp(Fantas.Input.TouchEventArgs)">
+  OnTouchUp(TouchEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when screen touch ends</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnTouchUp(TouchEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.TouchEventArgs.html">TouchEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_SizeChanged_" data-uid="Fantas.Scene.SizeChanged*"></a>
+
+  <h3 id="Fantas_Scene_SizeChanged" data-uid="Fantas.Scene.SizeChanged">
+  SizeChanged()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when scene size was changed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SizeChanged()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_Start_" data-uid="Fantas.Scene.Start*"></a>
+
+  <h3 id="Fantas_Scene_Start" data-uid="Fantas.Scene.Start">
+  Start()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when Scene scene is presented</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Start()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Scene_Update_" data-uid="Fantas.Scene.Update*"></a>
+
+  <h3 id="Fantas_Scene_Update" data-uid="Fantas.Scene.Update">
+  Update()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called every time the scene needs to update the game logic
+1/60 seconds</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Update()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="Fantas_Scene_DoubleClick" data-uid="Fantas.Scene.DoubleClick">
+  DoubleClick
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when mouse button double-clicked</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;MouseEventArgs&gt; DoubleClick</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Fantas.Input.MouseEventArgs.html">MouseEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Scene_DoubleTap" data-uid="Fantas.Scene.DoubleTap">
+  DoubleTap
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on double tap gesture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;TapEventArgs&gt; DoubleTap</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Fantas.Input.TapEventArgs.html">TapEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Scene_KeyDown" data-uid="Fantas.Scene.KeyDown">
+  KeyDown
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when keyboard key is pressed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;KeyEventArgs&gt; KeyDown</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Fantas.Input.KeyEventArgs.html">KeyEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Scene_KeyUp" data-uid="Fantas.Scene.KeyUp">
+  KeyUp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when keyboard key is released</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;KeyEventArgs&gt; KeyUp</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Fantas.Input.KeyEventArgs.html">KeyEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Scene_LongPress" data-uid="Fantas.Scene.LongPress">
+  LongPress
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on long press gesture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;TapEventArgs&gt; LongPress</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Fantas.Input.TapEventArgs.html">TapEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Scene_MouseDown" data-uid="Fantas.Scene.MouseDown">
+  MouseDown
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when mouse button is pressed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;MouseEventArgs&gt; MouseDown</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Fantas.Input.MouseEventArgs.html">MouseEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Scene_MouseDrag" data-uid="Fantas.Scene.MouseDrag">
+  MouseDrag
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on mouse drag (click + move)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;MouseEventArgs&gt; MouseDrag</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Fantas.Input.MouseEventArgs.html">MouseEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Scene_MouseMove" data-uid="Fantas.Scene.MouseMove">
+  MouseMove
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on mouse move</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;MouseEventArgs&gt; MouseMove</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Fantas.Input.MouseEventArgs.html">MouseEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Scene_MouseUp" data-uid="Fantas.Scene.MouseUp">
+  MouseUp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when mouse button is released</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;MouseEventArgs&gt; MouseUp</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Fantas.Input.MouseEventArgs.html">MouseEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Scene_MouseWheel" data-uid="Fantas.Scene.MouseWheel">
+  MouseWheel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Mouse scroll wheel changed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;MouseEventArgs&gt; MouseWheel</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Fantas.Input.MouseEventArgs.html">MouseEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Scene_Pan" data-uid="Fantas.Scene.Pan">
+  Pan
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on Pan gesture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;PanEventArgs&gt; Pan</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Fantas.Input.PanEventArgs.html">PanEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Scene_PanComplete" data-uid="Fantas.Scene.PanComplete">
+  PanComplete
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on Pan complete gesture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler PanComplete</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Scene_PanStart" data-uid="Fantas.Scene.PanStart">
+  PanStart
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on Pan start gesture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;PanEventArgs&gt; PanStart</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Fantas.Input.PanEventArgs.html">PanEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Scene_Pinch" data-uid="Fantas.Scene.Pinch">
+  Pinch
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on pinch gesture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;PinchEventArgs&gt; Pinch</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Fantas.Input.PinchEventArgs.html">PinchEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Scene_PinchComplete" data-uid="Fantas.Scene.PinchComplete">
+  PinchComplete
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on pinch complete gesture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler PinchComplete</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Scene_PinchStart" data-uid="Fantas.Scene.PinchStart">
+  PinchStart
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on pinch start gesture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;PinchEventArgs&gt; PinchStart</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Fantas.Input.PinchEventArgs.html">PinchEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Scene_Swipe" data-uid="Fantas.Scene.Swipe">
+  Swipe
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on swipe gesture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;SwipeEventArgs&gt; Swipe</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Fantas.Input.SwipeEventArgs.html">SwipeEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Scene_Tap" data-uid="Fantas.Scene.Tap">
+  Tap
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called on tap gesture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;TapEventArgs&gt; Tap</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Fantas.Input.TapEventArgs.html">TapEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Scene_TouchDown" data-uid="Fantas.Scene.TouchDown">
+  TouchDown
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when screen touch begin</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;TouchEventArgs&gt; TouchDown</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Fantas.Input.TouchEventArgs.html">TouchEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Scene_TouchMove" data-uid="Fantas.Scene.TouchMove">
+  TouchMove
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when screen touch move</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;TouchEventArgs&gt; TouchMove</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Fantas.Input.TouchEventArgs.html">TouchEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Scene_TouchUp" data-uid="Fantas.Scene.TouchUp">
+  TouchUp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when screen touch ends</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;TouchEventArgs&gt; TouchUp</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Fantas.Input.TouchEventArgs.html">TouchEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Scene.cs" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.Input.TouchState
+  commentId: T:Fantas.Input.TouchState
+  id: TouchState
+  parent: Fantas.Input
+  children:
+  - Fantas.Input.TouchState.Down
+  - Fantas.Input.TouchState.Invalid
+  - Fantas.Input.TouchState.Moved
+  - Fantas.Input.TouchState.Up
+  langs:
+  - csharp
+  - vb
+  name: TouchState
+  nameWithType: TouchState
+  fullName: Fantas.Input.TouchState
+  type: Enum
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/TouchState.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Touch state (Down, Up, Moved)
+  example: []
+  syntax:
+    content: public enum TouchState
+    content.vb: Public Enum TouchState
+- uid: Fantas.Input.TouchState.Invalid
+  commentId: F:Fantas.Input.TouchState.Invalid
+  id: Invalid
+  parent: Fantas.Input.TouchState
+  langs:
+  - csharp
+  - vb
+  name: Invalid
+  nameWithType: TouchState.Invalid
+  fullName: Fantas.Input.TouchState.Invalid
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/TouchState.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Invalid touch
+  example: []
+  syntax:
+    content: Invalid = 0
+    return:
+      type: Fantas.Input.TouchState
+- uid: Fantas.Input.TouchState.Moved
+  commentId: F:Fantas.Input.TouchState.Moved
+  id: Moved
+  parent: Fantas.Input.TouchState
+  langs:
+  - csharp
+  - vb
+  name: Moved
+  nameWithType: TouchState.Moved
+  fullName: Fantas.Input.TouchState.Moved
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/TouchState.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Touch moved.
+  example: []
+  syntax:
+    content: Moved = 1
+    return:
+      type: Fantas.Input.TouchState
+- uid: Fantas.Input.TouchState.Down
+  commentId: F:Fantas.Input.TouchState.Down
+  id: Down
+  parent: Fantas.Input.TouchState
+  langs:
+  - csharp
+  - vb
+  name: Down
+  nameWithType: TouchState.Down
+  fullName: Fantas.Input.TouchState.Down
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/TouchState.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Touch just started, pressed.
+  example: []
+  syntax:
+    content: Down = 2
+    return:
+      type: Fantas.Input.TouchState
+- uid: Fantas.Input.TouchState.Up
+  commentId: F:Fantas.Input.TouchState.Up
+  id: Up
+  parent: Fantas.Input.TouchState
+  langs:
+  - csharp
+  - vb
+  name: Up
+  nameWithType: TouchState.Up
+  fullName: Fantas.Input.TouchState.Up
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/TouchState.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Touch finish, released
+  example: []
+  syntax:
+    content: Up = 3
+    return:
+      type: Fantas.Input.TouchState
+references:
+- uid: Fantas.Input
+  commentId: N:Fantas.Input
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.Input
+  nameWithType: Fantas.Input
+  fullName: Fantas.Input
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+- uid: Fantas.Input.TouchState
+  commentId: T:Fantas.Input.TouchState
+  parent: Fantas.Input
+  isExternal: true
+  href: Fantas.Input.TouchState.html
+  name: TouchState
+  nameWithType: TouchState
+  fullName: Fantas.Input.TouchState

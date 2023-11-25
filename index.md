@@ -1,4 +1,4 @@
-# ![screenshot](images/fantas_small.png) **Fantas**
+# Fantas #
 
 ![screenshot](images/screenshot.png)
 

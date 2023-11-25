@@ -1,0 +1,398 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.Input.KeyEventArgs
+  commentId: T:Fantas.Input.KeyEventArgs
+  id: KeyEventArgs
+  parent: Fantas.Input
+  children:
+  - Fantas.Input.KeyEventArgs.#ctor(Fantas.Input.Keys)
+  - Fantas.Input.KeyEventArgs.KeyCode
+  langs:
+  - csharp
+  - vb
+  name: KeyEventArgs
+  nameWithType: KeyEventArgs
+  fullName: Fantas.Input.KeyEventArgs
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/KeyEventArgs.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Event data for Keyboard events
+  example: []
+  syntax:
+    content: 'public class KeyEventArgs : EventArgs'
+    content.vb: Public Class KeyEventArgs Inherits EventArgs
+  inheritance:
+  - System.Object
+  - System.EventArgs
+  inheritedMembers:
+  - System.EventArgs.Empty
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Fantas.Input.KeyEventArgs.#ctor(Fantas.Input.Keys)
+  commentId: M:Fantas.Input.KeyEventArgs.#ctor(Fantas.Input.Keys)
+  id: '#ctor(Fantas.Input.Keys)'
+  parent: Fantas.Input.KeyEventArgs
+  langs:
+  - csharp
+  - vb
+  name: KeyEventArgs(Keys)
+  nameWithType: KeyEventArgs.KeyEventArgs(Keys)
+  fullName: Fantas.Input.KeyEventArgs.KeyEventArgs(Fantas.Input.Keys)
+  type: Constructor
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/KeyEventArgs.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Initialize Mouse event args
+  example: []
+  syntax:
+    content: public KeyEventArgs(Keys keyCode)
+    parameters:
+    - id: keyCode
+      type: Fantas.Input.Keys
+      description: ''
+    content.vb: Public Sub New(keyCode As Keys)
+  overload: Fantas.Input.KeyEventArgs.#ctor*
+  nameWithType.vb: KeyEventArgs.New(Keys)
+  fullName.vb: Fantas.Input.KeyEventArgs.New(Fantas.Input.Keys)
+  name.vb: New(Keys)
+- uid: Fantas.Input.KeyEventArgs.KeyCode
+  commentId: P:Fantas.Input.KeyEventArgs.KeyCode
+  id: KeyCode
+  parent: Fantas.Input.KeyEventArgs
+  langs:
+  - csharp
+  - vb
+  name: KeyCode
+  nameWithType: KeyEventArgs.KeyCode
+  fullName: Fantas.Input.KeyEventArgs.KeyCode
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/KeyEventArgs.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Keyboard key code for the KeyDown/KeyUp event
+  example: []
+  syntax:
+    content: public Keys KeyCode { get; }
+    parameters: []
+    return:
+      type: Fantas.Input.Keys
+    content.vb: Public ReadOnly Property KeyCode As Keys
+  overload: Fantas.Input.KeyEventArgs.KeyCode*
+references:
+- uid: Fantas.Input
+  commentId: N:Fantas.Input
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.Input
+  nameWithType: Fantas.Input
+  fullName: Fantas.Input
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventargs
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System.EventArgs.Empty
+  commentId: F:System.EventArgs.Empty
+  parent: System.EventArgs
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventargs.empty
+  name: Empty
+  nameWithType: EventArgs.Empty
+  fullName: System.EventArgs.Empty
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.Input.KeyEventArgs.#ctor*
+  commentId: Overload:Fantas.Input.KeyEventArgs.#ctor
+  isExternal: true
+  href: Fantas.Input.KeyEventArgs.html#Fantas_Input_KeyEventArgs__ctor_Fantas_Input_Keys_
+  name: KeyEventArgs
+  nameWithType: KeyEventArgs.KeyEventArgs
+  fullName: Fantas.Input.KeyEventArgs.KeyEventArgs
+  nameWithType.vb: KeyEventArgs.New
+  fullName.vb: Fantas.Input.KeyEventArgs.New
+  name.vb: New
+- uid: Fantas.Input.Keys
+  commentId: T:Fantas.Input.Keys
+  parent: Fantas.Input
+  isExternal: true
+  href: Fantas.Input.Keys.html
+  name: Keys
+  nameWithType: Keys
+  fullName: Fantas.Input.Keys
+- uid: Fantas.Input.KeyEventArgs.KeyCode*
+  commentId: Overload:Fantas.Input.KeyEventArgs.KeyCode
+  isExternal: true
+  href: Fantas.Input.KeyEventArgs.html#Fantas_Input_KeyEventArgs_KeyCode
+  name: KeyCode
+  nameWithType: KeyEventArgs.KeyCode
+  fullName: Fantas.Input.KeyEventArgs.KeyCode

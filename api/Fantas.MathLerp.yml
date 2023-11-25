@@ -1,0 +1,389 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.MathLerp
+  commentId: T:Fantas.MathLerp
+  id: MathLerp
+  parent: Fantas
+  children:
+  - Fantas.MathLerp.Lerp(System.Double,System.Double,System.Double)
+  - Fantas.MathLerp.Lerp(System.Single,System.Single,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: MathLerp
+  nameWithType: MathLerp
+  fullName: Fantas.MathLerp
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Utils/MathLerp.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Contains helper methods for doing Lerp to make it easier port games from MonoGame to Fantas
+
+    Some methods imported from XNA/MonoGame MathHelper https://github.com/MonoGame/MonoGame/blob/develop/MonoGame.Framework/MathHelper.cs
+  example: []
+  syntax:
+    content: public static class MathLerp
+    content.vb: Public Module MathLerp
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Fantas.MathLerp.Lerp(System.Single,System.Single,System.Single)
+  commentId: M:Fantas.MathLerp.Lerp(System.Single,System.Single,System.Single)
+  id: Lerp(System.Single,System.Single,System.Single)
+  parent: Fantas.MathLerp
+  langs:
+  - csharp
+  - vb
+  name: Lerp(float, float, float)
+  nameWithType: MathLerp.Lerp(float, float, float)
+  fullName: Fantas.MathLerp.Lerp(float, float, float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Utils/MathLerp.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Linearly interpolates between two values.
+  example: []
+  syntax:
+    content: public static float Lerp(float value1, float value2, float amount)
+    parameters:
+    - id: value1
+      type: System.Single
+      description: Source value.
+    - id: value2
+      type: System.Single
+      description: Destination value.
+    - id: amount
+      type: System.Single
+      description: Value between 0 and 1 indicating the weight of value2.
+    return:
+      type: System.Single
+      description: Interpolated value.
+    content.vb: Public Shared Function Lerp(value1 As Single, value2 As Single, amount As Single) As Single
+  overload: Fantas.MathLerp.Lerp*
+  nameWithType.vb: MathLerp.Lerp(Single, Single, Single)
+  fullName.vb: Fantas.MathLerp.Lerp(Single, Single, Single)
+  name.vb: Lerp(Single, Single, Single)
+- uid: Fantas.MathLerp.Lerp(System.Double,System.Double,System.Double)
+  commentId: M:Fantas.MathLerp.Lerp(System.Double,System.Double,System.Double)
+  id: Lerp(System.Double,System.Double,System.Double)
+  parent: Fantas.MathLerp
+  langs:
+  - csharp
+  - vb
+  name: Lerp(double, double, double)
+  nameWithType: MathLerp.Lerp(double, double, double)
+  fullName: Fantas.MathLerp.Lerp(double, double, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Utils/MathLerp.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Linearly interpolates between two values.
+  example: []
+  syntax:
+    content: public static double Lerp(double value1, double value2, double amount)
+    parameters:
+    - id: value1
+      type: System.Double
+      description: Source value.
+    - id: value2
+      type: System.Double
+      description: Destination value.
+    - id: amount
+      type: System.Double
+      description: Value between 0 and 1 indicating the weight of value2.
+    return:
+      type: System.Double
+      description: Interpolated value.
+    content.vb: Public Shared Function Lerp(value1 As Double, value2 As Double, amount As Double) As Double
+  overload: Fantas.MathLerp.Lerp*
+  nameWithType.vb: MathLerp.Lerp(Double, Double, Double)
+  fullName.vb: Fantas.MathLerp.Lerp(Double, Double, Double)
+  name.vb: Lerp(Double, Double, Double)
+references:
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.MathLerp.Lerp*
+  commentId: Overload:Fantas.MathLerp.Lerp
+  isExternal: true
+  href: Fantas.MathLerp.html#Fantas_MathLerp_Lerp_System_Single_System_Single_System_Single_
+  name: Lerp
+  nameWithType: MathLerp.Lerp
+  fullName: Fantas.MathLerp.Lerp
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double

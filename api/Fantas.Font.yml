@@ -1,0 +1,555 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.Font
+  commentId: T:Fantas.Font
+  id: Font
+  parent: Fantas
+  children:
+  - Fantas.Font.DefaultFont
+  - Fantas.Font.FromCompressedResource(System.Reflection.Assembly,System.String)
+  - Fantas.Font.FromCompressedResource(System.Reflection.Assembly,System.String,System.Single)
+  - Fantas.Font.FromResource(System.Reflection.Assembly,System.String)
+  - Fantas.Font.FromResource(System.Reflection.Assembly,System.String,System.Single)
+  - Fantas.Font.Name
+  langs:
+  - csharp
+  - vb
+  name: Font
+  nameWithType: Font
+  fullName: Fantas.Font
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Font.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Font (TTF font on iOS/tvOS/macOS, and SpriteFont on other platforms)
+  example: []
+  syntax:
+    content: public sealed class Font
+    content.vb: Public NotInheritable Class Font
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Fantas.Font.FromResource(System.Reflection.Assembly,System.String)
+  commentId: M:Fantas.Font.FromResource(System.Reflection.Assembly,System.String)
+  id: FromResource(System.Reflection.Assembly,System.String)
+  parent: Fantas.Font
+  langs:
+  - csharp
+  - vb
+  name: FromResource(Assembly, string)
+  nameWithType: Font.FromResource(Assembly, string)
+  fullName: Fantas.Font.FromResource(System.Reflection.Assembly, string)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Font.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Load a font from a embedded resource
+  example: []
+  syntax:
+    content: public static Font FromResource(Assembly assembly, string resourceFontName)
+    parameters:
+    - id: assembly
+      type: System.Reflection.Assembly
+      description: ''
+    - id: resourceFontName
+      type: System.String
+      description: ''
+    return:
+      type: Fantas.Font
+      description: ''
+    content.vb: Public Shared Function FromResource(assembly As Assembly, resourceFontName As String) As Font
+  overload: Fantas.Font.FromResource*
+  nameWithType.vb: Font.FromResource(Assembly, String)
+  fullName.vb: Fantas.Font.FromResource(System.Reflection.Assembly, String)
+  name.vb: FromResource(Assembly, String)
+- uid: Fantas.Font.FromResource(System.Reflection.Assembly,System.String,System.Single)
+  commentId: M:Fantas.Font.FromResource(System.Reflection.Assembly,System.String,System.Single)
+  id: FromResource(System.Reflection.Assembly,System.String,System.Single)
+  parent: Fantas.Font
+  langs:
+  - csharp
+  - vb
+  name: FromResource(Assembly, string, float)
+  nameWithType: Font.FromResource(Assembly, string, float)
+  fullName: Fantas.Font.FromResource(System.Reflection.Assembly, string, float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Font.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Load a font from a embedded resource
+
+    using the given scale
+  example: []
+  syntax:
+    content: public static Font FromResource(Assembly assembly, string resourceFontName, float preferredFontSize)
+    parameters:
+    - id: assembly
+      type: System.Reflection.Assembly
+      description: ''
+    - id: resourceFontName
+      type: System.String
+      description: ''
+    - id: preferredFontSize
+      type: System.Single
+      description: Preferred Font size to be used in labels (only for TTF fonts)
+    return:
+      type: Fantas.Font
+      description: ''
+    content.vb: Public Shared Function FromResource(assembly As Assembly, resourceFontName As String, preferredFontSize As Single) As Font
+  overload: Fantas.Font.FromResource*
+  nameWithType.vb: Font.FromResource(Assembly, String, Single)
+  fullName.vb: Fantas.Font.FromResource(System.Reflection.Assembly, String, Single)
+  name.vb: FromResource(Assembly, String, Single)
+- uid: Fantas.Font.FromCompressedResource(System.Reflection.Assembly,System.String,System.Single)
+  commentId: M:Fantas.Font.FromCompressedResource(System.Reflection.Assembly,System.String,System.Single)
+  id: FromCompressedResource(System.Reflection.Assembly,System.String,System.Single)
+  parent: Fantas.Font
+  langs:
+  - csharp
+  - vb
+  name: FromCompressedResource(Assembly, string, float)
+  nameWithType: Font.FromCompressedResource(Assembly, string, float)
+  fullName: Fantas.Font.FromCompressedResource(System.Reflection.Assembly, string, float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Font.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Load a font from a compressed embedded resource
+
+    using the given scale
+  example: []
+  syntax:
+    content: public static Font FromCompressedResource(Assembly assembly, string resourceFontName, float preferredFontSize)
+    parameters:
+    - id: assembly
+      type: System.Reflection.Assembly
+      description: ''
+    - id: resourceFontName
+      type: System.String
+      description: ''
+    - id: preferredFontSize
+      type: System.Single
+      description: Only used on iOS
+    return:
+      type: Fantas.Font
+      description: ''
+    content.vb: Public Shared Function FromCompressedResource(assembly As Assembly, resourceFontName As String, preferredFontSize As Single) As Font
+  overload: Fantas.Font.FromCompressedResource*
+  nameWithType.vb: Font.FromCompressedResource(Assembly, String, Single)
+  fullName.vb: Fantas.Font.FromCompressedResource(System.Reflection.Assembly, String, Single)
+  name.vb: FromCompressedResource(Assembly, String, Single)
+- uid: Fantas.Font.FromCompressedResource(System.Reflection.Assembly,System.String)
+  commentId: M:Fantas.Font.FromCompressedResource(System.Reflection.Assembly,System.String)
+  id: FromCompressedResource(System.Reflection.Assembly,System.String)
+  parent: Fantas.Font
+  langs:
+  - csharp
+  - vb
+  name: FromCompressedResource(Assembly, string)
+  nameWithType: Font.FromCompressedResource(Assembly, string)
+  fullName: Fantas.Font.FromCompressedResource(System.Reflection.Assembly, string)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Font.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Load a font from a compressed embedded resource
+  example: []
+  syntax:
+    content: public static Font FromCompressedResource(Assembly assembly, string resourceFontName)
+    parameters:
+    - id: assembly
+      type: System.Reflection.Assembly
+      description: ''
+    - id: resourceFontName
+      type: System.String
+      description: ''
+    return:
+      type: Fantas.Font
+      description: ''
+    content.vb: Public Shared Function FromCompressedResource(assembly As Assembly, resourceFontName As String) As Font
+  overload: Fantas.Font.FromCompressedResource*
+  nameWithType.vb: Font.FromCompressedResource(Assembly, String)
+  fullName.vb: Fantas.Font.FromCompressedResource(System.Reflection.Assembly, String)
+  name.vb: FromCompressedResource(Assembly, String)
+- uid: Fantas.Font.DefaultFont
+  commentId: P:Fantas.Font.DefaultFont
+  id: DefaultFont
+  parent: Fantas.Font
+  langs:
+  - csharp
+  - vb
+  name: DefaultFont
+  nameWithType: Font.DefaultFont
+  fullName: Fantas.Font.DefaultFont
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Font.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Default Font used by LabelNode
+  example: []
+  syntax:
+    content: public static Font DefaultFont { get; set; }
+    parameters: []
+    return:
+      type: Fantas.Font
+    content.vb: Public Shared Property DefaultFont As Font
+  overload: Fantas.Font.DefaultFont*
+- uid: Fantas.Font.Name
+  commentId: P:Fantas.Font.Name
+  id: Name
+  parent: Fantas.Font
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Font.Name
+  fullName: Fantas.Font.Name
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Font.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Font name
+  example: []
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: Fantas.Font.Name*
+references:
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.Font.FromResource*
+  commentId: Overload:Fantas.Font.FromResource
+  isExternal: true
+  href: Fantas.Font.html#Fantas_Font_FromResource_System_Reflection_Assembly_System_String_
+  name: FromResource
+  nameWithType: Font.FromResource
+  fullName: Fantas.Font.FromResource
+- uid: System.Reflection.Assembly
+  commentId: T:System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  name: Assembly
+  nameWithType: Assembly
+  fullName: System.Reflection.Assembly
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Fantas.Font
+  commentId: T:Fantas.Font
+  parent: Fantas
+  isExternal: true
+  href: Fantas.Font.html
+  name: Font
+  nameWithType: Font
+  fullName: Fantas.Font
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Fantas.Font.FromCompressedResource*
+  commentId: Overload:Fantas.Font.FromCompressedResource
+  isExternal: true
+  href: Fantas.Font.html#Fantas_Font_FromCompressedResource_System_Reflection_Assembly_System_String_System_Single_
+  name: FromCompressedResource
+  nameWithType: Font.FromCompressedResource
+  fullName: Fantas.Font.FromCompressedResource
+- uid: Fantas.Font.DefaultFont*
+  commentId: Overload:Fantas.Font.DefaultFont
+  isExternal: true
+  href: Fantas.Font.html#Fantas_Font_DefaultFont
+  name: DefaultFont
+  nameWithType: Font.DefaultFont
+  fullName: Fantas.Font.DefaultFont
+- uid: Fantas.Font.Name*
+  commentId: Overload:Fantas.Font.Name
+  isExternal: true
+  href: Fantas.Font.html#Fantas_Font_Name
+  name: Name
+  nameWithType: Font.Name
+  fullName: Fantas.Font.Name

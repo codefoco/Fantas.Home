@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.LabelVerticalAlignmentMode
+  commentId: T:Fantas.LabelVerticalAlignmentMode
+  id: LabelVerticalAlignmentMode
+  parent: Fantas
+  children:
+  - Fantas.LabelVerticalAlignmentMode.Baseline
+  - Fantas.LabelVerticalAlignmentMode.Bottom
+  - Fantas.LabelVerticalAlignmentMode.Center
+  - Fantas.LabelVerticalAlignmentMode.Top
+  langs:
+  - csharp
+  - vb
+  name: LabelVerticalAlignmentMode
+  nameWithType: LabelVerticalAlignmentMode
+  fullName: Fantas.LabelVerticalAlignmentMode
+  type: Enum
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/LabelVerticalAlignmentMode.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Label text vertical alignment
+  example: []
+  syntax:
+    content: public enum LabelVerticalAlignmentMode
+    content.vb: Public Enum LabelVerticalAlignmentMode
+- uid: Fantas.LabelVerticalAlignmentMode.Baseline
+  commentId: F:Fantas.LabelVerticalAlignmentMode.Baseline
+  id: Baseline
+  parent: Fantas.LabelVerticalAlignmentMode
+  langs:
+  - csharp
+  - vb
+  name: Baseline
+  nameWithType: LabelVerticalAlignmentMode.Baseline
+  fullName: Fantas.LabelVerticalAlignmentMode.Baseline
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/LabelVerticalAlignmentMode.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Align text using the baseline
+  example: []
+  syntax:
+    content: Baseline = 0
+    return:
+      type: Fantas.LabelVerticalAlignmentMode
+- uid: Fantas.LabelVerticalAlignmentMode.Center
+  commentId: F:Fantas.LabelVerticalAlignmentMode.Center
+  id: Center
+  parent: Fantas.LabelVerticalAlignmentMode
+  langs:
+  - csharp
+  - vb
+  name: Center
+  nameWithType: LabelVerticalAlignmentMode.Center
+  fullName: Fantas.LabelVerticalAlignmentMode.Center
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/LabelVerticalAlignmentMode.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Align text using center of text frame
+  example: []
+  syntax:
+    content: Center = 1
+    return:
+      type: Fantas.LabelVerticalAlignmentMode
+- uid: Fantas.LabelVerticalAlignmentMode.Top
+  commentId: F:Fantas.LabelVerticalAlignmentMode.Top
+  id: Top
+  parent: Fantas.LabelVerticalAlignmentMode
+  langs:
+  - csharp
+  - vb
+  name: Top
+  nameWithType: LabelVerticalAlignmentMode.Top
+  fullName: Fantas.LabelVerticalAlignmentMode.Top
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/LabelVerticalAlignmentMode.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Align text using top of text frame
+  example: []
+  syntax:
+    content: Top = 2
+    return:
+      type: Fantas.LabelVerticalAlignmentMode
+- uid: Fantas.LabelVerticalAlignmentMode.Bottom
+  commentId: F:Fantas.LabelVerticalAlignmentMode.Bottom
+  id: Bottom
+  parent: Fantas.LabelVerticalAlignmentMode
+  langs:
+  - csharp
+  - vb
+  name: Bottom
+  nameWithType: LabelVerticalAlignmentMode.Bottom
+  fullName: Fantas.LabelVerticalAlignmentMode.Bottom
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/LabelVerticalAlignmentMode.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Align text using bottom of text frame
+  example: []
+  syntax:
+    content: Bottom = 3
+    return:
+      type: Fantas.LabelVerticalAlignmentMode
+references:
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: Fantas.LabelVerticalAlignmentMode
+  commentId: T:Fantas.LabelVerticalAlignmentMode
+  parent: Fantas
+  isExternal: true
+  href: Fantas.LabelVerticalAlignmentMode.html
+  name: LabelVerticalAlignmentMode
+  nameWithType: LabelVerticalAlignmentMode
+  fullName: Fantas.LabelVerticalAlignmentMode

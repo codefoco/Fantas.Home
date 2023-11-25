@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.Input.TouchDevice
+  commentId: T:Fantas.Input.TouchDevice
+  id: TouchDevice
+  parent: Fantas.Input
+  children:
+  - Fantas.Input.TouchDevice.Mouse
+  - Fantas.Input.TouchDevice.Pen
+  - Fantas.Input.TouchDevice.Touch
+  langs:
+  - csharp
+  - vb
+  name: TouchDevice
+  nameWithType: TouchDevice
+  fullName: Fantas.Input.TouchDevice
+  type: Enum
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/TouchDevice.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Touch Device type (Touch, Mouse, Pen)
+  example: []
+  syntax:
+    content: public enum TouchDevice
+    content.vb: Public Enum TouchDevice
+- uid: Fantas.Input.TouchDevice.Mouse
+  commentId: F:Fantas.Input.TouchDevice.Mouse
+  id: Mouse
+  parent: Fantas.Input.TouchDevice
+  langs:
+  - csharp
+  - vb
+  name: Mouse
+  nameWithType: TouchDevice.Mouse
+  fullName: Fantas.Input.TouchDevice.Mouse
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/TouchDevice.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Mouse pointer event
+  example: []
+  syntax:
+    content: Mouse = 0
+    return:
+      type: Fantas.Input.TouchDevice
+- uid: Fantas.Input.TouchDevice.Touch
+  commentId: F:Fantas.Input.TouchDevice.Touch
+  id: Touch
+  parent: Fantas.Input.TouchDevice
+  langs:
+  - csharp
+  - vb
+  name: Touch
+  nameWithType: TouchDevice.Touch
+  fullName: Fantas.Input.TouchDevice.Touch
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/TouchDevice.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Touch contact
+  example: []
+  syntax:
+    content: Touch = 1
+    return:
+      type: Fantas.Input.TouchDevice
+- uid: Fantas.Input.TouchDevice.Pen
+  commentId: F:Fantas.Input.TouchDevice.Pen
+  id: Pen
+  parent: Fantas.Input.TouchDevice
+  langs:
+  - csharp
+  - vb
+  name: Pen
+  nameWithType: TouchDevice.Pen
+  fullName: Fantas.Input.TouchDevice.Pen
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/TouchDevice.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Pen
+  example: []
+  syntax:
+    content: Pen = 2
+    return:
+      type: Fantas.Input.TouchDevice
+references:
+- uid: Fantas.Input
+  commentId: N:Fantas.Input
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.Input
+  nameWithType: Fantas.Input
+  fullName: Fantas.Input
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+- uid: Fantas.Input.TouchDevice
+  commentId: T:Fantas.Input.TouchDevice
+  parent: Fantas.Input
+  isExternal: true
+  href: Fantas.Input.TouchDevice.html
+  name: TouchDevice
+  nameWithType: TouchDevice
+  fullName: Fantas.Input.TouchDevice

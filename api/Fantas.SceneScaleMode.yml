@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.SceneScaleMode
+  commentId: T:Fantas.SceneScaleMode
+  id: SceneScaleMode
+  parent: Fantas
+  children:
+  - Fantas.SceneScaleMode.AspectFill
+  - Fantas.SceneScaleMode.AspectFit
+  - Fantas.SceneScaleMode.Fill
+  - Fantas.SceneScaleMode.ResizeFill
+  langs:
+  - csharp
+  - vb
+  name: SceneScaleMode
+  nameWithType: SceneScaleMode
+  fullName: Fantas.SceneScaleMode
+  type: Enum
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/SceneScaleMode.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    SceneScale configure how the current Scene will be scaled when the
+
+    window or view is resized.
+
+    The resize could happen because the user resized the window or rotated the device
+  example: []
+  syntax:
+    content: public enum SceneScaleMode
+    content.vb: Public Enum SceneScaleMode
+- uid: Fantas.SceneScaleMode.Fill
+  commentId: F:Fantas.SceneScaleMode.Fill
+  id: Fill
+  parent: Fantas.SceneScaleMode
+  langs:
+  - csharp
+  - vb
+  name: Fill
+  nameWithType: SceneScaleMode.Fill
+  fullName: Fantas.SceneScaleMode.Fill
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/SceneScaleMode.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Fill is the default value, when the scaleMode is set to fill the
+
+    size set to the scene will be preserved and scaled to fill the contents
+
+    of the window, the Scene.SizeChanged will not be called
+  example: []
+  syntax:
+    content: Fill = 0
+    return:
+      type: Fantas.SceneScaleMode
+- uid: Fantas.SceneScaleMode.AspectFill
+  commentId: F:Fantas.SceneScaleMode.AspectFill
+  id: AspectFill
+  parent: Fantas.SceneScaleMode
+  langs:
+  - csharp
+  - vb
+  name: AspectFill
+  nameWithType: SceneScaleMode.AspectFill
+  fullName: Fantas.SceneScaleMode.AspectFill
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/SceneScaleMode.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Preserve the aspect ratio of scene, and fill the whole visible area, cropping edges
+  example: []
+  syntax:
+    content: AspectFill = 1
+    return:
+      type: Fantas.SceneScaleMode
+- uid: Fantas.SceneScaleMode.AspectFit
+  commentId: F:Fantas.SceneScaleMode.AspectFit
+  id: AspectFit
+  parent: Fantas.SceneScaleMode
+  langs:
+  - csharp
+  - vb
+  name: AspectFit
+  nameWithType: SceneScaleMode.AspectFit
+  fullName: Fantas.SceneScaleMode.AspectFit
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/SceneScaleMode.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Show the whole scene preserving aspect ratio, and showing letter box to display if needed
+  example: []
+  syntax:
+    content: AspectFit = 2
+    return:
+      type: Fantas.SceneScaleMode
+- uid: Fantas.SceneScaleMode.ResizeFill
+  commentId: F:Fantas.SceneScaleMode.ResizeFill
+  id: ResizeFill
+  parent: Fantas.SceneScaleMode
+  langs:
+  - csharp
+  - vb
+  name: ResizeFill
+  nameWithType: SceneScaleMode.ResizeFill
+  fullName: Fantas.SceneScaleMode.ResizeFill
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/SceneScaleMode.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Resize the scene to fill the viewport.
+  example: []
+  syntax:
+    content: ResizeFill = 3
+    return:
+      type: Fantas.SceneScaleMode
+references:
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: Fantas.SceneScaleMode
+  commentId: T:Fantas.SceneScaleMode
+  parent: Fantas
+  isExternal: true
+  href: Fantas.SceneScaleMode.html
+  name: SceneScaleMode
+  nameWithType: SceneScaleMode
+  fullName: Fantas.SceneScaleMode

@@ -1,0 +1,1406 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.Input.MouseInput
+  commentId: T:Fantas.Input.MouseInput
+  id: MouseInput
+  parent: Fantas.Input
+  children:
+  - Fantas.Input.MouseInput.AnyButtonPressed
+  - Fantas.Input.MouseInput.AnyButtonReleased
+  - Fantas.Input.MouseInput.Cursor
+  - Fantas.Input.MouseInput.CursorPosition
+  - Fantas.Input.MouseInput.InvokeMouseDown(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32)
+  - Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32)
+  - Fantas.Input.MouseInput.InvokeMouseMove(System.Drawing.PointF)
+  - Fantas.Input.MouseInput.InvokeMouseUp(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32)
+  - Fantas.Input.MouseInput.InvokeMouseWheel(System.Numerics.Vector2,System.Drawing.PointF,System.Boolean)
+  - Fantas.Input.MouseInput.IsCursorVisible
+  - Fantas.Input.MouseInput.IsLeftButtonDown
+  - Fantas.Input.MouseInput.IsLeftButtonPressed
+  - Fantas.Input.MouseInput.IsLeftButtonReleased
+  - Fantas.Input.MouseInput.IsMiddleButtonDown
+  - Fantas.Input.MouseInput.IsMiddleButtonPressed
+  - Fantas.Input.MouseInput.IsMiddleButtonReleased
+  - Fantas.Input.MouseInput.IsNodeEventsEnabled
+  - Fantas.Input.MouseInput.IsRightButtonDown
+  - Fantas.Input.MouseInput.IsRightButtonPressed
+  - Fantas.Input.MouseInput.IsRightButtonReleased
+  - Fantas.Input.MouseInput.IsXButton1Down
+  - Fantas.Input.MouseInput.IsXButton1Pressed
+  - Fantas.Input.MouseInput.IsXButton1Released
+  - Fantas.Input.MouseInput.IsXButton2Down
+  - Fantas.Input.MouseInput.IsXButton2Pressed
+  - Fantas.Input.MouseInput.IsXButton2Released
+  - Fantas.Input.MouseInput.PopCursor
+  - Fantas.Input.MouseInput.PushCursor(Fantas.Input.Cursor)
+  - Fantas.Input.MouseInput.WheelDelta
+  langs:
+  - csharp
+  - vb
+  name: MouseInput
+  nameWithType: MouseInput
+  fullName: Fantas.Input.MouseInput
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Mouse Input class
+  example: []
+  syntax:
+    content: public static class MouseInput
+    content.vb: Public Module MouseInput
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Fantas.Input.MouseInput.PushCursor(Fantas.Input.Cursor)
+  commentId: M:Fantas.Input.MouseInput.PushCursor(Fantas.Input.Cursor)
+  id: PushCursor(Fantas.Input.Cursor)
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: PushCursor(Cursor)
+  nameWithType: MouseInput.PushCursor(Cursor)
+  fullName: Fantas.Input.MouseInput.PushCursor(Fantas.Input.Cursor)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Set the new cursor and push the current one on the stack
+  example: []
+  syntax:
+    content: public static void PushCursor(Cursor cursor)
+    parameters:
+    - id: cursor
+      type: Fantas.Input.Cursor
+      description: ''
+    content.vb: Public Shared Sub PushCursor(cursor As Cursor)
+  overload: Fantas.Input.MouseInput.PushCursor*
+- uid: Fantas.Input.MouseInput.PopCursor
+  commentId: M:Fantas.Input.MouseInput.PopCursor
+  id: PopCursor
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: PopCursor()
+  nameWithType: MouseInput.PopCursor()
+  fullName: Fantas.Input.MouseInput.PopCursor()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Restore the previous cursor
+  example: []
+  syntax:
+    content: public static void PopCursor()
+    content.vb: Public Shared Sub PopCursor()
+  overload: Fantas.Input.MouseInput.PopCursor*
+- uid: Fantas.Input.MouseInput.InvokeMouseDown(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32)
+  commentId: M:Fantas.Input.MouseInput.InvokeMouseDown(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32)
+  id: InvokeMouseDown(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32)
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: InvokeMouseDown(MouseButtons, PointF, int)
+  nameWithType: MouseInput.InvokeMouseDown(MouseButtons, PointF, int)
+  fullName: Fantas.Input.MouseInput.InvokeMouseDown(Fantas.Input.MouseButtons, System.Drawing.PointF, int)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Invoke MouseDown event handlers
+  example: []
+  syntax:
+    content: public static void InvokeMouseDown(MouseButtons button, PointF position, int clicks)
+    parameters:
+    - id: button
+      type: Fantas.Input.MouseButtons
+      description: ''
+    - id: position
+      type: System.Drawing.PointF
+      description: ''
+    - id: clicks
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Sub InvokeMouseDown(button As MouseButtons, position As PointF, clicks As Integer)
+  overload: Fantas.Input.MouseInput.InvokeMouseDown*
+  nameWithType.vb: MouseInput.InvokeMouseDown(MouseButtons, PointF, Integer)
+  fullName.vb: Fantas.Input.MouseInput.InvokeMouseDown(Fantas.Input.MouseButtons, System.Drawing.PointF, Integer)
+  name.vb: InvokeMouseDown(MouseButtons, PointF, Integer)
+- uid: Fantas.Input.MouseInput.InvokeMouseUp(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32)
+  commentId: M:Fantas.Input.MouseInput.InvokeMouseUp(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32)
+  id: InvokeMouseUp(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32)
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: InvokeMouseUp(MouseButtons, PointF, int)
+  nameWithType: MouseInput.InvokeMouseUp(MouseButtons, PointF, int)
+  fullName: Fantas.Input.MouseInput.InvokeMouseUp(Fantas.Input.MouseButtons, System.Drawing.PointF, int)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Invoke MouseUp event handlers
+  example: []
+  syntax:
+    content: public static void InvokeMouseUp(MouseButtons button, PointF position, int clicks)
+    parameters:
+    - id: button
+      type: Fantas.Input.MouseButtons
+      description: ''
+    - id: position
+      type: System.Drawing.PointF
+      description: ''
+    - id: clicks
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Sub InvokeMouseUp(button As MouseButtons, position As PointF, clicks As Integer)
+  overload: Fantas.Input.MouseInput.InvokeMouseUp*
+  nameWithType.vb: MouseInput.InvokeMouseUp(MouseButtons, PointF, Integer)
+  fullName.vb: Fantas.Input.MouseInput.InvokeMouseUp(Fantas.Input.MouseButtons, System.Drawing.PointF, Integer)
+  name.vb: InvokeMouseUp(MouseButtons, PointF, Integer)
+- uid: Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32)
+  commentId: M:Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32)
+  id: InvokeMouseDrag(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32)
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: InvokeMouseDrag(MouseButtons, PointF, int)
+  nameWithType: MouseInput.InvokeMouseDrag(MouseButtons, PointF, int)
+  fullName: Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons, System.Drawing.PointF, int)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Invoke Drag event handlers
+  example: []
+  syntax:
+    content: public static void InvokeMouseDrag(MouseButtons button, PointF position, int clicks)
+    parameters:
+    - id: button
+      type: Fantas.Input.MouseButtons
+      description: ''
+    - id: position
+      type: System.Drawing.PointF
+      description: ''
+    - id: clicks
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Sub InvokeMouseDrag(button As MouseButtons, position As PointF, clicks As Integer)
+  overload: Fantas.Input.MouseInput.InvokeMouseDrag*
+  nameWithType.vb: MouseInput.InvokeMouseDrag(MouseButtons, PointF, Integer)
+  fullName.vb: Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons, System.Drawing.PointF, Integer)
+  name.vb: InvokeMouseDrag(MouseButtons, PointF, Integer)
+- uid: Fantas.Input.MouseInput.InvokeMouseWheel(System.Numerics.Vector2,System.Drawing.PointF,System.Boolean)
+  commentId: M:Fantas.Input.MouseInput.InvokeMouseWheel(System.Numerics.Vector2,System.Drawing.PointF,System.Boolean)
+  id: InvokeMouseWheel(System.Numerics.Vector2,System.Drawing.PointF,System.Boolean)
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: InvokeMouseWheel(Vector2, PointF, bool)
+  nameWithType: MouseInput.InvokeMouseWheel(Vector2, PointF, bool)
+  fullName: Fantas.Input.MouseInput.InvokeMouseWheel(System.Numerics.Vector2, System.Drawing.PointF, bool)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Invoke MouseWheel event handlers
+  example: []
+  syntax:
+    content: public static void InvokeMouseWheel(Vector2 delta, PointF position, bool hasPreciseScrollingDeltas)
+    parameters:
+    - id: delta
+      type: System.Numerics.Vector2
+      description: ''
+    - id: position
+      type: System.Drawing.PointF
+      description: ''
+    - id: hasPreciseScrollingDeltas
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Sub InvokeMouseWheel(delta As Vector2, position As PointF, hasPreciseScrollingDeltas As Boolean)
+  overload: Fantas.Input.MouseInput.InvokeMouseWheel*
+  nameWithType.vb: MouseInput.InvokeMouseWheel(Vector2, PointF, Boolean)
+  fullName.vb: Fantas.Input.MouseInput.InvokeMouseWheel(System.Numerics.Vector2, System.Drawing.PointF, Boolean)
+  name.vb: InvokeMouseWheel(Vector2, PointF, Boolean)
+- uid: Fantas.Input.MouseInput.InvokeMouseMove(System.Drawing.PointF)
+  commentId: M:Fantas.Input.MouseInput.InvokeMouseMove(System.Drawing.PointF)
+  id: InvokeMouseMove(System.Drawing.PointF)
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: InvokeMouseMove(PointF)
+  nameWithType: MouseInput.InvokeMouseMove(PointF)
+  fullName: Fantas.Input.MouseInput.InvokeMouseMove(System.Drawing.PointF)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Invoke MouseMove event handlers
+  example: []
+  syntax:
+    content: public static void InvokeMouseMove(PointF position)
+    parameters:
+    - id: position
+      type: System.Drawing.PointF
+      description: ''
+    content.vb: Public Shared Sub InvokeMouseMove(position As PointF)
+  overload: Fantas.Input.MouseInput.InvokeMouseMove*
+- uid: Fantas.Input.MouseInput.Cursor
+  commentId: P:Fantas.Input.MouseInput.Cursor
+  id: Cursor
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: Cursor
+  nameWithType: MouseInput.Cursor
+  fullName: Fantas.Input.MouseInput.Cursor
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Current mouse cursor
+  example: []
+  syntax:
+    content: public static Cursor Cursor { get; set; }
+    parameters: []
+    return:
+      type: Fantas.Input.Cursor
+    content.vb: Public Shared Property Cursor As Cursor
+  overload: Fantas.Input.MouseInput.Cursor*
+- uid: Fantas.Input.MouseInput.CursorPosition
+  commentId: P:Fantas.Input.MouseInput.CursorPosition
+  id: CursorPosition
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: CursorPosition
+  nameWithType: MouseInput.CursorPosition
+  fullName: Fantas.Input.MouseInput.CursorPosition
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Get last cursor position (in Scene coordinates)
+  example: []
+  syntax:
+    content: public static PointF CursorPosition { get; }
+    parameters: []
+    return:
+      type: System.Drawing.PointF
+    content.vb: Public Shared ReadOnly Property CursorPosition As PointF
+  overload: Fantas.Input.MouseInput.CursorPosition*
+- uid: Fantas.Input.MouseInput.IsCursorVisible
+  commentId: P:Fantas.Input.MouseInput.IsCursorVisible
+  id: IsCursorVisible
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: IsCursorVisible
+  nameWithType: MouseInput.IsCursorVisible
+  fullName: Fantas.Input.MouseInput.IsCursorVisible
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Show/Hide the mouse cursor
+  example: []
+  syntax:
+    content: public static bool IsCursorVisible { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property IsCursorVisible As Boolean
+  overload: Fantas.Input.MouseInput.IsCursorVisible*
+- uid: Fantas.Input.MouseInput.WheelDelta
+  commentId: P:Fantas.Input.MouseInput.WheelDelta
+  id: WheelDelta
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: WheelDelta
+  nameWithType: MouseInput.WheelDelta
+  fullName: Fantas.Input.MouseInput.WheelDelta
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Get last mouse wheel delta value
+  example: []
+  syntax:
+    content: public static Vector2 WheelDelta { get; }
+    parameters: []
+    return:
+      type: System.Numerics.Vector2
+    content.vb: Public Shared ReadOnly Property WheelDelta As Vector2
+  overload: Fantas.Input.MouseInput.WheelDelta*
+- uid: Fantas.Input.MouseInput.IsNodeEventsEnabled
+  commentId: P:Fantas.Input.MouseInput.IsNodeEventsEnabled
+  id: IsNodeEventsEnabled
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: IsNodeEventsEnabled
+  nameWithType: MouseInput.IsNodeEventsEnabled
+  fullName: Fantas.Input.MouseInput.IsNodeEventsEnabled
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: >-
+    Enable/Disable mouse node events
+
+    MouseEnter/MouseHover/MouseLeave/Click
+  example: []
+  syntax:
+    content: public static bool IsNodeEventsEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property IsNodeEventsEnabled As Boolean
+  overload: Fantas.Input.MouseInput.IsNodeEventsEnabled*
+- uid: Fantas.Input.MouseInput.IsLeftButtonDown
+  commentId: P:Fantas.Input.MouseInput.IsLeftButtonDown
+  id: IsLeftButtonDown
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: IsLeftButtonDown
+  nameWithType: MouseInput.IsLeftButtonDown
+  fullName: Fantas.Input.MouseInput.IsLeftButtonDown
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Return true if the left mouse button is current pressed
+  example: []
+  syntax:
+    content: public static bool IsLeftButtonDown { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsLeftButtonDown As Boolean
+  overload: Fantas.Input.MouseInput.IsLeftButtonDown*
+- uid: Fantas.Input.MouseInput.IsRightButtonDown
+  commentId: P:Fantas.Input.MouseInput.IsRightButtonDown
+  id: IsRightButtonDown
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: IsRightButtonDown
+  nameWithType: MouseInput.IsRightButtonDown
+  fullName: Fantas.Input.MouseInput.IsRightButtonDown
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Return true if the right mouse button is current pressed
+  example: []
+  syntax:
+    content: public static bool IsRightButtonDown { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsRightButtonDown As Boolean
+  overload: Fantas.Input.MouseInput.IsRightButtonDown*
+- uid: Fantas.Input.MouseInput.IsMiddleButtonDown
+  commentId: P:Fantas.Input.MouseInput.IsMiddleButtonDown
+  id: IsMiddleButtonDown
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: IsMiddleButtonDown
+  nameWithType: MouseInput.IsMiddleButtonDown
+  fullName: Fantas.Input.MouseInput.IsMiddleButtonDown
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Return true if the middle mouse button is current pressed
+  example: []
+  syntax:
+    content: public static bool IsMiddleButtonDown { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsMiddleButtonDown As Boolean
+  overload: Fantas.Input.MouseInput.IsMiddleButtonDown*
+- uid: Fantas.Input.MouseInput.IsXButton1Down
+  commentId: P:Fantas.Input.MouseInput.IsXButton1Down
+  id: IsXButton1Down
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: IsXButton1Down
+  nameWithType: MouseInput.IsXButton1Down
+  fullName: Fantas.Input.MouseInput.IsXButton1Down
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Return true if the X1 mouse button is current pressed
+  example: []
+  syntax:
+    content: public static bool IsXButton1Down { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsXButton1Down As Boolean
+  overload: Fantas.Input.MouseInput.IsXButton1Down*
+- uid: Fantas.Input.MouseInput.IsXButton2Down
+  commentId: P:Fantas.Input.MouseInput.IsXButton2Down
+  id: IsXButton2Down
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: IsXButton2Down
+  nameWithType: MouseInput.IsXButton2Down
+  fullName: Fantas.Input.MouseInput.IsXButton2Down
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Return true if the X2 mouse button is current pressed
+  example: []
+  syntax:
+    content: public static bool IsXButton2Down { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsXButton2Down As Boolean
+  overload: Fantas.Input.MouseInput.IsXButton2Down*
+- uid: Fantas.Input.MouseInput.IsLeftButtonPressed
+  commentId: P:Fantas.Input.MouseInput.IsLeftButtonPressed
+  id: IsLeftButtonPressed
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: IsLeftButtonPressed
+  nameWithType: MouseInput.IsLeftButtonPressed
+  fullName: Fantas.Input.MouseInput.IsLeftButtonPressed
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Return true if the left mouse button was just pressed
+  example: []
+  syntax:
+    content: public static bool IsLeftButtonPressed { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsLeftButtonPressed As Boolean
+  overload: Fantas.Input.MouseInput.IsLeftButtonPressed*
+- uid: Fantas.Input.MouseInput.IsRightButtonPressed
+  commentId: P:Fantas.Input.MouseInput.IsRightButtonPressed
+  id: IsRightButtonPressed
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: IsRightButtonPressed
+  nameWithType: MouseInput.IsRightButtonPressed
+  fullName: Fantas.Input.MouseInput.IsRightButtonPressed
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Return true if the right mouse button was just pressed
+  example: []
+  syntax:
+    content: public static bool IsRightButtonPressed { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsRightButtonPressed As Boolean
+  overload: Fantas.Input.MouseInput.IsRightButtonPressed*
+- uid: Fantas.Input.MouseInput.IsMiddleButtonPressed
+  commentId: P:Fantas.Input.MouseInput.IsMiddleButtonPressed
+  id: IsMiddleButtonPressed
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: IsMiddleButtonPressed
+  nameWithType: MouseInput.IsMiddleButtonPressed
+  fullName: Fantas.Input.MouseInput.IsMiddleButtonPressed
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Return true if the middle mouse button was just pressed
+  example: []
+  syntax:
+    content: public static bool IsMiddleButtonPressed { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsMiddleButtonPressed As Boolean
+  overload: Fantas.Input.MouseInput.IsMiddleButtonPressed*
+- uid: Fantas.Input.MouseInput.IsXButton1Pressed
+  commentId: P:Fantas.Input.MouseInput.IsXButton1Pressed
+  id: IsXButton1Pressed
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: IsXButton1Pressed
+  nameWithType: MouseInput.IsXButton1Pressed
+  fullName: Fantas.Input.MouseInput.IsXButton1Pressed
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Return true if the X1 mouse button was just pressed
+  example: []
+  syntax:
+    content: public static bool IsXButton1Pressed { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsXButton1Pressed As Boolean
+  overload: Fantas.Input.MouseInput.IsXButton1Pressed*
+- uid: Fantas.Input.MouseInput.IsXButton2Pressed
+  commentId: P:Fantas.Input.MouseInput.IsXButton2Pressed
+  id: IsXButton2Pressed
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: IsXButton2Pressed
+  nameWithType: MouseInput.IsXButton2Pressed
+  fullName: Fantas.Input.MouseInput.IsXButton2Pressed
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Return true if the X2 mouse button was just pressed
+  example: []
+  syntax:
+    content: public static bool IsXButton2Pressed { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsXButton2Pressed As Boolean
+  overload: Fantas.Input.MouseInput.IsXButton2Pressed*
+- uid: Fantas.Input.MouseInput.AnyButtonPressed
+  commentId: P:Fantas.Input.MouseInput.AnyButtonPressed
+  id: AnyButtonPressed
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: AnyButtonPressed
+  nameWithType: MouseInput.AnyButtonPressed
+  fullName: Fantas.Input.MouseInput.AnyButtonPressed
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: True if any mouse button was just pressed
+  example: []
+  syntax:
+    content: public static bool AnyButtonPressed { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property AnyButtonPressed As Boolean
+  overload: Fantas.Input.MouseInput.AnyButtonPressed*
+- uid: Fantas.Input.MouseInput.IsLeftButtonReleased
+  commentId: P:Fantas.Input.MouseInput.IsLeftButtonReleased
+  id: IsLeftButtonReleased
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: IsLeftButtonReleased
+  nameWithType: MouseInput.IsLeftButtonReleased
+  fullName: Fantas.Input.MouseInput.IsLeftButtonReleased
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Return true if the left mouse button was just released
+  example: []
+  syntax:
+    content: public static bool IsLeftButtonReleased { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsLeftButtonReleased As Boolean
+  overload: Fantas.Input.MouseInput.IsLeftButtonReleased*
+- uid: Fantas.Input.MouseInput.IsRightButtonReleased
+  commentId: P:Fantas.Input.MouseInput.IsRightButtonReleased
+  id: IsRightButtonReleased
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: IsRightButtonReleased
+  nameWithType: MouseInput.IsRightButtonReleased
+  fullName: Fantas.Input.MouseInput.IsRightButtonReleased
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Return true if the right mouse button was just released
+  example: []
+  syntax:
+    content: public static bool IsRightButtonReleased { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsRightButtonReleased As Boolean
+  overload: Fantas.Input.MouseInput.IsRightButtonReleased*
+- uid: Fantas.Input.MouseInput.IsMiddleButtonReleased
+  commentId: P:Fantas.Input.MouseInput.IsMiddleButtonReleased
+  id: IsMiddleButtonReleased
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: IsMiddleButtonReleased
+  nameWithType: MouseInput.IsMiddleButtonReleased
+  fullName: Fantas.Input.MouseInput.IsMiddleButtonReleased
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Return true if the middle mouse button was just released
+  example: []
+  syntax:
+    content: public static bool IsMiddleButtonReleased { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsMiddleButtonReleased As Boolean
+  overload: Fantas.Input.MouseInput.IsMiddleButtonReleased*
+- uid: Fantas.Input.MouseInput.IsXButton1Released
+  commentId: P:Fantas.Input.MouseInput.IsXButton1Released
+  id: IsXButton1Released
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: IsXButton1Released
+  nameWithType: MouseInput.IsXButton1Released
+  fullName: Fantas.Input.MouseInput.IsXButton1Released
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Return true if the X1  mouse button was just released
+  example: []
+  syntax:
+    content: public static bool IsXButton1Released { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsXButton1Released As Boolean
+  overload: Fantas.Input.MouseInput.IsXButton1Released*
+- uid: Fantas.Input.MouseInput.IsXButton2Released
+  commentId: P:Fantas.Input.MouseInput.IsXButton2Released
+  id: IsXButton2Released
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: IsXButton2Released
+  nameWithType: MouseInput.IsXButton2Released
+  fullName: Fantas.Input.MouseInput.IsXButton2Released
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Return true if the X2 mouse button was just released
+  example: []
+  syntax:
+    content: public static bool IsXButton2Released { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsXButton2Released As Boolean
+  overload: Fantas.Input.MouseInput.IsXButton2Released*
+- uid: Fantas.Input.MouseInput.AnyButtonReleased
+  commentId: P:Fantas.Input.MouseInput.AnyButtonReleased
+  id: AnyButtonReleased
+  parent: Fantas.Input.MouseInput
+  langs:
+  - csharp
+  - vb
+  name: AnyButtonReleased
+  nameWithType: MouseInput.AnyButtonReleased
+  fullName: Fantas.Input.MouseInput.AnyButtonReleased
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: True if any mouse button was just released
+  example: []
+  syntax:
+    content: public static bool AnyButtonReleased { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property AnyButtonReleased As Boolean
+  overload: Fantas.Input.MouseInput.AnyButtonReleased*
+references:
+- uid: Fantas.Input
+  commentId: N:Fantas.Input
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.Input
+  nameWithType: Fantas.Input
+  fullName: Fantas.Input
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.Input.MouseInput.PushCursor*
+  commentId: Overload:Fantas.Input.MouseInput.PushCursor
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_PushCursor_Fantas_Input_Cursor_
+  name: PushCursor
+  nameWithType: MouseInput.PushCursor
+  fullName: Fantas.Input.MouseInput.PushCursor
+- uid: Fantas.Input.Cursor
+  commentId: T:Fantas.Input.Cursor
+  parent: Fantas.Input
+  isExternal: true
+  href: Fantas.Input.Cursor.html
+  name: Cursor
+  nameWithType: Cursor
+  fullName: Fantas.Input.Cursor
+- uid: Fantas.Input.MouseInput.PopCursor*
+  commentId: Overload:Fantas.Input.MouseInput.PopCursor
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_PopCursor
+  name: PopCursor
+  nameWithType: MouseInput.PopCursor
+  fullName: Fantas.Input.MouseInput.PopCursor
+- uid: Fantas.Input.MouseInput.InvokeMouseDown*
+  commentId: Overload:Fantas.Input.MouseInput.InvokeMouseDown
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_InvokeMouseDown_Fantas_Input_MouseButtons_System_Drawing_PointF_System_Int32_
+  name: InvokeMouseDown
+  nameWithType: MouseInput.InvokeMouseDown
+  fullName: Fantas.Input.MouseInput.InvokeMouseDown
+- uid: Fantas.Input.MouseButtons
+  commentId: T:Fantas.Input.MouseButtons
+  parent: Fantas.Input
+  isExternal: true
+  href: Fantas.Input.MouseButtons.html
+  name: MouseButtons
+  nameWithType: MouseButtons
+  fullName: Fantas.Input.MouseButtons
+- uid: System.Drawing.PointF
+  commentId: T:System.Drawing.PointF
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  name: PointF
+  nameWithType: PointF
+  fullName: System.Drawing.PointF
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: Fantas.Input.MouseInput.InvokeMouseUp*
+  commentId: Overload:Fantas.Input.MouseInput.InvokeMouseUp
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_InvokeMouseUp_Fantas_Input_MouseButtons_System_Drawing_PointF_System_Int32_
+  name: InvokeMouseUp
+  nameWithType: MouseInput.InvokeMouseUp
+  fullName: Fantas.Input.MouseInput.InvokeMouseUp
+- uid: Fantas.Input.MouseInput.InvokeMouseDrag*
+  commentId: Overload:Fantas.Input.MouseInput.InvokeMouseDrag
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_InvokeMouseDrag_Fantas_Input_MouseButtons_System_Drawing_PointF_System_Int32_
+  name: InvokeMouseDrag
+  nameWithType: MouseInput.InvokeMouseDrag
+  fullName: Fantas.Input.MouseInput.InvokeMouseDrag
+- uid: Fantas.Input.MouseInput.InvokeMouseWheel*
+  commentId: Overload:Fantas.Input.MouseInput.InvokeMouseWheel
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_InvokeMouseWheel_System_Numerics_Vector2_System_Drawing_PointF_System_Boolean_
+  name: InvokeMouseWheel
+  nameWithType: MouseInput.InvokeMouseWheel
+  fullName: Fantas.Input.MouseInput.InvokeMouseWheel
+- uid: System.Numerics.Vector2
+  commentId: T:System.Numerics.Vector2
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  name: Vector2
+  nameWithType: Vector2
+  fullName: System.Numerics.Vector2
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: Fantas.Input.MouseInput.InvokeMouseMove*
+  commentId: Overload:Fantas.Input.MouseInput.InvokeMouseMove
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_InvokeMouseMove_System_Drawing_PointF_
+  name: InvokeMouseMove
+  nameWithType: MouseInput.InvokeMouseMove
+  fullName: Fantas.Input.MouseInput.InvokeMouseMove
+- uid: Fantas.Input.MouseInput.Cursor*
+  commentId: Overload:Fantas.Input.MouseInput.Cursor
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_Cursor
+  name: Cursor
+  nameWithType: MouseInput.Cursor
+  fullName: Fantas.Input.MouseInput.Cursor
+- uid: Fantas.Input.MouseInput.CursorPosition*
+  commentId: Overload:Fantas.Input.MouseInput.CursorPosition
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_CursorPosition
+  name: CursorPosition
+  nameWithType: MouseInput.CursorPosition
+  fullName: Fantas.Input.MouseInput.CursorPosition
+- uid: Fantas.Input.MouseInput.IsCursorVisible*
+  commentId: Overload:Fantas.Input.MouseInput.IsCursorVisible
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_IsCursorVisible
+  name: IsCursorVisible
+  nameWithType: MouseInput.IsCursorVisible
+  fullName: Fantas.Input.MouseInput.IsCursorVisible
+- uid: Fantas.Input.MouseInput.WheelDelta*
+  commentId: Overload:Fantas.Input.MouseInput.WheelDelta
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_WheelDelta
+  name: WheelDelta
+  nameWithType: MouseInput.WheelDelta
+  fullName: Fantas.Input.MouseInput.WheelDelta
+- uid: Fantas.Input.MouseInput.IsNodeEventsEnabled*
+  commentId: Overload:Fantas.Input.MouseInput.IsNodeEventsEnabled
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_IsNodeEventsEnabled
+  name: IsNodeEventsEnabled
+  nameWithType: MouseInput.IsNodeEventsEnabled
+  fullName: Fantas.Input.MouseInput.IsNodeEventsEnabled
+- uid: Fantas.Input.MouseInput.IsLeftButtonDown*
+  commentId: Overload:Fantas.Input.MouseInput.IsLeftButtonDown
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_IsLeftButtonDown
+  name: IsLeftButtonDown
+  nameWithType: MouseInput.IsLeftButtonDown
+  fullName: Fantas.Input.MouseInput.IsLeftButtonDown
+- uid: Fantas.Input.MouseInput.IsRightButtonDown*
+  commentId: Overload:Fantas.Input.MouseInput.IsRightButtonDown
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_IsRightButtonDown
+  name: IsRightButtonDown
+  nameWithType: MouseInput.IsRightButtonDown
+  fullName: Fantas.Input.MouseInput.IsRightButtonDown
+- uid: Fantas.Input.MouseInput.IsMiddleButtonDown*
+  commentId: Overload:Fantas.Input.MouseInput.IsMiddleButtonDown
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_IsMiddleButtonDown
+  name: IsMiddleButtonDown
+  nameWithType: MouseInput.IsMiddleButtonDown
+  fullName: Fantas.Input.MouseInput.IsMiddleButtonDown
+- uid: Fantas.Input.MouseInput.IsXButton1Down*
+  commentId: Overload:Fantas.Input.MouseInput.IsXButton1Down
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_IsXButton1Down
+  name: IsXButton1Down
+  nameWithType: MouseInput.IsXButton1Down
+  fullName: Fantas.Input.MouseInput.IsXButton1Down
+- uid: Fantas.Input.MouseInput.IsXButton2Down*
+  commentId: Overload:Fantas.Input.MouseInput.IsXButton2Down
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_IsXButton2Down
+  name: IsXButton2Down
+  nameWithType: MouseInput.IsXButton2Down
+  fullName: Fantas.Input.MouseInput.IsXButton2Down
+- uid: Fantas.Input.MouseInput.IsLeftButtonPressed*
+  commentId: Overload:Fantas.Input.MouseInput.IsLeftButtonPressed
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_IsLeftButtonPressed
+  name: IsLeftButtonPressed
+  nameWithType: MouseInput.IsLeftButtonPressed
+  fullName: Fantas.Input.MouseInput.IsLeftButtonPressed
+- uid: Fantas.Input.MouseInput.IsRightButtonPressed*
+  commentId: Overload:Fantas.Input.MouseInput.IsRightButtonPressed
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_IsRightButtonPressed
+  name: IsRightButtonPressed
+  nameWithType: MouseInput.IsRightButtonPressed
+  fullName: Fantas.Input.MouseInput.IsRightButtonPressed
+- uid: Fantas.Input.MouseInput.IsMiddleButtonPressed*
+  commentId: Overload:Fantas.Input.MouseInput.IsMiddleButtonPressed
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_IsMiddleButtonPressed
+  name: IsMiddleButtonPressed
+  nameWithType: MouseInput.IsMiddleButtonPressed
+  fullName: Fantas.Input.MouseInput.IsMiddleButtonPressed
+- uid: Fantas.Input.MouseInput.IsXButton1Pressed*
+  commentId: Overload:Fantas.Input.MouseInput.IsXButton1Pressed
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_IsXButton1Pressed
+  name: IsXButton1Pressed
+  nameWithType: MouseInput.IsXButton1Pressed
+  fullName: Fantas.Input.MouseInput.IsXButton1Pressed
+- uid: Fantas.Input.MouseInput.IsXButton2Pressed*
+  commentId: Overload:Fantas.Input.MouseInput.IsXButton2Pressed
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_IsXButton2Pressed
+  name: IsXButton2Pressed
+  nameWithType: MouseInput.IsXButton2Pressed
+  fullName: Fantas.Input.MouseInput.IsXButton2Pressed
+- uid: Fantas.Input.MouseInput.AnyButtonPressed*
+  commentId: Overload:Fantas.Input.MouseInput.AnyButtonPressed
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_AnyButtonPressed
+  name: AnyButtonPressed
+  nameWithType: MouseInput.AnyButtonPressed
+  fullName: Fantas.Input.MouseInput.AnyButtonPressed
+- uid: Fantas.Input.MouseInput.IsLeftButtonReleased*
+  commentId: Overload:Fantas.Input.MouseInput.IsLeftButtonReleased
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_IsLeftButtonReleased
+  name: IsLeftButtonReleased
+  nameWithType: MouseInput.IsLeftButtonReleased
+  fullName: Fantas.Input.MouseInput.IsLeftButtonReleased
+- uid: Fantas.Input.MouseInput.IsRightButtonReleased*
+  commentId: Overload:Fantas.Input.MouseInput.IsRightButtonReleased
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_IsRightButtonReleased
+  name: IsRightButtonReleased
+  nameWithType: MouseInput.IsRightButtonReleased
+  fullName: Fantas.Input.MouseInput.IsRightButtonReleased
+- uid: Fantas.Input.MouseInput.IsMiddleButtonReleased*
+  commentId: Overload:Fantas.Input.MouseInput.IsMiddleButtonReleased
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_IsMiddleButtonReleased
+  name: IsMiddleButtonReleased
+  nameWithType: MouseInput.IsMiddleButtonReleased
+  fullName: Fantas.Input.MouseInput.IsMiddleButtonReleased
+- uid: Fantas.Input.MouseInput.IsXButton1Released*
+  commentId: Overload:Fantas.Input.MouseInput.IsXButton1Released
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_IsXButton1Released
+  name: IsXButton1Released
+  nameWithType: MouseInput.IsXButton1Released
+  fullName: Fantas.Input.MouseInput.IsXButton1Released
+- uid: Fantas.Input.MouseInput.IsXButton2Released*
+  commentId: Overload:Fantas.Input.MouseInput.IsXButton2Released
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_IsXButton2Released
+  name: IsXButton2Released
+  nameWithType: MouseInput.IsXButton2Released
+  fullName: Fantas.Input.MouseInput.IsXButton2Released
+- uid: Fantas.Input.MouseInput.AnyButtonReleased*
+  commentId: Overload:Fantas.Input.MouseInput.AnyButtonReleased
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_AnyButtonReleased
+  name: AnyButtonReleased
+  nameWithType: MouseInput.AnyButtonReleased
+  fullName: Fantas.Input.MouseInput.AnyButtonReleased

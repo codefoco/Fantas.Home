@@ -1,0 +1,470 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.Physics.PhysicsJointSpring
+  commentId: T:Fantas.Physics.PhysicsJointSpring
+  id: PhysicsJointSpring
+  parent: Fantas.Physics
+  children:
+  - Fantas.Physics.PhysicsJointSpring.#ctor(Fantas.Physics.PhysicsBody,Fantas.Physics.PhysicsBody,System.Drawing.PointF,System.Drawing.PointF)
+  - Fantas.Physics.PhysicsJointSpring.Damping
+  - Fantas.Physics.PhysicsJointSpring.Frequency
+  langs:
+  - csharp
+  - vb
+  name: PhysicsJointSpring
+  nameWithType: PhysicsJointSpring
+  fullName: Fantas.Physics.PhysicsJointSpring
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Joints/PhysicsJointSpring.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: A PhysicsJointSpring connects two physics bodies as if by a spring.
+  example: []
+  syntax:
+    content: 'public sealed class PhysicsJointSpring : PhysicsJoint'
+    content.vb: Public NotInheritable Class PhysicsJointSpring Inherits PhysicsJoint
+  inheritance:
+  - System.Object
+  - Fantas.Physics.PhysicsJoint
+  inheritedMembers:
+  - Fantas.Physics.PhysicsJoint.BodyA
+  - Fantas.Physics.PhysicsJoint.BodyB
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Fantas.Physics.PhysicsJointSpring.#ctor(Fantas.Physics.PhysicsBody,Fantas.Physics.PhysicsBody,System.Drawing.PointF,System.Drawing.PointF)
+  commentId: M:Fantas.Physics.PhysicsJointSpring.#ctor(Fantas.Physics.PhysicsBody,Fantas.Physics.PhysicsBody,System.Drawing.PointF,System.Drawing.PointF)
+  id: '#ctor(Fantas.Physics.PhysicsBody,Fantas.Physics.PhysicsBody,System.Drawing.PointF,System.Drawing.PointF)'
+  parent: Fantas.Physics.PhysicsJointSpring
+  langs:
+  - csharp
+  - vb
+  name: PhysicsJointSpring(PhysicsBody, PhysicsBody, PointF, PointF)
+  nameWithType: PhysicsJointSpring.PhysicsJointSpring(PhysicsBody, PhysicsBody, PointF, PointF)
+  fullName: Fantas.Physics.PhysicsJointSpring.PhysicsJointSpring(Fantas.Physics.PhysicsBody, Fantas.Physics.PhysicsBody, System.Drawing.PointF, System.Drawing.PointF)
+  type: Constructor
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Joints/PhysicsJointSpring.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Connect two physics bodies as if by a spring.
+  example: []
+  syntax:
+    content: public PhysicsJointSpring(PhysicsBody bodyA, PhysicsBody bodyB, PointF anchorA, PointF anchorB)
+    parameters:
+    - id: bodyA
+      type: Fantas.Physics.PhysicsBody
+      description: ''
+    - id: bodyB
+      type: Fantas.Physics.PhysicsBody
+      description: ''
+    - id: anchorA
+      type: System.Drawing.PointF
+      description: ''
+    - id: anchorB
+      type: System.Drawing.PointF
+      description: ''
+    content.vb: Public Sub New(bodyA As PhysicsBody, bodyB As PhysicsBody, anchorA As PointF, anchorB As PointF)
+  overload: Fantas.Physics.PhysicsJointSpring.#ctor*
+  nameWithType.vb: PhysicsJointSpring.New(PhysicsBody, PhysicsBody, PointF, PointF)
+  fullName.vb: Fantas.Physics.PhysicsJointSpring.New(Fantas.Physics.PhysicsBody, Fantas.Physics.PhysicsBody, System.Drawing.PointF, System.Drawing.PointF)
+  name.vb: New(PhysicsBody, PhysicsBody, PointF, PointF)
+- uid: Fantas.Physics.PhysicsJointSpring.Damping
+  commentId: P:Fantas.Physics.PhysicsJointSpring.Damping
+  id: Damping
+  parent: Fantas.Physics.PhysicsJointSpring
+  langs:
+  - csharp
+  - vb
+  name: Damping
+  nameWithType: PhysicsJointSpring.Damping
+  fullName: Fantas.Physics.PhysicsJointSpring.Damping
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Joints/PhysicsJointSpring.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Controls the rate at which oscillations decay.
+  example: []
+  syntax:
+    content: public float Damping { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Damping As Single
+  overload: Fantas.Physics.PhysicsJointSpring.Damping*
+- uid: Fantas.Physics.PhysicsJointSpring.Frequency
+  commentId: P:Fantas.Physics.PhysicsJointSpring.Frequency
+  id: Frequency
+  parent: Fantas.Physics.PhysicsJointSpring
+  langs:
+  - csharp
+  - vb
+  name: Frequency
+  nameWithType: PhysicsJointSpring.Frequency
+  fullName: Fantas.Physics.PhysicsJointSpring.Frequency
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Joints/PhysicsJointSpring.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Controls the speed with which oscillations occur.
+  example: []
+  syntax:
+    content: public float Frequency { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Frequency As Single
+  overload: Fantas.Physics.PhysicsJointSpring.Frequency*
+references:
+- uid: Fantas.Physics
+  commentId: N:Fantas.Physics
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.Physics
+  nameWithType: Fantas.Physics
+  fullName: Fantas.Physics
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Physics
+    name: Physics
+    isExternal: true
+    href: Fantas.Physics.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Physics
+    name: Physics
+    isExternal: true
+    href: Fantas.Physics.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Fantas.Physics.PhysicsJoint
+  commentId: T:Fantas.Physics.PhysicsJoint
+  parent: Fantas.Physics
+  isExternal: true
+  href: Fantas.Physics.PhysicsJoint.html
+  name: PhysicsJoint
+  nameWithType: PhysicsJoint
+  fullName: Fantas.Physics.PhysicsJoint
+- uid: Fantas.Physics.PhysicsJoint.BodyA
+  commentId: P:Fantas.Physics.PhysicsJoint.BodyA
+  parent: Fantas.Physics.PhysicsJoint
+  isExternal: true
+  href: Fantas.Physics.PhysicsJoint.html#Fantas_Physics_PhysicsJoint_BodyA
+  name: BodyA
+  nameWithType: PhysicsJoint.BodyA
+  fullName: Fantas.Physics.PhysicsJoint.BodyA
+- uid: Fantas.Physics.PhysicsJoint.BodyB
+  commentId: P:Fantas.Physics.PhysicsJoint.BodyB
+  parent: Fantas.Physics.PhysicsJoint
+  isExternal: true
+  href: Fantas.Physics.PhysicsJoint.html#Fantas_Physics_PhysicsJoint_BodyB
+  name: BodyB
+  nameWithType: PhysicsJoint.BodyB
+  fullName: Fantas.Physics.PhysicsJoint.BodyB
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.Physics.PhysicsJointSpring.#ctor*
+  commentId: Overload:Fantas.Physics.PhysicsJointSpring.#ctor
+  isExternal: true
+  href: Fantas.Physics.PhysicsJointSpring.html#Fantas_Physics_PhysicsJointSpring__ctor_Fantas_Physics_PhysicsBody_Fantas_Physics_PhysicsBody_System_Drawing_PointF_System_Drawing_PointF_
+  name: PhysicsJointSpring
+  nameWithType: PhysicsJointSpring.PhysicsJointSpring
+  fullName: Fantas.Physics.PhysicsJointSpring.PhysicsJointSpring
+  nameWithType.vb: PhysicsJointSpring.New
+  fullName.vb: Fantas.Physics.PhysicsJointSpring.New
+  name.vb: New
+- uid: Fantas.Physics.PhysicsBody
+  commentId: T:Fantas.Physics.PhysicsBody
+  parent: Fantas.Physics
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html
+  name: PhysicsBody
+  nameWithType: PhysicsBody
+  fullName: Fantas.Physics.PhysicsBody
+- uid: System.Drawing.PointF
+  commentId: T:System.Drawing.PointF
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  name: PointF
+  nameWithType: PointF
+  fullName: System.Drawing.PointF
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: Fantas.Physics.PhysicsJointSpring.Damping*
+  commentId: Overload:Fantas.Physics.PhysicsJointSpring.Damping
+  isExternal: true
+  href: Fantas.Physics.PhysicsJointSpring.html#Fantas_Physics_PhysicsJointSpring_Damping
+  name: Damping
+  nameWithType: PhysicsJointSpring.Damping
+  fullName: Fantas.Physics.PhysicsJointSpring.Damping
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Fantas.Physics.PhysicsJointSpring.Frequency*
+  commentId: Overload:Fantas.Physics.PhysicsJointSpring.Frequency
+  isExternal: true
+  href: Fantas.Physics.PhysicsJointSpring.html#Fantas_Physics_PhysicsJointSpring_Frequency
+  name: Frequency
+  nameWithType: PhysicsJointSpring.Frequency
+  fullName: Fantas.Physics.PhysicsJointSpring.Frequency

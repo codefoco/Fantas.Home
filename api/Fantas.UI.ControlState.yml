@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.UI.ControlState
+  commentId: T:Fantas.UI.ControlState
+  id: ControlState
+  parent: Fantas.UI
+  children:
+  - Fantas.UI.ControlState.Disabled
+  - Fantas.UI.ControlState.Hovered
+  - Fantas.UI.ControlState.Normal
+  - Fantas.UI.ControlState.Pressed
+  langs:
+  - csharp
+  - vb
+  name: ControlState
+  nameWithType: ControlState
+  fullName: Fantas.UI.ControlState
+  type: Enum
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ControlState.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: Control states
+  example: []
+  syntax:
+    content: public enum ControlState
+    content.vb: Public Enum ControlState
+- uid: Fantas.UI.ControlState.Normal
+  commentId: F:Fantas.UI.ControlState.Normal
+  id: Normal
+  parent: Fantas.UI.ControlState
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: ControlState.Normal
+  fullName: Fantas.UI.ControlState.Normal
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ControlState.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: Normal state
+  example: []
+  syntax:
+    content: Normal = 0
+    return:
+      type: Fantas.UI.ControlState
+- uid: Fantas.UI.ControlState.Hovered
+  commentId: F:Fantas.UI.ControlState.Hovered
+  id: Hovered
+  parent: Fantas.UI.ControlState
+  langs:
+  - csharp
+  - vb
+  name: Hovered
+  nameWithType: ControlState.Hovered
+  fullName: Fantas.UI.ControlState.Hovered
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ControlState.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: Hovered, when mouse cursor is hovering over
+  example: []
+  syntax:
+    content: Hovered = 1
+    return:
+      type: Fantas.UI.ControlState
+- uid: Fantas.UI.ControlState.Pressed
+  commentId: F:Fantas.UI.ControlState.Pressed
+  id: Pressed
+  parent: Fantas.UI.ControlState
+  langs:
+  - csharp
+  - vb
+  name: Pressed
+  nameWithType: ControlState.Pressed
+  fullName: Fantas.UI.ControlState.Pressed
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ControlState.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: >-
+    Pressed, when the primary mouse is pressing
+
+    or the control have a touch inside
+  example: []
+  syntax:
+    content: Pressed = 2
+    return:
+      type: Fantas.UI.ControlState
+- uid: Fantas.UI.ControlState.Disabled
+  commentId: F:Fantas.UI.ControlState.Disabled
+  id: Disabled
+  parent: Fantas.UI.ControlState
+  langs:
+  - csharp
+  - vb
+  name: Disabled
+  nameWithType: ControlState.Disabled
+  fullName: Fantas.UI.ControlState.Disabled
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ControlState.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: When the control was disabled
+  example: []
+  syntax:
+    content: Disabled = 3
+    return:
+      type: Fantas.UI.ControlState
+references:
+- uid: Fantas.UI
+  commentId: N:Fantas.UI
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.UI
+  nameWithType: Fantas.UI
+  fullName: Fantas.UI
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.UI
+    name: UI
+    isExternal: true
+    href: Fantas.UI.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.UI
+    name: UI
+    isExternal: true
+    href: Fantas.UI.html
+- uid: Fantas.UI.ControlState
+  commentId: T:Fantas.UI.ControlState
+  parent: Fantas.UI
+  isExternal: true
+  href: Fantas.UI.ControlState.html
+  name: ControlState
+  nameWithType: ControlState
+  fullName: Fantas.UI.ControlState

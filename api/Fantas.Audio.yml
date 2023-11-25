@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.Audio
+  commentId: N:Fantas.Audio
+  id: Fantas.Audio
+  children:
+  - Fantas.Audio.AudioSession
+  - Fantas.Audio.Music
+  - Fantas.Audio.MusicPlayer
+  - Fantas.Audio.SoundEffect
+  langs:
+  - csharp
+  - vb
+  name: Fantas.Audio
+  nameWithType: Fantas.Audio
+  fullName: Fantas.Audio
+  type: Namespace
+  assemblies:
+  - Fantas
+references:
+- uid: Fantas.Audio.AudioSession
+  commentId: T:Fantas.Audio.AudioSession
+  isExternal: true
+  href: Fantas.Audio.AudioSession.html
+  name: AudioSession
+  nameWithType: AudioSession
+  fullName: Fantas.Audio.AudioSession
+- uid: Fantas.Audio.Music
+  commentId: T:Fantas.Audio.Music
+  parent: Fantas.Audio
+  isExternal: true
+  href: Fantas.Audio.Music.html
+  name: Music
+  nameWithType: Music
+  fullName: Fantas.Audio.Music
+- uid: Fantas.Audio.MusicPlayer
+  commentId: T:Fantas.Audio.MusicPlayer
+  isExternal: true
+  href: Fantas.Audio.MusicPlayer.html
+  name: MusicPlayer
+  nameWithType: MusicPlayer
+  fullName: Fantas.Audio.MusicPlayer
+- uid: Fantas.Audio.SoundEffect
+  commentId: T:Fantas.Audio.SoundEffect
+  parent: Fantas.Audio
+  isExternal: true
+  href: Fantas.Audio.SoundEffect.html
+  name: SoundEffect
+  nameWithType: SoundEffect
+  fullName: Fantas.Audio.SoundEffect
+- uid: Fantas.Audio
+  commentId: N:Fantas.Audio
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.Audio
+  nameWithType: Fantas.Audio
+  fullName: Fantas.Audio
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Audio
+    name: Audio
+    isExternal: true
+    href: Fantas.Audio.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Audio
+    name: Audio
+    isExternal: true
+    href: Fantas.Audio.html

@@ -1,0 +1,2152 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Animation
+ | Fantas </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Animation
+ | Fantas ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.json">
+      <meta name="docfx:tocrel" content="toc.json">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="Fantas">
+            Fantas
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Fantas.Animation">
+
+
+
+  <h1 id="Fantas_Animation" data-uid="Fantas.Animation" class="text-break">
+    Class Animation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Fantas.html">Fantas</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Fantas.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Animation class (Move, Scale, Rotate, Fade...)</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class Animation</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Animation</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Fantas_Animation_Duration_" data-uid="Fantas.Animation.Duration*"></a>
+
+  <h3 id="Fantas_Animation_Duration" data-uid="Fantas.Animation.Duration">
+  Duration
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Duration to complete the animation.
+WARNING: Some animation might ignore the change to this value
+after the animation is created</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Duration { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_ReversedAnimation_" data-uid="Fantas.Animation.ReversedAnimation*"></a>
+
+  <h3 id="Fantas_Animation_ReversedAnimation" data-uid="Fantas.Animation.ReversedAnimation">
+  ReversedAnimation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create a reversed animation
+WARNING: Fade, and Texture animation won't have reverse
+You have to manually create FadeIn/FadeOut reverses</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Animation ReversedAnimation { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_Speed_" data-uid="Fantas.Animation.Speed*"></a>
+
+  <h3 id="Fantas_Animation_Speed" data-uid="Fantas.Animation.Speed">
+  Speed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Speed of animation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Speed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_TimingFunction_" data-uid="Fantas.Animation.TimingFunction*"></a>
+
+  <h3 id="Fantas_Animation_TimingFunction" data-uid="Fantas.Animation.TimingFunction">
+  TimingFunction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delegate used to customize the timing</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimationTimingFunction TimingFunction { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.AnimationTimingFunction.html">AnimationTimingFunction</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_TimingMode_" data-uid="Fantas.Animation.TimingMode*"></a>
+
+  <h3 id="Fantas_Animation_TimingMode" data-uid="Fantas.Animation.TimingMode">
+  TimingMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Animation timing mode (linear, ease-in ..)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimationTimingMode TimingMode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.AnimationTimingMode.html">AnimationTimingMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Fantas_Animation_Animate_" data-uid="Fantas.Animation.Animate*"></a>
+
+  <h3 id="Fantas_Animation_Animate_Fantas_Texture___System_Double_" data-uid="Fantas.Animation.Animate(Fantas.Texture[],System.Double)">
+  Animate(Texture[], double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Animate the sprite texture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation Animate(Texture[] textures, double timePerFrame)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>textures</code> <a class="xref" href="Fantas.Texture.html">Texture</a>[]</dt>
+    <dd><p>list of textures of animation</p>
+</dd>
+    <dt><code>timePerFrame</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Time per Frame (in seconds)</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a SpriteNode</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_Animate_" data-uid="Fantas.Animation.Animate*"></a>
+
+  <h3 id="Fantas_Animation_Animate_Fantas_Texture___System_Double_System_Boolean_System_Boolean_" data-uid="Fantas.Animation.Animate(Fantas.Texture[],System.Double,System.Boolean,System.Boolean)">
+  Animate(Texture[], double, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Animate the sprite texture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation Animate(Texture[] textures, double timePerFrame, bool resize, bool restore)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>textures</code> <a class="xref" href="Fantas.Texture.html">Texture</a>[]</dt>
+    <dd><p>list of textures of animation</p>
+</dd>
+    <dt><code>timePerFrame</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Time per Frame (in seconds)</p>
+</dd>
+    <dt><code>resize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>resize SpriteNode according to texture</p>
+</dd>
+    <dt><code>restore</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Restore SpriteNode to original texture when animation is finished or removed</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a SpriteNode</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_Colorize_" data-uid="Fantas.Animation.Colorize*"></a>
+
+  <h3 id="Fantas_Animation_Colorize_System_Drawing_Color_System_Single_System_Double_" data-uid="Fantas.Animation.Colorize(System.Drawing.Color,System.Single,System.Double)">
+  Colorize(Color, float, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Animate sprite tint color</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation Colorize(Color color, float colorBlendFactor, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>color</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.color">Color</a></dt>
+    <dd><p>Final tint color of Sprite</p>
+</dd>
+    <dt><code>colorBlendFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Final color blend factor</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration in seconds</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a SpriteNode</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_Colorize_" data-uid="Fantas.Animation.Colorize*"></a>
+
+  <h3 id="Fantas_Animation_Colorize_System_Single_System_Double_" data-uid="Fantas.Animation.Colorize(System.Single,System.Double)">
+  Colorize(float, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Animate sprite tint color</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation Colorize(float colorBlendFactor, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>colorBlendFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Final color blend factor</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration in seconds</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a SpriteNode</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_Custom_" data-uid="Fantas.Animation.Custom*"></a>
+
+  <h3 id="Fantas_Animation_Custom_System_Double_System_Action_Fantas_Node_System_Single__" data-uid="Fantas.Animation.Custom(System.Double,System.Action{Fantas.Node,System.Single})">
+  Custom(double, Action&lt;Node, float&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Execute the callback over the execution of animation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation Custom(double duration, Action&lt;Node, float&gt; callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration in seconds</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;<a class="xref" href="Fantas.Node.html">Node</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd><p>Called along the execution of the animation</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Custom animation object</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_Equals_" data-uid="Fantas.Animation.Equals*"></a>
+
+  <h3 id="Fantas_Animation_Equals_System_Object_" data-uid="Fantas.Animation.Equals(System.Object)">
+  Equals(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Equals(obj)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_FadeAlphaBy_" data-uid="Fantas.Animation.FadeAlphaBy*"></a>
+
+  <h3 id="Fantas_Animation_FadeAlphaBy_System_Single_System_Double_" data-uid="Fantas.Animation.FadeAlphaBy(System.Single,System.Double)">
+  FadeAlphaBy(float, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Change the alpha of node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation FadeAlphaBy(float delta, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>alpha factor</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration in seconds</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_FadeAlphaTo_" data-uid="Fantas.Animation.FadeAlphaTo*"></a>
+
+  <h3 id="Fantas_Animation_FadeAlphaTo_System_Single_System_Double_" data-uid="Fantas.Animation.FadeAlphaTo(System.Single,System.Double)">
+  FadeAlphaTo(float, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Animate new alpha of node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation FadeAlphaTo(float alpha, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>alpha</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Final alpha</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration in seconds</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_FadeIn_" data-uid="Fantas.Animation.FadeIn*"></a>
+
+  <h3 id="Fantas_Animation_FadeIn_System_Double_" data-uid="Fantas.Animation.FadeIn(System.Double)">
+  FadeIn(double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Change the alpha to 1.0</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation FadeIn(double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>duration in seconds</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_FadeOut_" data-uid="Fantas.Animation.FadeOut*"></a>
+
+  <h3 id="Fantas_Animation_FadeOut_System_Double_" data-uid="Fantas.Animation.FadeOut(System.Double)">
+  FadeOut(double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Change the alpha to 0.0</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation FadeOut(double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration in seconds</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_GetHashCode_" data-uid="Fantas.Animation.GetHashCode*"></a>
+
+  <h3 id="Fantas_Animation_GetHashCode" data-uid="Fantas.Animation.GetHashCode">
+  GetHashCode()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Animation GetHashCode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_Group_" data-uid="Fantas.Animation.Group*"></a>
+
+  <h3 id="Fantas_Animation_Group_Fantas_Animation___" data-uid="Fantas.Animation.Group(Fantas.Animation[])">
+  Group(params Animation[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create an Animation that groups a set of other animations,
+The animations will run in parallel
+(e.g Rotate + Fade at the same time)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation Group(params Animation[] animations)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>animations</code> <a class="xref" href="Fantas.Animation.html">Animation</a>[]</dt>
+    <dd><p>Array of animations to be grouped</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_Hide_" data-uid="Fantas.Animation.Hide*"></a>
+
+  <h3 id="Fantas_Animation_Hide" data-uid="Fantas.Animation.Hide">
+  Hide()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Hide the node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation Hide()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_MoveBy_" data-uid="Fantas.Animation.MoveBy*"></a>
+
+  <h3 id="Fantas_Animation_MoveBy_System_Numerics_Vector2_System_Double_" data-uid="Fantas.Animation.MoveBy(System.Numerics.Vector2,System.Double)">
+  MoveBy(Vector2, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Move a node vertically and horizontally relative to the current position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation MoveBy(Vector2 delta, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd><p>Delta to move</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration (in Seconds)</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_MoveBy_" data-uid="Fantas.Animation.MoveBy*"></a>
+
+  <h3 id="Fantas_Animation_MoveBy_System_Single_System_Single_System_Double_" data-uid="Fantas.Animation.MoveBy(System.Single,System.Single,System.Double)">
+  MoveBy(float, float, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Move a node vertically and horizontally relative to the current position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation MoveBy(float deltaX, float deltaY, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deltaX</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Delta X</p>
+</dd>
+    <dt><code>deltaY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Delta Y</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration (in Seconds)</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_MoveTo_" data-uid="Fantas.Animation.MoveTo*"></a>
+
+  <h3 id="Fantas_Animation_MoveTo_System_Drawing_PointF_System_Double_" data-uid="Fantas.Animation.MoveTo(System.Drawing.PointF,System.Double)">
+  MoveTo(PointF, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Move node to a new position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation MoveTo(PointF location, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>location</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd><p>New node position</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration in seconds</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_MoveToX_" data-uid="Fantas.Animation.MoveToX*"></a>
+
+  <h3 id="Fantas_Animation_MoveToX_System_Single_System_Double_" data-uid="Fantas.Animation.MoveToX(System.Single,System.Double)">
+  MoveToX(float, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Move node horizontally</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation MoveToX(float x, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>New node X position</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration in seconds</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_MoveToY_" data-uid="Fantas.Animation.MoveToY*"></a>
+
+  <h3 id="Fantas_Animation_MoveToY_System_Single_System_Double_" data-uid="Fantas.Animation.MoveToY(System.Single,System.Double)">
+  MoveToY(float, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Move node vertically</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation MoveToY(float y, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>New node Y position</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration in seconds</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_MoveXBy_" data-uid="Fantas.Animation.MoveXBy*"></a>
+
+  <h3 id="Fantas_Animation_MoveXBy_System_Single_System_Double_" data-uid="Fantas.Animation.MoveXBy(System.Single,System.Double)">
+  MoveXBy(float, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Move a node horizontally relative to the current position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation MoveXBy(float deltaX, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deltaX</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Delta X</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration (in Seconds)</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_MoveYBy_" data-uid="Fantas.Animation.MoveYBy*"></a>
+
+  <h3 id="Fantas_Animation_MoveYBy_System_Single_System_Double_" data-uid="Fantas.Animation.MoveYBy(System.Single,System.Double)">
+  MoveYBy(float, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Move a node vertically relative to the current position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation MoveYBy(float deltaY, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deltaY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Delta Y</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration (in Seconds)</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_OrbitNode_" data-uid="Fantas.Animation.OrbitNode*"></a>
+
+  <h3 id="Fantas_Animation_OrbitNode_Fantas_Node_System_Double_System_Double_System_Double_" data-uid="Fantas.Animation.OrbitNode(Fantas.Node,System.Double,System.Double,System.Double)">
+  OrbitNode(Node, double, double, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Rotate Node around another Node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation OrbitNode(Node center, double angle, double duration, double factor = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <a class="xref" href="Fantas.Node.html">Node</a></dt>
+    <dd></dd>
+    <dt><code>angle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>factor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Radius factor for the end of the orbit (1 remain same)</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_OrbitPoint_" data-uid="Fantas.Animation.OrbitPoint*"></a>
+
+  <h3 id="Fantas_Animation_OrbitPoint_System_Drawing_PointF_System_Double_System_Double_System_Double_" data-uid="Fantas.Animation.OrbitPoint(System.Drawing.PointF,System.Double,System.Double,System.Double)">
+  OrbitPoint(PointF, double, double, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Rotate Node around a pivot</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation OrbitPoint(PointF center, double angle, double duration, double factor = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+    <dt><code>angle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>factor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Radius factor for the end of the orbit (1 remain same)</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_RemoveFromParent_" data-uid="Fantas.Animation.RemoveFromParent*"></a>
+
+  <h3 id="Fantas_Animation_RemoveFromParent" data-uid="Fantas.Animation.RemoveFromParent">
+  RemoveFromParent()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>When performed, removed the Node from the parent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation RemoveFromParent()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_Repeat_" data-uid="Fantas.Animation.Repeat*"></a>
+
+  <h3 id="Fantas_Animation_Repeat_Fantas_Animation_System_Int32_" data-uid="Fantas.Animation.Repeat(Fantas.Animation,System.Int32)">
+  Repeat(Animation, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Repeat animation N times</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation Repeat(Animation animation, int count)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>animation</code> <a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation to be repeated</p>
+</dd>
+    <dt><code>count</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Number of times to repeat</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_RepeatForever_" data-uid="Fantas.Animation.RepeatForever*"></a>
+
+  <h3 id="Fantas_Animation_RepeatForever_Fantas_Animation_" data-uid="Fantas.Animation.RepeatForever(Fantas.Animation)">
+  RepeatForever(Animation)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Repeat animation forever</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation RepeatForever(Animation animation)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>animation</code> <a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation to be repeated forever</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_ResizeTo_" data-uid="Fantas.Animation.ResizeTo*"></a>
+
+  <h3 id="Fantas_Animation_ResizeTo_System_Drawing_SizeF_System_Double_" data-uid="Fantas.Animation.ResizeTo(System.Drawing.SizeF,System.Double)">
+  ResizeTo(SizeF, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Resize a SpriteNode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation ResizeTo(SizeF size, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.sizef">SizeF</a></dt>
+    <dd><p>New size of SpriteNode</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration in seconds</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a SpriteNode</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_ResizeToHeight_" data-uid="Fantas.Animation.ResizeToHeight*"></a>
+
+  <h3 id="Fantas_Animation_ResizeToHeight_System_Single_System_Double_" data-uid="Fantas.Animation.ResizeToHeight(System.Single,System.Double)">
+  ResizeToHeight(float, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Change SpriteNode Height</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation ResizeToHeight(float height, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>New height of SpriteNode</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration in seconds</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a SpriteNode</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_ResizeToWidth_" data-uid="Fantas.Animation.ResizeToWidth*"></a>
+
+  <h3 id="Fantas_Animation_ResizeToWidth_System_Single_System_Double_" data-uid="Fantas.Animation.ResizeToWidth(System.Single,System.Double)">
+  ResizeToWidth(float, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Change SpriteNode width</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation ResizeToWidth(float width, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>New width of SpriteNode</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration in seconds</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a SpriteNode</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_RotateBy_" data-uid="Fantas.Animation.RotateBy*"></a>
+
+  <h3 id="Fantas_Animation_RotateBy_System_Double_System_Double_" data-uid="Fantas.Animation.RotateBy(System.Double,System.Double)">
+  RotateBy(double, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Rotate by a angle delta</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation RotateBy(double radians, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>radians</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>delta angle in radians</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration in seconds</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_RotateTo_" data-uid="Fantas.Animation.RotateTo*"></a>
+
+  <h3 id="Fantas_Animation_RotateTo_System_Double_System_Double_" data-uid="Fantas.Animation.RotateTo(System.Double,System.Double)">
+  RotateTo(double, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Rotate to the given angle</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation RotateTo(double radians, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>radians</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Final angle in radians</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration in seconds</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_RunAction_" data-uid="Fantas.Animation.RunAction*"></a>
+
+  <h3 id="Fantas_Animation_RunAction_System_Action_" data-uid="Fantas.Animation.RunAction(System.Action)">
+  RunAction(Action)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Run a action callback</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation RunAction(Action action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>Action to be invoked when animation is executed</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_ScaleBy_" data-uid="Fantas.Animation.ScaleBy*"></a>
+
+  <h3 id="Fantas_Animation_ScaleBy_System_Single_System_Double_" data-uid="Fantas.Animation.ScaleBy(System.Single,System.Double)">
+  ScaleBy(float, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Animate node applying a new scale</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation ScaleBy(float scale, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>scale</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Scale factor</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration in seconds</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_ScaleTo_" data-uid="Fantas.Animation.ScaleTo*"></a>
+
+  <h3 id="Fantas_Animation_ScaleTo_System_Drawing_SizeF_System_Double_" data-uid="Fantas.Animation.ScaleTo(System.Drawing.SizeF,System.Double)">
+  ScaleTo(SizeF, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Change scale to make node reach new size</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation ScaleTo(SizeF size, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.sizef">SizeF</a></dt>
+    <dd><p>New size of Node</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration in seconds</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_ScaleTo_" data-uid="Fantas.Animation.ScaleTo*"></a>
+
+  <h3 id="Fantas_Animation_ScaleTo_System_Single_System_Double_" data-uid="Fantas.Animation.ScaleTo(System.Single,System.Double)">
+  ScaleTo(float, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set node to a new scale</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation ScaleTo(float newScale, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newScale</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Final scale of Node</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration in seconds</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_ScaleTo_" data-uid="Fantas.Animation.ScaleTo*"></a>
+
+  <h3 id="Fantas_Animation_ScaleTo_System_Single_System_Single_System_Double_" data-uid="Fantas.Animation.ScaleTo(System.Single,System.Single,System.Double)">
+  ScaleTo(float, float, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set node to a new scale</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation ScaleTo(float xScale, float yScale, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>xScale</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Final xscale of Node</p>
+</dd>
+    <dt><code>yScale</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Final yscale of Node</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration in seconds</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_ScaleXTo_" data-uid="Fantas.Animation.ScaleXTo*"></a>
+
+  <h3 id="Fantas_Animation_ScaleXTo_System_Single_System_Double_" data-uid="Fantas.Animation.ScaleXTo(System.Single,System.Double)">
+  ScaleXTo(float, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Change X scale</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation ScaleXTo(float xscale, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>xscale</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Final xscale of Node</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration in seconds</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_ScaleYTo_" data-uid="Fantas.Animation.ScaleYTo*"></a>
+
+  <h3 id="Fantas_Animation_ScaleYTo_System_Single_System_Double_" data-uid="Fantas.Animation.ScaleYTo(System.Single,System.Double)">
+  ScaleYTo(float, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Change Y scale</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation ScaleYTo(float yscale, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>yscale</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Final yscale of Node</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration in seconds</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_Sequence_" data-uid="Fantas.Animation.Sequence*"></a>
+
+  <h3 id="Fantas_Animation_Sequence_Fantas_Animation___" data-uid="Fantas.Animation.Sequence(Fantas.Animation[])">
+  Sequence(params Animation[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create a sequence animation from a list of Animations,
+Each animation will executed in sequence
+a1 -&gt; a2 -&gt; a3</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation Sequence(params Animation[] animations)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>animations</code> <a class="xref" href="Fantas.Animation.html">Animation</a>[]</dt>
+    <dd><p>Array of animations</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_SetTexture_" data-uid="Fantas.Animation.SetTexture*"></a>
+
+  <h3 id="Fantas_Animation_SetTexture_Fantas_Texture_" data-uid="Fantas.Animation.SetTexture(Fantas.Texture)">
+  SetTexture(Texture)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set new texture to SpriteNode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation SetTexture(Texture texture)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>texture</code> <a class="xref" href="Fantas.Texture.html">Texture</a></dt>
+    <dd><p>Texture to be applied to SpriteNode</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a SpriteNode</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_SetTexture_" data-uid="Fantas.Animation.SetTexture*"></a>
+
+  <h3 id="Fantas_Animation_SetTexture_Fantas_Texture_System_Boolean_" data-uid="Fantas.Animation.SetTexture(Fantas.Texture,System.Boolean)">
+  SetTexture(Texture, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set new texture to SpriteNode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation SetTexture(Texture texture, bool resize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>texture</code> <a class="xref" href="Fantas.Texture.html">Texture</a></dt>
+    <dd><p>Texture to be applied to SpriteNode</p>
+</dd>
+    <dt><code>resize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Flag to control if the SpriteNode should be resized to the size of texture</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a SpriteNode</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_SineHorizontal_" data-uid="Fantas.Animation.SineHorizontal*"></a>
+
+  <h3 id="Fantas_Animation_SineHorizontal_System_Single_System_Single_System_Double_" data-uid="Fantas.Animation.SineHorizontal(System.Single,System.Single,System.Double)">
+  SineHorizontal(float, float, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Oscillate node vertical position using a Sine wave</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation SineHorizontal(float amplitude, float frequency, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amplitude</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Amplitude of sine movement</p>
+</dd>
+    <dt><code>frequency</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Frequency of oscillation</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration of oscillation in seconds</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_SineVertical_" data-uid="Fantas.Animation.SineVertical*"></a>
+
+  <h3 id="Fantas_Animation_SineVertical_System_Single_System_Single_System_Double_" data-uid="Fantas.Animation.SineVertical(System.Single,System.Single,System.Double)">
+  SineVertical(float, float, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Oscillate node vertical position using a Sine wave</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation SineVertical(float amplitude, float frequency, double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>amplitude</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Amplitude of sine movement</p>
+</dd>
+    <dt><code>frequency</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Frequency of oscillation</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Duration of oscillation in seconds</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_Unhide_" data-uid="Fantas.Animation.Unhide*"></a>
+
+  <h3 id="Fantas_Animation_Unhide" data-uid="Fantas.Animation.Unhide">
+  Unhide()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Unhide node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation Unhide()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Animation_Wait_" data-uid="Fantas.Animation.Wait*"></a>
+
+  <h3 id="Fantas_Animation_Wait_System_Double_" data-uid="Fantas.Animation.Wait(System.Double)">
+  Wait(double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Wait, useful to chain with other animations
+(e.g Rotate then Wait then Fade Out)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Animation Wait(double duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>Time to wait, in seconds</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Animation.html">Animation</a></dt>
+    <dd><p>Animation object that can be executed on a Node</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

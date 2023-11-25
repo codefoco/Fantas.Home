@@ -1,0 +1,1198 @@
+{
+  "source_base_path": "/Users/viniciusjarina/projects/Fantas.Home",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Animation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Animation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.AnimationTimingFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.AnimationTimingFunction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.AnimationTimingMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.AnimationTimingMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Audio.AudioSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Audio.AudioSession.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Audio.Music.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Audio.Music.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Audio.MusicPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Audio.MusicPlayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Audio.SoundEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Audio.SoundEffect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Audio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Audio.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.BlendMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.BlendMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.CameraNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.CameraNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.CircleNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.CircleNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.ColorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.ColorExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.CropNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.CropNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.CurrentSystemPlatform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.CurrentSystemPlatform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.EllipseNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.EllipseNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Font.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Font.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Game.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Game.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.GameOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.GameOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.Controller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.Controller.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.ControllerButtonEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.ControllerButtonEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.ControllerButtons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.ControllerButtons.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.ControllerChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.ControllerChangedEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.ControllerInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.ControllerInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.ControllerThumbstickChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.ControllerThumbstickChangedEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.ControllerTriggerChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.ControllerTriggerChangedEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.Cursor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.Cursor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.Cursors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.Cursors.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.KeyEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.KeyEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.KeyboardInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.KeyboardInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.Keys.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.Keys.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.MouseButtons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.MouseButtons.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.MouseEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.MouseEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.MouseInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.MouseInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.PanEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.PanEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.PinchEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.PinchEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.SwipeDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.SwipeDirection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.SwipeEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.SwipeEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.TapEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.TapEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.TouchDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.TouchDevice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.TouchEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.TouchEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.TouchInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.TouchInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.TouchInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.TouchInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.TouchState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.TouchState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Input.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Input.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.LabelHorizontalAlignmentMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.LabelHorizontalAlignmentMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.LabelNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.LabelNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.LabelVerticalAlignmentMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.LabelVerticalAlignmentMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.MathClamp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.MathClamp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.MathLerp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.MathLerp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Node.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Node.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.OutlinePosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.OutlinePosition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.ParticleEmitterNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.ParticleEmitterNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Physics.CircleBody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Physics.CircleBody.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Physics.ContactEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Physics.ContactEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Physics.ContactHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Physics.ContactHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Physics.ContactInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Physics.ContactInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Physics.Edge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Physics.Edge.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Physics.NodeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Physics.NodeExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Physics.PhysicsBody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Physics.PhysicsBody.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Physics.PhysicsJoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Physics.PhysicsJoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Physics.PhysicsJointFixed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Physics.PhysicsJointFixed.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Physics.PhysicsJointLimit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Physics.PhysicsJointLimit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Physics.PhysicsJointPin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Physics.PhysicsJointPin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Physics.PhysicsJointSliding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Physics.PhysicsJointSliding.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Physics.PhysicsJointSpring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Physics.PhysicsJointSpring.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Physics.PhysicsWorld.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Physics.PhysicsWorld.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Physics.PolygonBody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Physics.PolygonBody.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Physics.PolygonEdge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Physics.PolygonEdge.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Physics.RaycastHit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Physics.RaycastHit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Physics.RectangleBody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Physics.RectangleBody.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Physics.RectangleEdge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Physics.RectangleEdge.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Physics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Physics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.PointExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.PointExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.PolygonNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.PolygonNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.RandomExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.RandomExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.RectangleExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.RectangleExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.RectangleNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.RectangleNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Scene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Scene.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.SceneScaleMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.SceneScaleMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.ShapeNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.ShapeNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.SpriteFrameNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.SpriteFrameNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.SpriteLineNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.SpriteLineNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.SpriteNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.SpriteNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.SpritePolylineNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.SpritePolylineNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.SystemPlatform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.SystemPlatform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Texture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Texture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.TextureAtlas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.TextureAtlas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Time.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Time.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.TriangleNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.TriangleNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.UI.ButtonNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.UI.ButtonNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.UI.ControlNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.UI.ControlNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.UI.ControlState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.UI.ControlState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.UI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Vector2Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Vector2Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "eula.md",
+      "output": {
+        ".html": {
+          "relative_path": "eula.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/fantas.dx.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/fantas.dx.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/fantas.monogame.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/fantas.monogame.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/fantas.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/fantas.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/fantas.spritekit.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/fantas.spritekit.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/fantas_small.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/fantas_small.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/screenshort_vs.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/screenshort_vs.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/screenshot.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/screenshot.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/screenshot_vsmac.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/screenshot_vsmac.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/vsmac_extensions.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/vsmac_extensions.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "linux.md",
+      "output": {
+        ".html": {
+          "relative_path": "linux.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "mac.md",
+      "output": {
+        ".html": {
+          "relative_path": "mac.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "windows.md",
+      "output": {
+        ".html": {
+          "relative_path": "windows.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

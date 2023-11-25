@@ -1,0 +1,2554 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.Animation
+  commentId: T:Fantas.Animation
+  id: Animation
+  parent: Fantas
+  children:
+  - Fantas.Animation.Animate(Fantas.Texture[],System.Double)
+  - Fantas.Animation.Animate(Fantas.Texture[],System.Double,System.Boolean,System.Boolean)
+  - Fantas.Animation.Colorize(System.Drawing.Color,System.Single,System.Double)
+  - Fantas.Animation.Colorize(System.Single,System.Double)
+  - Fantas.Animation.Custom(System.Double,System.Action{Fantas.Node,System.Single})
+  - Fantas.Animation.Duration
+  - Fantas.Animation.Equals(System.Object)
+  - Fantas.Animation.FadeAlphaBy(System.Single,System.Double)
+  - Fantas.Animation.FadeAlphaTo(System.Single,System.Double)
+  - Fantas.Animation.FadeIn(System.Double)
+  - Fantas.Animation.FadeOut(System.Double)
+  - Fantas.Animation.GetHashCode
+  - Fantas.Animation.Group(Fantas.Animation[])
+  - Fantas.Animation.Hide
+  - Fantas.Animation.MoveBy(System.Numerics.Vector2,System.Double)
+  - Fantas.Animation.MoveBy(System.Single,System.Single,System.Double)
+  - Fantas.Animation.MoveTo(System.Drawing.PointF,System.Double)
+  - Fantas.Animation.MoveToX(System.Single,System.Double)
+  - Fantas.Animation.MoveToY(System.Single,System.Double)
+  - Fantas.Animation.MoveXBy(System.Single,System.Double)
+  - Fantas.Animation.MoveYBy(System.Single,System.Double)
+  - Fantas.Animation.OrbitNode(Fantas.Node,System.Double,System.Double,System.Double)
+  - Fantas.Animation.OrbitPoint(System.Drawing.PointF,System.Double,System.Double,System.Double)
+  - Fantas.Animation.RemoveFromParent
+  - Fantas.Animation.Repeat(Fantas.Animation,System.Int32)
+  - Fantas.Animation.RepeatForever(Fantas.Animation)
+  - Fantas.Animation.ResizeTo(System.Drawing.SizeF,System.Double)
+  - Fantas.Animation.ResizeToHeight(System.Single,System.Double)
+  - Fantas.Animation.ResizeToWidth(System.Single,System.Double)
+  - Fantas.Animation.ReversedAnimation
+  - Fantas.Animation.RotateBy(System.Double,System.Double)
+  - Fantas.Animation.RotateTo(System.Double,System.Double)
+  - Fantas.Animation.RunAction(System.Action)
+  - Fantas.Animation.ScaleBy(System.Single,System.Double)
+  - Fantas.Animation.ScaleTo(System.Drawing.SizeF,System.Double)
+  - Fantas.Animation.ScaleTo(System.Single,System.Double)
+  - Fantas.Animation.ScaleTo(System.Single,System.Single,System.Double)
+  - Fantas.Animation.ScaleXTo(System.Single,System.Double)
+  - Fantas.Animation.ScaleYTo(System.Single,System.Double)
+  - Fantas.Animation.Sequence(Fantas.Animation[])
+  - Fantas.Animation.SetTexture(Fantas.Texture)
+  - Fantas.Animation.SetTexture(Fantas.Texture,System.Boolean)
+  - Fantas.Animation.SineHorizontal(System.Single,System.Single,System.Double)
+  - Fantas.Animation.SineVertical(System.Single,System.Single,System.Double)
+  - Fantas.Animation.Speed
+  - Fantas.Animation.TimingFunction
+  - Fantas.Animation.TimingMode
+  - Fantas.Animation.Unhide
+  - Fantas.Animation.Wait(System.Double)
+  langs:
+  - csharp
+  - vb
+  name: Animation
+  nameWithType: Animation
+  fullName: Fantas.Animation
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Animation class (Move, Scale, Rotate, Fade...)
+  example: []
+  syntax:
+    content: public sealed class Animation
+    content.vb: Public NotInheritable Class Animation
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Fantas.Animation.Equals(System.Object)
+  commentId: M:Fantas.Animation.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: Animation.Equals(object)
+  fullName: Fantas.Animation.Equals(object)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Equals(obj)
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: Fantas.Animation.Equals*
+  nameWithType.vb: Animation.Equals(Object)
+  fullName.vb: Fantas.Animation.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Fantas.Animation.GetHashCode
+  commentId: M:Fantas.Animation.GetHashCode
+  id: GetHashCode
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Animation.GetHashCode()
+  fullName: Fantas.Animation.GetHashCode()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Animation GetHashCode
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: Fantas.Animation.GetHashCode*
+- uid: Fantas.Animation.Animate(Fantas.Texture[],System.Double)
+  commentId: M:Fantas.Animation.Animate(Fantas.Texture[],System.Double)
+  id: Animate(Fantas.Texture[],System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: Animate(Texture[], double)
+  nameWithType: Animation.Animate(Texture[], double)
+  fullName: Fantas.Animation.Animate(Fantas.Texture[], double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Animate the sprite texture
+  example: []
+  syntax:
+    content: public static Animation Animate(Texture[] textures, double timePerFrame)
+    parameters:
+    - id: textures
+      type: Fantas.Texture[]
+      description: list of textures of animation
+    - id: timePerFrame
+      type: System.Double
+      description: Time per Frame (in seconds)
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a SpriteNode
+    content.vb: Public Shared Function Animate(textures As Texture(), timePerFrame As Double) As Animation
+  overload: Fantas.Animation.Animate*
+  nameWithType.vb: Animation.Animate(Texture(), Double)
+  fullName.vb: Fantas.Animation.Animate(Fantas.Texture(), Double)
+  name.vb: Animate(Texture(), Double)
+- uid: Fantas.Animation.Animate(Fantas.Texture[],System.Double,System.Boolean,System.Boolean)
+  commentId: M:Fantas.Animation.Animate(Fantas.Texture[],System.Double,System.Boolean,System.Boolean)
+  id: Animate(Fantas.Texture[],System.Double,System.Boolean,System.Boolean)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: Animate(Texture[], double, bool, bool)
+  nameWithType: Animation.Animate(Texture[], double, bool, bool)
+  fullName: Fantas.Animation.Animate(Fantas.Texture[], double, bool, bool)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Animate the sprite texture
+  example: []
+  syntax:
+    content: public static Animation Animate(Texture[] textures, double timePerFrame, bool resize, bool restore)
+    parameters:
+    - id: textures
+      type: Fantas.Texture[]
+      description: list of textures of animation
+    - id: timePerFrame
+      type: System.Double
+      description: Time per Frame (in seconds)
+    - id: resize
+      type: System.Boolean
+      description: resize SpriteNode according to texture
+    - id: restore
+      type: System.Boolean
+      description: Restore SpriteNode to original texture when animation is finished or removed
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a SpriteNode
+    content.vb: Public Shared Function Animate(textures As Texture(), timePerFrame As Double, resize As Boolean, restore As Boolean) As Animation
+  overload: Fantas.Animation.Animate*
+  nameWithType.vb: Animation.Animate(Texture(), Double, Boolean, Boolean)
+  fullName.vb: Fantas.Animation.Animate(Fantas.Texture(), Double, Boolean, Boolean)
+  name.vb: Animate(Texture(), Double, Boolean, Boolean)
+- uid: Fantas.Animation.Colorize(System.Drawing.Color,System.Single,System.Double)
+  commentId: M:Fantas.Animation.Colorize(System.Drawing.Color,System.Single,System.Double)
+  id: Colorize(System.Drawing.Color,System.Single,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: Colorize(Color, float, double)
+  nameWithType: Animation.Colorize(Color, float, double)
+  fullName: Fantas.Animation.Colorize(System.Drawing.Color, float, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Animate sprite tint color
+  example: []
+  syntax:
+    content: public static Animation Colorize(Color color, float colorBlendFactor, double duration)
+    parameters:
+    - id: color
+      type: System.Drawing.Color
+      description: Final tint color of Sprite
+    - id: colorBlendFactor
+      type: System.Single
+      description: Final color blend factor
+    - id: duration
+      type: System.Double
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a SpriteNode
+    content.vb: Public Shared Function Colorize(color As Color, colorBlendFactor As Single, duration As Double) As Animation
+  overload: Fantas.Animation.Colorize*
+  nameWithType.vb: Animation.Colorize(Color, Single, Double)
+  fullName.vb: Fantas.Animation.Colorize(System.Drawing.Color, Single, Double)
+  name.vb: Colorize(Color, Single, Double)
+- uid: Fantas.Animation.Colorize(System.Single,System.Double)
+  commentId: M:Fantas.Animation.Colorize(System.Single,System.Double)
+  id: Colorize(System.Single,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: Colorize(float, double)
+  nameWithType: Animation.Colorize(float, double)
+  fullName: Fantas.Animation.Colorize(float, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Animate sprite tint color
+  example: []
+  syntax:
+    content: public static Animation Colorize(float colorBlendFactor, double duration)
+    parameters:
+    - id: colorBlendFactor
+      type: System.Single
+      description: Final color blend factor
+    - id: duration
+      type: System.Double
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a SpriteNode
+    content.vb: Public Shared Function Colorize(colorBlendFactor As Single, duration As Double) As Animation
+  overload: Fantas.Animation.Colorize*
+  nameWithType.vb: Animation.Colorize(Single, Double)
+  fullName.vb: Fantas.Animation.Colorize(Single, Double)
+  name.vb: Colorize(Single, Double)
+- uid: Fantas.Animation.Custom(System.Double,System.Action{Fantas.Node,System.Single})
+  commentId: M:Fantas.Animation.Custom(System.Double,System.Action{Fantas.Node,System.Single})
+  id: Custom(System.Double,System.Action{Fantas.Node,System.Single})
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: Custom(double, Action<Node, float>)
+  nameWithType: Animation.Custom(double, Action<Node, float>)
+  fullName: Fantas.Animation.Custom(double, System.Action<Fantas.Node, float>)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Execute the callback over the execution of animation
+  example: []
+  syntax:
+    content: public static Animation Custom(double duration, Action<Node, float> callback)
+    parameters:
+    - id: duration
+      type: System.Double
+      description: Duration in seconds
+    - id: callback
+      type: System.Action{Fantas.Node,System.Single}
+      description: Called along the execution of the animation
+    return:
+      type: Fantas.Animation
+      description: Custom animation object
+    content.vb: Public Shared Function Custom(duration As Double, callback As Action(Of Node, Single)) As Animation
+  overload: Fantas.Animation.Custom*
+  nameWithType.vb: Animation.Custom(Double, Action(Of Node, Single))
+  fullName.vb: Fantas.Animation.Custom(Double, System.Action(Of Fantas.Node, Single))
+  name.vb: Custom(Double, Action(Of Node, Single))
+- uid: Fantas.Animation.FadeAlphaBy(System.Single,System.Double)
+  commentId: M:Fantas.Animation.FadeAlphaBy(System.Single,System.Double)
+  id: FadeAlphaBy(System.Single,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: FadeAlphaBy(float, double)
+  nameWithType: Animation.FadeAlphaBy(float, double)
+  fullName: Fantas.Animation.FadeAlphaBy(float, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Change the alpha of node
+  example: []
+  syntax:
+    content: public static Animation FadeAlphaBy(float delta, double duration)
+    parameters:
+    - id: delta
+      type: System.Single
+      description: alpha factor
+    - id: duration
+      type: System.Double
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function FadeAlphaBy(delta As Single, duration As Double) As Animation
+  overload: Fantas.Animation.FadeAlphaBy*
+  nameWithType.vb: Animation.FadeAlphaBy(Single, Double)
+  fullName.vb: Fantas.Animation.FadeAlphaBy(Single, Double)
+  name.vb: FadeAlphaBy(Single, Double)
+- uid: Fantas.Animation.FadeAlphaTo(System.Single,System.Double)
+  commentId: M:Fantas.Animation.FadeAlphaTo(System.Single,System.Double)
+  id: FadeAlphaTo(System.Single,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: FadeAlphaTo(float, double)
+  nameWithType: Animation.FadeAlphaTo(float, double)
+  fullName: Fantas.Animation.FadeAlphaTo(float, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Animate new alpha of node
+  example: []
+  syntax:
+    content: public static Animation FadeAlphaTo(float alpha, double duration)
+    parameters:
+    - id: alpha
+      type: System.Single
+      description: Final alpha
+    - id: duration
+      type: System.Double
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function FadeAlphaTo(alpha As Single, duration As Double) As Animation
+  overload: Fantas.Animation.FadeAlphaTo*
+  nameWithType.vb: Animation.FadeAlphaTo(Single, Double)
+  fullName.vb: Fantas.Animation.FadeAlphaTo(Single, Double)
+  name.vb: FadeAlphaTo(Single, Double)
+- uid: Fantas.Animation.FadeIn(System.Double)
+  commentId: M:Fantas.Animation.FadeIn(System.Double)
+  id: FadeIn(System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: FadeIn(double)
+  nameWithType: Animation.FadeIn(double)
+  fullName: Fantas.Animation.FadeIn(double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Change the alpha to 1.0
+  example: []
+  syntax:
+    content: public static Animation FadeIn(double duration)
+    parameters:
+    - id: duration
+      type: System.Double
+      description: duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function FadeIn(duration As Double) As Animation
+  overload: Fantas.Animation.FadeIn*
+  nameWithType.vb: Animation.FadeIn(Double)
+  fullName.vb: Fantas.Animation.FadeIn(Double)
+  name.vb: FadeIn(Double)
+- uid: Fantas.Animation.FadeOut(System.Double)
+  commentId: M:Fantas.Animation.FadeOut(System.Double)
+  id: FadeOut(System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: FadeOut(double)
+  nameWithType: Animation.FadeOut(double)
+  fullName: Fantas.Animation.FadeOut(double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Change the alpha to 0.0
+  example: []
+  syntax:
+    content: public static Animation FadeOut(double duration)
+    parameters:
+    - id: duration
+      type: System.Double
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function FadeOut(duration As Double) As Animation
+  overload: Fantas.Animation.FadeOut*
+  nameWithType.vb: Animation.FadeOut(Double)
+  fullName.vb: Fantas.Animation.FadeOut(Double)
+  name.vb: FadeOut(Double)
+- uid: Fantas.Animation.Group(Fantas.Animation[])
+  commentId: M:Fantas.Animation.Group(Fantas.Animation[])
+  id: Group(Fantas.Animation[])
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: Group(params Animation[])
+  nameWithType: Animation.Group(params Animation[])
+  fullName: Fantas.Animation.Group(params Fantas.Animation[])
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Create an Animation that groups a set of other animations,
+
+    The animations will run in parallel
+
+    (e.g Rotate + Fade at the same time)
+  example: []
+  syntax:
+    content: public static Animation Group(params Animation[] animations)
+    parameters:
+    - id: animations
+      type: Fantas.Animation[]
+      description: Array of animations to be grouped
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function Group(ParamArray animations As Animation()) As Animation
+  overload: Fantas.Animation.Group*
+  nameWithType.vb: Animation.Group(ParamArray Animation())
+  fullName.vb: Fantas.Animation.Group(ParamArray Fantas.Animation())
+  name.vb: Group(ParamArray Animation())
+- uid: Fantas.Animation.Hide
+  commentId: M:Fantas.Animation.Hide
+  id: Hide
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: Hide()
+  nameWithType: Animation.Hide()
+  fullName: Fantas.Animation.Hide()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Hide the node
+  example: []
+  syntax:
+    content: public static Animation Hide()
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function Hide() As Animation
+  overload: Fantas.Animation.Hide*
+- uid: Fantas.Animation.MoveBy(System.Numerics.Vector2,System.Double)
+  commentId: M:Fantas.Animation.MoveBy(System.Numerics.Vector2,System.Double)
+  id: MoveBy(System.Numerics.Vector2,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: MoveBy(Vector2, double)
+  nameWithType: Animation.MoveBy(Vector2, double)
+  fullName: Fantas.Animation.MoveBy(System.Numerics.Vector2, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Move a node vertically and horizontally relative to the current position
+  example: []
+  syntax:
+    content: public static Animation MoveBy(Vector2 delta, double duration)
+    parameters:
+    - id: delta
+      type: System.Numerics.Vector2
+      description: Delta to move
+    - id: duration
+      type: System.Double
+      description: Duration (in Seconds)
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function MoveBy(delta As Vector2, duration As Double) As Animation
+  overload: Fantas.Animation.MoveBy*
+  nameWithType.vb: Animation.MoveBy(Vector2, Double)
+  fullName.vb: Fantas.Animation.MoveBy(System.Numerics.Vector2, Double)
+  name.vb: MoveBy(Vector2, Double)
+- uid: Fantas.Animation.MoveBy(System.Single,System.Single,System.Double)
+  commentId: M:Fantas.Animation.MoveBy(System.Single,System.Single,System.Double)
+  id: MoveBy(System.Single,System.Single,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: MoveBy(float, float, double)
+  nameWithType: Animation.MoveBy(float, float, double)
+  fullName: Fantas.Animation.MoveBy(float, float, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Move a node vertically and horizontally relative to the current position
+  example: []
+  syntax:
+    content: public static Animation MoveBy(float deltaX, float deltaY, double duration)
+    parameters:
+    - id: deltaX
+      type: System.Single
+      description: Delta X
+    - id: deltaY
+      type: System.Single
+      description: Delta Y
+    - id: duration
+      type: System.Double
+      description: Duration (in Seconds)
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function MoveBy(deltaX As Single, deltaY As Single, duration As Double) As Animation
+  overload: Fantas.Animation.MoveBy*
+  nameWithType.vb: Animation.MoveBy(Single, Single, Double)
+  fullName.vb: Fantas.Animation.MoveBy(Single, Single, Double)
+  name.vb: MoveBy(Single, Single, Double)
+- uid: Fantas.Animation.MoveXBy(System.Single,System.Double)
+  commentId: M:Fantas.Animation.MoveXBy(System.Single,System.Double)
+  id: MoveXBy(System.Single,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: MoveXBy(float, double)
+  nameWithType: Animation.MoveXBy(float, double)
+  fullName: Fantas.Animation.MoveXBy(float, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Move a node horizontally relative to the current position
+  example: []
+  syntax:
+    content: public static Animation MoveXBy(float deltaX, double duration)
+    parameters:
+    - id: deltaX
+      type: System.Single
+      description: Delta X
+    - id: duration
+      type: System.Double
+      description: Duration (in Seconds)
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function MoveXBy(deltaX As Single, duration As Double) As Animation
+  overload: Fantas.Animation.MoveXBy*
+  nameWithType.vb: Animation.MoveXBy(Single, Double)
+  fullName.vb: Fantas.Animation.MoveXBy(Single, Double)
+  name.vb: MoveXBy(Single, Double)
+- uid: Fantas.Animation.MoveYBy(System.Single,System.Double)
+  commentId: M:Fantas.Animation.MoveYBy(System.Single,System.Double)
+  id: MoveYBy(System.Single,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: MoveYBy(float, double)
+  nameWithType: Animation.MoveYBy(float, double)
+  fullName: Fantas.Animation.MoveYBy(float, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Move a node vertically relative to the current position
+  example: []
+  syntax:
+    content: public static Animation MoveYBy(float deltaY, double duration)
+    parameters:
+    - id: deltaY
+      type: System.Single
+      description: Delta Y
+    - id: duration
+      type: System.Double
+      description: Duration (in Seconds)
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function MoveYBy(deltaY As Single, duration As Double) As Animation
+  overload: Fantas.Animation.MoveYBy*
+  nameWithType.vb: Animation.MoveYBy(Single, Double)
+  fullName.vb: Fantas.Animation.MoveYBy(Single, Double)
+  name.vb: MoveYBy(Single, Double)
+- uid: Fantas.Animation.MoveTo(System.Drawing.PointF,System.Double)
+  commentId: M:Fantas.Animation.MoveTo(System.Drawing.PointF,System.Double)
+  id: MoveTo(System.Drawing.PointF,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: MoveTo(PointF, double)
+  nameWithType: Animation.MoveTo(PointF, double)
+  fullName: Fantas.Animation.MoveTo(System.Drawing.PointF, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Move node to a new position
+  example: []
+  syntax:
+    content: public static Animation MoveTo(PointF location, double duration)
+    parameters:
+    - id: location
+      type: System.Drawing.PointF
+      description: New node position
+    - id: duration
+      type: System.Double
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function MoveTo(location As PointF, duration As Double) As Animation
+  overload: Fantas.Animation.MoveTo*
+  nameWithType.vb: Animation.MoveTo(PointF, Double)
+  fullName.vb: Fantas.Animation.MoveTo(System.Drawing.PointF, Double)
+  name.vb: MoveTo(PointF, Double)
+- uid: Fantas.Animation.MoveToX(System.Single,System.Double)
+  commentId: M:Fantas.Animation.MoveToX(System.Single,System.Double)
+  id: MoveToX(System.Single,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: MoveToX(float, double)
+  nameWithType: Animation.MoveToX(float, double)
+  fullName: Fantas.Animation.MoveToX(float, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Move node horizontally
+  example: []
+  syntax:
+    content: public static Animation MoveToX(float x, double duration)
+    parameters:
+    - id: x
+      type: System.Single
+      description: New node X position
+    - id: duration
+      type: System.Double
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function MoveToX(x As Single, duration As Double) As Animation
+  overload: Fantas.Animation.MoveToX*
+  nameWithType.vb: Animation.MoveToX(Single, Double)
+  fullName.vb: Fantas.Animation.MoveToX(Single, Double)
+  name.vb: MoveToX(Single, Double)
+- uid: Fantas.Animation.MoveToY(System.Single,System.Double)
+  commentId: M:Fantas.Animation.MoveToY(System.Single,System.Double)
+  id: MoveToY(System.Single,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: MoveToY(float, double)
+  nameWithType: Animation.MoveToY(float, double)
+  fullName: Fantas.Animation.MoveToY(float, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Move node vertically
+  example: []
+  syntax:
+    content: public static Animation MoveToY(float y, double duration)
+    parameters:
+    - id: y
+      type: System.Single
+      description: New node Y position
+    - id: duration
+      type: System.Double
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function MoveToY(y As Single, duration As Double) As Animation
+  overload: Fantas.Animation.MoveToY*
+  nameWithType.vb: Animation.MoveToY(Single, Double)
+  fullName.vb: Fantas.Animation.MoveToY(Single, Double)
+  name.vb: MoveToY(Single, Double)
+- uid: Fantas.Animation.SineVertical(System.Single,System.Single,System.Double)
+  commentId: M:Fantas.Animation.SineVertical(System.Single,System.Single,System.Double)
+  id: SineVertical(System.Single,System.Single,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: SineVertical(float, float, double)
+  nameWithType: Animation.SineVertical(float, float, double)
+  fullName: Fantas.Animation.SineVertical(float, float, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Oscillate node vertical position using a Sine wave
+  example: []
+  syntax:
+    content: public static Animation SineVertical(float amplitude, float frequency, double duration)
+    parameters:
+    - id: amplitude
+      type: System.Single
+      description: Amplitude of sine movement
+    - id: frequency
+      type: System.Single
+      description: Frequency of oscillation
+    - id: duration
+      type: System.Double
+      description: Duration of oscillation in seconds
+    return:
+      type: Fantas.Animation
+      description: ''
+    content.vb: Public Shared Function SineVertical(amplitude As Single, frequency As Single, duration As Double) As Animation
+  overload: Fantas.Animation.SineVertical*
+  nameWithType.vb: Animation.SineVertical(Single, Single, Double)
+  fullName.vb: Fantas.Animation.SineVertical(Single, Single, Double)
+  name.vb: SineVertical(Single, Single, Double)
+- uid: Fantas.Animation.SineHorizontal(System.Single,System.Single,System.Double)
+  commentId: M:Fantas.Animation.SineHorizontal(System.Single,System.Single,System.Double)
+  id: SineHorizontal(System.Single,System.Single,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: SineHorizontal(float, float, double)
+  nameWithType: Animation.SineHorizontal(float, float, double)
+  fullName: Fantas.Animation.SineHorizontal(float, float, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Oscillate node vertical position using a Sine wave
+  example: []
+  syntax:
+    content: public static Animation SineHorizontal(float amplitude, float frequency, double duration)
+    parameters:
+    - id: amplitude
+      type: System.Single
+      description: Amplitude of sine movement
+    - id: frequency
+      type: System.Single
+      description: Frequency of oscillation
+    - id: duration
+      type: System.Double
+      description: Duration of oscillation in seconds
+    return:
+      type: Fantas.Animation
+      description: ''
+    content.vb: Public Shared Function SineHorizontal(amplitude As Single, frequency As Single, duration As Double) As Animation
+  overload: Fantas.Animation.SineHorizontal*
+  nameWithType.vb: Animation.SineHorizontal(Single, Single, Double)
+  fullName.vb: Fantas.Animation.SineHorizontal(Single, Single, Double)
+  name.vb: SineHorizontal(Single, Single, Double)
+- uid: Fantas.Animation.OrbitPoint(System.Drawing.PointF,System.Double,System.Double,System.Double)
+  commentId: M:Fantas.Animation.OrbitPoint(System.Drawing.PointF,System.Double,System.Double,System.Double)
+  id: OrbitPoint(System.Drawing.PointF,System.Double,System.Double,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: OrbitPoint(PointF, double, double, double)
+  nameWithType: Animation.OrbitPoint(PointF, double, double, double)
+  fullName: Fantas.Animation.OrbitPoint(System.Drawing.PointF, double, double, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Rotate Node around a pivot
+  example: []
+  syntax:
+    content: public static Animation OrbitPoint(PointF center, double angle, double duration, double factor = 1)
+    parameters:
+    - id: center
+      type: System.Drawing.PointF
+      description: ''
+    - id: angle
+      type: System.Double
+      description: ''
+    - id: duration
+      type: System.Double
+      description: ''
+    - id: factor
+      type: System.Double
+      description: Radius factor for the end of the orbit (1 remain same)
+    return:
+      type: Fantas.Animation
+      description: ''
+    content.vb: Public Shared Function OrbitPoint(center As PointF, angle As Double, duration As Double, factor As Double = 1) As Animation
+  overload: Fantas.Animation.OrbitPoint*
+  nameWithType.vb: Animation.OrbitPoint(PointF, Double, Double, Double)
+  fullName.vb: Fantas.Animation.OrbitPoint(System.Drawing.PointF, Double, Double, Double)
+  name.vb: OrbitPoint(PointF, Double, Double, Double)
+- uid: Fantas.Animation.OrbitNode(Fantas.Node,System.Double,System.Double,System.Double)
+  commentId: M:Fantas.Animation.OrbitNode(Fantas.Node,System.Double,System.Double,System.Double)
+  id: OrbitNode(Fantas.Node,System.Double,System.Double,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: OrbitNode(Node, double, double, double)
+  nameWithType: Animation.OrbitNode(Node, double, double, double)
+  fullName: Fantas.Animation.OrbitNode(Fantas.Node, double, double, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Rotate Node around another Node
+  example: []
+  syntax:
+    content: public static Animation OrbitNode(Node center, double angle, double duration, double factor = 1)
+    parameters:
+    - id: center
+      type: Fantas.Node
+      description: ''
+    - id: angle
+      type: System.Double
+      description: ''
+    - id: duration
+      type: System.Double
+      description: ''
+    - id: factor
+      type: System.Double
+      description: Radius factor for the end of the orbit (1 remain same)
+    return:
+      type: Fantas.Animation
+      description: ''
+    content.vb: Public Shared Function OrbitNode(center As Node, angle As Double, duration As Double, factor As Double = 1) As Animation
+  overload: Fantas.Animation.OrbitNode*
+  nameWithType.vb: Animation.OrbitNode(Node, Double, Double, Double)
+  fullName.vb: Fantas.Animation.OrbitNode(Fantas.Node, Double, Double, Double)
+  name.vb: OrbitNode(Node, Double, Double, Double)
+- uid: Fantas.Animation.RemoveFromParent
+  commentId: M:Fantas.Animation.RemoveFromParent
+  id: RemoveFromParent
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: RemoveFromParent()
+  nameWithType: Animation.RemoveFromParent()
+  fullName: Fantas.Animation.RemoveFromParent()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: When performed, removed the Node from the parent.
+  example: []
+  syntax:
+    content: public static Animation RemoveFromParent()
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function RemoveFromParent() As Animation
+  overload: Fantas.Animation.RemoveFromParent*
+- uid: Fantas.Animation.Repeat(Fantas.Animation,System.Int32)
+  commentId: M:Fantas.Animation.Repeat(Fantas.Animation,System.Int32)
+  id: Repeat(Fantas.Animation,System.Int32)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: Repeat(Animation, int)
+  nameWithType: Animation.Repeat(Animation, int)
+  fullName: Fantas.Animation.Repeat(Fantas.Animation, int)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Repeat animation N times
+  example: []
+  syntax:
+    content: public static Animation Repeat(Animation animation, int count)
+    parameters:
+    - id: animation
+      type: Fantas.Animation
+      description: Animation to be repeated
+    - id: count
+      type: System.Int32
+      description: Number of times to repeat
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function Repeat(animation As Animation, count As Integer) As Animation
+  overload: Fantas.Animation.Repeat*
+  nameWithType.vb: Animation.Repeat(Animation, Integer)
+  fullName.vb: Fantas.Animation.Repeat(Fantas.Animation, Integer)
+  name.vb: Repeat(Animation, Integer)
+- uid: Fantas.Animation.RepeatForever(Fantas.Animation)
+  commentId: M:Fantas.Animation.RepeatForever(Fantas.Animation)
+  id: RepeatForever(Fantas.Animation)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: RepeatForever(Animation)
+  nameWithType: Animation.RepeatForever(Animation)
+  fullName: Fantas.Animation.RepeatForever(Fantas.Animation)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Repeat animation forever
+  example: []
+  syntax:
+    content: public static Animation RepeatForever(Animation animation)
+    parameters:
+    - id: animation
+      type: Fantas.Animation
+      description: Animation to be repeated forever
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function RepeatForever(animation As Animation) As Animation
+  overload: Fantas.Animation.RepeatForever*
+- uid: Fantas.Animation.ResizeTo(System.Drawing.SizeF,System.Double)
+  commentId: M:Fantas.Animation.ResizeTo(System.Drawing.SizeF,System.Double)
+  id: ResizeTo(System.Drawing.SizeF,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: ResizeTo(SizeF, double)
+  nameWithType: Animation.ResizeTo(SizeF, double)
+  fullName: Fantas.Animation.ResizeTo(System.Drawing.SizeF, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Resize a SpriteNode
+  example: []
+  syntax:
+    content: public static Animation ResizeTo(SizeF size, double duration)
+    parameters:
+    - id: size
+      type: System.Drawing.SizeF
+      description: New size of SpriteNode
+    - id: duration
+      type: System.Double
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a SpriteNode
+    content.vb: Public Shared Function ResizeTo(size As SizeF, duration As Double) As Animation
+  overload: Fantas.Animation.ResizeTo*
+  nameWithType.vb: Animation.ResizeTo(SizeF, Double)
+  fullName.vb: Fantas.Animation.ResizeTo(System.Drawing.SizeF, Double)
+  name.vb: ResizeTo(SizeF, Double)
+- uid: Fantas.Animation.ResizeToHeight(System.Single,System.Double)
+  commentId: M:Fantas.Animation.ResizeToHeight(System.Single,System.Double)
+  id: ResizeToHeight(System.Single,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: ResizeToHeight(float, double)
+  nameWithType: Animation.ResizeToHeight(float, double)
+  fullName: Fantas.Animation.ResizeToHeight(float, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Change SpriteNode Height
+  example: []
+  syntax:
+    content: public static Animation ResizeToHeight(float height, double duration)
+    parameters:
+    - id: height
+      type: System.Single
+      description: New height of SpriteNode
+    - id: duration
+      type: System.Double
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a SpriteNode
+    content.vb: Public Shared Function ResizeToHeight(height As Single, duration As Double) As Animation
+  overload: Fantas.Animation.ResizeToHeight*
+  nameWithType.vb: Animation.ResizeToHeight(Single, Double)
+  fullName.vb: Fantas.Animation.ResizeToHeight(Single, Double)
+  name.vb: ResizeToHeight(Single, Double)
+- uid: Fantas.Animation.ResizeToWidth(System.Single,System.Double)
+  commentId: M:Fantas.Animation.ResizeToWidth(System.Single,System.Double)
+  id: ResizeToWidth(System.Single,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: ResizeToWidth(float, double)
+  nameWithType: Animation.ResizeToWidth(float, double)
+  fullName: Fantas.Animation.ResizeToWidth(float, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Change SpriteNode width
+  example: []
+  syntax:
+    content: public static Animation ResizeToWidth(float width, double duration)
+    parameters:
+    - id: width
+      type: System.Single
+      description: New width of SpriteNode
+    - id: duration
+      type: System.Double
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a SpriteNode
+    content.vb: Public Shared Function ResizeToWidth(width As Single, duration As Double) As Animation
+  overload: Fantas.Animation.ResizeToWidth*
+  nameWithType.vb: Animation.ResizeToWidth(Single, Double)
+  fullName.vb: Fantas.Animation.ResizeToWidth(Single, Double)
+  name.vb: ResizeToWidth(Single, Double)
+- uid: Fantas.Animation.RotateBy(System.Double,System.Double)
+  commentId: M:Fantas.Animation.RotateBy(System.Double,System.Double)
+  id: RotateBy(System.Double,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: RotateBy(double, double)
+  nameWithType: Animation.RotateBy(double, double)
+  fullName: Fantas.Animation.RotateBy(double, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Rotate by a angle delta
+  example: []
+  syntax:
+    content: public static Animation RotateBy(double radians, double duration)
+    parameters:
+    - id: radians
+      type: System.Double
+      description: delta angle in radians
+    - id: duration
+      type: System.Double
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function RotateBy(radians As Double, duration As Double) As Animation
+  overload: Fantas.Animation.RotateBy*
+  nameWithType.vb: Animation.RotateBy(Double, Double)
+  fullName.vb: Fantas.Animation.RotateBy(Double, Double)
+  name.vb: RotateBy(Double, Double)
+- uid: Fantas.Animation.RotateTo(System.Double,System.Double)
+  commentId: M:Fantas.Animation.RotateTo(System.Double,System.Double)
+  id: RotateTo(System.Double,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: RotateTo(double, double)
+  nameWithType: Animation.RotateTo(double, double)
+  fullName: Fantas.Animation.RotateTo(double, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Rotate to the given angle
+  example: []
+  syntax:
+    content: public static Animation RotateTo(double radians, double duration)
+    parameters:
+    - id: radians
+      type: System.Double
+      description: Final angle in radians
+    - id: duration
+      type: System.Double
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function RotateTo(radians As Double, duration As Double) As Animation
+  overload: Fantas.Animation.RotateTo*
+  nameWithType.vb: Animation.RotateTo(Double, Double)
+  fullName.vb: Fantas.Animation.RotateTo(Double, Double)
+  name.vb: RotateTo(Double, Double)
+- uid: Fantas.Animation.RunAction(System.Action)
+  commentId: M:Fantas.Animation.RunAction(System.Action)
+  id: RunAction(System.Action)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: RunAction(Action)
+  nameWithType: Animation.RunAction(Action)
+  fullName: Fantas.Animation.RunAction(System.Action)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Run a action callback
+  example: []
+  syntax:
+    content: public static Animation RunAction(Action action)
+    parameters:
+    - id: action
+      type: System.Action
+      description: Action to be invoked when animation is executed
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function RunAction(action As Action) As Animation
+  overload: Fantas.Animation.RunAction*
+- uid: Fantas.Animation.ScaleBy(System.Single,System.Double)
+  commentId: M:Fantas.Animation.ScaleBy(System.Single,System.Double)
+  id: ScaleBy(System.Single,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: ScaleBy(float, double)
+  nameWithType: Animation.ScaleBy(float, double)
+  fullName: Fantas.Animation.ScaleBy(float, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Animate node applying a new scale
+  example: []
+  syntax:
+    content: public static Animation ScaleBy(float scale, double duration)
+    parameters:
+    - id: scale
+      type: System.Single
+      description: Scale factor
+    - id: duration
+      type: System.Double
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function ScaleBy(scale As Single, duration As Double) As Animation
+  overload: Fantas.Animation.ScaleBy*
+  nameWithType.vb: Animation.ScaleBy(Single, Double)
+  fullName.vb: Fantas.Animation.ScaleBy(Single, Double)
+  name.vb: ScaleBy(Single, Double)
+- uid: Fantas.Animation.ScaleTo(System.Single,System.Double)
+  commentId: M:Fantas.Animation.ScaleTo(System.Single,System.Double)
+  id: ScaleTo(System.Single,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: ScaleTo(float, double)
+  nameWithType: Animation.ScaleTo(float, double)
+  fullName: Fantas.Animation.ScaleTo(float, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Set node to a new scale
+  example: []
+  syntax:
+    content: public static Animation ScaleTo(float newScale, double duration)
+    parameters:
+    - id: newScale
+      type: System.Single
+      description: Final scale of Node
+    - id: duration
+      type: System.Double
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function ScaleTo(newScale As Single, duration As Double) As Animation
+  overload: Fantas.Animation.ScaleTo*
+  nameWithType.vb: Animation.ScaleTo(Single, Double)
+  fullName.vb: Fantas.Animation.ScaleTo(Single, Double)
+  name.vb: ScaleTo(Single, Double)
+- uid: Fantas.Animation.ScaleTo(System.Single,System.Single,System.Double)
+  commentId: M:Fantas.Animation.ScaleTo(System.Single,System.Single,System.Double)
+  id: ScaleTo(System.Single,System.Single,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: ScaleTo(float, float, double)
+  nameWithType: Animation.ScaleTo(float, float, double)
+  fullName: Fantas.Animation.ScaleTo(float, float, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Set node to a new scale
+  example: []
+  syntax:
+    content: public static Animation ScaleTo(float xScale, float yScale, double duration)
+    parameters:
+    - id: xScale
+      type: System.Single
+      description: Final xscale of Node
+    - id: yScale
+      type: System.Single
+      description: Final yscale of Node
+    - id: duration
+      type: System.Double
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function ScaleTo(xScale As Single, yScale As Single, duration As Double) As Animation
+  overload: Fantas.Animation.ScaleTo*
+  nameWithType.vb: Animation.ScaleTo(Single, Single, Double)
+  fullName.vb: Fantas.Animation.ScaleTo(Single, Single, Double)
+  name.vb: ScaleTo(Single, Single, Double)
+- uid: Fantas.Animation.ScaleTo(System.Drawing.SizeF,System.Double)
+  commentId: M:Fantas.Animation.ScaleTo(System.Drawing.SizeF,System.Double)
+  id: ScaleTo(System.Drawing.SizeF,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: ScaleTo(SizeF, double)
+  nameWithType: Animation.ScaleTo(SizeF, double)
+  fullName: Fantas.Animation.ScaleTo(System.Drawing.SizeF, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Change scale to make node reach new size
+  example: []
+  syntax:
+    content: public static Animation ScaleTo(SizeF size, double duration)
+    parameters:
+    - id: size
+      type: System.Drawing.SizeF
+      description: New size of Node
+    - id: duration
+      type: System.Double
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function ScaleTo(size As SizeF, duration As Double) As Animation
+  overload: Fantas.Animation.ScaleTo*
+  nameWithType.vb: Animation.ScaleTo(SizeF, Double)
+  fullName.vb: Fantas.Animation.ScaleTo(System.Drawing.SizeF, Double)
+  name.vb: ScaleTo(SizeF, Double)
+- uid: Fantas.Animation.ScaleXTo(System.Single,System.Double)
+  commentId: M:Fantas.Animation.ScaleXTo(System.Single,System.Double)
+  id: ScaleXTo(System.Single,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: ScaleXTo(float, double)
+  nameWithType: Animation.ScaleXTo(float, double)
+  fullName: Fantas.Animation.ScaleXTo(float, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Change X scale
+  example: []
+  syntax:
+    content: public static Animation ScaleXTo(float xscale, double duration)
+    parameters:
+    - id: xscale
+      type: System.Single
+      description: Final xscale of Node
+    - id: duration
+      type: System.Double
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function ScaleXTo(xscale As Single, duration As Double) As Animation
+  overload: Fantas.Animation.ScaleXTo*
+  nameWithType.vb: Animation.ScaleXTo(Single, Double)
+  fullName.vb: Fantas.Animation.ScaleXTo(Single, Double)
+  name.vb: ScaleXTo(Single, Double)
+- uid: Fantas.Animation.ScaleYTo(System.Single,System.Double)
+  commentId: M:Fantas.Animation.ScaleYTo(System.Single,System.Double)
+  id: ScaleYTo(System.Single,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: ScaleYTo(float, double)
+  nameWithType: Animation.ScaleYTo(float, double)
+  fullName: Fantas.Animation.ScaleYTo(float, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Change Y scale
+  example: []
+  syntax:
+    content: public static Animation ScaleYTo(float yscale, double duration)
+    parameters:
+    - id: yscale
+      type: System.Single
+      description: Final yscale of Node
+    - id: duration
+      type: System.Double
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function ScaleYTo(yscale As Single, duration As Double) As Animation
+  overload: Fantas.Animation.ScaleYTo*
+  nameWithType.vb: Animation.ScaleYTo(Single, Double)
+  fullName.vb: Fantas.Animation.ScaleYTo(Single, Double)
+  name.vb: ScaleYTo(Single, Double)
+- uid: Fantas.Animation.Sequence(Fantas.Animation[])
+  commentId: M:Fantas.Animation.Sequence(Fantas.Animation[])
+  id: Sequence(Fantas.Animation[])
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: Sequence(params Animation[])
+  nameWithType: Animation.Sequence(params Animation[])
+  fullName: Fantas.Animation.Sequence(params Fantas.Animation[])
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Create a sequence animation from a list of Animations,
+
+    Each animation will executed in sequence
+
+    a1 -&gt; a2 -&gt; a3
+  example: []
+  syntax:
+    content: public static Animation Sequence(params Animation[] animations)
+    parameters:
+    - id: animations
+      type: Fantas.Animation[]
+      description: Array of animations
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function Sequence(ParamArray animations As Animation()) As Animation
+  overload: Fantas.Animation.Sequence*
+  nameWithType.vb: Animation.Sequence(ParamArray Animation())
+  fullName.vb: Fantas.Animation.Sequence(ParamArray Fantas.Animation())
+  name.vb: Sequence(ParamArray Animation())
+- uid: Fantas.Animation.SetTexture(Fantas.Texture)
+  commentId: M:Fantas.Animation.SetTexture(Fantas.Texture)
+  id: SetTexture(Fantas.Texture)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: SetTexture(Texture)
+  nameWithType: Animation.SetTexture(Texture)
+  fullName: Fantas.Animation.SetTexture(Fantas.Texture)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Set new texture to SpriteNode
+  example: []
+  syntax:
+    content: public static Animation SetTexture(Texture texture)
+    parameters:
+    - id: texture
+      type: Fantas.Texture
+      description: Texture to be applied to SpriteNode
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a SpriteNode
+    content.vb: Public Shared Function SetTexture(texture As Texture) As Animation
+  overload: Fantas.Animation.SetTexture*
+- uid: Fantas.Animation.SetTexture(Fantas.Texture,System.Boolean)
+  commentId: M:Fantas.Animation.SetTexture(Fantas.Texture,System.Boolean)
+  id: SetTexture(Fantas.Texture,System.Boolean)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: SetTexture(Texture, bool)
+  nameWithType: Animation.SetTexture(Texture, bool)
+  fullName: Fantas.Animation.SetTexture(Fantas.Texture, bool)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Set new texture to SpriteNode
+  example: []
+  syntax:
+    content: public static Animation SetTexture(Texture texture, bool resize)
+    parameters:
+    - id: texture
+      type: Fantas.Texture
+      description: Texture to be applied to SpriteNode
+    - id: resize
+      type: System.Boolean
+      description: Flag to control if the SpriteNode should be resized to the size of texture
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a SpriteNode
+    content.vb: Public Shared Function SetTexture(texture As Texture, resize As Boolean) As Animation
+  overload: Fantas.Animation.SetTexture*
+  nameWithType.vb: Animation.SetTexture(Texture, Boolean)
+  fullName.vb: Fantas.Animation.SetTexture(Fantas.Texture, Boolean)
+  name.vb: SetTexture(Texture, Boolean)
+- uid: Fantas.Animation.Unhide
+  commentId: M:Fantas.Animation.Unhide
+  id: Unhide
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: Unhide()
+  nameWithType: Animation.Unhide()
+  fullName: Fantas.Animation.Unhide()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Unhide node
+  example: []
+  syntax:
+    content: public static Animation Unhide()
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function Unhide() As Animation
+  overload: Fantas.Animation.Unhide*
+- uid: Fantas.Animation.Wait(System.Double)
+  commentId: M:Fantas.Animation.Wait(System.Double)
+  id: Wait(System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: Wait(double)
+  nameWithType: Animation.Wait(double)
+  fullName: Fantas.Animation.Wait(double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Wait, useful to chain with other animations
+
+    (e.g Rotate then Wait then Fade Out)
+  example: []
+  syntax:
+    content: public static Animation Wait(double duration)
+    parameters:
+    - id: duration
+      type: System.Double
+      description: Time to wait, in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function Wait(duration As Double) As Animation
+  overload: Fantas.Animation.Wait*
+  nameWithType.vb: Animation.Wait(Double)
+  fullName.vb: Fantas.Animation.Wait(Double)
+  name.vb: Wait(Double)
+- uid: Fantas.Animation.Duration
+  commentId: P:Fantas.Animation.Duration
+  id: Duration
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: Animation.Duration
+  fullName: Fantas.Animation.Duration
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Duration to complete the animation.
+
+    WARNING: Some animation might ignore the change to this value
+
+    after the animation is created
+  example: []
+  syntax:
+    content: public double Duration { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Duration As Double
+  overload: Fantas.Animation.Duration*
+- uid: Fantas.Animation.ReversedAnimation
+  commentId: P:Fantas.Animation.ReversedAnimation
+  id: ReversedAnimation
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: ReversedAnimation
+  nameWithType: Animation.ReversedAnimation
+  fullName: Fantas.Animation.ReversedAnimation
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Create a reversed animation
+
+    WARNING: Fade, and Texture animation won't have reverse
+
+    You have to manually create FadeIn/FadeOut reverses
+  example: []
+  syntax:
+    content: public Animation ReversedAnimation { get; }
+    parameters: []
+    return:
+      type: Fantas.Animation
+    content.vb: Public ReadOnly Property ReversedAnimation As Animation
+  overload: Fantas.Animation.ReversedAnimation*
+- uid: Fantas.Animation.Speed
+  commentId: P:Fantas.Animation.Speed
+  id: Speed
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: Speed
+  nameWithType: Animation.Speed
+  fullName: Fantas.Animation.Speed
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Speed of animation
+  example: []
+  syntax:
+    content: public float Speed { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Speed As Single
+  overload: Fantas.Animation.Speed*
+- uid: Fantas.Animation.TimingFunction
+  commentId: P:Fantas.Animation.TimingFunction
+  id: TimingFunction
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: TimingFunction
+  nameWithType: Animation.TimingFunction
+  fullName: Fantas.Animation.TimingFunction
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Delegate used to customize the timing
+  example: []
+  syntax:
+    content: public AnimationTimingFunction TimingFunction { get; set; }
+    parameters: []
+    return:
+      type: Fantas.AnimationTimingFunction
+    content.vb: Public Property TimingFunction As AnimationTimingFunction
+  overload: Fantas.Animation.TimingFunction*
+- uid: Fantas.Animation.TimingMode
+  commentId: P:Fantas.Animation.TimingMode
+  id: TimingMode
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: TimingMode
+  nameWithType: Animation.TimingMode
+  fullName: Fantas.Animation.TimingMode
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Animation timing mode (linear, ease-in ..)
+  example: []
+  syntax:
+    content: public AnimationTimingMode TimingMode { get; set; }
+    parameters: []
+    return:
+      type: Fantas.AnimationTimingMode
+    content.vb: Public Property TimingMode As AnimationTimingMode
+  overload: Fantas.Animation.TimingMode*
+references:
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Fantas.Animation.Equals*
+  commentId: Overload:Fantas.Animation.Equals
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_Equals_System_Object_
+  name: Equals
+  nameWithType: Animation.Equals
+  fullName: Fantas.Animation.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: Fantas.Animation.GetHashCode*
+  commentId: Overload:Fantas.Animation.GetHashCode
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_GetHashCode
+  name: GetHashCode
+  nameWithType: Animation.GetHashCode
+  fullName: Fantas.Animation.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Fantas.Animation.Animate*
+  commentId: Overload:Fantas.Animation.Animate
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_Animate_Fantas_Texture___System_Double_
+  name: Animate
+  nameWithType: Animation.Animate
+  fullName: Fantas.Animation.Animate
+- uid: Fantas.Texture[]
+  isExternal: true
+  href: Fantas.Texture.html
+  name: Texture[]
+  nameWithType: Texture[]
+  fullName: Fantas.Texture[]
+  nameWithType.vb: Texture()
+  fullName.vb: Fantas.Texture()
+  name.vb: Texture()
+  spec.csharp:
+  - uid: Fantas.Texture
+    name: Texture
+    isExternal: true
+    href: Fantas.Texture.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Fantas.Texture
+    name: Texture
+    isExternal: true
+    href: Fantas.Texture.html
+  - name: (
+  - name: )
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Fantas.Animation
+  commentId: T:Fantas.Animation
+  parent: Fantas
+  isExternal: true
+  href: Fantas.Animation.html
+  name: Animation
+  nameWithType: Animation
+  fullName: Fantas.Animation
+- uid: Fantas.Animation.Colorize*
+  commentId: Overload:Fantas.Animation.Colorize
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_Colorize_System_Drawing_Color_System_Single_System_Double_
+  name: Colorize
+  nameWithType: Animation.Colorize
+  fullName: Fantas.Animation.Colorize
+- uid: System.Drawing.Color
+  commentId: T:System.Drawing.Color
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: Fantas.Animation.Custom*
+  commentId: Overload:Fantas.Animation.Custom
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_Custom_System_Double_System_Action_Fantas_Node_System_Single__
+  name: Custom
+  nameWithType: Animation.Custom
+  fullName: Fantas.Animation.Custom
+- uid: System.Action{Fantas.Node,System.Single}
+  commentId: T:System.Action{Fantas.Node,System.Single}
+  parent: System
+  definition: System.Action`2
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<Node, float>
+  nameWithType: Action<Node, float>
+  fullName: System.Action<Fantas.Node, float>
+  nameWithType.vb: Action(Of Node, Single)
+  fullName.vb: System.Action(Of Fantas.Node, Single)
+  name.vb: Action(Of Node, Single)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: System.Action`2
+  commentId: T:System.Action`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<T1, T2>
+  nameWithType: Action<T1, T2>
+  fullName: System.Action<T1, T2>
+  nameWithType.vb: Action(Of T1, T2)
+  fullName.vb: System.Action(Of T1, T2)
+  name.vb: Action(Of T1, T2)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: Fantas.Animation.FadeAlphaBy*
+  commentId: Overload:Fantas.Animation.FadeAlphaBy
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_FadeAlphaBy_System_Single_System_Double_
+  name: FadeAlphaBy
+  nameWithType: Animation.FadeAlphaBy
+  fullName: Fantas.Animation.FadeAlphaBy
+- uid: Fantas.Animation.FadeAlphaTo*
+  commentId: Overload:Fantas.Animation.FadeAlphaTo
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_FadeAlphaTo_System_Single_System_Double_
+  name: FadeAlphaTo
+  nameWithType: Animation.FadeAlphaTo
+  fullName: Fantas.Animation.FadeAlphaTo
+- uid: Fantas.Animation.FadeIn*
+  commentId: Overload:Fantas.Animation.FadeIn
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_FadeIn_System_Double_
+  name: FadeIn
+  nameWithType: Animation.FadeIn
+  fullName: Fantas.Animation.FadeIn
+- uid: Fantas.Animation.FadeOut*
+  commentId: Overload:Fantas.Animation.FadeOut
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_FadeOut_System_Double_
+  name: FadeOut
+  nameWithType: Animation.FadeOut
+  fullName: Fantas.Animation.FadeOut
+- uid: Fantas.Animation.Group*
+  commentId: Overload:Fantas.Animation.Group
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_Group_Fantas_Animation___
+  name: Group
+  nameWithType: Animation.Group
+  fullName: Fantas.Animation.Group
+- uid: Fantas.Animation[]
+  isExternal: true
+  href: Fantas.Animation.html
+  name: Animation[]
+  nameWithType: Animation[]
+  fullName: Fantas.Animation[]
+  nameWithType.vb: Animation()
+  fullName.vb: Fantas.Animation()
+  name.vb: Animation()
+  spec.csharp:
+  - uid: Fantas.Animation
+    name: Animation
+    isExternal: true
+    href: Fantas.Animation.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Fantas.Animation
+    name: Animation
+    isExternal: true
+    href: Fantas.Animation.html
+  - name: (
+  - name: )
+- uid: Fantas.Animation.Hide*
+  commentId: Overload:Fantas.Animation.Hide
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_Hide
+  name: Hide
+  nameWithType: Animation.Hide
+  fullName: Fantas.Animation.Hide
+- uid: Fantas.Animation.MoveBy*
+  commentId: Overload:Fantas.Animation.MoveBy
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_MoveBy_System_Numerics_Vector2_System_Double_
+  name: MoveBy
+  nameWithType: Animation.MoveBy
+  fullName: Fantas.Animation.MoveBy
+- uid: System.Numerics.Vector2
+  commentId: T:System.Numerics.Vector2
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  name: Vector2
+  nameWithType: Vector2
+  fullName: System.Numerics.Vector2
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: Fantas.Animation.MoveXBy*
+  commentId: Overload:Fantas.Animation.MoveXBy
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_MoveXBy_System_Single_System_Double_
+  name: MoveXBy
+  nameWithType: Animation.MoveXBy
+  fullName: Fantas.Animation.MoveXBy
+- uid: Fantas.Animation.MoveYBy*
+  commentId: Overload:Fantas.Animation.MoveYBy
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_MoveYBy_System_Single_System_Double_
+  name: MoveYBy
+  nameWithType: Animation.MoveYBy
+  fullName: Fantas.Animation.MoveYBy
+- uid: Fantas.Animation.MoveTo*
+  commentId: Overload:Fantas.Animation.MoveTo
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_MoveTo_System_Drawing_PointF_System_Double_
+  name: MoveTo
+  nameWithType: Animation.MoveTo
+  fullName: Fantas.Animation.MoveTo
+- uid: System.Drawing.PointF
+  commentId: T:System.Drawing.PointF
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  name: PointF
+  nameWithType: PointF
+  fullName: System.Drawing.PointF
+- uid: Fantas.Animation.MoveToX*
+  commentId: Overload:Fantas.Animation.MoveToX
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_MoveToX_System_Single_System_Double_
+  name: MoveToX
+  nameWithType: Animation.MoveToX
+  fullName: Fantas.Animation.MoveToX
+- uid: Fantas.Animation.MoveToY*
+  commentId: Overload:Fantas.Animation.MoveToY
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_MoveToY_System_Single_System_Double_
+  name: MoveToY
+  nameWithType: Animation.MoveToY
+  fullName: Fantas.Animation.MoveToY
+- uid: Fantas.Animation.SineVertical*
+  commentId: Overload:Fantas.Animation.SineVertical
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_SineVertical_System_Single_System_Single_System_Double_
+  name: SineVertical
+  nameWithType: Animation.SineVertical
+  fullName: Fantas.Animation.SineVertical
+- uid: Fantas.Animation.SineHorizontal*
+  commentId: Overload:Fantas.Animation.SineHorizontal
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_SineHorizontal_System_Single_System_Single_System_Double_
+  name: SineHorizontal
+  nameWithType: Animation.SineHorizontal
+  fullName: Fantas.Animation.SineHorizontal
+- uid: Fantas.Animation.OrbitPoint*
+  commentId: Overload:Fantas.Animation.OrbitPoint
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_OrbitPoint_System_Drawing_PointF_System_Double_System_Double_System_Double_
+  name: OrbitPoint
+  nameWithType: Animation.OrbitPoint
+  fullName: Fantas.Animation.OrbitPoint
+- uid: Fantas.Animation.OrbitNode*
+  commentId: Overload:Fantas.Animation.OrbitNode
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_OrbitNode_Fantas_Node_System_Double_System_Double_System_Double_
+  name: OrbitNode
+  nameWithType: Animation.OrbitNode
+  fullName: Fantas.Animation.OrbitNode
+- uid: Fantas.Node
+  commentId: T:Fantas.Node
+  parent: Fantas
+  isExternal: true
+  href: Fantas.Node.html
+  name: Node
+  nameWithType: Node
+  fullName: Fantas.Node
+- uid: Fantas.Animation.RemoveFromParent*
+  commentId: Overload:Fantas.Animation.RemoveFromParent
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_RemoveFromParent
+  name: RemoveFromParent
+  nameWithType: Animation.RemoveFromParent
+  fullName: Fantas.Animation.RemoveFromParent
+- uid: Fantas.Animation.Repeat*
+  commentId: Overload:Fantas.Animation.Repeat
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_Repeat_Fantas_Animation_System_Int32_
+  name: Repeat
+  nameWithType: Animation.Repeat
+  fullName: Fantas.Animation.Repeat
+- uid: Fantas.Animation.RepeatForever*
+  commentId: Overload:Fantas.Animation.RepeatForever
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_RepeatForever_Fantas_Animation_
+  name: RepeatForever
+  nameWithType: Animation.RepeatForever
+  fullName: Fantas.Animation.RepeatForever
+- uid: Fantas.Animation.ResizeTo*
+  commentId: Overload:Fantas.Animation.ResizeTo
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_ResizeTo_System_Drawing_SizeF_System_Double_
+  name: ResizeTo
+  nameWithType: Animation.ResizeTo
+  fullName: Fantas.Animation.ResizeTo
+- uid: System.Drawing.SizeF
+  commentId: T:System.Drawing.SizeF
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  name: SizeF
+  nameWithType: SizeF
+  fullName: System.Drawing.SizeF
+- uid: Fantas.Animation.ResizeToHeight*
+  commentId: Overload:Fantas.Animation.ResizeToHeight
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_ResizeToHeight_System_Single_System_Double_
+  name: ResizeToHeight
+  nameWithType: Animation.ResizeToHeight
+  fullName: Fantas.Animation.ResizeToHeight
+- uid: Fantas.Animation.ResizeToWidth*
+  commentId: Overload:Fantas.Animation.ResizeToWidth
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_ResizeToWidth_System_Single_System_Double_
+  name: ResizeToWidth
+  nameWithType: Animation.ResizeToWidth
+  fullName: Fantas.Animation.ResizeToWidth
+- uid: Fantas.Animation.RotateBy*
+  commentId: Overload:Fantas.Animation.RotateBy
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_RotateBy_System_Double_System_Double_
+  name: RotateBy
+  nameWithType: Animation.RotateBy
+  fullName: Fantas.Animation.RotateBy
+- uid: Fantas.Animation.RotateTo*
+  commentId: Overload:Fantas.Animation.RotateTo
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_RotateTo_System_Double_System_Double_
+  name: RotateTo
+  nameWithType: Animation.RotateTo
+  fullName: Fantas.Animation.RotateTo
+- uid: Fantas.Animation.RunAction*
+  commentId: Overload:Fantas.Animation.RunAction
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_RunAction_System_Action_
+  name: RunAction
+  nameWithType: Animation.RunAction
+  fullName: Fantas.Animation.RunAction
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: Fantas.Animation.ScaleBy*
+  commentId: Overload:Fantas.Animation.ScaleBy
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_ScaleBy_System_Single_System_Double_
+  name: ScaleBy
+  nameWithType: Animation.ScaleBy
+  fullName: Fantas.Animation.ScaleBy
+- uid: Fantas.Animation.ScaleTo*
+  commentId: Overload:Fantas.Animation.ScaleTo
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_ScaleTo_System_Single_System_Double_
+  name: ScaleTo
+  nameWithType: Animation.ScaleTo
+  fullName: Fantas.Animation.ScaleTo
+- uid: Fantas.Animation.ScaleXTo*
+  commentId: Overload:Fantas.Animation.ScaleXTo
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_ScaleXTo_System_Single_System_Double_
+  name: ScaleXTo
+  nameWithType: Animation.ScaleXTo
+  fullName: Fantas.Animation.ScaleXTo
+- uid: Fantas.Animation.ScaleYTo*
+  commentId: Overload:Fantas.Animation.ScaleYTo
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_ScaleYTo_System_Single_System_Double_
+  name: ScaleYTo
+  nameWithType: Animation.ScaleYTo
+  fullName: Fantas.Animation.ScaleYTo
+- uid: Fantas.Animation.Sequence*
+  commentId: Overload:Fantas.Animation.Sequence
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_Sequence_Fantas_Animation___
+  name: Sequence
+  nameWithType: Animation.Sequence
+  fullName: Fantas.Animation.Sequence
+- uid: Fantas.Animation.SetTexture*
+  commentId: Overload:Fantas.Animation.SetTexture
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_SetTexture_Fantas_Texture_
+  name: SetTexture
+  nameWithType: Animation.SetTexture
+  fullName: Fantas.Animation.SetTexture
+- uid: Fantas.Texture
+  commentId: T:Fantas.Texture
+  parent: Fantas
+  isExternal: true
+  href: Fantas.Texture.html
+  name: Texture
+  nameWithType: Texture
+  fullName: Fantas.Texture
+- uid: Fantas.Animation.Unhide*
+  commentId: Overload:Fantas.Animation.Unhide
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_Unhide
+  name: Unhide
+  nameWithType: Animation.Unhide
+  fullName: Fantas.Animation.Unhide
+- uid: Fantas.Animation.Wait*
+  commentId: Overload:Fantas.Animation.Wait
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_Wait_System_Double_
+  name: Wait
+  nameWithType: Animation.Wait
+  fullName: Fantas.Animation.Wait
+- uid: Fantas.Animation.Duration*
+  commentId: Overload:Fantas.Animation.Duration
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_Duration
+  name: Duration
+  nameWithType: Animation.Duration
+  fullName: Fantas.Animation.Duration
+- uid: Fantas.Animation.ReversedAnimation*
+  commentId: Overload:Fantas.Animation.ReversedAnimation
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_ReversedAnimation
+  name: ReversedAnimation
+  nameWithType: Animation.ReversedAnimation
+  fullName: Fantas.Animation.ReversedAnimation
+- uid: Fantas.Animation.Speed*
+  commentId: Overload:Fantas.Animation.Speed
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_Speed
+  name: Speed
+  nameWithType: Animation.Speed
+  fullName: Fantas.Animation.Speed
+- uid: Fantas.Animation.TimingFunction*
+  commentId: Overload:Fantas.Animation.TimingFunction
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_TimingFunction
+  name: TimingFunction
+  nameWithType: Animation.TimingFunction
+  fullName: Fantas.Animation.TimingFunction
+- uid: Fantas.AnimationTimingFunction
+  commentId: T:Fantas.AnimationTimingFunction
+  parent: Fantas
+  isExternal: true
+  href: Fantas.AnimationTimingFunction.html
+  name: AnimationTimingFunction
+  nameWithType: AnimationTimingFunction
+  fullName: Fantas.AnimationTimingFunction
+- uid: Fantas.Animation.TimingMode*
+  commentId: Overload:Fantas.Animation.TimingMode
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_TimingMode
+  name: TimingMode
+  nameWithType: Animation.TimingMode
+  fullName: Fantas.Animation.TimingMode
+- uid: Fantas.AnimationTimingMode
+  commentId: T:Fantas.AnimationTimingMode
+  parent: Fantas
+  isExternal: true
+  href: Fantas.AnimationTimingMode.html
+  name: AnimationTimingMode
+  nameWithType: AnimationTimingMode
+  fullName: Fantas.AnimationTimingMode

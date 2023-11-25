@@ -1,0 +1,869 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.Physics.RectangleBody
+  commentId: T:Fantas.Physics.RectangleBody
+  id: RectangleBody
+  parent: Fantas.Physics
+  children:
+  - Fantas.Physics.RectangleBody.#ctor(System.Drawing.SizeF)
+  - Fantas.Physics.RectangleBody.#ctor(System.Drawing.SizeF,System.Drawing.PointF)
+  langs:
+  - csharp
+  - vb
+  name: RectangleBody
+  nameWithType: RectangleBody
+  fullName: Fantas.Physics.RectangleBody
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/RectangleBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Rectangle body
+  example: []
+  syntax:
+    content: 'public sealed class RectangleBody : PhysicsBody'
+    content.vb: Public NotInheritable Class RectangleBody Inherits PhysicsBody
+  inheritance:
+  - System.Object
+  - Fantas.Physics.PhysicsBody
+  inheritedMembers:
+  - Fantas.Physics.PhysicsBody.ContactWith(Fantas.Physics.PhysicsBody)
+  - Fantas.Physics.PhysicsBody.ContactWithAny(Fantas.Physics.PhysicsBody[])
+  - Fantas.Physics.PhysicsBody.ContactWithAll(Fantas.Physics.PhysicsBody[])
+  - Fantas.Physics.PhysicsBody.ApplyAngularImpulse(System.Double)
+  - Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2)
+  - Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2,System.Drawing.PointF)
+  - Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2)
+  - Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2,System.Drawing.PointF)
+  - Fantas.Physics.PhysicsBody.ApplyTorque(System.Double)
+  - Fantas.Physics.PhysicsBody.AllContactedBodies
+  - Fantas.Physics.PhysicsBody.AllowsRotation
+  - Fantas.Physics.PhysicsBody.AngularVelocity
+  - Fantas.Physics.PhysicsBody.Area
+  - Fantas.Physics.PhysicsBody.Category
+  - Fantas.Physics.PhysicsBody.ContactMask
+  - Fantas.Physics.PhysicsBody.CollisionMask
+  - Fantas.Physics.PhysicsBody.Density
+  - Fantas.Physics.PhysicsBody.Dynamic
+  - Fantas.Physics.PhysicsBody.Friction
+  - Fantas.Physics.PhysicsBody.Joints
+  - Fantas.Physics.PhysicsBody.Mass
+  - Fantas.Physics.PhysicsBody.Node
+  - Fantas.Physics.PhysicsBody.Resting
+  - Fantas.Physics.PhysicsBody.Restitution
+  - Fantas.Physics.PhysicsBody.Velocity
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Fantas.Physics.RectangleBody.#ctor(System.Drawing.SizeF)
+  commentId: M:Fantas.Physics.RectangleBody.#ctor(System.Drawing.SizeF)
+  id: '#ctor(System.Drawing.SizeF)'
+  parent: Fantas.Physics.RectangleBody
+  langs:
+  - csharp
+  - vb
+  name: RectangleBody(SizeF)
+  nameWithType: RectangleBody.RectangleBody(SizeF)
+  fullName: Fantas.Physics.RectangleBody.RectangleBody(System.Drawing.SizeF)
+  type: Constructor
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/RectangleBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Creates a rectangular physical body with the given size
+  example: []
+  syntax:
+    content: public RectangleBody(SizeF size)
+    parameters:
+    - id: size
+      type: System.Drawing.SizeF
+      description: ''
+    content.vb: Public Sub New(size As SizeF)
+  overload: Fantas.Physics.RectangleBody.#ctor*
+  nameWithType.vb: RectangleBody.New(SizeF)
+  fullName.vb: Fantas.Physics.RectangleBody.New(System.Drawing.SizeF)
+  name.vb: New(SizeF)
+- uid: Fantas.Physics.RectangleBody.#ctor(System.Drawing.SizeF,System.Drawing.PointF)
+  commentId: M:Fantas.Physics.RectangleBody.#ctor(System.Drawing.SizeF,System.Drawing.PointF)
+  id: '#ctor(System.Drawing.SizeF,System.Drawing.PointF)'
+  parent: Fantas.Physics.RectangleBody
+  langs:
+  - csharp
+  - vb
+  name: RectangleBody(SizeF, PointF)
+  nameWithType: RectangleBody.RectangleBody(SizeF, PointF)
+  fullName: Fantas.Physics.RectangleBody.RectangleBody(System.Drawing.SizeF, System.Drawing.PointF)
+  type: Constructor
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/RectangleBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: >-
+    Creates a rectangular physical body with the given size and
+
+    the given center
+  example: []
+  syntax:
+    content: public RectangleBody(SizeF size, PointF center)
+    parameters:
+    - id: size
+      type: System.Drawing.SizeF
+      description: ''
+    - id: center
+      type: System.Drawing.PointF
+      description: ''
+    content.vb: Public Sub New(size As SizeF, center As PointF)
+  overload: Fantas.Physics.RectangleBody.#ctor*
+  nameWithType.vb: RectangleBody.New(SizeF, PointF)
+  fullName.vb: Fantas.Physics.RectangleBody.New(System.Drawing.SizeF, System.Drawing.PointF)
+  name.vb: New(SizeF, PointF)
+references:
+- uid: Fantas.Physics
+  commentId: N:Fantas.Physics
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.Physics
+  nameWithType: Fantas.Physics
+  fullName: Fantas.Physics
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Physics
+    name: Physics
+    isExternal: true
+    href: Fantas.Physics.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Physics
+    name: Physics
+    isExternal: true
+    href: Fantas.Physics.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Fantas.Physics.PhysicsBody
+  commentId: T:Fantas.Physics.PhysicsBody
+  parent: Fantas.Physics
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html
+  name: PhysicsBody
+  nameWithType: PhysicsBody
+  fullName: Fantas.Physics.PhysicsBody
+- uid: Fantas.Physics.PhysicsBody.ContactWith(Fantas.Physics.PhysicsBody)
+  commentId: M:Fantas.Physics.PhysicsBody.ContactWith(Fantas.Physics.PhysicsBody)
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ContactWith_Fantas_Physics_PhysicsBody_
+  name: ContactWith(PhysicsBody)
+  nameWithType: PhysicsBody.ContactWith(PhysicsBody)
+  fullName: Fantas.Physics.PhysicsBody.ContactWith(Fantas.Physics.PhysicsBody)
+  spec.csharp:
+  - uid: Fantas.Physics.PhysicsBody.ContactWith(Fantas.Physics.PhysicsBody)
+    name: ContactWith
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ContactWith_Fantas_Physics_PhysicsBody_
+  - name: (
+  - uid: Fantas.Physics.PhysicsBody
+    name: PhysicsBody
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Physics.PhysicsBody.ContactWith(Fantas.Physics.PhysicsBody)
+    name: ContactWith
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ContactWith_Fantas_Physics_PhysicsBody_
+  - name: (
+  - uid: Fantas.Physics.PhysicsBody
+    name: PhysicsBody
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html
+  - name: )
+- uid: Fantas.Physics.PhysicsBody.ContactWithAny(Fantas.Physics.PhysicsBody[])
+  commentId: M:Fantas.Physics.PhysicsBody.ContactWithAny(Fantas.Physics.PhysicsBody[])
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ContactWithAny_Fantas_Physics_PhysicsBody___
+  name: ContactWithAny(PhysicsBody[])
+  nameWithType: PhysicsBody.ContactWithAny(PhysicsBody[])
+  fullName: Fantas.Physics.PhysicsBody.ContactWithAny(Fantas.Physics.PhysicsBody[])
+  nameWithType.vb: PhysicsBody.ContactWithAny(PhysicsBody())
+  fullName.vb: Fantas.Physics.PhysicsBody.ContactWithAny(Fantas.Physics.PhysicsBody())
+  name.vb: ContactWithAny(PhysicsBody())
+  spec.csharp:
+  - uid: Fantas.Physics.PhysicsBody.ContactWithAny(Fantas.Physics.PhysicsBody[])
+    name: ContactWithAny
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ContactWithAny_Fantas_Physics_PhysicsBody___
+  - name: (
+  - uid: Fantas.Physics.PhysicsBody
+    name: PhysicsBody
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Fantas.Physics.PhysicsBody.ContactWithAny(Fantas.Physics.PhysicsBody[])
+    name: ContactWithAny
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ContactWithAny_Fantas_Physics_PhysicsBody___
+  - name: (
+  - uid: Fantas.Physics.PhysicsBody
+    name: PhysicsBody
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html
+  - name: (
+  - name: )
+  - name: )
+- uid: Fantas.Physics.PhysicsBody.ContactWithAll(Fantas.Physics.PhysicsBody[])
+  commentId: M:Fantas.Physics.PhysicsBody.ContactWithAll(Fantas.Physics.PhysicsBody[])
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ContactWithAll_Fantas_Physics_PhysicsBody___
+  name: ContactWithAll(PhysicsBody[])
+  nameWithType: PhysicsBody.ContactWithAll(PhysicsBody[])
+  fullName: Fantas.Physics.PhysicsBody.ContactWithAll(Fantas.Physics.PhysicsBody[])
+  nameWithType.vb: PhysicsBody.ContactWithAll(PhysicsBody())
+  fullName.vb: Fantas.Physics.PhysicsBody.ContactWithAll(Fantas.Physics.PhysicsBody())
+  name.vb: ContactWithAll(PhysicsBody())
+  spec.csharp:
+  - uid: Fantas.Physics.PhysicsBody.ContactWithAll(Fantas.Physics.PhysicsBody[])
+    name: ContactWithAll
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ContactWithAll_Fantas_Physics_PhysicsBody___
+  - name: (
+  - uid: Fantas.Physics.PhysicsBody
+    name: PhysicsBody
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Fantas.Physics.PhysicsBody.ContactWithAll(Fantas.Physics.PhysicsBody[])
+    name: ContactWithAll
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ContactWithAll_Fantas_Physics_PhysicsBody___
+  - name: (
+  - uid: Fantas.Physics.PhysicsBody
+    name: PhysicsBody
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html
+  - name: (
+  - name: )
+  - name: )
+- uid: Fantas.Physics.PhysicsBody.ApplyAngularImpulse(System.Double)
+  commentId: M:Fantas.Physics.PhysicsBody.ApplyAngularImpulse(System.Double)
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ApplyAngularImpulse_System_Double_
+  name: ApplyAngularImpulse(double)
+  nameWithType: PhysicsBody.ApplyAngularImpulse(double)
+  fullName: Fantas.Physics.PhysicsBody.ApplyAngularImpulse(double)
+  nameWithType.vb: PhysicsBody.ApplyAngularImpulse(Double)
+  fullName.vb: Fantas.Physics.PhysicsBody.ApplyAngularImpulse(Double)
+  name.vb: ApplyAngularImpulse(Double)
+  spec.csharp:
+  - uid: Fantas.Physics.PhysicsBody.ApplyAngularImpulse(System.Double)
+    name: ApplyAngularImpulse
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ApplyAngularImpulse_System_Double_
+  - name: (
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: Fantas.Physics.PhysicsBody.ApplyAngularImpulse(System.Double)
+    name: ApplyAngularImpulse
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ApplyAngularImpulse_System_Double_
+  - name: (
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2)
+  commentId: M:Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2)
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ApplyForce_System_Numerics_Vector2_
+  name: ApplyForce(Vector2)
+  nameWithType: PhysicsBody.ApplyForce(Vector2)
+  fullName: Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2)
+  spec.csharp:
+  - uid: Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2)
+    name: ApplyForce
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ApplyForce_System_Numerics_Vector2_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: )
+  spec.vb:
+  - uid: Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2)
+    name: ApplyForce
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ApplyForce_System_Numerics_Vector2_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: )
+- uid: Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2,System.Drawing.PointF)
+  commentId: M:Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2,System.Drawing.PointF)
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ApplyForce_System_Numerics_Vector2_System_Drawing_PointF_
+  name: ApplyForce(Vector2, PointF)
+  nameWithType: PhysicsBody.ApplyForce(Vector2, PointF)
+  fullName: Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2, System.Drawing.PointF)
+  spec.csharp:
+  - uid: Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2,System.Drawing.PointF)
+    name: ApplyForce
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ApplyForce_System_Numerics_Vector2_System_Drawing_PointF_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+  spec.vb:
+  - uid: Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2,System.Drawing.PointF)
+    name: ApplyForce
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ApplyForce_System_Numerics_Vector2_System_Drawing_PointF_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+- uid: Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2)
+  commentId: M:Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2)
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ApplyImpulse_System_Numerics_Vector2_
+  name: ApplyImpulse(Vector2)
+  nameWithType: PhysicsBody.ApplyImpulse(Vector2)
+  fullName: Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2)
+  spec.csharp:
+  - uid: Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2)
+    name: ApplyImpulse
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ApplyImpulse_System_Numerics_Vector2_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: )
+  spec.vb:
+  - uid: Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2)
+    name: ApplyImpulse
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ApplyImpulse_System_Numerics_Vector2_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: )
+- uid: Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2,System.Drawing.PointF)
+  commentId: M:Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2,System.Drawing.PointF)
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ApplyImpulse_System_Numerics_Vector2_System_Drawing_PointF_
+  name: ApplyImpulse(Vector2, PointF)
+  nameWithType: PhysicsBody.ApplyImpulse(Vector2, PointF)
+  fullName: Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2, System.Drawing.PointF)
+  spec.csharp:
+  - uid: Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2,System.Drawing.PointF)
+    name: ApplyImpulse
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ApplyImpulse_System_Numerics_Vector2_System_Drawing_PointF_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+  spec.vb:
+  - uid: Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2,System.Drawing.PointF)
+    name: ApplyImpulse
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ApplyImpulse_System_Numerics_Vector2_System_Drawing_PointF_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+- uid: Fantas.Physics.PhysicsBody.ApplyTorque(System.Double)
+  commentId: M:Fantas.Physics.PhysicsBody.ApplyTorque(System.Double)
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ApplyTorque_System_Double_
+  name: ApplyTorque(double)
+  nameWithType: PhysicsBody.ApplyTorque(double)
+  fullName: Fantas.Physics.PhysicsBody.ApplyTorque(double)
+  nameWithType.vb: PhysicsBody.ApplyTorque(Double)
+  fullName.vb: Fantas.Physics.PhysicsBody.ApplyTorque(Double)
+  name.vb: ApplyTorque(Double)
+  spec.csharp:
+  - uid: Fantas.Physics.PhysicsBody.ApplyTorque(System.Double)
+    name: ApplyTorque
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ApplyTorque_System_Double_
+  - name: (
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: Fantas.Physics.PhysicsBody.ApplyTorque(System.Double)
+    name: ApplyTorque
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ApplyTorque_System_Double_
+  - name: (
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: Fantas.Physics.PhysicsBody.AllContactedBodies
+  commentId: P:Fantas.Physics.PhysicsBody.AllContactedBodies
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_AllContactedBodies
+  name: AllContactedBodies
+  nameWithType: PhysicsBody.AllContactedBodies
+  fullName: Fantas.Physics.PhysicsBody.AllContactedBodies
+- uid: Fantas.Physics.PhysicsBody.AllowsRotation
+  commentId: P:Fantas.Physics.PhysicsBody.AllowsRotation
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_AllowsRotation
+  name: AllowsRotation
+  nameWithType: PhysicsBody.AllowsRotation
+  fullName: Fantas.Physics.PhysicsBody.AllowsRotation
+- uid: Fantas.Physics.PhysicsBody.AngularVelocity
+  commentId: P:Fantas.Physics.PhysicsBody.AngularVelocity
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_AngularVelocity
+  name: AngularVelocity
+  nameWithType: PhysicsBody.AngularVelocity
+  fullName: Fantas.Physics.PhysicsBody.AngularVelocity
+- uid: Fantas.Physics.PhysicsBody.Area
+  commentId: P:Fantas.Physics.PhysicsBody.Area
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_Area
+  name: Area
+  nameWithType: PhysicsBody.Area
+  fullName: Fantas.Physics.PhysicsBody.Area
+- uid: Fantas.Physics.PhysicsBody.Category
+  commentId: P:Fantas.Physics.PhysicsBody.Category
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_Category
+  name: Category
+  nameWithType: PhysicsBody.Category
+  fullName: Fantas.Physics.PhysicsBody.Category
+- uid: Fantas.Physics.PhysicsBody.ContactMask
+  commentId: P:Fantas.Physics.PhysicsBody.ContactMask
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ContactMask
+  name: ContactMask
+  nameWithType: PhysicsBody.ContactMask
+  fullName: Fantas.Physics.PhysicsBody.ContactMask
+- uid: Fantas.Physics.PhysicsBody.CollisionMask
+  commentId: P:Fantas.Physics.PhysicsBody.CollisionMask
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_CollisionMask
+  name: CollisionMask
+  nameWithType: PhysicsBody.CollisionMask
+  fullName: Fantas.Physics.PhysicsBody.CollisionMask
+- uid: Fantas.Physics.PhysicsBody.Density
+  commentId: P:Fantas.Physics.PhysicsBody.Density
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_Density
+  name: Density
+  nameWithType: PhysicsBody.Density
+  fullName: Fantas.Physics.PhysicsBody.Density
+- uid: Fantas.Physics.PhysicsBody.Dynamic
+  commentId: P:Fantas.Physics.PhysicsBody.Dynamic
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_Dynamic
+  name: Dynamic
+  nameWithType: PhysicsBody.Dynamic
+  fullName: Fantas.Physics.PhysicsBody.Dynamic
+- uid: Fantas.Physics.PhysicsBody.Friction
+  commentId: P:Fantas.Physics.PhysicsBody.Friction
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_Friction
+  name: Friction
+  nameWithType: PhysicsBody.Friction
+  fullName: Fantas.Physics.PhysicsBody.Friction
+- uid: Fantas.Physics.PhysicsBody.Joints
+  commentId: P:Fantas.Physics.PhysicsBody.Joints
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_Joints
+  name: Joints
+  nameWithType: PhysicsBody.Joints
+  fullName: Fantas.Physics.PhysicsBody.Joints
+- uid: Fantas.Physics.PhysicsBody.Mass
+  commentId: P:Fantas.Physics.PhysicsBody.Mass
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_Mass
+  name: Mass
+  nameWithType: PhysicsBody.Mass
+  fullName: Fantas.Physics.PhysicsBody.Mass
+- uid: Fantas.Physics.PhysicsBody.Node
+  commentId: P:Fantas.Physics.PhysicsBody.Node
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_Node
+  name: Node
+  nameWithType: PhysicsBody.Node
+  fullName: Fantas.Physics.PhysicsBody.Node
+- uid: Fantas.Physics.PhysicsBody.Resting
+  commentId: P:Fantas.Physics.PhysicsBody.Resting
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_Resting
+  name: Resting
+  nameWithType: PhysicsBody.Resting
+  fullName: Fantas.Physics.PhysicsBody.Resting
+- uid: Fantas.Physics.PhysicsBody.Restitution
+  commentId: P:Fantas.Physics.PhysicsBody.Restitution
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_Restitution
+  name: Restitution
+  nameWithType: PhysicsBody.Restitution
+  fullName: Fantas.Physics.PhysicsBody.Restitution
+- uid: Fantas.Physics.PhysicsBody.Velocity
+  commentId: P:Fantas.Physics.PhysicsBody.Velocity
+  parent: Fantas.Physics.PhysicsBody
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_Velocity
+  name: Velocity
+  nameWithType: PhysicsBody.Velocity
+  fullName: Fantas.Physics.PhysicsBody.Velocity
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.Physics.RectangleBody.#ctor*
+  commentId: Overload:Fantas.Physics.RectangleBody.#ctor
+  isExternal: true
+  href: Fantas.Physics.RectangleBody.html#Fantas_Physics_RectangleBody__ctor_System_Drawing_SizeF_
+  name: RectangleBody
+  nameWithType: RectangleBody.RectangleBody
+  fullName: Fantas.Physics.RectangleBody.RectangleBody
+  nameWithType.vb: RectangleBody.New
+  fullName.vb: Fantas.Physics.RectangleBody.New
+  name.vb: New
+- uid: System.Drawing.SizeF
+  commentId: T:System.Drawing.SizeF
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  name: SizeF
+  nameWithType: SizeF
+  fullName: System.Drawing.SizeF
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: System.Drawing.PointF
+  commentId: T:System.Drawing.PointF
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  name: PointF
+  nameWithType: PointF
+  fullName: System.Drawing.PointF

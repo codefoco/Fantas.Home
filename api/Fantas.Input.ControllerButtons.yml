@@ -1,0 +1,668 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.Input.ControllerButtons
+  commentId: T:Fantas.Input.ControllerButtons
+  id: ControllerButtons
+  parent: Fantas.Input
+  children:
+  - Fantas.Input.ControllerButtons.A
+  - Fantas.Input.ControllerButtons.B
+  - Fantas.Input.ControllerButtons.BigButton
+  - Fantas.Input.ControllerButtons.DPadDown
+  - Fantas.Input.ControllerButtons.DPadLeft
+  - Fantas.Input.ControllerButtons.DPadRight
+  - Fantas.Input.ControllerButtons.DPadUp
+  - Fantas.Input.ControllerButtons.LeftShoulder
+  - Fantas.Input.ControllerButtons.LeftThumbstick
+  - Fantas.Input.ControllerButtons.LeftThumbstickDown
+  - Fantas.Input.ControllerButtons.LeftThumbstickLeft
+  - Fantas.Input.ControllerButtons.LeftThumbstickRight
+  - Fantas.Input.ControllerButtons.LeftThumbstickUp
+  - Fantas.Input.ControllerButtons.LeftTrigger
+  - Fantas.Input.ControllerButtons.Menu
+  - Fantas.Input.ControllerButtons.None
+  - Fantas.Input.ControllerButtons.Options
+  - Fantas.Input.ControllerButtons.RightShoulder
+  - Fantas.Input.ControllerButtons.RightThumbstick
+  - Fantas.Input.ControllerButtons.RightThumbstickDown
+  - Fantas.Input.ControllerButtons.RightThumbstickLeft
+  - Fantas.Input.ControllerButtons.RightThumbstickRight
+  - Fantas.Input.ControllerButtons.RightThumbstickUp
+  - Fantas.Input.ControllerButtons.RightTrigger
+  - Fantas.Input.ControllerButtons.X
+  - Fantas.Input.ControllerButtons.Y
+  langs:
+  - csharp
+  - vb
+  name: ControllerButtons
+  nameWithType: ControllerButtons
+  fullName: Fantas.Input.ControllerButtons
+  type: Enum
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Defines the buttons on gamepad.
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum ControllerButtons
+    content.vb: >-
+      <Flags>
+
+      Public Enum ControllerButtons
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Fantas.Input.ControllerButtons.None
+  commentId: F:Fantas.Input.ControllerButtons.None
+  id: None
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ControllerButtons.None
+  fullName: Fantas.Input.ControllerButtons.None
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Use to flag no button is pressed
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.DPadUp
+  commentId: F:Fantas.Input.ControllerButtons.DPadUp
+  id: DPadUp
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: DPadUp
+  nameWithType: ControllerButtons.DPadUp
+  fullName: Fantas.Input.ControllerButtons.DPadUp
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Directional pad up.
+  example: []
+  syntax:
+    content: DPadUp = 1
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.DPadDown
+  commentId: F:Fantas.Input.ControllerButtons.DPadDown
+  id: DPadDown
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: DPadDown
+  nameWithType: ControllerButtons.DPadDown
+  fullName: Fantas.Input.ControllerButtons.DPadDown
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Directional pad down.
+  example: []
+  syntax:
+    content: DPadDown = 2
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.DPadLeft
+  commentId: F:Fantas.Input.ControllerButtons.DPadLeft
+  id: DPadLeft
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: DPadLeft
+  nameWithType: ControllerButtons.DPadLeft
+  fullName: Fantas.Input.ControllerButtons.DPadLeft
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Directional pad left.
+  example: []
+  syntax:
+    content: DPadLeft = 4
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.DPadRight
+  commentId: F:Fantas.Input.ControllerButtons.DPadRight
+  id: DPadRight
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: DPadRight
+  nameWithType: ControllerButtons.DPadRight
+  fullName: Fantas.Input.ControllerButtons.DPadRight
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Directional pad right.
+  example: []
+  syntax:
+    content: DPadRight = 8
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.Menu
+  commentId: F:Fantas.Input.ControllerButtons.Menu
+  id: Menu
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: Menu
+  nameWithType: ControllerButtons.Menu
+  fullName: Fantas.Input.ControllerButtons.Menu
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: START or MENU button (depending on your GamePad)
+  example: []
+  syntax:
+    content: Menu = 16
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.Options
+  commentId: F:Fantas.Input.ControllerButtons.Options
+  id: Options
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: Options
+  nameWithType: ControllerButtons.Options
+  fullName: Fantas.Input.ControllerButtons.Options
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: BACK or Options button (depending on your GamePad)
+  example: []
+  syntax:
+    content: Options = 32
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.LeftThumbstick
+  commentId: F:Fantas.Input.ControllerButtons.LeftThumbstick
+  id: LeftThumbstick
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: LeftThumbstick
+  nameWithType: ControllerButtons.LeftThumbstick
+  fullName: Fantas.Input.ControllerButtons.LeftThumbstick
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Left thumb stick button (pressing the left thumb stick).
+  example: []
+  syntax:
+    content: LeftThumbstick = 64
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.RightThumbstick
+  commentId: F:Fantas.Input.ControllerButtons.RightThumbstick
+  id: RightThumbstick
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: RightThumbstick
+  nameWithType: ControllerButtons.RightThumbstick
+  fullName: Fantas.Input.ControllerButtons.RightThumbstick
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Right thumb stick button (pressing the right thumb stick).
+  example: []
+  syntax:
+    content: RightThumbstick = 128
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.LeftShoulder
+  commentId: F:Fantas.Input.ControllerButtons.LeftShoulder
+  id: LeftShoulder
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: LeftShoulder
+  nameWithType: ControllerButtons.LeftShoulder
+  fullName: Fantas.Input.ControllerButtons.LeftShoulder
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Left bumper (shoulder) button.
+  example: []
+  syntax:
+    content: LeftShoulder = 256
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.RightShoulder
+  commentId: F:Fantas.Input.ControllerButtons.RightShoulder
+  id: RightShoulder
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: RightShoulder
+  nameWithType: ControllerButtons.RightShoulder
+  fullName: Fantas.Input.ControllerButtons.RightShoulder
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Right bumper (shoulder) button.
+  example: []
+  syntax:
+    content: RightShoulder = 512
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.BigButton
+  commentId: F:Fantas.Input.ControllerButtons.BigButton
+  id: BigButton
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: BigButton
+  nameWithType: ControllerButtons.BigButton
+  fullName: Fantas.Input.ControllerButtons.BigButton
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Big button (like the big X in the Xbox 360)
+  example: []
+  syntax:
+    content: BigButton = 2048
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.A
+  commentId: F:Fantas.Input.ControllerButtons.A
+  id: A
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: A
+  nameWithType: ControllerButtons.A
+  fullName: Fantas.Input.ControllerButtons.A
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: A button (the lower button)
+  example: []
+  syntax:
+    content: A = 4096
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.B
+  commentId: F:Fantas.Input.ControllerButtons.B
+  id: B
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: B
+  nameWithType: ControllerButtons.B
+  fullName: Fantas.Input.ControllerButtons.B
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: B button (button on the right)
+  example: []
+  syntax:
+    content: B = 8192
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.X
+  commentId: F:Fantas.Input.ControllerButtons.X
+  id: X
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: ControllerButtons.X
+  fullName: Fantas.Input.ControllerButtons.X
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: X button (button on the left)
+  example: []
+  syntax:
+    content: X = 16384
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.Y
+  commentId: F:Fantas.Input.ControllerButtons.Y
+  id: Y
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: ControllerButtons.Y
+  fullName: Fantas.Input.ControllerButtons.Y
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Y button (upper button)
+  example: []
+  syntax:
+    content: Y = 32768
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.LeftThumbstickLeft
+  commentId: F:Fantas.Input.ControllerButtons.LeftThumbstickLeft
+  id: LeftThumbstickLeft
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: LeftThumbstickLeft
+  nameWithType: ControllerButtons.LeftThumbstickLeft
+  fullName: Fantas.Input.ControllerButtons.LeftThumbstickLeft
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Left thumb stick is towards the left.
+  example: []
+  syntax:
+    content: LeftThumbstickLeft = 2097152
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.RightTrigger
+  commentId: F:Fantas.Input.ControllerButtons.RightTrigger
+  id: RightTrigger
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: RightTrigger
+  nameWithType: ControllerButtons.RightTrigger
+  fullName: Fantas.Input.ControllerButtons.RightTrigger
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Right trigger.
+  example: []
+  syntax:
+    content: RightTrigger = 4194304
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.LeftTrigger
+  commentId: F:Fantas.Input.ControllerButtons.LeftTrigger
+  id: LeftTrigger
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: LeftTrigger
+  nameWithType: ControllerButtons.LeftTrigger
+  fullName: Fantas.Input.ControllerButtons.LeftTrigger
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Left trigger
+  example: []
+  syntax:
+    content: LeftTrigger = 8388608
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.RightThumbstickUp
+  commentId: F:Fantas.Input.ControllerButtons.RightThumbstickUp
+  id: RightThumbstickUp
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: RightThumbstickUp
+  nameWithType: ControllerButtons.RightThumbstickUp
+  fullName: Fantas.Input.ControllerButtons.RightThumbstickUp
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Right thumb stick is towards up.
+  example: []
+  syntax:
+    content: RightThumbstickUp = 16777216
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.RightThumbstickDown
+  commentId: F:Fantas.Input.ControllerButtons.RightThumbstickDown
+  id: RightThumbstickDown
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: RightThumbstickDown
+  nameWithType: ControllerButtons.RightThumbstickDown
+  fullName: Fantas.Input.ControllerButtons.RightThumbstickDown
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Right thumb stick is towards down.
+  example: []
+  syntax:
+    content: RightThumbstickDown = 33554432
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.RightThumbstickRight
+  commentId: F:Fantas.Input.ControllerButtons.RightThumbstickRight
+  id: RightThumbstickRight
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: RightThumbstickRight
+  nameWithType: ControllerButtons.RightThumbstickRight
+  fullName: Fantas.Input.ControllerButtons.RightThumbstickRight
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Right thumb stick is towards the right.
+  example: []
+  syntax:
+    content: RightThumbstickRight = 67108864
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.RightThumbstickLeft
+  commentId: F:Fantas.Input.ControllerButtons.RightThumbstickLeft
+  id: RightThumbstickLeft
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: RightThumbstickLeft
+  nameWithType: ControllerButtons.RightThumbstickLeft
+  fullName: Fantas.Input.ControllerButtons.RightThumbstickLeft
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Right thumb stick is towards the left.
+  example: []
+  syntax:
+    content: RightThumbstickLeft = 134217728
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.LeftThumbstickUp
+  commentId: F:Fantas.Input.ControllerButtons.LeftThumbstickUp
+  id: LeftThumbstickUp
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: LeftThumbstickUp
+  nameWithType: ControllerButtons.LeftThumbstickUp
+  fullName: Fantas.Input.ControllerButtons.LeftThumbstickUp
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Left thumb stick is towards up.
+  example: []
+  syntax:
+    content: LeftThumbstickUp = 268435456
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.LeftThumbstickDown
+  commentId: F:Fantas.Input.ControllerButtons.LeftThumbstickDown
+  id: LeftThumbstickDown
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: LeftThumbstickDown
+  nameWithType: ControllerButtons.LeftThumbstickDown
+  fullName: Fantas.Input.ControllerButtons.LeftThumbstickDown
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Left thumb stick is towards down.
+  example: []
+  syntax:
+    content: LeftThumbstickDown = 536870912
+    return:
+      type: Fantas.Input.ControllerButtons
+- uid: Fantas.Input.ControllerButtons.LeftThumbstickRight
+  commentId: F:Fantas.Input.ControllerButtons.LeftThumbstickRight
+  id: LeftThumbstickRight
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: LeftThumbstickRight
+  nameWithType: ControllerButtons.LeftThumbstickRight
+  fullName: Fantas.Input.ControllerButtons.LeftThumbstickRight
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Left thumb stick is towards the right.
+  example: []
+  syntax:
+    content: LeftThumbstickRight = 1073741824
+    return:
+      type: Fantas.Input.ControllerButtons
+references:
+- uid: Fantas.Input
+  commentId: N:Fantas.Input
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.Input
+  nameWithType: Fantas.Input
+  fullName: Fantas.Input
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+- uid: Fantas.Input.ControllerButtons
+  commentId: T:Fantas.Input.ControllerButtons
+  parent: Fantas.Input
+  isExternal: true
+  href: Fantas.Input.ControllerButtons.html
+  name: ControllerButtons
+  nameWithType: ControllerButtons
+  fullName: Fantas.Input.ControllerButtons

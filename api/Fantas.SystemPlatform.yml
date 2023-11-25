@@ -1,0 +1,224 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.SystemPlatform
+  commentId: T:Fantas.SystemPlatform
+  id: SystemPlatform
+  parent: Fantas
+  children:
+  - Fantas.SystemPlatform.Android
+  - Fantas.SystemPlatform.Linux
+  - Fantas.SystemPlatform.MacOS
+  - Fantas.SystemPlatform.Unknown
+  - Fantas.SystemPlatform.Windows
+  - Fantas.SystemPlatform.Xbox
+  - Fantas.SystemPlatform.iOS
+  - Fantas.SystemPlatform.tvOS
+  langs:
+  - csharp
+  - vb
+  name: SystemPlatform
+  nameWithType: SystemPlatform
+  fullName: Fantas.SystemPlatform
+  type: Enum
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/SystemPlatform.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Enumeration to with runtime system platform
+  example: []
+  syntax:
+    content: public enum SystemPlatform
+    content.vb: Public Enum SystemPlatform
+- uid: Fantas.SystemPlatform.Unknown
+  commentId: F:Fantas.SystemPlatform.Unknown
+  id: Unknown
+  parent: Fantas.SystemPlatform
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: SystemPlatform.Unknown
+  fullName: Fantas.SystemPlatform.Unknown
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/SystemPlatform.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Unknown platform
+  example: []
+  syntax:
+    content: Unknown = 0
+    return:
+      type: Fantas.SystemPlatform
+- uid: Fantas.SystemPlatform.Windows
+  commentId: F:Fantas.SystemPlatform.Windows
+  id: Windows
+  parent: Fantas.SystemPlatform
+  langs:
+  - csharp
+  - vb
+  name: Windows
+  nameWithType: SystemPlatform.Windows
+  fullName: Fantas.SystemPlatform.Windows
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/SystemPlatform.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Windows
+  example: []
+  syntax:
+    content: Windows = 1
+    return:
+      type: Fantas.SystemPlatform
+- uid: Fantas.SystemPlatform.Xbox
+  commentId: F:Fantas.SystemPlatform.Xbox
+  id: Xbox
+  parent: Fantas.SystemPlatform
+  langs:
+  - csharp
+  - vb
+  name: Xbox
+  nameWithType: SystemPlatform.Xbox
+  fullName: Fantas.SystemPlatform.Xbox
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/SystemPlatform.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Xbox (UWP)
+  example: []
+  syntax:
+    content: Xbox = 2
+    return:
+      type: Fantas.SystemPlatform
+- uid: Fantas.SystemPlatform.MacOS
+  commentId: F:Fantas.SystemPlatform.MacOS
+  id: MacOS
+  parent: Fantas.SystemPlatform
+  langs:
+  - csharp
+  - vb
+  name: MacOS
+  nameWithType: SystemPlatform.MacOS
+  fullName: Fantas.SystemPlatform.MacOS
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/SystemPlatform.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: MacOS
+  example: []
+  syntax:
+    content: MacOS = 3
+    return:
+      type: Fantas.SystemPlatform
+- uid: Fantas.SystemPlatform.Linux
+  commentId: F:Fantas.SystemPlatform.Linux
+  id: Linux
+  parent: Fantas.SystemPlatform
+  langs:
+  - csharp
+  - vb
+  name: Linux
+  nameWithType: SystemPlatform.Linux
+  fullName: Fantas.SystemPlatform.Linux
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/SystemPlatform.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Linux
+  example: []
+  syntax:
+    content: Linux = 4
+    return:
+      type: Fantas.SystemPlatform
+- uid: Fantas.SystemPlatform.iOS
+  commentId: F:Fantas.SystemPlatform.iOS
+  id: iOS
+  parent: Fantas.SystemPlatform
+  langs:
+  - csharp
+  - vb
+  name: iOS
+  nameWithType: SystemPlatform.iOS
+  fullName: Fantas.SystemPlatform.iOS
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/SystemPlatform.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: iOS (notice for tvOS use tvOS)
+  example: []
+  syntax:
+    content: iOS = 5
+    return:
+      type: Fantas.SystemPlatform
+- uid: Fantas.SystemPlatform.tvOS
+  commentId: F:Fantas.SystemPlatform.tvOS
+  id: tvOS
+  parent: Fantas.SystemPlatform
+  langs:
+  - csharp
+  - vb
+  name: tvOS
+  nameWithType: SystemPlatform.tvOS
+  fullName: Fantas.SystemPlatform.tvOS
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/SystemPlatform.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: tvOS
+  example: []
+  syntax:
+    content: tvOS = 6
+    return:
+      type: Fantas.SystemPlatform
+- uid: Fantas.SystemPlatform.Android
+  commentId: F:Fantas.SystemPlatform.Android
+  id: Android
+  parent: Fantas.SystemPlatform
+  langs:
+  - csharp
+  - vb
+  name: Android
+  nameWithType: SystemPlatform.Android
+  fullName: Fantas.SystemPlatform.Android
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/SystemPlatform.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Android
+  example: []
+  syntax:
+    content: Android = 7
+    return:
+      type: Fantas.SystemPlatform
+references:
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: Fantas.SystemPlatform
+  commentId: T:Fantas.SystemPlatform
+  parent: Fantas
+  isExternal: true
+  href: Fantas.SystemPlatform.html
+  name: SystemPlatform
+  nameWithType: SystemPlatform
+  fullName: Fantas.SystemPlatform

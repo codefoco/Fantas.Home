@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.AnimationTimingFunction
+  commentId: T:Fantas.AnimationTimingFunction
+  id: AnimationTimingFunction
+  parent: Fantas
+  children:
+  - Fantas.AnimationTimingFunction.#ctor(System.Object,System.IntPtr)
+  - Fantas.AnimationTimingFunction.BeginInvoke(System.Single,System.AsyncCallback,System.Object)
+  - Fantas.AnimationTimingFunction.EndInvoke(System.IAsyncResult)
+  - Fantas.AnimationTimingFunction.Invoke(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: AnimationTimingFunction
+  nameWithType: AnimationTimingFunction
+  fullName: Fantas.AnimationTimingFunction
+  type: Delegate
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation/AnimationTimingFunction.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Delegate used to customize timing function
+  example: []
+  syntax:
+    content: public delegate float AnimationTimingFunction(float time)
+    parameters:
+    - id: time
+      type: System.Single
+      description: ''
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Delegate Function AnimationTimingFunction(time As Single) As Single
+- uid: Fantas.AnimationTimingFunction.#ctor(System.Object,System.IntPtr)
+  commentId: M:Fantas.AnimationTimingFunction.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: Fantas.AnimationTimingFunction
+  langs:
+  - csharp
+  - vb
+  name: AnimationTimingFunction(object, nint)
+  nameWithType: AnimationTimingFunction.AnimationTimingFunction(object, nint)
+  fullName: Fantas.AnimationTimingFunction.AnimationTimingFunction(object, nint)
+  type: Constructor
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation/AnimationTimingFunction.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  syntax:
+    content: public AnimationTimingFunction(object @object, nint method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New([object] As Object, method As IntPtr)
+  overload: Fantas.AnimationTimingFunction.#ctor*
+  nameWithType.vb: AnimationTimingFunction.New(Object, IntPtr)
+  fullName.vb: Fantas.AnimationTimingFunction.New(Object, System.IntPtr)
+  name.vb: New(Object, IntPtr)
+- uid: Fantas.AnimationTimingFunction.Invoke(System.Single)
+  commentId: M:Fantas.AnimationTimingFunction.Invoke(System.Single)
+  id: Invoke(System.Single)
+  parent: Fantas.AnimationTimingFunction
+  langs:
+  - csharp
+  - vb
+  name: Invoke(float)
+  nameWithType: AnimationTimingFunction.Invoke(float)
+  fullName: Fantas.AnimationTimingFunction.Invoke(float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation/AnimationTimingFunction.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  syntax:
+    content: public virtual float Invoke(float time)
+    parameters:
+    - id: time
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Overridable Function Invoke(time As Single) As Single
+  overload: Fantas.AnimationTimingFunction.Invoke*
+  nameWithType.vb: AnimationTimingFunction.Invoke(Single)
+  fullName.vb: Fantas.AnimationTimingFunction.Invoke(Single)
+  name.vb: Invoke(Single)
+- uid: Fantas.AnimationTimingFunction.BeginInvoke(System.Single,System.AsyncCallback,System.Object)
+  commentId: M:Fantas.AnimationTimingFunction.BeginInvoke(System.Single,System.AsyncCallback,System.Object)
+  id: BeginInvoke(System.Single,System.AsyncCallback,System.Object)
+  parent: Fantas.AnimationTimingFunction
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(float, AsyncCallback, object)
+  nameWithType: AnimationTimingFunction.BeginInvoke(float, AsyncCallback, object)
+  fullName: Fantas.AnimationTimingFunction.BeginInvoke(float, System.AsyncCallback, object)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation/AnimationTimingFunction.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(float time, AsyncCallback callback, object @object)
+    parameters:
+    - id: time
+      type: System.Single
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(time As Single, callback As AsyncCallback, [object] As Object) As IAsyncResult
+  overload: Fantas.AnimationTimingFunction.BeginInvoke*
+  nameWithType.vb: AnimationTimingFunction.BeginInvoke(Single, AsyncCallback, Object)
+  fullName.vb: Fantas.AnimationTimingFunction.BeginInvoke(Single, System.AsyncCallback, Object)
+  name.vb: BeginInvoke(Single, AsyncCallback, Object)
+- uid: Fantas.AnimationTimingFunction.EndInvoke(System.IAsyncResult)
+  commentId: M:Fantas.AnimationTimingFunction.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: Fantas.AnimationTimingFunction
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: AnimationTimingFunction.EndInvoke(IAsyncResult)
+  fullName: Fantas.AnimationTimingFunction.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation/AnimationTimingFunction.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  syntax:
+    content: public virtual float EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    return:
+      type: System.Single
+    content.vb: Public Overridable Function EndInvoke(result As IAsyncResult) As Single
+  overload: Fantas.AnimationTimingFunction.EndInvoke*
+references:
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.AnimationTimingFunction.#ctor*
+  commentId: Overload:Fantas.AnimationTimingFunction.#ctor
+  isExternal: true
+  href: Fantas.AnimationTimingFunction.html#Fantas_AnimationTimingFunction__ctor_System_Object_System_IntPtr_
+  name: AnimationTimingFunction
+  nameWithType: AnimationTimingFunction.AnimationTimingFunction
+  fullName: Fantas.AnimationTimingFunction.AnimationTimingFunction
+  nameWithType.vb: AnimationTimingFunction.New
+  fullName.vb: Fantas.AnimationTimingFunction.New
+  name.vb: New
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: Fantas.AnimationTimingFunction.Invoke*
+  commentId: Overload:Fantas.AnimationTimingFunction.Invoke
+  isExternal: true
+  href: Fantas.AnimationTimingFunction.html#Fantas_AnimationTimingFunction_Invoke_System_Single_
+  name: Invoke
+  nameWithType: AnimationTimingFunction.Invoke
+  fullName: Fantas.AnimationTimingFunction.Invoke
+- uid: Fantas.AnimationTimingFunction.BeginInvoke*
+  commentId: Overload:Fantas.AnimationTimingFunction.BeginInvoke
+  isExternal: true
+  href: Fantas.AnimationTimingFunction.html#Fantas_AnimationTimingFunction_BeginInvoke_System_Single_System_AsyncCallback_System_Object_
+  name: BeginInvoke
+  nameWithType: AnimationTimingFunction.BeginInvoke
+  fullName: Fantas.AnimationTimingFunction.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.asynccallback
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: Fantas.AnimationTimingFunction.EndInvoke*
+  commentId: Overload:Fantas.AnimationTimingFunction.EndInvoke
+  isExternal: true
+  href: Fantas.AnimationTimingFunction.html#Fantas_AnimationTimingFunction_EndInvoke_System_IAsyncResult_
+  name: EndInvoke
+  nameWithType: AnimationTimingFunction.EndInvoke
+  fullName: Fantas.AnimationTimingFunction.EndInvoke

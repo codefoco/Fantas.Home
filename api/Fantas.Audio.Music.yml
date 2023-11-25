@@ -1,0 +1,461 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.Audio.Music
+  commentId: T:Fantas.Audio.Music
+  id: Music
+  parent: Fantas.Audio
+  children:
+  - Fantas.Audio.Music.Duration
+  - Fantas.Audio.Music.FromFile(System.String)
+  - Fantas.Audio.Music.FromName(System.String)
+  - Fantas.Audio.Music.Name
+  langs:
+  - csharp
+  - vb
+  name: Music
+  nameWithType: Music
+  fullName: Fantas.Audio.Music
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Audio/Music.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Audio
+  summary: >-
+    Background music object
+
+    Recommended formats:
+
+    ogg on linux
+
+    m4a (H264/AAC) on Apple and Android
+
+    wma on Windows/UWP
+
+    (mp3 isn't recommended since it has licensing concerns)
+  example: []
+  syntax:
+    content: public sealed class Music
+    content.vb: Public NotInheritable Class Music
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Fantas.Audio.Music.FromFile(System.String)
+  commentId: M:Fantas.Audio.Music.FromFile(System.String)
+  id: FromFile(System.String)
+  parent: Fantas.Audio.Music
+  langs:
+  - csharp
+  - vb
+  name: FromFile(string)
+  nameWithType: Music.FromFile(string)
+  fullName: Fantas.Audio.Music.FromFile(string)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Audio/Music.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Audio
+  summary: Load a music from file
+  example: []
+  syntax:
+    content: public static Music FromFile(string fileName)
+    parameters:
+    - id: fileName
+      type: System.String
+      description: ''
+    return:
+      type: Fantas.Audio.Music
+      description: ''
+    content.vb: Public Shared Function FromFile(fileName As String) As Music
+  overload: Fantas.Audio.Music.FromFile*
+  nameWithType.vb: Music.FromFile(String)
+  fullName.vb: Fantas.Audio.Music.FromFile(String)
+  name.vb: FromFile(String)
+- uid: Fantas.Audio.Music.FromName(System.String)
+  commentId: M:Fantas.Audio.Music.FromName(System.String)
+  id: FromName(System.String)
+  parent: Fantas.Audio.Music
+  langs:
+  - csharp
+  - vb
+  name: FromName(string)
+  nameWithType: Music.FromName(string)
+  fullName: Fantas.Audio.Music.FromName(string)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Audio/Music.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Audio
+  summary: Load a music by name
+  example: []
+  syntax:
+    content: public static Music FromName(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    return:
+      type: Fantas.Audio.Music
+      description: ''
+    content.vb: Public Shared Function FromName(name As String) As Music
+  overload: Fantas.Audio.Music.FromName*
+  nameWithType.vb: Music.FromName(String)
+  fullName.vb: Fantas.Audio.Music.FromName(String)
+  name.vb: FromName(String)
+- uid: Fantas.Audio.Music.Name
+  commentId: P:Fantas.Audio.Music.Name
+  id: Name
+  parent: Fantas.Audio.Music
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Music.Name
+  fullName: Fantas.Audio.Music.Name
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Audio/Music.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Audio
+  summary: Music name
+  example: []
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: Fantas.Audio.Music.Name*
+- uid: Fantas.Audio.Music.Duration
+  commentId: P:Fantas.Audio.Music.Duration
+  id: Duration
+  parent: Fantas.Audio.Music
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: Music.Duration
+  fullName: Fantas.Audio.Music.Duration
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Audio/Music.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Audio
+  summary: Duration of music (in seconds)
+  example: []
+  syntax:
+    content: public float Duration { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Duration As Single
+  overload: Fantas.Audio.Music.Duration*
+references:
+- uid: Fantas.Audio
+  commentId: N:Fantas.Audio
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.Audio
+  nameWithType: Fantas.Audio
+  fullName: Fantas.Audio
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Audio
+    name: Audio
+    isExternal: true
+    href: Fantas.Audio.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Audio
+    name: Audio
+    isExternal: true
+    href: Fantas.Audio.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.Audio.Music.FromFile*
+  commentId: Overload:Fantas.Audio.Music.FromFile
+  isExternal: true
+  href: Fantas.Audio.Music.html#Fantas_Audio_Music_FromFile_System_String_
+  name: FromFile
+  nameWithType: Music.FromFile
+  fullName: Fantas.Audio.Music.FromFile
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Fantas.Audio.Music
+  commentId: T:Fantas.Audio.Music
+  parent: Fantas.Audio
+  isExternal: true
+  href: Fantas.Audio.Music.html
+  name: Music
+  nameWithType: Music
+  fullName: Fantas.Audio.Music
+- uid: Fantas.Audio.Music.FromName*
+  commentId: Overload:Fantas.Audio.Music.FromName
+  isExternal: true
+  href: Fantas.Audio.Music.html#Fantas_Audio_Music_FromName_System_String_
+  name: FromName
+  nameWithType: Music.FromName
+  fullName: Fantas.Audio.Music.FromName
+- uid: Fantas.Audio.Music.Name*
+  commentId: Overload:Fantas.Audio.Music.Name
+  isExternal: true
+  href: Fantas.Audio.Music.html#Fantas_Audio_Music_Name
+  name: Name
+  nameWithType: Music.Name
+  fullName: Fantas.Audio.Music.Name
+- uid: Fantas.Audio.Music.Duration*
+  commentId: Overload:Fantas.Audio.Music.Duration
+  isExternal: true
+  href: Fantas.Audio.Music.html#Fantas_Audio_Music_Duration
+  name: Duration
+  nameWithType: Music.Duration
+  fullName: Fantas.Audio.Music.Duration
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single

@@ -1,0 +1,688 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.ColorExtensions
+  commentId: T:Fantas.ColorExtensions
+  id: ColorExtensions
+  parent: Fantas
+  children:
+  - Fantas.ColorExtensions.FromHSL(System.Single,System.Single,System.Single)
+  - Fantas.ColorExtensions.Invert(System.Drawing.Color)
+  - Fantas.ColorExtensions.Lerp(System.Drawing.Color,System.Drawing.Color,System.Single)
+  - Fantas.ColorExtensions.ToHSL(System.Drawing.Color,System.Single@,System.Single@,System.Single@)
+  - Fantas.ColorExtensions.WithAlpha(System.Drawing.Color,System.Single)
+  - Fantas.ColorExtensions.WithBrightness(System.Drawing.Color,System.Single)
+  - Fantas.ColorExtensions.WithRotatedHue(System.Drawing.Color,System.Single)
+  - Fantas.ColorExtensions.WithSaturation(System.Drawing.Color,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: ColorExtensions
+  nameWithType: ColorExtensions
+  fullName: Fantas.ColorExtensions
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/ColorExtensions.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Contains Color extensions
+
+
+    Implementation code took from Allegro and Troll2D:
+
+    https://github.com/liballeg/allegro5/blob/master/addons/color/color.c
+
+    https://github.com/viniciusjarina/troll2d/blob/master/include/troll/color.h
+  example: []
+  syntax:
+    content: public static class ColorExtensions
+    content.vb: Public Module ColorExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Fantas.ColorExtensions.FromHSL(System.Single,System.Single,System.Single)
+  commentId: M:Fantas.ColorExtensions.FromHSL(System.Single,System.Single,System.Single)
+  id: FromHSL(System.Single,System.Single,System.Single)
+  parent: Fantas.ColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromHSL(float, float, float)
+  nameWithType: ColorExtensions.FromHSL(float, float, float)
+  fullName: Fantas.ColorExtensions.FromHSL(float, float, float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/ColorExtensions.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Create a Color using hue, saturation and lightness
+  example: []
+  syntax:
+    content: public static Color FromHSL(float hue, float saturation, float lightness)
+    parameters:
+    - id: hue
+      type: System.Single
+      description: ''
+    - id: saturation
+      type: System.Single
+      description: ''
+    - id: lightness
+      type: System.Single
+      description: ''
+    return:
+      type: System.Drawing.Color
+      description: ''
+    content.vb: Public Shared Function FromHSL(hue As Single, saturation As Single, lightness As Single) As Color
+  overload: Fantas.ColorExtensions.FromHSL*
+  nameWithType.vb: ColorExtensions.FromHSL(Single, Single, Single)
+  fullName.vb: Fantas.ColorExtensions.FromHSL(Single, Single, Single)
+  name.vb: FromHSL(Single, Single, Single)
+- uid: Fantas.ColorExtensions.ToHSL(System.Drawing.Color,System.Single@,System.Single@,System.Single@)
+  commentId: M:Fantas.ColorExtensions.ToHSL(System.Drawing.Color,System.Single@,System.Single@,System.Single@)
+  id: ToHSL(System.Drawing.Color,System.Single@,System.Single@,System.Single@)
+  isExtensionMethod: true
+  parent: Fantas.ColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToHSL(Color, out float, out float, out float)
+  nameWithType: ColorExtensions.ToHSL(Color, out float, out float, out float)
+  fullName: Fantas.ColorExtensions.ToHSL(System.Drawing.Color, out float, out float, out float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/ColorExtensions.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Get the color components as Hue, Saturation and Lightness
+  example: []
+  syntax:
+    content: public static void ToHSL(this Color self, out float hue, out float saturation, out float lightness)
+    parameters:
+    - id: self
+      type: System.Drawing.Color
+      description: ''
+    - id: hue
+      type: System.Single
+      description: Hue component (0-360)
+    - id: saturation
+      type: System.Single
+      description: Saturation (0f..1f)
+    - id: lightness
+      type: System.Single
+      description: Lightness(0f..1f)
+    content.vb: Public Shared Sub ToHSL(self As Color, hue As Single, saturation As Single, lightness As Single)
+  overload: Fantas.ColorExtensions.ToHSL*
+  nameWithType.vb: ColorExtensions.ToHSL(Color, Single, Single, Single)
+  fullName.vb: Fantas.ColorExtensions.ToHSL(System.Drawing.Color, Single, Single, Single)
+  name.vb: ToHSL(Color, Single, Single, Single)
+- uid: Fantas.ColorExtensions.WithRotatedHue(System.Drawing.Color,System.Single)
+  commentId: M:Fantas.ColorExtensions.WithRotatedHue(System.Drawing.Color,System.Single)
+  id: WithRotatedHue(System.Drawing.Color,System.Single)
+  isExtensionMethod: true
+  parent: Fantas.ColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: WithRotatedHue(Color, float)
+  nameWithType: ColorExtensions.WithRotatedHue(Color, float)
+  fullName: Fantas.ColorExtensions.WithRotatedHue(System.Drawing.Color, float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/ColorExtensions.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Create a new color with Hue rotated
+  example: []
+  syntax:
+    content: public static Color WithRotatedHue(this Color self, float angle)
+    parameters:
+    - id: self
+      type: System.Drawing.Color
+      description: Color
+    - id: angle
+      type: System.Single
+      description: Angle to rotate in radian
+    return:
+      type: System.Drawing.Color
+    content.vb: Public Shared Function WithRotatedHue(self As Color, angle As Single) As Color
+  overload: Fantas.ColorExtensions.WithRotatedHue*
+  nameWithType.vb: ColorExtensions.WithRotatedHue(Color, Single)
+  fullName.vb: Fantas.ColorExtensions.WithRotatedHue(System.Drawing.Color, Single)
+  name.vb: WithRotatedHue(Color, Single)
+- uid: Fantas.ColorExtensions.WithSaturation(System.Drawing.Color,System.Single)
+  commentId: M:Fantas.ColorExtensions.WithSaturation(System.Drawing.Color,System.Single)
+  id: WithSaturation(System.Drawing.Color,System.Single)
+  isExtensionMethod: true
+  parent: Fantas.ColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: WithSaturation(Color, float)
+  nameWithType: ColorExtensions.WithSaturation(Color, float)
+  fullName: Fantas.ColorExtensions.WithSaturation(System.Drawing.Color, float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/ColorExtensions.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Create a new color with new saturation
+  example: []
+  syntax:
+    content: public static Color WithSaturation(this Color self, float delta)
+    parameters:
+    - id: self
+      type: System.Drawing.Color
+      description: ''
+    - id: delta
+      type: System.Single
+      description: The amount to increase the saturation
+    return:
+      type: System.Drawing.Color
+      description: ''
+    content.vb: Public Shared Function WithSaturation(self As Color, delta As Single) As Color
+  overload: Fantas.ColorExtensions.WithSaturation*
+  nameWithType.vb: ColorExtensions.WithSaturation(Color, Single)
+  fullName.vb: Fantas.ColorExtensions.WithSaturation(System.Drawing.Color, Single)
+  name.vb: WithSaturation(Color, Single)
+- uid: Fantas.ColorExtensions.WithBrightness(System.Drawing.Color,System.Single)
+  commentId: M:Fantas.ColorExtensions.WithBrightness(System.Drawing.Color,System.Single)
+  id: WithBrightness(System.Drawing.Color,System.Single)
+  isExtensionMethod: true
+  parent: Fantas.ColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: WithBrightness(Color, float)
+  nameWithType: ColorExtensions.WithBrightness(Color, float)
+  fullName: Fantas.ColorExtensions.WithBrightness(System.Drawing.Color, float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/ColorExtensions.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Create a new color updating the lightness
+  example: []
+  syntax:
+    content: public static Color WithBrightness(this Color self, float delta)
+    parameters:
+    - id: self
+      type: System.Drawing.Color
+      description: ''
+    - id: delta
+      type: System.Single
+      description: ''
+    return:
+      type: System.Drawing.Color
+    content.vb: Public Shared Function WithBrightness(self As Color, delta As Single) As Color
+  overload: Fantas.ColorExtensions.WithBrightness*
+  nameWithType.vb: ColorExtensions.WithBrightness(Color, Single)
+  fullName.vb: Fantas.ColorExtensions.WithBrightness(System.Drawing.Color, Single)
+  name.vb: WithBrightness(Color, Single)
+- uid: Fantas.ColorExtensions.Invert(System.Drawing.Color)
+  commentId: M:Fantas.ColorExtensions.Invert(System.Drawing.Color)
+  id: Invert(System.Drawing.Color)
+  isExtensionMethod: true
+  parent: Fantas.ColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: Invert(Color)
+  nameWithType: ColorExtensions.Invert(Color)
+  fullName: Fantas.ColorExtensions.Invert(System.Drawing.Color)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/ColorExtensions.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Invert the color components RGB (it preserves the alpha)
+
+    Ex 0,0,255 -&gt; 255,255,0
+  example: []
+  syntax:
+    content: public static Color Invert(this Color self)
+    parameters:
+    - id: self
+      type: System.Drawing.Color
+      description: ''
+    return:
+      type: System.Drawing.Color
+      description: ''
+    content.vb: Public Shared Function Invert(self As Color) As Color
+  overload: Fantas.ColorExtensions.Invert*
+- uid: Fantas.ColorExtensions.Lerp(System.Drawing.Color,System.Drawing.Color,System.Single)
+  commentId: M:Fantas.ColorExtensions.Lerp(System.Drawing.Color,System.Drawing.Color,System.Single)
+  id: Lerp(System.Drawing.Color,System.Drawing.Color,System.Single)
+  isExtensionMethod: true
+  parent: Fantas.ColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: Lerp(Color, Color, float)
+  nameWithType: ColorExtensions.Lerp(Color, Color, float)
+  fullName: Fantas.ColorExtensions.Lerp(System.Drawing.Color, System.Drawing.Color, float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/ColorExtensions.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Performs linear interpolation of <xref href="System.Drawing.Color" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static Color Lerp(this Color value1, Color value2, float amount)
+    parameters:
+    - id: value1
+      type: System.Drawing.Color
+      description: Source <xref href="System.Drawing.Color" data-throw-if-not-resolved="false"></xref>.
+    - id: value2
+      type: System.Drawing.Color
+      description: Destination <xref href="System.Drawing.Color" data-throw-if-not-resolved="false"></xref>.
+    - id: amount
+      type: System.Single
+      description: Interpolation factor.
+    return:
+      type: System.Drawing.Color
+      description: Interpolated <xref href="System.Drawing.Color" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Shared Function Lerp(value1 As Color, value2 As Color, amount As Single) As Color
+  overload: Fantas.ColorExtensions.Lerp*
+  nameWithType.vb: ColorExtensions.Lerp(Color, Color, Single)
+  fullName.vb: Fantas.ColorExtensions.Lerp(System.Drawing.Color, System.Drawing.Color, Single)
+  name.vb: Lerp(Color, Color, Single)
+- uid: Fantas.ColorExtensions.WithAlpha(System.Drawing.Color,System.Single)
+  commentId: M:Fantas.ColorExtensions.WithAlpha(System.Drawing.Color,System.Single)
+  id: WithAlpha(System.Drawing.Color,System.Single)
+  isExtensionMethod: true
+  parent: Fantas.ColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: WithAlpha(Color, float)
+  nameWithType: ColorExtensions.WithAlpha(Color, float)
+  fullName: Fantas.ColorExtensions.WithAlpha(System.Drawing.Color, float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/ColorExtensions.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Create a new color with new alpha value (0-1f)
+  example: []
+  syntax:
+    content: public static Color WithAlpha(this Color self, float alpha)
+    parameters:
+    - id: self
+      type: System.Drawing.Color
+      description: ''
+    - id: alpha
+      type: System.Single
+      description: Alpha from 0 to 1
+    return:
+      type: System.Drawing.Color
+      description: ''
+    content.vb: Public Shared Function WithAlpha(self As Color, alpha As Single) As Color
+  overload: Fantas.ColorExtensions.WithAlpha*
+  nameWithType.vb: ColorExtensions.WithAlpha(Color, Single)
+  fullName.vb: Fantas.ColorExtensions.WithAlpha(System.Drawing.Color, Single)
+  name.vb: WithAlpha(Color, Single)
+references:
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.ColorExtensions.FromHSL*
+  commentId: Overload:Fantas.ColorExtensions.FromHSL
+  isExternal: true
+  href: Fantas.ColorExtensions.html#Fantas_ColorExtensions_FromHSL_System_Single_System_Single_System_Single_
+  name: FromHSL
+  nameWithType: ColorExtensions.FromHSL
+  fullName: Fantas.ColorExtensions.FromHSL
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Drawing.Color
+  commentId: T:System.Drawing.Color
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: Fantas.ColorExtensions.ToHSL*
+  commentId: Overload:Fantas.ColorExtensions.ToHSL
+  isExternal: true
+  href: Fantas.ColorExtensions.html#Fantas_ColorExtensions_ToHSL_System_Drawing_Color_System_Single__System_Single__System_Single__
+  name: ToHSL
+  nameWithType: ColorExtensions.ToHSL
+  fullName: Fantas.ColorExtensions.ToHSL
+- uid: Fantas.ColorExtensions.WithRotatedHue*
+  commentId: Overload:Fantas.ColorExtensions.WithRotatedHue
+  isExternal: true
+  href: Fantas.ColorExtensions.html#Fantas_ColorExtensions_WithRotatedHue_System_Drawing_Color_System_Single_
+  name: WithRotatedHue
+  nameWithType: ColorExtensions.WithRotatedHue
+  fullName: Fantas.ColorExtensions.WithRotatedHue
+- uid: Fantas.ColorExtensions.WithSaturation*
+  commentId: Overload:Fantas.ColorExtensions.WithSaturation
+  isExternal: true
+  href: Fantas.ColorExtensions.html#Fantas_ColorExtensions_WithSaturation_System_Drawing_Color_System_Single_
+  name: WithSaturation
+  nameWithType: ColorExtensions.WithSaturation
+  fullName: Fantas.ColorExtensions.WithSaturation
+- uid: Fantas.ColorExtensions.WithBrightness*
+  commentId: Overload:Fantas.ColorExtensions.WithBrightness
+  isExternal: true
+  href: Fantas.ColorExtensions.html#Fantas_ColorExtensions_WithBrightness_System_Drawing_Color_System_Single_
+  name: WithBrightness
+  nameWithType: ColorExtensions.WithBrightness
+  fullName: Fantas.ColorExtensions.WithBrightness
+- uid: Fantas.ColorExtensions.Invert*
+  commentId: Overload:Fantas.ColorExtensions.Invert
+  isExternal: true
+  href: Fantas.ColorExtensions.html#Fantas_ColorExtensions_Invert_System_Drawing_Color_
+  name: Invert
+  nameWithType: ColorExtensions.Invert
+  fullName: Fantas.ColorExtensions.Invert
+- uid: Fantas.ColorExtensions.Lerp*
+  commentId: Overload:Fantas.ColorExtensions.Lerp
+  isExternal: true
+  href: Fantas.ColorExtensions.html#Fantas_ColorExtensions_Lerp_System_Drawing_Color_System_Drawing_Color_System_Single_
+  name: Lerp
+  nameWithType: ColorExtensions.Lerp
+  fullName: Fantas.ColorExtensions.Lerp
+- uid: Fantas.ColorExtensions.WithAlpha*
+  commentId: Overload:Fantas.ColorExtensions.WithAlpha
+  isExternal: true
+  href: Fantas.ColorExtensions.html#Fantas_ColorExtensions_WithAlpha_System_Drawing_Color_System_Single_
+  name: WithAlpha
+  nameWithType: ColorExtensions.WithAlpha
+  fullName: Fantas.ColorExtensions.WithAlpha

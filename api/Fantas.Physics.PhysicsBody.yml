@@ -1,0 +1,1440 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.Physics.PhysicsBody
+  commentId: T:Fantas.Physics.PhysicsBody
+  id: PhysicsBody
+  parent: Fantas.Physics
+  children:
+  - Fantas.Physics.PhysicsBody.AllContactedBodies
+  - Fantas.Physics.PhysicsBody.AllowsRotation
+  - Fantas.Physics.PhysicsBody.AngularVelocity
+  - Fantas.Physics.PhysicsBody.ApplyAngularImpulse(System.Double)
+  - Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2)
+  - Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2,System.Drawing.PointF)
+  - Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2)
+  - Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2,System.Drawing.PointF)
+  - Fantas.Physics.PhysicsBody.ApplyTorque(System.Double)
+  - Fantas.Physics.PhysicsBody.Area
+  - Fantas.Physics.PhysicsBody.Category
+  - Fantas.Physics.PhysicsBody.CollisionMask
+  - Fantas.Physics.PhysicsBody.ContactMask
+  - Fantas.Physics.PhysicsBody.ContactWith(Fantas.Physics.PhysicsBody)
+  - Fantas.Physics.PhysicsBody.ContactWithAll(Fantas.Physics.PhysicsBody[])
+  - Fantas.Physics.PhysicsBody.ContactWithAny(Fantas.Physics.PhysicsBody[])
+  - Fantas.Physics.PhysicsBody.Density
+  - Fantas.Physics.PhysicsBody.Dynamic
+  - Fantas.Physics.PhysicsBody.Friction
+  - Fantas.Physics.PhysicsBody.Joints
+  - Fantas.Physics.PhysicsBody.Mass
+  - Fantas.Physics.PhysicsBody.Node
+  - Fantas.Physics.PhysicsBody.Resting
+  - Fantas.Physics.PhysicsBody.Restitution
+  - Fantas.Physics.PhysicsBody.Velocity
+  langs:
+  - csharp
+  - vb
+  name: PhysicsBody
+  nameWithType: PhysicsBody
+  fullName: Fantas.Physics.PhysicsBody
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Physics Body simulation object
+  example: []
+  syntax:
+    content: public abstract class PhysicsBody
+    content.vb: Public MustInherit Class PhysicsBody
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Fantas.Physics.CircleBody
+  - Fantas.Physics.Edge
+  - Fantas.Physics.PolygonBody
+  - Fantas.Physics.PolygonEdge
+  - Fantas.Physics.RectangleBody
+  - Fantas.Physics.RectangleEdge
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Fantas.Physics.PhysicsBody.ContactWith(Fantas.Physics.PhysicsBody)
+  commentId: M:Fantas.Physics.PhysicsBody.ContactWith(Fantas.Physics.PhysicsBody)
+  id: ContactWith(Fantas.Physics.PhysicsBody)
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: ContactWith(PhysicsBody)
+  nameWithType: PhysicsBody.ContactWith(PhysicsBody)
+  fullName: Fantas.Physics.PhysicsBody.ContactWith(Fantas.Physics.PhysicsBody)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Check if the body is in contact with another body
+  example: []
+  syntax:
+    content: public bool ContactWith(PhysicsBody otherBody)
+    parameters:
+    - id: otherBody
+      type: Fantas.Physics.PhysicsBody
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function ContactWith(otherBody As PhysicsBody) As Boolean
+  overload: Fantas.Physics.PhysicsBody.ContactWith*
+- uid: Fantas.Physics.PhysicsBody.ContactWithAny(Fantas.Physics.PhysicsBody[])
+  commentId: M:Fantas.Physics.PhysicsBody.ContactWithAny(Fantas.Physics.PhysicsBody[])
+  id: ContactWithAny(Fantas.Physics.PhysicsBody[])
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: ContactWithAny(PhysicsBody[])
+  nameWithType: PhysicsBody.ContactWithAny(PhysicsBody[])
+  fullName: Fantas.Physics.PhysicsBody.ContactWithAny(Fantas.Physics.PhysicsBody[])
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Check if this body is in contact with any of the given bodies
+  example: []
+  syntax:
+    content: public bool ContactWithAny(PhysicsBody[] otherBodies)
+    parameters:
+    - id: otherBodies
+      type: Fantas.Physics.PhysicsBody[]
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function ContactWithAny(otherBodies As PhysicsBody()) As Boolean
+  overload: Fantas.Physics.PhysicsBody.ContactWithAny*
+  nameWithType.vb: PhysicsBody.ContactWithAny(PhysicsBody())
+  fullName.vb: Fantas.Physics.PhysicsBody.ContactWithAny(Fantas.Physics.PhysicsBody())
+  name.vb: ContactWithAny(PhysicsBody())
+- uid: Fantas.Physics.PhysicsBody.ContactWithAll(Fantas.Physics.PhysicsBody[])
+  commentId: M:Fantas.Physics.PhysicsBody.ContactWithAll(Fantas.Physics.PhysicsBody[])
+  id: ContactWithAll(Fantas.Physics.PhysicsBody[])
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: ContactWithAll(PhysicsBody[])
+  nameWithType: PhysicsBody.ContactWithAll(PhysicsBody[])
+  fullName: Fantas.Physics.PhysicsBody.ContactWithAll(Fantas.Physics.PhysicsBody[])
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Check if this body is in contact with all given bodies
+  example: []
+  syntax:
+    content: public bool ContactWithAll(PhysicsBody[] otherBodies)
+    parameters:
+    - id: otherBodies
+      type: Fantas.Physics.PhysicsBody[]
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function ContactWithAll(otherBodies As PhysicsBody()) As Boolean
+  overload: Fantas.Physics.PhysicsBody.ContactWithAll*
+  nameWithType.vb: PhysicsBody.ContactWithAll(PhysicsBody())
+  fullName.vb: Fantas.Physics.PhysicsBody.ContactWithAll(Fantas.Physics.PhysicsBody())
+  name.vb: ContactWithAll(PhysicsBody())
+- uid: Fantas.Physics.PhysicsBody.ApplyAngularImpulse(System.Double)
+  commentId: M:Fantas.Physics.PhysicsBody.ApplyAngularImpulse(System.Double)
+  id: ApplyAngularImpulse(System.Double)
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: ApplyAngularImpulse(double)
+  nameWithType: PhysicsBody.ApplyAngularImpulse(double)
+  fullName: Fantas.Physics.PhysicsBody.ApplyAngularImpulse(double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Apply angular impulse to body
+  example: []
+  syntax:
+    content: public void ApplyAngularImpulse(double impulse)
+    parameters:
+    - id: impulse
+      type: System.Double
+      description: ''
+    content.vb: Public Sub ApplyAngularImpulse(impulse As Double)
+  overload: Fantas.Physics.PhysicsBody.ApplyAngularImpulse*
+  nameWithType.vb: PhysicsBody.ApplyAngularImpulse(Double)
+  fullName.vb: Fantas.Physics.PhysicsBody.ApplyAngularImpulse(Double)
+  name.vb: ApplyAngularImpulse(Double)
+- uid: Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2)
+  commentId: M:Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2)
+  id: ApplyForce(System.Numerics.Vector2)
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: ApplyForce(Vector2)
+  nameWithType: PhysicsBody.ApplyForce(Vector2)
+  fullName: Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Applies a force through the center of mass of the body
+  example: []
+  syntax:
+    content: public void ApplyForce(Vector2 force)
+    parameters:
+    - id: force
+      type: System.Numerics.Vector2
+      description: ''
+    content.vb: Public Sub ApplyForce(force As Vector2)
+  overload: Fantas.Physics.PhysicsBody.ApplyForce*
+- uid: Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2,System.Drawing.PointF)
+  commentId: M:Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2,System.Drawing.PointF)
+  id: ApplyForce(System.Numerics.Vector2,System.Drawing.PointF)
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: ApplyForce(Vector2, PointF)
+  nameWithType: PhysicsBody.ApplyForce(Vector2, PointF)
+  fullName: Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2, System.Drawing.PointF)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Applies a force at the point to the body
+  example: []
+  syntax:
+    content: public void ApplyForce(Vector2 force, PointF point)
+    parameters:
+    - id: force
+      type: System.Numerics.Vector2
+      description: ''
+    - id: point
+      type: System.Drawing.PointF
+      description: ''
+    content.vb: Public Sub ApplyForce(force As Vector2, point As PointF)
+  overload: Fantas.Physics.PhysicsBody.ApplyForce*
+- uid: Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2)
+  commentId: M:Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2)
+  id: ApplyImpulse(System.Numerics.Vector2)
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: ApplyImpulse(Vector2)
+  nameWithType: PhysicsBody.ApplyImpulse(Vector2)
+  fullName: Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Applies a impulse at the point to the body
+  example: []
+  syntax:
+    content: public void ApplyImpulse(Vector2 impulse)
+    parameters:
+    - id: impulse
+      type: System.Numerics.Vector2
+      description: ''
+    content.vb: Public Sub ApplyImpulse(impulse As Vector2)
+  overload: Fantas.Physics.PhysicsBody.ApplyImpulse*
+- uid: Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2,System.Drawing.PointF)
+  commentId: M:Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2,System.Drawing.PointF)
+  id: ApplyImpulse(System.Numerics.Vector2,System.Drawing.PointF)
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: ApplyImpulse(Vector2, PointF)
+  nameWithType: PhysicsBody.ApplyImpulse(Vector2, PointF)
+  fullName: Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2, System.Drawing.PointF)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Applies a impulse at the point to the body
+  example: []
+  syntax:
+    content: public void ApplyImpulse(Vector2 impulse, PointF point)
+    parameters:
+    - id: impulse
+      type: System.Numerics.Vector2
+      description: ''
+    - id: point
+      type: System.Drawing.PointF
+      description: ''
+    content.vb: Public Sub ApplyImpulse(impulse As Vector2, point As PointF)
+  overload: Fantas.Physics.PhysicsBody.ApplyImpulse*
+- uid: Fantas.Physics.PhysicsBody.ApplyTorque(System.Double)
+  commentId: M:Fantas.Physics.PhysicsBody.ApplyTorque(System.Double)
+  id: ApplyTorque(System.Double)
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: ApplyTorque(double)
+  nameWithType: PhysicsBody.ApplyTorque(double)
+  fullName: Fantas.Physics.PhysicsBody.ApplyTorque(double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Applies a torque to the body
+  example: []
+  syntax:
+    content: public void ApplyTorque(double torque)
+    parameters:
+    - id: torque
+      type: System.Double
+      description: ''
+    content.vb: Public Sub ApplyTorque(torque As Double)
+  overload: Fantas.Physics.PhysicsBody.ApplyTorque*
+  nameWithType.vb: PhysicsBody.ApplyTorque(Double)
+  fullName.vb: Fantas.Physics.PhysicsBody.ApplyTorque(Double)
+  name.vb: ApplyTorque(Double)
+- uid: Fantas.Physics.PhysicsBody.AllContactedBodies
+  commentId: P:Fantas.Physics.PhysicsBody.AllContactedBodies
+  id: AllContactedBodies
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: AllContactedBodies
+  nameWithType: PhysicsBody.AllContactedBodies
+  fullName: Fantas.Physics.PhysicsBody.AllContactedBodies
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: List of bodies in contact with this body
+  example: []
+  syntax:
+    content: public IReadOnlyList<PhysicsBody> AllContactedBodies { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IReadOnlyList{Fantas.Physics.PhysicsBody}
+    content.vb: Public ReadOnly Property AllContactedBodies As IReadOnlyList(Of PhysicsBody)
+  overload: Fantas.Physics.PhysicsBody.AllContactedBodies*
+- uid: Fantas.Physics.PhysicsBody.AllowsRotation
+  commentId: P:Fantas.Physics.PhysicsBody.AllowsRotation
+  id: AllowsRotation
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: AllowsRotation
+  nameWithType: PhysicsBody.AllowsRotation
+  fullName: Fantas.Physics.PhysicsBody.AllowsRotation
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: If body is allowed to rotate (Angular momentum)
+  example: []
+  syntax:
+    content: public bool AllowsRotation { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AllowsRotation As Boolean
+  overload: Fantas.Physics.PhysicsBody.AllowsRotation*
+- uid: Fantas.Physics.PhysicsBody.AngularVelocity
+  commentId: P:Fantas.Physics.PhysicsBody.AngularVelocity
+  id: AngularVelocity
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: AngularVelocity
+  nameWithType: PhysicsBody.AngularVelocity
+  fullName: Fantas.Physics.PhysicsBody.AngularVelocity
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Angular velocity in radians per second.
+  example: []
+  syntax:
+    content: public double AngularVelocity { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property AngularVelocity As Double
+  overload: Fantas.Physics.PhysicsBody.AngularVelocity*
+- uid: Fantas.Physics.PhysicsBody.Area
+  commentId: P:Fantas.Physics.PhysicsBody.Area
+  id: Area
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: Area
+  nameWithType: PhysicsBody.Area
+  fullName: Fantas.Physics.PhysicsBody.Area
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Area of the physics body
+  example: []
+  syntax:
+    content: public double Area { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Area As Double
+  overload: Fantas.Physics.PhysicsBody.Area*
+- uid: Fantas.Physics.PhysicsBody.Category
+  commentId: P:Fantas.Physics.PhysicsBody.Category
+  id: Category
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: PhysicsBody.Category
+  fullName: Fantas.Physics.PhysicsBody.Category
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Body category
+  example: []
+  syntax:
+    content: public int Category { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Category As Integer
+  overload: Fantas.Physics.PhysicsBody.Category*
+- uid: Fantas.Physics.PhysicsBody.ContactMask
+  commentId: P:Fantas.Physics.PhysicsBody.ContactMask
+  id: ContactMask
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: ContactMask
+  nameWithType: PhysicsBody.ContactMask
+  fullName: Fantas.Physics.PhysicsBody.ContactMask
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Contact mask
+  example: []
+  syntax:
+    content: public int ContactMask { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContactMask As Integer
+  overload: Fantas.Physics.PhysicsBody.ContactMask*
+- uid: Fantas.Physics.PhysicsBody.CollisionMask
+  commentId: P:Fantas.Physics.PhysicsBody.CollisionMask
+  id: CollisionMask
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: CollisionMask
+  nameWithType: PhysicsBody.CollisionMask
+  fullName: Fantas.Physics.PhysicsBody.CollisionMask
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Collision mask
+  example: []
+  syntax:
+    content: public int CollisionMask { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CollisionMask As Integer
+  overload: Fantas.Physics.PhysicsBody.CollisionMask*
+- uid: Fantas.Physics.PhysicsBody.Density
+  commentId: P:Fantas.Physics.PhysicsBody.Density
+  id: Density
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: Density
+  nameWithType: PhysicsBody.Density
+  fullName: Fantas.Physics.PhysicsBody.Density
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Body Density
+  example: []
+  syntax:
+    content: public double Density { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Density As Double
+  overload: Fantas.Physics.PhysicsBody.Density*
+- uid: Fantas.Physics.PhysicsBody.Dynamic
+  commentId: P:Fantas.Physics.PhysicsBody.Dynamic
+  id: Dynamic
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: Dynamic
+  nameWithType: PhysicsBody.Dynamic
+  fullName: Fantas.Physics.PhysicsBody.Dynamic
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Tells if the body is affected by forces and impulses in the simulation.
+  example: []
+  syntax:
+    content: public bool Dynamic { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Dynamic As Boolean
+  overload: Fantas.Physics.PhysicsBody.Dynamic*
+- uid: Fantas.Physics.PhysicsBody.Friction
+  commentId: P:Fantas.Physics.PhysicsBody.Friction
+  id: Friction
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: Friction
+  nameWithType: PhysicsBody.Friction
+  fullName: Fantas.Physics.PhysicsBody.Friction
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: >-
+    Surface roughness of the physics body.
+
+    A value between 0.0 and 1.0, with a default of 0.2
+  example: []
+  syntax:
+    content: public double Friction { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Friction As Double
+  overload: Fantas.Physics.PhysicsBody.Friction*
+- uid: Fantas.Physics.PhysicsBody.Joints
+  commentId: P:Fantas.Physics.PhysicsBody.Joints
+  id: Joints
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: Joints
+  nameWithType: PhysicsBody.Joints
+  fullName: Fantas.Physics.PhysicsBody.Joints
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Joints that are connected to the physics body.
+  example: []
+  syntax:
+    content: public IReadOnlyList<PhysicsJoint> Joints { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IReadOnlyList{Fantas.Physics.PhysicsJoint}
+    content.vb: Public ReadOnly Property Joints As IReadOnlyList(Of PhysicsJoint)
+  overload: Fantas.Physics.PhysicsBody.Joints*
+- uid: Fantas.Physics.PhysicsBody.Mass
+  commentId: P:Fantas.Physics.PhysicsBody.Mass
+  id: Mass
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: Mass
+  nameWithType: PhysicsBody.Mass
+  fullName: Fantas.Physics.PhysicsBody.Mass
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Mass of the physics body. (Updates the density when set.)
+  example: []
+  syntax:
+    content: public double Mass { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Mass As Double
+  overload: Fantas.Physics.PhysicsBody.Mass*
+- uid: Fantas.Physics.PhysicsBody.Node
+  commentId: P:Fantas.Physics.PhysicsBody.Node
+  id: Node
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: Node
+  nameWithType: PhysicsBody.Node
+  fullName: Fantas.Physics.PhysicsBody.Node
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Get the node this body is connected
+  example: []
+  syntax:
+    content: public Node Node { get; }
+    parameters: []
+    return:
+      type: Fantas.Node
+    content.vb: Public ReadOnly Property Node As Node
+  overload: Fantas.Physics.PhysicsBody.Node*
+- uid: Fantas.Physics.PhysicsBody.Resting
+  commentId: P:Fantas.Physics.PhysicsBody.Resting
+  id: Resting
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: Resting
+  nameWithType: PhysicsBody.Resting
+  fullName: Fantas.Physics.PhysicsBody.Resting
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Tells whether the body is resting on another body in the simulation, and thus does not participate in the simulation.
+  example: []
+  syntax:
+    content: public bool Resting { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Resting As Boolean
+  overload: Fantas.Physics.PhysicsBody.Resting*
+- uid: Fantas.Physics.PhysicsBody.Restitution
+  commentId: P:Fantas.Physics.PhysicsBody.Restitution
+  id: Restitution
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: Restitution
+  nameWithType: PhysicsBody.Restitution
+  fullName: Fantas.Physics.PhysicsBody.Restitution
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Proportion of energy, between 0.0 and 1.0, that the physics body loses when it bounces off of another physics body. The default is 0.2.
+  example: []
+  syntax:
+    content: public double Restitution { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Restitution As Double
+  overload: Fantas.Physics.PhysicsBody.Restitution*
+- uid: Fantas.Physics.PhysicsBody.Velocity
+  commentId: P:Fantas.Physics.PhysicsBody.Velocity
+  id: Velocity
+  parent: Fantas.Physics.PhysicsBody
+  langs:
+  - csharp
+  - vb
+  name: Velocity
+  nameWithType: PhysicsBody.Velocity
+  fullName: Fantas.Physics.PhysicsBody.Velocity
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/PhysicsBody.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Physics
+  summary: Body motion velocity vector
+  example: []
+  syntax:
+    content: public Vector2 Velocity { get; set; }
+    parameters: []
+    return:
+      type: System.Numerics.Vector2
+    content.vb: Public Property Velocity As Vector2
+  overload: Fantas.Physics.PhysicsBody.Velocity*
+references:
+- uid: Fantas.Physics
+  commentId: N:Fantas.Physics
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.Physics
+  nameWithType: Fantas.Physics
+  fullName: Fantas.Physics
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Physics
+    name: Physics
+    isExternal: true
+    href: Fantas.Physics.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Physics
+    name: Physics
+    isExternal: true
+    href: Fantas.Physics.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.Physics.PhysicsBody.ContactWith*
+  commentId: Overload:Fantas.Physics.PhysicsBody.ContactWith
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ContactWith_Fantas_Physics_PhysicsBody_
+  name: ContactWith
+  nameWithType: PhysicsBody.ContactWith
+  fullName: Fantas.Physics.PhysicsBody.ContactWith
+- uid: Fantas.Physics.PhysicsBody
+  commentId: T:Fantas.Physics.PhysicsBody
+  parent: Fantas.Physics
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html
+  name: PhysicsBody
+  nameWithType: PhysicsBody
+  fullName: Fantas.Physics.PhysicsBody
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Fantas.Physics.PhysicsBody.ContactWithAny*
+  commentId: Overload:Fantas.Physics.PhysicsBody.ContactWithAny
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ContactWithAny_Fantas_Physics_PhysicsBody___
+  name: ContactWithAny
+  nameWithType: PhysicsBody.ContactWithAny
+  fullName: Fantas.Physics.PhysicsBody.ContactWithAny
+- uid: Fantas.Physics.PhysicsBody[]
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html
+  name: PhysicsBody[]
+  nameWithType: PhysicsBody[]
+  fullName: Fantas.Physics.PhysicsBody[]
+  nameWithType.vb: PhysicsBody()
+  fullName.vb: Fantas.Physics.PhysicsBody()
+  name.vb: PhysicsBody()
+  spec.csharp:
+  - uid: Fantas.Physics.PhysicsBody
+    name: PhysicsBody
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Fantas.Physics.PhysicsBody
+    name: PhysicsBody
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html
+  - name: (
+  - name: )
+- uid: Fantas.Physics.PhysicsBody.ContactWithAll*
+  commentId: Overload:Fantas.Physics.PhysicsBody.ContactWithAll
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ContactWithAll_Fantas_Physics_PhysicsBody___
+  name: ContactWithAll
+  nameWithType: PhysicsBody.ContactWithAll
+  fullName: Fantas.Physics.PhysicsBody.ContactWithAll
+- uid: Fantas.Physics.PhysicsBody.ApplyAngularImpulse*
+  commentId: Overload:Fantas.Physics.PhysicsBody.ApplyAngularImpulse
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ApplyAngularImpulse_System_Double_
+  name: ApplyAngularImpulse
+  nameWithType: PhysicsBody.ApplyAngularImpulse
+  fullName: Fantas.Physics.PhysicsBody.ApplyAngularImpulse
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Fantas.Physics.PhysicsBody.ApplyForce*
+  commentId: Overload:Fantas.Physics.PhysicsBody.ApplyForce
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ApplyForce_System_Numerics_Vector2_
+  name: ApplyForce
+  nameWithType: PhysicsBody.ApplyForce
+  fullName: Fantas.Physics.PhysicsBody.ApplyForce
+- uid: System.Numerics.Vector2
+  commentId: T:System.Numerics.Vector2
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  name: Vector2
+  nameWithType: Vector2
+  fullName: System.Numerics.Vector2
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: System.Drawing.PointF
+  commentId: T:System.Drawing.PointF
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  name: PointF
+  nameWithType: PointF
+  fullName: System.Drawing.PointF
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: Fantas.Physics.PhysicsBody.ApplyImpulse*
+  commentId: Overload:Fantas.Physics.PhysicsBody.ApplyImpulse
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ApplyImpulse_System_Numerics_Vector2_
+  name: ApplyImpulse
+  nameWithType: PhysicsBody.ApplyImpulse
+  fullName: Fantas.Physics.PhysicsBody.ApplyImpulse
+- uid: Fantas.Physics.PhysicsBody.ApplyTorque*
+  commentId: Overload:Fantas.Physics.PhysicsBody.ApplyTorque
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ApplyTorque_System_Double_
+  name: ApplyTorque
+  nameWithType: PhysicsBody.ApplyTorque
+  fullName: Fantas.Physics.PhysicsBody.ApplyTorque
+- uid: Fantas.Physics.PhysicsBody.AllContactedBodies*
+  commentId: Overload:Fantas.Physics.PhysicsBody.AllContactedBodies
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_AllContactedBodies
+  name: AllContactedBodies
+  nameWithType: PhysicsBody.AllContactedBodies
+  fullName: Fantas.Physics.PhysicsBody.AllContactedBodies
+- uid: System.Collections.Generic.IReadOnlyList{Fantas.Physics.PhysicsBody}
+  commentId: T:System.Collections.Generic.IReadOnlyList{Fantas.Physics.PhysicsBody}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<PhysicsBody>
+  nameWithType: IReadOnlyList<PhysicsBody>
+  fullName: System.Collections.Generic.IReadOnlyList<Fantas.Physics.PhysicsBody>
+  nameWithType.vb: IReadOnlyList(Of PhysicsBody)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of Fantas.Physics.PhysicsBody)
+  name.vb: IReadOnlyList(Of PhysicsBody)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - uid: Fantas.Physics.PhysicsBody
+    name: PhysicsBody
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fantas.Physics.PhysicsBody
+    name: PhysicsBody
+    isExternal: true
+    href: Fantas.Physics.PhysicsBody.html
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyList`1
+  commentId: T:System.Collections.Generic.IReadOnlyList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<T>
+  nameWithType: IReadOnlyList<T>
+  fullName: System.Collections.Generic.IReadOnlyList<T>
+  nameWithType.vb: IReadOnlyList(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of T)
+  name.vb: IReadOnlyList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Fantas.Physics.PhysicsBody.AllowsRotation*
+  commentId: Overload:Fantas.Physics.PhysicsBody.AllowsRotation
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_AllowsRotation
+  name: AllowsRotation
+  nameWithType: PhysicsBody.AllowsRotation
+  fullName: Fantas.Physics.PhysicsBody.AllowsRotation
+- uid: Fantas.Physics.PhysicsBody.AngularVelocity*
+  commentId: Overload:Fantas.Physics.PhysicsBody.AngularVelocity
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_AngularVelocity
+  name: AngularVelocity
+  nameWithType: PhysicsBody.AngularVelocity
+  fullName: Fantas.Physics.PhysicsBody.AngularVelocity
+- uid: Fantas.Physics.PhysicsBody.Area*
+  commentId: Overload:Fantas.Physics.PhysicsBody.Area
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_Area
+  name: Area
+  nameWithType: PhysicsBody.Area
+  fullName: Fantas.Physics.PhysicsBody.Area
+- uid: Fantas.Physics.PhysicsBody.Category*
+  commentId: Overload:Fantas.Physics.PhysicsBody.Category
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_Category
+  name: Category
+  nameWithType: PhysicsBody.Category
+  fullName: Fantas.Physics.PhysicsBody.Category
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Fantas.Physics.PhysicsBody.ContactMask*
+  commentId: Overload:Fantas.Physics.PhysicsBody.ContactMask
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_ContactMask
+  name: ContactMask
+  nameWithType: PhysicsBody.ContactMask
+  fullName: Fantas.Physics.PhysicsBody.ContactMask
+- uid: Fantas.Physics.PhysicsBody.CollisionMask*
+  commentId: Overload:Fantas.Physics.PhysicsBody.CollisionMask
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_CollisionMask
+  name: CollisionMask
+  nameWithType: PhysicsBody.CollisionMask
+  fullName: Fantas.Physics.PhysicsBody.CollisionMask
+- uid: Fantas.Physics.PhysicsBody.Density*
+  commentId: Overload:Fantas.Physics.PhysicsBody.Density
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_Density
+  name: Density
+  nameWithType: PhysicsBody.Density
+  fullName: Fantas.Physics.PhysicsBody.Density
+- uid: Fantas.Physics.PhysicsBody.Dynamic*
+  commentId: Overload:Fantas.Physics.PhysicsBody.Dynamic
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_Dynamic
+  name: Dynamic
+  nameWithType: PhysicsBody.Dynamic
+  fullName: Fantas.Physics.PhysicsBody.Dynamic
+- uid: Fantas.Physics.PhysicsBody.Friction*
+  commentId: Overload:Fantas.Physics.PhysicsBody.Friction
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_Friction
+  name: Friction
+  nameWithType: PhysicsBody.Friction
+  fullName: Fantas.Physics.PhysicsBody.Friction
+- uid: Fantas.Physics.PhysicsBody.Joints*
+  commentId: Overload:Fantas.Physics.PhysicsBody.Joints
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_Joints
+  name: Joints
+  nameWithType: PhysicsBody.Joints
+  fullName: Fantas.Physics.PhysicsBody.Joints
+- uid: System.Collections.Generic.IReadOnlyList{Fantas.Physics.PhysicsJoint}
+  commentId: T:System.Collections.Generic.IReadOnlyList{Fantas.Physics.PhysicsJoint}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<PhysicsJoint>
+  nameWithType: IReadOnlyList<PhysicsJoint>
+  fullName: System.Collections.Generic.IReadOnlyList<Fantas.Physics.PhysicsJoint>
+  nameWithType.vb: IReadOnlyList(Of PhysicsJoint)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of Fantas.Physics.PhysicsJoint)
+  name.vb: IReadOnlyList(Of PhysicsJoint)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - uid: Fantas.Physics.PhysicsJoint
+    name: PhysicsJoint
+    isExternal: true
+    href: Fantas.Physics.PhysicsJoint.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fantas.Physics.PhysicsJoint
+    name: PhysicsJoint
+    isExternal: true
+    href: Fantas.Physics.PhysicsJoint.html
+  - name: )
+- uid: Fantas.Physics.PhysicsBody.Mass*
+  commentId: Overload:Fantas.Physics.PhysicsBody.Mass
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_Mass
+  name: Mass
+  nameWithType: PhysicsBody.Mass
+  fullName: Fantas.Physics.PhysicsBody.Mass
+- uid: Fantas.Physics.PhysicsBody.Node*
+  commentId: Overload:Fantas.Physics.PhysicsBody.Node
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_Node
+  name: Node
+  nameWithType: PhysicsBody.Node
+  fullName: Fantas.Physics.PhysicsBody.Node
+- uid: Fantas.Node
+  commentId: T:Fantas.Node
+  parent: Fantas
+  isExternal: true
+  href: Fantas.Node.html
+  name: Node
+  nameWithType: Node
+  fullName: Fantas.Node
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: Fantas.Physics.PhysicsBody.Resting*
+  commentId: Overload:Fantas.Physics.PhysicsBody.Resting
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_Resting
+  name: Resting
+  nameWithType: PhysicsBody.Resting
+  fullName: Fantas.Physics.PhysicsBody.Resting
+- uid: Fantas.Physics.PhysicsBody.Restitution*
+  commentId: Overload:Fantas.Physics.PhysicsBody.Restitution
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_Restitution
+  name: Restitution
+  nameWithType: PhysicsBody.Restitution
+  fullName: Fantas.Physics.PhysicsBody.Restitution
+- uid: Fantas.Physics.PhysicsBody.Velocity*
+  commentId: Overload:Fantas.Physics.PhysicsBody.Velocity
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html#Fantas_Physics_PhysicsBody_Velocity
+  name: Velocity
+  nameWithType: PhysicsBody.Velocity
+  fullName: Fantas.Physics.PhysicsBody.Velocity

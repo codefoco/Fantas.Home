@@ -1,0 +1,1127 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class MouseInput
+ | Fantas </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class MouseInput
+ | Fantas ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.json">
+      <meta name="docfx:tocrel" content="toc.json">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="Fantas">
+            Fantas
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Fantas.Input.MouseInput">
+
+
+
+  <h1 id="Fantas_Input_MouseInput" data-uid="Fantas.Input.MouseInput" class="text-break">
+    Class MouseInput
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Fantas.html">Fantas</a>.<a class="xref" href="Fantas.Input.html">Input</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Fantas.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Mouse Input class</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class MouseInput</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">MouseInput</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Fantas_Input_MouseInput_AnyButtonPressed_" data-uid="Fantas.Input.MouseInput.AnyButtonPressed*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_AnyButtonPressed" data-uid="Fantas.Input.MouseInput.AnyButtonPressed">
+  AnyButtonPressed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>True if any mouse button was just pressed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool AnyButtonPressed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_AnyButtonReleased_" data-uid="Fantas.Input.MouseInput.AnyButtonReleased*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_AnyButtonReleased" data-uid="Fantas.Input.MouseInput.AnyButtonReleased">
+  AnyButtonReleased
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>True if any mouse button was just released</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool AnyButtonReleased { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_Cursor_" data-uid="Fantas.Input.MouseInput.Cursor*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_Cursor" data-uid="Fantas.Input.MouseInput.Cursor">
+  Cursor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Current mouse cursor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Cursor Cursor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Cursor.html">Cursor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_CursorPosition_" data-uid="Fantas.Input.MouseInput.CursorPosition*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_CursorPosition" data-uid="Fantas.Input.MouseInput.CursorPosition">
+  CursorPosition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get last cursor position (in Scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PointF CursorPosition { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_IsCursorVisible_" data-uid="Fantas.Input.MouseInput.IsCursorVisible*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_IsCursorVisible" data-uid="Fantas.Input.MouseInput.IsCursorVisible">
+  IsCursorVisible
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Show/Hide the mouse cursor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsCursorVisible { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_IsLeftButtonDown_" data-uid="Fantas.Input.MouseInput.IsLeftButtonDown*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_IsLeftButtonDown" data-uid="Fantas.Input.MouseInput.IsLeftButtonDown">
+  IsLeftButtonDown
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return true if the left mouse button is current pressed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsLeftButtonDown { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_IsLeftButtonPressed_" data-uid="Fantas.Input.MouseInput.IsLeftButtonPressed*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_IsLeftButtonPressed" data-uid="Fantas.Input.MouseInput.IsLeftButtonPressed">
+  IsLeftButtonPressed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return true if the left mouse button was just pressed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsLeftButtonPressed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_IsLeftButtonReleased_" data-uid="Fantas.Input.MouseInput.IsLeftButtonReleased*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_IsLeftButtonReleased" data-uid="Fantas.Input.MouseInput.IsLeftButtonReleased">
+  IsLeftButtonReleased
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return true if the left mouse button was just released</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsLeftButtonReleased { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_IsMiddleButtonDown_" data-uid="Fantas.Input.MouseInput.IsMiddleButtonDown*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_IsMiddleButtonDown" data-uid="Fantas.Input.MouseInput.IsMiddleButtonDown">
+  IsMiddleButtonDown
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return true if the middle mouse button is current pressed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsMiddleButtonDown { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_IsMiddleButtonPressed_" data-uid="Fantas.Input.MouseInput.IsMiddleButtonPressed*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_IsMiddleButtonPressed" data-uid="Fantas.Input.MouseInput.IsMiddleButtonPressed">
+  IsMiddleButtonPressed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return true if the middle mouse button was just pressed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsMiddleButtonPressed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_IsMiddleButtonReleased_" data-uid="Fantas.Input.MouseInput.IsMiddleButtonReleased*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_IsMiddleButtonReleased" data-uid="Fantas.Input.MouseInput.IsMiddleButtonReleased">
+  IsMiddleButtonReleased
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return true if the middle mouse button was just released</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsMiddleButtonReleased { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_IsNodeEventsEnabled_" data-uid="Fantas.Input.MouseInput.IsNodeEventsEnabled*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_IsNodeEventsEnabled" data-uid="Fantas.Input.MouseInput.IsNodeEventsEnabled">
+  IsNodeEventsEnabled
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enable/Disable mouse node events
+MouseEnter/MouseHover/MouseLeave/Click</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNodeEventsEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_IsRightButtonDown_" data-uid="Fantas.Input.MouseInput.IsRightButtonDown*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_IsRightButtonDown" data-uid="Fantas.Input.MouseInput.IsRightButtonDown">
+  IsRightButtonDown
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return true if the right mouse button is current pressed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsRightButtonDown { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_IsRightButtonPressed_" data-uid="Fantas.Input.MouseInput.IsRightButtonPressed*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_IsRightButtonPressed" data-uid="Fantas.Input.MouseInput.IsRightButtonPressed">
+  IsRightButtonPressed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return true if the right mouse button was just pressed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsRightButtonPressed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_IsRightButtonReleased_" data-uid="Fantas.Input.MouseInput.IsRightButtonReleased*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_IsRightButtonReleased" data-uid="Fantas.Input.MouseInput.IsRightButtonReleased">
+  IsRightButtonReleased
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return true if the right mouse button was just released</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsRightButtonReleased { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_IsXButton1Down_" data-uid="Fantas.Input.MouseInput.IsXButton1Down*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_IsXButton1Down" data-uid="Fantas.Input.MouseInput.IsXButton1Down">
+  IsXButton1Down
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return true if the X1 mouse button is current pressed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsXButton1Down { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_IsXButton1Pressed_" data-uid="Fantas.Input.MouseInput.IsXButton1Pressed*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_IsXButton1Pressed" data-uid="Fantas.Input.MouseInput.IsXButton1Pressed">
+  IsXButton1Pressed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return true if the X1 mouse button was just pressed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsXButton1Pressed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_IsXButton1Released_" data-uid="Fantas.Input.MouseInput.IsXButton1Released*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_IsXButton1Released" data-uid="Fantas.Input.MouseInput.IsXButton1Released">
+  IsXButton1Released
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return true if the X1  mouse button was just released</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsXButton1Released { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_IsXButton2Down_" data-uid="Fantas.Input.MouseInput.IsXButton2Down*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_IsXButton2Down" data-uid="Fantas.Input.MouseInput.IsXButton2Down">
+  IsXButton2Down
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return true if the X2 mouse button is current pressed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsXButton2Down { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_IsXButton2Pressed_" data-uid="Fantas.Input.MouseInput.IsXButton2Pressed*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_IsXButton2Pressed" data-uid="Fantas.Input.MouseInput.IsXButton2Pressed">
+  IsXButton2Pressed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return true if the X2 mouse button was just pressed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsXButton2Pressed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_IsXButton2Released_" data-uid="Fantas.Input.MouseInput.IsXButton2Released*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_IsXButton2Released" data-uid="Fantas.Input.MouseInput.IsXButton2Released">
+  IsXButton2Released
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return true if the X2 mouse button was just released</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsXButton2Released { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_WheelDelta_" data-uid="Fantas.Input.MouseInput.WheelDelta*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_WheelDelta" data-uid="Fantas.Input.MouseInput.WheelDelta">
+  WheelDelta
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get last mouse wheel delta value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 WheelDelta { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Fantas_Input_MouseInput_InvokeMouseDown_" data-uid="Fantas.Input.MouseInput.InvokeMouseDown*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_InvokeMouseDown_Fantas_Input_MouseButtons_System_Drawing_PointF_System_Int32_" data-uid="Fantas.Input.MouseInput.InvokeMouseDown(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32)">
+  InvokeMouseDown(MouseButtons, PointF, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoke MouseDown event handlers</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InvokeMouseDown(MouseButtons button, PointF position, int clicks)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>button</code> <a class="xref" href="Fantas.Input.MouseButtons.html">MouseButtons</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+    <dt><code>clicks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_InvokeMouseDrag_" data-uid="Fantas.Input.MouseInput.InvokeMouseDrag*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_InvokeMouseDrag_Fantas_Input_MouseButtons_System_Drawing_PointF_System_Int32_" data-uid="Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32)">
+  InvokeMouseDrag(MouseButtons, PointF, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoke Drag event handlers</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InvokeMouseDrag(MouseButtons button, PointF position, int clicks)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>button</code> <a class="xref" href="Fantas.Input.MouseButtons.html">MouseButtons</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+    <dt><code>clicks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_InvokeMouseMove_" data-uid="Fantas.Input.MouseInput.InvokeMouseMove*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_InvokeMouseMove_System_Drawing_PointF_" data-uid="Fantas.Input.MouseInput.InvokeMouseMove(System.Drawing.PointF)">
+  InvokeMouseMove(PointF)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoke MouseMove event handlers</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InvokeMouseMove(PointF position)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_InvokeMouseUp_" data-uid="Fantas.Input.MouseInput.InvokeMouseUp*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_InvokeMouseUp_Fantas_Input_MouseButtons_System_Drawing_PointF_System_Int32_" data-uid="Fantas.Input.MouseInput.InvokeMouseUp(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32)">
+  InvokeMouseUp(MouseButtons, PointF, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoke MouseUp event handlers</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InvokeMouseUp(MouseButtons button, PointF position, int clicks)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>button</code> <a class="xref" href="Fantas.Input.MouseButtons.html">MouseButtons</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+    <dt><code>clicks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_InvokeMouseWheel_" data-uid="Fantas.Input.MouseInput.InvokeMouseWheel*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_InvokeMouseWheel_System_Numerics_Vector2_System_Drawing_PointF_System_Boolean_" data-uid="Fantas.Input.MouseInput.InvokeMouseWheel(System.Numerics.Vector2,System.Drawing.PointF,System.Boolean)">
+  InvokeMouseWheel(Vector2, PointF, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invoke MouseWheel event handlers</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InvokeMouseWheel(Vector2 delta, PointF position, bool hasPreciseScrollingDeltas)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+    <dt><code>hasPreciseScrollingDeltas</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_PopCursor_" data-uid="Fantas.Input.MouseInput.PopCursor*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_PopCursor" data-uid="Fantas.Input.MouseInput.PopCursor">
+  PopCursor()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Restore the previous cursor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PopCursor()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Input_MouseInput_PushCursor_" data-uid="Fantas.Input.MouseInput.PushCursor*"></a>
+
+  <h3 id="Fantas_Input_MouseInput_PushCursor_Fantas_Input_Cursor_" data-uid="Fantas.Input.MouseInput.PushCursor(Fantas.Input.Cursor)">
+  PushCursor(Cursor)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set the new cursor and push the current one on the stack</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PushCursor(Cursor cursor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cursor</code> <a class="xref" href="Fantas.Input.Cursor.html">Cursor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseInput.cs" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

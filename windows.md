@@ -33,10 +33,10 @@ dotnet new fantas-desktop
 
 This are the templates available:
 
-```
+```text
 --------------------------------------------  --------------  --------  ---------------------------
 Fantas Android Game (.NET)                    fantas-android  [C#]      android/mobile/games
-Fantas Desktop DirectX Game (.NET - Windows)  fantas-directx  [C#]      desktop/games/linux/windows
+Fantas Desktop DirectX Game (.NET - Windows)  fantas-directx  [C#]      desktop/games/windows
 Fantas Desktop Game (.NET)                    fantas-desktop  [C#]      desktop/games/linux/windows
 Fantas iOS Game (.NET)                        fantas-ios      [C#]      ios/games
 Fantas macOS Game (.NET)                      fantas-mac      [C#]      macos/games

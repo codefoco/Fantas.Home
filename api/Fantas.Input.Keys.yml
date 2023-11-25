@@ -1,0 +1,2659 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.Input.Keys
+  commentId: T:Fantas.Input.Keys
+  id: Keys
+  parent: Fantas.Input
+  children:
+  - Fantas.Input.Keys.A
+  - Fantas.Input.Keys.Add
+  - Fantas.Input.Keys.Apps
+  - Fantas.Input.Keys.B
+  - Fantas.Input.Keys.Back
+  - Fantas.Input.Keys.Backslash
+  - Fantas.Input.Keys.C
+  - Fantas.Input.Keys.CapsLock
+  - Fantas.Input.Keys.CloseBrackets
+  - Fantas.Input.Keys.Comma
+  - Fantas.Input.Keys.D
+  - Fantas.Input.Keys.D0
+  - Fantas.Input.Keys.D1
+  - Fantas.Input.Keys.D2
+  - Fantas.Input.Keys.D3
+  - Fantas.Input.Keys.D4
+  - Fantas.Input.Keys.D5
+  - Fantas.Input.Keys.D6
+  - Fantas.Input.Keys.D7
+  - Fantas.Input.Keys.D8
+  - Fantas.Input.Keys.D9
+  - Fantas.Input.Keys.Delete
+  - Fantas.Input.Keys.Divide
+  - Fantas.Input.Keys.Dot
+  - Fantas.Input.Keys.Down
+  - Fantas.Input.Keys.E
+  - Fantas.Input.Keys.End
+  - Fantas.Input.Keys.Enter
+  - Fantas.Input.Keys.Escape
+  - Fantas.Input.Keys.Execute
+  - Fantas.Input.Keys.F
+  - Fantas.Input.Keys.F1
+  - Fantas.Input.Keys.F10
+  - Fantas.Input.Keys.F11
+  - Fantas.Input.Keys.F12
+  - Fantas.Input.Keys.F2
+  - Fantas.Input.Keys.F3
+  - Fantas.Input.Keys.F4
+  - Fantas.Input.Keys.F5
+  - Fantas.Input.Keys.F6
+  - Fantas.Input.Keys.F7
+  - Fantas.Input.Keys.F8
+  - Fantas.Input.Keys.F9
+  - Fantas.Input.Keys.G
+  - Fantas.Input.Keys.H
+  - Fantas.Input.Keys.Help
+  - Fantas.Input.Keys.Home
+  - Fantas.Input.Keys.I
+  - Fantas.Input.Keys.Insert
+  - Fantas.Input.Keys.J
+  - Fantas.Input.Keys.K
+  - Fantas.Input.Keys.L
+  - Fantas.Input.Keys.Left
+  - Fantas.Input.Keys.LeftAlt
+  - Fantas.Input.Keys.LeftControl
+  - Fantas.Input.Keys.LeftShift
+  - Fantas.Input.Keys.LeftWindows
+  - Fantas.Input.Keys.M
+  - Fantas.Input.Keys.Max
+  - Fantas.Input.Keys.Multiply
+  - Fantas.Input.Keys.N
+  - Fantas.Input.Keys.None
+  - Fantas.Input.Keys.NumPad0
+  - Fantas.Input.Keys.NumPad1
+  - Fantas.Input.Keys.NumPad2
+  - Fantas.Input.Keys.NumPad3
+  - Fantas.Input.Keys.NumPad4
+  - Fantas.Input.Keys.NumPad5
+  - Fantas.Input.Keys.NumPad6
+  - Fantas.Input.Keys.NumPad7
+  - Fantas.Input.Keys.NumPad8
+  - Fantas.Input.Keys.NumPad9
+  - Fantas.Input.Keys.O
+  - Fantas.Input.Keys.OemMinus
+  - Fantas.Input.Keys.OemPlus
+  - Fantas.Input.Keys.OpenBrackets
+  - Fantas.Input.Keys.P
+  - Fantas.Input.Keys.PageDown
+  - Fantas.Input.Keys.PageUp
+  - Fantas.Input.Keys.Pause
+  - Fantas.Input.Keys.Period
+  - Fantas.Input.Keys.Pipe
+  - Fantas.Input.Keys.Print
+  - Fantas.Input.Keys.PrintScreen
+  - Fantas.Input.Keys.Q
+  - Fantas.Input.Keys.Question
+  - Fantas.Input.Keys.Quotes
+  - Fantas.Input.Keys.R
+  - Fantas.Input.Keys.Right
+  - Fantas.Input.Keys.RightAlt
+  - Fantas.Input.Keys.RightControl
+  - Fantas.Input.Keys.RightShift
+  - Fantas.Input.Keys.RightWindows
+  - Fantas.Input.Keys.S
+  - Fantas.Input.Keys.Select
+  - Fantas.Input.Keys.Semicolon
+  - Fantas.Input.Keys.Separator
+  - Fantas.Input.Keys.Sleep
+  - Fantas.Input.Keys.Space
+  - Fantas.Input.Keys.Subtract
+  - Fantas.Input.Keys.T
+  - Fantas.Input.Keys.Tab
+  - Fantas.Input.Keys.Tilde
+  - Fantas.Input.Keys.U
+  - Fantas.Input.Keys.Up
+  - Fantas.Input.Keys.V
+  - Fantas.Input.Keys.VolumeDown
+  - Fantas.Input.Keys.VolumeMute
+  - Fantas.Input.Keys.VolumeUp
+  - Fantas.Input.Keys.W
+  - Fantas.Input.Keys.X
+  - Fantas.Input.Keys.Y
+  - Fantas.Input.Keys.Z
+  langs:
+  - csharp
+  - vb
+  name: Keys
+  nameWithType: Keys
+  fullName: Fantas.Input.Keys
+  type: Enum
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Keyboard key codes
+  example: []
+  syntax:
+    content: public enum Keys
+    content.vb: Public Enum Keys
+- uid: Fantas.Input.Keys.None
+  commentId: F:Fantas.Input.Keys.None
+  id: None
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: Keys.None
+  fullName: Fantas.Input.Keys.None
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Reserved.
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Back
+  commentId: F:Fantas.Input.Keys.Back
+  id: Back
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Back
+  nameWithType: Keys.Back
+  fullName: Fantas.Input.Keys.Back
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: BACKSPACE key.
+  example: []
+  syntax:
+    content: Back = 8
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Tab
+  commentId: F:Fantas.Input.Keys.Tab
+  id: Tab
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Tab
+  nameWithType: Keys.Tab
+  fullName: Fantas.Input.Keys.Tab
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: TAB key.
+  example: []
+  syntax:
+    content: Tab = 9
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Enter
+  commentId: F:Fantas.Input.Keys.Enter
+  id: Enter
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Enter
+  nameWithType: Keys.Enter
+  fullName: Fantas.Input.Keys.Enter
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: ENTER key.
+  example: []
+  syntax:
+    content: Enter = 13
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.CapsLock
+  commentId: F:Fantas.Input.Keys.CapsLock
+  id: CapsLock
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: CapsLock
+  nameWithType: Keys.CapsLock
+  fullName: Fantas.Input.Keys.CapsLock
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: CAPS LOCK key.
+  example: []
+  syntax:
+    content: CapsLock = 20
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Escape
+  commentId: F:Fantas.Input.Keys.Escape
+  id: Escape
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Escape
+  nameWithType: Keys.Escape
+  fullName: Fantas.Input.Keys.Escape
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: ESC key.
+  example: []
+  syntax:
+    content: Escape = 27
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Space
+  commentId: F:Fantas.Input.Keys.Space
+  id: Space
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Space
+  nameWithType: Keys.Space
+  fullName: Fantas.Input.Keys.Space
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: SPACE BAR key.
+  example: []
+  syntax:
+    content: Space = 32
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.PageUp
+  commentId: F:Fantas.Input.Keys.PageUp
+  id: PageUp
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: PageUp
+  nameWithType: Keys.PageUp
+  fullName: Fantas.Input.Keys.PageUp
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: PAGE UP key.
+  example: []
+  syntax:
+    content: PageUp = 33
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.PageDown
+  commentId: F:Fantas.Input.Keys.PageDown
+  id: PageDown
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: PageDown
+  nameWithType: Keys.PageDown
+  fullName: Fantas.Input.Keys.PageDown
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: PAGE DOWN key.
+  example: []
+  syntax:
+    content: PageDown = 34
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.End
+  commentId: F:Fantas.Input.Keys.End
+  id: End
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: End
+  nameWithType: Keys.End
+  fullName: Fantas.Input.Keys.End
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: END key.
+  example: []
+  syntax:
+    content: End = 35
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Home
+  commentId: F:Fantas.Input.Keys.Home
+  id: Home
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Home
+  nameWithType: Keys.Home
+  fullName: Fantas.Input.Keys.Home
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: HOME key.
+  example: []
+  syntax:
+    content: Home = 36
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Left
+  commentId: F:Fantas.Input.Keys.Left
+  id: Left
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: Keys.Left
+  fullName: Fantas.Input.Keys.Left
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: LEFT ARROW key.
+  example: []
+  syntax:
+    content: Left = 37
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Up
+  commentId: F:Fantas.Input.Keys.Up
+  id: Up
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Up
+  nameWithType: Keys.Up
+  fullName: Fantas.Input.Keys.Up
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: UP ARROW key.
+  example: []
+  syntax:
+    content: Up = 38
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Right
+  commentId: F:Fantas.Input.Keys.Right
+  id: Right
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: Keys.Right
+  fullName: Fantas.Input.Keys.Right
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: RIGHT ARROW key.
+  example: []
+  syntax:
+    content: Right = 39
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Down
+  commentId: F:Fantas.Input.Keys.Down
+  id: Down
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Down
+  nameWithType: Keys.Down
+  fullName: Fantas.Input.Keys.Down
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: DOWN ARROW key.
+  example: []
+  syntax:
+    content: Down = 40
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Select
+  commentId: F:Fantas.Input.Keys.Select
+  id: Select
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Select
+  nameWithType: Keys.Select
+  fullName: Fantas.Input.Keys.Select
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: SELECT key.
+  example: []
+  syntax:
+    content: Select = 41
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Print
+  commentId: F:Fantas.Input.Keys.Print
+  id: Print
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Print
+  nameWithType: Keys.Print
+  fullName: Fantas.Input.Keys.Print
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: PRINT key.
+  example: []
+  syntax:
+    content: Print = 42
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Execute
+  commentId: F:Fantas.Input.Keys.Execute
+  id: Execute
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Execute
+  nameWithType: Keys.Execute
+  fullName: Fantas.Input.Keys.Execute
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: EXECUTE key.
+  example: []
+  syntax:
+    content: Execute = 43
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.PrintScreen
+  commentId: F:Fantas.Input.Keys.PrintScreen
+  id: PrintScreen
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: PrintScreen
+  nameWithType: Keys.PrintScreen
+  fullName: Fantas.Input.Keys.PrintScreen
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: PRINT SCREEN key.
+  example: []
+  syntax:
+    content: PrintScreen = 44
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Insert
+  commentId: F:Fantas.Input.Keys.Insert
+  id: Insert
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Insert
+  nameWithType: Keys.Insert
+  fullName: Fantas.Input.Keys.Insert
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: INS key.
+  example: []
+  syntax:
+    content: Insert = 45
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Delete
+  commentId: F:Fantas.Input.Keys.Delete
+  id: Delete
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Delete
+  nameWithType: Keys.Delete
+  fullName: Fantas.Input.Keys.Delete
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: DEL key.
+  example: []
+  syntax:
+    content: Delete = 46
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Help
+  commentId: F:Fantas.Input.Keys.Help
+  id: Help
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Help
+  nameWithType: Keys.Help
+  fullName: Fantas.Input.Keys.Help
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: HELP key.
+  example: []
+  syntax:
+    content: Help = 47
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.D0
+  commentId: F:Fantas.Input.Keys.D0
+  id: D0
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: D0
+  nameWithType: Keys.D0
+  fullName: Fantas.Input.Keys.D0
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: D0
+  example: []
+  syntax:
+    content: D0 = 48
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.D1
+  commentId: F:Fantas.Input.Keys.D1
+  id: D1
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: D1
+  nameWithType: Keys.D1
+  fullName: Fantas.Input.Keys.D1
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Used for miscellaneous characters; it can vary by keyboard.
+  example: []
+  syntax:
+    content: D1 = 49
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.D2
+  commentId: F:Fantas.Input.Keys.D2
+  id: D2
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: D2
+  nameWithType: Keys.D2
+  fullName: Fantas.Input.Keys.D2
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Used for miscellaneous characters; it can vary by keyboard.
+  example: []
+  syntax:
+    content: D2 = 50
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.D3
+  commentId: F:Fantas.Input.Keys.D3
+  id: D3
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: D3
+  nameWithType: Keys.D3
+  fullName: Fantas.Input.Keys.D3
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Used for miscellaneous characters; it can vary by keyboard.
+  example: []
+  syntax:
+    content: D3 = 51
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.D4
+  commentId: F:Fantas.Input.Keys.D4
+  id: D4
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: D4
+  nameWithType: Keys.D4
+  fullName: Fantas.Input.Keys.D4
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Used for miscellaneous characters; it can vary by keyboard.
+  example: []
+  syntax:
+    content: D4 = 52
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.D5
+  commentId: F:Fantas.Input.Keys.D5
+  id: D5
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: D5
+  nameWithType: Keys.D5
+  fullName: Fantas.Input.Keys.D5
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Used for miscellaneous characters; it can vary by keyboard.
+  example: []
+  syntax:
+    content: D5 = 53
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.D6
+  commentId: F:Fantas.Input.Keys.D6
+  id: D6
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: D6
+  nameWithType: Keys.D6
+  fullName: Fantas.Input.Keys.D6
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Used for miscellaneous characters; it can vary by keyboard.
+  example: []
+  syntax:
+    content: D6 = 54
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.D7
+  commentId: F:Fantas.Input.Keys.D7
+  id: D7
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: D7
+  nameWithType: Keys.D7
+  fullName: Fantas.Input.Keys.D7
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Used for miscellaneous characters; it can vary by keyboard.
+  example: []
+  syntax:
+    content: D7 = 55
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.D8
+  commentId: F:Fantas.Input.Keys.D8
+  id: D8
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: D8
+  nameWithType: Keys.D8
+  fullName: Fantas.Input.Keys.D8
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Used for miscellaneous characters; it can vary by keyboard.
+  example: []
+  syntax:
+    content: D8 = 56
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.D9
+  commentId: F:Fantas.Input.Keys.D9
+  id: D9
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: D9
+  nameWithType: Keys.D9
+  fullName: Fantas.Input.Keys.D9
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Used for miscellaneous characters; it can vary by keyboard.
+  example: []
+  syntax:
+    content: D9 = 57
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.A
+  commentId: F:Fantas.Input.Keys.A
+  id: A
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: A
+  nameWithType: Keys.A
+  fullName: Fantas.Input.Keys.A
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: A key.
+  example: []
+  syntax:
+    content: A = 65
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.B
+  commentId: F:Fantas.Input.Keys.B
+  id: B
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: B
+  nameWithType: Keys.B
+  fullName: Fantas.Input.Keys.B
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: B key.
+  example: []
+  syntax:
+    content: B = 66
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.C
+  commentId: F:Fantas.Input.Keys.C
+  id: C
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: C
+  nameWithType: Keys.C
+  fullName: Fantas.Input.Keys.C
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: C key.
+  example: []
+  syntax:
+    content: C = 67
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.D
+  commentId: F:Fantas.Input.Keys.D
+  id: D
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: D
+  nameWithType: Keys.D
+  fullName: Fantas.Input.Keys.D
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: D key.
+  example: []
+  syntax:
+    content: D = 68
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.E
+  commentId: F:Fantas.Input.Keys.E
+  id: E
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: E
+  nameWithType: Keys.E
+  fullName: Fantas.Input.Keys.E
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: E key.
+  example: []
+  syntax:
+    content: E = 69
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.F
+  commentId: F:Fantas.Input.Keys.F
+  id: F
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: F
+  nameWithType: Keys.F
+  fullName: Fantas.Input.Keys.F
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: F key.
+  example: []
+  syntax:
+    content: F = 70
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.G
+  commentId: F:Fantas.Input.Keys.G
+  id: G
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: G
+  nameWithType: Keys.G
+  fullName: Fantas.Input.Keys.G
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: G key.
+  example: []
+  syntax:
+    content: G = 71
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.H
+  commentId: F:Fantas.Input.Keys.H
+  id: H
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: H
+  nameWithType: Keys.H
+  fullName: Fantas.Input.Keys.H
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: H key.
+  example: []
+  syntax:
+    content: H = 72
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.I
+  commentId: F:Fantas.Input.Keys.I
+  id: I
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: I
+  nameWithType: Keys.I
+  fullName: Fantas.Input.Keys.I
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: I key.
+  example: []
+  syntax:
+    content: I = 73
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.J
+  commentId: F:Fantas.Input.Keys.J
+  id: J
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: J
+  nameWithType: Keys.J
+  fullName: Fantas.Input.Keys.J
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: J key.
+  example: []
+  syntax:
+    content: J = 74
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.K
+  commentId: F:Fantas.Input.Keys.K
+  id: K
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: K
+  nameWithType: Keys.K
+  fullName: Fantas.Input.Keys.K
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: K key.
+  example: []
+  syntax:
+    content: K = 75
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.L
+  commentId: F:Fantas.Input.Keys.L
+  id: L
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: L
+  nameWithType: Keys.L
+  fullName: Fantas.Input.Keys.L
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: L key.
+  example: []
+  syntax:
+    content: L = 76
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.M
+  commentId: F:Fantas.Input.Keys.M
+  id: M
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: M
+  nameWithType: Keys.M
+  fullName: Fantas.Input.Keys.M
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: M key.
+  example: []
+  syntax:
+    content: M = 77
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.N
+  commentId: F:Fantas.Input.Keys.N
+  id: N
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: N
+  nameWithType: Keys.N
+  fullName: Fantas.Input.Keys.N
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: N key.
+  example: []
+  syntax:
+    content: N = 78
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.O
+  commentId: F:Fantas.Input.Keys.O
+  id: O
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: O
+  nameWithType: Keys.O
+  fullName: Fantas.Input.Keys.O
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: O key.
+  example: []
+  syntax:
+    content: O = 79
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.P
+  commentId: F:Fantas.Input.Keys.P
+  id: P
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: P
+  nameWithType: Keys.P
+  fullName: Fantas.Input.Keys.P
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: P key.
+  example: []
+  syntax:
+    content: P = 80
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Q
+  commentId: F:Fantas.Input.Keys.Q
+  id: Q
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Q
+  nameWithType: Keys.Q
+  fullName: Fantas.Input.Keys.Q
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Q key.
+  example: []
+  syntax:
+    content: Q = 81
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.R
+  commentId: F:Fantas.Input.Keys.R
+  id: R
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: R
+  nameWithType: Keys.R
+  fullName: Fantas.Input.Keys.R
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: R key.
+  example: []
+  syntax:
+    content: R = 82
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.S
+  commentId: F:Fantas.Input.Keys.S
+  id: S
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: S
+  nameWithType: Keys.S
+  fullName: Fantas.Input.Keys.S
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: S key.
+  example: []
+  syntax:
+    content: S = 83
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.T
+  commentId: F:Fantas.Input.Keys.T
+  id: T
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: T
+  nameWithType: Keys.T
+  fullName: Fantas.Input.Keys.T
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: T key.
+  example: []
+  syntax:
+    content: T = 84
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.U
+  commentId: F:Fantas.Input.Keys.U
+  id: U
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: U
+  nameWithType: Keys.U
+  fullName: Fantas.Input.Keys.U
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: U key.
+  example: []
+  syntax:
+    content: U = 85
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.V
+  commentId: F:Fantas.Input.Keys.V
+  id: V
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: V
+  nameWithType: Keys.V
+  fullName: Fantas.Input.Keys.V
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: V key.
+  example: []
+  syntax:
+    content: V = 86
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.W
+  commentId: F:Fantas.Input.Keys.W
+  id: W
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: W
+  nameWithType: Keys.W
+  fullName: Fantas.Input.Keys.W
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: W key.
+  example: []
+  syntax:
+    content: W = 87
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.X
+  commentId: F:Fantas.Input.Keys.X
+  id: X
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: Keys.X
+  fullName: Fantas.Input.Keys.X
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: X key.
+  example: []
+  syntax:
+    content: X = 88
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Y
+  commentId: F:Fantas.Input.Keys.Y
+  id: Y
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: Keys.Y
+  fullName: Fantas.Input.Keys.Y
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Y key.
+  example: []
+  syntax:
+    content: Y = 89
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Z
+  commentId: F:Fantas.Input.Keys.Z
+  id: Z
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Z
+  nameWithType: Keys.Z
+  fullName: Fantas.Input.Keys.Z
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Z key.
+  example: []
+  syntax:
+    content: Z = 90
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.LeftWindows
+  commentId: F:Fantas.Input.Keys.LeftWindows
+  id: LeftWindows
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: LeftWindows
+  nameWithType: Keys.LeftWindows
+  fullName: Fantas.Input.Keys.LeftWindows
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Left Windows/Meta/Command key.
+  example: []
+  syntax:
+    content: LeftWindows = 91
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.RightWindows
+  commentId: F:Fantas.Input.Keys.RightWindows
+  id: RightWindows
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: RightWindows
+  nameWithType: Keys.RightWindows
+  fullName: Fantas.Input.Keys.RightWindows
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Right Windows/Meta/Command key.
+  example: []
+  syntax:
+    content: RightWindows = 92
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Apps
+  commentId: F:Fantas.Input.Keys.Apps
+  id: Apps
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Apps
+  nameWithType: Keys.Apps
+  fullName: Fantas.Input.Keys.Apps
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Applications key.
+  example: []
+  syntax:
+    content: Apps = 93
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Sleep
+  commentId: F:Fantas.Input.Keys.Sleep
+  id: Sleep
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Sleep
+  nameWithType: Keys.Sleep
+  fullName: Fantas.Input.Keys.Sleep
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Computer Sleep key.
+  example: []
+  syntax:
+    content: Sleep = 95
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.NumPad0
+  commentId: F:Fantas.Input.Keys.NumPad0
+  id: NumPad0
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: NumPad0
+  nameWithType: Keys.NumPad0
+  fullName: Fantas.Input.Keys.NumPad0
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Numeric keypad 0 key.
+  example: []
+  syntax:
+    content: NumPad0 = 96
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.NumPad1
+  commentId: F:Fantas.Input.Keys.NumPad1
+  id: NumPad1
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: NumPad1
+  nameWithType: Keys.NumPad1
+  fullName: Fantas.Input.Keys.NumPad1
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Numeric keypad 1 key.
+  example: []
+  syntax:
+    content: NumPad1 = 97
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.NumPad2
+  commentId: F:Fantas.Input.Keys.NumPad2
+  id: NumPad2
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: NumPad2
+  nameWithType: Keys.NumPad2
+  fullName: Fantas.Input.Keys.NumPad2
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Numeric keypad 2 key.
+  example: []
+  syntax:
+    content: NumPad2 = 98
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.NumPad3
+  commentId: F:Fantas.Input.Keys.NumPad3
+  id: NumPad3
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: NumPad3
+  nameWithType: Keys.NumPad3
+  fullName: Fantas.Input.Keys.NumPad3
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Numeric keypad 3 key.
+  example: []
+  syntax:
+    content: NumPad3 = 99
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.NumPad4
+  commentId: F:Fantas.Input.Keys.NumPad4
+  id: NumPad4
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: NumPad4
+  nameWithType: Keys.NumPad4
+  fullName: Fantas.Input.Keys.NumPad4
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Numeric keypad 4 key.
+  example: []
+  syntax:
+    content: NumPad4 = 100
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.NumPad5
+  commentId: F:Fantas.Input.Keys.NumPad5
+  id: NumPad5
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: NumPad5
+  nameWithType: Keys.NumPad5
+  fullName: Fantas.Input.Keys.NumPad5
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Numeric keypad 5 key.
+  example: []
+  syntax:
+    content: NumPad5 = 101
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.NumPad6
+  commentId: F:Fantas.Input.Keys.NumPad6
+  id: NumPad6
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: NumPad6
+  nameWithType: Keys.NumPad6
+  fullName: Fantas.Input.Keys.NumPad6
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Numeric keypad 6 key.
+  example: []
+  syntax:
+    content: NumPad6 = 102
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.NumPad7
+  commentId: F:Fantas.Input.Keys.NumPad7
+  id: NumPad7
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: NumPad7
+  nameWithType: Keys.NumPad7
+  fullName: Fantas.Input.Keys.NumPad7
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Numeric keypad 7 key.
+  example: []
+  syntax:
+    content: NumPad7 = 103
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.NumPad8
+  commentId: F:Fantas.Input.Keys.NumPad8
+  id: NumPad8
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: NumPad8
+  nameWithType: Keys.NumPad8
+  fullName: Fantas.Input.Keys.NumPad8
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Numeric keypad 8 key.
+  example: []
+  syntax:
+    content: NumPad8 = 104
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.NumPad9
+  commentId: F:Fantas.Input.Keys.NumPad9
+  id: NumPad9
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: NumPad9
+  nameWithType: Keys.NumPad9
+  fullName: Fantas.Input.Keys.NumPad9
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Numeric keypad 9 key.
+  example: []
+  syntax:
+    content: NumPad9 = 105
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Multiply
+  commentId: F:Fantas.Input.Keys.Multiply
+  id: Multiply
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Multiply
+  nameWithType: Keys.Multiply
+  fullName: Fantas.Input.Keys.Multiply
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Multiply key.
+  example: []
+  syntax:
+    content: Multiply = 106
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Add
+  commentId: F:Fantas.Input.Keys.Add
+  id: Add
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Add
+  nameWithType: Keys.Add
+  fullName: Fantas.Input.Keys.Add
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Add key.
+  example: []
+  syntax:
+    content: Add = 107
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Separator
+  commentId: F:Fantas.Input.Keys.Separator
+  id: Separator
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Separator
+  nameWithType: Keys.Separator
+  fullName: Fantas.Input.Keys.Separator
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Separator key.
+  example: []
+  syntax:
+    content: Separator = 108
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Subtract
+  commentId: F:Fantas.Input.Keys.Subtract
+  id: Subtract
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Subtract
+  nameWithType: Keys.Subtract
+  fullName: Fantas.Input.Keys.Subtract
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Subtract key.
+  example: []
+  syntax:
+    content: Subtract = 109
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Dot
+  commentId: F:Fantas.Input.Keys.Dot
+  id: Dot
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Dot
+  nameWithType: Keys.Dot
+  fullName: Fantas.Input.Keys.Dot
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Dot key.
+  example: []
+  syntax:
+    content: Dot = 110
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Divide
+  commentId: F:Fantas.Input.Keys.Divide
+  id: Divide
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Divide
+  nameWithType: Keys.Divide
+  fullName: Fantas.Input.Keys.Divide
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Divide key.
+  example: []
+  syntax:
+    content: Divide = 111
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.F1
+  commentId: F:Fantas.Input.Keys.F1
+  id: F1
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: F1
+  nameWithType: Keys.F1
+  fullName: Fantas.Input.Keys.F1
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: F1 key.
+  example: []
+  syntax:
+    content: F1 = 112
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.F2
+  commentId: F:Fantas.Input.Keys.F2
+  id: F2
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: F2
+  nameWithType: Keys.F2
+  fullName: Fantas.Input.Keys.F2
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: F2 key.
+  example: []
+  syntax:
+    content: F2 = 113
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.F3
+  commentId: F:Fantas.Input.Keys.F3
+  id: F3
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: F3
+  nameWithType: Keys.F3
+  fullName: Fantas.Input.Keys.F3
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: F3 key.
+  example: []
+  syntax:
+    content: F3 = 114
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.F4
+  commentId: F:Fantas.Input.Keys.F4
+  id: F4
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: F4
+  nameWithType: Keys.F4
+  fullName: Fantas.Input.Keys.F4
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: F4 key.
+  example: []
+  syntax:
+    content: F4 = 115
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.F5
+  commentId: F:Fantas.Input.Keys.F5
+  id: F5
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: F5
+  nameWithType: Keys.F5
+  fullName: Fantas.Input.Keys.F5
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: F5 key.
+  example: []
+  syntax:
+    content: F5 = 116
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.F6
+  commentId: F:Fantas.Input.Keys.F6
+  id: F6
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: F6
+  nameWithType: Keys.F6
+  fullName: Fantas.Input.Keys.F6
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: F6 key.
+  example: []
+  syntax:
+    content: F6 = 117
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.F7
+  commentId: F:Fantas.Input.Keys.F7
+  id: F7
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: F7
+  nameWithType: Keys.F7
+  fullName: Fantas.Input.Keys.F7
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: F7 key.
+  example: []
+  syntax:
+    content: F7 = 118
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.F8
+  commentId: F:Fantas.Input.Keys.F8
+  id: F8
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: F8
+  nameWithType: Keys.F8
+  fullName: Fantas.Input.Keys.F8
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: F8 key.
+  example: []
+  syntax:
+    content: F8 = 119
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.F9
+  commentId: F:Fantas.Input.Keys.F9
+  id: F9
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: F9
+  nameWithType: Keys.F9
+  fullName: Fantas.Input.Keys.F9
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: F9 key.
+  example: []
+  syntax:
+    content: F9 = 120
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.F10
+  commentId: F:Fantas.Input.Keys.F10
+  id: F10
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: F10
+  nameWithType: Keys.F10
+  fullName: Fantas.Input.Keys.F10
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: F10 key.
+  example: []
+  syntax:
+    content: F10 = 121
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.F11
+  commentId: F:Fantas.Input.Keys.F11
+  id: F11
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: F11
+  nameWithType: Keys.F11
+  fullName: Fantas.Input.Keys.F11
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: F11 key.
+  example: []
+  syntax:
+    content: F11 = 122
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.F12
+  commentId: F:Fantas.Input.Keys.F12
+  id: F12
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: F12
+  nameWithType: Keys.F12
+  fullName: Fantas.Input.Keys.F12
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: F12 key.
+  example: []
+  syntax:
+    content: F12 = 123
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.LeftShift
+  commentId: F:Fantas.Input.Keys.LeftShift
+  id: LeftShift
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: LeftShift
+  nameWithType: Keys.LeftShift
+  fullName: Fantas.Input.Keys.LeftShift
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: F13 key.
+  example: []
+  syntax:
+    content: LeftShift = 160
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.RightShift
+  commentId: F:Fantas.Input.Keys.RightShift
+  id: RightShift
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: RightShift
+  nameWithType: Keys.RightShift
+  fullName: Fantas.Input.Keys.RightShift
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Right SHIFT key.
+  example: []
+  syntax:
+    content: RightShift = 161
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.LeftControl
+  commentId: F:Fantas.Input.Keys.LeftControl
+  id: LeftControl
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: LeftControl
+  nameWithType: Keys.LeftControl
+  fullName: Fantas.Input.Keys.LeftControl
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Left CONTROL key.
+  example: []
+  syntax:
+    content: LeftControl = 162
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.RightControl
+  commentId: F:Fantas.Input.Keys.RightControl
+  id: RightControl
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: RightControl
+  nameWithType: Keys.RightControl
+  fullName: Fantas.Input.Keys.RightControl
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Right CONTROL key.
+  example: []
+  syntax:
+    content: RightControl = 163
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.LeftAlt
+  commentId: F:Fantas.Input.Keys.LeftAlt
+  id: LeftAlt
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: LeftAlt
+  nameWithType: Keys.LeftAlt
+  fullName: Fantas.Input.Keys.LeftAlt
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Left ALT key.
+  example: []
+  syntax:
+    content: LeftAlt = 164
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.RightAlt
+  commentId: F:Fantas.Input.Keys.RightAlt
+  id: RightAlt
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: RightAlt
+  nameWithType: Keys.RightAlt
+  fullName: Fantas.Input.Keys.RightAlt
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Right ALT key.
+  example: []
+  syntax:
+    content: RightAlt = 165
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Pause
+  commentId: F:Fantas.Input.Keys.Pause
+  id: Pause
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Pause
+  nameWithType: Keys.Pause
+  fullName: Fantas.Input.Keys.Pause
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: PAUSE key.
+  example: []
+  syntax:
+    content: Pause = 19
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.VolumeMute
+  commentId: F:Fantas.Input.Keys.VolumeMute
+  id: VolumeMute
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: VolumeMute
+  nameWithType: Keys.VolumeMute
+  fullName: Fantas.Input.Keys.VolumeMute
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Volume Mute key.
+  example: []
+  syntax:
+    content: VolumeMute = 173
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.VolumeDown
+  commentId: F:Fantas.Input.Keys.VolumeDown
+  id: VolumeDown
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: VolumeDown
+  nameWithType: Keys.VolumeDown
+  fullName: Fantas.Input.Keys.VolumeDown
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Volume Down key.
+  example: []
+  syntax:
+    content: VolumeDown = 174
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.VolumeUp
+  commentId: F:Fantas.Input.Keys.VolumeUp
+  id: VolumeUp
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: VolumeUp
+  nameWithType: Keys.VolumeUp
+  fullName: Fantas.Input.Keys.VolumeUp
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Volume Up key.
+  example: []
+  syntax:
+    content: VolumeUp = 175
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Semicolon
+  commentId: F:Fantas.Input.Keys.Semicolon
+  id: Semicolon
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Semicolon
+  nameWithType: Keys.Semicolon
+  fullName: Fantas.Input.Keys.Semicolon
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: The OEM Semicolon key on a US standard keyboard.
+  example: []
+  syntax:
+    content: Semicolon = 186
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.OemPlus
+  commentId: F:Fantas.Input.Keys.OemPlus
+  id: OemPlus
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: OemPlus
+  nameWithType: Keys.OemPlus
+  fullName: Fantas.Input.Keys.OemPlus
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: For any country/region, the '+' key.
+  example: []
+  syntax:
+    content: OemPlus = 187
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Comma
+  commentId: F:Fantas.Input.Keys.Comma
+  id: Comma
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Comma
+  nameWithType: Keys.Comma
+  fullName: Fantas.Input.Keys.Comma
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: For any country/region, the ',' key.
+  example: []
+  syntax:
+    content: Comma = 188
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.OemMinus
+  commentId: F:Fantas.Input.Keys.OemMinus
+  id: OemMinus
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: OemMinus
+  nameWithType: Keys.OemMinus
+  fullName: Fantas.Input.Keys.OemMinus
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: For any country/region, the '-' key.
+  example: []
+  syntax:
+    content: OemMinus = 189
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Period
+  commentId: F:Fantas.Input.Keys.Period
+  id: Period
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Period
+  nameWithType: Keys.Period
+  fullName: Fantas.Input.Keys.Period
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: For any country/region, the '.' key.
+  example: []
+  syntax:
+    content: Period = 190
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Question
+  commentId: F:Fantas.Input.Keys.Question
+  id: Question
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Question
+  nameWithType: Keys.Question
+  fullName: Fantas.Input.Keys.Question
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: The OEM question mark key on a US standard keyboard.
+  example: []
+  syntax:
+    content: Question = 191
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Tilde
+  commentId: F:Fantas.Input.Keys.Tilde
+  id: Tilde
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Tilde
+  nameWithType: Keys.Tilde
+  fullName: Fantas.Input.Keys.Tilde
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: The OEM tilde key on a US standard keyboard.
+  example: []
+  syntax:
+    content: Tilde = 192
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.OpenBrackets
+  commentId: F:Fantas.Input.Keys.OpenBrackets
+  id: OpenBrackets
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: OpenBrackets
+  nameWithType: Keys.OpenBrackets
+  fullName: Fantas.Input.Keys.OpenBrackets
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: The OEM open bracket key on a US standard keyboard.
+  example: []
+  syntax:
+    content: OpenBrackets = 219
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Pipe
+  commentId: F:Fantas.Input.Keys.Pipe
+  id: Pipe
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Pipe
+  nameWithType: Keys.Pipe
+  fullName: Fantas.Input.Keys.Pipe
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: The OEM pipe key on a US standard keyboard.
+  example: []
+  syntax:
+    content: Pipe = 220
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.CloseBrackets
+  commentId: F:Fantas.Input.Keys.CloseBrackets
+  id: CloseBrackets
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: CloseBrackets
+  nameWithType: Keys.CloseBrackets
+  fullName: Fantas.Input.Keys.CloseBrackets
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: The OEM close bracket key on a US standard keyboard.
+  example: []
+  syntax:
+    content: CloseBrackets = 221
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Quotes
+  commentId: F:Fantas.Input.Keys.Quotes
+  id: Quotes
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Quotes
+  nameWithType: Keys.Quotes
+  fullName: Fantas.Input.Keys.Quotes
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: The OEM singled/double quote key on a US standard keyboard.
+  example: []
+  syntax:
+    content: Quotes = 222
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Backslash
+  commentId: F:Fantas.Input.Keys.Backslash
+  id: Backslash
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Backslash
+  nameWithType: Keys.Backslash
+  fullName: Fantas.Input.Keys.Backslash
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: The OEM angle bracket or backslash key on the RT 102 key keyboard.
+  example: []
+  syntax:
+    content: Backslash = 226
+    return:
+      type: Fantas.Input.Keys
+- uid: Fantas.Input.Keys.Max
+  commentId: F:Fantas.Input.Keys.Max
+  id: Max
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: Max
+  nameWithType: Keys.Max
+  fullName: Fantas.Input.Keys.Max
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Last key entry
+  example: []
+  syntax:
+    content: Max = 227
+    return:
+      type: Fantas.Input.Keys
+references:
+- uid: Fantas.Input
+  commentId: N:Fantas.Input
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.Input
+  nameWithType: Fantas.Input
+  fullName: Fantas.Input
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+- uid: Fantas.Input.Keys
+  commentId: T:Fantas.Input.Keys
+  parent: Fantas.Input
+  isExternal: true
+  href: Fantas.Input.Keys.html
+  name: Keys
+  nameWithType: Keys
+  fullName: Fantas.Input.Keys

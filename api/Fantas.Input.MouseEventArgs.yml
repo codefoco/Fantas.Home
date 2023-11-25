@@ -1,0 +1,637 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.Input.MouseEventArgs
+  commentId: T:Fantas.Input.MouseEventArgs
+  id: MouseEventArgs
+  parent: Fantas.Input
+  children:
+  - Fantas.Input.MouseEventArgs.#ctor(Fantas.Input.MouseButtons,System.Int32,System.Numerics.Vector2,System.Drawing.PointF,System.Boolean)
+  - Fantas.Input.MouseEventArgs.Button
+  - Fantas.Input.MouseEventArgs.Clicks
+  - Fantas.Input.MouseEventArgs.HasPreciseScrollingDeltas
+  - Fantas.Input.MouseEventArgs.Location
+  - Fantas.Input.MouseEventArgs.WheelDelta
+  langs:
+  - csharp
+  - vb
+  name: MouseEventArgs
+  nameWithType: MouseEventArgs
+  fullName: Fantas.Input.MouseEventArgs
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseEventArgs.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Event data for Mouse events
+  example: []
+  syntax:
+    content: 'public class MouseEventArgs : EventArgs'
+    content.vb: Public Class MouseEventArgs Inherits EventArgs
+  inheritance:
+  - System.Object
+  - System.EventArgs
+  inheritedMembers:
+  - System.EventArgs.Empty
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Fantas.Input.MouseEventArgs.#ctor(Fantas.Input.MouseButtons,System.Int32,System.Numerics.Vector2,System.Drawing.PointF,System.Boolean)
+  commentId: M:Fantas.Input.MouseEventArgs.#ctor(Fantas.Input.MouseButtons,System.Int32,System.Numerics.Vector2,System.Drawing.PointF,System.Boolean)
+  id: '#ctor(Fantas.Input.MouseButtons,System.Int32,System.Numerics.Vector2,System.Drawing.PointF,System.Boolean)'
+  parent: Fantas.Input.MouseEventArgs
+  langs:
+  - csharp
+  - vb
+  name: MouseEventArgs(MouseButtons, int, Vector2, PointF, bool)
+  nameWithType: MouseEventArgs.MouseEventArgs(MouseButtons, int, Vector2, PointF, bool)
+  fullName: Fantas.Input.MouseEventArgs.MouseEventArgs(Fantas.Input.MouseButtons, int, System.Numerics.Vector2, System.Drawing.PointF, bool)
+  type: Constructor
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseEventArgs.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Initialize Mouse event args
+  example: []
+  syntax:
+    content: public MouseEventArgs(MouseButtons button, int clicks, Vector2 wheelDelta, PointF location, bool hasPreciseScrollingDeltas = false)
+    parameters:
+    - id: button
+      type: Fantas.Input.MouseButtons
+      description: ''
+    - id: clicks
+      type: System.Int32
+      description: ''
+    - id: wheelDelta
+      type: System.Numerics.Vector2
+      description: ''
+    - id: location
+      type: System.Drawing.PointF
+      description: ''
+    - id: hasPreciseScrollingDeltas
+      type: System.Boolean
+      description: ''
+    content.vb: Public Sub New(button As MouseButtons, clicks As Integer, wheelDelta As Vector2, location As PointF, hasPreciseScrollingDeltas As Boolean = False)
+  overload: Fantas.Input.MouseEventArgs.#ctor*
+  nameWithType.vb: MouseEventArgs.New(MouseButtons, Integer, Vector2, PointF, Boolean)
+  fullName.vb: Fantas.Input.MouseEventArgs.New(Fantas.Input.MouseButtons, Integer, System.Numerics.Vector2, System.Drawing.PointF, Boolean)
+  name.vb: New(MouseButtons, Integer, Vector2, PointF, Boolean)
+- uid: Fantas.Input.MouseEventArgs.Button
+  commentId: P:Fantas.Input.MouseEventArgs.Button
+  id: Button
+  parent: Fantas.Input.MouseEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Button
+  nameWithType: MouseEventArgs.Button
+  fullName: Fantas.Input.MouseEventArgs.Button
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseEventArgs.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Button pressed or None if there was no button pressed
+  example: []
+  syntax:
+    content: public MouseButtons Button { get; }
+    parameters: []
+    return:
+      type: Fantas.Input.MouseButtons
+    content.vb: Public ReadOnly Property Button As MouseButtons
+  overload: Fantas.Input.MouseEventArgs.Button*
+- uid: Fantas.Input.MouseEventArgs.Clicks
+  commentId: P:Fantas.Input.MouseEventArgs.Clicks
+  id: Clicks
+  parent: Fantas.Input.MouseEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Clicks
+  nameWithType: MouseEventArgs.Clicks
+  fullName: Fantas.Input.MouseEventArgs.Clicks
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseEventArgs.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Total of times button was clicked
+  example: []
+  syntax:
+    content: public int Clicks { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Clicks As Integer
+  overload: Fantas.Input.MouseEventArgs.Clicks*
+- uid: Fantas.Input.MouseEventArgs.WheelDelta
+  commentId: P:Fantas.Input.MouseEventArgs.WheelDelta
+  id: WheelDelta
+  parent: Fantas.Input.MouseEventArgs
+  langs:
+  - csharp
+  - vb
+  name: WheelDelta
+  nameWithType: MouseEventArgs.WheelDelta
+  fullName: Fantas.Input.MouseEventArgs.WheelDelta
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseEventArgs.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Mouse Wheel Delta
+  example: []
+  syntax:
+    content: public Vector2 WheelDelta { get; }
+    parameters: []
+    return:
+      type: System.Numerics.Vector2
+    content.vb: Public ReadOnly Property WheelDelta As Vector2
+  overload: Fantas.Input.MouseEventArgs.WheelDelta*
+- uid: Fantas.Input.MouseEventArgs.Location
+  commentId: P:Fantas.Input.MouseEventArgs.Location
+  id: Location
+  parent: Fantas.Input.MouseEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: MouseEventArgs.Location
+  fullName: Fantas.Input.MouseEventArgs.Location
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseEventArgs.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Cursor position on mouse event (Scene coordinates)
+  example: []
+  syntax:
+    content: public PointF Location { get; }
+    parameters: []
+    return:
+      type: System.Drawing.PointF
+    content.vb: Public ReadOnly Property Location As PointF
+  overload: Fantas.Input.MouseEventArgs.Location*
+- uid: Fantas.Input.MouseEventArgs.HasPreciseScrollingDeltas
+  commentId: P:Fantas.Input.MouseEventArgs.HasPreciseScrollingDeltas
+  id: HasPreciseScrollingDeltas
+  parent: Fantas.Input.MouseEventArgs
+  langs:
+  - csharp
+  - vb
+  name: HasPreciseScrollingDeltas
+  nameWithType: MouseEventArgs.HasPreciseScrollingDeltas
+  fullName: Fantas.Input.MouseEventArgs.HasPreciseScrollingDeltas
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Mouse/MouseEventArgs.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: >-
+    Used on Mac to detect if Wheel event have precise scroll values
+
+    for instance when using touch pad scrolling
+  example: []
+  syntax:
+    content: public bool HasPreciseScrollingDeltas { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasPreciseScrollingDeltas As Boolean
+  overload: Fantas.Input.MouseEventArgs.HasPreciseScrollingDeltas*
+references:
+- uid: Fantas.Input
+  commentId: N:Fantas.Input
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.Input
+  nameWithType: Fantas.Input
+  fullName: Fantas.Input
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventargs
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System.EventArgs.Empty
+  commentId: F:System.EventArgs.Empty
+  parent: System.EventArgs
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventargs.empty
+  name: Empty
+  nameWithType: EventArgs.Empty
+  fullName: System.EventArgs.Empty
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.Input.MouseEventArgs.#ctor*
+  commentId: Overload:Fantas.Input.MouseEventArgs.#ctor
+  isExternal: true
+  href: Fantas.Input.MouseEventArgs.html#Fantas_Input_MouseEventArgs__ctor_Fantas_Input_MouseButtons_System_Int32_System_Numerics_Vector2_System_Drawing_PointF_System_Boolean_
+  name: MouseEventArgs
+  nameWithType: MouseEventArgs.MouseEventArgs
+  fullName: Fantas.Input.MouseEventArgs.MouseEventArgs
+  nameWithType.vb: MouseEventArgs.New
+  fullName.vb: Fantas.Input.MouseEventArgs.New
+  name.vb: New
+- uid: Fantas.Input.MouseButtons
+  commentId: T:Fantas.Input.MouseButtons
+  parent: Fantas.Input
+  isExternal: true
+  href: Fantas.Input.MouseButtons.html
+  name: MouseButtons
+  nameWithType: MouseButtons
+  fullName: Fantas.Input.MouseButtons
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Numerics.Vector2
+  commentId: T:System.Numerics.Vector2
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  name: Vector2
+  nameWithType: Vector2
+  fullName: System.Numerics.Vector2
+- uid: System.Drawing.PointF
+  commentId: T:System.Drawing.PointF
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  name: PointF
+  nameWithType: PointF
+  fullName: System.Drawing.PointF
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: Fantas.Input.MouseEventArgs.Button*
+  commentId: Overload:Fantas.Input.MouseEventArgs.Button
+  isExternal: true
+  href: Fantas.Input.MouseEventArgs.html#Fantas_Input_MouseEventArgs_Button
+  name: Button
+  nameWithType: MouseEventArgs.Button
+  fullName: Fantas.Input.MouseEventArgs.Button
+- uid: Fantas.Input.MouseEventArgs.Clicks*
+  commentId: Overload:Fantas.Input.MouseEventArgs.Clicks
+  isExternal: true
+  href: Fantas.Input.MouseEventArgs.html#Fantas_Input_MouseEventArgs_Clicks
+  name: Clicks
+  nameWithType: MouseEventArgs.Clicks
+  fullName: Fantas.Input.MouseEventArgs.Clicks
+- uid: Fantas.Input.MouseEventArgs.WheelDelta*
+  commentId: Overload:Fantas.Input.MouseEventArgs.WheelDelta
+  isExternal: true
+  href: Fantas.Input.MouseEventArgs.html#Fantas_Input_MouseEventArgs_WheelDelta
+  name: WheelDelta
+  nameWithType: MouseEventArgs.WheelDelta
+  fullName: Fantas.Input.MouseEventArgs.WheelDelta
+- uid: Fantas.Input.MouseEventArgs.Location*
+  commentId: Overload:Fantas.Input.MouseEventArgs.Location
+  isExternal: true
+  href: Fantas.Input.MouseEventArgs.html#Fantas_Input_MouseEventArgs_Location
+  name: Location
+  nameWithType: MouseEventArgs.Location
+  fullName: Fantas.Input.MouseEventArgs.Location
+- uid: Fantas.Input.MouseEventArgs.HasPreciseScrollingDeltas*
+  commentId: Overload:Fantas.Input.MouseEventArgs.HasPreciseScrollingDeltas
+  isExternal: true
+  href: Fantas.Input.MouseEventArgs.html#Fantas_Input_MouseEventArgs_HasPreciseScrollingDeltas
+  name: HasPreciseScrollingDeltas
+  nameWithType: MouseEventArgs.HasPreciseScrollingDeltas
+  fullName: Fantas.Input.MouseEventArgs.HasPreciseScrollingDeltas

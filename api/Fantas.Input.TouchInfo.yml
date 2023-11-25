@@ -1,0 +1,853 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.Input.TouchInfo
+  commentId: T:Fantas.Input.TouchInfo
+  id: TouchInfo
+  parent: Fantas.Input
+  children:
+  - Fantas.Input.TouchInfo.#ctor(System.Int32,Fantas.Input.TouchState,System.Drawing.PointF,Fantas.Input.TouchDevice,System.Single,System.Single)
+  - Fantas.Input.TouchInfo.Device
+  - Fantas.Input.TouchInfo.Equals(Fantas.Input.TouchInfo)
+  - Fantas.Input.TouchInfo.Equals(System.Object)
+  - Fantas.Input.TouchInfo.GetHashCode
+  - Fantas.Input.TouchInfo.Id
+  - Fantas.Input.TouchInfo.Location
+  - Fantas.Input.TouchInfo.Pressure
+  - Fantas.Input.TouchInfo.Rotation
+  - Fantas.Input.TouchInfo.State
+  langs:
+  - csharp
+  - vb
+  name: TouchInfo
+  nameWithType: TouchInfo
+  fullName: Fantas.Input.TouchInfo
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/TouchInfo.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Contains information about Touch like location, pressure
+  example: []
+  syntax:
+    content: 'public sealed class TouchInfo : IEquatable<TouchInfo>'
+    content.vb: Public NotInheritable Class TouchInfo Implements IEquatable(Of TouchInfo)
+  inheritance:
+  - System.Object
+  implements:
+  - System.IEquatable{Fantas.Input.TouchInfo}
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Fantas.Input.TouchInfo.Equals(Fantas.Input.TouchInfo)
+  commentId: M:Fantas.Input.TouchInfo.Equals(Fantas.Input.TouchInfo)
+  id: Equals(Fantas.Input.TouchInfo)
+  parent: Fantas.Input.TouchInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(TouchInfo)
+  nameWithType: TouchInfo.Equals(TouchInfo)
+  fullName: Fantas.Input.TouchInfo.Equals(Fantas.Input.TouchInfo)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/TouchInfo.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Check if this TouchInfo is equal to the other
+  example: []
+  syntax:
+    content: public bool Equals(TouchInfo other)
+    parameters:
+    - id: other
+      type: Fantas.Input.TouchInfo
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function Equals(other As TouchInfo) As Boolean
+  overload: Fantas.Input.TouchInfo.Equals*
+  implements:
+  - System.IEquatable{Fantas.Input.TouchInfo}.Equals(Fantas.Input.TouchInfo)
+- uid: Fantas.Input.TouchInfo.Equals(System.Object)
+  commentId: M:Fantas.Input.TouchInfo.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Fantas.Input.TouchInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: TouchInfo.Equals(object)
+  fullName: Fantas.Input.TouchInfo.Equals(object)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/TouchInfo.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: object Equals
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: Fantas.Input.TouchInfo.Equals*
+  nameWithType.vb: TouchInfo.Equals(Object)
+  fullName.vb: Fantas.Input.TouchInfo.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Fantas.Input.TouchInfo.GetHashCode
+  commentId: M:Fantas.Input.TouchInfo.GetHashCode
+  id: GetHashCode
+  parent: Fantas.Input.TouchInfo
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: TouchInfo.GetHashCode()
+  fullName: Fantas.Input.TouchInfo.GetHashCode()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/TouchInfo.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: object GetHashCode
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: Fantas.Input.TouchInfo.GetHashCode*
+- uid: Fantas.Input.TouchInfo.#ctor(System.Int32,Fantas.Input.TouchState,System.Drawing.PointF,Fantas.Input.TouchDevice,System.Single,System.Single)
+  commentId: M:Fantas.Input.TouchInfo.#ctor(System.Int32,Fantas.Input.TouchState,System.Drawing.PointF,Fantas.Input.TouchDevice,System.Single,System.Single)
+  id: '#ctor(System.Int32,Fantas.Input.TouchState,System.Drawing.PointF,Fantas.Input.TouchDevice,System.Single,System.Single)'
+  parent: Fantas.Input.TouchInfo
+  langs:
+  - csharp
+  - vb
+  name: TouchInfo(int, TouchState, PointF, TouchDevice, float, float)
+  nameWithType: TouchInfo.TouchInfo(int, TouchState, PointF, TouchDevice, float, float)
+  fullName: Fantas.Input.TouchInfo.TouchInfo(int, Fantas.Input.TouchState, System.Drawing.PointF, Fantas.Input.TouchDevice, float, float)
+  type: Constructor
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/TouchInfo.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Create a TouchInfo
+  example: []
+  syntax:
+    content: public TouchInfo(int id, TouchState state, PointF location, TouchDevice device, float pressure, float rotation)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: ''
+    - id: state
+      type: Fantas.Input.TouchState
+      description: ''
+    - id: location
+      type: System.Drawing.PointF
+      description: ''
+    - id: device
+      type: Fantas.Input.TouchDevice
+      description: ''
+    - id: pressure
+      type: System.Single
+      description: ''
+    - id: rotation
+      type: System.Single
+      description: ''
+    content.vb: Public Sub New(id As Integer, state As TouchState, location As PointF, device As TouchDevice, pressure As Single, rotation As Single)
+  overload: Fantas.Input.TouchInfo.#ctor*
+  nameWithType.vb: TouchInfo.New(Integer, TouchState, PointF, TouchDevice, Single, Single)
+  fullName.vb: Fantas.Input.TouchInfo.New(Integer, Fantas.Input.TouchState, System.Drawing.PointF, Fantas.Input.TouchDevice, Single, Single)
+  name.vb: New(Integer, TouchState, PointF, TouchDevice, Single, Single)
+- uid: Fantas.Input.TouchInfo.Id
+  commentId: P:Fantas.Input.TouchInfo.Id
+  id: Id
+  parent: Fantas.Input.TouchInfo
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TouchInfo.Id
+  fullName: Fantas.Input.TouchInfo.Id
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/TouchInfo.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Touch id number
+  example: []
+  syntax:
+    content: public int Id { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Id As Integer
+  overload: Fantas.Input.TouchInfo.Id*
+- uid: Fantas.Input.TouchInfo.State
+  commentId: P:Fantas.Input.TouchInfo.State
+  id: State
+  parent: Fantas.Input.TouchInfo
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: TouchInfo.State
+  fullName: Fantas.Input.TouchInfo.State
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/TouchInfo.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Current touch state (Down, Move, Up)
+  example: []
+  syntax:
+    content: public TouchState State { get; }
+    parameters: []
+    return:
+      type: Fantas.Input.TouchState
+    content.vb: Public ReadOnly Property State As TouchState
+  overload: Fantas.Input.TouchInfo.State*
+- uid: Fantas.Input.TouchInfo.Location
+  commentId: P:Fantas.Input.TouchInfo.Location
+  id: Location
+  parent: Fantas.Input.TouchInfo
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: TouchInfo.Location
+  fullName: Fantas.Input.TouchInfo.Location
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/TouchInfo.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Location of the touch, in Screen coordinates
+  example: []
+  syntax:
+    content: public PointF Location { get; }
+    parameters: []
+    return:
+      type: System.Drawing.PointF
+    content.vb: Public ReadOnly Property Location As PointF
+  overload: Fantas.Input.TouchInfo.Location*
+- uid: Fantas.Input.TouchInfo.Device
+  commentId: P:Fantas.Input.TouchInfo.Device
+  id: Device
+  parent: Fantas.Input.TouchInfo
+  langs:
+  - csharp
+  - vb
+  name: Device
+  nameWithType: TouchInfo.Device
+  fullName: Fantas.Input.TouchInfo.Device
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/TouchInfo.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: TouchDevice type (Touch, Mouse, Pen)
+  example: []
+  syntax:
+    content: public TouchDevice Device { get; }
+    parameters: []
+    return:
+      type: Fantas.Input.TouchDevice
+    content.vb: Public ReadOnly Property Device As TouchDevice
+  overload: Fantas.Input.TouchInfo.Device*
+- uid: Fantas.Input.TouchInfo.Pressure
+  commentId: P:Fantas.Input.TouchInfo.Pressure
+  id: Pressure
+  parent: Fantas.Input.TouchInfo
+  langs:
+  - csharp
+  - vb
+  name: Pressure
+  nameWithType: TouchInfo.Pressure
+  fullName: Fantas.Input.TouchInfo.Pressure
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/TouchInfo.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: >-
+    Get the touch pressure (if available)
+
+    0f pressure not available
+
+    0.5f - normal pressure
+
+    1f - high pressure
+  example: []
+  syntax:
+    content: public float Pressure { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Pressure As Single
+  overload: Fantas.Input.TouchInfo.Pressure*
+- uid: Fantas.Input.TouchInfo.Rotation
+  commentId: P:Fantas.Input.TouchInfo.Rotation
+  id: Rotation
+  parent: Fantas.Input.TouchInfo
+  langs:
+  - csharp
+  - vb
+  name: Rotation
+  nameWithType: TouchInfo.Rotation
+  fullName: Fantas.Input.TouchInfo.Rotation
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/TouchInfo.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Get touch rotation if available
+  example: []
+  syntax:
+    content: public float Rotation { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Rotation As Single
+  overload: Fantas.Input.TouchInfo.Rotation*
+references:
+- uid: Fantas.Input
+  commentId: N:Fantas.Input
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.Input
+  nameWithType: Fantas.Input
+  fullName: Fantas.Input
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IEquatable{Fantas.Input.TouchInfo}
+  commentId: T:System.IEquatable{Fantas.Input.TouchInfo}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<TouchInfo>
+  nameWithType: IEquatable<TouchInfo>
+  fullName: System.IEquatable<Fantas.Input.TouchInfo>
+  nameWithType.vb: IEquatable(Of TouchInfo)
+  fullName.vb: System.IEquatable(Of Fantas.Input.TouchInfo)
+  name.vb: IEquatable(Of TouchInfo)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Fantas.Input.TouchInfo
+    name: TouchInfo
+    isExternal: true
+    href: Fantas.Input.TouchInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fantas.Input.TouchInfo
+    name: TouchInfo
+    isExternal: true
+    href: Fantas.Input.TouchInfo.html
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Fantas.Input.TouchInfo.Equals*
+  commentId: Overload:Fantas.Input.TouchInfo.Equals
+  isExternal: true
+  href: Fantas.Input.TouchInfo.html#Fantas_Input_TouchInfo_Equals_Fantas_Input_TouchInfo_
+  name: Equals
+  nameWithType: TouchInfo.Equals
+  fullName: Fantas.Input.TouchInfo.Equals
+- uid: System.IEquatable{Fantas.Input.TouchInfo}.Equals(Fantas.Input.TouchInfo)
+  commentId: M:System.IEquatable{Fantas.Input.TouchInfo}.Equals(Fantas.Input.TouchInfo)
+  parent: System.IEquatable{Fantas.Input.TouchInfo}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(TouchInfo)
+  nameWithType: IEquatable<TouchInfo>.Equals(TouchInfo)
+  fullName: System.IEquatable<Fantas.Input.TouchInfo>.Equals(Fantas.Input.TouchInfo)
+  nameWithType.vb: IEquatable(Of TouchInfo).Equals(TouchInfo)
+  fullName.vb: System.IEquatable(Of Fantas.Input.TouchInfo).Equals(Fantas.Input.TouchInfo)
+  spec.csharp:
+  - uid: System.IEquatable{Fantas.Input.TouchInfo}.Equals(Fantas.Input.TouchInfo)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Fantas.Input.TouchInfo
+    name: TouchInfo
+    isExternal: true
+    href: Fantas.Input.TouchInfo.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{Fantas.Input.TouchInfo}.Equals(Fantas.Input.TouchInfo)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Fantas.Input.TouchInfo
+    name: TouchInfo
+    isExternal: true
+    href: Fantas.Input.TouchInfo.html
+  - name: )
+- uid: Fantas.Input.TouchInfo
+  commentId: T:Fantas.Input.TouchInfo
+  parent: Fantas.Input
+  isExternal: true
+  href: Fantas.Input.TouchInfo.html
+  name: TouchInfo
+  nameWithType: TouchInfo
+  fullName: Fantas.Input.TouchInfo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: Fantas.Input.TouchInfo.GetHashCode*
+  commentId: Overload:Fantas.Input.TouchInfo.GetHashCode
+  isExternal: true
+  href: Fantas.Input.TouchInfo.html#Fantas_Input_TouchInfo_GetHashCode
+  name: GetHashCode
+  nameWithType: TouchInfo.GetHashCode
+  fullName: Fantas.Input.TouchInfo.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Fantas.Input.TouchInfo.#ctor*
+  commentId: Overload:Fantas.Input.TouchInfo.#ctor
+  isExternal: true
+  href: Fantas.Input.TouchInfo.html#Fantas_Input_TouchInfo__ctor_System_Int32_Fantas_Input_TouchState_System_Drawing_PointF_Fantas_Input_TouchDevice_System_Single_System_Single_
+  name: TouchInfo
+  nameWithType: TouchInfo.TouchInfo
+  fullName: Fantas.Input.TouchInfo.TouchInfo
+  nameWithType.vb: TouchInfo.New
+  fullName.vb: Fantas.Input.TouchInfo.New
+  name.vb: New
+- uid: Fantas.Input.TouchState
+  commentId: T:Fantas.Input.TouchState
+  parent: Fantas.Input
+  isExternal: true
+  href: Fantas.Input.TouchState.html
+  name: TouchState
+  nameWithType: TouchState
+  fullName: Fantas.Input.TouchState
+- uid: System.Drawing.PointF
+  commentId: T:System.Drawing.PointF
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  name: PointF
+  nameWithType: PointF
+  fullName: System.Drawing.PointF
+- uid: Fantas.Input.TouchDevice
+  commentId: T:Fantas.Input.TouchDevice
+  parent: Fantas.Input
+  isExternal: true
+  href: Fantas.Input.TouchDevice.html
+  name: TouchDevice
+  nameWithType: TouchDevice
+  fullName: Fantas.Input.TouchDevice
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: Fantas.Input.TouchInfo.Id*
+  commentId: Overload:Fantas.Input.TouchInfo.Id
+  isExternal: true
+  href: Fantas.Input.TouchInfo.html#Fantas_Input_TouchInfo_Id
+  name: Id
+  nameWithType: TouchInfo.Id
+  fullName: Fantas.Input.TouchInfo.Id
+- uid: Fantas.Input.TouchInfo.State*
+  commentId: Overload:Fantas.Input.TouchInfo.State
+  isExternal: true
+  href: Fantas.Input.TouchInfo.html#Fantas_Input_TouchInfo_State
+  name: State
+  nameWithType: TouchInfo.State
+  fullName: Fantas.Input.TouchInfo.State
+- uid: Fantas.Input.TouchInfo.Location*
+  commentId: Overload:Fantas.Input.TouchInfo.Location
+  isExternal: true
+  href: Fantas.Input.TouchInfo.html#Fantas_Input_TouchInfo_Location
+  name: Location
+  nameWithType: TouchInfo.Location
+  fullName: Fantas.Input.TouchInfo.Location
+- uid: Fantas.Input.TouchInfo.Device*
+  commentId: Overload:Fantas.Input.TouchInfo.Device
+  isExternal: true
+  href: Fantas.Input.TouchInfo.html#Fantas_Input_TouchInfo_Device
+  name: Device
+  nameWithType: TouchInfo.Device
+  fullName: Fantas.Input.TouchInfo.Device
+- uid: Fantas.Input.TouchInfo.Pressure*
+  commentId: Overload:Fantas.Input.TouchInfo.Pressure
+  isExternal: true
+  href: Fantas.Input.TouchInfo.html#Fantas_Input_TouchInfo_Pressure
+  name: Pressure
+  nameWithType: TouchInfo.Pressure
+  fullName: Fantas.Input.TouchInfo.Pressure
+- uid: Fantas.Input.TouchInfo.Rotation*
+  commentId: Overload:Fantas.Input.TouchInfo.Rotation
+  isExternal: true
+  href: Fantas.Input.TouchInfo.html#Fantas_Input_TouchInfo_Rotation
+  name: Rotation
+  nameWithType: TouchInfo.Rotation
+  fullName: Fantas.Input.TouchInfo.Rotation

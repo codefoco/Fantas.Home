@@ -1,0 +1,912 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PhysicsWorld
+ | Fantas </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PhysicsWorld
+ | Fantas ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.json">
+      <meta name="docfx:tocrel" content="toc.json">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="Fantas">
+            Fantas
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Fantas.Physics.PhysicsWorld">
+
+
+
+  <h1 id="Fantas_Physics_PhysicsWorld" data-uid="Fantas.Physics.PhysicsWorld" class="text-break">
+    Class PhysicsWorld
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Fantas.html">Fantas</a>.<a class="xref" href="Fantas.Physics.html">Physics</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Fantas.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The PhysicsWorld provides:</p>
+<p>Global values such as Gravity.
+Connecting PhysicsBodies with the AddJoint(PhysicsJoint) method.
+Raising events when PhysicsBody begin or end contact with each other(DidBeginContact, DidEndContact).</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class PhysicsWorld</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">PhysicsWorld</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Fantas_Physics_PhysicsWorld_DefaultCollisionHandler_" data-uid="Fantas.Physics.PhysicsWorld.DefaultCollisionHandler*"></a>
+
+  <h3 id="Fantas_Physics_PhysicsWorld_DefaultCollisionHandler" data-uid="Fantas.Physics.PhysicsWorld.DefaultCollisionHandler">
+  DefaultCollisionHandler
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>event when two bodies contact begin</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ContactHandler DefaultCollisionHandler { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Physics.ContactHandler.html">ContactHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Physics_PhysicsWorld_Gravity_" data-uid="Fantas.Physics.PhysicsWorld.Gravity*"></a>
+
+  <h3 id="Fantas_Physics_PhysicsWorld_Gravity" data-uid="Fantas.Physics.PhysicsWorld.Gravity">
+  Gravity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gravitational acceleration</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 Gravity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Physics_PhysicsWorld_Iterations_" data-uid="Fantas.Physics.PhysicsWorld.Iterations*"></a>
+
+  <h3 id="Fantas_Physics_PhysicsWorld_Iterations" data-uid="Fantas.Physics.PhysicsWorld.Iterations">
+  Iterations
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Number of iterations to be used by impulse solver
+The default value is 10, for a more precise use a higher value
+For a faster solver use a lower value
+(This only affect Chipmunk/MonoGame backend)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Iterations { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Physics_PhysicsWorld_Speed_" data-uid="Fantas.Physics.PhysicsWorld.Speed*"></a>
+
+  <h3 id="Fantas_Physics_PhysicsWorld_Speed" data-uid="Fantas.Physics.PhysicsWorld.Speed">
+  Speed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The speed at which the physics simulation runs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Speed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Fantas_Physics_PhysicsWorld_AddJoint_" data-uid="Fantas.Physics.PhysicsWorld.AddJoint*"></a>
+
+  <h3 id="Fantas_Physics_PhysicsWorld_AddJoint_Fantas_Physics_PhysicsJoint_" data-uid="Fantas.Physics.PhysicsWorld.AddJoint(Fantas.Physics.PhysicsJoint)">
+  AddJoint(PhysicsJoint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add joint to world</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddJoint(PhysicsJoint joint)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>joint</code> <a class="xref" href="Fantas.Physics.PhysicsJoint.html">PhysicsJoint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Physics_PhysicsWorld_EnumarateBodies_" data-uid="Fantas.Physics.PhysicsWorld.EnumarateBodies*"></a>
+
+  <h3 id="Fantas_Physics_PhysicsWorld_EnumarateBodies_System_Drawing_PointF_" data-uid="Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.PointF)">
+  EnumarateBodies(PointF)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enumerate all physical bodies at point</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;PhysicsBody&gt; EnumarateBodies(PointF point)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>point</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Fantas.Physics.PhysicsBody.html">PhysicsBody</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Physics_PhysicsWorld_EnumarateBodies_" data-uid="Fantas.Physics.PhysicsWorld.EnumarateBodies*"></a>
+
+  <h3 id="Fantas_Physics_PhysicsWorld_EnumarateBodies_System_Drawing_PointF_System_Int32_" data-uid="Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.PointF,System.Int32)">
+  EnumarateBodies(PointF, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enumerate all physical bodies at point that match the filter</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;PhysicsBody&gt; EnumarateBodies(PointF point, int categories)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>point</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+    <dt><code>categories</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Fantas.Physics.PhysicsBody.html">PhysicsBody</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Physics_PhysicsWorld_EnumarateBodies_" data-uid="Fantas.Physics.PhysicsWorld.EnumarateBodies*"></a>
+
+  <h3 id="Fantas_Physics_PhysicsWorld_EnumarateBodies_System_Drawing_RectangleF_" data-uid="Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.RectangleF)">
+  EnumarateBodies(RectangleF)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enumerate all physical bodies inside the rectangle</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;PhysicsBody&gt; EnumarateBodies(RectangleF rect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.rectanglef">RectangleF</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Fantas.Physics.PhysicsBody.html">PhysicsBody</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Physics_PhysicsWorld_EnumarateBodies_" data-uid="Fantas.Physics.PhysicsWorld.EnumarateBodies*"></a>
+
+  <h3 id="Fantas_Physics_PhysicsWorld_EnumarateBodies_System_Drawing_RectangleF_System_Int32_" data-uid="Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.RectangleF,System.Int32)">
+  EnumarateBodies(RectangleF, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enumerate all physical bodies inside the rectangle and match the filter</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;PhysicsBody&gt; EnumarateBodies(RectangleF rect, int categories)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.rectanglef">RectangleF</a></dt>
+    <dd></dd>
+    <dt><code>categories</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Fantas.Physics.PhysicsBody.html">PhysicsBody</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Physics_PhysicsWorld_GetBody_" data-uid="Fantas.Physics.PhysicsWorld.GetBody*"></a>
+
+  <h3 id="Fantas_Physics_PhysicsWorld_GetBody_System_Drawing_PointF_" data-uid="Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.PointF)">
+  GetBody(PointF)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the first PhysicsBody found that contains a point.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PhysicsBody GetBody(PointF point)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>point</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Physics.PhysicsBody.html">PhysicsBody</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Physics_PhysicsWorld_GetBody_" data-uid="Fantas.Physics.PhysicsWorld.GetBody*"></a>
+
+  <h3 id="Fantas_Physics_PhysicsWorld_GetBody_System_Drawing_PointF_System_Int32_" data-uid="Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.PointF,System.Int32)">
+  GetBody(PointF, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get the physical body at point that match the filter mask</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PhysicsBody GetBody(PointF point, int category)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>point</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+    <dt><code>category</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Physics.PhysicsBody.html">PhysicsBody</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Physics_PhysicsWorld_GetBody_" data-uid="Fantas.Physics.PhysicsWorld.GetBody*"></a>
+
+  <h3 id="Fantas_Physics_PhysicsWorld_GetBody_System_Drawing_RectangleF_" data-uid="Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.RectangleF)">
+  GetBody(RectangleF)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the first PhysicsBody whose shape intersects a rectangle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PhysicsBody GetBody(RectangleF rect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.rectanglef">RectangleF</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Physics.PhysicsBody.html">PhysicsBody</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Physics_PhysicsWorld_GetBody_" data-uid="Fantas.Physics.PhysicsWorld.GetBody*"></a>
+
+  <h3 id="Fantas_Physics_PhysicsWorld_GetBody_System_Drawing_RectangleF_System_Int32_" data-uid="Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.RectangleF,System.Int32)">
+  GetBody(RectangleF, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get the first body inside the rectangle bound that match the filter</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PhysicsBody GetBody(RectangleF rect, int category)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.rectanglef">RectangleF</a></dt>
+    <dd></dd>
+    <dt><code>category</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Physics.PhysicsBody.html">PhysicsBody</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Physics_PhysicsWorld_GetPairCollisionHandler_" data-uid="Fantas.Physics.PhysicsWorld.GetPairCollisionHandler*"></a>
+
+  <h3 id="Fantas_Physics_PhysicsWorld_GetPairCollisionHandler_System_Int32_System_Int32_" data-uid="Fantas.Physics.PhysicsWorld.GetPairCollisionHandler(System.Int32,System.Int32)">
+  GetPairCollisionHandler(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>event when two bodies contact begin</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ContactHandler GetPairCollisionHandler(int collisionTypeA, int collisionTypeB)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>collisionTypeA</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>collisionTypeB</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Physics.ContactHandler.html">ContactHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Physics_PhysicsWorld_Raycast_" data-uid="Fantas.Physics.PhysicsWorld.Raycast*"></a>
+
+  <h3 id="Fantas_Physics_PhysicsWorld_Raycast_System_Drawing_PointF_System_Drawing_PointF_" data-uid="Fantas.Physics.PhysicsWorld.Raycast(System.Drawing.PointF,System.Drawing.PointF)">
+  Raycast(PointF, PointF)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the first PhysicsBody that intersects a ray defined by two points.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RaycastHit Raycast(PointF rayStart, PointF rayEnd)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rayStart</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+    <dt><code>rayEnd</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Physics.RaycastHit.html">RaycastHit</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Physics_PhysicsWorld_Raycast_" data-uid="Fantas.Physics.PhysicsWorld.Raycast*"></a>
+
+  <h3 id="Fantas_Physics_PhysicsWorld_Raycast_System_Drawing_PointF_System_Drawing_PointF_System_Int32_" data-uid="Fantas.Physics.PhysicsWorld.Raycast(System.Drawing.PointF,System.Drawing.PointF,System.Int32)">
+  Raycast(PointF, PointF, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return the first body that intersect with the raycast</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RaycastHit Raycast(PointF rayStart, PointF rayEnd, int categories)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rayStart</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+    <dt><code>rayEnd</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+    <dt><code>categories</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Physics.RaycastHit.html">RaycastHit</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Physics_PhysicsWorld_RaycastBodies_" data-uid="Fantas.Physics.PhysicsWorld.RaycastBodies*"></a>
+
+  <h3 id="Fantas_Physics_PhysicsWorld_RaycastBodies_System_Drawing_PointF_System_Drawing_PointF_" data-uid="Fantas.Physics.PhysicsWorld.RaycastBodies(System.Drawing.PointF,System.Drawing.PointF)">
+  RaycastBodies(PointF, PointF)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get all bodies that intersect the raycast</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;RaycastHit&gt; RaycastBodies(PointF rayStart, PointF rayEnd)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rayStart</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+    <dt><code>rayEnd</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Fantas.Physics.RaycastHit.html">RaycastHit</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Physics_PhysicsWorld_RaycastBodies_" data-uid="Fantas.Physics.PhysicsWorld.RaycastBodies*"></a>
+
+  <h3 id="Fantas_Physics_PhysicsWorld_RaycastBodies_System_Drawing_PointF_System_Drawing_PointF_System_Int32_" data-uid="Fantas.Physics.PhysicsWorld.RaycastBodies(System.Drawing.PointF,System.Drawing.PointF,System.Int32)">
+  RaycastBodies(PointF, PointF, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get all bodies that intersect the raycast and match the filter</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;RaycastHit&gt; RaycastBodies(PointF rayStart, PointF rayEnd, int categories)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rayStart</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+    <dt><code>rayEnd</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+    <dt><code>categories</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Fantas.Physics.RaycastHit.html">RaycastHit</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Physics_PhysicsWorld_RemoveAllJoints_" data-uid="Fantas.Physics.PhysicsWorld.RemoveAllJoints*"></a>
+
+  <h3 id="Fantas_Physics_PhysicsWorld_RemoveAllJoints" data-uid="Fantas.Physics.PhysicsWorld.RemoveAllJoints">
+  RemoveAllJoints()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Removes all PhysicsJoints.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveAllJoints()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Physics_PhysicsWorld_RemoveJoint_" data-uid="Fantas.Physics.PhysicsWorld.RemoveJoint*"></a>
+
+  <h3 id="Fantas_Physics_PhysicsWorld_RemoveJoint_Fantas_Physics_PhysicsJoint_" data-uid="Fantas.Physics.PhysicsWorld.RemoveJoint(Fantas.Physics.PhysicsJoint)">
+  RemoveJoint(PhysicsJoint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Removes the specified PhysicsJoint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveJoint(PhysicsJoint joint)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>joint</code> <a class="xref" href="Fantas.Physics.PhysicsJoint.html">PhysicsJoint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/PhysicsWorld.cs" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

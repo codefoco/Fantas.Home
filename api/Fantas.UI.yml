@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.UI
+  commentId: N:Fantas.UI
+  id: Fantas.UI
+  children:
+  - Fantas.UI.ButtonNode
+  - Fantas.UI.ControlNode
+  - Fantas.UI.ControlState
+  langs:
+  - csharp
+  - vb
+  name: Fantas.UI
+  nameWithType: Fantas.UI
+  fullName: Fantas.UI
+  type: Namespace
+  assemblies:
+  - Fantas
+references:
+- uid: Fantas.UI.ControlNode
+  commentId: T:Fantas.UI.ControlNode
+  parent: Fantas.UI
+  isExternal: true
+  href: Fantas.UI.ControlNode.html
+  name: ControlNode
+  nameWithType: ControlNode
+  fullName: Fantas.UI.ControlNode
+- uid: Fantas.UI.ControlState
+  commentId: T:Fantas.UI.ControlState
+  parent: Fantas.UI
+  isExternal: true
+  href: Fantas.UI.ControlState.html
+  name: ControlState
+  nameWithType: ControlState
+  fullName: Fantas.UI.ControlState
+- uid: Fantas.UI.ButtonNode
+  commentId: T:Fantas.UI.ButtonNode
+  isExternal: true
+  href: Fantas.UI.ButtonNode.html
+  name: ButtonNode
+  nameWithType: ButtonNode
+  fullName: Fantas.UI.ButtonNode
+- uid: Fantas.UI
+  commentId: N:Fantas.UI
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.UI
+  nameWithType: Fantas.UI
+  fullName: Fantas.UI
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.UI
+    name: UI
+    isExternal: true
+    href: Fantas.UI.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.UI
+    name: UI
+    isExternal: true
+    href: Fantas.UI.html

@@ -1,0 +1,1156 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.Texture
+  commentId: T:Fantas.Texture
+  id: Texture
+  parent: Fantas
+  children:
+  - Fantas.Texture.CreateSubTexture(System.Drawing.RectangleF,Fantas.Texture)
+  - Fantas.Texture.Dispose
+  - Fantas.Texture.EncodeToPNG
+  - Fantas.Texture.Finalize
+  - Fantas.Texture.FromAsset(System.String)
+  - Fantas.Texture.FromFile(System.String)
+  - Fantas.Texture.FromFile(System.String,System.Single)
+  - Fantas.Texture.FromName(System.String)
+  - Fantas.Texture.FromResource(System.Reflection.Assembly,System.String,System.Single)
+  - Fantas.Texture.FromResource(System.String)
+  - Fantas.Texture.FromResource(System.String,System.Single)
+  - Fantas.Texture.FromResourceCached(System.Reflection.Assembly,System.String,System.Single)
+  - Fantas.Texture.FromStream(System.IO.Stream,System.Single)
+  - Fantas.Texture.PixelTexture
+  - Fantas.Texture.RawSize
+  - Fantas.Texture.RemoveTextureFromCache(Fantas.Texture)
+  - Fantas.Texture.Size
+  - Fantas.Texture.SparkTexture
+  langs:
+  - csharp
+  - vb
+  name: Texture
+  nameWithType: Texture
+  fullName: Fantas.Texture
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Texture
+  example: []
+  syntax:
+    content: 'public sealed class Texture : IDisposable'
+    content.vb: Public NotInheritable Class Texture Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Fantas.Texture.EncodeToPNG
+  commentId: M:Fantas.Texture.EncodeToPNG
+  id: EncodeToPNG
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: EncodeToPNG()
+  nameWithType: Texture.EncodeToPNG()
+  fullName: Fantas.Texture.EncodeToPNG()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Encode texture as PNG image in the byte[]
+  example: []
+  syntax:
+    content: public byte[] EncodeToPNG()
+    return:
+      type: System.Byte[]
+      description: Return current texture encoded in PNG as a byte array
+    content.vb: Public Function EncodeToPNG() As Byte()
+  overload: Fantas.Texture.EncodeToPNG*
+- uid: Fantas.Texture.FromAsset(System.String)
+  commentId: M:Fantas.Texture.FromAsset(System.String)
+  id: FromAsset(System.String)
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: FromAsset(string)
+  nameWithType: Texture.FromAsset(string)
+  fullName: Fantas.Texture.FromAsset(string)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Loads a texture from a native asset
+
+    Fantas will try to load from the native asset like
+
+    Image assets on iOS
+
+    drawable resources on Android
+
+    MonoGame XNB Content on .NET
+
+    from Contents/
+  example: []
+  syntax:
+    content: public static Texture FromAsset(string assetName)
+    parameters:
+    - id: assetName
+      type: System.String
+      description: asset lookup name
+    return:
+      type: Fantas.Texture
+      description: ''
+    content.vb: Public Shared Function FromAsset(assetName As String) As Texture
+  overload: Fantas.Texture.FromAsset*
+  nameWithType.vb: Texture.FromAsset(String)
+  fullName.vb: Fantas.Texture.FromAsset(String)
+  name.vb: FromAsset(String)
+- uid: Fantas.Texture.FromResource(System.Reflection.Assembly,System.String,System.Single)
+  commentId: M:Fantas.Texture.FromResource(System.Reflection.Assembly,System.String,System.Single)
+  id: FromResource(System.Reflection.Assembly,System.String,System.Single)
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: FromResource(Assembly, string, float)
+  nameWithType: Texture.FromResource(Assembly, string, float)
+  fullName: Fantas.Texture.FromResource(System.Reflection.Assembly, string, float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Load a texture from a resource image
+
+    using the given scale
+  example: []
+  syntax:
+    content: public static Texture FromResource(Assembly assembly, string resourceName, float scale)
+    parameters:
+    - id: assembly
+      type: System.Reflection.Assembly
+      description: ''
+    - id: resourceName
+      type: System.String
+      description: ''
+    - id: scale
+      type: System.Single
+      description: image scale
+    return:
+      type: Fantas.Texture
+      description: ''
+    content.vb: Public Shared Function FromResource(assembly As Assembly, resourceName As String, scale As Single) As Texture
+  overload: Fantas.Texture.FromResource*
+  nameWithType.vb: Texture.FromResource(Assembly, String, Single)
+  fullName.vb: Fantas.Texture.FromResource(System.Reflection.Assembly, String, Single)
+  name.vb: FromResource(Assembly, String, Single)
+- uid: Fantas.Texture.FromResourceCached(System.Reflection.Assembly,System.String,System.Single)
+  commentId: M:Fantas.Texture.FromResourceCached(System.Reflection.Assembly,System.String,System.Single)
+  id: FromResourceCached(System.Reflection.Assembly,System.String,System.Single)
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: FromResourceCached(Assembly, string, float)
+  nameWithType: Texture.FromResourceCached(Assembly, string, float)
+  fullName: Fantas.Texture.FromResourceCached(System.Reflection.Assembly, string, float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Load a texture from a resource and cache it for future use
+  example: []
+  syntax:
+    content: public static Texture FromResourceCached(Assembly assembly, string resourceName, float scale)
+    parameters:
+    - id: assembly
+      type: System.Reflection.Assembly
+      description: ''
+    - id: resourceName
+      type: System.String
+      description: ''
+    - id: scale
+      type: System.Single
+      description: ''
+    return:
+      type: Fantas.Texture
+      description: ''
+    content.vb: Public Shared Function FromResourceCached(assembly As Assembly, resourceName As String, scale As Single) As Texture
+  overload: Fantas.Texture.FromResourceCached*
+  nameWithType.vb: Texture.FromResourceCached(Assembly, String, Single)
+  fullName.vb: Fantas.Texture.FromResourceCached(System.Reflection.Assembly, String, Single)
+  name.vb: FromResourceCached(Assembly, String, Single)
+- uid: Fantas.Texture.RemoveTextureFromCache(Fantas.Texture)
+  commentId: M:Fantas.Texture.RemoveTextureFromCache(Fantas.Texture)
+  id: RemoveTextureFromCache(Fantas.Texture)
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: RemoveTextureFromCache(Texture)
+  nameWithType: Texture.RemoveTextureFromCache(Texture)
+  fullName: Fantas.Texture.RemoveTextureFromCache(Fantas.Texture)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Remove cached from Cache (will be called by Dispose)
+  example: []
+  syntax:
+    content: public static void RemoveTextureFromCache(Texture texture)
+    parameters:
+    - id: texture
+      type: Fantas.Texture
+      description: ''
+    content.vb: Public Shared Sub RemoveTextureFromCache(texture As Texture)
+  overload: Fantas.Texture.RemoveTextureFromCache*
+- uid: Fantas.Texture.CreateSubTexture(System.Drawing.RectangleF,Fantas.Texture)
+  commentId: M:Fantas.Texture.CreateSubTexture(System.Drawing.RectangleF,Fantas.Texture)
+  id: CreateSubTexture(System.Drawing.RectangleF,Fantas.Texture)
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: CreateSubTexture(RectangleF, Texture)
+  nameWithType: Texture.CreateSubTexture(RectangleF, Texture)
+  fullName: Fantas.Texture.CreateSubTexture(System.Drawing.RectangleF, Fantas.Texture)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Create a sub texture from a texture
+  example: []
+  syntax:
+    content: public static Texture CreateSubTexture(RectangleF rectangle, Texture texture)
+    parameters:
+    - id: rectangle
+      type: System.Drawing.RectangleF
+      description: ''
+    - id: texture
+      type: Fantas.Texture
+      description: ''
+    return:
+      type: Fantas.Texture
+      description: ''
+    content.vb: Public Shared Function CreateSubTexture(rectangle As RectangleF, texture As Texture) As Texture
+  overload: Fantas.Texture.CreateSubTexture*
+- uid: Fantas.Texture.FromResource(System.String)
+  commentId: M:Fantas.Texture.FromResource(System.String)
+  id: FromResource(System.String)
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: FromResource(string)
+  nameWithType: Texture.FromResource(string)
+  fullName: Fantas.Texture.FromResource(string)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Load a texture from a resource image
+
+    It will look on ALL loaded assemblies
+  example: []
+  syntax:
+    content: public static Texture FromResource(string resourceName)
+    parameters:
+    - id: resourceName
+      type: System.String
+      description: ''
+    return:
+      type: Fantas.Texture
+      description: ''
+    content.vb: Public Shared Function FromResource(resourceName As String) As Texture
+  overload: Fantas.Texture.FromResource*
+  nameWithType.vb: Texture.FromResource(String)
+  fullName.vb: Fantas.Texture.FromResource(String)
+  name.vb: FromResource(String)
+- uid: Fantas.Texture.FromResource(System.String,System.Single)
+  commentId: M:Fantas.Texture.FromResource(System.String,System.Single)
+  id: FromResource(System.String,System.Single)
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: FromResource(string, float)
+  nameWithType: Texture.FromResource(string, float)
+  fullName: Fantas.Texture.FromResource(string, float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Load a texture from a resource image, using the given scale
+
+    It will look on ALL loaded assemblies
+  example: []
+  syntax:
+    content: public static Texture FromResource(string resourceName, float scale)
+    parameters:
+    - id: resourceName
+      type: System.String
+      description: ''
+    - id: scale
+      type: System.Single
+      description: ''
+    return:
+      type: Fantas.Texture
+      description: ''
+    content.vb: Public Shared Function FromResource(resourceName As String, scale As Single) As Texture
+  overload: Fantas.Texture.FromResource*
+  nameWithType.vb: Texture.FromResource(String, Single)
+  fullName.vb: Fantas.Texture.FromResource(String, Single)
+  name.vb: FromResource(String, Single)
+- uid: Fantas.Texture.FromStream(System.IO.Stream,System.Single)
+  commentId: M:Fantas.Texture.FromStream(System.IO.Stream,System.Single)
+  id: FromStream(System.IO.Stream,System.Single)
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: FromStream(Stream, float)
+  nameWithType: Texture.FromStream(Stream, float)
+  fullName: Fantas.Texture.FromStream(System.IO.Stream, float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Load a texture from a stream (with scale)
+
+    Using given scale
+  example: []
+  syntax:
+    content: public static Texture FromStream(Stream stream, float scale)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+      description: ''
+    - id: scale
+      type: System.Single
+      description: ''
+    return:
+      type: Fantas.Texture
+      description: ''
+    content.vb: Public Shared Function FromStream(stream As Stream, scale As Single) As Texture
+  overload: Fantas.Texture.FromStream*
+  nameWithType.vb: Texture.FromStream(Stream, Single)
+  fullName.vb: Fantas.Texture.FromStream(System.IO.Stream, Single)
+  name.vb: FromStream(Stream, Single)
+- uid: Fantas.Texture.FromFile(System.String,System.Single)
+  commentId: M:Fantas.Texture.FromFile(System.String,System.Single)
+  id: FromFile(System.String,System.Single)
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: FromFile(string, float)
+  nameWithType: Texture.FromFile(string, float)
+  fullName: Fantas.Texture.FromFile(string, float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Load a texture from an file path
+  example: []
+  syntax:
+    content: public static Texture FromFile(string file, float scale)
+    parameters:
+    - id: file
+      type: System.String
+      description: ''
+    - id: scale
+      type: System.Single
+      description: ''
+    return:
+      type: Fantas.Texture
+      description: ''
+    content.vb: Public Shared Function FromFile(file As String, scale As Single) As Texture
+  overload: Fantas.Texture.FromFile*
+  nameWithType.vb: Texture.FromFile(String, Single)
+  fullName.vb: Fantas.Texture.FromFile(String, Single)
+  name.vb: FromFile(String, Single)
+- uid: Fantas.Texture.FromFile(System.String)
+  commentId: M:Fantas.Texture.FromFile(System.String)
+  id: FromFile(System.String)
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: FromFile(string)
+  nameWithType: Texture.FromFile(string)
+  fullName: Fantas.Texture.FromFile(string)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Load a texture from an file path trying to match the screen-scale
+  example: []
+  syntax:
+    content: public static Texture FromFile(string file)
+    parameters:
+    - id: file
+      type: System.String
+      description: ''
+    return:
+      type: Fantas.Texture
+      description: ''
+    content.vb: Public Shared Function FromFile(file As String) As Texture
+  overload: Fantas.Texture.FromFile*
+  nameWithType.vb: Texture.FromFile(String)
+  fullName.vb: Fantas.Texture.FromFile(String)
+  name.vb: FromFile(String)
+- uid: Fantas.Texture.FromName(System.String)
+  commentId: M:Fantas.Texture.FromName(System.String)
+  id: FromName(System.String)
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: FromName(string)
+  nameWithType: Texture.FromName(string)
+  fullName: Fantas.Texture.FromName(string)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Load a texture by name
+
+    FromName will try to find the texture in different locations
+
+    using the order:
+
+    - Native Asset
+
+    - Embedded Resource
+
+    - File
+  example: []
+  syntax:
+    content: public static Texture FromName(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    return:
+      type: Fantas.Texture
+      description: ''
+    content.vb: Public Shared Function FromName(name As String) As Texture
+  overload: Fantas.Texture.FromName*
+  nameWithType.vb: Texture.FromName(String)
+  fullName.vb: Fantas.Texture.FromName(String)
+  name.vb: FromName(String)
+- uid: Fantas.Texture.Finalize
+  commentId: M:Fantas.Texture.Finalize
+  id: Finalize
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: ~Texture()
+  nameWithType: Texture.~Texture()
+  fullName: Fantas.Texture.~Texture()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Finalizer
+  example: []
+  syntax:
+    content: protected ~Texture()
+    content.vb: 'Protected '
+  overload: Fantas.Texture.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Fantas.Texture.Dispose
+  commentId: M:Fantas.Texture.Dispose
+  id: Dispose
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: Texture.Dispose()
+  fullName: Fantas.Texture.Dispose()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Dispose Texture from VRAM
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: Fantas.Texture.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+- uid: Fantas.Texture.PixelTexture
+  commentId: P:Fantas.Texture.PixelTexture
+  id: PixelTexture
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: PixelTexture
+  nameWithType: Texture.PixelTexture
+  fullName: Fantas.Texture.PixelTexture
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: 1x1 pixel texture
+  example: []
+  syntax:
+    content: public static Texture PixelTexture { get; }
+    parameters: []
+    return:
+      type: Fantas.Texture
+    content.vb: Public Shared ReadOnly Property PixelTexture As Texture
+  overload: Fantas.Texture.PixelTexture*
+- uid: Fantas.Texture.SparkTexture
+  commentId: P:Fantas.Texture.SparkTexture
+  id: SparkTexture
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: SparkTexture
+  nameWithType: Texture.SparkTexture
+  fullName: Fantas.Texture.SparkTexture
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Spark texture used by ParticleEmitter
+  example: []
+  syntax:
+    content: public static Texture SparkTexture { get; }
+    parameters: []
+    return:
+      type: Fantas.Texture
+    content.vb: Public Shared ReadOnly Property SparkTexture As Texture
+  overload: Fantas.Texture.SparkTexture*
+- uid: Fantas.Texture.Size
+  commentId: P:Fantas.Texture.Size
+  id: Size
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: Texture.Size
+  fullName: Fantas.Texture.Size
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Texture Size
+  example: []
+  syntax:
+    content: public SizeF Size { get; }
+    parameters: []
+    return:
+      type: System.Drawing.SizeF
+    content.vb: Public ReadOnly Property Size As SizeF
+  overload: Fantas.Texture.Size*
+- uid: Fantas.Texture.RawSize
+  commentId: P:Fantas.Texture.RawSize
+  id: RawSize
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: RawSize
+  nameWithType: Texture.RawSize
+  fullName: Fantas.Texture.RawSize
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Texture Raw Size (independent of retina scale)
+  example: []
+  syntax:
+    content: public SizeF RawSize { get; }
+    parameters: []
+    return:
+      type: System.Drawing.SizeF
+    content.vb: Public ReadOnly Property RawSize As SizeF
+  overload: Fantas.Texture.RawSize*
+references:
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.Texture.EncodeToPNG*
+  commentId: Overload:Fantas.Texture.EncodeToPNG
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_EncodeToPNG
+  name: EncodeToPNG
+  nameWithType: Texture.EncodeToPNG
+  fullName: Fantas.Texture.EncodeToPNG
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: Fantas.Texture.FromAsset*
+  commentId: Overload:Fantas.Texture.FromAsset
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_FromAsset_System_String_
+  name: FromAsset
+  nameWithType: Texture.FromAsset
+  fullName: Fantas.Texture.FromAsset
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Fantas.Texture
+  commentId: T:Fantas.Texture
+  parent: Fantas
+  isExternal: true
+  href: Fantas.Texture.html
+  name: Texture
+  nameWithType: Texture
+  fullName: Fantas.Texture
+- uid: Fantas.Texture.FromResource*
+  commentId: Overload:Fantas.Texture.FromResource
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_FromResource_System_Reflection_Assembly_System_String_System_Single_
+  name: FromResource
+  nameWithType: Texture.FromResource
+  fullName: Fantas.Texture.FromResource
+- uid: System.Reflection.Assembly
+  commentId: T:System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  name: Assembly
+  nameWithType: Assembly
+  fullName: System.Reflection.Assembly
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+- uid: Fantas.Texture.FromResourceCached*
+  commentId: Overload:Fantas.Texture.FromResourceCached
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_FromResourceCached_System_Reflection_Assembly_System_String_System_Single_
+  name: FromResourceCached
+  nameWithType: Texture.FromResourceCached
+  fullName: Fantas.Texture.FromResourceCached
+- uid: Fantas.Texture.RemoveTextureFromCache*
+  commentId: Overload:Fantas.Texture.RemoveTextureFromCache
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_RemoveTextureFromCache_Fantas_Texture_
+  name: RemoveTextureFromCache
+  nameWithType: Texture.RemoveTextureFromCache
+  fullName: Fantas.Texture.RemoveTextureFromCache
+- uid: Fantas.Texture.CreateSubTexture*
+  commentId: Overload:Fantas.Texture.CreateSubTexture
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_CreateSubTexture_System_Drawing_RectangleF_Fantas_Texture_
+  name: CreateSubTexture
+  nameWithType: Texture.CreateSubTexture
+  fullName: Fantas.Texture.CreateSubTexture
+- uid: System.Drawing.RectangleF
+  commentId: T:System.Drawing.RectangleF
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.rectanglef
+  name: RectangleF
+  nameWithType: RectangleF
+  fullName: System.Drawing.RectangleF
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: Fantas.Texture.FromStream*
+  commentId: Overload:Fantas.Texture.FromStream
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_FromStream_System_IO_Stream_System_Single_
+  name: FromStream
+  nameWithType: Texture.FromStream
+  fullName: Fantas.Texture.FromStream
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: Fantas.Texture.FromFile*
+  commentId: Overload:Fantas.Texture.FromFile
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_FromFile_System_String_System_Single_
+  name: FromFile
+  nameWithType: Texture.FromFile
+  fullName: Fantas.Texture.FromFile
+- uid: Fantas.Texture.FromName*
+  commentId: Overload:Fantas.Texture.FromName
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_FromName_System_String_
+  name: FromName
+  nameWithType: Texture.FromName
+  fullName: Fantas.Texture.FromName
+- uid: Fantas.Texture.Finalize*
+  commentId: Overload:Fantas.Texture.Finalize
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_Finalize
+  name: ~Texture
+  nameWithType: Texture.~Texture
+  fullName: Fantas.Texture.~Texture
+  spec.csharp:
+  - name: "~"
+  - uid: Fantas.Texture.Finalize*
+    name: Texture
+    isExternal: true
+    href: Fantas.Texture.html#Fantas_Texture_Finalize
+- uid: Fantas.Texture.Dispose*
+  commentId: Overload:Fantas.Texture.Dispose
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_Dispose
+  name: Dispose
+  nameWithType: Texture.Dispose
+  fullName: Fantas.Texture.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: Fantas.Texture.PixelTexture*
+  commentId: Overload:Fantas.Texture.PixelTexture
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_PixelTexture
+  name: PixelTexture
+  nameWithType: Texture.PixelTexture
+  fullName: Fantas.Texture.PixelTexture
+- uid: Fantas.Texture.SparkTexture*
+  commentId: Overload:Fantas.Texture.SparkTexture
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_SparkTexture
+  name: SparkTexture
+  nameWithType: Texture.SparkTexture
+  fullName: Fantas.Texture.SparkTexture
+- uid: Fantas.Texture.Size*
+  commentId: Overload:Fantas.Texture.Size
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_Size
+  name: Size
+  nameWithType: Texture.Size
+  fullName: Fantas.Texture.Size
+- uid: System.Drawing.SizeF
+  commentId: T:System.Drawing.SizeF
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  name: SizeF
+  nameWithType: SizeF
+  fullName: System.Drawing.SizeF
+- uid: Fantas.Texture.RawSize*
+  commentId: Overload:Fantas.Texture.RawSize
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_RawSize
+  name: RawSize
+  nameWithType: Texture.RawSize
+  fullName: Fantas.Texture.RawSize

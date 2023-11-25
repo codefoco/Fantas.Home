@@ -1,0 +1,109 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.LabelHorizontalAlignmentMode
+  commentId: T:Fantas.LabelHorizontalAlignmentMode
+  id: LabelHorizontalAlignmentMode
+  parent: Fantas
+  children:
+  - Fantas.LabelHorizontalAlignmentMode.Center
+  - Fantas.LabelHorizontalAlignmentMode.Left
+  - Fantas.LabelHorizontalAlignmentMode.Right
+  langs:
+  - csharp
+  - vb
+  name: LabelHorizontalAlignmentMode
+  nameWithType: LabelHorizontalAlignmentMode
+  fullName: Fantas.LabelHorizontalAlignmentMode
+  type: Enum
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/LabelHorizontalAlignmentMode.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Label text horizontal alignment
+  example: []
+  syntax:
+    content: public enum LabelHorizontalAlignmentMode
+    content.vb: Public Enum LabelHorizontalAlignmentMode
+- uid: Fantas.LabelHorizontalAlignmentMode.Center
+  commentId: F:Fantas.LabelHorizontalAlignmentMode.Center
+  id: Center
+  parent: Fantas.LabelHorizontalAlignmentMode
+  langs:
+  - csharp
+  - vb
+  name: Center
+  nameWithType: LabelHorizontalAlignmentMode.Center
+  fullName: Fantas.LabelHorizontalAlignmentMode.Center
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/LabelHorizontalAlignmentMode.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Align text horizontally on center
+  example: []
+  syntax:
+    content: Center = 0
+    return:
+      type: Fantas.LabelHorizontalAlignmentMode
+- uid: Fantas.LabelHorizontalAlignmentMode.Left
+  commentId: F:Fantas.LabelHorizontalAlignmentMode.Left
+  id: Left
+  parent: Fantas.LabelHorizontalAlignmentMode
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: LabelHorizontalAlignmentMode.Left
+  fullName: Fantas.LabelHorizontalAlignmentMode.Left
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/LabelHorizontalAlignmentMode.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Align text horizontally to left side
+  example: []
+  syntax:
+    content: Left = 1
+    return:
+      type: Fantas.LabelHorizontalAlignmentMode
+- uid: Fantas.LabelHorizontalAlignmentMode.Right
+  commentId: F:Fantas.LabelHorizontalAlignmentMode.Right
+  id: Right
+  parent: Fantas.LabelHorizontalAlignmentMode
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: LabelHorizontalAlignmentMode.Right
+  fullName: Fantas.LabelHorizontalAlignmentMode.Right
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/LabelHorizontalAlignmentMode.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Align text horizontally to right side
+  example: []
+  syntax:
+    content: Right = 2
+    return:
+      type: Fantas.LabelHorizontalAlignmentMode
+references:
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: Fantas.LabelHorizontalAlignmentMode
+  commentId: T:Fantas.LabelHorizontalAlignmentMode
+  parent: Fantas
+  isExternal: true
+  href: Fantas.LabelHorizontalAlignmentMode.html
+  name: LabelHorizontalAlignmentMode
+  nameWithType: LabelHorizontalAlignmentMode
+  fullName: Fantas.LabelHorizontalAlignmentMode

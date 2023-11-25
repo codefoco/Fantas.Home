@@ -1,0 +1,185 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.Input.SwipeDirection
+  commentId: T:Fantas.Input.SwipeDirection
+  id: SwipeDirection
+  parent: Fantas.Input
+  children:
+  - Fantas.Input.SwipeDirection.Down
+  - Fantas.Input.SwipeDirection.Left
+  - Fantas.Input.SwipeDirection.None
+  - Fantas.Input.SwipeDirection.Right
+  - Fantas.Input.SwipeDirection.Up
+  langs:
+  - csharp
+  - vb
+  name: SwipeDirection
+  nameWithType: SwipeDirection
+  fullName: Fantas.Input.SwipeDirection
+  type: Enum
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/SwipeDirection.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Touch Swipe Direction
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum SwipeDirection
+    content.vb: >-
+      <Flags>
+
+      Public Enum SwipeDirection
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Fantas.Input.SwipeDirection.None
+  commentId: F:Fantas.Input.SwipeDirection.None
+  id: None
+  parent: Fantas.Input.SwipeDirection
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: SwipeDirection.None
+  fullName: Fantas.Input.SwipeDirection.None
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/SwipeDirection.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: None
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: Fantas.Input.SwipeDirection
+- uid: Fantas.Input.SwipeDirection.Right
+  commentId: F:Fantas.Input.SwipeDirection.Right
+  id: Right
+  parent: Fantas.Input.SwipeDirection
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: SwipeDirection.Right
+  fullName: Fantas.Input.SwipeDirection.Right
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/SwipeDirection.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Right
+  example: []
+  syntax:
+    content: Right = 1
+    return:
+      type: Fantas.Input.SwipeDirection
+- uid: Fantas.Input.SwipeDirection.Left
+  commentId: F:Fantas.Input.SwipeDirection.Left
+  id: Left
+  parent: Fantas.Input.SwipeDirection
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: SwipeDirection.Left
+  fullName: Fantas.Input.SwipeDirection.Left
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/SwipeDirection.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Left
+  example: []
+  syntax:
+    content: Left = 2
+    return:
+      type: Fantas.Input.SwipeDirection
+- uid: Fantas.Input.SwipeDirection.Up
+  commentId: F:Fantas.Input.SwipeDirection.Up
+  id: Up
+  parent: Fantas.Input.SwipeDirection
+  langs:
+  - csharp
+  - vb
+  name: Up
+  nameWithType: SwipeDirection.Up
+  fullName: Fantas.Input.SwipeDirection.Up
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/SwipeDirection.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Up
+  example: []
+  syntax:
+    content: Up = 4
+    return:
+      type: Fantas.Input.SwipeDirection
+- uid: Fantas.Input.SwipeDirection.Down
+  commentId: F:Fantas.Input.SwipeDirection.Down
+  id: Down
+  parent: Fantas.Input.SwipeDirection
+  langs:
+  - csharp
+  - vb
+  name: Down
+  nameWithType: SwipeDirection.Down
+  fullName: Fantas.Input.SwipeDirection.Down
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/SwipeDirection.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Down
+  example: []
+  syntax:
+    content: Down = 8
+    return:
+      type: Fantas.Input.SwipeDirection
+references:
+- uid: Fantas.Input
+  commentId: N:Fantas.Input
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.Input
+  nameWithType: Fantas.Input
+  fullName: Fantas.Input
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+- uid: Fantas.Input.SwipeDirection
+  commentId: T:Fantas.Input.SwipeDirection
+  parent: Fantas.Input
+  isExternal: true
+  href: Fantas.Input.SwipeDirection.html
+  name: SwipeDirection
+  nameWithType: SwipeDirection
+  fullName: Fantas.Input.SwipeDirection

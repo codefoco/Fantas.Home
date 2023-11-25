@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.GameOptions
+  commentId: T:Fantas.GameOptions
+  id: GameOptions
+  parent: Fantas
+  children:
+  - Fantas.GameOptions.DontFilterTextures
+  - Fantas.GameOptions.FullScreen
+  - Fantas.GameOptions.None
+  - Fantas.GameOptions.UseASCIIForDefaultFont
+  - Fantas.GameOptions.UseDisplayResolutionOnFullScreen
+  langs:
+  - csharp
+  - vb
+  name: GameOptions
+  nameWithType: GameOptions
+  fullName: Fantas.GameOptions
+  type: Enum
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/GameOptions.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Game Flags used on game creation object
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum GameOptions
+    content.vb: >-
+      <Flags>
+
+      Public Enum GameOptions
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Fantas.GameOptions.None
+  commentId: F:Fantas.GameOptions.None
+  id: None
+  parent: Fantas.GameOptions
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: GameOptions.None
+  fullName: Fantas.GameOptions.None
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/GameOptions.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: No option
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: Fantas.GameOptions
+- uid: Fantas.GameOptions.FullScreen
+  commentId: F:Fantas.GameOptions.FullScreen
+  id: FullScreen
+  parent: Fantas.GameOptions
+  langs:
+  - csharp
+  - vb
+  name: FullScreen
+  nameWithType: GameOptions.FullScreen
+  fullName: Fantas.GameOptions.FullScreen
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/GameOptions.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Use FullScreen (if possible)
+  example: []
+  syntax:
+    content: FullScreen = 1
+    return:
+      type: Fantas.GameOptions
+- uid: Fantas.GameOptions.UseDisplayResolutionOnFullScreen
+  commentId: F:Fantas.GameOptions.UseDisplayResolutionOnFullScreen
+  id: UseDisplayResolutionOnFullScreen
+  parent: Fantas.GameOptions
+  langs:
+  - csharp
+  - vb
+  name: UseDisplayResolutionOnFullScreen
+  nameWithType: GameOptions.UseDisplayResolutionOnFullScreen
+  fullName: Fantas.GameOptions.UseDisplayResolutionOnFullScreen
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/GameOptions.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Use this flag to DON'T change the Graphics device
+
+    resolution on FullScreen mode
+
+    This can be used when you want to avoid failure asking
+
+    for a resolution that is not available on FS.
+
+    On the other hand if you have a HighDPI display your
+
+    frame rate can drop a lot
+  example: []
+  syntax:
+    content: UseDisplayResolutionOnFullScreen = 2
+    return:
+      type: Fantas.GameOptions
+- uid: Fantas.GameOptions.UseASCIIForDefaultFont
+  commentId: F:Fantas.GameOptions.UseASCIIForDefaultFont
+  id: UseASCIIForDefaultFont
+  parent: Fantas.GameOptions
+  langs:
+  - csharp
+  - vb
+  name: UseASCIIForDefaultFont
+  nameWithType: GameOptions.UseASCIIForDefaultFont
+  fullName: Fantas.GameOptions.UseASCIIForDefaultFont
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/GameOptions.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    On MonoGame platforms, loads use the default font only with ASCII chars
+
+    By default, the default font will contain Chinese Japanese and Koreans chars
+
+    On SpriteKit this flag will be ignored
+  example: []
+  syntax:
+    content: UseASCIIForDefaultFont = 4
+    return:
+      type: Fantas.GameOptions
+- uid: Fantas.GameOptions.DontFilterTextures
+  commentId: F:Fantas.GameOptions.DontFilterTextures
+  id: DontFilterTextures
+  parent: Fantas.GameOptions
+  langs:
+  - csharp
+  - vb
+  name: DontFilterTextures
+  nameWithType: GameOptions.DontFilterTextures
+  fullName: Fantas.GameOptions.DontFilterTextures
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/GameOptions.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Use flag DontFilterTextures to do not apply filtering when scaling textures
+  example: []
+  syntax:
+    content: DontFilterTextures = 8
+    return:
+      type: Fantas.GameOptions
+references:
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: Fantas.GameOptions
+  commentId: T:Fantas.GameOptions
+  parent: Fantas
+  isExternal: true
+  href: Fantas.GameOptions.html
+  name: GameOptions
+  nameWithType: GameOptions
+  fullName: Fantas.GameOptions

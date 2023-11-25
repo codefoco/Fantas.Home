@@ -1,0 +1,536 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.TextureAtlas
+  commentId: T:Fantas.TextureAtlas
+  id: TextureAtlas
+  parent: Fantas
+  children:
+  - Fantas.TextureAtlas.Dispose
+  - Fantas.TextureAtlas.Finalize
+  - Fantas.TextureAtlas.FromName(System.String)
+  - Fantas.TextureAtlas.Load(System.String)
+  - Fantas.TextureAtlas.TextureNames
+  langs:
+  - csharp
+  - vb
+  name: TextureAtlas
+  nameWithType: TextureAtlas
+  fullName: Fantas.TextureAtlas
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/TextureAtlas.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    A set of Textures grouped
+
+    You can use Texture atlas when you have a set of textures that need to
+
+    be loaded together.
+
+    On old devices this can help to save VRAM, since all only one texture
+
+    is loaded into the GPU and the small textures are bits of the main
+
+    texture atlas.
+  example: []
+  syntax:
+    content: 'public sealed class TextureAtlas : IDisposable'
+    content.vb: Public NotInheritable Class TextureAtlas Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Fantas.TextureAtlas.Load(System.String)
+  commentId: M:Fantas.TextureAtlas.Load(System.String)
+  id: Load(System.String)
+  parent: Fantas.TextureAtlas
+  langs:
+  - csharp
+  - vb
+  name: Load(string)
+  nameWithType: TextureAtlas.Load(string)
+  fullName: Fantas.TextureAtlas.Load(string)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/TextureAtlas.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Load atlas by Name
+  example: []
+  syntax:
+    content: public static TextureAtlas Load(string atlasName)
+    parameters:
+    - id: atlasName
+      type: System.String
+      description: asset lookup name
+    return:
+      type: Fantas.TextureAtlas
+      description: ''
+    content.vb: Public Shared Function Load(atlasName As String) As TextureAtlas
+  overload: Fantas.TextureAtlas.Load*
+  nameWithType.vb: TextureAtlas.Load(String)
+  fullName.vb: Fantas.TextureAtlas.Load(String)
+  name.vb: Load(String)
+- uid: Fantas.TextureAtlas.FromName(System.String)
+  commentId: M:Fantas.TextureAtlas.FromName(System.String)
+  id: FromName(System.String)
+  parent: Fantas.TextureAtlas
+  langs:
+  - csharp
+  - vb
+  name: FromName(string)
+  nameWithType: TextureAtlas.FromName(string)
+  fullName: Fantas.TextureAtlas.FromName(string)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/TextureAtlas.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Loads a texture from Atlas by Name
+
+    If the texture isn't found in the Atlas,
+
+    the load wil fallback to loading the texture as asset/file
+  example: []
+  syntax:
+    content: public Texture FromName(string textureName)
+    parameters:
+    - id: textureName
+      type: System.String
+      description: ''
+    return:
+      type: Fantas.Texture
+      description: ''
+    content.vb: Public Function FromName(textureName As String) As Texture
+  overload: Fantas.TextureAtlas.FromName*
+  nameWithType.vb: TextureAtlas.FromName(String)
+  fullName.vb: Fantas.TextureAtlas.FromName(String)
+  name.vb: FromName(String)
+- uid: Fantas.TextureAtlas.Finalize
+  commentId: M:Fantas.TextureAtlas.Finalize
+  id: Finalize
+  parent: Fantas.TextureAtlas
+  langs:
+  - csharp
+  - vb
+  name: ~TextureAtlas()
+  nameWithType: TextureAtlas.~TextureAtlas()
+  fullName: Fantas.TextureAtlas.~TextureAtlas()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/TextureAtlas.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Finalizer
+  example: []
+  syntax:
+    content: protected ~TextureAtlas()
+    content.vb: 'Protected '
+  overload: Fantas.TextureAtlas.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Fantas.TextureAtlas.Dispose
+  commentId: M:Fantas.TextureAtlas.Dispose
+  id: Dispose
+  parent: Fantas.TextureAtlas
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: TextureAtlas.Dispose()
+  fullName: Fantas.TextureAtlas.Dispose()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/TextureAtlas.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Dispose Texture Atlas from VRAM
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: Fantas.TextureAtlas.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+- uid: Fantas.TextureAtlas.TextureNames
+  commentId: P:Fantas.TextureAtlas.TextureNames
+  id: TextureNames
+  parent: Fantas.TextureAtlas
+  langs:
+  - csharp
+  - vb
+  name: TextureNames
+  nameWithType: TextureAtlas.TextureNames
+  fullName: Fantas.TextureAtlas.TextureNames
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Texture/TextureAtlas.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Return all the names inside the TextureAtlas
+  example: []
+  syntax:
+    content: public string[] TextureNames { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property TextureNames As String()
+  overload: Fantas.TextureAtlas.TextureNames*
+references:
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.TextureAtlas.Load*
+  commentId: Overload:Fantas.TextureAtlas.Load
+  isExternal: true
+  href: Fantas.TextureAtlas.html#Fantas_TextureAtlas_Load_System_String_
+  name: Load
+  nameWithType: TextureAtlas.Load
+  fullName: Fantas.TextureAtlas.Load
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Fantas.TextureAtlas
+  commentId: T:Fantas.TextureAtlas
+  parent: Fantas
+  isExternal: true
+  href: Fantas.TextureAtlas.html
+  name: TextureAtlas
+  nameWithType: TextureAtlas
+  fullName: Fantas.TextureAtlas
+- uid: Fantas.TextureAtlas.FromName*
+  commentId: Overload:Fantas.TextureAtlas.FromName
+  isExternal: true
+  href: Fantas.TextureAtlas.html#Fantas_TextureAtlas_FromName_System_String_
+  name: FromName
+  nameWithType: TextureAtlas.FromName
+  fullName: Fantas.TextureAtlas.FromName
+- uid: Fantas.Texture
+  commentId: T:Fantas.Texture
+  parent: Fantas
+  isExternal: true
+  href: Fantas.Texture.html
+  name: Texture
+  nameWithType: Texture
+  fullName: Fantas.Texture
+- uid: Fantas.TextureAtlas.Finalize*
+  commentId: Overload:Fantas.TextureAtlas.Finalize
+  isExternal: true
+  href: Fantas.TextureAtlas.html#Fantas_TextureAtlas_Finalize
+  name: ~TextureAtlas
+  nameWithType: TextureAtlas.~TextureAtlas
+  fullName: Fantas.TextureAtlas.~TextureAtlas
+  spec.csharp:
+  - name: "~"
+  - uid: Fantas.TextureAtlas.Finalize*
+    name: TextureAtlas
+    isExternal: true
+    href: Fantas.TextureAtlas.html#Fantas_TextureAtlas_Finalize
+- uid: Fantas.TextureAtlas.Dispose*
+  commentId: Overload:Fantas.TextureAtlas.Dispose
+  isExternal: true
+  href: Fantas.TextureAtlas.html#Fantas_TextureAtlas_Dispose
+  name: Dispose
+  nameWithType: TextureAtlas.Dispose
+  fullName: Fantas.TextureAtlas.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: Fantas.TextureAtlas.TextureNames*
+  commentId: Overload:Fantas.TextureAtlas.TextureNames
+  isExternal: true
+  href: Fantas.TextureAtlas.html#Fantas_TextureAtlas_TextureNames
+  name: TextureNames
+  nameWithType: TextureAtlas.TextureNames
+  fullName: Fantas.TextureAtlas.TextureNames
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )

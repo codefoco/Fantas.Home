@@ -1,0 +1,4381 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.Node
+  commentId: T:Fantas.Node
+  id: Node
+  parent: Fantas
+  children:
+  - Fantas.Node.#ctor
+  - Fantas.Node.#ctor(Fantas.Node)
+  - Fantas.Node.AddChild(Fantas.Node)
+  - Fantas.Node.Alpha
+  - Fantas.Node.Bottom
+  - Fantas.Node.BringForward
+  - Fantas.Node.BringToFront
+  - Fantas.Node.CalculateAccumulatedFrame
+  - Fantas.Node.CanBringForward
+  - Fantas.Node.CanSendBackward
+  - Fantas.Node.Center
+  - Fantas.Node.Children
+  - Fantas.Node.Click
+  - Fantas.Node.ContainsPoint(System.Drawing.PointF)
+  - Fantas.Node.ConvertPointFromNode(System.Drawing.PointF,Fantas.Node)
+  - Fantas.Node.ConvertPointToNode(System.Drawing.PointF,Fantas.Node)
+  - Fantas.Node.Copy
+  - Fantas.Node.Cursor
+  - Fantas.Node.DoubleClick
+  - Fantas.Node.DoubleTap
+  - Fantas.Node.Frame
+  - Fantas.Node.GetAnimationForKey(System.String)
+  - Fantas.Node.GetChildNode(System.String)
+  - Fantas.Node.GetNodeAtPoint(System.Drawing.PointF)
+  - Fantas.Node.GetNodesAtPoint(System.Drawing.PointF)
+  - Fantas.Node.HasAnimation
+  - Fantas.Node.Height
+  - Fantas.Node.Hidden
+  - Fantas.Node.InParentHierarchy(Fantas.Node)
+  - Fantas.Node.InsertChild(System.Int32,Fantas.Node)
+  - Fantas.Node.IntersectsNode(Fantas.Node)
+  - Fantas.Node.IsHitTestEnabled
+  - Fantas.Node.IsMouseOver
+  - Fantas.Node.IsTouchOver
+  - Fantas.Node.Left
+  - Fantas.Node.LongPress
+  - Fantas.Node.MouseButtonPressed
+  - Fantas.Node.MouseDown
+  - Fantas.Node.MouseEnter
+  - Fantas.Node.MouseHover
+  - Fantas.Node.MouseLeave
+  - Fantas.Node.MouseUp
+  - Fantas.Node.MoveToParent(Fantas.Node)
+  - Fantas.Node.Name
+  - Fantas.Node.Offset(System.Numerics.Vector2)
+  - Fantas.Node.Offset(System.Single,System.Single)
+  - Fantas.Node.OffsetX(System.Single)
+  - Fantas.Node.OffsetY(System.Single)
+  - Fantas.Node.OnClick(Fantas.Input.MouseEventArgs)
+  - Fantas.Node.OnDoubleClick(Fantas.Input.MouseEventArgs)
+  - Fantas.Node.OnDoubleTap(Fantas.Input.TapEventArgs)
+  - Fantas.Node.OnLongPress(Fantas.Input.TapEventArgs)
+  - Fantas.Node.OnMouseDown(Fantas.Input.MouseEventArgs)
+  - Fantas.Node.OnMouseEnter
+  - Fantas.Node.OnMouseHover
+  - Fantas.Node.OnMouseLeave
+  - Fantas.Node.OnMouseUp(Fantas.Input.MouseEventArgs)
+  - Fantas.Node.OnTap(Fantas.Input.TapEventArgs)
+  - Fantas.Node.OnTouchDownInside(Fantas.Input.TouchEventArgs)
+  - Fantas.Node.OnTouchDragEnter(Fantas.Input.TouchEventArgs)
+  - Fantas.Node.OnTouchDragExit(Fantas.Input.TouchEventArgs)
+  - Fantas.Node.OnTouchDragInside(Fantas.Input.TouchEventArgs)
+  - Fantas.Node.OnTouchDragOutside(Fantas.Input.TouchEventArgs)
+  - Fantas.Node.OnTouchUpInside(Fantas.Input.TouchEventArgs)
+  - Fantas.Node.OnTouchUpOutside(Fantas.Input.TouchEventArgs)
+  - Fantas.Node.Parent
+  - Fantas.Node.Paused
+  - Fantas.Node.PhysicsBody
+  - Fantas.Node.Position
+  - Fantas.Node.RemoveAllAnimations
+  - Fantas.Node.RemoveAllChildren
+  - Fantas.Node.RemoveAnimationForKey(System.String)
+  - Fantas.Node.RemoveChild(Fantas.Node)
+  - Fantas.Node.RemoveChildren(System.Collections.Generic.IReadOnlyList{Fantas.Node})
+  - Fantas.Node.RemoveFromParent
+  - Fantas.Node.RenderToTexture
+  - Fantas.Node.Right
+  - Fantas.Node.RunAnimation(Fantas.Animation)
+  - Fantas.Node.RunAnimation(Fantas.Animation,System.Action)
+  - Fantas.Node.RunAnimation(Fantas.Animation,System.String)
+  - Fantas.Node.RunAnimationAsync(Fantas.Animation)
+  - Fantas.Node.Scale
+  - Fantas.Node.Scene
+  - Fantas.Node.SendBackward
+  - Fantas.Node.SendToBack
+  - Fantas.Node.SetScale(System.Numerics.Vector2)
+  - Fantas.Node.SetScale(System.Single)
+  - Fantas.Node.Speed
+  - Fantas.Node.Tag
+  - Fantas.Node.Tap
+  - Fantas.Node.ToString
+  - Fantas.Node.Top
+  - Fantas.Node.TouchCount
+  - Fantas.Node.TouchDownInside
+  - Fantas.Node.TouchDragEnter
+  - Fantas.Node.TouchDragExit
+  - Fantas.Node.TouchDragInside
+  - Fantas.Node.TouchDragOutside
+  - Fantas.Node.TouchUpInside
+  - Fantas.Node.TouchUpOutside
+  - Fantas.Node.Width
+  - Fantas.Node.X
+  - Fantas.Node.XScale
+  - Fantas.Node.Y
+  - Fantas.Node.YScale
+  - Fantas.Node.ZPosition
+  - Fantas.Node.ZRotation
+  langs:
+  - csharp
+  - vb
+  name: Node
+  nameWithType: Node
+  fullName: Fantas.Node
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Base Node for other Nodes
+  example: []
+  syntax:
+    content: public class Node
+    content.vb: Public Class Node
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Fantas.CameraNode
+  - Fantas.CropNode
+  - Fantas.LabelNode
+  - Fantas.ParticleEmitterNode
+  - Fantas.Scene
+  - Fantas.ShapeNode
+  - Fantas.SpriteNode
+  - Fantas.SpritePolylineNode
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Fantas.Node.#ctor
+  commentId: M:Fantas.Node.#ctor
+  id: '#ctor'
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Node()
+  nameWithType: Node.Node()
+  fullName: Fantas.Node.Node()
+  type: Constructor
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Create a generic node
+
+    Usually used as parent for other nodes
+  example: []
+  syntax:
+    content: public Node()
+    content.vb: Public Sub New()
+  overload: Fantas.Node.#ctor*
+  nameWithType.vb: Node.New()
+  fullName.vb: Fantas.Node.New()
+  name.vb: New()
+- uid: Fantas.Node.#ctor(Fantas.Node)
+  commentId: M:Fantas.Node.#ctor(Fantas.Node)
+  id: '#ctor(Fantas.Node)'
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Node(Node)
+  nameWithType: Node.Node(Node)
+  fullName: Fantas.Node.Node(Fantas.Node)
+  type: Constructor
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Copy the node
+  example: []
+  syntax:
+    content: public Node(Node other)
+    parameters:
+    - id: other
+      type: Fantas.Node
+    content.vb: Public Sub New(other As Node)
+  overload: Fantas.Node.#ctor*
+  nameWithType.vb: Node.New(Node)
+  fullName.vb: Fantas.Node.New(Fantas.Node)
+  name.vb: New(Node)
+- uid: Fantas.Node.Copy
+  commentId: M:Fantas.Node.Copy
+  id: Copy
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Copy()
+  nameWithType: Node.Copy()
+  fullName: Fantas.Node.Copy()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Copy this node
+  example: []
+  syntax:
+    content: protected virtual Node Copy()
+    return:
+      type: Fantas.Node
+      description: ''
+    content.vb: Protected Overridable Function Copy() As Node
+  overload: Fantas.Node.Copy*
+- uid: Fantas.Node.ToString
+  commentId: M:Fantas.Node.ToString
+  id: ToString
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Node.ToString()
+  fullName: Fantas.Node.ToString()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Display node as string
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: String representation of node
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: Fantas.Node.ToString*
+- uid: Fantas.Node.Offset(System.Numerics.Vector2)
+  commentId: M:Fantas.Node.Offset(System.Numerics.Vector2)
+  id: Offset(System.Numerics.Vector2)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Offset(Vector2)
+  nameWithType: Node.Offset(Vector2)
+  fullName: Fantas.Node.Offset(System.Numerics.Vector2)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Offset node to a new position
+  example: []
+  syntax:
+    content: public void Offset(Vector2 delta)
+    parameters:
+    - id: delta
+      type: System.Numerics.Vector2
+      description: ''
+    content.vb: Public Sub Offset(delta As Vector2)
+  overload: Fantas.Node.Offset*
+- uid: Fantas.Node.Offset(System.Single,System.Single)
+  commentId: M:Fantas.Node.Offset(System.Single,System.Single)
+  id: Offset(System.Single,System.Single)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Offset(float, float)
+  nameWithType: Node.Offset(float, float)
+  fullName: Fantas.Node.Offset(float, float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Offset node to a new position
+  example: []
+  syntax:
+    content: public void Offset(float x, float y)
+    parameters:
+    - id: x
+      type: System.Single
+      description: delta added to X position
+    - id: y
+      type: System.Single
+      description: delta added to Y position
+    content.vb: Public Sub Offset(x As Single, y As Single)
+  overload: Fantas.Node.Offset*
+  nameWithType.vb: Node.Offset(Single, Single)
+  fullName.vb: Fantas.Node.Offset(Single, Single)
+  name.vb: Offset(Single, Single)
+- uid: Fantas.Node.OffsetX(System.Single)
+  commentId: M:Fantas.Node.OffsetX(System.Single)
+  id: OffsetX(System.Single)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: OffsetX(float)
+  nameWithType: Node.OffsetX(float)
+  fullName: Fantas.Node.OffsetX(float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Offset node horizontally
+  example: []
+  syntax:
+    content: public void OffsetX(float delta)
+    parameters:
+    - id: delta
+      type: System.Single
+      description: ''
+    content.vb: Public Sub OffsetX(delta As Single)
+  overload: Fantas.Node.OffsetX*
+  nameWithType.vb: Node.OffsetX(Single)
+  fullName.vb: Fantas.Node.OffsetX(Single)
+  name.vb: OffsetX(Single)
+- uid: Fantas.Node.OffsetY(System.Single)
+  commentId: M:Fantas.Node.OffsetY(System.Single)
+  id: OffsetY(System.Single)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: OffsetY(float)
+  nameWithType: Node.OffsetY(float)
+  fullName: Fantas.Node.OffsetY(float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Offset node vertically
+  example: []
+  syntax:
+    content: public void OffsetY(float delta)
+    parameters:
+    - id: delta
+      type: System.Single
+      description: ''
+    content.vb: Public Sub OffsetY(delta As Single)
+  overload: Fantas.Node.OffsetY*
+  nameWithType.vb: Node.OffsetY(Single)
+  fullName.vb: Fantas.Node.OffsetY(Single)
+  name.vb: OffsetY(Single)
+- uid: Fantas.Node.CalculateAccumulatedFrame
+  commentId: M:Fantas.Node.CalculateAccumulatedFrame
+  id: CalculateAccumulatedFrame
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: CalculateAccumulatedFrame()
+  nameWithType: Node.CalculateAccumulatedFrame()
+  fullName: Fantas.Node.CalculateAccumulatedFrame()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Calculate the frame of this node and all children
+  example: []
+  syntax:
+    content: public RectangleF CalculateAccumulatedFrame()
+    return:
+      type: System.Drawing.RectangleF
+    content.vb: Public Function CalculateAccumulatedFrame() As RectangleF
+  overload: Fantas.Node.CalculateAccumulatedFrame*
+- uid: Fantas.Node.RenderToTexture
+  commentId: M:Fantas.Node.RenderToTexture
+  id: RenderToTexture
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: RenderToTexture()
+  nameWithType: Node.RenderToTexture()
+  fullName: Fantas.Node.RenderToTexture()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Render node to a Texture
+  example: []
+  syntax:
+    content: public Texture RenderToTexture()
+    return:
+      type: Fantas.Texture
+      description: Return a Texture object with the rendered contents of node
+    content.vb: Public Function RenderToTexture() As Texture
+  overload: Fantas.Node.RenderToTexture*
+- uid: Fantas.Node.SetScale(System.Single)
+  commentId: M:Fantas.Node.SetScale(System.Single)
+  id: SetScale(System.Single)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: SetScale(float)
+  nameWithType: Node.SetScale(float)
+  fullName: Fantas.Node.SetScale(float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Set X/Y scale
+  example: []
+  syntax:
+    content: public void SetScale(float scale)
+    parameters:
+    - id: scale
+      type: System.Single
+      description: New scale
+    content.vb: Public Sub SetScale(scale As Single)
+  overload: Fantas.Node.SetScale*
+  nameWithType.vb: Node.SetScale(Single)
+  fullName.vb: Fantas.Node.SetScale(Single)
+  name.vb: SetScale(Single)
+- uid: Fantas.Node.SetScale(System.Numerics.Vector2)
+  commentId: M:Fantas.Node.SetScale(System.Numerics.Vector2)
+  id: SetScale(System.Numerics.Vector2)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: SetScale(Vector2)
+  nameWithType: Node.SetScale(Vector2)
+  fullName: Fantas.Node.SetScale(System.Numerics.Vector2)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: ''
+  example: []
+  syntax:
+    content: public void SetScale(Vector2 scale)
+    parameters:
+    - id: scale
+      type: System.Numerics.Vector2
+      description: ''
+    content.vb: Public Sub SetScale(scale As Vector2)
+  overload: Fantas.Node.SetScale*
+- uid: Fantas.Node.AddChild(Fantas.Node)
+  commentId: M:Fantas.Node.AddChild(Fantas.Node)
+  id: AddChild(Fantas.Node)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: AddChild(Node)
+  nameWithType: Node.AddChild(Node)
+  fullName: Fantas.Node.AddChild(Fantas.Node)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Add a new child node
+  example: []
+  syntax:
+    content: public void AddChild(Node child)
+    parameters:
+    - id: child
+      type: Fantas.Node
+      description: ''
+    content.vb: Public Sub AddChild(child As Node)
+  overload: Fantas.Node.AddChild*
+- uid: Fantas.Node.InsertChild(System.Int32,Fantas.Node)
+  commentId: M:Fantas.Node.InsertChild(System.Int32,Fantas.Node)
+  id: InsertChild(System.Int32,Fantas.Node)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: InsertChild(int, Node)
+  nameWithType: Node.InsertChild(int, Node)
+  fullName: Fantas.Node.InsertChild(int, Fantas.Node)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Insert a child into the index position
+  example: []
+  syntax:
+    content: public void InsertChild(int index, Node child)
+    parameters:
+    - id: index
+      type: System.Int32
+      description: Index of child
+    - id: child
+      type: Fantas.Node
+      description: Child to be inserted
+    content.vb: Public Sub InsertChild(index As Integer, child As Node)
+  overload: Fantas.Node.InsertChild*
+  nameWithType.vb: Node.InsertChild(Integer, Node)
+  fullName.vb: Fantas.Node.InsertChild(Integer, Fantas.Node)
+  name.vb: InsertChild(Integer, Node)
+- uid: Fantas.Node.MoveToParent(Fantas.Node)
+  commentId: M:Fantas.Node.MoveToParent(Fantas.Node)
+  id: MoveToParent(Fantas.Node)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: MoveToParent(Node)
+  nameWithType: Node.MoveToParent(Node)
+  fullName: Fantas.Node.MoveToParent(Fantas.Node)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Change node parent
+  example: []
+  syntax:
+    content: public void MoveToParent(Node newParent)
+    parameters:
+    - id: newParent
+      type: Fantas.Node
+      description: ''
+    content.vb: Public Sub MoveToParent(newParent As Node)
+  overload: Fantas.Node.MoveToParent*
+- uid: Fantas.Node.RemoveFromParent
+  commentId: M:Fantas.Node.RemoveFromParent
+  id: RemoveFromParent
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: RemoveFromParent()
+  nameWithType: Node.RemoveFromParent()
+  fullName: Fantas.Node.RemoveFromParent()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Remove node from parent
+  example: []
+  syntax:
+    content: public void RemoveFromParent()
+    content.vb: Public Sub RemoveFromParent()
+  overload: Fantas.Node.RemoveFromParent*
+- uid: Fantas.Node.RemoveAllChildren
+  commentId: M:Fantas.Node.RemoveAllChildren
+  id: RemoveAllChildren
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: RemoveAllChildren()
+  nameWithType: Node.RemoveAllChildren()
+  fullName: Fantas.Node.RemoveAllChildren()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Remove all children from node
+  example: []
+  syntax:
+    content: public void RemoveAllChildren()
+    content.vb: Public Sub RemoveAllChildren()
+  overload: Fantas.Node.RemoveAllChildren*
+- uid: Fantas.Node.RemoveChildren(System.Collections.Generic.IReadOnlyList{Fantas.Node})
+  commentId: M:Fantas.Node.RemoveChildren(System.Collections.Generic.IReadOnlyList{Fantas.Node})
+  id: RemoveChildren(System.Collections.Generic.IReadOnlyList{Fantas.Node})
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: RemoveChildren(IReadOnlyList<Node>)
+  nameWithType: Node.RemoveChildren(IReadOnlyList<Node>)
+  fullName: Fantas.Node.RemoveChildren(System.Collections.Generic.IReadOnlyList<Fantas.Node>)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Remove a list of children from this node
+  example: []
+  syntax:
+    content: public void RemoveChildren(IReadOnlyList<Node> toRemove)
+    parameters:
+    - id: toRemove
+      type: System.Collections.Generic.IReadOnlyList{Fantas.Node}
+      description: ''
+    content.vb: Public Sub RemoveChildren(toRemove As IReadOnlyList(Of Node))
+  overload: Fantas.Node.RemoveChildren*
+  nameWithType.vb: Node.RemoveChildren(IReadOnlyList(Of Node))
+  fullName.vb: Fantas.Node.RemoveChildren(System.Collections.Generic.IReadOnlyList(Of Fantas.Node))
+  name.vb: RemoveChildren(IReadOnlyList(Of Node))
+- uid: Fantas.Node.RemoveChild(Fantas.Node)
+  commentId: M:Fantas.Node.RemoveChild(Fantas.Node)
+  id: RemoveChild(Fantas.Node)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: RemoveChild(Node)
+  nameWithType: Node.RemoveChild(Node)
+  fullName: Fantas.Node.RemoveChild(Fantas.Node)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Remove a single child from node
+  example: []
+  syntax:
+    content: public void RemoveChild(Node child)
+    parameters:
+    - id: child
+      type: Fantas.Node
+      description: ''
+    content.vb: Public Sub RemoveChild(child As Node)
+  overload: Fantas.Node.RemoveChild*
+- uid: Fantas.Node.InParentHierarchy(Fantas.Node)
+  commentId: M:Fantas.Node.InParentHierarchy(Fantas.Node)
+  id: InParentHierarchy(Fantas.Node)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: InParentHierarchy(Node)
+  nameWithType: Node.InParentHierarchy(Node)
+  fullName: Fantas.Node.InParentHierarchy(Fantas.Node)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Check if the node is in the hierarchy under other node
+  example: []
+  syntax:
+    content: public bool InParentHierarchy(Node other)
+    parameters:
+    - id: other
+      type: Fantas.Node
+      description: ''
+    return:
+      type: System.Boolean
+    content.vb: Public Function InParentHierarchy(other As Node) As Boolean
+  overload: Fantas.Node.InParentHierarchy*
+- uid: Fantas.Node.RunAnimation(Fantas.Animation)
+  commentId: M:Fantas.Node.RunAnimation(Fantas.Animation)
+  id: RunAnimation(Fantas.Animation)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: RunAnimation(Animation)
+  nameWithType: Node.RunAnimation(Animation)
+  fullName: Fantas.Node.RunAnimation(Fantas.Animation)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Adds an animation to the list of actions executed by the node.
+  example: []
+  syntax:
+    content: public void RunAnimation(Animation animation)
+    parameters:
+    - id: animation
+      type: Fantas.Animation
+      description: animation to be executed
+    content.vb: Public Sub RunAnimation(animation As Animation)
+  overload: Fantas.Node.RunAnimation*
+- uid: Fantas.Node.RunAnimation(Fantas.Animation,System.Action)
+  commentId: M:Fantas.Node.RunAnimation(Fantas.Animation,System.Action)
+  id: RunAnimation(Fantas.Animation,System.Action)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: RunAnimation(Animation, Action)
+  nameWithType: Node.RunAnimation(Animation, Action)
+  fullName: Fantas.Node.RunAnimation(Fantas.Animation, System.Action)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Adds an animation to the list of actions executed by the node.
+
+    And runs the completion handler when the animation is done
+  example: []
+  syntax:
+    content: public void RunAnimation(Animation animation, Action completionHandler)
+    parameters:
+    - id: animation
+      type: Fantas.Animation
+      description: animation to be executed
+    - id: completionHandler
+      type: System.Action
+      description: ''
+    content.vb: Public Sub RunAnimation(animation As Animation, completionHandler As Action)
+  overload: Fantas.Node.RunAnimation*
+- uid: Fantas.Node.RunAnimation(Fantas.Animation,System.String)
+  commentId: M:Fantas.Node.RunAnimation(Fantas.Animation,System.String)
+  id: RunAnimation(Fantas.Animation,System.String)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: RunAnimation(Animation, string)
+  nameWithType: Node.RunAnimation(Animation, string)
+  fullName: Fantas.Node.RunAnimation(Fantas.Animation, string)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Adds an animation (with a key) to the list of actions executed by the node,
+  example: []
+  syntax:
+    content: public void RunAnimation(Animation animation, string key)
+    parameters:
+    - id: animation
+      type: Fantas.Animation
+      description: animation to be executed
+    - id: key
+      type: System.String
+      description: ''
+    content.vb: Public Sub RunAnimation(animation As Animation, key As String)
+  overload: Fantas.Node.RunAnimation*
+  nameWithType.vb: Node.RunAnimation(Animation, String)
+  fullName.vb: Fantas.Node.RunAnimation(Fantas.Animation, String)
+  name.vb: RunAnimation(Animation, String)
+- uid: Fantas.Node.RunAnimationAsync(Fantas.Animation)
+  commentId: M:Fantas.Node.RunAnimationAsync(Fantas.Animation)
+  id: RunAnimationAsync(Fantas.Animation)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: RunAnimationAsync(Animation)
+  nameWithType: Node.RunAnimationAsync(Animation)
+  fullName: Fantas.Node.RunAnimationAsync(Fantas.Animation)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Create a task to add a animation to the node
+  example: []
+  syntax:
+    content: public Task RunAnimationAsync(Animation animation)
+    parameters:
+    - id: animation
+      type: Fantas.Animation
+      description: Return a Task
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Public Function RunAnimationAsync(animation As Animation) As Task
+  overload: Fantas.Node.RunAnimationAsync*
+- uid: Fantas.Node.GetAnimationForKey(System.String)
+  commentId: M:Fantas.Node.GetAnimationForKey(System.String)
+  id: GetAnimationForKey(System.String)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: GetAnimationForKey(string)
+  nameWithType: Node.GetAnimationForKey(string)
+  fullName: Fantas.Node.GetAnimationForKey(string)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Get the animation for the key
+  example: []
+  syntax:
+    content: public Animation GetAnimationForKey(string key)
+    parameters:
+    - id: key
+      type: System.String
+      description: Key used on RunAnimation
+    return:
+      type: Fantas.Animation
+      description: Return the animation associated with key or null if wasn't found
+    content.vb: Public Function GetAnimationForKey(key As String) As Animation
+  overload: Fantas.Node.GetAnimationForKey*
+  nameWithType.vb: Node.GetAnimationForKey(String)
+  fullName.vb: Fantas.Node.GetAnimationForKey(String)
+  name.vb: GetAnimationForKey(String)
+- uid: Fantas.Node.RemoveAnimationForKey(System.String)
+  commentId: M:Fantas.Node.RemoveAnimationForKey(System.String)
+  id: RemoveAnimationForKey(System.String)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: RemoveAnimationForKey(string)
+  nameWithType: Node.RemoveAnimationForKey(string)
+  fullName: Fantas.Node.RemoveAnimationForKey(string)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Remove all animations with the given key
+  example: []
+  syntax:
+    content: public void RemoveAnimationForKey(string key)
+    parameters:
+    - id: key
+      type: System.String
+      description: Key used on RunAnimation
+    content.vb: Public Sub RemoveAnimationForKey(key As String)
+  overload: Fantas.Node.RemoveAnimationForKey*
+  nameWithType.vb: Node.RemoveAnimationForKey(String)
+  fullName.vb: Fantas.Node.RemoveAnimationForKey(String)
+  name.vb: RemoveAnimationForKey(String)
+- uid: Fantas.Node.RemoveAllAnimations
+  commentId: M:Fantas.Node.RemoveAllAnimations
+  id: RemoveAllAnimations
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: RemoveAllAnimations()
+  nameWithType: Node.RemoveAllAnimations()
+  fullName: Fantas.Node.RemoveAllAnimations()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Remove all animations from node
+  example: []
+  syntax:
+    content: public void RemoveAllAnimations()
+    content.vb: Public Sub RemoveAllAnimations()
+  overload: Fantas.Node.RemoveAllAnimations*
+- uid: Fantas.Node.ContainsPoint(System.Drawing.PointF)
+  commentId: M:Fantas.Node.ContainsPoint(System.Drawing.PointF)
+  id: ContainsPoint(System.Drawing.PointF)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: ContainsPoint(PointF)
+  nameWithType: Node.ContainsPoint(PointF)
+  fullName: Fantas.Node.ContainsPoint(System.Drawing.PointF)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Check if the point is inside the node frame
+  example: []
+  syntax:
+    content: public bool ContainsPoint(PointF point)
+    parameters:
+    - id: point
+      type: System.Drawing.PointF
+      description: point in parent coordinates
+    return:
+      type: System.Boolean
+      description: Return true if the node frame contains the point
+    content.vb: Public Function ContainsPoint(point As PointF) As Boolean
+  overload: Fantas.Node.ContainsPoint*
+- uid: Fantas.Node.GetNodeAtPoint(System.Drawing.PointF)
+  commentId: M:Fantas.Node.GetNodeAtPoint(System.Drawing.PointF)
+  id: GetNodeAtPoint(System.Drawing.PointF)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: GetNodeAtPoint(PointF)
+  nameWithType: Node.GetNodeAtPoint(PointF)
+  fullName: Fantas.Node.GetNodeAtPoint(System.Drawing.PointF)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Get the top visible node from the point
+  example: []
+  syntax:
+    content: public Node GetNodeAtPoint(PointF point)
+    parameters:
+    - id: point
+      type: System.Drawing.PointF
+      description: ''
+    return:
+      type: Fantas.Node
+      description: Return the first visible node that intersect the point
+    content.vb: Public Function GetNodeAtPoint(point As PointF) As Node
+  overload: Fantas.Node.GetNodeAtPoint*
+- uid: Fantas.Node.GetChildNode(System.String)
+  commentId: M:Fantas.Node.GetChildNode(System.String)
+  id: GetChildNode(System.String)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: GetChildNode(string)
+  nameWithType: Node.GetChildNode(string)
+  fullName: Fantas.Node.GetChildNode(string)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Search a child node with the given name
+  example: []
+  syntax:
+    content: public Node GetChildNode(string childName)
+    parameters:
+    - id: childName
+      type: System.String
+      description: name of child
+    return:
+      type: Fantas.Node
+      description: Return node with the given name, or null if wasn't found
+    content.vb: Public Function GetChildNode(childName As String) As Node
+  overload: Fantas.Node.GetChildNode*
+  nameWithType.vb: Node.GetChildNode(String)
+  fullName.vb: Fantas.Node.GetChildNode(String)
+  name.vb: GetChildNode(String)
+- uid: Fantas.Node.GetNodesAtPoint(System.Drawing.PointF)
+  commentId: M:Fantas.Node.GetNodesAtPoint(System.Drawing.PointF)
+  id: GetNodesAtPoint(System.Drawing.PointF)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: GetNodesAtPoint(PointF)
+  nameWithType: Node.GetNodesAtPoint(PointF)
+  fullName: Fantas.Node.GetNodesAtPoint(System.Drawing.PointF)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Get the list of visible nodes at the point
+  example: []
+  syntax:
+    content: public IReadOnlyList<Node> GetNodesAtPoint(PointF point)
+    parameters:
+    - id: point
+      type: System.Drawing.PointF
+      description: point in parent coordinates
+    return:
+      type: System.Collections.Generic.IReadOnlyList{Fantas.Node}
+      description: List of node that intersect the point
+    content.vb: Public Function GetNodesAtPoint(point As PointF) As IReadOnlyList(Of Node)
+  overload: Fantas.Node.GetNodesAtPoint*
+- uid: Fantas.Node.IntersectsNode(Fantas.Node)
+  commentId: M:Fantas.Node.IntersectsNode(Fantas.Node)
+  id: IntersectsNode(Fantas.Node)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: IntersectsNode(Node)
+  nameWithType: Node.IntersectsNode(Node)
+  fullName: Fantas.Node.IntersectsNode(Fantas.Node)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Check if one node overlaps with the other
+  example: []
+  syntax:
+    content: public bool IntersectsNode(Node other)
+    parameters:
+    - id: other
+      type: Fantas.Node
+      description: Other node
+    return:
+      type: System.Boolean
+      description: Return true if node frame intersects with other node frame
+    content.vb: Public Function IntersectsNode(other As Node) As Boolean
+  overload: Fantas.Node.IntersectsNode*
+- uid: Fantas.Node.ConvertPointFromNode(System.Drawing.PointF,Fantas.Node)
+  commentId: M:Fantas.Node.ConvertPointFromNode(System.Drawing.PointF,Fantas.Node)
+  id: ConvertPointFromNode(System.Drawing.PointF,Fantas.Node)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: ConvertPointFromNode(PointF, Node)
+  nameWithType: Node.ConvertPointFromNode(PointF, Node)
+  fullName: Fantas.Node.ConvertPointFromNode(System.Drawing.PointF, Fantas.Node)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Transform point from the from source node to this node
+  example: []
+  syntax:
+    content: public PointF ConvertPointFromNode(PointF point, Node sourceNode)
+    parameters:
+    - id: point
+      type: System.Drawing.PointF
+      description: point in reference parent coordinates
+    - id: sourceNode
+      type: Fantas.Node
+      description: reference to be converted
+    return:
+      type: System.Drawing.PointF
+      description: Return point converted from reference
+    content.vb: Public Function ConvertPointFromNode(point As PointF, sourceNode As Node) As PointF
+  overload: Fantas.Node.ConvertPointFromNode*
+- uid: Fantas.Node.ConvertPointToNode(System.Drawing.PointF,Fantas.Node)
+  commentId: M:Fantas.Node.ConvertPointToNode(System.Drawing.PointF,Fantas.Node)
+  id: ConvertPointToNode(System.Drawing.PointF,Fantas.Node)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: ConvertPointToNode(PointF, Node)
+  nameWithType: Node.ConvertPointToNode(PointF, Node)
+  fullName: Fantas.Node.ConvertPointToNode(System.Drawing.PointF, Fantas.Node)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Transform point from the from this node to another node
+  example: []
+  syntax:
+    content: public PointF ConvertPointToNode(PointF point, Node toNode)
+    parameters:
+    - id: point
+      type: System.Drawing.PointF
+      description: point in parent coordinates
+    - id: toNode
+      type: Fantas.Node
+      description: Node to be used as reference
+    return:
+      type: System.Drawing.PointF
+      description: Return point converted to reference node
+    content.vb: Public Function ConvertPointToNode(point As PointF, toNode As Node) As PointF
+  overload: Fantas.Node.ConvertPointToNode*
+- uid: Fantas.Node.BringForward
+  commentId: M:Fantas.Node.BringForward
+  id: BringForward
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: BringForward()
+  nameWithType: Node.BringForward()
+  fullName: Fantas.Node.BringForward()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Move node forward inside parent children
+  example: []
+  syntax:
+    content: public void BringForward()
+    content.vb: Public Sub BringForward()
+  overload: Fantas.Node.BringForward*
+- uid: Fantas.Node.BringToFront
+  commentId: M:Fantas.Node.BringToFront
+  id: BringToFront
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: BringToFront()
+  nameWithType: Node.BringToFront()
+  fullName: Fantas.Node.BringToFront()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Move node to the front in the among siblings
+  example: []
+  syntax:
+    content: public void BringToFront()
+    content.vb: Public Sub BringToFront()
+  overload: Fantas.Node.BringToFront*
+- uid: Fantas.Node.SendBackward
+  commentId: M:Fantas.Node.SendBackward
+  id: SendBackward
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: SendBackward()
+  nameWithType: Node.SendBackward()
+  fullName: Fantas.Node.SendBackward()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Move node backward inside parent children
+  example: []
+  syntax:
+    content: public void SendBackward()
+    content.vb: Public Sub SendBackward()
+  overload: Fantas.Node.SendBackward*
+- uid: Fantas.Node.SendToBack
+  commentId: M:Fantas.Node.SendToBack
+  id: SendToBack
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: SendToBack()
+  nameWithType: Node.SendToBack()
+  fullName: Fantas.Node.SendToBack()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Move node to the back inside parent children
+  example: []
+  syntax:
+    content: public void SendToBack()
+    content.vb: Public Sub SendToBack()
+  overload: Fantas.Node.SendToBack*
+- uid: Fantas.Node.OnTap(Fantas.Input.TapEventArgs)
+  commentId: M:Fantas.Node.OnTap(Fantas.Input.TapEventArgs)
+  id: OnTap(Fantas.Input.TapEventArgs)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: OnTap(TapEventArgs)
+  nameWithType: Node.OnTap(TapEventArgs)
+  fullName: Fantas.Node.OnTap(Fantas.Input.TapEventArgs)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Called when tap within the children node
+
+    call back contains the node clicked and the point (scene coordinates)
+  example: []
+  syntax:
+    content: public virtual void OnTap(TapEventArgs args)
+    parameters:
+    - id: args
+      type: Fantas.Input.TapEventArgs
+      description: ''
+    content.vb: Public Overridable Sub OnTap(args As TapEventArgs)
+  overload: Fantas.Node.OnTap*
+- uid: Fantas.Node.OnLongPress(Fantas.Input.TapEventArgs)
+  commentId: M:Fantas.Node.OnLongPress(Fantas.Input.TapEventArgs)
+  id: OnLongPress(Fantas.Input.TapEventArgs)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: OnLongPress(TapEventArgs)
+  nameWithType: Node.OnLongPress(TapEventArgs)
+  fullName: Fantas.Node.OnLongPress(Fantas.Input.TapEventArgs)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Called when tap and hold (long press) the children node
+
+    call back contains the node clicked and the point (scene coordinates)
+  example: []
+  syntax:
+    content: public virtual void OnLongPress(TapEventArgs args)
+    parameters:
+    - id: args
+      type: Fantas.Input.TapEventArgs
+      description: ''
+    content.vb: Public Overridable Sub OnLongPress(args As TapEventArgs)
+  overload: Fantas.Node.OnLongPress*
+- uid: Fantas.Node.OnDoubleTap(Fantas.Input.TapEventArgs)
+  commentId: M:Fantas.Node.OnDoubleTap(Fantas.Input.TapEventArgs)
+  id: OnDoubleTap(Fantas.Input.TapEventArgs)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: OnDoubleTap(TapEventArgs)
+  nameWithType: Node.OnDoubleTap(TapEventArgs)
+  fullName: Fantas.Node.OnDoubleTap(Fantas.Input.TapEventArgs)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Called when double tap within the children node
+
+    call back contains the node clicked and the point (scene coordinates)
+  example: []
+  syntax:
+    content: public virtual void OnDoubleTap(TapEventArgs args)
+    parameters:
+    - id: args
+      type: Fantas.Input.TapEventArgs
+      description: ''
+    content.vb: Public Overridable Sub OnDoubleTap(args As TapEventArgs)
+  overload: Fantas.Node.OnDoubleTap*
+- uid: Fantas.Node.OnTouchDownInside(Fantas.Input.TouchEventArgs)
+  commentId: M:Fantas.Node.OnTouchDownInside(Fantas.Input.TouchEventArgs)
+  id: OnTouchDownInside(Fantas.Input.TouchEventArgs)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: OnTouchDownInside(TouchEventArgs)
+  nameWithType: Node.OnTouchDownInside(TouchEventArgs)
+  fullName: Fantas.Node.OnTouchDownInside(Fantas.Input.TouchEventArgs)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Called when user start a touch within the Node bounds
+  example: []
+  syntax:
+    content: public virtual void OnTouchDownInside(TouchEventArgs args)
+    parameters:
+    - id: args
+      type: Fantas.Input.TouchEventArgs
+      description: ''
+    content.vb: Public Overridable Sub OnTouchDownInside(args As TouchEventArgs)
+  overload: Fantas.Node.OnTouchDownInside*
+- uid: Fantas.Node.OnTouchDragEnter(Fantas.Input.TouchEventArgs)
+  commentId: M:Fantas.Node.OnTouchDragEnter(Fantas.Input.TouchEventArgs)
+  id: OnTouchDragEnter(Fantas.Input.TouchEventArgs)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: OnTouchDragEnter(TouchEventArgs)
+  nameWithType: Node.OnTouchDragEnter(TouchEventArgs)
+  fullName: Fantas.Node.OnTouchDragEnter(Fantas.Input.TouchEventArgs)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Called when touch is dragged inside back of node frame
+  example: []
+  syntax:
+    content: public virtual void OnTouchDragEnter(TouchEventArgs args)
+    parameters:
+    - id: args
+      type: Fantas.Input.TouchEventArgs
+      description: ''
+    content.vb: Public Overridable Sub OnTouchDragEnter(args As TouchEventArgs)
+  overload: Fantas.Node.OnTouchDragEnter*
+- uid: Fantas.Node.OnTouchDragExit(Fantas.Input.TouchEventArgs)
+  commentId: M:Fantas.Node.OnTouchDragExit(Fantas.Input.TouchEventArgs)
+  id: OnTouchDragExit(Fantas.Input.TouchEventArgs)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: OnTouchDragExit(TouchEventArgs)
+  nameWithType: Node.OnTouchDragExit(TouchEventArgs)
+  fullName: Fantas.Node.OnTouchDragExit(Fantas.Input.TouchEventArgs)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Called when touch is dragged outside of node frame
+  example: []
+  syntax:
+    content: public virtual void OnTouchDragExit(TouchEventArgs args)
+    parameters:
+    - id: args
+      type: Fantas.Input.TouchEventArgs
+      description: ''
+    content.vb: Public Overridable Sub OnTouchDragExit(args As TouchEventArgs)
+  overload: Fantas.Node.OnTouchDragExit*
+- uid: Fantas.Node.OnTouchDragInside(Fantas.Input.TouchEventArgs)
+  commentId: M:Fantas.Node.OnTouchDragInside(Fantas.Input.TouchEventArgs)
+  id: OnTouchDragInside(Fantas.Input.TouchEventArgs)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: OnTouchDragInside(TouchEventArgs)
+  nameWithType: Node.OnTouchDragInside(TouchEventArgs)
+  fullName: Fantas.Node.OnTouchDragInside(Fantas.Input.TouchEventArgs)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Called when touch is dragged within the Node frame
+  example: []
+  syntax:
+    content: public virtual void OnTouchDragInside(TouchEventArgs args)
+    parameters:
+    - id: args
+      type: Fantas.Input.TouchEventArgs
+      description: ''
+    content.vb: Public Overridable Sub OnTouchDragInside(args As TouchEventArgs)
+  overload: Fantas.Node.OnTouchDragInside*
+- uid: Fantas.Node.OnTouchDragOutside(Fantas.Input.TouchEventArgs)
+  commentId: M:Fantas.Node.OnTouchDragOutside(Fantas.Input.TouchEventArgs)
+  id: OnTouchDragOutside(Fantas.Input.TouchEventArgs)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: OnTouchDragOutside(TouchEventArgs)
+  nameWithType: Node.OnTouchDragOutside(TouchEventArgs)
+  fullName: Fantas.Node.OnTouchDragOutside(Fantas.Input.TouchEventArgs)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Called when touch is dragged outside the Node frame (after it start a TouchUpInside operation)
+  example: []
+  syntax:
+    content: public virtual void OnTouchDragOutside(TouchEventArgs args)
+    parameters:
+    - id: args
+      type: Fantas.Input.TouchEventArgs
+      description: ''
+    content.vb: Public Overridable Sub OnTouchDragOutside(args As TouchEventArgs)
+  overload: Fantas.Node.OnTouchDragOutside*
+- uid: Fantas.Node.OnTouchUpInside(Fantas.Input.TouchEventArgs)
+  commentId: M:Fantas.Node.OnTouchUpInside(Fantas.Input.TouchEventArgs)
+  id: OnTouchUpInside(Fantas.Input.TouchEventArgs)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: OnTouchUpInside(TouchEventArgs)
+  nameWithType: Node.OnTouchUpInside(TouchEventArgs)
+  fullName: Fantas.Node.OnTouchUpInside(Fantas.Input.TouchEventArgs)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Called on touch up within the Node frame
+  example: []
+  syntax:
+    content: public virtual void OnTouchUpInside(TouchEventArgs args)
+    parameters:
+    - id: args
+      type: Fantas.Input.TouchEventArgs
+      description: ''
+    content.vb: Public Overridable Sub OnTouchUpInside(args As TouchEventArgs)
+  overload: Fantas.Node.OnTouchUpInside*
+- uid: Fantas.Node.OnTouchUpOutside(Fantas.Input.TouchEventArgs)
+  commentId: M:Fantas.Node.OnTouchUpOutside(Fantas.Input.TouchEventArgs)
+  id: OnTouchUpOutside(Fantas.Input.TouchEventArgs)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: OnTouchUpOutside(TouchEventArgs)
+  nameWithType: Node.OnTouchUpOutside(TouchEventArgs)
+  fullName: Fantas.Node.OnTouchUpOutside(Fantas.Input.TouchEventArgs)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Called on touch up outside the Node frame
+  example: []
+  syntax:
+    content: public virtual void OnTouchUpOutside(TouchEventArgs args)
+    parameters:
+    - id: args
+      type: Fantas.Input.TouchEventArgs
+      description: ''
+    content.vb: Public Overridable Sub OnTouchUpOutside(args As TouchEventArgs)
+  overload: Fantas.Node.OnTouchUpOutside*
+- uid: Fantas.Node.OnMouseDown(Fantas.Input.MouseEventArgs)
+  commentId: M:Fantas.Node.OnMouseDown(Fantas.Input.MouseEventArgs)
+  id: OnMouseDown(Fantas.Input.MouseEventArgs)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: OnMouseDown(MouseEventArgs)
+  nameWithType: Node.OnMouseDown(MouseEventArgs)
+  fullName: Fantas.Node.OnMouseDown(Fantas.Input.MouseEventArgs)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Called when mouse left button is pressed over the children node
+
+    call back contains the node clicked and the point (scene coordinates)
+  example: []
+  syntax:
+    content: public virtual void OnMouseDown(MouseEventArgs args)
+    parameters:
+    - id: args
+      type: Fantas.Input.MouseEventArgs
+      description: ''
+    content.vb: Public Overridable Sub OnMouseDown(args As MouseEventArgs)
+  overload: Fantas.Node.OnMouseDown*
+- uid: Fantas.Node.OnMouseUp(Fantas.Input.MouseEventArgs)
+  commentId: M:Fantas.Node.OnMouseUp(Fantas.Input.MouseEventArgs)
+  id: OnMouseUp(Fantas.Input.MouseEventArgs)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: OnMouseUp(MouseEventArgs)
+  nameWithType: Node.OnMouseUp(MouseEventArgs)
+  fullName: Fantas.Node.OnMouseUp(Fantas.Input.MouseEventArgs)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Called when mouse left button is released over the children node
+
+    call back contains the node clicked and the point (scene coordinates)
+  example: []
+  syntax:
+    content: public virtual void OnMouseUp(MouseEventArgs args)
+    parameters:
+    - id: args
+      type: Fantas.Input.MouseEventArgs
+      description: ''
+    content.vb: Public Overridable Sub OnMouseUp(args As MouseEventArgs)
+  overload: Fantas.Node.OnMouseUp*
+- uid: Fantas.Node.OnClick(Fantas.Input.MouseEventArgs)
+  commentId: M:Fantas.Node.OnClick(Fantas.Input.MouseEventArgs)
+  id: OnClick(Fantas.Input.MouseEventArgs)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: OnClick(MouseEventArgs)
+  nameWithType: Node.OnClick(MouseEventArgs)
+  fullName: Fantas.Node.OnClick(Fantas.Input.MouseEventArgs)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Called when mouse left button clicked within the children node
+
+    (called after left button down, left button up)
+
+    call back contains the node clicked and the point (scene coordinates)
+  example: []
+  syntax:
+    content: public virtual void OnClick(MouseEventArgs args)
+    parameters:
+    - id: args
+      type: Fantas.Input.MouseEventArgs
+      description: ''
+    content.vb: Public Overridable Sub OnClick(args As MouseEventArgs)
+  overload: Fantas.Node.OnClick*
+- uid: Fantas.Node.OnDoubleClick(Fantas.Input.MouseEventArgs)
+  commentId: M:Fantas.Node.OnDoubleClick(Fantas.Input.MouseEventArgs)
+  id: OnDoubleClick(Fantas.Input.MouseEventArgs)
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: OnDoubleClick(MouseEventArgs)
+  nameWithType: Node.OnDoubleClick(MouseEventArgs)
+  fullName: Fantas.Node.OnDoubleClick(Fantas.Input.MouseEventArgs)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Called when mouse left button double-clicked within the children node
+
+    call back contains the node clicked and the point (scene coordinates)
+  example: []
+  syntax:
+    content: public virtual void OnDoubleClick(MouseEventArgs args)
+    parameters:
+    - id: args
+      type: Fantas.Input.MouseEventArgs
+      description: ''
+    content.vb: Public Overridable Sub OnDoubleClick(args As MouseEventArgs)
+  overload: Fantas.Node.OnDoubleClick*
+- uid: Fantas.Node.OnMouseEnter
+  commentId: M:Fantas.Node.OnMouseEnter
+  id: OnMouseEnter
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: OnMouseEnter()
+  nameWithType: Node.OnMouseEnter()
+  fullName: Fantas.Node.OnMouseEnter()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Called when mouse enter children node frame
+
+    call back contains the node clicked and the point (scene coordinates)
+
+    This event wont be triggered for Scene, only for children nodes
+  example: []
+  syntax:
+    content: public virtual void OnMouseEnter()
+    content.vb: Public Overridable Sub OnMouseEnter()
+  overload: Fantas.Node.OnMouseEnter*
+- uid: Fantas.Node.OnMouseHover
+  commentId: M:Fantas.Node.OnMouseHover
+  id: OnMouseHover
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: OnMouseHover()
+  nameWithType: Node.OnMouseHover()
+  fullName: Fantas.Node.OnMouseHover()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Called when mouse move over children node
+
+    call back contains the node clicked and the point (scene coordinates)
+
+    This event wont be triggered for Scene, only for children nodes
+  example: []
+  syntax:
+    content: public virtual void OnMouseHover()
+    content.vb: Public Overridable Sub OnMouseHover()
+  overload: Fantas.Node.OnMouseHover*
+- uid: Fantas.Node.OnMouseLeave
+  commentId: M:Fantas.Node.OnMouseLeave
+  id: OnMouseLeave
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: OnMouseLeave()
+  nameWithType: Node.OnMouseLeave()
+  fullName: Fantas.Node.OnMouseLeave()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Called when mouse leave node
+
+    call back contains the node clicked and the point (scene coordinates)
+
+    This event wont be triggered for Scene, only for children nodes
+  example: []
+  syntax:
+    content: public virtual void OnMouseLeave()
+    content.vb: Public Overridable Sub OnMouseLeave()
+  overload: Fantas.Node.OnMouseLeave*
+- uid: Fantas.Node.Name
+  commentId: P:Fantas.Node.Name
+  id: Name
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Node.Name
+  fullName: Fantas.Node.Name
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: optional name of the node
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Fantas.Node.Name*
+- uid: Fantas.Node.Tag
+  commentId: P:Fantas.Node.Tag
+  id: Tag
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Tag
+  nameWithType: Node.Tag
+  fullName: Fantas.Node.Tag
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: User defined value to store custom information about this node.
+  example: []
+  syntax:
+    content: public object Tag { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Tag As Object
+  overload: Fantas.Node.Tag*
+- uid: Fantas.Node.Cursor
+  commentId: P:Fantas.Node.Cursor
+  id: Cursor
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Cursor
+  nameWithType: Node.Cursor
+  fullName: Fantas.Node.Cursor
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Custom mouse cursor for node
+  example: []
+  syntax:
+    content: public Cursor Cursor { get; set; }
+    parameters: []
+    return:
+      type: Fantas.Input.Cursor
+    content.vb: Public Property Cursor As Cursor
+  overload: Fantas.Node.Cursor*
+- uid: Fantas.Node.Position
+  commentId: P:Fantas.Node.Position
+  id: Position
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: Node.Position
+  fullName: Fantas.Node.Position
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Position relative to the parent node
+  example: []
+  syntax:
+    content: public PointF Position { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.PointF
+    content.vb: Public Property Position As PointF
+  overload: Fantas.Node.Position*
+- uid: Fantas.Node.Frame
+  commentId: P:Fantas.Node.Frame
+  id: Frame
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Frame
+  nameWithType: Node.Frame
+  fullName: Fantas.Node.Frame
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Node Frame without children
+  example: []
+  syntax:
+    content: public RectangleF Frame { get; }
+    parameters: []
+    return:
+      type: System.Drawing.RectangleF
+    content.vb: Public ReadOnly Property Frame As RectangleF
+  overload: Fantas.Node.Frame*
+- uid: Fantas.Node.X
+  commentId: P:Fantas.Node.X
+  id: X
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: Node.X
+  fullName: Fantas.Node.X
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: X position of Node
+  example: []
+  syntax:
+    content: public float X { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property X As Single
+  overload: Fantas.Node.X*
+- uid: Fantas.Node.Y
+  commentId: P:Fantas.Node.Y
+  id: Y
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: Node.Y
+  fullName: Fantas.Node.Y
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Y position of Node
+  example: []
+  syntax:
+    content: public float Y { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Y As Single
+  overload: Fantas.Node.Y*
+- uid: Fantas.Node.Center
+  commentId: P:Fantas.Node.Center
+  id: Center
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Center
+  nameWithType: Node.Center
+  fullName: Fantas.Node.Center
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Center location of Node
+  example: []
+  syntax:
+    content: public PointF Center { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.PointF
+    content.vb: Public Property Center As PointF
+  overload: Fantas.Node.Center*
+- uid: Fantas.Node.Width
+  commentId: P:Fantas.Node.Width
+  id: Width
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: Node.Width
+  fullName: Fantas.Node.Width
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Node width
+  example: []
+  syntax:
+    content: public float Width { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Width As Single
+  overload: Fantas.Node.Width*
+- uid: Fantas.Node.Height
+  commentId: P:Fantas.Node.Height
+  id: Height
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: Node.Height
+  fullName: Fantas.Node.Height
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Node height
+  example: []
+  syntax:
+    content: public float Height { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Height As Single
+  overload: Fantas.Node.Height*
+- uid: Fantas.Node.Left
+  commentId: P:Fantas.Node.Left
+  id: Left
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: Node.Left
+  fullName: Fantas.Node.Left
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Left side of Node frame
+
+    (when set, will move the node position without affect the size)
+  example: []
+  syntax:
+    content: public float Left { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Left As Single
+  overload: Fantas.Node.Left*
+- uid: Fantas.Node.Right
+  commentId: P:Fantas.Node.Right
+  id: Right
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: Node.Right
+  fullName: Fantas.Node.Right
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Right side of Node frame
+
+    (when set, will move the node position without affect the size)
+  example: []
+  syntax:
+    content: public float Right { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Right As Single
+  overload: Fantas.Node.Right*
+- uid: Fantas.Node.Top
+  commentId: P:Fantas.Node.Top
+  id: Top
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Top
+  nameWithType: Node.Top
+  fullName: Fantas.Node.Top
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Top side of Node frame
+
+    NOTICE: The Top of frame is different from node.Frame.Top, this happens
+
+    because System.Drawing.Rectangle assumes Top is always lower than Bottom
+
+    (when set, will move the node position without affect the size)
+  example: []
+  syntax:
+    content: public float Top { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Top As Single
+  overload: Fantas.Node.Top*
+- uid: Fantas.Node.Bottom
+  commentId: P:Fantas.Node.Bottom
+  id: Bottom
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Bottom
+  nameWithType: Node.Bottom
+  fullName: Fantas.Node.Bottom
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Bottom side of Node frame
+
+    NOTICE: The Bottom of frame is different from node.Frame.Bottom, this happens
+
+    because System.Drawing.Rectangle assumes Top is always lower than Bottom
+
+    (when set, will move the node position without affect the size)
+  example: []
+  syntax:
+    content: public float Bottom { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Bottom As Single
+  overload: Fantas.Node.Bottom*
+- uid: Fantas.Node.ZPosition
+  commentId: P:Fantas.Node.ZPosition
+  id: ZPosition
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: ZPosition
+  nameWithType: Node.ZPosition
+  fullName: Fantas.Node.ZPosition
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Node Z offset (0-bottom, + closer to camera)
+  example: []
+  syntax:
+    content: public float ZPosition { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ZPosition As Single
+  overload: Fantas.Node.ZPosition*
+- uid: Fantas.Node.ZRotation
+  commentId: P:Fantas.Node.ZRotation
+  id: ZRotation
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: ZRotation
+  nameWithType: Node.ZRotation
+  fullName: Fantas.Node.ZRotation
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Z-rotation (euler angle) using anchor as pivot
+  example: []
+  syntax:
+    content: public double ZRotation { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property ZRotation As Double
+  overload: Fantas.Node.ZRotation*
+- uid: Fantas.Node.XScale
+  commentId: P:Fantas.Node.XScale
+  id: XScale
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: XScale
+  nameWithType: Node.XScale
+  fullName: Fantas.Node.XScale
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: X scale factor
+  example: []
+  syntax:
+    content: public float XScale { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property XScale As Single
+  overload: Fantas.Node.XScale*
+- uid: Fantas.Node.YScale
+  commentId: P:Fantas.Node.YScale
+  id: YScale
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: YScale
+  nameWithType: Node.YScale
+  fullName: Fantas.Node.YScale
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Y scale factor
+  example: []
+  syntax:
+    content: public float YScale { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property YScale As Single
+  overload: Fantas.Node.YScale*
+- uid: Fantas.Node.Scale
+  commentId: P:Fantas.Node.Scale
+  id: Scale
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Scale
+  nameWithType: Node.Scale
+  fullName: Fantas.Node.Scale
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Node scale factor
+  example: []
+  syntax:
+    content: public Vector2 Scale { get; set; }
+    parameters: []
+    return:
+      type: System.Numerics.Vector2
+    content.vb: Public Property Scale As Vector2
+  overload: Fantas.Node.Scale*
+- uid: Fantas.Node.Scene
+  commentId: P:Fantas.Node.Scene
+  id: Scene
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Scene
+  nameWithType: Node.Scene
+  fullName: Fantas.Node.Scene
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Get the scene the node was added
+  example: []
+  syntax:
+    content: public Scene Scene { get; }
+    parameters: []
+    return:
+      type: Fantas.Scene
+    content.vb: Public ReadOnly Property Scene As Scene
+  overload: Fantas.Node.Scene*
+- uid: Fantas.Node.Parent
+  commentId: P:Fantas.Node.Parent
+  id: Parent
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Parent
+  nameWithType: Node.Parent
+  fullName: Fantas.Node.Parent
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Parent node
+  example: []
+  syntax:
+    content: public Node Parent { get; }
+    parameters: []
+    return:
+      type: Fantas.Node
+    content.vb: Public ReadOnly Property Parent As Node
+  overload: Fantas.Node.Parent*
+- uid: Fantas.Node.Children
+  commentId: P:Fantas.Node.Children
+  id: Children
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Children
+  nameWithType: Node.Children
+  fullName: Fantas.Node.Children
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Children add to this node
+  example: []
+  syntax:
+    content: public IReadOnlyList<Node> Children { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IReadOnlyList{Fantas.Node}
+    content.vb: Public ReadOnly Property Children As IReadOnlyList(Of Node)
+  overload: Fantas.Node.Children*
+- uid: Fantas.Node.PhysicsBody
+  commentId: P:Fantas.Node.PhysicsBody
+  id: PhysicsBody
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: PhysicsBody
+  nameWithType: Node.PhysicsBody
+  fullName: Fantas.Node.PhysicsBody
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: PhysicsBody of node.
+  example: []
+  syntax:
+    content: public PhysicsBody PhysicsBody { get; set; }
+    parameters: []
+    return:
+      type: Fantas.Physics.PhysicsBody
+    content.vb: Public Property PhysicsBody As PhysicsBody
+  overload: Fantas.Node.PhysicsBody*
+- uid: Fantas.Node.Hidden
+  commentId: P:Fantas.Node.Hidden
+  id: Hidden
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Hidden
+  nameWithType: Node.Hidden
+  fullName: Fantas.Node.Hidden
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Node visibility (when is hidden)
+  example: []
+  syntax:
+    content: public bool Hidden { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Hidden As Boolean
+  overload: Fantas.Node.Hidden*
+- uid: Fantas.Node.Alpha
+  commentId: P:Fantas.Node.Alpha
+  id: Alpha
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Alpha
+  nameWithType: Node.Alpha
+  fullName: Fantas.Node.Alpha
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Transparency applied to the node and children's
+  example: []
+  syntax:
+    content: public float Alpha { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Alpha As Single
+  overload: Fantas.Node.Alpha*
+- uid: Fantas.Node.HasAnimation
+  commentId: P:Fantas.Node.HasAnimation
+  id: HasAnimation
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: HasAnimation
+  nameWithType: Node.HasAnimation
+  fullName: Fantas.Node.HasAnimation
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Check if not is running animations
+  example: []
+  syntax:
+    content: public bool HasAnimation { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasAnimation As Boolean
+  overload: Fantas.Node.HasAnimation*
+- uid: Fantas.Node.Paused
+  commentId: P:Fantas.Node.Paused
+  id: Paused
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Paused
+  nameWithType: Node.Paused
+  fullName: Fantas.Node.Paused
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Pause animation of node (and children)
+  example: []
+  syntax:
+    content: public bool Paused { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Paused As Boolean
+  overload: Fantas.Node.Paused*
+- uid: Fantas.Node.Speed
+  commentId: P:Fantas.Node.Speed
+  id: Speed
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Speed
+  nameWithType: Node.Speed
+  fullName: Fantas.Node.Speed
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Controls the animation speed of node (and children)
+  example: []
+  syntax:
+    content: public float Speed { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Speed As Single
+  overload: Fantas.Node.Speed*
+- uid: Fantas.Node.IsHitTestEnabled
+  commentId: P:Fantas.Node.IsHitTestEnabled
+  id: IsHitTestEnabled
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: IsHitTestEnabled
+  nameWithType: Node.IsHitTestEnabled
+  fullName: Fantas.Node.IsHitTestEnabled
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Flag to control if Node can be hit-test by Mouse/Touch node events
+  example: []
+  syntax:
+    content: public bool IsHitTestEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsHitTestEnabled As Boolean
+  overload: Fantas.Node.IsHitTestEnabled*
+- uid: Fantas.Node.CanBringForward
+  commentId: P:Fantas.Node.CanBringForward
+  id: CanBringForward
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: CanBringForward
+  nameWithType: Node.CanBringForward
+  fullName: Fantas.Node.CanBringForward
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: True if node can be brought forward among siblings
+  example: []
+  syntax:
+    content: public bool CanBringForward { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public ReadOnly Property CanBringForward As Boolean
+  overload: Fantas.Node.CanBringForward*
+- uid: Fantas.Node.CanSendBackward
+  commentId: P:Fantas.Node.CanSendBackward
+  id: CanSendBackward
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: CanSendBackward
+  nameWithType: Node.CanSendBackward
+  fullName: Fantas.Node.CanSendBackward
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: True if node can be sent backward among siblings
+  example: []
+  syntax:
+    content: public bool CanSendBackward { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public ReadOnly Property CanSendBackward As Boolean
+  overload: Fantas.Node.CanSendBackward*
+- uid: Fantas.Node.IsMouseOver
+  commentId: P:Fantas.Node.IsMouseOver
+  id: IsMouseOver
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: IsMouseOver
+  nameWithType: Node.IsMouseOver
+  fullName: Fantas.Node.IsMouseOver
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: True if the mouse cursor position is over the node
+  example: []
+  syntax:
+    content: public bool IsMouseOver { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsMouseOver As Boolean
+  overload: Fantas.Node.IsMouseOver*
+- uid: Fantas.Node.MouseButtonPressed
+  commentId: P:Fantas.Node.MouseButtonPressed
+  id: MouseButtonPressed
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: MouseButtonPressed
+  nameWithType: Node.MouseButtonPressed
+  fullName: Fantas.Node.MouseButtonPressed
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Mouse button that was pressed over the node
+  example: []
+  syntax:
+    content: public MouseButtons MouseButtonPressed { get; }
+    parameters: []
+    return:
+      type: Fantas.Input.MouseButtons
+    content.vb: Public ReadOnly Property MouseButtonPressed As MouseButtons
+  overload: Fantas.Node.MouseButtonPressed*
+- uid: Fantas.Node.IsTouchOver
+  commentId: P:Fantas.Node.IsTouchOver
+  id: IsTouchOver
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: IsTouchOver
+  nameWithType: Node.IsTouchOver
+  fullName: Fantas.Node.IsTouchOver
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: True if Node is current being touch
+  example: []
+  syntax:
+    content: public bool IsTouchOver { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsTouchOver As Boolean
+  overload: Fantas.Node.IsTouchOver*
+- uid: Fantas.Node.TouchCount
+  commentId: P:Fantas.Node.TouchCount
+  id: TouchCount
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: TouchCount
+  nameWithType: Node.TouchCount
+  fullName: Fantas.Node.TouchCount
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Total of current touches within the Node frame
+  example: []
+  syntax:
+    content: public int TouchCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property TouchCount As Integer
+  overload: Fantas.Node.TouchCount*
+- uid: Fantas.Node.Tap
+  commentId: E:Fantas.Node.Tap
+  id: Tap
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Tap
+  nameWithType: Node.Tap
+  fullName: Fantas.Node.Tap
+  type: Event
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Called when node frame is tapped
+
+    call back contains the node tapped and the point (scene coordinates)
+  example: []
+  syntax:
+    content: public event EventHandler<TapEventArgs> Tap
+    return:
+      type: System.EventHandler{Fantas.Input.TapEventArgs}
+    content.vb: Public Event Tap As EventHandler(Of TapEventArgs)
+- uid: Fantas.Node.DoubleTap
+  commentId: E:Fantas.Node.DoubleTap
+  id: DoubleTap
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: DoubleTap
+  nameWithType: Node.DoubleTap
+  fullName: Fantas.Node.DoubleTap
+  type: Event
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Called when node frame is double tapped
+
+    call back contains the node tapped and the point (scene coordinates)
+  example: []
+  syntax:
+    content: public event EventHandler<TapEventArgs> DoubleTap
+    return:
+      type: System.EventHandler{Fantas.Input.TapEventArgs}
+    content.vb: Public Event DoubleTap As EventHandler(Of TapEventArgs)
+- uid: Fantas.Node.LongPress
+  commentId: E:Fantas.Node.LongPress
+  id: LongPress
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: LongPress
+  nameWithType: Node.LongPress
+  fullName: Fantas.Node.LongPress
+  type: Event
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Called when node frame is pressed and hold (long press)
+
+    call back contains the node tapped and the point (scene coordinates)
+  example: []
+  syntax:
+    content: public event EventHandler<TapEventArgs> LongPress
+    return:
+      type: System.EventHandler{Fantas.Input.TapEventArgs}
+    content.vb: Public Event LongPress As EventHandler(Of TapEventArgs)
+- uid: Fantas.Node.TouchDownInside
+  commentId: E:Fantas.Node.TouchDownInside
+  id: TouchDownInside
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: TouchDownInside
+  nameWithType: Node.TouchDownInside
+  fullName: Fantas.Node.TouchDownInside
+  type: Event
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Called when touch event starts within the Node frame
+  example: []
+  syntax:
+    content: public event EventHandler<TouchEventArgs> TouchDownInside
+    return:
+      type: System.EventHandler{Fantas.Input.TouchEventArgs}
+    content.vb: Public Event TouchDownInside As EventHandler(Of TouchEventArgs)
+- uid: Fantas.Node.TouchDragEnter
+  commentId: E:Fantas.Node.TouchDragEnter
+  id: TouchDragEnter
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: TouchDragEnter
+  nameWithType: Node.TouchDragEnter
+  fullName: Fantas.Node.TouchDragEnter
+  type: Event
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Called when touch is dragged inside back of node frame
+  example: []
+  syntax:
+    content: public event EventHandler<TouchEventArgs> TouchDragEnter
+    return:
+      type: System.EventHandler{Fantas.Input.TouchEventArgs}
+    content.vb: Public Event TouchDragEnter As EventHandler(Of TouchEventArgs)
+- uid: Fantas.Node.TouchDragExit
+  commentId: E:Fantas.Node.TouchDragExit
+  id: TouchDragExit
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: TouchDragExit
+  nameWithType: Node.TouchDragExit
+  fullName: Fantas.Node.TouchDragExit
+  type: Event
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Called when touch is dragged outside of node frame
+  example: []
+  syntax:
+    content: public event EventHandler<TouchEventArgs> TouchDragExit
+    return:
+      type: System.EventHandler{Fantas.Input.TouchEventArgs}
+    content.vb: Public Event TouchDragExit As EventHandler(Of TouchEventArgs)
+- uid: Fantas.Node.TouchDragInside
+  commentId: E:Fantas.Node.TouchDragInside
+  id: TouchDragInside
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: TouchDragInside
+  nameWithType: Node.TouchDragInside
+  fullName: Fantas.Node.TouchDragInside
+  type: Event
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Called when touch is dragged within the Node frame
+  example: []
+  syntax:
+    content: public event EventHandler<TouchEventArgs> TouchDragInside
+    return:
+      type: System.EventHandler{Fantas.Input.TouchEventArgs}
+    content.vb: Public Event TouchDragInside As EventHandler(Of TouchEventArgs)
+- uid: Fantas.Node.TouchDragOutside
+  commentId: E:Fantas.Node.TouchDragOutside
+  id: TouchDragOutside
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: TouchDragOutside
+  nameWithType: Node.TouchDragOutside
+  fullName: Fantas.Node.TouchDragOutside
+  type: Event
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Called when touch is dragged outside the Node frame (after it start a TouchUpInside operation)
+  example: []
+  syntax:
+    content: public event EventHandler<TouchEventArgs> TouchDragOutside
+    return:
+      type: System.EventHandler{Fantas.Input.TouchEventArgs}
+    content.vb: Public Event TouchDragOutside As EventHandler(Of TouchEventArgs)
+- uid: Fantas.Node.TouchUpInside
+  commentId: E:Fantas.Node.TouchUpInside
+  id: TouchUpInside
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: TouchUpInside
+  nameWithType: Node.TouchUpInside
+  fullName: Fantas.Node.TouchUpInside
+  type: Event
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Called on touch up within the Node frame
+  example: []
+  syntax:
+    content: public event EventHandler<TouchEventArgs> TouchUpInside
+    return:
+      type: System.EventHandler{Fantas.Input.TouchEventArgs}
+    content.vb: Public Event TouchUpInside As EventHandler(Of TouchEventArgs)
+- uid: Fantas.Node.TouchUpOutside
+  commentId: E:Fantas.Node.TouchUpOutside
+  id: TouchUpOutside
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: TouchUpOutside
+  nameWithType: Node.TouchUpOutside
+  fullName: Fantas.Node.TouchUpOutside
+  type: Event
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Called on touch up outside the Node frame
+  example: []
+  syntax:
+    content: public event EventHandler<TouchEventArgs> TouchUpOutside
+    return:
+      type: System.EventHandler{Fantas.Input.TouchEventArgs}
+    content.vb: Public Event TouchUpOutside As EventHandler(Of TouchEventArgs)
+- uid: Fantas.Node.MouseDown
+  commentId: E:Fantas.Node.MouseDown
+  id: MouseDown
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: MouseDown
+  nameWithType: Node.MouseDown
+  fullName: Fantas.Node.MouseDown
+  type: Event
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Called when mouse left button is pressed over the children node
+
+    call back contains the node clicked and the point (scene coordinates)
+  example: []
+  syntax:
+    content: public event EventHandler<MouseEventArgs> MouseDown
+    return:
+      type: System.EventHandler{Fantas.Input.MouseEventArgs}
+    content.vb: Public Event MouseDown As EventHandler(Of MouseEventArgs)
+- uid: Fantas.Node.MouseUp
+  commentId: E:Fantas.Node.MouseUp
+  id: MouseUp
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: MouseUp
+  nameWithType: Node.MouseUp
+  fullName: Fantas.Node.MouseUp
+  type: Event
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Called when mouse left button is released over the children node
+
+    call back contains the node clicked and the point (scene coordinates)
+  example: []
+  syntax:
+    content: public event EventHandler<MouseEventArgs> MouseUp
+    return:
+      type: System.EventHandler{Fantas.Input.MouseEventArgs}
+    content.vb: Public Event MouseUp As EventHandler(Of MouseEventArgs)
+- uid: Fantas.Node.Click
+  commentId: E:Fantas.Node.Click
+  id: Click
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: Click
+  nameWithType: Node.Click
+  fullName: Fantas.Node.Click
+  type: Event
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Called when mouse left button clicked within the children node
+
+    (called after left button down, left button up)
+
+    call back contains the node clicked and the point (scene coordinates)
+  example: []
+  syntax:
+    content: public event EventHandler<MouseEventArgs> Click
+    return:
+      type: System.EventHandler{Fantas.Input.MouseEventArgs}
+    content.vb: Public Event Click As EventHandler(Of MouseEventArgs)
+- uid: Fantas.Node.DoubleClick
+  commentId: E:Fantas.Node.DoubleClick
+  id: DoubleClick
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: DoubleClick
+  nameWithType: Node.DoubleClick
+  fullName: Fantas.Node.DoubleClick
+  type: Event
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Called when mouse left button double-clicked within the children node
+
+    call back contains the node clicked and the point (scene coordinates)
+  example: []
+  syntax:
+    content: public event EventHandler<MouseEventArgs> DoubleClick
+    return:
+      type: System.EventHandler{Fantas.Input.MouseEventArgs}
+    content.vb: Public Event DoubleClick As EventHandler(Of MouseEventArgs)
+- uid: Fantas.Node.MouseEnter
+  commentId: E:Fantas.Node.MouseEnter
+  id: MouseEnter
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: MouseEnter
+  nameWithType: Node.MouseEnter
+  fullName: Fantas.Node.MouseEnter
+  type: Event
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Called when mouse enter children node frame
+
+    call back contains the node clicked and the point (scene coordinates)
+  example: []
+  syntax:
+    content: public event EventHandler MouseEnter
+    return:
+      type: System.EventHandler
+    content.vb: Public Event MouseEnter As EventHandler
+- uid: Fantas.Node.MouseHover
+  commentId: E:Fantas.Node.MouseHover
+  id: MouseHover
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: MouseHover
+  nameWithType: Node.MouseHover
+  fullName: Fantas.Node.MouseHover
+  type: Event
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Called when mouse move over children node
+
+    call back contains the node clicked and the point (scene coordinates)
+  example: []
+  syntax:
+    content: public event EventHandler MouseHover
+    return:
+      type: System.EventHandler
+    content.vb: Public Event MouseHover As EventHandler
+- uid: Fantas.Node.MouseLeave
+  commentId: E:Fantas.Node.MouseLeave
+  id: MouseLeave
+  parent: Fantas.Node
+  langs:
+  - csharp
+  - vb
+  name: MouseLeave
+  nameWithType: Node.MouseLeave
+  fullName: Fantas.Node.MouseLeave
+  type: Event
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/Node.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Called when mouse leave node
+
+    call back contains the children node clicked and the point (scene coordinates)
+  example: []
+  syntax:
+    content: public event EventHandler MouseLeave
+    return:
+      type: System.EventHandler
+    content.vb: Public Event MouseLeave As EventHandler
+references:
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.Node.#ctor*
+  commentId: Overload:Fantas.Node.#ctor
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node__ctor
+  name: Node
+  nameWithType: Node.Node
+  fullName: Fantas.Node.Node
+  nameWithType.vb: Node.New
+  fullName.vb: Fantas.Node.New
+  name.vb: New
+- uid: Fantas.Node
+  commentId: T:Fantas.Node
+  parent: Fantas
+  isExternal: true
+  href: Fantas.Node.html
+  name: Node
+  nameWithType: Node
+  fullName: Fantas.Node
+- uid: Fantas.Node.Copy*
+  commentId: Overload:Fantas.Node.Copy
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Copy
+  name: Copy
+  nameWithType: Node.Copy
+  fullName: Fantas.Node.Copy
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Fantas.Node.ToString*
+  commentId: Overload:Fantas.Node.ToString
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ToString
+  name: ToString
+  nameWithType: Node.ToString
+  fullName: Fantas.Node.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Fantas.Node.Offset*
+  commentId: Overload:Fantas.Node.Offset
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Offset_System_Numerics_Vector2_
+  name: Offset
+  nameWithType: Node.Offset
+  fullName: Fantas.Node.Offset
+- uid: System.Numerics.Vector2
+  commentId: T:System.Numerics.Vector2
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  name: Vector2
+  nameWithType: Vector2
+  fullName: System.Numerics.Vector2
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Fantas.Node.OffsetX*
+  commentId: Overload:Fantas.Node.OffsetX
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OffsetX_System_Single_
+  name: OffsetX
+  nameWithType: Node.OffsetX
+  fullName: Fantas.Node.OffsetX
+- uid: Fantas.Node.OffsetY*
+  commentId: Overload:Fantas.Node.OffsetY
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OffsetY_System_Single_
+  name: OffsetY
+  nameWithType: Node.OffsetY
+  fullName: Fantas.Node.OffsetY
+- uid: Fantas.Node.CalculateAccumulatedFrame*
+  commentId: Overload:Fantas.Node.CalculateAccumulatedFrame
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_CalculateAccumulatedFrame
+  name: CalculateAccumulatedFrame
+  nameWithType: Node.CalculateAccumulatedFrame
+  fullName: Fantas.Node.CalculateAccumulatedFrame
+- uid: System.Drawing.RectangleF
+  commentId: T:System.Drawing.RectangleF
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.rectanglef
+  name: RectangleF
+  nameWithType: RectangleF
+  fullName: System.Drawing.RectangleF
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: Fantas.Node.RenderToTexture*
+  commentId: Overload:Fantas.Node.RenderToTexture
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_RenderToTexture
+  name: RenderToTexture
+  nameWithType: Node.RenderToTexture
+  fullName: Fantas.Node.RenderToTexture
+- uid: Fantas.Texture
+  commentId: T:Fantas.Texture
+  parent: Fantas
+  isExternal: true
+  href: Fantas.Texture.html
+  name: Texture
+  nameWithType: Texture
+  fullName: Fantas.Texture
+- uid: Fantas.Node.SetScale*
+  commentId: Overload:Fantas.Node.SetScale
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_SetScale_System_Single_
+  name: SetScale
+  nameWithType: Node.SetScale
+  fullName: Fantas.Node.SetScale
+- uid: Fantas.Node.AddChild*
+  commentId: Overload:Fantas.Node.AddChild
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_AddChild_Fantas_Node_
+  name: AddChild
+  nameWithType: Node.AddChild
+  fullName: Fantas.Node.AddChild
+- uid: Fantas.Node.InsertChild*
+  commentId: Overload:Fantas.Node.InsertChild
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_InsertChild_System_Int32_Fantas_Node_
+  name: InsertChild
+  nameWithType: Node.InsertChild
+  fullName: Fantas.Node.InsertChild
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Fantas.Node.MoveToParent*
+  commentId: Overload:Fantas.Node.MoveToParent
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_MoveToParent_Fantas_Node_
+  name: MoveToParent
+  nameWithType: Node.MoveToParent
+  fullName: Fantas.Node.MoveToParent
+- uid: Fantas.Node.RemoveFromParent*
+  commentId: Overload:Fantas.Node.RemoveFromParent
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_RemoveFromParent
+  name: RemoveFromParent
+  nameWithType: Node.RemoveFromParent
+  fullName: Fantas.Node.RemoveFromParent
+- uid: Fantas.Node.RemoveAllChildren*
+  commentId: Overload:Fantas.Node.RemoveAllChildren
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_RemoveAllChildren
+  name: RemoveAllChildren
+  nameWithType: Node.RemoveAllChildren
+  fullName: Fantas.Node.RemoveAllChildren
+- uid: Fantas.Node.RemoveChildren*
+  commentId: Overload:Fantas.Node.RemoveChildren
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_RemoveChildren_System_Collections_Generic_IReadOnlyList_Fantas_Node__
+  name: RemoveChildren
+  nameWithType: Node.RemoveChildren
+  fullName: Fantas.Node.RemoveChildren
+- uid: System.Collections.Generic.IReadOnlyList{Fantas.Node}
+  commentId: T:System.Collections.Generic.IReadOnlyList{Fantas.Node}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<Node>
+  nameWithType: IReadOnlyList<Node>
+  fullName: System.Collections.Generic.IReadOnlyList<Fantas.Node>
+  nameWithType.vb: IReadOnlyList(Of Node)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of Fantas.Node)
+  name.vb: IReadOnlyList(Of Node)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyList`1
+  commentId: T:System.Collections.Generic.IReadOnlyList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<T>
+  nameWithType: IReadOnlyList<T>
+  fullName: System.Collections.Generic.IReadOnlyList<T>
+  nameWithType.vb: IReadOnlyList(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of T)
+  name.vb: IReadOnlyList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Fantas.Node.RemoveChild*
+  commentId: Overload:Fantas.Node.RemoveChild
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_RemoveChild_Fantas_Node_
+  name: RemoveChild
+  nameWithType: Node.RemoveChild
+  fullName: Fantas.Node.RemoveChild
+- uid: Fantas.Node.InParentHierarchy*
+  commentId: Overload:Fantas.Node.InParentHierarchy
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_InParentHierarchy_Fantas_Node_
+  name: InParentHierarchy
+  nameWithType: Node.InParentHierarchy
+  fullName: Fantas.Node.InParentHierarchy
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Fantas.Node.RunAnimation*
+  commentId: Overload:Fantas.Node.RunAnimation
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_RunAnimation_Fantas_Animation_
+  name: RunAnimation
+  nameWithType: Node.RunAnimation
+  fullName: Fantas.Node.RunAnimation
+- uid: Fantas.Animation
+  commentId: T:Fantas.Animation
+  parent: Fantas
+  isExternal: true
+  href: Fantas.Animation.html
+  name: Animation
+  nameWithType: Animation
+  fullName: Fantas.Animation
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: Fantas.Node.RunAnimationAsync*
+  commentId: Overload:Fantas.Node.RunAnimationAsync
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_RunAnimationAsync_Fantas_Animation_
+  name: RunAnimationAsync
+  nameWithType: Node.RunAnimationAsync
+  fullName: Fantas.Node.RunAnimationAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Fantas.Node.GetAnimationForKey*
+  commentId: Overload:Fantas.Node.GetAnimationForKey
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_GetAnimationForKey_System_String_
+  name: GetAnimationForKey
+  nameWithType: Node.GetAnimationForKey
+  fullName: Fantas.Node.GetAnimationForKey
+- uid: Fantas.Node.RemoveAnimationForKey*
+  commentId: Overload:Fantas.Node.RemoveAnimationForKey
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_RemoveAnimationForKey_System_String_
+  name: RemoveAnimationForKey
+  nameWithType: Node.RemoveAnimationForKey
+  fullName: Fantas.Node.RemoveAnimationForKey
+- uid: Fantas.Node.RemoveAllAnimations*
+  commentId: Overload:Fantas.Node.RemoveAllAnimations
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_RemoveAllAnimations
+  name: RemoveAllAnimations
+  nameWithType: Node.RemoveAllAnimations
+  fullName: Fantas.Node.RemoveAllAnimations
+- uid: Fantas.Node.ContainsPoint*
+  commentId: Overload:Fantas.Node.ContainsPoint
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ContainsPoint_System_Drawing_PointF_
+  name: ContainsPoint
+  nameWithType: Node.ContainsPoint
+  fullName: Fantas.Node.ContainsPoint
+- uid: System.Drawing.PointF
+  commentId: T:System.Drawing.PointF
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  name: PointF
+  nameWithType: PointF
+  fullName: System.Drawing.PointF
+- uid: Fantas.Node.GetNodeAtPoint*
+  commentId: Overload:Fantas.Node.GetNodeAtPoint
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_GetNodeAtPoint_System_Drawing_PointF_
+  name: GetNodeAtPoint
+  nameWithType: Node.GetNodeAtPoint
+  fullName: Fantas.Node.GetNodeAtPoint
+- uid: Fantas.Node.GetChildNode*
+  commentId: Overload:Fantas.Node.GetChildNode
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_GetChildNode_System_String_
+  name: GetChildNode
+  nameWithType: Node.GetChildNode
+  fullName: Fantas.Node.GetChildNode
+- uid: Fantas.Node.GetNodesAtPoint*
+  commentId: Overload:Fantas.Node.GetNodesAtPoint
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_GetNodesAtPoint_System_Drawing_PointF_
+  name: GetNodesAtPoint
+  nameWithType: Node.GetNodesAtPoint
+  fullName: Fantas.Node.GetNodesAtPoint
+- uid: Fantas.Node.IntersectsNode*
+  commentId: Overload:Fantas.Node.IntersectsNode
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_IntersectsNode_Fantas_Node_
+  name: IntersectsNode
+  nameWithType: Node.IntersectsNode
+  fullName: Fantas.Node.IntersectsNode
+- uid: Fantas.Node.ConvertPointFromNode*
+  commentId: Overload:Fantas.Node.ConvertPointFromNode
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ConvertPointFromNode_System_Drawing_PointF_Fantas_Node_
+  name: ConvertPointFromNode
+  nameWithType: Node.ConvertPointFromNode
+  fullName: Fantas.Node.ConvertPointFromNode
+- uid: Fantas.Node.ConvertPointToNode*
+  commentId: Overload:Fantas.Node.ConvertPointToNode
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ConvertPointToNode_System_Drawing_PointF_Fantas_Node_
+  name: ConvertPointToNode
+  nameWithType: Node.ConvertPointToNode
+  fullName: Fantas.Node.ConvertPointToNode
+- uid: Fantas.Node.BringForward*
+  commentId: Overload:Fantas.Node.BringForward
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_BringForward
+  name: BringForward
+  nameWithType: Node.BringForward
+  fullName: Fantas.Node.BringForward
+- uid: Fantas.Node.BringToFront*
+  commentId: Overload:Fantas.Node.BringToFront
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_BringToFront
+  name: BringToFront
+  nameWithType: Node.BringToFront
+  fullName: Fantas.Node.BringToFront
+- uid: Fantas.Node.SendBackward*
+  commentId: Overload:Fantas.Node.SendBackward
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_SendBackward
+  name: SendBackward
+  nameWithType: Node.SendBackward
+  fullName: Fantas.Node.SendBackward
+- uid: Fantas.Node.SendToBack*
+  commentId: Overload:Fantas.Node.SendToBack
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_SendToBack
+  name: SendToBack
+  nameWithType: Node.SendToBack
+  fullName: Fantas.Node.SendToBack
+- uid: Fantas.Node.OnTap*
+  commentId: Overload:Fantas.Node.OnTap
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnTap_Fantas_Input_TapEventArgs_
+  name: OnTap
+  nameWithType: Node.OnTap
+  fullName: Fantas.Node.OnTap
+- uid: Fantas.Input.TapEventArgs
+  commentId: T:Fantas.Input.TapEventArgs
+  parent: Fantas.Input
+  isExternal: true
+  href: Fantas.Input.TapEventArgs.html
+  name: TapEventArgs
+  nameWithType: TapEventArgs
+  fullName: Fantas.Input.TapEventArgs
+- uid: Fantas.Input
+  commentId: N:Fantas.Input
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.Input
+  nameWithType: Fantas.Input
+  fullName: Fantas.Input
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+- uid: Fantas.Node.OnLongPress*
+  commentId: Overload:Fantas.Node.OnLongPress
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnLongPress_Fantas_Input_TapEventArgs_
+  name: OnLongPress
+  nameWithType: Node.OnLongPress
+  fullName: Fantas.Node.OnLongPress
+- uid: Fantas.Node.OnDoubleTap*
+  commentId: Overload:Fantas.Node.OnDoubleTap
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnDoubleTap_Fantas_Input_TapEventArgs_
+  name: OnDoubleTap
+  nameWithType: Node.OnDoubleTap
+  fullName: Fantas.Node.OnDoubleTap
+- uid: Fantas.Node.OnTouchDownInside*
+  commentId: Overload:Fantas.Node.OnTouchDownInside
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnTouchDownInside_Fantas_Input_TouchEventArgs_
+  name: OnTouchDownInside
+  nameWithType: Node.OnTouchDownInside
+  fullName: Fantas.Node.OnTouchDownInside
+- uid: Fantas.Input.TouchEventArgs
+  commentId: T:Fantas.Input.TouchEventArgs
+  parent: Fantas.Input
+  isExternal: true
+  href: Fantas.Input.TouchEventArgs.html
+  name: TouchEventArgs
+  nameWithType: TouchEventArgs
+  fullName: Fantas.Input.TouchEventArgs
+- uid: Fantas.Node.OnTouchDragEnter*
+  commentId: Overload:Fantas.Node.OnTouchDragEnter
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnTouchDragEnter_Fantas_Input_TouchEventArgs_
+  name: OnTouchDragEnter
+  nameWithType: Node.OnTouchDragEnter
+  fullName: Fantas.Node.OnTouchDragEnter
+- uid: Fantas.Node.OnTouchDragExit*
+  commentId: Overload:Fantas.Node.OnTouchDragExit
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnTouchDragExit_Fantas_Input_TouchEventArgs_
+  name: OnTouchDragExit
+  nameWithType: Node.OnTouchDragExit
+  fullName: Fantas.Node.OnTouchDragExit
+- uid: Fantas.Node.OnTouchDragInside*
+  commentId: Overload:Fantas.Node.OnTouchDragInside
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnTouchDragInside_Fantas_Input_TouchEventArgs_
+  name: OnTouchDragInside
+  nameWithType: Node.OnTouchDragInside
+  fullName: Fantas.Node.OnTouchDragInside
+- uid: Fantas.Node.OnTouchDragOutside*
+  commentId: Overload:Fantas.Node.OnTouchDragOutside
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnTouchDragOutside_Fantas_Input_TouchEventArgs_
+  name: OnTouchDragOutside
+  nameWithType: Node.OnTouchDragOutside
+  fullName: Fantas.Node.OnTouchDragOutside
+- uid: Fantas.Node.OnTouchUpInside*
+  commentId: Overload:Fantas.Node.OnTouchUpInside
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnTouchUpInside_Fantas_Input_TouchEventArgs_
+  name: OnTouchUpInside
+  nameWithType: Node.OnTouchUpInside
+  fullName: Fantas.Node.OnTouchUpInside
+- uid: Fantas.Node.OnTouchUpOutside*
+  commentId: Overload:Fantas.Node.OnTouchUpOutside
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnTouchUpOutside_Fantas_Input_TouchEventArgs_
+  name: OnTouchUpOutside
+  nameWithType: Node.OnTouchUpOutside
+  fullName: Fantas.Node.OnTouchUpOutside
+- uid: Fantas.Node.OnMouseDown*
+  commentId: Overload:Fantas.Node.OnMouseDown
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnMouseDown_Fantas_Input_MouseEventArgs_
+  name: OnMouseDown
+  nameWithType: Node.OnMouseDown
+  fullName: Fantas.Node.OnMouseDown
+- uid: Fantas.Input.MouseEventArgs
+  commentId: T:Fantas.Input.MouseEventArgs
+  parent: Fantas.Input
+  isExternal: true
+  href: Fantas.Input.MouseEventArgs.html
+  name: MouseEventArgs
+  nameWithType: MouseEventArgs
+  fullName: Fantas.Input.MouseEventArgs
+- uid: Fantas.Node.OnMouseUp*
+  commentId: Overload:Fantas.Node.OnMouseUp
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnMouseUp_Fantas_Input_MouseEventArgs_
+  name: OnMouseUp
+  nameWithType: Node.OnMouseUp
+  fullName: Fantas.Node.OnMouseUp
+- uid: Fantas.Node.OnClick*
+  commentId: Overload:Fantas.Node.OnClick
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnClick_Fantas_Input_MouseEventArgs_
+  name: OnClick
+  nameWithType: Node.OnClick
+  fullName: Fantas.Node.OnClick
+- uid: Fantas.Node.OnDoubleClick*
+  commentId: Overload:Fantas.Node.OnDoubleClick
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnDoubleClick_Fantas_Input_MouseEventArgs_
+  name: OnDoubleClick
+  nameWithType: Node.OnDoubleClick
+  fullName: Fantas.Node.OnDoubleClick
+- uid: Fantas.Node.OnMouseEnter*
+  commentId: Overload:Fantas.Node.OnMouseEnter
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnMouseEnter
+  name: OnMouseEnter
+  nameWithType: Node.OnMouseEnter
+  fullName: Fantas.Node.OnMouseEnter
+- uid: Fantas.Node.OnMouseHover*
+  commentId: Overload:Fantas.Node.OnMouseHover
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnMouseHover
+  name: OnMouseHover
+  nameWithType: Node.OnMouseHover
+  fullName: Fantas.Node.OnMouseHover
+- uid: Fantas.Node.OnMouseLeave*
+  commentId: Overload:Fantas.Node.OnMouseLeave
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnMouseLeave
+  name: OnMouseLeave
+  nameWithType: Node.OnMouseLeave
+  fullName: Fantas.Node.OnMouseLeave
+- uid: Fantas.Node.Name*
+  commentId: Overload:Fantas.Node.Name
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Name
+  name: Name
+  nameWithType: Node.Name
+  fullName: Fantas.Node.Name
+- uid: Fantas.Node.Tag*
+  commentId: Overload:Fantas.Node.Tag
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Tag
+  name: Tag
+  nameWithType: Node.Tag
+  fullName: Fantas.Node.Tag
+- uid: Fantas.Node.Cursor*
+  commentId: Overload:Fantas.Node.Cursor
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Cursor
+  name: Cursor
+  nameWithType: Node.Cursor
+  fullName: Fantas.Node.Cursor
+- uid: Fantas.Input.Cursor
+  commentId: T:Fantas.Input.Cursor
+  parent: Fantas.Input
+  isExternal: true
+  href: Fantas.Input.Cursor.html
+  name: Cursor
+  nameWithType: Cursor
+  fullName: Fantas.Input.Cursor
+- uid: Fantas.Node.Position*
+  commentId: Overload:Fantas.Node.Position
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Position
+  name: Position
+  nameWithType: Node.Position
+  fullName: Fantas.Node.Position
+- uid: Fantas.Node.Frame*
+  commentId: Overload:Fantas.Node.Frame
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Frame
+  name: Frame
+  nameWithType: Node.Frame
+  fullName: Fantas.Node.Frame
+- uid: Fantas.Node.X*
+  commentId: Overload:Fantas.Node.X
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_X
+  name: X
+  nameWithType: Node.X
+  fullName: Fantas.Node.X
+- uid: Fantas.Node.Y*
+  commentId: Overload:Fantas.Node.Y
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Y
+  name: Y
+  nameWithType: Node.Y
+  fullName: Fantas.Node.Y
+- uid: Fantas.Node.Center*
+  commentId: Overload:Fantas.Node.Center
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Center
+  name: Center
+  nameWithType: Node.Center
+  fullName: Fantas.Node.Center
+- uid: Fantas.Node.Width*
+  commentId: Overload:Fantas.Node.Width
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Width
+  name: Width
+  nameWithType: Node.Width
+  fullName: Fantas.Node.Width
+- uid: Fantas.Node.Height*
+  commentId: Overload:Fantas.Node.Height
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Height
+  name: Height
+  nameWithType: Node.Height
+  fullName: Fantas.Node.Height
+- uid: Fantas.Node.Left*
+  commentId: Overload:Fantas.Node.Left
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Left
+  name: Left
+  nameWithType: Node.Left
+  fullName: Fantas.Node.Left
+- uid: Fantas.Node.Right*
+  commentId: Overload:Fantas.Node.Right
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Right
+  name: Right
+  nameWithType: Node.Right
+  fullName: Fantas.Node.Right
+- uid: Fantas.Node.Top*
+  commentId: Overload:Fantas.Node.Top
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Top
+  name: Top
+  nameWithType: Node.Top
+  fullName: Fantas.Node.Top
+- uid: Fantas.Node.Bottom*
+  commentId: Overload:Fantas.Node.Bottom
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Bottom
+  name: Bottom
+  nameWithType: Node.Bottom
+  fullName: Fantas.Node.Bottom
+- uid: Fantas.Node.ZPosition*
+  commentId: Overload:Fantas.Node.ZPosition
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ZPosition
+  name: ZPosition
+  nameWithType: Node.ZPosition
+  fullName: Fantas.Node.ZPosition
+- uid: Fantas.Node.ZRotation*
+  commentId: Overload:Fantas.Node.ZRotation
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ZRotation
+  name: ZRotation
+  nameWithType: Node.ZRotation
+  fullName: Fantas.Node.ZRotation
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Fantas.Node.XScale*
+  commentId: Overload:Fantas.Node.XScale
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_XScale
+  name: XScale
+  nameWithType: Node.XScale
+  fullName: Fantas.Node.XScale
+- uid: Fantas.Node.YScale*
+  commentId: Overload:Fantas.Node.YScale
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_YScale
+  name: YScale
+  nameWithType: Node.YScale
+  fullName: Fantas.Node.YScale
+- uid: Fantas.Node.Scale*
+  commentId: Overload:Fantas.Node.Scale
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Scale
+  name: Scale
+  nameWithType: Node.Scale
+  fullName: Fantas.Node.Scale
+- uid: Fantas.Node.Scene*
+  commentId: Overload:Fantas.Node.Scene
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Scene
+  name: Scene
+  nameWithType: Node.Scene
+  fullName: Fantas.Node.Scene
+- uid: Fantas.Scene
+  commentId: T:Fantas.Scene
+  parent: Fantas
+  isExternal: true
+  href: Fantas.Scene.html
+  name: Scene
+  nameWithType: Scene
+  fullName: Fantas.Scene
+- uid: Fantas.Node.Parent*
+  commentId: Overload:Fantas.Node.Parent
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Parent
+  name: Parent
+  nameWithType: Node.Parent
+  fullName: Fantas.Node.Parent
+- uid: Fantas.Node.Children*
+  commentId: Overload:Fantas.Node.Children
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Children
+  name: Children
+  nameWithType: Node.Children
+  fullName: Fantas.Node.Children
+- uid: Fantas.Node.PhysicsBody*
+  commentId: Overload:Fantas.Node.PhysicsBody
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_PhysicsBody
+  name: PhysicsBody
+  nameWithType: Node.PhysicsBody
+  fullName: Fantas.Node.PhysicsBody
+- uid: Fantas.Physics.PhysicsBody
+  commentId: T:Fantas.Physics.PhysicsBody
+  parent: Fantas.Physics
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html
+  name: PhysicsBody
+  nameWithType: PhysicsBody
+  fullName: Fantas.Physics.PhysicsBody
+- uid: Fantas.Physics
+  commentId: N:Fantas.Physics
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.Physics
+  nameWithType: Fantas.Physics
+  fullName: Fantas.Physics
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Physics
+    name: Physics
+    isExternal: true
+    href: Fantas.Physics.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Physics
+    name: Physics
+    isExternal: true
+    href: Fantas.Physics.html
+- uid: Fantas.Node.Hidden*
+  commentId: Overload:Fantas.Node.Hidden
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Hidden
+  name: Hidden
+  nameWithType: Node.Hidden
+  fullName: Fantas.Node.Hidden
+- uid: Fantas.Node.Alpha*
+  commentId: Overload:Fantas.Node.Alpha
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Alpha
+  name: Alpha
+  nameWithType: Node.Alpha
+  fullName: Fantas.Node.Alpha
+- uid: Fantas.Node.HasAnimation*
+  commentId: Overload:Fantas.Node.HasAnimation
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_HasAnimation
+  name: HasAnimation
+  nameWithType: Node.HasAnimation
+  fullName: Fantas.Node.HasAnimation
+- uid: Fantas.Node.Paused*
+  commentId: Overload:Fantas.Node.Paused
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Paused
+  name: Paused
+  nameWithType: Node.Paused
+  fullName: Fantas.Node.Paused
+- uid: Fantas.Node.Speed*
+  commentId: Overload:Fantas.Node.Speed
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Speed
+  name: Speed
+  nameWithType: Node.Speed
+  fullName: Fantas.Node.Speed
+- uid: Fantas.Node.IsHitTestEnabled*
+  commentId: Overload:Fantas.Node.IsHitTestEnabled
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_IsHitTestEnabled
+  name: IsHitTestEnabled
+  nameWithType: Node.IsHitTestEnabled
+  fullName: Fantas.Node.IsHitTestEnabled
+- uid: Fantas.Node.CanBringForward*
+  commentId: Overload:Fantas.Node.CanBringForward
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_CanBringForward
+  name: CanBringForward
+  nameWithType: Node.CanBringForward
+  fullName: Fantas.Node.CanBringForward
+- uid: Fantas.Node.CanSendBackward*
+  commentId: Overload:Fantas.Node.CanSendBackward
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_CanSendBackward
+  name: CanSendBackward
+  nameWithType: Node.CanSendBackward
+  fullName: Fantas.Node.CanSendBackward
+- uid: Fantas.Node.IsMouseOver*
+  commentId: Overload:Fantas.Node.IsMouseOver
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_IsMouseOver
+  name: IsMouseOver
+  nameWithType: Node.IsMouseOver
+  fullName: Fantas.Node.IsMouseOver
+- uid: Fantas.Node.MouseButtonPressed*
+  commentId: Overload:Fantas.Node.MouseButtonPressed
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_MouseButtonPressed
+  name: MouseButtonPressed
+  nameWithType: Node.MouseButtonPressed
+  fullName: Fantas.Node.MouseButtonPressed
+- uid: Fantas.Input.MouseButtons
+  commentId: T:Fantas.Input.MouseButtons
+  parent: Fantas.Input
+  isExternal: true
+  href: Fantas.Input.MouseButtons.html
+  name: MouseButtons
+  nameWithType: MouseButtons
+  fullName: Fantas.Input.MouseButtons
+- uid: Fantas.Node.IsTouchOver*
+  commentId: Overload:Fantas.Node.IsTouchOver
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_IsTouchOver
+  name: IsTouchOver
+  nameWithType: Node.IsTouchOver
+  fullName: Fantas.Node.IsTouchOver
+- uid: Fantas.Node.TouchCount*
+  commentId: Overload:Fantas.Node.TouchCount
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_TouchCount
+  name: TouchCount
+  nameWithType: Node.TouchCount
+  fullName: Fantas.Node.TouchCount
+- uid: System.EventHandler{Fantas.Input.TapEventArgs}
+  commentId: T:System.EventHandler{Fantas.Input.TapEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<TapEventArgs>
+  nameWithType: EventHandler<TapEventArgs>
+  fullName: System.EventHandler<Fantas.Input.TapEventArgs>
+  nameWithType.vb: EventHandler(Of TapEventArgs)
+  fullName.vb: System.EventHandler(Of Fantas.Input.TapEventArgs)
+  name.vb: EventHandler(Of TapEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - uid: Fantas.Input.TapEventArgs
+    name: TapEventArgs
+    isExternal: true
+    href: Fantas.Input.TapEventArgs.html
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fantas.Input.TapEventArgs
+    name: TapEventArgs
+    isExternal: true
+    href: Fantas.Input.TapEventArgs.html
+  - name: )
+- uid: System.EventHandler`1
+  commentId: T:System.EventHandler`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<TEventArgs>
+  nameWithType: EventHandler<TEventArgs>
+  fullName: System.EventHandler<TEventArgs>
+  nameWithType.vb: EventHandler(Of TEventArgs)
+  fullName.vb: System.EventHandler(Of TEventArgs)
+  name.vb: EventHandler(Of TEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - name: TEventArgs
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEventArgs
+  - name: )
+- uid: System.EventHandler{Fantas.Input.TouchEventArgs}
+  commentId: T:System.EventHandler{Fantas.Input.TouchEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<TouchEventArgs>
+  nameWithType: EventHandler<TouchEventArgs>
+  fullName: System.EventHandler<Fantas.Input.TouchEventArgs>
+  nameWithType.vb: EventHandler(Of TouchEventArgs)
+  fullName.vb: System.EventHandler(Of Fantas.Input.TouchEventArgs)
+  name.vb: EventHandler(Of TouchEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - uid: Fantas.Input.TouchEventArgs
+    name: TouchEventArgs
+    isExternal: true
+    href: Fantas.Input.TouchEventArgs.html
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fantas.Input.TouchEventArgs
+    name: TouchEventArgs
+    isExternal: true
+    href: Fantas.Input.TouchEventArgs.html
+  - name: )
+- uid: System.EventHandler{Fantas.Input.MouseEventArgs}
+  commentId: T:System.EventHandler{Fantas.Input.MouseEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<MouseEventArgs>
+  nameWithType: EventHandler<MouseEventArgs>
+  fullName: System.EventHandler<Fantas.Input.MouseEventArgs>
+  nameWithType.vb: EventHandler(Of MouseEventArgs)
+  fullName.vb: System.EventHandler(Of Fantas.Input.MouseEventArgs)
+  name.vb: EventHandler(Of MouseEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - uid: Fantas.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: Fantas.Input.MouseEventArgs.html
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fantas.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: Fantas.Input.MouseEventArgs.html
+  - name: )
+- uid: System.EventHandler
+  commentId: T:System.EventHandler
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler
+  name: EventHandler
+  nameWithType: EventHandler
+  fullName: System.EventHandler

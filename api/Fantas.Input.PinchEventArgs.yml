@@ -1,0 +1,505 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.Input.PinchEventArgs
+  commentId: T:Fantas.Input.PinchEventArgs
+  id: PinchEventArgs
+  parent: Fantas.Input
+  children:
+  - Fantas.Input.PinchEventArgs.#ctor(System.Drawing.PointF,System.Drawing.PointF,System.Single)
+  - Fantas.Input.PinchEventArgs.Location1
+  - Fantas.Input.PinchEventArgs.Location2
+  - Fantas.Input.PinchEventArgs.Scale
+  langs:
+  - csharp
+  - vb
+  name: PinchEventArgs
+  nameWithType: PinchEventArgs
+  fullName: Fantas.Input.PinchEventArgs
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/PinchEventArgs.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Event data for Pinch event
+  example: []
+  syntax:
+    content: 'public class PinchEventArgs : EventArgs'
+    content.vb: Public Class PinchEventArgs Inherits EventArgs
+  inheritance:
+  - System.Object
+  - System.EventArgs
+  inheritedMembers:
+  - System.EventArgs.Empty
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Fantas.Input.PinchEventArgs.#ctor(System.Drawing.PointF,System.Drawing.PointF,System.Single)
+  commentId: M:Fantas.Input.PinchEventArgs.#ctor(System.Drawing.PointF,System.Drawing.PointF,System.Single)
+  id: '#ctor(System.Drawing.PointF,System.Drawing.PointF,System.Single)'
+  parent: Fantas.Input.PinchEventArgs
+  langs:
+  - csharp
+  - vb
+  name: PinchEventArgs(PointF, PointF, float)
+  nameWithType: PinchEventArgs.PinchEventArgs(PointF, PointF, float)
+  fullName: Fantas.Input.PinchEventArgs.PinchEventArgs(System.Drawing.PointF, System.Drawing.PointF, float)
+  type: Constructor
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/PinchEventArgs.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Initialize Pinch event args
+  example: []
+  syntax:
+    content: public PinchEventArgs(PointF location1, PointF location2, float scale)
+    parameters:
+    - id: location1
+      type: System.Drawing.PointF
+    - id: location2
+      type: System.Drawing.PointF
+    - id: scale
+      type: System.Single
+    content.vb: Public Sub New(location1 As PointF, location2 As PointF, scale As Single)
+  overload: Fantas.Input.PinchEventArgs.#ctor*
+  nameWithType.vb: PinchEventArgs.New(PointF, PointF, Single)
+  fullName.vb: Fantas.Input.PinchEventArgs.New(System.Drawing.PointF, System.Drawing.PointF, Single)
+  name.vb: New(PointF, PointF, Single)
+- uid: Fantas.Input.PinchEventArgs.Location1
+  commentId: P:Fantas.Input.PinchEventArgs.Location1
+  id: Location1
+  parent: Fantas.Input.PinchEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Location1
+  nameWithType: PinchEventArgs.Location1
+  fullName: Fantas.Input.PinchEventArgs.Location1
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/PinchEventArgs.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Location 1 of pinch
+  example: []
+  syntax:
+    content: public PointF Location1 { get; }
+    parameters: []
+    return:
+      type: System.Drawing.PointF
+    content.vb: Public ReadOnly Property Location1 As PointF
+  overload: Fantas.Input.PinchEventArgs.Location1*
+- uid: Fantas.Input.PinchEventArgs.Location2
+  commentId: P:Fantas.Input.PinchEventArgs.Location2
+  id: Location2
+  parent: Fantas.Input.PinchEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Location2
+  nameWithType: PinchEventArgs.Location2
+  fullName: Fantas.Input.PinchEventArgs.Location2
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/PinchEventArgs.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Location 2 of pinch
+  example: []
+  syntax:
+    content: public PointF Location2 { get; }
+    parameters: []
+    return:
+      type: System.Drawing.PointF
+    content.vb: Public ReadOnly Property Location2 As PointF
+  overload: Fantas.Input.PinchEventArgs.Location2*
+- uid: Fantas.Input.PinchEventArgs.Scale
+  commentId: P:Fantas.Input.PinchEventArgs.Scale
+  id: Scale
+  parent: Fantas.Input.PinchEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Scale
+  nameWithType: PinchEventArgs.Scale
+  fullName: Fantas.Input.PinchEventArgs.Scale
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/PinchEventArgs.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Scale factor of the pinch gesture
+  example: []
+  syntax:
+    content: public float Scale { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Scale As Single
+  overload: Fantas.Input.PinchEventArgs.Scale*
+references:
+- uid: Fantas.Input
+  commentId: N:Fantas.Input
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.Input
+  nameWithType: Fantas.Input
+  fullName: Fantas.Input
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventargs
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System.EventArgs.Empty
+  commentId: F:System.EventArgs.Empty
+  parent: System.EventArgs
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventargs.empty
+  name: Empty
+  nameWithType: EventArgs.Empty
+  fullName: System.EventArgs.Empty
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.Input.PinchEventArgs.#ctor*
+  commentId: Overload:Fantas.Input.PinchEventArgs.#ctor
+  isExternal: true
+  href: Fantas.Input.PinchEventArgs.html#Fantas_Input_PinchEventArgs__ctor_System_Drawing_PointF_System_Drawing_PointF_System_Single_
+  name: PinchEventArgs
+  nameWithType: PinchEventArgs.PinchEventArgs
+  fullName: Fantas.Input.PinchEventArgs.PinchEventArgs
+  nameWithType.vb: PinchEventArgs.New
+  fullName.vb: Fantas.Input.PinchEventArgs.New
+  name.vb: New
+- uid: System.Drawing.PointF
+  commentId: T:System.Drawing.PointF
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  name: PointF
+  nameWithType: PointF
+  fullName: System.Drawing.PointF
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: Fantas.Input.PinchEventArgs.Location1*
+  commentId: Overload:Fantas.Input.PinchEventArgs.Location1
+  isExternal: true
+  href: Fantas.Input.PinchEventArgs.html#Fantas_Input_PinchEventArgs_Location1
+  name: Location1
+  nameWithType: PinchEventArgs.Location1
+  fullName: Fantas.Input.PinchEventArgs.Location1
+- uid: Fantas.Input.PinchEventArgs.Location2*
+  commentId: Overload:Fantas.Input.PinchEventArgs.Location2
+  isExternal: true
+  href: Fantas.Input.PinchEventArgs.html#Fantas_Input_PinchEventArgs_Location2
+  name: Location2
+  nameWithType: PinchEventArgs.Location2
+  fullName: Fantas.Input.PinchEventArgs.Location2
+- uid: Fantas.Input.PinchEventArgs.Scale*
+  commentId: Overload:Fantas.Input.PinchEventArgs.Scale
+  isExternal: true
+  href: Fantas.Input.PinchEventArgs.html#Fantas_Input_PinchEventArgs_Scale
+  name: Scale
+  nameWithType: PinchEventArgs.Scale
+  fullName: Fantas.Input.PinchEventArgs.Scale
