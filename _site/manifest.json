@@ -12,6 +12,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "HOWTO_UPDATE_DOCS.md",
+      "output": {
+        ".html": {
+          "relative_path": "HOWTO_UPDATE_DOCS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "README.md",
       "output": {
         ".html": {
@@ -892,6 +902,86 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.TileAdjacencyMask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.TileAdjacencyMask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.TileDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.TileDefinition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.TileDefinitionRotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.TileDefinitionRotation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.TileGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.TileGroup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.TileGroupRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.TileGroupRule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.TileMapNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.TileMapNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.TileSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.TileSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.TileSetType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.TileSetType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Fantas.Time.yml",
       "output": {
         ".html": {
@@ -974,11 +1064,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "api/toc.json"
-        },
         ".html": {
           "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -1007,11 +1097,11 @@
       "type": "Toc",
       "source_relative_path": "docs/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "docs/toc.json"
-        },
         ".html": {
           "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
         }
       },
       "version": ""
@@ -1170,11 +1260,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "toc.json"
-        },
         ".html": {
           "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""

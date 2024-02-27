@@ -25,7 +25,7 @@ items:
   fullName: Fantas.SpriteLineNode
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/SpriteLineNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Nodes/SpriteLineNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -191,7 +191,7 @@ items:
   fullName: Fantas.SpriteLineNode.SpriteLineNode()
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/SpriteLineNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Nodes/SpriteLineNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -216,7 +216,7 @@ items:
   fullName: Fantas.SpriteLineNode.SpriteLineNode(Fantas.SpriteLineNode)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/SpriteLineNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Nodes/SpriteLineNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -245,7 +245,7 @@ items:
   fullName: Fantas.SpriteLineNode.Copy()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/SpriteLineNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Nodes/SpriteLineNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -271,7 +271,7 @@ items:
   fullName: Fantas.SpriteLineNode.SpriteLineNode(System.Drawing.PointF, System.Drawing.PointF)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/SpriteLineNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Nodes/SpriteLineNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -303,7 +303,7 @@ items:
   fullName: Fantas.SpriteLineNode.SpriteLineNode(System.Drawing.PointF, System.Drawing.PointF, System.Drawing.Color)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/SpriteLineNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Nodes/SpriteLineNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -338,7 +338,7 @@ items:
   fullName: Fantas.SpriteLineNode.SpriteLineNode(System.Drawing.PointF, System.Drawing.PointF, System.Drawing.Color, float)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/SpriteLineNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Nodes/SpriteLineNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -376,7 +376,7 @@ items:
   fullName: Fantas.SpriteLineNode.UpdatePoints(System.Drawing.PointF, System.Drawing.PointF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/SpriteLineNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Nodes/SpriteLineNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -405,7 +405,7 @@ items:
   fullName: Fantas.SpriteLineNode.StartPoint
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/SpriteLineNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Nodes/SpriteLineNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -430,7 +430,7 @@ items:
   fullName: Fantas.SpriteLineNode.EndPoint
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/SpriteLineNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Nodes/SpriteLineNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -455,7 +455,7 @@ items:
   fullName: Fantas.SpriteLineNode.StartColor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/SpriteLineNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Nodes/SpriteLineNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -480,7 +480,7 @@ items:
   fullName: Fantas.SpriteLineNode.EndColor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/SpriteLineNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Nodes/SpriteLineNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -505,7 +505,7 @@ items:
   fullName: Fantas.SpriteLineNode.Thickness
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Nodes/SpriteLineNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Nodes/SpriteLineNode.cs
   assemblies:
   - Fantas
   namespace: Fantas

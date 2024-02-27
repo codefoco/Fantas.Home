@@ -20,7 +20,7 @@ items:
   fullName: Fantas.RectangleNode
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -162,7 +162,7 @@ items:
   fullName: Fantas.RectangleNode.RectangleNode(System.Drawing.SizeF)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -191,7 +191,7 @@ items:
   fullName: Fantas.RectangleNode.RectangleNode(System.Drawing.SizeF, float)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -223,7 +223,7 @@ items:
   fullName: Fantas.RectangleNode.RectangleNode(Fantas.RectangleNode)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -252,7 +252,7 @@ items:
   fullName: Fantas.RectangleNode.Copy()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -278,7 +278,7 @@ items:
   fullName: Fantas.RectangleNode.Size
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -303,7 +303,7 @@ items:
   fullName: Fantas.RectangleNode.Width
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -328,7 +328,7 @@ items:
   fullName: Fantas.RectangleNode.Height
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas

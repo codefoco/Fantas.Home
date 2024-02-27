@@ -1,0 +1,893 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.TileAdjacencyMask
+  commentId: T:Fantas.TileAdjacencyMask
+  id: TileAdjacencyMask
+  parent: Fantas
+  children:
+  - Fantas.TileAdjacencyMask.All
+  - Fantas.TileAdjacencyMask.Down
+  - Fantas.TileAdjacencyMask.DownEdge
+  - Fantas.TileAdjacencyMask.HexFlatAll
+  - Fantas.TileAdjacencyMask.HexFlatDown
+  - Fantas.TileAdjacencyMask.HexFlatLowerLeft
+  - Fantas.TileAdjacencyMask.HexFlatLowerRight
+  - Fantas.TileAdjacencyMask.HexFlatUp
+  - Fantas.TileAdjacencyMask.HexFlatUpperLeft
+  - Fantas.TileAdjacencyMask.HexFlatUpperRight
+  - Fantas.TileAdjacencyMask.HexPointyAll
+  - Fantas.TileAdjacencyMask.HexPointyLeft
+  - Fantas.TileAdjacencyMask.HexPointyLowerLeft
+  - Fantas.TileAdjacencyMask.HexPointyLowerRight
+  - Fantas.TileAdjacencyMask.HexPointyRight
+  - Fantas.TileAdjacencyMask.HexPointyUpperLeft
+  - Fantas.TileAdjacencyMask.HexPointyUpperRight
+  - Fantas.TileAdjacencyMask.Left
+  - Fantas.TileAdjacencyMask.LeftEdge
+  - Fantas.TileAdjacencyMask.LowerLeft
+  - Fantas.TileAdjacencyMask.LowerLeftCorner
+  - Fantas.TileAdjacencyMask.LowerLeftEdge
+  - Fantas.TileAdjacencyMask.LowerRight
+  - Fantas.TileAdjacencyMask.LowerRightCorner
+  - Fantas.TileAdjacencyMask.LowerRightEdge
+  - Fantas.TileAdjacencyMask.None
+  - Fantas.TileAdjacencyMask.Right
+  - Fantas.TileAdjacencyMask.RightEdge
+  - Fantas.TileAdjacencyMask.Up
+  - Fantas.TileAdjacencyMask.UpEdge
+  - Fantas.TileAdjacencyMask.UpperLeft
+  - Fantas.TileAdjacencyMask.UpperLeftCorner
+  - Fantas.TileAdjacencyMask.UpperLeftEdge
+  - Fantas.TileAdjacencyMask.UpperRight
+  - Fantas.TileAdjacencyMask.UpperRightCorner
+  - Fantas.TileAdjacencyMask.UpperRightEdge
+  langs:
+  - csharp
+  - vb
+  name: TileAdjacencyMask
+  nameWithType: TileAdjacencyMask
+  fullName: Fantas.TileAdjacencyMask
+  type: Enum
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Tile Adjacency Mask
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum TileAdjacencyMask
+    content.vb: >-
+      <Flags>
+
+      Public Enum TileAdjacencyMask
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Fantas.TileAdjacencyMask.None
+  commentId: F:Fantas.TileAdjacencyMask.None
+  id: None
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: TileAdjacencyMask.None
+  fullName: Fantas.TileAdjacencyMask.None
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: None
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: Fantas.TileAdjacencyMask
+- uid: Fantas.TileAdjacencyMask.HexFlatUp
+  commentId: F:Fantas.TileAdjacencyMask.HexFlatUp
+  id: HexFlatUp
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: HexFlatUp
+  nameWithType: TileAdjacencyMask.HexFlatUp
+  fullName: Fantas.TileAdjacencyMask.HexFlatUp
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: HexFlatUp
+  example: []
+  syntax:
+    content: HexFlatUp = 1
+    return:
+      type: Fantas.TileAdjacencyMask
+- uid: Fantas.TileAdjacencyMask.HexPointyUpperLeft
+  commentId: F:Fantas.TileAdjacencyMask.HexPointyUpperLeft
+  id: HexPointyUpperLeft
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: HexPointyUpperLeft
+  nameWithType: TileAdjacencyMask.HexPointyUpperLeft
+  fullName: Fantas.TileAdjacencyMask.HexPointyUpperLeft
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: HexPointyUpperLeft
+  example: []
+  syntax:
+    content: HexPointyUpperLeft = 1
+    return:
+      type: Fantas.TileAdjacencyMask
+- uid: Fantas.TileAdjacencyMask.Up
+  commentId: F:Fantas.TileAdjacencyMask.Up
+  id: Up
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: Up
+  nameWithType: TileAdjacencyMask.Up
+  fullName: Fantas.TileAdjacencyMask.Up
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Up
+  example: []
+  syntax:
+    content: Up = 1
+    return:
+      type: Fantas.TileAdjacencyMask
+- uid: Fantas.TileAdjacencyMask.HexFlatUpperRight
+  commentId: F:Fantas.TileAdjacencyMask.HexFlatUpperRight
+  id: HexFlatUpperRight
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: HexFlatUpperRight
+  nameWithType: TileAdjacencyMask.HexFlatUpperRight
+  fullName: Fantas.TileAdjacencyMask.HexFlatUpperRight
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: HexFlatUpperRight
+  example: []
+  syntax:
+    content: HexFlatUpperRight = 2
+    return:
+      type: Fantas.TileAdjacencyMask
+- uid: Fantas.TileAdjacencyMask.HexPointyUpperRight
+  commentId: F:Fantas.TileAdjacencyMask.HexPointyUpperRight
+  id: HexPointyUpperRight
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: HexPointyUpperRight
+  nameWithType: TileAdjacencyMask.HexPointyUpperRight
+  fullName: Fantas.TileAdjacencyMask.HexPointyUpperRight
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: HexPointyUpperRight
+  example: []
+  syntax:
+    content: HexPointyUpperRight = 2
+    return:
+      type: Fantas.TileAdjacencyMask
+- uid: Fantas.TileAdjacencyMask.UpperRight
+  commentId: F:Fantas.TileAdjacencyMask.UpperRight
+  id: UpperRight
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: UpperRight
+  nameWithType: TileAdjacencyMask.UpperRight
+  fullName: Fantas.TileAdjacencyMask.UpperRight
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: UpperRight
+  example: []
+  syntax:
+    content: UpperRight = 2
+    return:
+      type: Fantas.TileAdjacencyMask
+- uid: Fantas.TileAdjacencyMask.HexFlatLowerRight
+  commentId: F:Fantas.TileAdjacencyMask.HexFlatLowerRight
+  id: HexFlatLowerRight
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: HexFlatLowerRight
+  nameWithType: TileAdjacencyMask.HexFlatLowerRight
+  fullName: Fantas.TileAdjacencyMask.HexFlatLowerRight
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: HexFlatLowerRight
+  example: []
+  syntax:
+    content: HexFlatLowerRight = 4
+    return:
+      type: Fantas.TileAdjacencyMask
+- uid: Fantas.TileAdjacencyMask.HexPointyRight
+  commentId: F:Fantas.TileAdjacencyMask.HexPointyRight
+  id: HexPointyRight
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: HexPointyRight
+  nameWithType: TileAdjacencyMask.HexPointyRight
+  fullName: Fantas.TileAdjacencyMask.HexPointyRight
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: HexPointyRight
+  example: []
+  syntax:
+    content: HexPointyRight = 4
+    return:
+      type: Fantas.TileAdjacencyMask
+- uid: Fantas.TileAdjacencyMask.Right
+  commentId: F:Fantas.TileAdjacencyMask.Right
+  id: Right
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: TileAdjacencyMask.Right
+  fullName: Fantas.TileAdjacencyMask.Right
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Right
+  example: []
+  syntax:
+    content: Right = 4
+    return:
+      type: Fantas.TileAdjacencyMask
+- uid: Fantas.TileAdjacencyMask.LowerLeftEdge
+  commentId: F:Fantas.TileAdjacencyMask.LowerLeftEdge
+  id: LowerLeftEdge
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: LowerLeftEdge
+  nameWithType: TileAdjacencyMask.LowerLeftEdge
+  fullName: Fantas.TileAdjacencyMask.LowerLeftEdge
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: LowerLeftEdge
+  example: []
+  syntax:
+    content: LowerLeftEdge = HexFlatUp | HexFlatUpperRight | HexFlatLowerRight
+    return:
+      type: Fantas.TileAdjacencyMask
+    content.vb: LowerLeftEdge = HexFlatUp Or HexFlatUpperRight Or HexFlatLowerRight
+- uid: Fantas.TileAdjacencyMask.HexFlatDown
+  commentId: F:Fantas.TileAdjacencyMask.HexFlatDown
+  id: HexFlatDown
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: HexFlatDown
+  nameWithType: TileAdjacencyMask.HexFlatDown
+  fullName: Fantas.TileAdjacencyMask.HexFlatDown
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: HexFlatDown
+  example: []
+  syntax:
+    content: HexFlatDown = 8
+    return:
+      type: Fantas.TileAdjacencyMask
+- uid: Fantas.TileAdjacencyMask.HexPointyLowerRight
+  commentId: F:Fantas.TileAdjacencyMask.HexPointyLowerRight
+  id: HexPointyLowerRight
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: HexPointyLowerRight
+  nameWithType: TileAdjacencyMask.HexPointyLowerRight
+  fullName: Fantas.TileAdjacencyMask.HexPointyLowerRight
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: HexPointyLowerRight
+  example: []
+  syntax:
+    content: HexPointyLowerRight = 8
+    return:
+      type: Fantas.TileAdjacencyMask
+- uid: Fantas.TileAdjacencyMask.LowerRight
+  commentId: F:Fantas.TileAdjacencyMask.LowerRight
+  id: LowerRight
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: LowerRight
+  nameWithType: TileAdjacencyMask.LowerRight
+  fullName: Fantas.TileAdjacencyMask.LowerRight
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: LowerRight
+  example: []
+  syntax:
+    content: LowerRight = 8
+    return:
+      type: Fantas.TileAdjacencyMask
+- uid: Fantas.TileAdjacencyMask.Down
+  commentId: F:Fantas.TileAdjacencyMask.Down
+  id: Down
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: Down
+  nameWithType: TileAdjacencyMask.Down
+  fullName: Fantas.TileAdjacencyMask.Down
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Down
+  example: []
+  syntax:
+    content: Down = 16
+    return:
+      type: Fantas.TileAdjacencyMask
+- uid: Fantas.TileAdjacencyMask.HexFlatLowerLeft
+  commentId: F:Fantas.TileAdjacencyMask.HexFlatLowerLeft
+  id: HexFlatLowerLeft
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: HexFlatLowerLeft
+  nameWithType: TileAdjacencyMask.HexFlatLowerLeft
+  fullName: Fantas.TileAdjacencyMask.HexFlatLowerLeft
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: HexFlatLowerLeft
+  example: []
+  syntax:
+    content: HexFlatLowerLeft = 16
+    return:
+      type: Fantas.TileAdjacencyMask
+- uid: Fantas.TileAdjacencyMask.HexPointyLowerLeft
+  commentId: F:Fantas.TileAdjacencyMask.HexPointyLowerLeft
+  id: HexPointyLowerLeft
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: HexPointyLowerLeft
+  nameWithType: TileAdjacencyMask.HexPointyLowerLeft
+  fullName: Fantas.TileAdjacencyMask.HexPointyLowerLeft
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: HexPointyLowerLeft
+  example: []
+  syntax:
+    content: HexPointyLowerLeft = 16
+    return:
+      type: Fantas.TileAdjacencyMask
+- uid: Fantas.TileAdjacencyMask.UpperLeftEdge
+  commentId: F:Fantas.TileAdjacencyMask.UpperLeftEdge
+  id: UpperLeftEdge
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: UpperLeftEdge
+  nameWithType: TileAdjacencyMask.UpperLeftEdge
+  fullName: Fantas.TileAdjacencyMask.UpperLeftEdge
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: UpperLeftEdge
+  example: []
+  syntax:
+    content: UpperLeftEdge = HexFlatLowerRight | HexFlatDown | Down
+    return:
+      type: Fantas.TileAdjacencyMask
+    content.vb: UpperLeftEdge = HexFlatLowerRight Or HexFlatDown Or Down
+- uid: Fantas.TileAdjacencyMask.LeftEdge
+  commentId: F:Fantas.TileAdjacencyMask.LeftEdge
+  id: LeftEdge
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: LeftEdge
+  nameWithType: TileAdjacencyMask.LeftEdge
+  fullName: Fantas.TileAdjacencyMask.LeftEdge
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: LeftEdge
+  example: []
+  syntax:
+    content: LeftEdge = HexFlatUp | HexFlatUpperRight | UpperLeftEdge
+    return:
+      type: Fantas.TileAdjacencyMask
+    content.vb: LeftEdge = HexFlatUp Or HexFlatUpperRight Or UpperLeftEdge
+- uid: Fantas.TileAdjacencyMask.HexFlatUpperLeft
+  commentId: F:Fantas.TileAdjacencyMask.HexFlatUpperLeft
+  id: HexFlatUpperLeft
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: HexFlatUpperLeft
+  nameWithType: TileAdjacencyMask.HexFlatUpperLeft
+  fullName: Fantas.TileAdjacencyMask.HexFlatUpperLeft
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: HexFlatUpperLeft
+  example: []
+  syntax:
+    content: HexFlatUpperLeft = 32
+    return:
+      type: Fantas.TileAdjacencyMask
+- uid: Fantas.TileAdjacencyMask.HexPointyLeft
+  commentId: F:Fantas.TileAdjacencyMask.HexPointyLeft
+  id: HexPointyLeft
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: HexPointyLeft
+  nameWithType: TileAdjacencyMask.HexPointyLeft
+  fullName: Fantas.TileAdjacencyMask.HexPointyLeft
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: HexPointyLeft
+  example: []
+  syntax:
+    content: HexPointyLeft = 32
+    return:
+      type: Fantas.TileAdjacencyMask
+- uid: Fantas.TileAdjacencyMask.LowerLeft
+  commentId: F:Fantas.TileAdjacencyMask.LowerLeft
+  id: LowerLeft
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: LowerLeft
+  nameWithType: TileAdjacencyMask.LowerLeft
+  fullName: Fantas.TileAdjacencyMask.LowerLeft
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: LowerLeft
+  example: []
+  syntax:
+    content: LowerLeft = 32
+    return:
+      type: Fantas.TileAdjacencyMask
+- uid: Fantas.TileAdjacencyMask.HexFlatAll
+  commentId: F:Fantas.TileAdjacencyMask.HexFlatAll
+  id: HexFlatAll
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: HexFlatAll
+  nameWithType: TileAdjacencyMask.HexFlatAll
+  fullName: Fantas.TileAdjacencyMask.HexFlatAll
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: HexFlatAll
+  example: []
+  syntax:
+    content: HexFlatAll = LeftEdge | HexFlatUpperLeft
+    return:
+      type: Fantas.TileAdjacencyMask
+    content.vb: HexFlatAll = LeftEdge Or HexFlatUpperLeft
+- uid: Fantas.TileAdjacencyMask.HexPointyAll
+  commentId: F:Fantas.TileAdjacencyMask.HexPointyAll
+  id: HexPointyAll
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: HexPointyAll
+  nameWithType: TileAdjacencyMask.HexPointyAll
+  fullName: Fantas.TileAdjacencyMask.HexPointyAll
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: HexPointyAll
+  example: []
+  syntax:
+    content: HexPointyAll = LeftEdge | HexFlatUpperLeft
+    return:
+      type: Fantas.TileAdjacencyMask
+    content.vb: HexPointyAll = LeftEdge Or HexFlatUpperLeft
+- uid: Fantas.TileAdjacencyMask.Left
+  commentId: F:Fantas.TileAdjacencyMask.Left
+  id: Left
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: TileAdjacencyMask.Left
+  fullName: Fantas.TileAdjacencyMask.Left
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Left
+  example: []
+  syntax:
+    content: Left = 64
+    return:
+      type: Fantas.TileAdjacencyMask
+- uid: Fantas.TileAdjacencyMask.UpperRightEdge
+  commentId: F:Fantas.TileAdjacencyMask.UpperRightEdge
+  id: UpperRightEdge
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: UpperRightEdge
+  nameWithType: TileAdjacencyMask.UpperRightEdge
+  fullName: Fantas.TileAdjacencyMask.UpperRightEdge
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: UpperRightEdge
+  example: []
+  syntax:
+    content: UpperRightEdge = Down | HexFlatUpperLeft | Left
+    return:
+      type: Fantas.TileAdjacencyMask
+    content.vb: UpperRightEdge = Down Or HexFlatUpperLeft Or Left
+- uid: Fantas.TileAdjacencyMask.UpEdge
+  commentId: F:Fantas.TileAdjacencyMask.UpEdge
+  id: UpEdge
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: UpEdge
+  nameWithType: TileAdjacencyMask.UpEdge
+  fullName: Fantas.TileAdjacencyMask.UpEdge
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: UpEdge
+  example: []
+  syntax:
+    content: UpEdge = HexFlatLowerRight | HexFlatDown | UpperRightEdge
+    return:
+      type: Fantas.TileAdjacencyMask
+    content.vb: UpEdge = HexFlatLowerRight Or HexFlatDown Or UpperRightEdge
+- uid: Fantas.TileAdjacencyMask.LowerRightCorner
+  commentId: F:Fantas.TileAdjacencyMask.LowerRightCorner
+  id: LowerRightCorner
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: LowerRightCorner
+  nameWithType: TileAdjacencyMask.LowerRightCorner
+  fullName: Fantas.TileAdjacencyMask.LowerRightCorner
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: LowerRightCorner
+  example: []
+  syntax:
+    content: LowerRightCorner = HexFlatUp | HexFlatUpperRight | UpEdge
+    return:
+      type: Fantas.TileAdjacencyMask
+    content.vb: LowerRightCorner = HexFlatUp Or HexFlatUpperRight Or UpEdge
+- uid: Fantas.TileAdjacencyMask.UpperLeft
+  commentId: F:Fantas.TileAdjacencyMask.UpperLeft
+  id: UpperLeft
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: UpperLeft
+  nameWithType: TileAdjacencyMask.UpperLeft
+  fullName: Fantas.TileAdjacencyMask.UpperLeft
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: UpperLeft
+  example: []
+  syntax:
+    content: UpperLeft = 128
+    return:
+      type: Fantas.TileAdjacencyMask
+- uid: Fantas.TileAdjacencyMask.LowerRightEdge
+  commentId: F:Fantas.TileAdjacencyMask.LowerRightEdge
+  id: LowerRightEdge
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: LowerRightEdge
+  nameWithType: TileAdjacencyMask.LowerRightEdge
+  fullName: Fantas.TileAdjacencyMask.LowerRightEdge
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: LowerRightEdge
+  example: []
+  syntax:
+    content: LowerRightEdge = HexFlatUp | Left | UpperLeft
+    return:
+      type: Fantas.TileAdjacencyMask
+    content.vb: LowerRightEdge = HexFlatUp Or Left Or UpperLeft
+- uid: Fantas.TileAdjacencyMask.DownEdge
+  commentId: F:Fantas.TileAdjacencyMask.DownEdge
+  id: DownEdge
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: DownEdge
+  nameWithType: TileAdjacencyMask.DownEdge
+  fullName: Fantas.TileAdjacencyMask.DownEdge
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: DownEdge
+  example: []
+  syntax:
+    content: DownEdge = HexFlatUpperRight | HexFlatLowerRight | LowerRightEdge
+    return:
+      type: Fantas.TileAdjacencyMask
+    content.vb: DownEdge = HexFlatUpperRight Or HexFlatLowerRight Or LowerRightEdge
+- uid: Fantas.TileAdjacencyMask.UpperRightCorner
+  commentId: F:Fantas.TileAdjacencyMask.UpperRightCorner
+  id: UpperRightCorner
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: UpperRightCorner
+  nameWithType: TileAdjacencyMask.UpperRightCorner
+  fullName: Fantas.TileAdjacencyMask.UpperRightCorner
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: UpperRightCorner
+  example: []
+  syntax:
+    content: UpperRightCorner = HexFlatDown | Down | DownEdge
+    return:
+      type: Fantas.TileAdjacencyMask
+    content.vb: UpperRightCorner = HexFlatDown Or Down Or DownEdge
+- uid: Fantas.TileAdjacencyMask.RightEdge
+  commentId: F:Fantas.TileAdjacencyMask.RightEdge
+  id: RightEdge
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: RightEdge
+  nameWithType: TileAdjacencyMask.RightEdge
+  fullName: Fantas.TileAdjacencyMask.RightEdge
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: RightEdge
+  example: []
+  syntax:
+    content: RightEdge = Down | HexFlatUpperLeft | LowerRightEdge
+    return:
+      type: Fantas.TileAdjacencyMask
+    content.vb: RightEdge = Down Or HexFlatUpperLeft Or LowerRightEdge
+- uid: Fantas.TileAdjacencyMask.UpperLeftCorner
+  commentId: F:Fantas.TileAdjacencyMask.UpperLeftCorner
+  id: UpperLeftCorner
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: UpperLeftCorner
+  nameWithType: TileAdjacencyMask.UpperLeftCorner
+  fullName: Fantas.TileAdjacencyMask.UpperLeftCorner
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: UpperLeftCorner
+  example: []
+  syntax:
+    content: UpperLeftCorner = HexFlatUpperRight | HexFlatLowerRight | RightEdge
+    return:
+      type: Fantas.TileAdjacencyMask
+    content.vb: UpperLeftCorner = HexFlatUpperRight Or HexFlatLowerRight Or RightEdge
+- uid: Fantas.TileAdjacencyMask.LowerLeftCorner
+  commentId: F:Fantas.TileAdjacencyMask.LowerLeftCorner
+  id: LowerLeftCorner
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: LowerLeftCorner
+  nameWithType: TileAdjacencyMask.LowerLeftCorner
+  fullName: Fantas.TileAdjacencyMask.LowerLeftCorner
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: LowerLeftCorner
+  example: []
+  syntax:
+    content: LowerLeftCorner = HexFlatLowerRight | HexFlatDown | RightEdge
+    return:
+      type: Fantas.TileAdjacencyMask
+    content.vb: LowerLeftCorner = HexFlatLowerRight Or HexFlatDown Or RightEdge
+- uid: Fantas.TileAdjacencyMask.All
+  commentId: F:Fantas.TileAdjacencyMask.All
+  id: All
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: TileAdjacencyMask.All
+  fullName: Fantas.TileAdjacencyMask.All
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: All
+  example: []
+  syntax:
+    content: All = HexFlatUpperRight | LowerLeftCorner
+    return:
+      type: Fantas.TileAdjacencyMask
+    content.vb: All = HexFlatUpperRight Or LowerLeftCorner
+references:
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: Fantas.TileAdjacencyMask
+  commentId: T:Fantas.TileAdjacencyMask
+  parent: Fantas
+  isExternal: true
+  href: Fantas.TileAdjacencyMask.html
+  name: TileAdjacencyMask
+  nameWithType: TileAdjacencyMask
+  fullName: Fantas.TileAdjacencyMask

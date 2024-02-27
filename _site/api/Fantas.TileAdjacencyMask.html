@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Enum TileAdjacencyMask | Fantas </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Enum TileAdjacencyMask | Fantas ">
+      
+      <meta name="description" content="Tile Adjacency Mask">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="Fantas">
+            Fantas
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Fantas.TileAdjacencyMask">
+
+
+
+
+  <h1 id="Fantas_TileAdjacencyMask" data-uid="Fantas.TileAdjacencyMask" class="text-break">
+Enum TileAdjacencyMask  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Fantas.html">Fantas</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Fantas.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Tile Adjacency Mask</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Flags]
+public enum TileAdjacencyMask</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h2 id="fields">Fields
+</h2>
+  <dl class="parameters">
+    <dt id="Fantas_TileAdjacencyMask_All"><code>All = HexFlatUpperRight | LowerLeftCorner</code></dt>
+    <dd><p>All</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_Down"><code>Down = 16</code></dt>
+    <dd><p>Down</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_DownEdge"><code>DownEdge = HexFlatUpperRight | HexFlatLowerRight | LowerRightEdge</code></dt>
+    <dd><p>DownEdge</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_HexFlatAll"><code>HexFlatAll = LeftEdge | HexFlatUpperLeft</code></dt>
+    <dd><p>HexFlatAll</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_HexFlatDown"><code>HexFlatDown = 8</code></dt>
+    <dd><p>HexFlatDown</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_HexFlatLowerLeft"><code>HexFlatLowerLeft = 16</code></dt>
+    <dd><p>HexFlatLowerLeft</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_HexFlatLowerRight"><code>HexFlatLowerRight = 4</code></dt>
+    <dd><p>HexFlatLowerRight</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_HexFlatUp"><code>HexFlatUp = 1</code></dt>
+    <dd><p>HexFlatUp</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_HexFlatUpperLeft"><code>HexFlatUpperLeft = 32</code></dt>
+    <dd><p>HexFlatUpperLeft</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_HexFlatUpperRight"><code>HexFlatUpperRight = 2</code></dt>
+    <dd><p>HexFlatUpperRight</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_HexPointyAll"><code>HexPointyAll = LeftEdge | HexFlatUpperLeft</code></dt>
+    <dd><p>HexPointyAll</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_HexPointyLeft"><code>HexPointyLeft = 32</code></dt>
+    <dd><p>HexPointyLeft</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_HexPointyLowerLeft"><code>HexPointyLowerLeft = 16</code></dt>
+    <dd><p>HexPointyLowerLeft</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_HexPointyLowerRight"><code>HexPointyLowerRight = 8</code></dt>
+    <dd><p>HexPointyLowerRight</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_HexPointyRight"><code>HexPointyRight = 4</code></dt>
+    <dd><p>HexPointyRight</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_HexPointyUpperLeft"><code>HexPointyUpperLeft = 1</code></dt>
+    <dd><p>HexPointyUpperLeft</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_HexPointyUpperRight"><code>HexPointyUpperRight = 2</code></dt>
+    <dd><p>HexPointyUpperRight</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_Left"><code>Left = 64</code></dt>
+    <dd><p>Left</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_LeftEdge"><code>LeftEdge = HexFlatUp | HexFlatUpperRight | UpperLeftEdge</code></dt>
+    <dd><p>LeftEdge</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_LowerLeft"><code>LowerLeft = 32</code></dt>
+    <dd><p>LowerLeft</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_LowerLeftCorner"><code>LowerLeftCorner = HexFlatLowerRight | HexFlatDown | RightEdge</code></dt>
+    <dd><p>LowerLeftCorner</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_LowerLeftEdge"><code>LowerLeftEdge = HexFlatUp | HexFlatUpperRight | HexFlatLowerRight</code></dt>
+    <dd><p>LowerLeftEdge</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_LowerRight"><code>LowerRight = 8</code></dt>
+    <dd><p>LowerRight</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_LowerRightCorner"><code>LowerRightCorner = HexFlatUp | HexFlatUpperRight | UpEdge</code></dt>
+    <dd><p>LowerRightCorner</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_LowerRightEdge"><code>LowerRightEdge = HexFlatUp | Left | UpperLeft</code></dt>
+    <dd><p>LowerRightEdge</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_None"><code>None = 0</code></dt>
+    <dd><p>None</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_Right"><code>Right = 4</code></dt>
+    <dd><p>Right</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_RightEdge"><code>RightEdge = Down | HexFlatUpperLeft | LowerRightEdge</code></dt>
+    <dd><p>RightEdge</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_Up"><code>Up = 1</code></dt>
+    <dd><p>Up</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_UpEdge"><code>UpEdge = HexFlatLowerRight | HexFlatDown | UpperRightEdge</code></dt>
+    <dd><p>UpEdge</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_UpperLeft"><code>UpperLeft = 128</code></dt>
+    <dd><p>UpperLeft</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_UpperLeftCorner"><code>UpperLeftCorner = HexFlatUpperRight | HexFlatLowerRight | RightEdge</code></dt>
+    <dd><p>UpperLeftCorner</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_UpperLeftEdge"><code>UpperLeftEdge = HexFlatLowerRight | HexFlatDown | Down</code></dt>
+    <dd><p>UpperLeftEdge</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_UpperRight"><code>UpperRight = 2</code></dt>
+    <dd><p>UpperRight</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_UpperRightCorner"><code>UpperRightCorner = HexFlatDown | Down | DownEdge</code></dt>
+    <dd><p>UpperRightCorner</p>
+</dd>
+    <dt id="Fantas_TileAdjacencyMask_UpperRightEdge"><code>UpperRightEdge = Down | HexFlatUpperLeft | Left</code></dt>
+    <dd><p>UpperRightEdge</p>
+</dd>
+  </dl>
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileAdjacencyMask.cs" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

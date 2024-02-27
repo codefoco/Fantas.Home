@@ -17,7 +17,7 @@ items:
   fullName: Fantas.AnimationTimingFunction
   type: Delegate
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation/AnimationTimingFunction.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation/AnimationTimingFunction.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -45,7 +45,7 @@ items:
   fullName: Fantas.AnimationTimingFunction.AnimationTimingFunction(object, nint)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation/AnimationTimingFunction.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation/AnimationTimingFunction.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -73,7 +73,7 @@ items:
   fullName: Fantas.AnimationTimingFunction.Invoke(float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation/AnimationTimingFunction.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation/AnimationTimingFunction.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -101,7 +101,7 @@ items:
   fullName: Fantas.AnimationTimingFunction.BeginInvoke(float, System.AsyncCallback, object)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation/AnimationTimingFunction.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation/AnimationTimingFunction.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -133,7 +133,7 @@ items:
   fullName: Fantas.AnimationTimingFunction.EndInvoke(System.IAsyncResult)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation/AnimationTimingFunction.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation/AnimationTimingFunction.cs
   assemblies:
   - Fantas
   namespace: Fantas

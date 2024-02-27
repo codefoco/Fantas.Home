@@ -17,7 +17,7 @@ items:
   fullName: Fantas.PolygonNode
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/ShapeNodes/PolygonNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/ShapeNodes/PolygonNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -160,7 +160,7 @@ items:
   fullName: Fantas.PolygonNode.PolygonNode(System.Drawing.PointF[])
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/ShapeNodes/PolygonNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/ShapeNodes/PolygonNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -189,7 +189,7 @@ items:
   fullName: Fantas.PolygonNode.PolygonNode(Fantas.PolygonNode)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/ShapeNodes/PolygonNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/ShapeNodes/PolygonNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -218,7 +218,7 @@ items:
   fullName: Fantas.PolygonNode.Copy()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/ShapeNodes/PolygonNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/ShapeNodes/PolygonNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -244,7 +244,7 @@ items:
   fullName: Fantas.PolygonNode.Points
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/ShapeNodes/PolygonNode.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/ShapeNodes/PolygonNode.cs
   assemblies:
   - Fantas
   namespace: Fantas

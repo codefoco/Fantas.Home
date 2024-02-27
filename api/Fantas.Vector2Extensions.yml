@@ -7,7 +7,8 @@ items:
   children:
   - Fantas.Vector2Extensions.FromRotation(System.Double,System.Single)
   - Fantas.Vector2Extensions.Perpendicular(System.Numerics.Vector2)
-  - Fantas.Vector2Extensions.RotateBy(System.Numerics.Vector2,System.Double)
+  - Fantas.Vector2Extensions.Rotate(System.Numerics.Vector2,System.Double)
+  - Fantas.Vector2Extensions.RotateAround(System.Numerics.Vector2,System.Numerics.Vector2,System.Double)
   - Fantas.Vector2Extensions.RotateTo(System.Numerics.Vector2,System.Double)
   - Fantas.Vector2Extensions.Rotation(System.Numerics.Vector2)
   - Fantas.Vector2Extensions.ToPointF(System.Numerics.Vector2)
@@ -19,7 +20,7 @@ items:
   fullName: Fantas.Vector2Extensions
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/Vector2Extensions.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/Vector2Extensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -51,7 +52,7 @@ items:
   fullName: Fantas.Vector2Extensions.Rotation(System.Numerics.Vector2)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/Vector2Extensions.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/Vector2Extensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -81,7 +82,7 @@ items:
   fullName: Fantas.Vector2Extensions.Perpendicular(System.Numerics.Vector2)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/Vector2Extensions.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/Vector2Extensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -98,42 +99,6 @@ items:
       description: ''
     content.vb: Public Shared Function Perpendicular(vector As Vector2) As Vector2
   overload: Fantas.Vector2Extensions.Perpendicular*
-- uid: Fantas.Vector2Extensions.RotateBy(System.Numerics.Vector2,System.Double)
-  commentId: M:Fantas.Vector2Extensions.RotateBy(System.Numerics.Vector2,System.Double)
-  id: RotateBy(System.Numerics.Vector2,System.Double)
-  isExtensionMethod: true
-  parent: Fantas.Vector2Extensions
-  langs:
-  - csharp
-  - vb
-  name: RotateBy(Vector2, double)
-  nameWithType: Vector2Extensions.RotateBy(Vector2, double)
-  fullName: Fantas.Vector2Extensions.RotateBy(System.Numerics.Vector2, double)
-  type: Method
-  source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/Vector2Extensions.cs
-  assemblies:
-  - Fantas
-  namespace: Fantas
-  summary: Rotate vector by an angle
-  example: []
-  syntax:
-    content: public static Vector2 RotateBy(this Vector2 vector, double angle)
-    parameters:
-    - id: vector
-      type: System.Numerics.Vector2
-      description: ''
-    - id: angle
-      type: System.Double
-      description: Angle radians to rotate
-    return:
-      type: System.Numerics.Vector2
-      description: ''
-    content.vb: Public Shared Function RotateBy(vector As Vector2, angle As Double) As Vector2
-  overload: Fantas.Vector2Extensions.RotateBy*
-  nameWithType.vb: Vector2Extensions.RotateBy(Vector2, Double)
-  fullName.vb: Fantas.Vector2Extensions.RotateBy(System.Numerics.Vector2, Double)
-  name.vb: RotateBy(Vector2, Double)
 - uid: Fantas.Vector2Extensions.RotateTo(System.Numerics.Vector2,System.Double)
   commentId: M:Fantas.Vector2Extensions.RotateTo(System.Numerics.Vector2,System.Double)
   id: RotateTo(System.Numerics.Vector2,System.Double)
@@ -147,11 +112,11 @@ items:
   fullName: Fantas.Vector2Extensions.RotateTo(System.Numerics.Vector2, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/Vector2Extensions.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/Vector2Extensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
-  summary: Rotate vector to an angle
+  summary: Rotate vector by an angle
   example: []
   syntax:
     content: public static Vector2 RotateTo(this Vector2 vector, double angle)
@@ -161,7 +126,7 @@ items:
       description: ''
     - id: angle
       type: System.Double
-      description: New rotation angle of vector
+      description: Angle radians to rotate
     return:
       type: System.Numerics.Vector2
       description: ''
@@ -170,6 +135,80 @@ items:
   nameWithType.vb: Vector2Extensions.RotateTo(Vector2, Double)
   fullName.vb: Fantas.Vector2Extensions.RotateTo(System.Numerics.Vector2, Double)
   name.vb: RotateTo(Vector2, Double)
+- uid: Fantas.Vector2Extensions.Rotate(System.Numerics.Vector2,System.Double)
+  commentId: M:Fantas.Vector2Extensions.Rotate(System.Numerics.Vector2,System.Double)
+  id: Rotate(System.Numerics.Vector2,System.Double)
+  isExtensionMethod: true
+  parent: Fantas.Vector2Extensions
+  langs:
+  - csharp
+  - vb
+  name: Rotate(Vector2, double)
+  nameWithType: Vector2Extensions.Rotate(Vector2, double)
+  fullName: Fantas.Vector2Extensions.Rotate(System.Numerics.Vector2, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/Vector2Extensions.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Rotate vector to an angle
+  example: []
+  syntax:
+    content: public static Vector2 Rotate(this Vector2 vector, double angle)
+    parameters:
+    - id: vector
+      type: System.Numerics.Vector2
+      description: ''
+    - id: angle
+      type: System.Double
+      description: New rotation angle of vector
+    return:
+      type: System.Numerics.Vector2
+      description: new vector with the new angle
+    content.vb: Public Shared Function Rotate(vector As Vector2, angle As Double) As Vector2
+  overload: Fantas.Vector2Extensions.Rotate*
+  nameWithType.vb: Vector2Extensions.Rotate(Vector2, Double)
+  fullName.vb: Fantas.Vector2Extensions.Rotate(System.Numerics.Vector2, Double)
+  name.vb: Rotate(Vector2, Double)
+- uid: Fantas.Vector2Extensions.RotateAround(System.Numerics.Vector2,System.Numerics.Vector2,System.Double)
+  commentId: M:Fantas.Vector2Extensions.RotateAround(System.Numerics.Vector2,System.Numerics.Vector2,System.Double)
+  id: RotateAround(System.Numerics.Vector2,System.Numerics.Vector2,System.Double)
+  isExtensionMethod: true
+  parent: Fantas.Vector2Extensions
+  langs:
+  - csharp
+  - vb
+  name: RotateAround(Vector2, Vector2, double)
+  nameWithType: Vector2Extensions.RotateAround(Vector2, Vector2, double)
+  fullName: Fantas.Vector2Extensions.RotateAround(System.Numerics.Vector2, System.Numerics.Vector2, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/Vector2Extensions.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Rotate around an origin point
+  example: []
+  syntax:
+    content: public static Vector2 RotateAround(this Vector2 vector, Vector2 origin, double angle)
+    parameters:
+    - id: vector
+      type: System.Numerics.Vector2
+      description: ''
+    - id: origin
+      type: System.Numerics.Vector2
+      description: ''
+    - id: angle
+      type: System.Double
+      description: ''
+    return:
+      type: System.Numerics.Vector2
+    content.vb: Public Shared Function RotateAround(vector As Vector2, origin As Vector2, angle As Double) As Vector2
+  overload: Fantas.Vector2Extensions.RotateAround*
+  nameWithType.vb: Vector2Extensions.RotateAround(Vector2, Vector2, Double)
+  fullName.vb: Fantas.Vector2Extensions.RotateAround(System.Numerics.Vector2, System.Numerics.Vector2, Double)
+  name.vb: RotateAround(Vector2, Vector2, Double)
 - uid: Fantas.Vector2Extensions.FromRotation(System.Double,System.Single)
   commentId: M:Fantas.Vector2Extensions.FromRotation(System.Double,System.Single)
   id: FromRotation(System.Double,System.Single)
@@ -182,7 +221,7 @@ items:
   fullName: Fantas.Vector2Extensions.FromRotation(double, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/Vector2Extensions.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/Vector2Extensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -218,7 +257,7 @@ items:
   fullName: Fantas.Vector2Extensions.ToPointF(System.Numerics.Vector2)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/Vector2Extensions.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/Vector2Extensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -540,13 +579,6 @@ references:
   name: Perpendicular
   nameWithType: Vector2Extensions.Perpendicular
   fullName: Fantas.Vector2Extensions.Perpendicular
-- uid: Fantas.Vector2Extensions.RotateBy*
-  commentId: Overload:Fantas.Vector2Extensions.RotateBy
-  isExternal: true
-  href: Fantas.Vector2Extensions.html#Fantas_Vector2Extensions_RotateBy_System_Numerics_Vector2_System_Double_
-  name: RotateBy
-  nameWithType: Vector2Extensions.RotateBy
-  fullName: Fantas.Vector2Extensions.RotateBy
 - uid: Fantas.Vector2Extensions.RotateTo*
   commentId: Overload:Fantas.Vector2Extensions.RotateTo
   isExternal: true
@@ -554,6 +586,20 @@ references:
   name: RotateTo
   nameWithType: Vector2Extensions.RotateTo
   fullName: Fantas.Vector2Extensions.RotateTo
+- uid: Fantas.Vector2Extensions.Rotate*
+  commentId: Overload:Fantas.Vector2Extensions.Rotate
+  isExternal: true
+  href: Fantas.Vector2Extensions.html#Fantas_Vector2Extensions_Rotate_System_Numerics_Vector2_System_Double_
+  name: Rotate
+  nameWithType: Vector2Extensions.Rotate
+  fullName: Fantas.Vector2Extensions.Rotate
+- uid: Fantas.Vector2Extensions.RotateAround*
+  commentId: Overload:Fantas.Vector2Extensions.RotateAround
+  isExternal: true
+  href: Fantas.Vector2Extensions.html#Fantas_Vector2Extensions_RotateAround_System_Numerics_Vector2_System_Numerics_Vector2_System_Double_
+  name: RotateAround
+  nameWithType: Vector2Extensions.RotateAround
+  fullName: Fantas.Vector2Extensions.RotateAround
 - uid: Fantas.Vector2Extensions.FromRotation*
   commentId: Overload:Fantas.Vector2Extensions.FromRotation
   isExternal: true

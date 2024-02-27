@@ -15,7 +15,7 @@ items:
   fullName: Fantas.Input.TouchEventArgs
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/TouchEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Touch/TouchEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -48,7 +48,7 @@ items:
   fullName: Fantas.Input.TouchEventArgs.TouchEventArgs(Fantas.Input.TouchInfo)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/TouchEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Touch/TouchEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -77,7 +77,7 @@ items:
   fullName: Fantas.Input.TouchEventArgs.TouchInfo
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Touch/TouchEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Touch/TouchEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input

@@ -18,7 +18,7 @@ items:
   fullName: Fantas.Time
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Time.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Time.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -49,7 +49,7 @@ items:
   fullName: Fantas.Time.TimePerFrame
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Time.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Time.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -75,7 +75,7 @@ items:
   fullName: Fantas.Time.CurrentFramesPerSecond
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Time.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Time.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -100,7 +100,7 @@ items:
   fullName: Fantas.Time.CurrentTime
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Time.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Time.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -125,7 +125,7 @@ items:
   fullName: Fantas.Time.DeltaTime
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Time.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Time.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -150,7 +150,7 @@ items:
   fullName: Fantas.Time.DeltaFactor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Time.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Time.cs
   assemblies:
   - Fantas
   namespace: Fantas

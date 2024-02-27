@@ -126,7 +126,7 @@ items:
   fullName: Fantas.Input.Keys
   type: Enum
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -147,7 +147,7 @@ items:
   fullName: Fantas.Input.Keys.None
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -169,7 +169,7 @@ items:
   fullName: Fantas.Input.Keys.Back
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -191,7 +191,7 @@ items:
   fullName: Fantas.Input.Keys.Tab
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -213,7 +213,7 @@ items:
   fullName: Fantas.Input.Keys.Enter
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -235,7 +235,7 @@ items:
   fullName: Fantas.Input.Keys.CapsLock
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -257,7 +257,7 @@ items:
   fullName: Fantas.Input.Keys.Escape
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -279,7 +279,7 @@ items:
   fullName: Fantas.Input.Keys.Space
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -301,7 +301,7 @@ items:
   fullName: Fantas.Input.Keys.PageUp
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -323,7 +323,7 @@ items:
   fullName: Fantas.Input.Keys.PageDown
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -345,7 +345,7 @@ items:
   fullName: Fantas.Input.Keys.End
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -367,7 +367,7 @@ items:
   fullName: Fantas.Input.Keys.Home
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -389,7 +389,7 @@ items:
   fullName: Fantas.Input.Keys.Left
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -411,7 +411,7 @@ items:
   fullName: Fantas.Input.Keys.Up
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -433,7 +433,7 @@ items:
   fullName: Fantas.Input.Keys.Right
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -455,7 +455,7 @@ items:
   fullName: Fantas.Input.Keys.Down
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -477,7 +477,7 @@ items:
   fullName: Fantas.Input.Keys.Select
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -499,7 +499,7 @@ items:
   fullName: Fantas.Input.Keys.Print
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -521,7 +521,7 @@ items:
   fullName: Fantas.Input.Keys.Execute
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -543,7 +543,7 @@ items:
   fullName: Fantas.Input.Keys.PrintScreen
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -565,7 +565,7 @@ items:
   fullName: Fantas.Input.Keys.Insert
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -587,7 +587,7 @@ items:
   fullName: Fantas.Input.Keys.Delete
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -609,7 +609,7 @@ items:
   fullName: Fantas.Input.Keys.Help
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -631,7 +631,7 @@ items:
   fullName: Fantas.Input.Keys.D0
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -653,7 +653,7 @@ items:
   fullName: Fantas.Input.Keys.D1
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -675,7 +675,7 @@ items:
   fullName: Fantas.Input.Keys.D2
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -697,7 +697,7 @@ items:
   fullName: Fantas.Input.Keys.D3
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -719,7 +719,7 @@ items:
   fullName: Fantas.Input.Keys.D4
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -741,7 +741,7 @@ items:
   fullName: Fantas.Input.Keys.D5
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -763,7 +763,7 @@ items:
   fullName: Fantas.Input.Keys.D6
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -785,7 +785,7 @@ items:
   fullName: Fantas.Input.Keys.D7
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -807,7 +807,7 @@ items:
   fullName: Fantas.Input.Keys.D8
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -829,7 +829,7 @@ items:
   fullName: Fantas.Input.Keys.D9
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -851,7 +851,7 @@ items:
   fullName: Fantas.Input.Keys.A
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -873,7 +873,7 @@ items:
   fullName: Fantas.Input.Keys.B
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -895,7 +895,7 @@ items:
   fullName: Fantas.Input.Keys.C
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -917,7 +917,7 @@ items:
   fullName: Fantas.Input.Keys.D
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -939,7 +939,7 @@ items:
   fullName: Fantas.Input.Keys.E
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -961,7 +961,7 @@ items:
   fullName: Fantas.Input.Keys.F
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -983,7 +983,7 @@ items:
   fullName: Fantas.Input.Keys.G
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1005,7 +1005,7 @@ items:
   fullName: Fantas.Input.Keys.H
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1027,7 +1027,7 @@ items:
   fullName: Fantas.Input.Keys.I
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1049,7 +1049,7 @@ items:
   fullName: Fantas.Input.Keys.J
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1071,7 +1071,7 @@ items:
   fullName: Fantas.Input.Keys.K
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1093,7 +1093,7 @@ items:
   fullName: Fantas.Input.Keys.L
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1115,7 +1115,7 @@ items:
   fullName: Fantas.Input.Keys.M
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1137,7 +1137,7 @@ items:
   fullName: Fantas.Input.Keys.N
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1159,7 +1159,7 @@ items:
   fullName: Fantas.Input.Keys.O
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1181,7 +1181,7 @@ items:
   fullName: Fantas.Input.Keys.P
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1203,7 +1203,7 @@ items:
   fullName: Fantas.Input.Keys.Q
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1225,7 +1225,7 @@ items:
   fullName: Fantas.Input.Keys.R
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1247,7 +1247,7 @@ items:
   fullName: Fantas.Input.Keys.S
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1269,7 +1269,7 @@ items:
   fullName: Fantas.Input.Keys.T
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1291,7 +1291,7 @@ items:
   fullName: Fantas.Input.Keys.U
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1313,7 +1313,7 @@ items:
   fullName: Fantas.Input.Keys.V
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1335,7 +1335,7 @@ items:
   fullName: Fantas.Input.Keys.W
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1357,7 +1357,7 @@ items:
   fullName: Fantas.Input.Keys.X
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1379,7 +1379,7 @@ items:
   fullName: Fantas.Input.Keys.Y
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1401,7 +1401,7 @@ items:
   fullName: Fantas.Input.Keys.Z
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1423,7 +1423,7 @@ items:
   fullName: Fantas.Input.Keys.LeftWindows
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1445,7 +1445,7 @@ items:
   fullName: Fantas.Input.Keys.RightWindows
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1467,7 +1467,7 @@ items:
   fullName: Fantas.Input.Keys.Apps
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1489,7 +1489,7 @@ items:
   fullName: Fantas.Input.Keys.Sleep
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1511,7 +1511,7 @@ items:
   fullName: Fantas.Input.Keys.NumPad0
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1533,7 +1533,7 @@ items:
   fullName: Fantas.Input.Keys.NumPad1
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1555,7 +1555,7 @@ items:
   fullName: Fantas.Input.Keys.NumPad2
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1577,7 +1577,7 @@ items:
   fullName: Fantas.Input.Keys.NumPad3
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1599,7 +1599,7 @@ items:
   fullName: Fantas.Input.Keys.NumPad4
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1621,7 +1621,7 @@ items:
   fullName: Fantas.Input.Keys.NumPad5
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1643,7 +1643,7 @@ items:
   fullName: Fantas.Input.Keys.NumPad6
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1665,7 +1665,7 @@ items:
   fullName: Fantas.Input.Keys.NumPad7
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1687,7 +1687,7 @@ items:
   fullName: Fantas.Input.Keys.NumPad8
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1709,7 +1709,7 @@ items:
   fullName: Fantas.Input.Keys.NumPad9
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1731,7 +1731,7 @@ items:
   fullName: Fantas.Input.Keys.Multiply
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1753,7 +1753,7 @@ items:
   fullName: Fantas.Input.Keys.Add
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1775,7 +1775,7 @@ items:
   fullName: Fantas.Input.Keys.Separator
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1797,7 +1797,7 @@ items:
   fullName: Fantas.Input.Keys.Subtract
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1819,7 +1819,7 @@ items:
   fullName: Fantas.Input.Keys.Dot
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1841,7 +1841,7 @@ items:
   fullName: Fantas.Input.Keys.Divide
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1863,7 +1863,7 @@ items:
   fullName: Fantas.Input.Keys.F1
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1885,7 +1885,7 @@ items:
   fullName: Fantas.Input.Keys.F2
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1907,7 +1907,7 @@ items:
   fullName: Fantas.Input.Keys.F3
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1929,7 +1929,7 @@ items:
   fullName: Fantas.Input.Keys.F4
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1951,7 +1951,7 @@ items:
   fullName: Fantas.Input.Keys.F5
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1973,7 +1973,7 @@ items:
   fullName: Fantas.Input.Keys.F6
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1995,7 +1995,7 @@ items:
   fullName: Fantas.Input.Keys.F7
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2017,7 +2017,7 @@ items:
   fullName: Fantas.Input.Keys.F8
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2039,7 +2039,7 @@ items:
   fullName: Fantas.Input.Keys.F9
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2061,7 +2061,7 @@ items:
   fullName: Fantas.Input.Keys.F10
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2083,7 +2083,7 @@ items:
   fullName: Fantas.Input.Keys.F11
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2105,7 +2105,7 @@ items:
   fullName: Fantas.Input.Keys.F12
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2127,7 +2127,7 @@ items:
   fullName: Fantas.Input.Keys.LeftShift
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2149,7 +2149,7 @@ items:
   fullName: Fantas.Input.Keys.RightShift
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2171,7 +2171,7 @@ items:
   fullName: Fantas.Input.Keys.LeftControl
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2193,7 +2193,7 @@ items:
   fullName: Fantas.Input.Keys.RightControl
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2215,7 +2215,7 @@ items:
   fullName: Fantas.Input.Keys.LeftAlt
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2237,7 +2237,7 @@ items:
   fullName: Fantas.Input.Keys.RightAlt
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2259,7 +2259,7 @@ items:
   fullName: Fantas.Input.Keys.Pause
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2281,7 +2281,7 @@ items:
   fullName: Fantas.Input.Keys.VolumeMute
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2303,7 +2303,7 @@ items:
   fullName: Fantas.Input.Keys.VolumeDown
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2325,7 +2325,7 @@ items:
   fullName: Fantas.Input.Keys.VolumeUp
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2347,7 +2347,7 @@ items:
   fullName: Fantas.Input.Keys.Semicolon
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2369,7 +2369,7 @@ items:
   fullName: Fantas.Input.Keys.OemPlus
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2391,7 +2391,7 @@ items:
   fullName: Fantas.Input.Keys.Comma
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2413,7 +2413,7 @@ items:
   fullName: Fantas.Input.Keys.OemMinus
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2435,7 +2435,7 @@ items:
   fullName: Fantas.Input.Keys.Period
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2457,7 +2457,7 @@ items:
   fullName: Fantas.Input.Keys.Question
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2479,7 +2479,7 @@ items:
   fullName: Fantas.Input.Keys.Tilde
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2501,7 +2501,7 @@ items:
   fullName: Fantas.Input.Keys.OpenBrackets
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2523,7 +2523,7 @@ items:
   fullName: Fantas.Input.Keys.Pipe
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2545,7 +2545,7 @@ items:
   fullName: Fantas.Input.Keys.CloseBrackets
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2567,7 +2567,7 @@ items:
   fullName: Fantas.Input.Keys.Quotes
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2589,7 +2589,7 @@ items:
   fullName: Fantas.Input.Keys.Backslash
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -2611,7 +2611,7 @@ items:
   fullName: Fantas.Input.Keys.Max
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input

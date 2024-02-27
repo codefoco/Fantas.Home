@@ -2,17 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Vector2Extensions
- | Fantas </title>
+      <title>Class Vector2Extensions | Fantas </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Vector2Extensions
- | Fantas ">
+      <meta name="title" content="Class Vector2Extensions | Fantas ">
       
+      <meta name="description" content="Vector2 extension methods">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="../toc.json">
-      <meta name="docfx:tocrel" content="toc.json">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
       
@@ -90,8 +89,7 @@
 
 
   <h1 id="Fantas_Vector2Extensions" data-uid="Fantas.Vector2Extensions" class="text-break">
-    Class Vector2Extensions
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/Vector2Extensions.cs"><i class="bi bi-code-slash"></i></a>
+Class Vector2Extensions  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/Vector2Extensions.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -120,7 +118,7 @@
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -159,7 +157,7 @@
 
   <h3 id="Fantas_Vector2Extensions_FromRotation_System_Double_System_Single_" data-uid="Fantas.Vector2Extensions.FromRotation(System.Double,System.Single)">
   FromRotation(double, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/Vector2Extensions.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/Vector2Extensions.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Create a Vector given a rotation and lenght</p>
@@ -198,7 +196,7 @@
 
   <h3 id="Fantas_Vector2Extensions_Perpendicular_System_Numerics_Vector2_" data-uid="Fantas.Vector2Extensions.Perpendicular(System.Numerics.Vector2)">
   Perpendicular(Vector2)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/Vector2Extensions.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/Vector2Extensions.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get the perpendicular vector</p>
@@ -231,11 +229,93 @@
 
 
 
-  <a id="Fantas_Vector2Extensions_RotateBy_" data-uid="Fantas.Vector2Extensions.RotateBy*"></a>
+  <a id="Fantas_Vector2Extensions_Rotate_" data-uid="Fantas.Vector2Extensions.Rotate*"></a>
 
-  <h3 id="Fantas_Vector2Extensions_RotateBy_System_Numerics_Vector2_System_Double_" data-uid="Fantas.Vector2Extensions.RotateBy(System.Numerics.Vector2,System.Double)">
-  RotateBy(Vector2, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/Vector2Extensions.cs"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Fantas_Vector2Extensions_Rotate_System_Numerics_Vector2_System_Double_" data-uid="Fantas.Vector2Extensions.Rotate(System.Numerics.Vector2,System.Double)">
+  Rotate(Vector2, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/Vector2Extensions.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Rotate vector to an angle</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 Rotate(this Vector2 vector, double angle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>angle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>New rotation angle of vector</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd><p>new vector with the new angle</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Vector2Extensions_RotateAround_" data-uid="Fantas.Vector2Extensions.RotateAround*"></a>
+
+  <h3 id="Fantas_Vector2Extensions_RotateAround_System_Numerics_Vector2_System_Numerics_Vector2_System_Double_" data-uid="Fantas.Vector2Extensions.RotateAround(System.Numerics.Vector2,System.Numerics.Vector2,System.Double)">
+  RotateAround(Vector2, Vector2, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/Vector2Extensions.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Rotate around an origin point</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 RotateAround(this Vector2 vector, Vector2 origin, double angle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>origin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>angle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Vector2Extensions_RotateTo_" data-uid="Fantas.Vector2Extensions.RotateTo*"></a>
+
+  <h3 id="Fantas_Vector2Extensions_RotateTo_System_Numerics_Vector2_System_Double_" data-uid="Fantas.Vector2Extensions.RotateTo(System.Numerics.Vector2,System.Double)">
+  RotateTo(Vector2, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/Vector2Extensions.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Rotate vector by an angle</p>
@@ -243,7 +323,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Vector2 RotateBy(this Vector2 vector, double angle)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Vector2 RotateTo(this Vector2 vector, double angle)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -271,51 +351,11 @@
 
 
 
-  <a id="Fantas_Vector2Extensions_RotateTo_" data-uid="Fantas.Vector2Extensions.RotateTo*"></a>
-
-  <h3 id="Fantas_Vector2Extensions_RotateTo_System_Numerics_Vector2_System_Double_" data-uid="Fantas.Vector2Extensions.RotateTo(System.Numerics.Vector2,System.Double)">
-  RotateTo(Vector2, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/Vector2Extensions.cs"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Rotate vector to an angle</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Vector2 RotateTo(this Vector2 vector, double angle)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>vector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
-    <dd></dd>
-    <dt><code>angle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
-    <dd><p>New rotation angle of vector</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
   <a id="Fantas_Vector2Extensions_Rotation_" data-uid="Fantas.Vector2Extensions.Rotation*"></a>
 
   <h3 id="Fantas_Vector2Extensions_Rotation_System_Numerics_Vector2_" data-uid="Fantas.Vector2Extensions.Rotation(System.Numerics.Vector2)">
   Rotation(Vector2)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/Vector2Extensions.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/Vector2Extensions.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get the Vector in radians</p>
@@ -352,7 +392,7 @@
 
   <h3 id="Fantas_Vector2Extensions_ToPointF_System_Numerics_Vector2_" data-uid="Fantas.Vector2Extensions.ToPointF(System.Numerics.Vector2)">
   ToPointF(Vector2)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/Vector2Extensions.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/Vector2Extensions.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Convert Vector to PointF</p>
@@ -389,7 +429,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Extensions/Vector2Extensions.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/Vector2Extensions.cs" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.TileSetType
+  commentId: T:Fantas.TileSetType
+  id: TileSetType
+  parent: Fantas
+  children:
+  - Fantas.TileSetType.Grid
+  - Fantas.TileSetType.HexagonalFlat
+  - Fantas.TileSetType.HexagonalPointy
+  - Fantas.TileSetType.Isometric
+  langs:
+  - csharp
+  - vb
+  name: TileSetType
+  nameWithType: TileSetType
+  fullName: Fantas.TileSetType
+  type: Enum
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileSetType.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Tile Set arrange/geometry
+  example: []
+  syntax:
+    content: public enum TileSetType
+    content.vb: Public Enum TileSetType
+- uid: Fantas.TileSetType.Grid
+  commentId: F:Fantas.TileSetType.Grid
+  id: Grid
+  parent: Fantas.TileSetType
+  langs:
+  - csharp
+  - vb
+  name: Grid
+  nameWithType: TileSetType.Grid
+  fullName: Fantas.TileSetType.Grid
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileSetType.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Rectangular Grid
+  example: []
+  syntax:
+    content: Grid = 0
+    return:
+      type: Fantas.TileSetType
+- uid: Fantas.TileSetType.HexagonalFlat
+  commentId: F:Fantas.TileSetType.HexagonalFlat
+  id: HexagonalFlat
+  parent: Fantas.TileSetType
+  langs:
+  - csharp
+  - vb
+  name: HexagonalFlat
+  nameWithType: TileSetType.HexagonalFlat
+  fullName: Fantas.TileSetType.HexagonalFlat
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileSetType.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Hexagonal Grid (Flat)
+  example: []
+  syntax:
+    content: HexagonalFlat = 1
+    return:
+      type: Fantas.TileSetType
+- uid: Fantas.TileSetType.HexagonalPointy
+  commentId: F:Fantas.TileSetType.HexagonalPointy
+  id: HexagonalPointy
+  parent: Fantas.TileSetType
+  langs:
+  - csharp
+  - vb
+  name: HexagonalPointy
+  nameWithType: TileSetType.HexagonalPointy
+  fullName: Fantas.TileSetType.HexagonalPointy
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileSetType.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Hexagonal Pointy (Flat)
+  example: []
+  syntax:
+    content: HexagonalPointy = 2
+    return:
+      type: Fantas.TileSetType
+- uid: Fantas.TileSetType.Isometric
+  commentId: F:Fantas.TileSetType.Isometric
+  id: Isometric
+  parent: Fantas.TileSetType
+  langs:
+  - csharp
+  - vb
+  name: Isometric
+  nameWithType: TileSetType.Isometric
+  fullName: Fantas.TileSetType.Isometric
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileSetType.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Isometric Grid
+  example: []
+  syntax:
+    content: Isometric = 3
+    return:
+      type: Fantas.TileSetType
+references:
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: Fantas.TileSetType
+  commentId: T:Fantas.TileSetType
+  parent: Fantas
+  isExternal: true
+  href: Fantas.TileSetType.html
+  name: TileSetType
+  nameWithType: TileSetType
+  fullName: Fantas.TileSetType

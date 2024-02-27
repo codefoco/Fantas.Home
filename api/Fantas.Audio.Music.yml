@@ -17,7 +17,7 @@ items:
   fullName: Fantas.Audio.Music
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Audio/Music.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Audio/Music.cs
   assemblies:
   - Fantas
   namespace: Fantas.Audio
@@ -58,7 +58,7 @@ items:
   fullName: Fantas.Audio.Music.FromFile(string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Audio/Music.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Audio/Music.cs
   assemblies:
   - Fantas
   namespace: Fantas.Audio
@@ -90,7 +90,7 @@ items:
   fullName: Fantas.Audio.Music.FromName(string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Audio/Music.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Audio/Music.cs
   assemblies:
   - Fantas
   namespace: Fantas.Audio
@@ -122,7 +122,7 @@ items:
   fullName: Fantas.Audio.Music.Name
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Audio/Music.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Audio/Music.cs
   assemblies:
   - Fantas
   namespace: Fantas.Audio
@@ -147,7 +147,7 @@ items:
   fullName: Fantas.Audio.Music.Duration
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Audio/Music.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Audio/Music.cs
   assemblies:
   - Fantas
   namespace: Fantas.Audio

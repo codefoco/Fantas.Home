@@ -1,0 +1,438 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.TileGroupRule
+  commentId: T:Fantas.TileGroupRule
+  id: TileGroupRule
+  parent: Fantas
+  children:
+  - Fantas.TileGroupRule.#ctor(Fantas.TileAdjacencyMask,Fantas.TileDefinition[])
+  - Fantas.TileGroupRule.Adjacency
+  - Fantas.TileGroupRule.Name
+  - Fantas.TileGroupRule.TileDefinitions
+  langs:
+  - csharp
+  - vb
+  name: TileGroupRule
+  nameWithType: TileGroupRule
+  fullName: Fantas.TileGroupRule
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileGroupRule.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Rule on how the tile is placed in a tile map
+  example: []
+  syntax:
+    content: public sealed class TileGroupRule
+    content.vb: Public NotInheritable Class TileGroupRule
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Fantas.TileGroupRule.#ctor(Fantas.TileAdjacencyMask,Fantas.TileDefinition[])
+  commentId: M:Fantas.TileGroupRule.#ctor(Fantas.TileAdjacencyMask,Fantas.TileDefinition[])
+  id: '#ctor(Fantas.TileAdjacencyMask,Fantas.TileDefinition[])'
+  parent: Fantas.TileGroupRule
+  langs:
+  - csharp
+  - vb
+  name: TileGroupRule(TileAdjacencyMask, TileDefinition[])
+  nameWithType: TileGroupRule.TileGroupRule(TileAdjacencyMask, TileDefinition[])
+  fullName: Fantas.TileGroupRule.TileGroupRule(Fantas.TileAdjacencyMask, Fantas.TileDefinition[])
+  type: Constructor
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileGroupRule.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Create a Tile Group Rule with given adjacency and tile definitions
+  example: []
+  syntax:
+    content: public TileGroupRule(TileAdjacencyMask adjacency, TileDefinition[] tileDefinitions)
+    parameters:
+    - id: adjacency
+      type: Fantas.TileAdjacencyMask
+      description: ''
+    - id: tileDefinitions
+      type: Fantas.TileDefinition[]
+      description: ''
+    content.vb: Public Sub New(adjacency As TileAdjacencyMask, tileDefinitions As TileDefinition())
+  overload: Fantas.TileGroupRule.#ctor*
+  nameWithType.vb: TileGroupRule.New(TileAdjacencyMask, TileDefinition())
+  fullName.vb: Fantas.TileGroupRule.New(Fantas.TileAdjacencyMask, Fantas.TileDefinition())
+  name.vb: New(TileAdjacencyMask, TileDefinition())
+- uid: Fantas.TileGroupRule.Adjacency
+  commentId: P:Fantas.TileGroupRule.Adjacency
+  id: Adjacency
+  parent: Fantas.TileGroupRule
+  langs:
+  - csharp
+  - vb
+  name: Adjacency
+  nameWithType: TileGroupRule.Adjacency
+  fullName: Fantas.TileGroupRule.Adjacency
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileGroupRule.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Tile rule adjacency mask
+  example: []
+  syntax:
+    content: public TileAdjacencyMask Adjacency { get; set; }
+    parameters: []
+    return:
+      type: Fantas.TileAdjacencyMask
+    content.vb: Public Property Adjacency As TileAdjacencyMask
+  overload: Fantas.TileGroupRule.Adjacency*
+- uid: Fantas.TileGroupRule.Name
+  commentId: P:Fantas.TileGroupRule.Name
+  id: Name
+  parent: Fantas.TileGroupRule
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: TileGroupRule.Name
+  fullName: Fantas.TileGroupRule.Name
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileGroupRule.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Tile group rule name
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Fantas.TileGroupRule.Name*
+- uid: Fantas.TileGroupRule.TileDefinitions
+  commentId: P:Fantas.TileGroupRule.TileDefinitions
+  id: TileDefinitions
+  parent: Fantas.TileGroupRule
+  langs:
+  - csharp
+  - vb
+  name: TileDefinitions
+  nameWithType: TileGroupRule.TileDefinitions
+  fullName: Fantas.TileGroupRule.TileDefinitions
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileGroupRule.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Tile definitions used in this tile group rule
+  example: []
+  syntax:
+    content: public TileDefinition[] TileDefinitions { get; set; }
+    parameters: []
+    return:
+      type: Fantas.TileDefinition[]
+    content.vb: Public Property TileDefinitions As TileDefinition()
+  overload: Fantas.TileGroupRule.TileDefinitions*
+references:
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.TileGroupRule.#ctor*
+  commentId: Overload:Fantas.TileGroupRule.#ctor
+  isExternal: true
+  href: Fantas.TileGroupRule.html#Fantas_TileGroupRule__ctor_Fantas_TileAdjacencyMask_Fantas_TileDefinition___
+  name: TileGroupRule
+  nameWithType: TileGroupRule.TileGroupRule
+  fullName: Fantas.TileGroupRule.TileGroupRule
+  nameWithType.vb: TileGroupRule.New
+  fullName.vb: Fantas.TileGroupRule.New
+  name.vb: New
+- uid: Fantas.TileAdjacencyMask
+  commentId: T:Fantas.TileAdjacencyMask
+  parent: Fantas
+  isExternal: true
+  href: Fantas.TileAdjacencyMask.html
+  name: TileAdjacencyMask
+  nameWithType: TileAdjacencyMask
+  fullName: Fantas.TileAdjacencyMask
+- uid: Fantas.TileDefinition[]
+  isExternal: true
+  href: Fantas.TileDefinition.html
+  name: TileDefinition[]
+  nameWithType: TileDefinition[]
+  fullName: Fantas.TileDefinition[]
+  nameWithType.vb: TileDefinition()
+  fullName.vb: Fantas.TileDefinition()
+  name.vb: TileDefinition()
+  spec.csharp:
+  - uid: Fantas.TileDefinition
+    name: TileDefinition
+    isExternal: true
+    href: Fantas.TileDefinition.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Fantas.TileDefinition
+    name: TileDefinition
+    isExternal: true
+    href: Fantas.TileDefinition.html
+  - name: (
+  - name: )
+- uid: Fantas.TileGroupRule.Adjacency*
+  commentId: Overload:Fantas.TileGroupRule.Adjacency
+  isExternal: true
+  href: Fantas.TileGroupRule.html#Fantas_TileGroupRule_Adjacency
+  name: Adjacency
+  nameWithType: TileGroupRule.Adjacency
+  fullName: Fantas.TileGroupRule.Adjacency
+- uid: Fantas.TileGroupRule.Name*
+  commentId: Overload:Fantas.TileGroupRule.Name
+  isExternal: true
+  href: Fantas.TileGroupRule.html#Fantas_TileGroupRule_Name
+  name: Name
+  nameWithType: TileGroupRule.Name
+  fullName: Fantas.TileGroupRule.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Fantas.TileGroupRule.TileDefinitions*
+  commentId: Overload:Fantas.TileGroupRule.TileDefinitions
+  isExternal: true
+  href: Fantas.TileGroupRule.html#Fantas_TileGroupRule_TileDefinitions
+  name: TileDefinitions
+  nameWithType: TileGroupRule.TileDefinitions
+  fullName: Fantas.TileGroupRule.TileDefinitions

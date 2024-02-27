@@ -62,7 +62,7 @@ items:
   fullName: Fantas.Animation
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -90,7 +90,7 @@ items:
   fullName: Fantas.Animation.Equals(object)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -123,7 +123,7 @@ items:
   fullName: Fantas.Animation.GetHashCode()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -149,7 +149,7 @@ items:
   fullName: Fantas.Animation.Animate(Fantas.Texture[], double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -184,7 +184,7 @@ items:
   fullName: Fantas.Animation.Animate(Fantas.Texture[], double, bool, bool)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -225,7 +225,7 @@ items:
   fullName: Fantas.Animation.Colorize(System.Drawing.Color, float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -263,7 +263,7 @@ items:
   fullName: Fantas.Animation.Colorize(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -298,7 +298,7 @@ items:
   fullName: Fantas.Animation.Custom(double, System.Action<Fantas.Node, float>)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -333,7 +333,7 @@ items:
   fullName: Fantas.Animation.FadeAlphaBy(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -368,7 +368,7 @@ items:
   fullName: Fantas.Animation.FadeAlphaTo(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -403,7 +403,7 @@ items:
   fullName: Fantas.Animation.FadeIn(double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -435,7 +435,7 @@ items:
   fullName: Fantas.Animation.FadeOut(double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -467,7 +467,7 @@ items:
   fullName: Fantas.Animation.Group(params Fantas.Animation[])
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -504,7 +504,7 @@ items:
   fullName: Fantas.Animation.Hide()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -529,7 +529,7 @@ items:
   fullName: Fantas.Animation.MoveBy(System.Numerics.Vector2, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -564,7 +564,7 @@ items:
   fullName: Fantas.Animation.MoveBy(float, float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -602,7 +602,7 @@ items:
   fullName: Fantas.Animation.MoveXBy(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -637,7 +637,7 @@ items:
   fullName: Fantas.Animation.MoveYBy(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -672,7 +672,7 @@ items:
   fullName: Fantas.Animation.MoveTo(System.Drawing.PointF, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -707,7 +707,7 @@ items:
   fullName: Fantas.Animation.MoveToX(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -742,7 +742,7 @@ items:
   fullName: Fantas.Animation.MoveToY(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -777,7 +777,7 @@ items:
   fullName: Fantas.Animation.SineVertical(float, float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -815,7 +815,7 @@ items:
   fullName: Fantas.Animation.SineHorizontal(float, float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -853,7 +853,7 @@ items:
   fullName: Fantas.Animation.OrbitPoint(System.Drawing.PointF, double, double, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -894,7 +894,7 @@ items:
   fullName: Fantas.Animation.OrbitNode(Fantas.Node, double, double, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -935,7 +935,7 @@ items:
   fullName: Fantas.Animation.RemoveFromParent()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -960,7 +960,7 @@ items:
   fullName: Fantas.Animation.Repeat(Fantas.Animation, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -995,7 +995,7 @@ items:
   fullName: Fantas.Animation.RepeatForever(Fantas.Animation)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1024,7 +1024,7 @@ items:
   fullName: Fantas.Animation.ResizeTo(System.Drawing.SizeF, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1059,7 +1059,7 @@ items:
   fullName: Fantas.Animation.ResizeToHeight(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1094,7 +1094,7 @@ items:
   fullName: Fantas.Animation.ResizeToWidth(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1129,7 +1129,7 @@ items:
   fullName: Fantas.Animation.RotateBy(double, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1164,7 +1164,7 @@ items:
   fullName: Fantas.Animation.RotateTo(double, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1199,7 +1199,7 @@ items:
   fullName: Fantas.Animation.RunAction(System.Action)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1228,7 +1228,7 @@ items:
   fullName: Fantas.Animation.ScaleBy(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1263,7 +1263,7 @@ items:
   fullName: Fantas.Animation.ScaleTo(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1298,7 +1298,7 @@ items:
   fullName: Fantas.Animation.ScaleTo(float, float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1336,7 +1336,7 @@ items:
   fullName: Fantas.Animation.ScaleTo(System.Drawing.SizeF, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1371,7 +1371,7 @@ items:
   fullName: Fantas.Animation.ScaleXTo(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1406,7 +1406,7 @@ items:
   fullName: Fantas.Animation.ScaleYTo(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1441,7 +1441,7 @@ items:
   fullName: Fantas.Animation.Sequence(params Fantas.Animation[])
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1478,7 +1478,7 @@ items:
   fullName: Fantas.Animation.SetTexture(Fantas.Texture)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1507,7 +1507,7 @@ items:
   fullName: Fantas.Animation.SetTexture(Fantas.Texture, bool)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1542,7 +1542,7 @@ items:
   fullName: Fantas.Animation.Unhide()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1567,7 +1567,7 @@ items:
   fullName: Fantas.Animation.Wait(double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1602,7 +1602,7 @@ items:
   fullName: Fantas.Animation.Duration
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1632,7 +1632,7 @@ items:
   fullName: Fantas.Animation.ReversedAnimation
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1662,7 +1662,7 @@ items:
   fullName: Fantas.Animation.Speed
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1687,7 +1687,7 @@ items:
   fullName: Fantas.Animation.TimingFunction
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1712,7 +1712,7 @@ items:
   fullName: Fantas.Animation.TimingMode
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas

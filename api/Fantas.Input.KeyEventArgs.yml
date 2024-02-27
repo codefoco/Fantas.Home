@@ -15,7 +15,7 @@ items:
   fullName: Fantas.Input.KeyEventArgs
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/KeyEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/KeyEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -48,7 +48,7 @@ items:
   fullName: Fantas.Input.KeyEventArgs.KeyEventArgs(Fantas.Input.Keys)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/KeyEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/KeyEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -77,7 +77,7 @@ items:
   fullName: Fantas.Input.KeyEventArgs.KeyCode
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Input/Keyboard/KeyEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Keyboard/KeyEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input

@@ -1,0 +1,677 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.TileSet
+  commentId: T:Fantas.TileSet
+  id: TileSet
+  parent: Fantas
+  children:
+  - Fantas.TileSet.#ctor(Fantas.TileGroup[])
+  - Fantas.TileSet.#ctor(Fantas.TileGroup[],Fantas.TileSetType)
+  - Fantas.TileSet.DefaultTileGroup
+  - Fantas.TileSet.DefaultTileSize
+  - Fantas.TileSet.Name
+  - Fantas.TileSet.TileGroups
+  - Fantas.TileSet.Type
+  langs:
+  - csharp
+  - vb
+  name: TileSet
+  nameWithType: TileSet
+  fullName: Fantas.TileSet
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileSet.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Contains definitions and group rules to be used in a Tile map
+  example: []
+  syntax:
+    content: public sealed class TileSet
+    content.vb: Public NotInheritable Class TileSet
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Fantas.TileSet.#ctor(Fantas.TileGroup[])
+  commentId: M:Fantas.TileSet.#ctor(Fantas.TileGroup[])
+  id: '#ctor(Fantas.TileGroup[])'
+  parent: Fantas.TileSet
+  langs:
+  - csharp
+  - vb
+  name: TileSet(TileGroup[])
+  nameWithType: TileSet.TileSet(TileGroup[])
+  fullName: Fantas.TileSet.TileSet(Fantas.TileGroup[])
+  type: Constructor
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileSet.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Create a tile set with a list of tile groups
+  example: []
+  syntax:
+    content: public TileSet(TileGroup[] tileGroups)
+    parameters:
+    - id: tileGroups
+      type: Fantas.TileGroup[]
+      description: ''
+    content.vb: Public Sub New(tileGroups As TileGroup())
+  overload: Fantas.TileSet.#ctor*
+  nameWithType.vb: TileSet.New(TileGroup())
+  fullName.vb: Fantas.TileSet.New(Fantas.TileGroup())
+  name.vb: New(TileGroup())
+- uid: Fantas.TileSet.#ctor(Fantas.TileGroup[],Fantas.TileSetType)
+  commentId: M:Fantas.TileSet.#ctor(Fantas.TileGroup[],Fantas.TileSetType)
+  id: '#ctor(Fantas.TileGroup[],Fantas.TileSetType)'
+  parent: Fantas.TileSet
+  langs:
+  - csharp
+  - vb
+  name: TileSet(TileGroup[], TileSetType)
+  nameWithType: TileSet.TileSet(TileGroup[], TileSetType)
+  fullName: Fantas.TileSet.TileSet(Fantas.TileGroup[], Fantas.TileSetType)
+  type: Constructor
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileSet.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Create a tile set with a list of tile groups
+  example: []
+  syntax:
+    content: public TileSet(TileGroup[] tileGroups, TileSetType tileSetType)
+    parameters:
+    - id: tileGroups
+      type: Fantas.TileGroup[]
+      description: ''
+    - id: tileSetType
+      type: Fantas.TileSetType
+      description: ''
+    content.vb: Public Sub New(tileGroups As TileGroup(), tileSetType As TileSetType)
+  overload: Fantas.TileSet.#ctor*
+  nameWithType.vb: TileSet.New(TileGroup(), TileSetType)
+  fullName.vb: Fantas.TileSet.New(Fantas.TileGroup(), Fantas.TileSetType)
+  name.vb: New(TileGroup(), TileSetType)
+- uid: Fantas.TileSet.DefaultTileGroup
+  commentId: P:Fantas.TileSet.DefaultTileGroup
+  id: DefaultTileGroup
+  parent: Fantas.TileSet
+  langs:
+  - csharp
+  - vb
+  name: DefaultTileGroup
+  nameWithType: TileSet.DefaultTileGroup
+  fullName: Fantas.TileSet.DefaultTileGroup
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileSet.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Default tile group
+  example: []
+  syntax:
+    content: public TileGroup DefaultTileGroup { get; set; }
+    parameters: []
+    return:
+      type: Fantas.TileGroup
+    content.vb: Public Property DefaultTileGroup As TileGroup
+  overload: Fantas.TileSet.DefaultTileGroup*
+- uid: Fantas.TileSet.DefaultTileSize
+  commentId: P:Fantas.TileSet.DefaultTileSize
+  id: DefaultTileSize
+  parent: Fantas.TileSet
+  langs:
+  - csharp
+  - vb
+  name: DefaultTileSize
+  nameWithType: TileSet.DefaultTileSize
+  fullName: Fantas.TileSet.DefaultTileSize
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileSet.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Default tile size
+  example: []
+  syntax:
+    content: public SizeF DefaultTileSize { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.SizeF
+    content.vb: Public Property DefaultTileSize As SizeF
+  overload: Fantas.TileSet.DefaultTileSize*
+- uid: Fantas.TileSet.Name
+  commentId: P:Fantas.TileSet.Name
+  id: Name
+  parent: Fantas.TileSet
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: TileSet.Name
+  fullName: Fantas.TileSet.Name
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileSet.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Tile set name
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Fantas.TileSet.Name*
+- uid: Fantas.TileSet.TileGroups
+  commentId: P:Fantas.TileSet.TileGroups
+  id: TileGroups
+  parent: Fantas.TileSet
+  langs:
+  - csharp
+  - vb
+  name: TileGroups
+  nameWithType: TileSet.TileGroups
+  fullName: Fantas.TileSet.TileGroups
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileSet.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Tile set groups
+  example: []
+  syntax:
+    content: public IReadOnlyList<TileGroup> TileGroups { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IReadOnlyList{Fantas.TileGroup}
+    content.vb: Public Property TileGroups As IReadOnlyList(Of TileGroup)
+  overload: Fantas.TileSet.TileGroups*
+- uid: Fantas.TileSet.Type
+  commentId: P:Fantas.TileSet.Type
+  id: Type
+  parent: Fantas.TileSet
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: TileSet.Type
+  fullName: Fantas.TileSet.Type
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileSet.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Tile set type
+  example: []
+  syntax:
+    content: public TileSetType Type { get; set; }
+    parameters: []
+    return:
+      type: Fantas.TileSetType
+    content.vb: Public Property Type As TileSetType
+  overload: Fantas.TileSet.Type*
+references:
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.TileSet.#ctor*
+  commentId: Overload:Fantas.TileSet.#ctor
+  isExternal: true
+  href: Fantas.TileSet.html#Fantas_TileSet__ctor_Fantas_TileGroup___
+  name: TileSet
+  nameWithType: TileSet.TileSet
+  fullName: Fantas.TileSet.TileSet
+  nameWithType.vb: TileSet.New
+  fullName.vb: Fantas.TileSet.New
+  name.vb: New
+- uid: Fantas.TileGroup[]
+  isExternal: true
+  href: Fantas.TileGroup.html
+  name: TileGroup[]
+  nameWithType: TileGroup[]
+  fullName: Fantas.TileGroup[]
+  nameWithType.vb: TileGroup()
+  fullName.vb: Fantas.TileGroup()
+  name.vb: TileGroup()
+  spec.csharp:
+  - uid: Fantas.TileGroup
+    name: TileGroup
+    isExternal: true
+    href: Fantas.TileGroup.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Fantas.TileGroup
+    name: TileGroup
+    isExternal: true
+    href: Fantas.TileGroup.html
+  - name: (
+  - name: )
+- uid: Fantas.TileSetType
+  commentId: T:Fantas.TileSetType
+  parent: Fantas
+  isExternal: true
+  href: Fantas.TileSetType.html
+  name: TileSetType
+  nameWithType: TileSetType
+  fullName: Fantas.TileSetType
+- uid: Fantas.TileSet.DefaultTileGroup*
+  commentId: Overload:Fantas.TileSet.DefaultTileGroup
+  isExternal: true
+  href: Fantas.TileSet.html#Fantas_TileSet_DefaultTileGroup
+  name: DefaultTileGroup
+  nameWithType: TileSet.DefaultTileGroup
+  fullName: Fantas.TileSet.DefaultTileGroup
+- uid: Fantas.TileGroup
+  commentId: T:Fantas.TileGroup
+  parent: Fantas
+  isExternal: true
+  href: Fantas.TileGroup.html
+  name: TileGroup
+  nameWithType: TileGroup
+  fullName: Fantas.TileGroup
+- uid: Fantas.TileSet.DefaultTileSize*
+  commentId: Overload:Fantas.TileSet.DefaultTileSize
+  isExternal: true
+  href: Fantas.TileSet.html#Fantas_TileSet_DefaultTileSize
+  name: DefaultTileSize
+  nameWithType: TileSet.DefaultTileSize
+  fullName: Fantas.TileSet.DefaultTileSize
+- uid: System.Drawing.SizeF
+  commentId: T:System.Drawing.SizeF
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  name: SizeF
+  nameWithType: SizeF
+  fullName: System.Drawing.SizeF
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: Fantas.TileSet.Name*
+  commentId: Overload:Fantas.TileSet.Name
+  isExternal: true
+  href: Fantas.TileSet.html#Fantas_TileSet_Name
+  name: Name
+  nameWithType: TileSet.Name
+  fullName: Fantas.TileSet.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Fantas.TileSet.TileGroups*
+  commentId: Overload:Fantas.TileSet.TileGroups
+  isExternal: true
+  href: Fantas.TileSet.html#Fantas_TileSet_TileGroups
+  name: TileGroups
+  nameWithType: TileSet.TileGroups
+  fullName: Fantas.TileSet.TileGroups
+- uid: System.Collections.Generic.IReadOnlyList{Fantas.TileGroup}
+  commentId: T:System.Collections.Generic.IReadOnlyList{Fantas.TileGroup}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<TileGroup>
+  nameWithType: IReadOnlyList<TileGroup>
+  fullName: System.Collections.Generic.IReadOnlyList<Fantas.TileGroup>
+  nameWithType.vb: IReadOnlyList(Of TileGroup)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of Fantas.TileGroup)
+  name.vb: IReadOnlyList(Of TileGroup)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - uid: Fantas.TileGroup
+    name: TileGroup
+    isExternal: true
+    href: Fantas.TileGroup.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fantas.TileGroup
+    name: TileGroup
+    isExternal: true
+    href: Fantas.TileGroup.html
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyList`1
+  commentId: T:System.Collections.Generic.IReadOnlyList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<T>
+  nameWithType: IReadOnlyList<T>
+  fullName: System.Collections.Generic.IReadOnlyList<T>
+  nameWithType.vb: IReadOnlyList(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of T)
+  name.vb: IReadOnlyList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Fantas.TileSet.Type*
+  commentId: Overload:Fantas.TileSet.Type
+  isExternal: true
+  href: Fantas.TileSet.html#Fantas_TileSet_Type
+  name: Type
+  nameWithType: TileSet.Type
+  fullName: Fantas.TileSet.Type

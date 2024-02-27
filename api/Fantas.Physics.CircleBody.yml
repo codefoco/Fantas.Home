@@ -15,7 +15,7 @@ items:
   fullName: Fantas.Physics.CircleBody
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/CircleBody.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/Bodies/CircleBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -71,7 +71,7 @@ items:
   fullName: Fantas.Physics.CircleBody.CircleBody(float)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/CircleBody.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/Bodies/CircleBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -100,7 +100,7 @@ items:
   fullName: Fantas.Physics.CircleBody.CircleBody(float, System.Drawing.PointF)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/Bodies/CircleBody.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/Bodies/CircleBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics

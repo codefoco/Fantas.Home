@@ -75,6 +75,22 @@ items:
     name: Texture
   - uid: Fantas.TextureAtlas
     name: TextureAtlas
+  - uid: Fantas.TileAdjacencyMask
+    name: TileAdjacencyMask
+  - uid: Fantas.TileDefinition
+    name: TileDefinition
+  - uid: Fantas.TileDefinitionRotation
+    name: TileDefinitionRotation
+  - uid: Fantas.TileGroup
+    name: TileGroup
+  - uid: Fantas.TileGroupRule
+    name: TileGroupRule
+  - uid: Fantas.TileMapNode
+    name: TileMapNode
+  - uid: Fantas.TileSet
+    name: TileSet
+  - uid: Fantas.TileSetType
+    name: TileSetType
   - uid: Fantas.Time
     name: Time
   - uid: Fantas.TriangleNode

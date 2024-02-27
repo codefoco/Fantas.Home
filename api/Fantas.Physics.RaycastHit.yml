@@ -16,7 +16,7 @@ items:
   fullName: Fantas.Physics.RaycastHit
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/RaycastHit.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/RaycastHit.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -46,7 +46,7 @@ items:
   fullName: Fantas.Physics.RaycastHit.PhysicsBody
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/RaycastHit.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/RaycastHit.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -71,7 +71,7 @@ items:
   fullName: Fantas.Physics.RaycastHit.Normal
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/RaycastHit.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/RaycastHit.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -96,7 +96,7 @@ items:
   fullName: Fantas.Physics.RaycastHit.Point
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/Physics/RaycastHit.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/RaycastHit.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics

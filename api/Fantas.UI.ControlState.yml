@@ -17,7 +17,7 @@ items:
   fullName: Fantas.UI.ControlState
   type: Enum
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ControlState.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/UI/ControlState.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
@@ -38,7 +38,7 @@ items:
   fullName: Fantas.UI.ControlState.Normal
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ControlState.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/UI/ControlState.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
@@ -60,7 +60,7 @@ items:
   fullName: Fantas.UI.ControlState.Hovered
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ControlState.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/UI/ControlState.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
@@ -82,7 +82,7 @@ items:
   fullName: Fantas.UI.ControlState.Pressed
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ControlState.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/UI/ControlState.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
@@ -107,7 +107,7 @@ items:
   fullName: Fantas.UI.ControlState.Disabled
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/1001cc22195d0b7d167b226561206cbf8b68123d/src/UI/ControlState.cs
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/UI/ControlState.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI

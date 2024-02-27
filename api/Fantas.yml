@@ -40,6 +40,14 @@ items:
   - Fantas.SystemPlatform
   - Fantas.Texture
   - Fantas.TextureAtlas
+  - Fantas.TileAdjacencyMask
+  - Fantas.TileDefinition
+  - Fantas.TileDefinitionRotation
+  - Fantas.TileGroup
+  - Fantas.TileGroupRule
+  - Fantas.TileMapNode
+  - Fantas.TileSet
+  - Fantas.TileSetType
   - Fantas.Time
   - Fantas.TriangleNode
   - Fantas.Vector2Extensions
@@ -90,6 +98,13 @@ references:
   name: GameOptions
   nameWithType: GameOptions
   fullName: Fantas.GameOptions
+- uid: Fantas.TileMapNode
+  commentId: T:Fantas.TileMapNode
+  isExternal: true
+  href: Fantas.TileMapNode.html
+  name: TileMapNode
+  nameWithType: TileMapNode
+  fullName: Fantas.TileMapNode
 - uid: Fantas.Game
   commentId: T:Fantas.Game
   parent: Fantas
@@ -177,6 +192,61 @@ references:
   name: AnimationTimingMode
   nameWithType: AnimationTimingMode
   fullName: Fantas.AnimationTimingMode
+- uid: Fantas.TileAdjacencyMask
+  commentId: T:Fantas.TileAdjacencyMask
+  parent: Fantas
+  isExternal: true
+  href: Fantas.TileAdjacencyMask.html
+  name: TileAdjacencyMask
+  nameWithType: TileAdjacencyMask
+  fullName: Fantas.TileAdjacencyMask
+- uid: Fantas.TileDefinition
+  commentId: T:Fantas.TileDefinition
+  parent: Fantas
+  isExternal: true
+  href: Fantas.TileDefinition.html
+  name: TileDefinition
+  nameWithType: TileDefinition
+  fullName: Fantas.TileDefinition
+- uid: Fantas.TileDefinitionRotation
+  commentId: T:Fantas.TileDefinitionRotation
+  parent: Fantas
+  isExternal: true
+  href: Fantas.TileDefinitionRotation.html
+  name: TileDefinitionRotation
+  nameWithType: TileDefinitionRotation
+  fullName: Fantas.TileDefinitionRotation
+- uid: Fantas.TileGroup
+  commentId: T:Fantas.TileGroup
+  parent: Fantas
+  isExternal: true
+  href: Fantas.TileGroup.html
+  name: TileGroup
+  nameWithType: TileGroup
+  fullName: Fantas.TileGroup
+- uid: Fantas.TileGroupRule
+  commentId: T:Fantas.TileGroupRule
+  isExternal: true
+  href: Fantas.TileGroupRule.html
+  name: TileGroupRule
+  nameWithType: TileGroupRule
+  fullName: Fantas.TileGroupRule
+- uid: Fantas.TileSet
+  commentId: T:Fantas.TileSet
+  parent: Fantas
+  isExternal: true
+  href: Fantas.TileSet.html
+  name: TileSet
+  nameWithType: TileSet
+  fullName: Fantas.TileSet
+- uid: Fantas.TileSetType
+  commentId: T:Fantas.TileSetType
+  parent: Fantas
+  isExternal: true
+  href: Fantas.TileSetType.html
+  name: TileSetType
+  nameWithType: TileSetType
+  fullName: Fantas.TileSetType
 - uid: Fantas.Time
   commentId: T:Fantas.Time
   isExternal: true

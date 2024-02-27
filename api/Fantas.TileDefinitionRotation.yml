@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.TileDefinitionRotation
+  commentId: T:Fantas.TileDefinitionRotation
+  id: TileDefinitionRotation
+  parent: Fantas
+  children:
+  - Fantas.TileDefinitionRotation.Rotation0
+  - Fantas.TileDefinitionRotation.Rotation180
+  - Fantas.TileDefinitionRotation.Rotation270
+  - Fantas.TileDefinitionRotation.Rotation90
+  langs:
+  - csharp
+  - vb
+  name: TileDefinitionRotation
+  nameWithType: TileDefinitionRotation
+  fullName: Fantas.TileDefinitionRotation
+  type: Enum
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileDefinitionRotation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Tile rotation types
+  example: []
+  syntax:
+    content: public enum TileDefinitionRotation
+    content.vb: Public Enum TileDefinitionRotation
+- uid: Fantas.TileDefinitionRotation.Rotation0
+  commentId: F:Fantas.TileDefinitionRotation.Rotation0
+  id: Rotation0
+  parent: Fantas.TileDefinitionRotation
+  langs:
+  - csharp
+  - vb
+  name: Rotation0
+  nameWithType: TileDefinitionRotation.Rotation0
+  fullName: Fantas.TileDefinitionRotation.Rotation0
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileDefinitionRotation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: ''
+  example: []
+  syntax:
+    content: Rotation0 = 0
+    return:
+      type: Fantas.TileDefinitionRotation
+- uid: Fantas.TileDefinitionRotation.Rotation90
+  commentId: F:Fantas.TileDefinitionRotation.Rotation90
+  id: Rotation90
+  parent: Fantas.TileDefinitionRotation
+  langs:
+  - csharp
+  - vb
+  name: Rotation90
+  nameWithType: TileDefinitionRotation.Rotation90
+  fullName: Fantas.TileDefinitionRotation.Rotation90
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileDefinitionRotation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: ''
+  example: []
+  syntax:
+    content: Rotation90 = 1
+    return:
+      type: Fantas.TileDefinitionRotation
+- uid: Fantas.TileDefinitionRotation.Rotation180
+  commentId: F:Fantas.TileDefinitionRotation.Rotation180
+  id: Rotation180
+  parent: Fantas.TileDefinitionRotation
+  langs:
+  - csharp
+  - vb
+  name: Rotation180
+  nameWithType: TileDefinitionRotation.Rotation180
+  fullName: Fantas.TileDefinitionRotation.Rotation180
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileDefinitionRotation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: ''
+  example: []
+  syntax:
+    content: Rotation180 = 2
+    return:
+      type: Fantas.TileDefinitionRotation
+- uid: Fantas.TileDefinitionRotation.Rotation270
+  commentId: F:Fantas.TileDefinitionRotation.Rotation270
+  id: Rotation270
+  parent: Fantas.TileDefinitionRotation
+  langs:
+  - csharp
+  - vb
+  name: Rotation270
+  nameWithType: TileDefinitionRotation.Rotation270
+  fullName: Fantas.TileDefinitionRotation.Rotation270
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Tiles/TileDefinitionRotation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: ''
+  example: []
+  syntax:
+    content: Rotation270 = 3
+    return:
+      type: Fantas.TileDefinitionRotation
+references:
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: Fantas.TileDefinitionRotation
+  commentId: T:Fantas.TileDefinitionRotation
+  parent: Fantas
+  isExternal: true
+  href: Fantas.TileDefinitionRotation.html
+  name: TileDefinitionRotation
+  nameWithType: TileDefinitionRotation
+  fullName: Fantas.TileDefinitionRotation
