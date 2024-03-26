@@ -1957,12 +1957,6 @@ references:
   commentId: F:Fantas.GameOptions.None
   fullName: Fantas.GameOptions.None
   nameWithType: GameOptions.None
-- uid: Fantas.GameOptions.UseASCIIForDefaultFont
-  name: UseASCIIForDefaultFont
-  href: api/Fantas.GameOptions.html#Fantas_GameOptions_UseASCIIForDefaultFont
-  commentId: F:Fantas.GameOptions.UseASCIIForDefaultFont
-  fullName: Fantas.GameOptions.UseASCIIForDefaultFont
-  nameWithType: GameOptions.UseASCIIForDefaultFont
 - uid: Fantas.GameOptions.UseDisplayResolutionOnFullScreen
   name: UseDisplayResolutionOnFullScreen
   href: api/Fantas.GameOptions.html#Fantas_GameOptions_UseDisplayResolutionOnFullScreen
@@ -6217,15 +6211,15 @@ references:
   commentId: Overload:Fantas.Node.RemoveChild
   fullName: Fantas.Node.RemoveChild
   nameWithType: Node.RemoveChild
-- uid: Fantas.Node.RemoveChildren(System.Collections.Generic.IReadOnlyList{Fantas.Node})
-  name: RemoveChildren(IReadOnlyList<Node>)
-  href: api/Fantas.Node.html#Fantas_Node_RemoveChildren_System_Collections_Generic_IReadOnlyList_Fantas_Node__
-  commentId: M:Fantas.Node.RemoveChildren(System.Collections.Generic.IReadOnlyList{Fantas.Node})
-  name.vb: RemoveChildren(IReadOnlyList(Of Node))
-  fullName: Fantas.Node.RemoveChildren(System.Collections.Generic.IReadOnlyList<Fantas.Node>)
-  fullName.vb: Fantas.Node.RemoveChildren(System.Collections.Generic.IReadOnlyList(Of Fantas.Node))
-  nameWithType: Node.RemoveChildren(IReadOnlyList<Node>)
-  nameWithType.vb: Node.RemoveChildren(IReadOnlyList(Of Node))
+- uid: Fantas.Node.RemoveChildren(Fantas.Node[])
+  name: RemoveChildren(Node[])
+  href: api/Fantas.Node.html#Fantas_Node_RemoveChildren_Fantas_Node___
+  commentId: M:Fantas.Node.RemoveChildren(Fantas.Node[])
+  name.vb: RemoveChildren(Node())
+  fullName: Fantas.Node.RemoveChildren(Fantas.Node[])
+  fullName.vb: Fantas.Node.RemoveChildren(Fantas.Node())
+  nameWithType: Node.RemoveChildren(Node[])
+  nameWithType.vb: Node.RemoveChildren(Node())
 - uid: Fantas.Node.RemoveChildren*
   name: RemoveChildren
   href: api/Fantas.Node.html#Fantas_Node_RemoveChildren_
@@ -9889,6 +9883,15 @@ references:
   fullName.vb: Fantas.SpriteNode.New(Fantas.Texture)
   nameWithType: SpriteNode.SpriteNode(Texture)
   nameWithType.vb: SpriteNode.New(Texture)
+- uid: Fantas.SpriteNode.#ctor(Fantas.Texture,System.Drawing.SizeF)
+  name: SpriteNode(Texture, SizeF)
+  href: api/Fantas.SpriteNode.html#Fantas_SpriteNode__ctor_Fantas_Texture_System_Drawing_SizeF_
+  commentId: M:Fantas.SpriteNode.#ctor(Fantas.Texture,System.Drawing.SizeF)
+  name.vb: New(Texture, SizeF)
+  fullName: Fantas.SpriteNode.SpriteNode(Fantas.Texture, System.Drawing.SizeF)
+  fullName.vb: Fantas.SpriteNode.New(Fantas.Texture, System.Drawing.SizeF)
+  nameWithType: SpriteNode.SpriteNode(Texture, SizeF)
+  nameWithType.vb: SpriteNode.New(Texture, SizeF)
 - uid: Fantas.SpriteNode.#ctor(System.Drawing.Color,System.Drawing.SizeF)
   name: SpriteNode(Color, SizeF)
   href: api/Fantas.SpriteNode.html#Fantas_SpriteNode__ctor_System_Drawing_Color_System_Drawing_SizeF_
@@ -10366,12 +10369,33 @@ references:
   commentId: T:Fantas.Texture
   fullName: Fantas.Texture
   nameWithType: Texture
+- uid: Fantas.Texture.ColorPixelData
+  name: ColorPixelData
+  href: api/Fantas.Texture.html#Fantas_Texture_ColorPixelData
+  commentId: P:Fantas.Texture.ColorPixelData
+  fullName: Fantas.Texture.ColorPixelData
+  nameWithType: Texture.ColorPixelData
+- uid: Fantas.Texture.ColorPixelData*
+  name: ColorPixelData
+  href: api/Fantas.Texture.html#Fantas_Texture_ColorPixelData_
+  commentId: Overload:Fantas.Texture.ColorPixelData
+  fullName: Fantas.Texture.ColorPixelData
+  nameWithType: Texture.ColorPixelData
 - uid: Fantas.Texture.CreateSubTexture(System.Drawing.RectangleF,Fantas.Texture)
   name: CreateSubTexture(RectangleF, Texture)
   href: api/Fantas.Texture.html#Fantas_Texture_CreateSubTexture_System_Drawing_RectangleF_Fantas_Texture_
   commentId: M:Fantas.Texture.CreateSubTexture(System.Drawing.RectangleF,Fantas.Texture)
   fullName: Fantas.Texture.CreateSubTexture(System.Drawing.RectangleF, Fantas.Texture)
   nameWithType: Texture.CreateSubTexture(RectangleF, Texture)
+- uid: Fantas.Texture.CreateSubTexture(System.Int32,System.Int32,System.Int32,System.Int32,Fantas.Texture)
+  name: CreateSubTexture(int, int, int, int, Texture)
+  href: api/Fantas.Texture.html#Fantas_Texture_CreateSubTexture_System_Int32_System_Int32_System_Int32_System_Int32_Fantas_Texture_
+  commentId: M:Fantas.Texture.CreateSubTexture(System.Int32,System.Int32,System.Int32,System.Int32,Fantas.Texture)
+  name.vb: CreateSubTexture(Integer, Integer, Integer, Integer, Texture)
+  fullName: Fantas.Texture.CreateSubTexture(int, int, int, int, Fantas.Texture)
+  fullName.vb: Fantas.Texture.CreateSubTexture(Integer, Integer, Integer, Integer, Fantas.Texture)
+  nameWithType: Texture.CreateSubTexture(int, int, int, int, Texture)
+  nameWithType.vb: Texture.CreateSubTexture(Integer, Integer, Integer, Integer, Texture)
 - uid: Fantas.Texture.CreateSubTexture*
   name: CreateSubTexture
   href: api/Fantas.Texture.html#Fantas_Texture_CreateSubTexture_
@@ -10432,6 +10456,18 @@ references:
   commentId: Overload:Fantas.Texture.FromAsset
   fullName: Fantas.Texture.FromAsset
   nameWithType: Texture.FromAsset
+- uid: Fantas.Texture.FromColorPixel(System.Drawing.Color)
+  name: FromColorPixel(Color)
+  href: api/Fantas.Texture.html#Fantas_Texture_FromColorPixel_System_Drawing_Color_
+  commentId: M:Fantas.Texture.FromColorPixel(System.Drawing.Color)
+  fullName: Fantas.Texture.FromColorPixel(System.Drawing.Color)
+  nameWithType: Texture.FromColorPixel(Color)
+- uid: Fantas.Texture.FromColorPixel*
+  name: FromColorPixel
+  href: api/Fantas.Texture.html#Fantas_Texture_FromColorPixel_
+  commentId: Overload:Fantas.Texture.FromColorPixel
+  fullName: Fantas.Texture.FromColorPixel
+  nameWithType: Texture.FromColorPixel
 - uid: Fantas.Texture.FromFile(System.String)
   name: FromFile(string)
   href: api/Fantas.Texture.html#Fantas_Texture_FromFile_System_String_
@@ -10471,6 +10507,30 @@ references:
   commentId: Overload:Fantas.Texture.FromName
   fullName: Fantas.Texture.FromName
   nameWithType: Texture.FromName
+- uid: Fantas.Texture.FromPixelData(System.Drawing.Color[],System.Int32,System.Int32)
+  name: FromPixelData(Color[], int, int)
+  href: api/Fantas.Texture.html#Fantas_Texture_FromPixelData_System_Drawing_Color___System_Int32_System_Int32_
+  commentId: M:Fantas.Texture.FromPixelData(System.Drawing.Color[],System.Int32,System.Int32)
+  name.vb: FromPixelData(Color(), Integer, Integer)
+  fullName: Fantas.Texture.FromPixelData(System.Drawing.Color[], int, int)
+  fullName.vb: Fantas.Texture.FromPixelData(System.Drawing.Color(), Integer, Integer)
+  nameWithType: Texture.FromPixelData(Color[], int, int)
+  nameWithType.vb: Texture.FromPixelData(Color(), Integer, Integer)
+- uid: Fantas.Texture.FromPixelData(System.Int32[],System.Int32,System.Int32)
+  name: FromPixelData(int[], int, int)
+  href: api/Fantas.Texture.html#Fantas_Texture_FromPixelData_System_Int32___System_Int32_System_Int32_
+  commentId: M:Fantas.Texture.FromPixelData(System.Int32[],System.Int32,System.Int32)
+  name.vb: FromPixelData(Integer(), Integer, Integer)
+  fullName: Fantas.Texture.FromPixelData(int[], int, int)
+  fullName.vb: Fantas.Texture.FromPixelData(Integer(), Integer, Integer)
+  nameWithType: Texture.FromPixelData(int[], int, int)
+  nameWithType.vb: Texture.FromPixelData(Integer(), Integer, Integer)
+- uid: Fantas.Texture.FromPixelData*
+  name: FromPixelData
+  href: api/Fantas.Texture.html#Fantas_Texture_FromPixelData_
+  commentId: Overload:Fantas.Texture.FromPixelData
+  fullName: Fantas.Texture.FromPixelData
+  nameWithType: Texture.FromPixelData
 - uid: Fantas.Texture.FromResource(System.Reflection.Assembly,System.String,System.Single)
   name: FromResource(Assembly, string, float)
   href: api/Fantas.Texture.html#Fantas_Texture_FromResource_System_Reflection_Assembly_System_String_System_Single_
@@ -10534,6 +10594,30 @@ references:
   commentId: Overload:Fantas.Texture.FromStream
   fullName: Fantas.Texture.FromStream
   nameWithType: Texture.FromStream
+- uid: Fantas.Texture.Height
+  name: Height
+  href: api/Fantas.Texture.html#Fantas_Texture_Height
+  commentId: P:Fantas.Texture.Height
+  fullName: Fantas.Texture.Height
+  nameWithType: Texture.Height
+- uid: Fantas.Texture.Height*
+  name: Height
+  href: api/Fantas.Texture.html#Fantas_Texture_Height_
+  commentId: Overload:Fantas.Texture.Height
+  fullName: Fantas.Texture.Height
+  nameWithType: Texture.Height
+- uid: Fantas.Texture.PixelData
+  name: PixelData
+  href: api/Fantas.Texture.html#Fantas_Texture_PixelData
+  commentId: P:Fantas.Texture.PixelData
+  fullName: Fantas.Texture.PixelData
+  nameWithType: Texture.PixelData
+- uid: Fantas.Texture.PixelData*
+  name: PixelData
+  href: api/Fantas.Texture.html#Fantas_Texture_PixelData_
+  commentId: Overload:Fantas.Texture.PixelData
+  fullName: Fantas.Texture.PixelData
+  nameWithType: Texture.PixelData
 - uid: Fantas.Texture.PixelTexture
   name: PixelTexture
   href: api/Fantas.Texture.html#Fantas_Texture_PixelTexture
@@ -10546,6 +10630,18 @@ references:
   commentId: Overload:Fantas.Texture.PixelTexture
   fullName: Fantas.Texture.PixelTexture
   nameWithType: Texture.PixelTexture
+- uid: Fantas.Texture.RawHeight
+  name: RawHeight
+  href: api/Fantas.Texture.html#Fantas_Texture_RawHeight
+  commentId: P:Fantas.Texture.RawHeight
+  fullName: Fantas.Texture.RawHeight
+  nameWithType: Texture.RawHeight
+- uid: Fantas.Texture.RawHeight*
+  name: RawHeight
+  href: api/Fantas.Texture.html#Fantas_Texture_RawHeight_
+  commentId: Overload:Fantas.Texture.RawHeight
+  fullName: Fantas.Texture.RawHeight
+  nameWithType: Texture.RawHeight
 - uid: Fantas.Texture.RawSize
   name: RawSize
   href: api/Fantas.Texture.html#Fantas_Texture_RawSize
@@ -10558,6 +10654,18 @@ references:
   commentId: Overload:Fantas.Texture.RawSize
   fullName: Fantas.Texture.RawSize
   nameWithType: Texture.RawSize
+- uid: Fantas.Texture.RawWidth
+  name: RawWidth
+  href: api/Fantas.Texture.html#Fantas_Texture_RawWidth
+  commentId: P:Fantas.Texture.RawWidth
+  fullName: Fantas.Texture.RawWidth
+  nameWithType: Texture.RawWidth
+- uid: Fantas.Texture.RawWidth*
+  name: RawWidth
+  href: api/Fantas.Texture.html#Fantas_Texture_RawWidth_
+  commentId: Overload:Fantas.Texture.RawWidth
+  fullName: Fantas.Texture.RawWidth
+  nameWithType: Texture.RawWidth
 - uid: Fantas.Texture.RemoveTextureFromCache(Fantas.Texture)
   name: RemoveTextureFromCache(Texture)
   href: api/Fantas.Texture.html#Fantas_Texture_RemoveTextureFromCache_Fantas_Texture_
@@ -10594,6 +10702,30 @@ references:
   commentId: Overload:Fantas.Texture.SparkTexture
   fullName: Fantas.Texture.SparkTexture
   nameWithType: Texture.SparkTexture
+- uid: Fantas.Texture.TextureRectangle
+  name: TextureRectangle
+  href: api/Fantas.Texture.html#Fantas_Texture_TextureRectangle
+  commentId: P:Fantas.Texture.TextureRectangle
+  fullName: Fantas.Texture.TextureRectangle
+  nameWithType: Texture.TextureRectangle
+- uid: Fantas.Texture.TextureRectangle*
+  name: TextureRectangle
+  href: api/Fantas.Texture.html#Fantas_Texture_TextureRectangle_
+  commentId: Overload:Fantas.Texture.TextureRectangle
+  fullName: Fantas.Texture.TextureRectangle
+  nameWithType: Texture.TextureRectangle
+- uid: Fantas.Texture.Width
+  name: Width
+  href: api/Fantas.Texture.html#Fantas_Texture_Width
+  commentId: P:Fantas.Texture.Width
+  fullName: Fantas.Texture.Width
+  nameWithType: Texture.Width
+- uid: Fantas.Texture.Width*
+  name: Width
+  href: api/Fantas.Texture.html#Fantas_Texture_Width_
+  commentId: Overload:Fantas.Texture.Width
+  fullName: Fantas.Texture.Width
+  nameWithType: Texture.Width
 - uid: Fantas.TextureAtlas
   name: TextureAtlas
   href: api/Fantas.TextureAtlas.html

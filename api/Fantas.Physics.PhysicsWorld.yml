@@ -33,7 +33,7 @@ items:
   fullName: Fantas.Physics.PhysicsWorld
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/PhysicsWorld.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/PhysicsWorld.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -71,7 +71,7 @@ items:
   fullName: Fantas.Physics.PhysicsWorld.GetPairCollisionHandler(int, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/PhysicsWorld.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/PhysicsWorld.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -103,7 +103,7 @@ items:
   fullName: Fantas.Physics.PhysicsWorld.AddJoint(Fantas.Physics.PhysicsJoint)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/PhysicsWorld.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/PhysicsWorld.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -129,7 +129,7 @@ items:
   fullName: Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.PointF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/PhysicsWorld.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/PhysicsWorld.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -158,7 +158,7 @@ items:
   fullName: Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.RectangleF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/PhysicsWorld.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/PhysicsWorld.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -187,7 +187,7 @@ items:
   fullName: Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.PointF, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/PhysicsWorld.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/PhysicsWorld.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -222,7 +222,7 @@ items:
   fullName: Fantas.Physics.PhysicsWorld.GetBody(System.Drawing.RectangleF, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/PhysicsWorld.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/PhysicsWorld.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -257,7 +257,7 @@ items:
   fullName: Fantas.Physics.PhysicsWorld.Raycast(System.Drawing.PointF, System.Drawing.PointF, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/PhysicsWorld.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/PhysicsWorld.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -295,22 +295,22 @@ items:
   fullName: Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.PointF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/PhysicsWorld.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/PhysicsWorld.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
   summary: Enumerate all physical bodies at point
   example: []
   syntax:
-    content: public IReadOnlyList<PhysicsBody> EnumarateBodies(PointF point)
+    content: public PhysicsBody[] EnumarateBodies(PointF point)
     parameters:
     - id: point
       type: System.Drawing.PointF
       description: ''
     return:
-      type: System.Collections.Generic.IReadOnlyList{Fantas.Physics.PhysicsBody}
+      type: Fantas.Physics.PhysicsBody[]
       description: ''
-    content.vb: Public Function EnumarateBodies(point As PointF) As IReadOnlyList(Of PhysicsBody)
+    content.vb: Public Function EnumarateBodies(point As PointF) As PhysicsBody()
   overload: Fantas.Physics.PhysicsWorld.EnumarateBodies*
 - uid: Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.RectangleF)
   commentId: M:Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.RectangleF)
@@ -324,22 +324,22 @@ items:
   fullName: Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.RectangleF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/PhysicsWorld.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/PhysicsWorld.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
   summary: Enumerate all physical bodies inside the rectangle
   example: []
   syntax:
-    content: public IReadOnlyList<PhysicsBody> EnumarateBodies(RectangleF rect)
+    content: public PhysicsBody[] EnumarateBodies(RectangleF rect)
     parameters:
     - id: rect
       type: System.Drawing.RectangleF
       description: ''
     return:
-      type: System.Collections.Generic.IReadOnlyList{Fantas.Physics.PhysicsBody}
+      type: Fantas.Physics.PhysicsBody[]
       description: ''
-    content.vb: Public Function EnumarateBodies(rect As RectangleF) As IReadOnlyList(Of PhysicsBody)
+    content.vb: Public Function EnumarateBodies(rect As RectangleF) As PhysicsBody()
   overload: Fantas.Physics.PhysicsWorld.EnumarateBodies*
 - uid: Fantas.Physics.PhysicsWorld.RaycastBodies(System.Drawing.PointF,System.Drawing.PointF)
   commentId: M:Fantas.Physics.PhysicsWorld.RaycastBodies(System.Drawing.PointF,System.Drawing.PointF)
@@ -353,14 +353,14 @@ items:
   fullName: Fantas.Physics.PhysicsWorld.RaycastBodies(System.Drawing.PointF, System.Drawing.PointF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/PhysicsWorld.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/PhysicsWorld.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
   summary: Get all bodies that intersect the raycast
   example: []
   syntax:
-    content: public IReadOnlyList<RaycastHit> RaycastBodies(PointF rayStart, PointF rayEnd)
+    content: public RaycastHit[] RaycastBodies(PointF rayStart, PointF rayEnd)
     parameters:
     - id: rayStart
       type: System.Drawing.PointF
@@ -369,9 +369,9 @@ items:
       type: System.Drawing.PointF
       description: ''
     return:
-      type: System.Collections.Generic.IReadOnlyList{Fantas.Physics.RaycastHit}
+      type: Fantas.Physics.RaycastHit[]
       description: ''
-    content.vb: Public Function RaycastBodies(rayStart As PointF, rayEnd As PointF) As IReadOnlyList(Of RaycastHit)
+    content.vb: Public Function RaycastBodies(rayStart As PointF, rayEnd As PointF) As RaycastHit()
   overload: Fantas.Physics.PhysicsWorld.RaycastBodies*
 - uid: Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.PointF,System.Int32)
   commentId: M:Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.PointF,System.Int32)
@@ -385,14 +385,14 @@ items:
   fullName: Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.PointF, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/PhysicsWorld.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/PhysicsWorld.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
   summary: Enumerate all physical bodies at point that match the filter
   example: []
   syntax:
-    content: public IReadOnlyList<PhysicsBody> EnumarateBodies(PointF point, int categories)
+    content: public PhysicsBody[] EnumarateBodies(PointF point, int categories)
     parameters:
     - id: point
       type: System.Drawing.PointF
@@ -401,9 +401,9 @@ items:
       type: System.Int32
       description: ''
     return:
-      type: System.Collections.Generic.IReadOnlyList{Fantas.Physics.PhysicsBody}
+      type: Fantas.Physics.PhysicsBody[]
       description: ''
-    content.vb: Public Function EnumarateBodies(point As PointF, categories As Integer) As IReadOnlyList(Of PhysicsBody)
+    content.vb: Public Function EnumarateBodies(point As PointF, categories As Integer) As PhysicsBody()
   overload: Fantas.Physics.PhysicsWorld.EnumarateBodies*
   nameWithType.vb: PhysicsWorld.EnumarateBodies(PointF, Integer)
   fullName.vb: Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.PointF, Integer)
@@ -420,14 +420,14 @@ items:
   fullName: Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.RectangleF, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/PhysicsWorld.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/PhysicsWorld.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
   summary: Enumerate all physical bodies inside the rectangle and match the filter
   example: []
   syntax:
-    content: public IReadOnlyList<PhysicsBody> EnumarateBodies(RectangleF rect, int categories)
+    content: public PhysicsBody[] EnumarateBodies(RectangleF rect, int categories)
     parameters:
     - id: rect
       type: System.Drawing.RectangleF
@@ -436,9 +436,9 @@ items:
       type: System.Int32
       description: ''
     return:
-      type: System.Collections.Generic.IReadOnlyList{Fantas.Physics.PhysicsBody}
+      type: Fantas.Physics.PhysicsBody[]
       description: ''
-    content.vb: Public Function EnumarateBodies(rect As RectangleF, categories As Integer) As IReadOnlyList(Of PhysicsBody)
+    content.vb: Public Function EnumarateBodies(rect As RectangleF, categories As Integer) As PhysicsBody()
   overload: Fantas.Physics.PhysicsWorld.EnumarateBodies*
   nameWithType.vb: PhysicsWorld.EnumarateBodies(RectangleF, Integer)
   fullName.vb: Fantas.Physics.PhysicsWorld.EnumarateBodies(System.Drawing.RectangleF, Integer)
@@ -455,14 +455,14 @@ items:
   fullName: Fantas.Physics.PhysicsWorld.RaycastBodies(System.Drawing.PointF, System.Drawing.PointF, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/PhysicsWorld.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/PhysicsWorld.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
   summary: Get all bodies that intersect the raycast and match the filter
   example: []
   syntax:
-    content: public IReadOnlyList<RaycastHit> RaycastBodies(PointF rayStart, PointF rayEnd, int categories)
+    content: public RaycastHit[] RaycastBodies(PointF rayStart, PointF rayEnd, int categories)
     parameters:
     - id: rayStart
       type: System.Drawing.PointF
@@ -474,9 +474,9 @@ items:
       type: System.Int32
       description: ''
     return:
-      type: System.Collections.Generic.IReadOnlyList{Fantas.Physics.RaycastHit}
+      type: Fantas.Physics.RaycastHit[]
       description: ''
-    content.vb: Public Function RaycastBodies(rayStart As PointF, rayEnd As PointF, categories As Integer) As IReadOnlyList(Of RaycastHit)
+    content.vb: Public Function RaycastBodies(rayStart As PointF, rayEnd As PointF, categories As Integer) As RaycastHit()
   overload: Fantas.Physics.PhysicsWorld.RaycastBodies*
   nameWithType.vb: PhysicsWorld.RaycastBodies(PointF, PointF, Integer)
   fullName.vb: Fantas.Physics.PhysicsWorld.RaycastBodies(System.Drawing.PointF, System.Drawing.PointF, Integer)
@@ -493,7 +493,7 @@ items:
   fullName: Fantas.Physics.PhysicsWorld.Raycast(System.Drawing.PointF, System.Drawing.PointF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/PhysicsWorld.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/PhysicsWorld.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -525,7 +525,7 @@ items:
   fullName: Fantas.Physics.PhysicsWorld.RemoveAllJoints()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/PhysicsWorld.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/PhysicsWorld.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -547,7 +547,7 @@ items:
   fullName: Fantas.Physics.PhysicsWorld.RemoveJoint(Fantas.Physics.PhysicsJoint)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/PhysicsWorld.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/PhysicsWorld.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -573,7 +573,7 @@ items:
   fullName: Fantas.Physics.PhysicsWorld.Gravity
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/PhysicsWorld.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/PhysicsWorld.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -598,7 +598,7 @@ items:
   fullName: Fantas.Physics.PhysicsWorld.Speed
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/PhysicsWorld.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/PhysicsWorld.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -623,7 +623,7 @@ items:
   fullName: Fantas.Physics.PhysicsWorld.Iterations
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/PhysicsWorld.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/PhysicsWorld.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -655,7 +655,7 @@ items:
   fullName: Fantas.Physics.PhysicsWorld.DefaultCollisionHandler
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/PhysicsWorld.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/PhysicsWorld.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -1030,106 +1030,29 @@ references:
   name: EnumarateBodies
   nameWithType: PhysicsWorld.EnumarateBodies
   fullName: Fantas.Physics.PhysicsWorld.EnumarateBodies
-- uid: System.Collections.Generic.IReadOnlyList{Fantas.Physics.PhysicsBody}
-  commentId: T:System.Collections.Generic.IReadOnlyList{Fantas.Physics.PhysicsBody}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.IReadOnlyList`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
-  name: IReadOnlyList<PhysicsBody>
-  nameWithType: IReadOnlyList<PhysicsBody>
-  fullName: System.Collections.Generic.IReadOnlyList<Fantas.Physics.PhysicsBody>
-  nameWithType.vb: IReadOnlyList(Of PhysicsBody)
-  fullName.vb: System.Collections.Generic.IReadOnlyList(Of Fantas.Physics.PhysicsBody)
-  name.vb: IReadOnlyList(Of PhysicsBody)
+- uid: Fantas.Physics.PhysicsBody[]
+  isExternal: true
+  href: Fantas.Physics.PhysicsBody.html
+  name: PhysicsBody[]
+  nameWithType: PhysicsBody[]
+  fullName: Fantas.Physics.PhysicsBody[]
+  nameWithType.vb: PhysicsBody()
+  fullName.vb: Fantas.Physics.PhysicsBody()
+  name.vb: PhysicsBody()
   spec.csharp:
-  - uid: System.Collections.Generic.IReadOnlyList`1
-    name: IReadOnlyList
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
-  - name: <
   - uid: Fantas.Physics.PhysicsBody
     name: PhysicsBody
     isExternal: true
     href: Fantas.Physics.PhysicsBody.html
-  - name: '>'
+  - name: '['
+  - name: ']'
   spec.vb:
-  - uid: System.Collections.Generic.IReadOnlyList`1
-    name: IReadOnlyList
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
-  - name: (
-  - name: Of
-  - name: " "
   - uid: Fantas.Physics.PhysicsBody
     name: PhysicsBody
     isExternal: true
     href: Fantas.Physics.PhysicsBody.html
-  - name: )
-- uid: System.Collections.Generic.IReadOnlyList`1
-  commentId: T:System.Collections.Generic.IReadOnlyList`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
-  name: IReadOnlyList<T>
-  nameWithType: IReadOnlyList<T>
-  fullName: System.Collections.Generic.IReadOnlyList<T>
-  nameWithType.vb: IReadOnlyList(Of T)
-  fullName.vb: System.Collections.Generic.IReadOnlyList(Of T)
-  name.vb: IReadOnlyList(Of T)
-  spec.csharp:
-  - uid: System.Collections.Generic.IReadOnlyList`1
-    name: IReadOnlyList
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
-  - name: <
-  - name: T
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.IReadOnlyList`1
-    name: IReadOnlyList
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
   - name: (
-  - name: Of
-  - name: " "
-  - name: T
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: Fantas.Physics.PhysicsWorld.RaycastBodies*
   commentId: Overload:Fantas.Physics.PhysicsWorld.RaycastBodies
   isExternal: true
@@ -1137,40 +1060,28 @@ references:
   name: RaycastBodies
   nameWithType: PhysicsWorld.RaycastBodies
   fullName: Fantas.Physics.PhysicsWorld.RaycastBodies
-- uid: System.Collections.Generic.IReadOnlyList{Fantas.Physics.RaycastHit}
-  commentId: T:System.Collections.Generic.IReadOnlyList{Fantas.Physics.RaycastHit}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.IReadOnlyList`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
-  name: IReadOnlyList<RaycastHit>
-  nameWithType: IReadOnlyList<RaycastHit>
-  fullName: System.Collections.Generic.IReadOnlyList<Fantas.Physics.RaycastHit>
-  nameWithType.vb: IReadOnlyList(Of RaycastHit)
-  fullName.vb: System.Collections.Generic.IReadOnlyList(Of Fantas.Physics.RaycastHit)
-  name.vb: IReadOnlyList(Of RaycastHit)
+- uid: Fantas.Physics.RaycastHit[]
+  isExternal: true
+  href: Fantas.Physics.RaycastHit.html
+  name: RaycastHit[]
+  nameWithType: RaycastHit[]
+  fullName: Fantas.Physics.RaycastHit[]
+  nameWithType.vb: RaycastHit()
+  fullName.vb: Fantas.Physics.RaycastHit()
+  name.vb: RaycastHit()
   spec.csharp:
-  - uid: System.Collections.Generic.IReadOnlyList`1
-    name: IReadOnlyList
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
-  - name: <
   - uid: Fantas.Physics.RaycastHit
     name: RaycastHit
     isExternal: true
     href: Fantas.Physics.RaycastHit.html
-  - name: '>'
+  - name: '['
+  - name: ']'
   spec.vb:
-  - uid: System.Collections.Generic.IReadOnlyList`1
-    name: IReadOnlyList
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
-  - name: (
-  - name: Of
-  - name: " "
   - uid: Fantas.Physics.RaycastHit
     name: RaycastHit
     isExternal: true
     href: Fantas.Physics.RaycastHit.html
+  - name: (
   - name: )
 - uid: Fantas.Physics.PhysicsWorld.RemoveAllJoints*
   commentId: Overload:Fantas.Physics.PhysicsWorld.RemoveAllJoints

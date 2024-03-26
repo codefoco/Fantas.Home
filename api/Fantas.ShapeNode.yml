@@ -19,7 +19,7 @@ items:
   fullName: Fantas.ShapeNode
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/ShapeNodes/ShapeNode.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/ShapeNodes/ShapeNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -52,7 +52,7 @@ items:
   - Fantas.Node.MoveToParent(Fantas.Node)
   - Fantas.Node.RemoveFromParent
   - Fantas.Node.RemoveAllChildren
-  - Fantas.Node.RemoveChildren(System.Collections.Generic.IReadOnlyList{Fantas.Node})
+  - Fantas.Node.RemoveChildren(Fantas.Node[])
   - Fantas.Node.RemoveChild(Fantas.Node)
   - Fantas.Node.InParentHierarchy(Fantas.Node)
   - Fantas.Node.RunAnimation(Fantas.Animation)
@@ -160,7 +160,7 @@ items:
   fullName: Fantas.ShapeNode.ShapeNode(Fantas.ShapeNode)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/ShapeNodes/ShapeNode.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/ShapeNodes/ShapeNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -189,7 +189,7 @@ items:
   fullName: Fantas.ShapeNode.StrokeColor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/ShapeNodes/ShapeNode.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/ShapeNodes/ShapeNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -214,7 +214,7 @@ items:
   fullName: Fantas.ShapeNode.FillColor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/ShapeNodes/ShapeNode.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/ShapeNodes/ShapeNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -239,7 +239,7 @@ items:
   fullName: Fantas.ShapeNode.BlendMode
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/ShapeNodes/ShapeNode.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/ShapeNodes/ShapeNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -264,7 +264,7 @@ items:
   fullName: Fantas.ShapeNode.LineWidth
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/ShapeNodes/ShapeNode.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/ShapeNodes/ShapeNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -289,7 +289,7 @@ items:
   fullName: Fantas.ShapeNode.Antialiased
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/ShapeNodes/ShapeNode.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/ShapeNodes/ShapeNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -770,51 +770,41 @@ references:
     href: Fantas.Node.html#Fantas_Node_RemoveAllChildren
   - name: (
   - name: )
-- uid: Fantas.Node.RemoveChildren(System.Collections.Generic.IReadOnlyList{Fantas.Node})
-  commentId: M:Fantas.Node.RemoveChildren(System.Collections.Generic.IReadOnlyList{Fantas.Node})
+- uid: Fantas.Node.RemoveChildren(Fantas.Node[])
+  commentId: M:Fantas.Node.RemoveChildren(Fantas.Node[])
   parent: Fantas.Node
   isExternal: true
-  href: Fantas.Node.html#Fantas_Node_RemoveChildren_System_Collections_Generic_IReadOnlyList_Fantas_Node__
-  name: RemoveChildren(IReadOnlyList<Node>)
-  nameWithType: Node.RemoveChildren(IReadOnlyList<Node>)
-  fullName: Fantas.Node.RemoveChildren(System.Collections.Generic.IReadOnlyList<Fantas.Node>)
-  nameWithType.vb: Node.RemoveChildren(IReadOnlyList(Of Node))
-  fullName.vb: Fantas.Node.RemoveChildren(System.Collections.Generic.IReadOnlyList(Of Fantas.Node))
-  name.vb: RemoveChildren(IReadOnlyList(Of Node))
+  href: Fantas.Node.html#Fantas_Node_RemoveChildren_Fantas_Node___
+  name: RemoveChildren(Node[])
+  nameWithType: Node.RemoveChildren(Node[])
+  fullName: Fantas.Node.RemoveChildren(Fantas.Node[])
+  nameWithType.vb: Node.RemoveChildren(Node())
+  fullName.vb: Fantas.Node.RemoveChildren(Fantas.Node())
+  name.vb: RemoveChildren(Node())
   spec.csharp:
-  - uid: Fantas.Node.RemoveChildren(System.Collections.Generic.IReadOnlyList{Fantas.Node})
+  - uid: Fantas.Node.RemoveChildren(Fantas.Node[])
     name: RemoveChildren
     isExternal: true
-    href: Fantas.Node.html#Fantas_Node_RemoveChildren_System_Collections_Generic_IReadOnlyList_Fantas_Node__
+    href: Fantas.Node.html#Fantas_Node_RemoveChildren_Fantas_Node___
   - name: (
-  - uid: System.Collections.Generic.IReadOnlyList`1
-    name: IReadOnlyList
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
-  - name: <
   - uid: Fantas.Node
     name: Node
     isExternal: true
     href: Fantas.Node.html
-  - name: '>'
+  - name: '['
+  - name: ']'
   - name: )
   spec.vb:
-  - uid: Fantas.Node.RemoveChildren(System.Collections.Generic.IReadOnlyList{Fantas.Node})
+  - uid: Fantas.Node.RemoveChildren(Fantas.Node[])
     name: RemoveChildren
     isExternal: true
-    href: Fantas.Node.html#Fantas_Node_RemoveChildren_System_Collections_Generic_IReadOnlyList_Fantas_Node__
+    href: Fantas.Node.html#Fantas_Node_RemoveChildren_Fantas_Node___
   - name: (
-  - uid: System.Collections.Generic.IReadOnlyList`1
-    name: IReadOnlyList
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
-  - name: (
-  - name: Of
-  - name: " "
   - uid: Fantas.Node
     name: Node
     isExternal: true
     href: Fantas.Node.html
+  - name: (
   - name: )
   - name: )
 - uid: Fantas.Node.RemoveChild(Fantas.Node)

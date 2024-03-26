@@ -5,24 +5,35 @@ items:
   id: Texture
   parent: Fantas
   children:
+  - Fantas.Texture.ColorPixelData
   - Fantas.Texture.CreateSubTexture(System.Drawing.RectangleF,Fantas.Texture)
+  - Fantas.Texture.CreateSubTexture(System.Int32,System.Int32,System.Int32,System.Int32,Fantas.Texture)
   - Fantas.Texture.Dispose
   - Fantas.Texture.EncodeToPNG
   - Fantas.Texture.Finalize
   - Fantas.Texture.FromAsset(System.String)
+  - Fantas.Texture.FromColorPixel(System.Drawing.Color)
   - Fantas.Texture.FromFile(System.String)
   - Fantas.Texture.FromFile(System.String,System.Single)
   - Fantas.Texture.FromName(System.String)
+  - Fantas.Texture.FromPixelData(System.Drawing.Color[],System.Int32,System.Int32)
+  - Fantas.Texture.FromPixelData(System.Int32[],System.Int32,System.Int32)
   - Fantas.Texture.FromResource(System.Reflection.Assembly,System.String,System.Single)
   - Fantas.Texture.FromResource(System.String)
   - Fantas.Texture.FromResource(System.String,System.Single)
   - Fantas.Texture.FromResourceCached(System.Reflection.Assembly,System.String,System.Single)
   - Fantas.Texture.FromStream(System.IO.Stream,System.Single)
+  - Fantas.Texture.Height
+  - Fantas.Texture.PixelData
   - Fantas.Texture.PixelTexture
+  - Fantas.Texture.RawHeight
   - Fantas.Texture.RawSize
+  - Fantas.Texture.RawWidth
   - Fantas.Texture.RemoveTextureFromCache(Fantas.Texture)
   - Fantas.Texture.Size
   - Fantas.Texture.SparkTexture
+  - Fantas.Texture.TextureRectangle
+  - Fantas.Texture.Width
   langs:
   - csharp
   - vb
@@ -31,7 +42,7 @@ items:
   fullName: Fantas.Texture
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -63,7 +74,7 @@ items:
   fullName: Fantas.Texture.EncodeToPNG()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -88,7 +99,7 @@ items:
   fullName: Fantas.Texture.FromAsset(string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -131,7 +142,7 @@ items:
   fullName: Fantas.Texture.FromResource(System.Reflection.Assembly, string, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -172,7 +183,7 @@ items:
   fullName: Fantas.Texture.FromResourceCached(System.Reflection.Assembly, string, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -210,7 +221,7 @@ items:
   fullName: Fantas.Texture.RemoveTextureFromCache(Fantas.Texture)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -236,11 +247,11 @@ items:
   fullName: Fantas.Texture.CreateSubTexture(System.Drawing.RectangleF, Fantas.Texture)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
-  summary: Create a sub texture from a texture
+  summary: Create a sub texture from a texture with Rectangle based on 0 - 1f
   example: []
   syntax:
     content: public static Texture CreateSubTexture(RectangleF rectangle, Texture texture)
@@ -256,6 +267,50 @@ items:
       description: ''
     content.vb: Public Shared Function CreateSubTexture(rectangle As RectangleF, texture As Texture) As Texture
   overload: Fantas.Texture.CreateSubTexture*
+- uid: Fantas.Texture.CreateSubTexture(System.Int32,System.Int32,System.Int32,System.Int32,Fantas.Texture)
+  commentId: M:Fantas.Texture.CreateSubTexture(System.Int32,System.Int32,System.Int32,System.Int32,Fantas.Texture)
+  id: CreateSubTexture(System.Int32,System.Int32,System.Int32,System.Int32,Fantas.Texture)
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: CreateSubTexture(int, int, int, int, Texture)
+  nameWithType: Texture.CreateSubTexture(int, int, int, int, Texture)
+  fullName: Fantas.Texture.CreateSubTexture(int, int, int, int, Fantas.Texture)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Create sub texture using integer coordinates
+  example: []
+  syntax:
+    content: public static Texture CreateSubTexture(int x, int y, int width, int heigh, Texture texture)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: ''
+    - id: y
+      type: System.Int32
+      description: ''
+    - id: width
+      type: System.Int32
+      description: ''
+    - id: heigh
+      type: System.Int32
+      description: ''
+    - id: texture
+      type: Fantas.Texture
+      description: ''
+    return:
+      type: Fantas.Texture
+      description: ''
+    content.vb: Public Shared Function CreateSubTexture(x As Integer, y As Integer, width As Integer, heigh As Integer, texture As Texture) As Texture
+  overload: Fantas.Texture.CreateSubTexture*
+  nameWithType.vb: Texture.CreateSubTexture(Integer, Integer, Integer, Integer, Texture)
+  fullName.vb: Fantas.Texture.CreateSubTexture(Integer, Integer, Integer, Integer, Fantas.Texture)
+  name.vb: CreateSubTexture(Integer, Integer, Integer, Integer, Texture)
 - uid: Fantas.Texture.FromResource(System.String)
   commentId: M:Fantas.Texture.FromResource(System.String)
   id: FromResource(System.String)
@@ -268,7 +323,7 @@ items:
   fullName: Fantas.Texture.FromResource(string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -303,7 +358,7 @@ items:
   fullName: Fantas.Texture.FromResource(string, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -341,7 +396,7 @@ items:
   fullName: Fantas.Texture.FromStream(System.IO.Stream, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -367,6 +422,122 @@ items:
   nameWithType.vb: Texture.FromStream(Stream, Single)
   fullName.vb: Fantas.Texture.FromStream(System.IO.Stream, Single)
   name.vb: FromStream(Stream, Single)
+- uid: Fantas.Texture.FromPixelData(System.Int32[],System.Int32,System.Int32)
+  commentId: M:Fantas.Texture.FromPixelData(System.Int32[],System.Int32,System.Int32)
+  id: FromPixelData(System.Int32[],System.Int32,System.Int32)
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: FromPixelData(int[], int, int)
+  nameWithType: Texture.FromPixelData(int[], int, int)
+  fullName: Fantas.Texture.FromPixelData(int[], int, int)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Create an Texture from pixel data
+  example: []
+  syntax:
+    content: public static Texture FromPixelData(int[] pixelData, int width, int height)
+    parameters:
+    - id: pixelData
+      type: System.Int32[]
+      description: pixel data with color encoded as 0xAARRGGBB
+    - id: width
+      type: System.Int32
+      description: texture width
+    - id: height
+      type: System.Int32
+      description: texture height
+    return:
+      type: Fantas.Texture
+      description: ''
+    content.vb: Public Shared Function FromPixelData(pixelData As Integer(), width As Integer, height As Integer) As Texture
+  overload: Fantas.Texture.FromPixelData*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: ''
+  nameWithType.vb: Texture.FromPixelData(Integer(), Integer, Integer)
+  fullName.vb: Fantas.Texture.FromPixelData(Integer(), Integer, Integer)
+  name.vb: FromPixelData(Integer(), Integer, Integer)
+- uid: Fantas.Texture.FromColorPixel(System.Drawing.Color)
+  commentId: M:Fantas.Texture.FromColorPixel(System.Drawing.Color)
+  id: FromColorPixel(System.Drawing.Color)
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: FromColorPixel(Color)
+  nameWithType: Texture.FromColorPixel(Color)
+  fullName: Fantas.Texture.FromColorPixel(System.Drawing.Color)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Create 1x1 color texture
+  example: []
+  syntax:
+    content: public static Texture FromColorPixel(Color color)
+    parameters:
+    - id: color
+      type: System.Drawing.Color
+      description: ''
+    return:
+      type: Fantas.Texture
+      description: ''
+    content.vb: Public Shared Function FromColorPixel(color As Color) As Texture
+  overload: Fantas.Texture.FromColorPixel*
+- uid: Fantas.Texture.FromPixelData(System.Drawing.Color[],System.Int32,System.Int32)
+  commentId: M:Fantas.Texture.FromPixelData(System.Drawing.Color[],System.Int32,System.Int32)
+  id: FromPixelData(System.Drawing.Color[],System.Int32,System.Int32)
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: FromPixelData(Color[], int, int)
+  nameWithType: Texture.FromPixelData(Color[], int, int)
+  fullName: Fantas.Texture.FromPixelData(System.Drawing.Color[], int, int)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Create an Texture from pixel data
+  example: []
+  syntax:
+    content: public static Texture FromPixelData(Color[] pixelData, int width, int height)
+    parameters:
+    - id: pixelData
+      type: System.Drawing.Color[]
+      description: pixel data with color as Color array
+    - id: width
+      type: System.Int32
+      description: ''
+    - id: height
+      type: System.Int32
+      description: ''
+    return:
+      type: Fantas.Texture
+      description: ''
+    content.vb: Public Shared Function FromPixelData(pixelData As Color(), width As Integer, height As Integer) As Texture
+  overload: Fantas.Texture.FromPixelData*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: ''
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: ''
+  nameWithType.vb: Texture.FromPixelData(Color(), Integer, Integer)
+  fullName.vb: Fantas.Texture.FromPixelData(System.Drawing.Color(), Integer, Integer)
+  name.vb: FromPixelData(Color(), Integer, Integer)
 - uid: Fantas.Texture.FromFile(System.String,System.Single)
   commentId: M:Fantas.Texture.FromFile(System.String,System.Single)
   id: FromFile(System.String,System.Single)
@@ -379,7 +550,7 @@ items:
   fullName: Fantas.Texture.FromFile(string, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -414,7 +585,7 @@ items:
   fullName: Fantas.Texture.FromFile(string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -446,7 +617,7 @@ items:
   fullName: Fantas.Texture.FromName(string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -489,7 +660,7 @@ items:
   fullName: Fantas.Texture.~Texture()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -514,7 +685,7 @@ items:
   fullName: Fantas.Texture.Dispose()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -538,7 +709,7 @@ items:
   fullName: Fantas.Texture.PixelTexture
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -563,7 +734,7 @@ items:
   fullName: Fantas.Texture.SparkTexture
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -588,7 +759,7 @@ items:
   fullName: Fantas.Texture.Size
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -601,6 +772,106 @@ items:
       type: System.Drawing.SizeF
     content.vb: Public ReadOnly Property Size As SizeF
   overload: Fantas.Texture.Size*
+- uid: Fantas.Texture.Width
+  commentId: P:Fantas.Texture.Width
+  id: Width
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: Texture.Width
+  fullName: Fantas.Texture.Width
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Texture width
+  example: []
+  syntax:
+    content: public float Width { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Width As Single
+  overload: Fantas.Texture.Width*
+- uid: Fantas.Texture.RawWidth
+  commentId: P:Fantas.Texture.RawWidth
+  id: RawWidth
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: RawWidth
+  nameWithType: Texture.RawWidth
+  fullName: Fantas.Texture.RawWidth
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Texture Raw width (independent of retina scale)
+  example: []
+  syntax:
+    content: public float RawWidth { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property RawWidth As Single
+  overload: Fantas.Texture.RawWidth*
+- uid: Fantas.Texture.Height
+  commentId: P:Fantas.Texture.Height
+  id: Height
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: Texture.Height
+  fullName: Fantas.Texture.Height
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: ''
+  example: []
+  syntax:
+    content: public float Height { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Height As Single
+  overload: Fantas.Texture.Height*
+- uid: Fantas.Texture.RawHeight
+  commentId: P:Fantas.Texture.RawHeight
+  id: RawHeight
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: RawHeight
+  nameWithType: Texture.RawHeight
+  fullName: Fantas.Texture.RawHeight
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Texture Raw height (independent of retina scale)
+  example: []
+  syntax:
+    content: public float RawHeight { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property RawHeight As Single
+  overload: Fantas.Texture.RawHeight*
 - uid: Fantas.Texture.RawSize
   commentId: P:Fantas.Texture.RawSize
   id: RawSize
@@ -613,7 +884,7 @@ items:
   fullName: Fantas.Texture.RawSize
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -626,6 +897,81 @@ items:
       type: System.Drawing.SizeF
     content.vb: Public ReadOnly Property RawSize As SizeF
   overload: Fantas.Texture.RawSize*
+- uid: Fantas.Texture.TextureRectangle
+  commentId: P:Fantas.Texture.TextureRectangle
+  id: TextureRectangle
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: TextureRectangle
+  nameWithType: Texture.TextureRectangle
+  fullName: Fantas.Texture.TextureRectangle
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Texture rectangle inside if is subtexture or texture from atlas
+  example: []
+  syntax:
+    content: public RectangleF TextureRectangle { get; }
+    parameters: []
+    return:
+      type: System.Drawing.RectangleF
+    content.vb: Public ReadOnly Property TextureRectangle As RectangleF
+  overload: Fantas.Texture.TextureRectangle*
+- uid: Fantas.Texture.PixelData
+  commentId: P:Fantas.Texture.PixelData
+  id: PixelData
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: PixelData
+  nameWithType: Texture.PixelData
+  fullName: Fantas.Texture.PixelData
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Get pixel data as int[]
+  example: []
+  syntax:
+    content: public int[] PixelData { get; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public ReadOnly Property PixelData As Integer()
+  overload: Fantas.Texture.PixelData*
+- uid: Fantas.Texture.ColorPixelData
+  commentId: P:Fantas.Texture.ColorPixelData
+  id: ColorPixelData
+  parent: Fantas.Texture
+  langs:
+  - csharp
+  - vb
+  name: ColorPixelData
+  nameWithType: Texture.ColorPixelData
+  fullName: Fantas.Texture.ColorPixelData
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Texture/Texture.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Get pixel data as int[]
+  example: []
+  syntax:
+    content: public Color[] ColorPixelData { get; }
+    parameters: []
+    return:
+      type: System.Drawing.Color[]
+    content.vb: Public ReadOnly Property ColorPixelData As Color()
+  overload: Fantas.Texture.ColorPixelData*
 references:
 - uid: Fantas
   commentId: N:Fantas
@@ -1020,6 +1366,17 @@ references:
     name: Drawing
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Fantas.Texture.FromStream*
   commentId: Overload:Fantas.Texture.FromStream
   isExternal: true
@@ -1062,6 +1419,88 @@ references:
     name: IO
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
+- uid: Fantas.Texture.FromPixelData*
+  commentId: Overload:Fantas.Texture.FromPixelData
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_FromPixelData_System_Int32___System_Int32_System_Int32_
+  name: FromPixelData
+  nameWithType: Texture.FromPixelData
+  fullName: Fantas.Texture.FromPixelData
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: Fantas.Texture.FromColorPixel*
+  commentId: Overload:Fantas.Texture.FromColorPixel
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_FromColorPixel_System_Drawing_Color_
+  name: FromColorPixel
+  nameWithType: Texture.FromColorPixel
+  fullName: Fantas.Texture.FromColorPixel
+- uid: System.Drawing.Color
+  commentId: T:System.Drawing.Color
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentexception
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
+- uid: System.Drawing.Color[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: Color[]
+  nameWithType: Color[]
+  fullName: System.Drawing.Color[]
+  nameWithType.vb: Color()
+  fullName.vb: System.Drawing.Color()
+  name.vb: Color()
+  spec.csharp:
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: (
+  - name: )
 - uid: Fantas.Texture.FromFile*
   commentId: Overload:Fantas.Texture.FromFile
   isExternal: true
@@ -1147,6 +1586,34 @@ references:
   name: SizeF
   nameWithType: SizeF
   fullName: System.Drawing.SizeF
+- uid: Fantas.Texture.Width*
+  commentId: Overload:Fantas.Texture.Width
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_Width
+  name: Width
+  nameWithType: Texture.Width
+  fullName: Fantas.Texture.Width
+- uid: Fantas.Texture.RawWidth*
+  commentId: Overload:Fantas.Texture.RawWidth
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_RawWidth
+  name: RawWidth
+  nameWithType: Texture.RawWidth
+  fullName: Fantas.Texture.RawWidth
+- uid: Fantas.Texture.Height*
+  commentId: Overload:Fantas.Texture.Height
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_Height
+  name: Height
+  nameWithType: Texture.Height
+  fullName: Fantas.Texture.Height
+- uid: Fantas.Texture.RawHeight*
+  commentId: Overload:Fantas.Texture.RawHeight
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_RawHeight
+  name: RawHeight
+  nameWithType: Texture.RawHeight
+  fullName: Fantas.Texture.RawHeight
 - uid: Fantas.Texture.RawSize*
   commentId: Overload:Fantas.Texture.RawSize
   isExternal: true
@@ -1154,3 +1621,24 @@ references:
   name: RawSize
   nameWithType: Texture.RawSize
   fullName: Fantas.Texture.RawSize
+- uid: Fantas.Texture.TextureRectangle*
+  commentId: Overload:Fantas.Texture.TextureRectangle
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_TextureRectangle
+  name: TextureRectangle
+  nameWithType: Texture.TextureRectangle
+  fullName: Fantas.Texture.TextureRectangle
+- uid: Fantas.Texture.PixelData*
+  commentId: Overload:Fantas.Texture.PixelData
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_PixelData
+  name: PixelData
+  nameWithType: Texture.PixelData
+  fullName: Fantas.Texture.PixelData
+- uid: Fantas.Texture.ColorPixelData*
+  commentId: Overload:Fantas.Texture.ColorPixelData
+  isExternal: true
+  href: Fantas.Texture.html#Fantas_Texture_ColorPixelData
+  name: ColorPixelData
+  nameWithType: Texture.ColorPixelData
+  fullName: Fantas.Texture.ColorPixelData

@@ -17,7 +17,7 @@ items:
   fullName: Fantas.LabelVerticalAlignmentMode
   type: Enum
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/LabelVerticalAlignmentMode.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/LabelVerticalAlignmentMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -38,7 +38,7 @@ items:
   fullName: Fantas.LabelVerticalAlignmentMode.Baseline
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/LabelVerticalAlignmentMode.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/LabelVerticalAlignmentMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -60,7 +60,7 @@ items:
   fullName: Fantas.LabelVerticalAlignmentMode.Center
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/LabelVerticalAlignmentMode.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/LabelVerticalAlignmentMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -82,7 +82,7 @@ items:
   fullName: Fantas.LabelVerticalAlignmentMode.Top
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/LabelVerticalAlignmentMode.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/LabelVerticalAlignmentMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -104,7 +104,7 @@ items:
   fullName: Fantas.LabelVerticalAlignmentMode.Bottom
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/LabelVerticalAlignmentMode.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/LabelVerticalAlignmentMode.cs
   assemblies:
   - Fantas
   namespace: Fantas

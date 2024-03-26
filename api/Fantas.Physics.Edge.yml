@@ -14,7 +14,7 @@ items:
   fullName: Fantas.Physics.Edge
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/Bodies/Edge.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/Bodies/Edge.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -70,7 +70,7 @@ items:
   fullName: Fantas.Physics.Edge.Edge(System.Drawing.PointF, System.Drawing.PointF)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/Bodies/Edge.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/Bodies/Edge.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics

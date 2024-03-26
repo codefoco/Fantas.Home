@@ -21,7 +21,7 @@ items:
   fullName: Fantas.ColorExtensions
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/ColorExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Extensions/ColorExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -60,7 +60,7 @@ items:
   fullName: Fantas.ColorExtensions.FromHSL(float, float, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/ColorExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Extensions/ColorExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -99,7 +99,7 @@ items:
   fullName: Fantas.ColorExtensions.ToHSL(System.Drawing.Color, out float, out float, out float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/ColorExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Extensions/ColorExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -138,7 +138,7 @@ items:
   fullName: Fantas.ColorExtensions.WithRotatedHue(System.Drawing.Color, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/ColorExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Extensions/ColorExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -173,7 +173,7 @@ items:
   fullName: Fantas.ColorExtensions.WithSaturation(System.Drawing.Color, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/ColorExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Extensions/ColorExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -209,7 +209,7 @@ items:
   fullName: Fantas.ColorExtensions.WithBrightness(System.Drawing.Color, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/ColorExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Extensions/ColorExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -244,7 +244,7 @@ items:
   fullName: Fantas.ColorExtensions.Invert(System.Drawing.Color)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/ColorExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Extensions/ColorExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -277,7 +277,7 @@ items:
   fullName: Fantas.ColorExtensions.Lerp(System.Drawing.Color, System.Drawing.Color, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/ColorExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Extensions/ColorExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -316,7 +316,7 @@ items:
   fullName: Fantas.ColorExtensions.WithAlpha(System.Drawing.Color, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Extensions/ColorExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Extensions/ColorExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas

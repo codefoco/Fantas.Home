@@ -16,7 +16,7 @@ items:
   fullName: Fantas.LabelHorizontalAlignmentMode
   type: Enum
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/LabelHorizontalAlignmentMode.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/LabelHorizontalAlignmentMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -37,7 +37,7 @@ items:
   fullName: Fantas.LabelHorizontalAlignmentMode.Center
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/LabelHorizontalAlignmentMode.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/LabelHorizontalAlignmentMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -59,7 +59,7 @@ items:
   fullName: Fantas.LabelHorizontalAlignmentMode.Left
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/LabelHorizontalAlignmentMode.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/LabelHorizontalAlignmentMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -81,7 +81,7 @@ items:
   fullName: Fantas.LabelHorizontalAlignmentMode.Right
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/LabelHorizontalAlignmentMode.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/LabelHorizontalAlignmentMode.cs
   assemblies:
   - Fantas
   namespace: Fantas

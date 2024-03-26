@@ -19,7 +19,7 @@ items:
   fullName: Fantas.Input.MouseButtons
   type: Enum
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Mouse/MouseButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/MouseButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -50,7 +50,7 @@ items:
   fullName: Fantas.Input.MouseButtons.None
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Mouse/MouseButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/MouseButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -72,7 +72,7 @@ items:
   fullName: Fantas.Input.MouseButtons.Left
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Mouse/MouseButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/MouseButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -94,7 +94,7 @@ items:
   fullName: Fantas.Input.MouseButtons.Right
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Mouse/MouseButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/MouseButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -116,7 +116,7 @@ items:
   fullName: Fantas.Input.MouseButtons.Middle
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Mouse/MouseButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/MouseButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -138,7 +138,7 @@ items:
   fullName: Fantas.Input.MouseButtons.X1
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Mouse/MouseButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/MouseButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -160,7 +160,7 @@ items:
   fullName: Fantas.Input.MouseButtons.X2
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Mouse/MouseButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/MouseButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input

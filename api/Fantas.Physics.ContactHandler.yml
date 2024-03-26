@@ -15,7 +15,7 @@ items:
   fullName: Fantas.Physics.ContactHandler
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/Contact/ContactHandler.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/Contact/ContactHandler.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -45,7 +45,7 @@ items:
   fullName: Fantas.Physics.ContactHandler.OnContactBegin
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/Contact/ContactHandler.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/Contact/ContactHandler.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -70,7 +70,7 @@ items:
   fullName: Fantas.Physics.ContactHandler.OnContactEnd
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Physics/Contact/ContactHandler.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/Contact/ContactHandler.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics

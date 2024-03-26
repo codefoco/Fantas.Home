@@ -15,7 +15,7 @@ items:
   fullName: Fantas.Input.TapEventArgs
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Touch/TapEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Touch/TapEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -48,7 +48,7 @@ items:
   fullName: Fantas.Input.TapEventArgs.TapEventArgs(System.Drawing.PointF)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Touch/TapEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Touch/TapEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -76,7 +76,7 @@ items:
   fullName: Fantas.Input.TapEventArgs.Location
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/84aabcf7f3d199e9af3be9a213ee71d5e805419d/src/Input/Touch/TapEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Touch/TapEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
