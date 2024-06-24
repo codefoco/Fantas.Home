@@ -8959,6 +8959,18 @@ references:
   commentId: Overload:Fantas.Scene.Finish
   fullName: Fantas.Scene.Finish
   nameWithType: Scene.Finish
+- uid: Fantas.Scene.FirstHitTest(System.Drawing.PointF)
+  name: FirstHitTest(PointF)
+  href: api/Fantas.Scene.html#Fantas_Scene_FirstHitTest_System_Drawing_PointF_
+  commentId: M:Fantas.Scene.FirstHitTest(System.Drawing.PointF)
+  fullName: Fantas.Scene.FirstHitTest(System.Drawing.PointF)
+  nameWithType: Scene.FirstHitTest(PointF)
+- uid: Fantas.Scene.FirstHitTest*
+  name: FirstHitTest
+  href: api/Fantas.Scene.html#Fantas_Scene_FirstHitTest_
+  commentId: Overload:Fantas.Scene.FirstHitTest
+  fullName: Fantas.Scene.FirstHitTest
+  nameWithType: Scene.FirstHitTest
 - uid: Fantas.Scene.KeyDown
   name: KeyDown
   href: api/Fantas.Scene.html#Fantas_Scene_KeyDown

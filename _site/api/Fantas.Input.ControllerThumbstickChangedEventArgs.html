@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Fantas_Input_ControllerThumbstickChangedEventArgs" data-uid="Fantas.Input.ControllerThumbstickChangedEventArgs" class="text-break">
-Class ControllerThumbstickChangedEventArgs  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Controller/ControllerThumbstickChangedEventArgs.cs"><i class="bi bi-code-slash"></i></a>
+Class ControllerThumbstickChangedEventArgs  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Controller/ControllerThumbstickChangedEventArgs.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -161,7 +161,7 @@ Class ControllerThumbstickChangedEventArgs  <a class="header-action link-seconda
 
   <h3 id="Fantas_Input_ControllerThumbstickChangedEventArgs__ctor_System_Numerics_Vector2_System_Int32_" data-uid="Fantas.Input.ControllerThumbstickChangedEventArgs.#ctor(System.Numerics.Vector2,System.Int32)">
   ControllerThumbstickChangedEventArgs(Vector2, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Controller/ControllerThumbstickChangedEventArgs.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Controller/ControllerThumbstickChangedEventArgs.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initialize ControllerThumbstickChangedEventArgs</p>
@@ -199,7 +199,7 @@ Class ControllerThumbstickChangedEventArgs  <a class="header-action link-seconda
 
   <h3 id="Fantas_Input_ControllerThumbstickChangedEventArgs_ControllerIndex" data-uid="Fantas.Input.ControllerThumbstickChangedEventArgs.ControllerIndex">
   ControllerIndex
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Controller/ControllerThumbstickChangedEventArgs.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Controller/ControllerThumbstickChangedEventArgs.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Controller Index</p>
@@ -231,7 +231,7 @@ Class ControllerThumbstickChangedEventArgs  <a class="header-action link-seconda
 
   <h3 id="Fantas_Input_ControllerThumbstickChangedEventArgs_ThumbstickValue" data-uid="Fantas.Input.ControllerThumbstickChangedEventArgs.ThumbstickValue">
   ThumbstickValue
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Controller/ControllerThumbstickChangedEventArgs.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Controller/ControllerThumbstickChangedEventArgs.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Thumbstick position</p>
@@ -263,7 +263,7 @@ Class ControllerThumbstickChangedEventArgs  <a class="header-action link-seconda
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Controller/ControllerThumbstickChangedEventArgs.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Controller/ControllerThumbstickChangedEventArgs.cs" class="edit-link">Edit this page</a>
         </div>
 
 

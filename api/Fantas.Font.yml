@@ -19,7 +19,7 @@ items:
   fullName: Fantas.Font
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Font.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Font.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -49,7 +49,7 @@ items:
   fullName: Fantas.Font.FromResource(System.Reflection.Assembly, string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Font.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Font.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -84,7 +84,7 @@ items:
   fullName: Fantas.Font.FromResource(System.Reflection.Assembly, string, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Font.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Font.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -125,7 +125,7 @@ items:
   fullName: Fantas.Font.FromCompressedResource(System.Reflection.Assembly, string, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Font.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Font.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -166,7 +166,7 @@ items:
   fullName: Fantas.Font.FromCompressedResource(System.Reflection.Assembly, string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Font.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Font.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -201,7 +201,7 @@ items:
   fullName: Fantas.Font.DefaultFont
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Font.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Font.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -226,7 +226,7 @@ items:
   fullName: Fantas.Font.Name
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Font.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Font.cs
   assemblies:
   - Fantas
   namespace: Fantas

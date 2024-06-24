@@ -880,6 +880,7 @@
   "Fantas.Scene.DoubleClick": "Fantas.Scene.yml",
   "Fantas.Scene.DoubleTap": "Fantas.Scene.yml",
   "Fantas.Scene.Finish": "Fantas.Scene.yml",
+  "Fantas.Scene.FirstHitTest(System.Drawing.PointF)": "Fantas.Scene.yml",
   "Fantas.Scene.KeyDown": "Fantas.Scene.yml",
   "Fantas.Scene.KeyUp": "Fantas.Scene.yml",
   "Fantas.Scene.LongPress": "Fantas.Scene.yml",

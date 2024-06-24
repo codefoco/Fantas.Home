@@ -21,7 +21,7 @@ items:
   fullName: Fantas.SystemPlatform
   type: Enum
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/SystemPlatform.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/SystemPlatform.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -42,7 +42,7 @@ items:
   fullName: Fantas.SystemPlatform.Unknown
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/SystemPlatform.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/SystemPlatform.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -64,7 +64,7 @@ items:
   fullName: Fantas.SystemPlatform.Windows
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/SystemPlatform.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/SystemPlatform.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -86,7 +86,7 @@ items:
   fullName: Fantas.SystemPlatform.Xbox
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/SystemPlatform.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/SystemPlatform.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -108,7 +108,7 @@ items:
   fullName: Fantas.SystemPlatform.MacOS
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/SystemPlatform.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/SystemPlatform.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -130,7 +130,7 @@ items:
   fullName: Fantas.SystemPlatform.Linux
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/SystemPlatform.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/SystemPlatform.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -152,7 +152,7 @@ items:
   fullName: Fantas.SystemPlatform.iOS
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/SystemPlatform.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/SystemPlatform.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -174,7 +174,7 @@ items:
   fullName: Fantas.SystemPlatform.tvOS
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/SystemPlatform.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/SystemPlatform.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -196,7 +196,7 @@ items:
   fullName: Fantas.SystemPlatform.Android
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/SystemPlatform.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/SystemPlatform.cs
   assemblies:
   - Fantas
   namespace: Fantas

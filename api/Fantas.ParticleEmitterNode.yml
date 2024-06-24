@@ -67,7 +67,7 @@ items:
   fullName: Fantas.ParticleEmitterNode
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -202,7 +202,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.CreateFire()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -227,7 +227,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.CreateFireworks()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -252,7 +252,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.CreateFireworks(System.Drawing.Color)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -281,7 +281,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.CreateTrail(System.Drawing.Color)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -310,7 +310,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.CreateRainbowTrail()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -335,7 +335,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.CreateMagic(System.Drawing.Color)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -364,7 +364,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.CreateRain()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -389,7 +389,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.CreateSmoke()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -414,7 +414,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.CreateSnow()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -439,7 +439,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.CreateSparks()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -464,7 +464,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.CreateConfetti()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -489,7 +489,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleEmitterNode()
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -514,7 +514,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleEmitterNode(Fantas.ParticleEmitterNode)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -542,7 +542,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.Copy()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -568,7 +568,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.AdvanceSimulationTime(double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -597,7 +597,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ResetSimulation()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -619,7 +619,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.EmissionAngle
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -644,7 +644,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.EmissionAngleRange
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -669,7 +669,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.NumParticlesToEmit
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -697,7 +697,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleAnimation
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -722,7 +722,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleAlpha
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -747,7 +747,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleAlphaRange
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -772,7 +772,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleAlphaSpeed
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -797,7 +797,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleColorRedRange
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -822,7 +822,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleColorGreenRange
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -847,7 +847,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleColorBlueRange
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -872,7 +872,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleBirthRate
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -897,7 +897,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleBlendMode
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -922,7 +922,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleColor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -947,7 +947,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleColorAlphaRange
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -972,7 +972,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleColorAlphaSpeed
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -997,7 +997,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleColorBlendFactor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1022,7 +1022,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleColorBlendFactorRange
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1047,7 +1047,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleColorBlendFactorSpeed
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1072,7 +1072,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleColorSequence
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1102,7 +1102,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleLifetime
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1127,7 +1127,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleLifetimeRange
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1152,7 +1152,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticlePosition
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1177,7 +1177,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticlePositionXRange
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1202,7 +1202,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticlePositionYRange
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1227,7 +1227,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticlePositionRange
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1252,7 +1252,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleRotation
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1277,7 +1277,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleRotationRange
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1302,7 +1302,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleRotationSpeed
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1327,7 +1327,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleScale
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1352,7 +1352,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleScaleRange
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1377,7 +1377,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleScaleSpeed
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1402,7 +1402,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleSize
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1427,7 +1427,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleSpeed
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1452,7 +1452,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleSpeedRange
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1477,7 +1477,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.ParticleTexture
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1502,7 +1502,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.TargetNode
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1527,7 +1527,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.XAcceleration
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1552,7 +1552,7 @@ items:
   fullName: Fantas.ParticleEmitterNode.YAcceleration
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/ParticleEmitterNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/ParticleEmitterNode.cs
   assemblies:
   - Fantas
   namespace: Fantas

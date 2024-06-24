@@ -30,7 +30,7 @@ items:
   fullName: Fantas.Input.Cursors
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -61,7 +61,7 @@ items:
   fullName: Fantas.Input.Cursors.Arrow
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -86,7 +86,7 @@ items:
   fullName: Fantas.Input.Cursors.Cross
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -111,7 +111,7 @@ items:
   fullName: Fantas.Input.Cursors.PointingHand
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -136,7 +136,7 @@ items:
   fullName: Fantas.Input.Cursors.OpenHand
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -161,7 +161,7 @@ items:
   fullName: Fantas.Input.Cursors.ClosedHand
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -186,7 +186,7 @@ items:
   fullName: Fantas.Input.Cursors.IBeam
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -211,7 +211,7 @@ items:
   fullName: Fantas.Input.Cursors.No
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -236,7 +236,7 @@ items:
   fullName: Fantas.Input.Cursors.SizeAll
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -261,7 +261,7 @@ items:
   fullName: Fantas.Input.Cursors.SizeNESW
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -286,7 +286,7 @@ items:
   fullName: Fantas.Input.Cursors.SizeNS
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -311,7 +311,7 @@ items:
   fullName: Fantas.Input.Cursors.SizeNWSE
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -336,7 +336,7 @@ items:
   fullName: Fantas.Input.Cursors.SizeWE
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -361,7 +361,7 @@ items:
   fullName: Fantas.Input.Cursors.RotateTopRight
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -386,7 +386,7 @@ items:
   fullName: Fantas.Input.Cursors.RotateTopLeft
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -411,7 +411,7 @@ items:
   fullName: Fantas.Input.Cursors.RotateBottomLeft
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -436,7 +436,7 @@ items:
   fullName: Fantas.Input.Cursors.RotateBottomRight
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -461,7 +461,7 @@ items:
   fullName: Fantas.Input.Cursors.Wait
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input

@@ -36,7 +36,7 @@ items:
   fullName: Fantas.AnimationTimingMode
   type: Enum
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -57,7 +57,7 @@ items:
   fullName: Fantas.AnimationTimingMode.Linear
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -79,7 +79,7 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInCubic
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -101,7 +101,7 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseOutCubic
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -123,7 +123,7 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInOutCubic
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -145,7 +145,7 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInSine
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -167,7 +167,7 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseOutSine
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -189,7 +189,7 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInOutSine
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -211,7 +211,7 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInCirc
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -233,7 +233,7 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseOutCirc
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -255,7 +255,7 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInOutCirc
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -277,7 +277,7 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInExpo
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -299,7 +299,7 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseOutExpo
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -321,7 +321,7 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInOutExpo
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -343,7 +343,7 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInBack
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -365,7 +365,7 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseOutBack
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -387,7 +387,7 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInOutBack
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -409,7 +409,7 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInElastic
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -431,7 +431,7 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseOutElastic
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -453,7 +453,7 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInOutElastic
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -475,7 +475,7 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInBounce
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -497,7 +497,7 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseOutBounce
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -519,7 +519,7 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInOutBounce
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -541,7 +541,7 @@ items:
   fullName: Fantas.AnimationTimingMode.SmoothStep
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas

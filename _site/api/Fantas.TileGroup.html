@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Fantas_TileGroup" data-uid="Fantas.TileGroup" class="text-break">
-Class TileGroup  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Tiles/TileGroup.cs"><i class="bi bi-code-slash"></i></a>
+Class TileGroup  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileGroup.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -154,7 +154,7 @@ Class TileGroup  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Fantas_TileGroup__ctor_Fantas_TileDefinition_" data-uid="Fantas.TileGroup.#ctor(Fantas.TileDefinition)">
   TileGroup(TileDefinition)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Tiles/TileGroup.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileGroup.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Create a tile group using a tile definition</p>
@@ -190,7 +190,7 @@ Class TileGroup  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Fantas_TileGroup_Empty" data-uid="Fantas.TileGroup.Empty">
   Empty
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Tiles/TileGroup.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileGroup.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Create an Empty tile group</p>
@@ -222,7 +222,7 @@ Class TileGroup  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Fantas_TileGroup_Name" data-uid="Fantas.TileGroup.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Tiles/TileGroup.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileGroup.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Tile group name</p>
@@ -254,7 +254,7 @@ Class TileGroup  <a class="header-action link-secondary" title="View source" hre
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Tiles/TileGroup.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileGroup.cs" class="edit-link">Edit this page</a>
         </div>
 
 

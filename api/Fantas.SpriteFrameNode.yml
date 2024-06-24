@@ -22,7 +22,7 @@ items:
   fullName: Fantas.SpriteFrameNode
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/SpriteFrameNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpriteFrameNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -182,7 +182,7 @@ items:
   fullName: Fantas.SpriteFrameNode.SpriteFrameNode(System.Drawing.SizeF, System.Drawing.Color, float)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/SpriteFrameNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpriteFrameNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -217,7 +217,7 @@ items:
   fullName: Fantas.SpriteFrameNode.SpriteFrameNode(System.Drawing.SizeF, System.Drawing.Color)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/SpriteFrameNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpriteFrameNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -249,7 +249,7 @@ items:
   fullName: Fantas.SpriteFrameNode.SpriteFrameNode(System.Drawing.SizeF)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/SpriteFrameNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpriteFrameNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -278,7 +278,7 @@ items:
   fullName: Fantas.SpriteFrameNode.SpriteFrameNode(Fantas.SpriteFrameNode)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/SpriteFrameNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpriteFrameNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -307,7 +307,7 @@ items:
   fullName: Fantas.SpriteFrameNode.Copy()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/SpriteFrameNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpriteFrameNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -333,7 +333,7 @@ items:
   fullName: Fantas.SpriteFrameNode.OnSizeChanged()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/SpriteFrameNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpriteFrameNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -356,7 +356,7 @@ items:
   fullName: Fantas.SpriteFrameNode.FrameThickness
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/SpriteFrameNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpriteFrameNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -381,7 +381,7 @@ items:
   fullName: Fantas.SpriteFrameNode.FrameColor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/SpriteFrameNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpriteFrameNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -406,7 +406,7 @@ items:
   fullName: Fantas.SpriteFrameNode.FrameAlpha
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/SpriteFrameNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpriteFrameNode.cs
   assemblies:
   - Fantas
   namespace: Fantas

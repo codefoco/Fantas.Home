@@ -15,7 +15,7 @@ items:
   fullName: Fantas.Physics.PhysicsJoint
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/Joints/PhysicsJoint.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Physics/Joints/PhysicsJoint.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -52,7 +52,7 @@ items:
   fullName: Fantas.Physics.PhysicsJoint.BodyA
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/Joints/PhysicsJoint.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Physics/Joints/PhysicsJoint.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -77,7 +77,7 @@ items:
   fullName: Fantas.Physics.PhysicsJoint.BodyB
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/Joints/PhysicsJoint.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Physics/Joints/PhysicsJoint.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics

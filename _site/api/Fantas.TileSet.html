@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Fantas_TileSet" data-uid="Fantas.TileSet" class="text-break">
-Class TileSet  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Tiles/TileSet.cs"><i class="bi bi-code-slash"></i></a>
+Class TileSet  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileSet.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -154,7 +154,7 @@ Class TileSet  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_TileSet__ctor_Fantas_TileGroup___" data-uid="Fantas.TileSet.#ctor(Fantas.TileGroup[])">
   TileSet(TileGroup[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Tiles/TileSet.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileSet.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Create a tile set with a list of tile groups</p>
@@ -186,7 +186,7 @@ Class TileSet  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_TileSet__ctor_Fantas_TileGroup___Fantas_TileSetType_" data-uid="Fantas.TileSet.#ctor(Fantas.TileGroup[],Fantas.TileSetType)">
   TileSet(TileGroup[], TileSetType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Tiles/TileSet.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileSet.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Create a tile set with a list of tile groups</p>
@@ -224,7 +224,7 @@ Class TileSet  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_TileSet_DefaultTileGroup" data-uid="Fantas.TileSet.DefaultTileGroup">
   DefaultTileGroup
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Tiles/TileSet.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileSet.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Default tile group</p>
@@ -256,7 +256,7 @@ Class TileSet  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_TileSet_DefaultTileSize" data-uid="Fantas.TileSet.DefaultTileSize">
   DefaultTileSize
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Tiles/TileSet.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileSet.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Default tile size</p>
@@ -288,7 +288,7 @@ Class TileSet  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_TileSet_Name" data-uid="Fantas.TileSet.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Tiles/TileSet.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileSet.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Tile set name</p>
@@ -320,7 +320,7 @@ Class TileSet  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_TileSet_TileGroups" data-uid="Fantas.TileSet.TileGroups">
   TileGroups
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Tiles/TileSet.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileSet.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Tile set groups</p>
@@ -352,7 +352,7 @@ Class TileSet  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_TileSet_Type" data-uid="Fantas.TileSet.Type">
   Type
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Tiles/TileSet.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileSet.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Tile set type</p>
@@ -384,7 +384,7 @@ Class TileSet  <a class="header-action link-secondary" title="View source" href=
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Tiles/TileSet.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileSet.cs" class="edit-link">Edit this page</a>
         </div>
 
 

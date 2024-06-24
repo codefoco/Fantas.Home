@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Fantas_Physics_RaycastHit" data-uid="Fantas.Physics.RaycastHit" class="text-break">
-Class RaycastHit  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/RaycastHit.cs"><i class="bi bi-code-slash"></i></a>
+Class RaycastHit  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Physics/RaycastHit.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -154,7 +154,7 @@ Class RaycastHit  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_Physics_RaycastHit_Normal" data-uid="Fantas.Physics.RaycastHit.Normal">
   Normal
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/RaycastHit.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Physics/RaycastHit.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The normal vector</p>
@@ -186,7 +186,7 @@ Class RaycastHit  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_Physics_RaycastHit_PhysicsBody" data-uid="Fantas.Physics.RaycastHit.PhysicsBody">
   PhysicsBody
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/RaycastHit.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Physics/RaycastHit.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The PhysicsBody the raycast intersect</p>
@@ -218,7 +218,7 @@ Class RaycastHit  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_Physics_RaycastHit_Point" data-uid="Fantas.Physics.RaycastHit.Point">
   Point
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/RaycastHit.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Physics/RaycastHit.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Point of intersection</p>
@@ -250,7 +250,7 @@ Class RaycastHit  <a class="header-action link-secondary" title="View source" hr
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Physics/RaycastHit.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Physics/RaycastHit.cs" class="edit-link">Edit this page</a>
         </div>
 
 

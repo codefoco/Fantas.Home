@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Fantas_Input_Cursors" data-uid="Fantas.Input.Cursors" class="text-break">
-Class Cursors  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
+Class Cursors  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -157,7 +157,7 @@ Class Cursors  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_Input_Cursors_Arrow" data-uid="Fantas.Input.Cursors.Arrow">
   Arrow
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Default arrow cursor.</p>
@@ -189,7 +189,7 @@ Class Cursors  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_Input_Cursors_ClosedHand" data-uid="Fantas.Input.Cursors.ClosedHand">
   ClosedHand
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the closed hand cursor.</p>
@@ -221,7 +221,7 @@ Class Cursors  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_Input_Cursors_Cross" data-uid="Fantas.Input.Cursors.Cross">
   Cross
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the crosshair (+) cursor.</p>
@@ -253,7 +253,7 @@ Class Cursors  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_Input_Cursors_IBeam" data-uid="Fantas.Input.Cursors.IBeam">
   IBeam
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>IBeam cursor that appears when the mouse is over text editing regions.</p>
@@ -285,7 +285,7 @@ Class Cursors  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_Input_Cursors_No" data-uid="Fantas.Input.Cursors.No">
   No
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Cursor with invalid operation.</p>
@@ -317,7 +317,7 @@ Class Cursors  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_Input_Cursors_OpenHand" data-uid="Fantas.Input.Cursors.OpenHand">
   OpenHand
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the open hand cursor.</p>
@@ -349,7 +349,7 @@ Class Cursors  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_Input_Cursors_PointingHand" data-uid="Fantas.Input.Cursors.PointingHand">
   PointingHand
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the pointing hand cursor. (usually used when hover hyperlinks)</p>
@@ -381,7 +381,7 @@ Class Cursors  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_Input_Cursors_RotateBottomLeft" data-uid="Fantas.Input.Cursors.RotateBottomLeft">
   RotateBottomLeft
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Rotate on bottom left corner cursor</p>
@@ -413,7 +413,7 @@ Class Cursors  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_Input_Cursors_RotateBottomRight" data-uid="Fantas.Input.Cursors.RotateBottomRight">
   RotateBottomRight
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Rotate on bottom right corner cursor</p>
@@ -445,7 +445,7 @@ Class Cursors  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_Input_Cursors_RotateTopLeft" data-uid="Fantas.Input.Cursors.RotateTopLeft">
   RotateTopLeft
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Rotate on top left corner cursor</p>
@@ -477,7 +477,7 @@ Class Cursors  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_Input_Cursors_RotateTopRight" data-uid="Fantas.Input.Cursors.RotateTopRight">
   RotateTopRight
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Rotate on top right corner cursor</p>
@@ -509,7 +509,7 @@ Class Cursors  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_Input_Cursors_SizeAll" data-uid="Fantas.Input.Cursors.SizeAll">
   SizeAll
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Size cursor with arrows pointing all directions.</p>
@@ -541,7 +541,7 @@ Class Cursors  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_Input_Cursors_SizeNESW" data-uid="Fantas.Input.Cursors.SizeNESW">
   SizeNESW
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the northeast-southwest ⤢ cursor.</p>
@@ -573,7 +573,7 @@ Class Cursors  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_Input_Cursors_SizeNS" data-uid="Fantas.Input.Cursors.SizeNS">
   SizeNS
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the north-south ↕ cursor.</p>
@@ -605,7 +605,7 @@ Class Cursors  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_Input_Cursors_SizeNWSE" data-uid="Fantas.Input.Cursors.SizeNWSE">
   SizeNWSE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the northwest-southeast ⤡ cursor</p>
@@ -637,7 +637,7 @@ Class Cursors  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_Input_Cursors_SizeWE" data-uid="Fantas.Input.Cursors.SizeWE">
   SizeWE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the horizontal west-east ↔ cursor</p>
@@ -669,7 +669,7 @@ Class Cursors  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Fantas_Input_Cursors_Wait" data-uid="Fantas.Input.Cursors.Wait">
   Wait
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets wait cursor ⧖ (Has no effect on Mac)
@@ -703,7 +703,7 @@ is not processing events</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Input/Mouse/Cursors.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursors.cs" class="edit-link">Edit this page</a>
         </div>
 
 

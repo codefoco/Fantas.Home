@@ -17,7 +17,7 @@ items:
   fullName: Fantas.TileDefinitionRotation
   type: Enum
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Tiles/TileDefinitionRotation.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileDefinitionRotation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -38,7 +38,7 @@ items:
   fullName: Fantas.TileDefinitionRotation.Rotation0
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Tiles/TileDefinitionRotation.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileDefinitionRotation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -60,7 +60,7 @@ items:
   fullName: Fantas.TileDefinitionRotation.Rotation90
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Tiles/TileDefinitionRotation.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileDefinitionRotation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -82,7 +82,7 @@ items:
   fullName: Fantas.TileDefinitionRotation.Rotation180
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Tiles/TileDefinitionRotation.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileDefinitionRotation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -104,7 +104,7 @@ items:
   fullName: Fantas.TileDefinitionRotation.Rotation270
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Tiles/TileDefinitionRotation.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileDefinitionRotation.cs
   assemblies:
   - Fantas
   namespace: Fantas

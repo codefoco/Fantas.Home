@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Fantas_RectangleNode" data-uid="Fantas.RectangleNode" class="text-break">
-Class RectangleNode  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/ShapeNodes/RectangleNode.cs"><i class="bi bi-code-slash"></i></a>
+Class RectangleNode  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/ShapeNodes/RectangleNode.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -487,7 +487,7 @@ Class RectangleNode  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Fantas_RectangleNode__ctor_Fantas_RectangleNode_" data-uid="Fantas.RectangleNode.#ctor(Fantas.RectangleNode)">
   RectangleNode(RectangleNode)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/ShapeNodes/RectangleNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/ShapeNodes/RectangleNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Create copy of other rectangle node</p>
@@ -519,7 +519,7 @@ Class RectangleNode  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Fantas_RectangleNode__ctor_System_Drawing_SizeF_" data-uid="Fantas.RectangleNode.#ctor(System.Drawing.SizeF)">
   RectangleNode(SizeF)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/ShapeNodes/RectangleNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/ShapeNodes/RectangleNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Create a rectangle node</p>
@@ -551,7 +551,7 @@ Class RectangleNode  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Fantas_RectangleNode__ctor_System_Drawing_SizeF_System_Single_" data-uid="Fantas.RectangleNode.#ctor(System.Drawing.SizeF,System.Single)">
   RectangleNode(SizeF, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/ShapeNodes/RectangleNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/ShapeNodes/RectangleNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Create round rectangle with corner radius</p>
@@ -589,7 +589,7 @@ Class RectangleNode  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Fantas_RectangleNode_Height" data-uid="Fantas.RectangleNode.Height">
   Height
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/ShapeNodes/RectangleNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/ShapeNodes/RectangleNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Rectangle node height</p>
@@ -621,7 +621,7 @@ Class RectangleNode  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Fantas_RectangleNode_Size" data-uid="Fantas.RectangleNode.Size">
   Size
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/ShapeNodes/RectangleNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/ShapeNodes/RectangleNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Rectangle node size</p>
@@ -653,7 +653,7 @@ Class RectangleNode  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Fantas_RectangleNode_Width" data-uid="Fantas.RectangleNode.Width">
   Width
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/ShapeNodes/RectangleNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/ShapeNodes/RectangleNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Rectangle node width</p>
@@ -689,7 +689,7 @@ Class RectangleNode  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Fantas_RectangleNode_Copy" data-uid="Fantas.RectangleNode.Copy">
   Copy()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/ShapeNodes/RectangleNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/ShapeNodes/RectangleNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Copy this rectangle node</p>
@@ -721,7 +721,7 @@ Class RectangleNode  <a class="header-action link-secondary" title="View source"
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/ShapeNodes/RectangleNode.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/ShapeNodes/RectangleNode.cs" class="edit-link">Edit this page</a>
         </div>
 
 

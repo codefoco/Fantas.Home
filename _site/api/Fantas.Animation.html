@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Fantas_Animation" data-uid="Fantas.Animation" class="text-break">
-Class Animation  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+Class Animation  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -148,7 +148,7 @@ Class Animation  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Fantas_Animation_Duration" data-uid="Fantas.Animation.Duration">
   Duration
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Duration to complete the animation.
@@ -182,7 +182,7 @@ after the animation is created</p>
 
   <h3 id="Fantas_Animation_ReversedAnimation" data-uid="Fantas.Animation.ReversedAnimation">
   ReversedAnimation
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Create a reversed animation
@@ -216,7 +216,7 @@ You have to manually create FadeIn/FadeOut reverses</p>
 
   <h3 id="Fantas_Animation_Speed" data-uid="Fantas.Animation.Speed">
   Speed
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Speed of animation</p>
@@ -248,7 +248,7 @@ You have to manually create FadeIn/FadeOut reverses</p>
 
   <h3 id="Fantas_Animation_TimingFunction" data-uid="Fantas.Animation.TimingFunction">
   TimingFunction
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Delegate used to customize the timing</p>
@@ -280,7 +280,7 @@ You have to manually create FadeIn/FadeOut reverses</p>
 
   <h3 id="Fantas_Animation_TimingMode" data-uid="Fantas.Animation.TimingMode">
   TimingMode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Animation timing mode (linear, ease-in ..)</p>
@@ -316,7 +316,7 @@ You have to manually create FadeIn/FadeOut reverses</p>
 
   <h3 id="Fantas_Animation_Animate_Fantas_Texture___System_Double_" data-uid="Fantas.Animation.Animate(Fantas.Texture[],System.Double)">
   Animate(Texture[], double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Animate the sprite texture</p>
@@ -358,7 +358,7 @@ You have to manually create FadeIn/FadeOut reverses</p>
 
   <h3 id="Fantas_Animation_Animate_Fantas_Texture___System_Double_System_Boolean_System_Boolean_" data-uid="Fantas.Animation.Animate(Fantas.Texture[],System.Double,System.Boolean,System.Boolean)">
   Animate(Texture[], double, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Animate the sprite texture</p>
@@ -406,7 +406,7 @@ You have to manually create FadeIn/FadeOut reverses</p>
 
   <h3 id="Fantas_Animation_Colorize_System_Drawing_Color_System_Single_System_Double_" data-uid="Fantas.Animation.Colorize(System.Drawing.Color,System.Single,System.Double)">
   Colorize(Color, float, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Animate sprite tint color</p>
@@ -451,7 +451,7 @@ You have to manually create FadeIn/FadeOut reverses</p>
 
   <h3 id="Fantas_Animation_Colorize_System_Single_System_Double_" data-uid="Fantas.Animation.Colorize(System.Single,System.Double)">
   Colorize(float, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Animate sprite tint color</p>
@@ -493,7 +493,7 @@ You have to manually create FadeIn/FadeOut reverses</p>
 
   <h3 id="Fantas_Animation_Custom_System_Double_System_Action_Fantas_Node_System_Single__" data-uid="Fantas.Animation.Custom(System.Double,System.Action{Fantas.Node,System.Single})">
   Custom(double, Action&lt;Node, float&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Execute the callback over the execution of animation</p>
@@ -535,7 +535,7 @@ You have to manually create FadeIn/FadeOut reverses</p>
 
   <h3 id="Fantas_Animation_Equals_System_Object_" data-uid="Fantas.Animation.Equals(System.Object)">
   Equals(object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Equals(obj)</p>
@@ -572,7 +572,7 @@ You have to manually create FadeIn/FadeOut reverses</p>
 
   <h3 id="Fantas_Animation_FadeAlphaBy_System_Single_System_Double_" data-uid="Fantas.Animation.FadeAlphaBy(System.Single,System.Double)">
   FadeAlphaBy(float, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Change the alpha of node</p>
@@ -614,7 +614,7 @@ You have to manually create FadeIn/FadeOut reverses</p>
 
   <h3 id="Fantas_Animation_FadeAlphaTo_System_Single_System_Double_" data-uid="Fantas.Animation.FadeAlphaTo(System.Single,System.Double)">
   FadeAlphaTo(float, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Animate new alpha of node</p>
@@ -656,7 +656,7 @@ You have to manually create FadeIn/FadeOut reverses</p>
 
   <h3 id="Fantas_Animation_FadeIn_System_Double_" data-uid="Fantas.Animation.FadeIn(System.Double)">
   FadeIn(double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Change the alpha to 1.0</p>
@@ -695,7 +695,7 @@ You have to manually create FadeIn/FadeOut reverses</p>
 
   <h3 id="Fantas_Animation_FadeOut_System_Double_" data-uid="Fantas.Animation.FadeOut(System.Double)">
   FadeOut(double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Change the alpha to 0.0</p>
@@ -734,7 +734,7 @@ You have to manually create FadeIn/FadeOut reverses</p>
 
   <h3 id="Fantas_Animation_GetHashCode" data-uid="Fantas.Animation.GetHashCode">
   GetHashCode()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Animation GetHashCode</p>
@@ -766,7 +766,7 @@ You have to manually create FadeIn/FadeOut reverses</p>
 
   <h3 id="Fantas_Animation_Group_Fantas_Animation___" data-uid="Fantas.Animation.Group(Fantas.Animation[])">
   Group(params Animation[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Create an Animation that groups a set of other animations,
@@ -807,7 +807,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_Hide" data-uid="Fantas.Animation.Hide">
   Hide()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Hide the node</p>
@@ -840,7 +840,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_MoveBy_System_Numerics_Vector2_System_Double_" data-uid="Fantas.Animation.MoveBy(System.Numerics.Vector2,System.Double)">
   MoveBy(Vector2, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Move a node vertically and horizontally relative to the current position</p>
@@ -882,7 +882,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_MoveBy_System_Single_System_Single_System_Double_" data-uid="Fantas.Animation.MoveBy(System.Single,System.Single,System.Double)">
   MoveBy(float, float, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Move a node vertically and horizontally relative to the current position</p>
@@ -927,7 +927,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_MoveTo_System_Drawing_PointF_System_Double_" data-uid="Fantas.Animation.MoveTo(System.Drawing.PointF,System.Double)">
   MoveTo(PointF, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Move node to a new position</p>
@@ -969,7 +969,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_MoveToX_System_Single_System_Double_" data-uid="Fantas.Animation.MoveToX(System.Single,System.Double)">
   MoveToX(float, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Move node horizontally</p>
@@ -1011,7 +1011,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_MoveToY_System_Single_System_Double_" data-uid="Fantas.Animation.MoveToY(System.Single,System.Double)">
   MoveToY(float, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Move node vertically</p>
@@ -1053,7 +1053,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_MoveXBy_System_Single_System_Double_" data-uid="Fantas.Animation.MoveXBy(System.Single,System.Double)">
   MoveXBy(float, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Move a node horizontally relative to the current position</p>
@@ -1095,7 +1095,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_MoveYBy_System_Single_System_Double_" data-uid="Fantas.Animation.MoveYBy(System.Single,System.Double)">
   MoveYBy(float, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Move a node vertically relative to the current position</p>
@@ -1137,7 +1137,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_OrbitNode_Fantas_Node_System_Double_System_Double_System_Double_" data-uid="Fantas.Animation.OrbitNode(Fantas.Node,System.Double,System.Double,System.Double)">
   OrbitNode(Node, double, double, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Rotate Node around another Node</p>
@@ -1181,7 +1181,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_OrbitPoint_System_Drawing_PointF_System_Double_System_Double_System_Double_" data-uid="Fantas.Animation.OrbitPoint(System.Drawing.PointF,System.Double,System.Double,System.Double)">
   OrbitPoint(PointF, double, double, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Rotate Node around a pivot</p>
@@ -1225,7 +1225,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_RemoveFromParent" data-uid="Fantas.Animation.RemoveFromParent">
   RemoveFromParent()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>When performed, removed the Node from the parent.</p>
@@ -1258,7 +1258,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_Repeat_Fantas_Animation_System_Int32_" data-uid="Fantas.Animation.Repeat(Fantas.Animation,System.Int32)">
   Repeat(Animation, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Repeat animation N times</p>
@@ -1300,7 +1300,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_RepeatForever_Fantas_Animation_" data-uid="Fantas.Animation.RepeatForever(Fantas.Animation)">
   RepeatForever(Animation)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Repeat animation forever</p>
@@ -1339,7 +1339,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_ResizeTo_System_Drawing_SizeF_System_Double_" data-uid="Fantas.Animation.ResizeTo(System.Drawing.SizeF,System.Double)">
   ResizeTo(SizeF, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Resize a SpriteNode</p>
@@ -1381,7 +1381,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_ResizeToHeight_System_Single_System_Double_" data-uid="Fantas.Animation.ResizeToHeight(System.Single,System.Double)">
   ResizeToHeight(float, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Change SpriteNode Height</p>
@@ -1423,7 +1423,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_ResizeToWidth_System_Single_System_Double_" data-uid="Fantas.Animation.ResizeToWidth(System.Single,System.Double)">
   ResizeToWidth(float, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Change SpriteNode width</p>
@@ -1465,7 +1465,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_RotateBy_System_Double_System_Double_" data-uid="Fantas.Animation.RotateBy(System.Double,System.Double)">
   RotateBy(double, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Rotate by a angle delta</p>
@@ -1507,7 +1507,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_RotateTo_System_Double_System_Double_" data-uid="Fantas.Animation.RotateTo(System.Double,System.Double)">
   RotateTo(double, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Rotate to the given angle</p>
@@ -1549,7 +1549,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_RunAction_System_Action_" data-uid="Fantas.Animation.RunAction(System.Action)">
   RunAction(Action)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Run a action callback</p>
@@ -1588,7 +1588,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_ScaleBy_System_Single_System_Double_" data-uid="Fantas.Animation.ScaleBy(System.Single,System.Double)">
   ScaleBy(float, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Animate node applying a new scale</p>
@@ -1630,7 +1630,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_ScaleTo_System_Drawing_SizeF_System_Double_" data-uid="Fantas.Animation.ScaleTo(System.Drawing.SizeF,System.Double)">
   ScaleTo(SizeF, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Change scale to make node reach new size</p>
@@ -1672,7 +1672,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_ScaleTo_System_Single_System_Double_" data-uid="Fantas.Animation.ScaleTo(System.Single,System.Double)">
   ScaleTo(float, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Set node to a new scale</p>
@@ -1714,7 +1714,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_ScaleTo_System_Single_System_Single_System_Double_" data-uid="Fantas.Animation.ScaleTo(System.Single,System.Single,System.Double)">
   ScaleTo(float, float, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Set node to a new scale</p>
@@ -1759,7 +1759,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_ScaleXTo_System_Single_System_Double_" data-uid="Fantas.Animation.ScaleXTo(System.Single,System.Double)">
   ScaleXTo(float, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Change X scale</p>
@@ -1801,7 +1801,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_ScaleYTo_System_Single_System_Double_" data-uid="Fantas.Animation.ScaleYTo(System.Single,System.Double)">
   ScaleYTo(float, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Change Y scale</p>
@@ -1843,7 +1843,7 @@ The animations will run in parallel
 
   <h3 id="Fantas_Animation_Sequence_Fantas_Animation___" data-uid="Fantas.Animation.Sequence(Fantas.Animation[])">
   Sequence(params Animation[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Create a sequence animation from a list of Animations,
@@ -1884,7 +1884,7 @@ a1 -&gt; a2 -&gt; a3</p>
 
   <h3 id="Fantas_Animation_SetTexture_Fantas_Texture_" data-uid="Fantas.Animation.SetTexture(Fantas.Texture)">
   SetTexture(Texture)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Set new texture to SpriteNode</p>
@@ -1923,7 +1923,7 @@ a1 -&gt; a2 -&gt; a3</p>
 
   <h3 id="Fantas_Animation_SetTexture_Fantas_Texture_System_Boolean_" data-uid="Fantas.Animation.SetTexture(Fantas.Texture,System.Boolean)">
   SetTexture(Texture, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Set new texture to SpriteNode</p>
@@ -1965,7 +1965,7 @@ a1 -&gt; a2 -&gt; a3</p>
 
   <h3 id="Fantas_Animation_SineHorizontal_System_Single_System_Single_System_Double_" data-uid="Fantas.Animation.SineHorizontal(System.Single,System.Single,System.Double)">
   SineHorizontal(float, float, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Oscillate node vertical position using a Sine wave</p>
@@ -2009,7 +2009,7 @@ a1 -&gt; a2 -&gt; a3</p>
 
   <h3 id="Fantas_Animation_SineVertical_System_Single_System_Single_System_Double_" data-uid="Fantas.Animation.SineVertical(System.Single,System.Single,System.Double)">
   SineVertical(float, float, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Oscillate node vertical position using a Sine wave</p>
@@ -2053,7 +2053,7 @@ a1 -&gt; a2 -&gt; a3</p>
 
   <h3 id="Fantas_Animation_Unhide" data-uid="Fantas.Animation.Unhide">
   Unhide()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Unhide node</p>
@@ -2086,7 +2086,7 @@ a1 -&gt; a2 -&gt; a3</p>
 
   <h3 id="Fantas_Animation_Wait_System_Double_" data-uid="Fantas.Animation.Wait(System.Double)">
   Wait(double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Wait, useful to chain with other animations
@@ -2126,7 +2126,7 @@ a1 -&gt; a2 -&gt; a3</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Animation.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Animation.cs" class="edit-link">Edit this page</a>
         </div>
 
 

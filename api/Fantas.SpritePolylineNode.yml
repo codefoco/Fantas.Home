@@ -21,7 +21,7 @@ items:
   fullName: Fantas.SpritePolylineNode
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/SpritePolylineNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpritePolylineNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -158,7 +158,7 @@ items:
   fullName: Fantas.SpritePolylineNode.SpritePolylineNode(Fantas.SpritePolylineNode)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/SpritePolylineNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpritePolylineNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -191,7 +191,7 @@ items:
   fullName: Fantas.SpritePolylineNode.SpritePolylineNode(System.Drawing.PointF[], System.Drawing.Color, float)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/SpritePolylineNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpritePolylineNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -223,7 +223,7 @@ items:
   fullName: Fantas.SpritePolylineNode.SpritePolylineNode(System.Drawing.PointF[], System.Drawing.Color)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/SpritePolylineNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpritePolylineNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -253,7 +253,7 @@ items:
   fullName: Fantas.SpritePolylineNode.SpritePolylineNode(System.Drawing.PointF[])
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/SpritePolylineNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpritePolylineNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -281,7 +281,7 @@ items:
   fullName: Fantas.SpritePolylineNode.Copy()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/SpritePolylineNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpritePolylineNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -307,7 +307,7 @@ items:
   fullName: Fantas.SpritePolylineNode.Points
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/SpritePolylineNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpritePolylineNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -332,7 +332,7 @@ items:
   fullName: Fantas.SpritePolylineNode.Thickness
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/SpritePolylineNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpritePolylineNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -357,7 +357,7 @@ items:
   fullName: Fantas.SpritePolylineNode.Color
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/49deea3989bfd3c9b578d4e4208dd09fde613359/src/Nodes/SpritePolylineNode.cs
+    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpritePolylineNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
