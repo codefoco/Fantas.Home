@@ -21,7 +21,7 @@ items:
   fullName: Fantas.BlendMode
   type: Enum
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/BlendMode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/BlendMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -42,7 +42,7 @@ items:
   fullName: Fantas.BlendMode.Alpha
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/BlendMode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/BlendMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -64,7 +64,7 @@ items:
   fullName: Fantas.BlendMode.Add
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/BlendMode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/BlendMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -86,7 +86,7 @@ items:
   fullName: Fantas.BlendMode.Subtract
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/BlendMode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/BlendMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -108,7 +108,7 @@ items:
   fullName: Fantas.BlendMode.Multiply
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/BlendMode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/BlendMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -130,7 +130,7 @@ items:
   fullName: Fantas.BlendMode.MultiplyX2
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/BlendMode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/BlendMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -152,7 +152,7 @@ items:
   fullName: Fantas.BlendMode.Screen
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/BlendMode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/BlendMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -174,7 +174,7 @@ items:
   fullName: Fantas.BlendMode.Replace
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/BlendMode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/BlendMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -196,7 +196,7 @@ items:
   fullName: Fantas.BlendMode.MultiplyAlpha
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/BlendMode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/BlendMode.cs
   assemblies:
   - Fantas
   namespace: Fantas

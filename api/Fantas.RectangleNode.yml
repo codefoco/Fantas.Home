@@ -20,7 +20,7 @@ items:
   fullName: Fantas.RectangleNode
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -111,6 +111,8 @@ items:
   - Fantas.Node.Scene
   - Fantas.Node.Parent
   - Fantas.Node.Children
+  - Fantas.Node.HasChildren
+  - Fantas.Node.HasParent
   - Fantas.Node.PhysicsBody
   - Fantas.Node.Hidden
   - Fantas.Node.Alpha
@@ -162,7 +164,7 @@ items:
   fullName: Fantas.RectangleNode.RectangleNode(System.Drawing.SizeF)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -191,7 +193,7 @@ items:
   fullName: Fantas.RectangleNode.RectangleNode(System.Drawing.SizeF, float)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -223,7 +225,7 @@ items:
   fullName: Fantas.RectangleNode.RectangleNode(Fantas.RectangleNode)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -252,7 +254,7 @@ items:
   fullName: Fantas.RectangleNode.Copy()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -278,7 +280,7 @@ items:
   fullName: Fantas.RectangleNode.Size
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -303,7 +305,7 @@ items:
   fullName: Fantas.RectangleNode.Width
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -328,7 +330,7 @@ items:
   fullName: Fantas.RectangleNode.Height
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2138,6 +2140,22 @@ references:
   name: Children
   nameWithType: Node.Children
   fullName: Fantas.Node.Children
+- uid: Fantas.Node.HasChildren
+  commentId: P:Fantas.Node.HasChildren
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_HasChildren
+  name: HasChildren
+  nameWithType: Node.HasChildren
+  fullName: Fantas.Node.HasChildren
+- uid: Fantas.Node.HasParent
+  commentId: P:Fantas.Node.HasParent
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_HasParent
+  name: HasParent
+  nameWithType: Node.HasParent
+  fullName: Fantas.Node.HasParent
 - uid: Fantas.Node.PhysicsBody
   commentId: P:Fantas.Node.PhysicsBody
   parent: Fantas.Node

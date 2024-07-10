@@ -581,6 +581,8 @@
   "Fantas.Node.GetNodeAtPoint(System.Drawing.PointF)": "Fantas.Node.yml",
   "Fantas.Node.GetNodesAtPoint(System.Drawing.PointF)": "Fantas.Node.yml",
   "Fantas.Node.HasAnimation": "Fantas.Node.yml",
+  "Fantas.Node.HasChildren": "Fantas.Node.yml",
+  "Fantas.Node.HasParent": "Fantas.Node.yml",
   "Fantas.Node.Height": "Fantas.Node.yml",
   "Fantas.Node.Hidden": "Fantas.Node.yml",
   "Fantas.Node.InParentHierarchy(Fantas.Node)": "Fantas.Node.yml",

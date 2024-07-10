@@ -20,7 +20,7 @@ items:
   fullName: Fantas.TileSet
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileSet.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileSet.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -50,7 +50,7 @@ items:
   fullName: Fantas.TileSet.TileSet(Fantas.TileGroup[])
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileSet.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileSet.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -79,7 +79,7 @@ items:
   fullName: Fantas.TileSet.TileSet(Fantas.TileGroup[], Fantas.TileSetType)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileSet.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileSet.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -111,7 +111,7 @@ items:
   fullName: Fantas.TileSet.DefaultTileGroup
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileSet.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileSet.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -136,7 +136,7 @@ items:
   fullName: Fantas.TileSet.DefaultTileSize
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileSet.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileSet.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -161,7 +161,7 @@ items:
   fullName: Fantas.TileSet.Name
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileSet.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileSet.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -186,7 +186,7 @@ items:
   fullName: Fantas.TileSet.TileGroups
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileSet.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileSet.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -211,7 +211,7 @@ items:
   fullName: Fantas.TileSet.Type
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileSet.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileSet.cs
   assemblies:
   - Fantas
   namespace: Fantas

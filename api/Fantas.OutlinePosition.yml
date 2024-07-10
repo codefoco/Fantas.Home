@@ -23,7 +23,7 @@ items:
   fullName: Fantas.OutlinePosition
   type: Enum
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/OutlinePosition.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/OutlinePosition.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -54,7 +54,7 @@ items:
   fullName: Fantas.OutlinePosition.None
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/OutlinePosition.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/OutlinePosition.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -76,7 +76,7 @@ items:
   fullName: Fantas.OutlinePosition.TopLeft
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/OutlinePosition.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/OutlinePosition.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -98,7 +98,7 @@ items:
   fullName: Fantas.OutlinePosition.Top
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/OutlinePosition.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/OutlinePosition.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -120,7 +120,7 @@ items:
   fullName: Fantas.OutlinePosition.TopRight
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/OutlinePosition.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/OutlinePosition.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -142,7 +142,7 @@ items:
   fullName: Fantas.OutlinePosition.Right
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/OutlinePosition.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/OutlinePosition.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -164,7 +164,7 @@ items:
   fullName: Fantas.OutlinePosition.BottomRight
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/OutlinePosition.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/OutlinePosition.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -186,7 +186,7 @@ items:
   fullName: Fantas.OutlinePosition.Bottom
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/OutlinePosition.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/OutlinePosition.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -208,7 +208,7 @@ items:
   fullName: Fantas.OutlinePosition.BottomLeft
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/OutlinePosition.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/OutlinePosition.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -230,7 +230,7 @@ items:
   fullName: Fantas.OutlinePosition.Left
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/OutlinePosition.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/OutlinePosition.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -252,7 +252,7 @@ items:
   fullName: Fantas.OutlinePosition.All
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/OutlinePosition.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/OutlinePosition.cs
   assemblies:
   - Fantas
   namespace: Fantas

@@ -22,7 +22,7 @@ items:
   fullName: Fantas.Physics.NodeExtensions
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Physics/NodeExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/NodeExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -54,7 +54,7 @@ items:
   fullName: Fantas.Physics.NodeExtensions.SetupBody(Fantas.CircleNode, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Physics/NodeExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/NodeExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -87,7 +87,7 @@ items:
   fullName: Fantas.Physics.NodeExtensions.SetupBody(Fantas.RectangleNode, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Physics/NodeExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/NodeExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -120,7 +120,7 @@ items:
   fullName: Fantas.Physics.NodeExtensions.SetupBody(Fantas.TriangleNode, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Physics/NodeExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/NodeExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -153,7 +153,7 @@ items:
   fullName: Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpritePolylineNode, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Physics/NodeExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/NodeExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -186,7 +186,7 @@ items:
   fullName: Fantas.Physics.NodeExtensions.SetupBody(Fantas.PolygonNode, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Physics/NodeExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/NodeExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -219,7 +219,7 @@ items:
   fullName: Fantas.Physics.NodeExtensions.SetupEdge(Fantas.RectangleNode, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Physics/NodeExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/NodeExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -252,7 +252,7 @@ items:
   fullName: Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpriteNode, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Physics/NodeExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/NodeExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -285,7 +285,7 @@ items:
   fullName: Fantas.Physics.NodeExtensions.SetupEdge(Fantas.SpriteNode, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Physics/NodeExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/NodeExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -318,7 +318,7 @@ items:
   fullName: Fantas.Physics.NodeExtensions.SetupEdge(Fantas.Scene, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Physics/NodeExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/NodeExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics

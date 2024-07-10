@@ -32,7 +32,7 @@ items:
   fullName: Fantas.Input.TouchInput
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Touch/TouchInput.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/TouchInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -63,7 +63,7 @@ items:
   fullName: Fantas.Input.TouchInput.DisableGestures()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Touch/TouchInput.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/TouchInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -85,7 +85,7 @@ items:
   fullName: Fantas.Input.TouchInput.InvokeTouchDown(Fantas.Input.TouchInfo)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Touch/TouchInput.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/TouchInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -111,7 +111,7 @@ items:
   fullName: Fantas.Input.TouchInput.InvokeTouchMove(Fantas.Input.TouchInfo)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Touch/TouchInput.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/TouchInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -137,7 +137,7 @@ items:
   fullName: Fantas.Input.TouchInput.InvokeTouchUp(Fantas.Input.TouchInfo)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Touch/TouchInput.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/TouchInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -163,7 +163,7 @@ items:
   fullName: Fantas.Input.TouchInput.InvokeTap(System.Drawing.PointF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Touch/TouchInput.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/TouchInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -189,7 +189,7 @@ items:
   fullName: Fantas.Input.TouchInput.InvokeDoubleTap(System.Drawing.PointF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Touch/TouchInput.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/TouchInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -215,7 +215,7 @@ items:
   fullName: Fantas.Input.TouchInput.InvokeLongPress(System.Drawing.PointF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Touch/TouchInput.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/TouchInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -241,7 +241,7 @@ items:
   fullName: Fantas.Input.TouchInput.ResetTouch()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Touch/TouchInput.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/TouchInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -263,7 +263,7 @@ items:
   fullName: Fantas.Input.TouchInput.IsTapEnabled
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Touch/TouchInput.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/TouchInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -288,7 +288,7 @@ items:
   fullName: Fantas.Input.TouchInput.IsDoubleTapEnabled
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Touch/TouchInput.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/TouchInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -313,7 +313,7 @@ items:
   fullName: Fantas.Input.TouchInput.IsLongPressEnabled
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Touch/TouchInput.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/TouchInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -338,7 +338,7 @@ items:
   fullName: Fantas.Input.TouchInput.IsPanEnabled
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Touch/TouchInput.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/TouchInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -363,7 +363,7 @@ items:
   fullName: Fantas.Input.TouchInput.IsPinchEnabled
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Touch/TouchInput.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/TouchInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -388,7 +388,7 @@ items:
   fullName: Fantas.Input.TouchInput.IsSwipeEnabled
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Touch/TouchInput.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/TouchInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -413,7 +413,7 @@ items:
   fullName: Fantas.Input.TouchInput.IsNodeEventsEnabled
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Touch/TouchInput.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/TouchInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -441,7 +441,7 @@ items:
   fullName: Fantas.Input.TouchInput.AnyTouch
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Touch/TouchInput.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/TouchInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -467,7 +467,7 @@ items:
   fullName: Fantas.Input.TouchInput.AnyTouchDown
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Touch/TouchInput.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/TouchInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -492,7 +492,7 @@ items:
   fullName: Fantas.Input.TouchInput.AnyTouchUp
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Touch/TouchInput.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/TouchInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -517,7 +517,7 @@ items:
   fullName: Fantas.Input.TouchInput.Touches
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Touch/TouchInput.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/TouchInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input

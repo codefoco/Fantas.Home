@@ -17,7 +17,7 @@ items:
   fullName: Fantas.GameOptions
   type: Enum
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/GameOptions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/GameOptions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -48,7 +48,7 @@ items:
   fullName: Fantas.GameOptions.None
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/GameOptions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/GameOptions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -70,7 +70,7 @@ items:
   fullName: Fantas.GameOptions.FullScreen
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/GameOptions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/GameOptions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -92,7 +92,7 @@ items:
   fullName: Fantas.GameOptions.UseDisplayResolutionOnFullScreen
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/GameOptions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/GameOptions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -125,7 +125,7 @@ items:
   fullName: Fantas.GameOptions.DontFilterTextures
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/GameOptions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/GameOptions.cs
   assemblies:
   - Fantas
   namespace: Fantas

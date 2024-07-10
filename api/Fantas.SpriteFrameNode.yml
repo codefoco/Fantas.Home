@@ -22,7 +22,7 @@ items:
   fullName: Fantas.SpriteFrameNode
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpriteFrameNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/SpriteFrameNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -131,6 +131,8 @@ items:
   - Fantas.Node.Scene
   - Fantas.Node.Parent
   - Fantas.Node.Children
+  - Fantas.Node.HasChildren
+  - Fantas.Node.HasParent
   - Fantas.Node.PhysicsBody
   - Fantas.Node.Hidden
   - Fantas.Node.Alpha
@@ -182,7 +184,7 @@ items:
   fullName: Fantas.SpriteFrameNode.SpriteFrameNode(System.Drawing.SizeF, System.Drawing.Color, float)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpriteFrameNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/SpriteFrameNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -217,7 +219,7 @@ items:
   fullName: Fantas.SpriteFrameNode.SpriteFrameNode(System.Drawing.SizeF, System.Drawing.Color)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpriteFrameNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/SpriteFrameNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -249,7 +251,7 @@ items:
   fullName: Fantas.SpriteFrameNode.SpriteFrameNode(System.Drawing.SizeF)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpriteFrameNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/SpriteFrameNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -278,7 +280,7 @@ items:
   fullName: Fantas.SpriteFrameNode.SpriteFrameNode(Fantas.SpriteFrameNode)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpriteFrameNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/SpriteFrameNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -307,7 +309,7 @@ items:
   fullName: Fantas.SpriteFrameNode.Copy()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpriteFrameNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/SpriteFrameNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -333,7 +335,7 @@ items:
   fullName: Fantas.SpriteFrameNode.OnSizeChanged()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpriteFrameNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/SpriteFrameNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -356,7 +358,7 @@ items:
   fullName: Fantas.SpriteFrameNode.FrameThickness
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpriteFrameNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/SpriteFrameNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -381,7 +383,7 @@ items:
   fullName: Fantas.SpriteFrameNode.FrameColor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpriteFrameNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/SpriteFrameNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -406,7 +408,7 @@ items:
   fullName: Fantas.SpriteFrameNode.FrameAlpha
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Nodes/SpriteFrameNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/SpriteFrameNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2516,6 +2518,22 @@ references:
   name: Children
   nameWithType: Node.Children
   fullName: Fantas.Node.Children
+- uid: Fantas.Node.HasChildren
+  commentId: P:Fantas.Node.HasChildren
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_HasChildren
+  name: HasChildren
+  nameWithType: Node.HasChildren
+  fullName: Fantas.Node.HasChildren
+- uid: Fantas.Node.HasParent
+  commentId: P:Fantas.Node.HasParent
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_HasParent
+  name: HasParent
+  nameWithType: Node.HasParent
+  fullName: Fantas.Node.HasParent
 - uid: Fantas.Node.PhysicsBody
   commentId: P:Fantas.Node.PhysicsBody
   parent: Fantas.Node

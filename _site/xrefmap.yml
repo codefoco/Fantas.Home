@@ -5674,6 +5674,30 @@ references:
   commentId: Overload:Fantas.Node.HasAnimation
   fullName: Fantas.Node.HasAnimation
   nameWithType: Node.HasAnimation
+- uid: Fantas.Node.HasChildren
+  name: HasChildren
+  href: api/Fantas.Node.html#Fantas_Node_HasChildren
+  commentId: P:Fantas.Node.HasChildren
+  fullName: Fantas.Node.HasChildren
+  nameWithType: Node.HasChildren
+- uid: Fantas.Node.HasChildren*
+  name: HasChildren
+  href: api/Fantas.Node.html#Fantas_Node_HasChildren_
+  commentId: Overload:Fantas.Node.HasChildren
+  fullName: Fantas.Node.HasChildren
+  nameWithType: Node.HasChildren
+- uid: Fantas.Node.HasParent
+  name: HasParent
+  href: api/Fantas.Node.html#Fantas_Node_HasParent
+  commentId: P:Fantas.Node.HasParent
+  fullName: Fantas.Node.HasParent
+  nameWithType: Node.HasParent
+- uid: Fantas.Node.HasParent*
+  name: HasParent
+  href: api/Fantas.Node.html#Fantas_Node_HasParent_
+  commentId: Overload:Fantas.Node.HasParent
+  fullName: Fantas.Node.HasParent
+  nameWithType: Node.HasParent
 - uid: Fantas.Node.Height
   name: Height
   href: api/Fantas.Node.html#Fantas_Node_Height

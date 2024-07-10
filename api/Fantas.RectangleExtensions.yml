@@ -16,7 +16,7 @@ items:
   fullName: Fantas.RectangleExtensions
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Extensions/RectangleExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Extensions/RectangleExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -48,7 +48,7 @@ items:
   fullName: Fantas.RectangleExtensions.Center(System.Drawing.RectangleF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Extensions/RectangleExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Extensions/RectangleExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -78,7 +78,7 @@ items:
   fullName: Fantas.RectangleExtensions.Center(System.Drawing.Rectangle)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Extensions/RectangleExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Extensions/RectangleExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -108,7 +108,7 @@ items:
   fullName: Fantas.RectangleExtensions.GetIntersectionDepth(System.Drawing.RectangleF, System.Drawing.RectangleF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Extensions/RectangleExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Extensions/RectangleExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas

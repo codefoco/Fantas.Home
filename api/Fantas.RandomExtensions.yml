@@ -20,7 +20,7 @@ items:
   fullName: Fantas.RandomExtensions
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Extensions/RandomExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Extensions/RandomExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -52,7 +52,7 @@ items:
   fullName: Fantas.RandomExtensions.NextFloat(System.Random)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Extensions/RandomExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Extensions/RandomExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -82,7 +82,7 @@ items:
   fullName: Fantas.RandomExtensions.NextFloat(System.Random, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Extensions/RandomExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Extensions/RandomExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -118,7 +118,7 @@ items:
   fullName: Fantas.RandomExtensions.NextDouble(System.Random, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Extensions/RandomExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Extensions/RandomExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -154,7 +154,7 @@ items:
   fullName: Fantas.RandomExtensions.Range(System.Random, int, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Extensions/RandomExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Extensions/RandomExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -193,7 +193,7 @@ items:
   fullName: Fantas.RandomExtensions.Range(System.Random, float, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Extensions/RandomExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Extensions/RandomExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -232,7 +232,7 @@ items:
   fullName: Fantas.RandomExtensions.Range(System.Random, double, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Extensions/RandomExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Extensions/RandomExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -270,7 +270,7 @@ items:
   fullName: Fantas.RandomExtensions.Random
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Extensions/RandomExtensions.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Extensions/RandomExtensions.cs
   assemblies:
   - Fantas
   namespace: Fantas

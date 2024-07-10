@@ -13,7 +13,7 @@ items:
   fullName: Fantas.Input.Cursor
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Mouse/Cursor.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Mouse/Cursor.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input

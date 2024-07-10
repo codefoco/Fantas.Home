@@ -27,7 +27,7 @@ items:
   fullName: Fantas.UI.ButtonNode
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/UI/ButtonNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/UI/ButtonNode.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
@@ -139,6 +139,8 @@ items:
   - Fantas.Node.Scene
   - Fantas.Node.Parent
   - Fantas.Node.Children
+  - Fantas.Node.HasChildren
+  - Fantas.Node.HasParent
   - Fantas.Node.PhysicsBody
   - Fantas.Node.Hidden
   - Fantas.Node.Alpha
@@ -190,7 +192,7 @@ items:
   fullName: Fantas.UI.ButtonNode.ButtonNode()
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/UI/ButtonNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/UI/ButtonNode.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
@@ -215,7 +217,7 @@ items:
   fullName: Fantas.UI.ButtonNode.OnStateChanged()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/UI/ButtonNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/UI/ButtonNode.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
@@ -238,7 +240,7 @@ items:
   fullName: Fantas.UI.ButtonNode.OnTouchUpInside(Fantas.Input.TouchEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/UI/ButtonNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/UI/ButtonNode.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
@@ -265,7 +267,7 @@ items:
   fullName: Fantas.UI.ButtonNode.OnClick(Fantas.Input.MouseEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/UI/ButtonNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/UI/ButtonNode.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
@@ -292,7 +294,7 @@ items:
   fullName: Fantas.UI.ButtonNode.Press()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/UI/ButtonNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/UI/ButtonNode.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
@@ -314,7 +316,7 @@ items:
   fullName: Fantas.UI.ButtonNode.OnPressed()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/UI/ButtonNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/UI/ButtonNode.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
@@ -336,7 +338,7 @@ items:
   fullName: Fantas.UI.ButtonNode.LabelNode
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/UI/ButtonNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/UI/ButtonNode.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
@@ -361,7 +363,7 @@ items:
   fullName: Fantas.UI.ButtonNode.Text
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/UI/ButtonNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/UI/ButtonNode.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
@@ -386,7 +388,7 @@ items:
   fullName: Fantas.UI.ButtonNode.TextColor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/UI/ButtonNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/UI/ButtonNode.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
@@ -411,7 +413,7 @@ items:
   fullName: Fantas.UI.ButtonNode.DisabledTexture
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/UI/ButtonNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/UI/ButtonNode.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
@@ -436,7 +438,7 @@ items:
   fullName: Fantas.UI.ButtonNode.HoverTexture
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/UI/ButtonNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/UI/ButtonNode.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
@@ -461,7 +463,7 @@ items:
   fullName: Fantas.UI.ButtonNode.NormalTexture
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/UI/ButtonNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/UI/ButtonNode.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
@@ -486,7 +488,7 @@ items:
   fullName: Fantas.UI.ButtonNode.PressedTexture
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/UI/ButtonNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/UI/ButtonNode.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
@@ -511,7 +513,7 @@ items:
   fullName: Fantas.UI.ButtonNode.Pressed
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/UI/ButtonNode.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/UI/ButtonNode.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
@@ -2647,6 +2649,22 @@ references:
   name: Children
   nameWithType: Node.Children
   fullName: Fantas.Node.Children
+- uid: Fantas.Node.HasChildren
+  commentId: P:Fantas.Node.HasChildren
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_HasChildren
+  name: HasChildren
+  nameWithType: Node.HasChildren
+  fullName: Fantas.Node.HasChildren
+- uid: Fantas.Node.HasParent
+  commentId: P:Fantas.Node.HasParent
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_HasParent
+  name: HasParent
+  nameWithType: Node.HasParent
+  fullName: Fantas.Node.HasParent
 - uid: Fantas.Node.PhysicsBody
   commentId: P:Fantas.Node.PhysicsBody
   parent: Fantas.Node

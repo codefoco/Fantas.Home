@@ -16,7 +16,7 @@ items:
   fullName: Fantas.TileGroup
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileGroup.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileGroup.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -46,7 +46,7 @@ items:
   fullName: Fantas.TileGroup.TileGroup(Fantas.TileDefinition)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileGroup.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileGroup.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -75,7 +75,7 @@ items:
   fullName: Fantas.TileGroup.Name
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileGroup.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileGroup.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -100,7 +100,7 @@ items:
   fullName: Fantas.TileGroup.Empty
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Tiles/TileGroup.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileGroup.cs
   assemblies:
   - Fantas
   namespace: Fantas

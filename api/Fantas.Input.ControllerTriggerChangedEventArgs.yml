@@ -16,7 +16,7 @@ items:
   fullName: Fantas.Input.ControllerTriggerChangedEventArgs
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Controller/ControllerTriggerChangedEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Controller/ControllerTriggerChangedEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -49,7 +49,7 @@ items:
   fullName: Fantas.Input.ControllerTriggerChangedEventArgs.ControllerTriggerChangedEventArgs(float, int)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Controller/ControllerTriggerChangedEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Controller/ControllerTriggerChangedEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -81,7 +81,7 @@ items:
   fullName: Fantas.Input.ControllerTriggerChangedEventArgs.TriggerValue
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Controller/ControllerTriggerChangedEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Controller/ControllerTriggerChangedEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -111,7 +111,7 @@ items:
   fullName: Fantas.Input.ControllerTriggerChangedEventArgs.ControllerIndex
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/c7ee33a8f6266856ee02c7bd37c308f71be6d1ad/src/Input/Controller/ControllerTriggerChangedEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Controller/ControllerTriggerChangedEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
