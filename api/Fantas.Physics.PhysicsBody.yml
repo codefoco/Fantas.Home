@@ -38,7 +38,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -76,7 +76,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.ContactWith(Fantas.Physics.PhysicsBody)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -105,7 +105,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.ContactWithAny(Fantas.Physics.PhysicsBody[])
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -137,7 +137,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.ContactWithAll(Fantas.Physics.PhysicsBody[])
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -169,7 +169,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.ApplyAngularImpulse(double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -198,7 +198,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -224,7 +224,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2, System.Drawing.PointF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -253,7 +253,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -279,7 +279,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2, System.Drawing.PointF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -308,7 +308,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.ApplyTorque(double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -337,7 +337,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.AllContactedBodies
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -362,7 +362,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.AllowsRotation
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -387,7 +387,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.AngularVelocity
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -412,7 +412,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.Area
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -437,7 +437,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.Category
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -462,7 +462,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.ContactMask
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -487,7 +487,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.CollisionMask
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -512,7 +512,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.Density
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -537,7 +537,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.Dynamic
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -562,7 +562,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.Friction
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -590,7 +590,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.Joints
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -615,7 +615,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.Mass
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -640,7 +640,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.Node
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -665,7 +665,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.Resting
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -690,7 +690,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.Restitution
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -715,7 +715,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.Velocity
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics

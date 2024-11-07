@@ -17,7 +17,7 @@ items:
   fullName: Fantas.CameraNode
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/CameraNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/CameraNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -154,7 +154,7 @@ items:
   fullName: Fantas.CameraNode.CameraNode()
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/CameraNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/CameraNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -179,7 +179,7 @@ items:
   fullName: Fantas.CameraNode.CameraNode(Fantas.CameraNode)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/CameraNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/CameraNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -207,7 +207,7 @@ items:
   fullName: Fantas.CameraNode.Copy()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/CameraNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/CameraNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -233,7 +233,7 @@ items:
   fullName: Fantas.CameraNode.Contains(Fantas.Node)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/CameraNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/CameraNode.cs
   assemblies:
   - Fantas
   namespace: Fantas

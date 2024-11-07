@@ -49,7 +49,7 @@ items:
   fullName: Fantas.TileAdjacencyMask
   type: Enum
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -80,7 +80,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.None
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -102,7 +102,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexFlatUp
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -124,7 +124,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexPointyUpperLeft
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -146,7 +146,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.Up
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -168,7 +168,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexFlatUpperRight
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -190,7 +190,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexPointyUpperRight
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -212,7 +212,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.UpperRight
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -234,7 +234,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexFlatLowerRight
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -256,7 +256,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexPointyRight
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -278,7 +278,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.Right
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -300,7 +300,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.LowerLeftEdge
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -323,7 +323,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexFlatDown
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -345,7 +345,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexPointyLowerRight
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -367,7 +367,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.LowerRight
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -389,7 +389,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.Down
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -411,7 +411,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexFlatLowerLeft
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -433,7 +433,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexPointyLowerLeft
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -455,7 +455,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.UpperLeftEdge
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -478,7 +478,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.LeftEdge
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -501,7 +501,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexFlatUpperLeft
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -523,7 +523,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexPointyLeft
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -545,7 +545,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.LowerLeft
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -567,7 +567,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexFlatAll
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -590,7 +590,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexPointyAll
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -613,7 +613,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.Left
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -635,7 +635,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.UpperRightEdge
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -658,7 +658,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.UpEdge
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -681,7 +681,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.LowerRightCorner
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -704,7 +704,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.UpperLeft
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -726,7 +726,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.LowerRightEdge
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -749,7 +749,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.DownEdge
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -772,7 +772,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.UpperRightCorner
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -795,7 +795,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.RightEdge
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -818,7 +818,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.UpperLeftCorner
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -841,7 +841,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.LowerLeftCorner
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -864,7 +864,7 @@ items:
   fullName: Fantas.TileAdjacencyMask.All
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas

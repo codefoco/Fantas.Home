@@ -14,7 +14,7 @@ items:
   fullName: Fantas.Physics.PolygonBody
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PolygonBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PolygonBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -70,7 +70,7 @@ items:
   fullName: Fantas.Physics.PolygonBody.PolygonBody(System.Drawing.PointF[])
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Physics/Bodies/PolygonBody.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Physics/Bodies/PolygonBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics

@@ -1753,15 +1753,6 @@ references:
   fullName.vb: Fantas.Game.New()
   nameWithType: Game.Game()
   nameWithType.vb: Game.New()
-- uid: Fantas.Game.#ctor(Fantas.GameOptions)
-  name: Game(GameOptions)
-  href: api/Fantas.Game.html#Fantas_Game__ctor_Fantas_GameOptions_
-  commentId: M:Fantas.Game.#ctor(Fantas.GameOptions)
-  name.vb: New(GameOptions)
-  fullName: Fantas.Game.Game(Fantas.GameOptions)
-  fullName.vb: Fantas.Game.New(Fantas.GameOptions)
-  nameWithType: Game.Game(GameOptions)
-  nameWithType.vb: Game.New(GameOptions)
 - uid: Fantas.Game.#ctor(System.Drawing.Size)
   name: Game(Size)
   href: api/Fantas.Game.html#Fantas_Game__ctor_System_Drawing_Size_
@@ -1771,15 +1762,6 @@ references:
   fullName.vb: Fantas.Game.New(System.Drawing.Size)
   nameWithType: Game.Game(Size)
   nameWithType.vb: Game.New(Size)
-- uid: Fantas.Game.#ctor(System.Drawing.Size,Fantas.GameOptions)
-  name: Game(Size, GameOptions)
-  href: api/Fantas.Game.html#Fantas_Game__ctor_System_Drawing_Size_Fantas_GameOptions_
-  commentId: M:Fantas.Game.#ctor(System.Drawing.Size,Fantas.GameOptions)
-  name.vb: New(Size, GameOptions)
-  fullName: Fantas.Game.Game(System.Drawing.Size, Fantas.GameOptions)
-  fullName.vb: Fantas.Game.New(System.Drawing.Size, Fantas.GameOptions)
-  nameWithType: Game.Game(Size, GameOptions)
-  nameWithType.vb: Game.New(Size, GameOptions)
 - uid: Fantas.Game.#ctor*
   name: Game
   href: api/Fantas.Game.html#Fantas_Game__ctor_
@@ -1849,6 +1831,18 @@ references:
   commentId: Overload:Fantas.Game.Instance
   fullName: Fantas.Game.Instance
   nameWithType: Game.Instance
+- uid: Fantas.Game.IsFullScreen
+  name: IsFullScreen
+  href: api/Fantas.Game.html#Fantas_Game_IsFullScreen
+  commentId: P:Fantas.Game.IsFullScreen
+  fullName: Fantas.Game.IsFullScreen
+  nameWithType: Game.IsFullScreen
+- uid: Fantas.Game.IsFullScreen*
+  name: IsFullScreen
+  href: api/Fantas.Game.html#Fantas_Game_IsFullScreen_
+  commentId: Overload:Fantas.Game.IsFullScreen
+  fullName: Fantas.Game.IsFullScreen
+  nameWithType: Game.IsFullScreen
 - uid: Fantas.Game.PresentScene(Fantas.Scene)
   name: PresentScene(Scene)
   href: api/Fantas.Game.html#Fantas_Game_PresentScene_Fantas_Scene_
@@ -1945,24 +1939,12 @@ references:
   commentId: F:Fantas.GameOptions.DontFilterTextures
   fullName: Fantas.GameOptions.DontFilterTextures
   nameWithType: GameOptions.DontFilterTextures
-- uid: Fantas.GameOptions.FullScreen
-  name: FullScreen
-  href: api/Fantas.GameOptions.html#Fantas_GameOptions_FullScreen
-  commentId: F:Fantas.GameOptions.FullScreen
-  fullName: Fantas.GameOptions.FullScreen
-  nameWithType: GameOptions.FullScreen
 - uid: Fantas.GameOptions.None
   name: None
   href: api/Fantas.GameOptions.html#Fantas_GameOptions_None
   commentId: F:Fantas.GameOptions.None
   fullName: Fantas.GameOptions.None
   nameWithType: GameOptions.None
-- uid: Fantas.GameOptions.UseDisplayResolutionOnFullScreen
-  name: UseDisplayResolutionOnFullScreen
-  href: api/Fantas.GameOptions.html#Fantas_GameOptions_UseDisplayResolutionOnFullScreen
-  commentId: F:Fantas.GameOptions.UseDisplayResolutionOnFullScreen
-  fullName: Fantas.GameOptions.UseDisplayResolutionOnFullScreen
-  nameWithType: GameOptions.UseDisplayResolutionOnFullScreen
 - uid: Fantas.Input
   name: Fantas.Input
   href: api/Fantas.Input.html
@@ -5074,6 +5056,18 @@ references:
   commentId: Overload:Fantas.LabelNode.HorizontalAlignmentMode
   fullName: Fantas.LabelNode.HorizontalAlignmentMode
   nameWithType: LabelNode.HorizontalAlignmentMode
+- uid: Fantas.LabelNode.MaxLength
+  name: MaxLength
+  href: api/Fantas.LabelNode.html#Fantas_LabelNode_MaxLength
+  commentId: P:Fantas.LabelNode.MaxLength
+  fullName: Fantas.LabelNode.MaxLength
+  nameWithType: LabelNode.MaxLength
+- uid: Fantas.LabelNode.MaxLength*
+  name: MaxLength
+  href: api/Fantas.LabelNode.html#Fantas_LabelNode_MaxLength_
+  commentId: Overload:Fantas.LabelNode.MaxLength
+  fullName: Fantas.LabelNode.MaxLength
+  nameWithType: LabelNode.MaxLength
 - uid: Fantas.LabelNode.Outline
   name: Outline
   href: api/Fantas.LabelNode.html#Fantas_LabelNode_Outline
@@ -5206,6 +5200,18 @@ references:
   commentId: Overload:Fantas.LabelNode.OutlineTopSecondaryColor
   fullName: Fantas.LabelNode.OutlineTopSecondaryColor
   nameWithType: LabelNode.OutlineTopSecondaryColor
+- uid: Fantas.LabelNode.PreferredWidth
+  name: PreferredWidth
+  href: api/Fantas.LabelNode.html#Fantas_LabelNode_PreferredWidth
+  commentId: P:Fantas.LabelNode.PreferredWidth
+  fullName: Fantas.LabelNode.PreferredWidth
+  nameWithType: LabelNode.PreferredWidth
+- uid: Fantas.LabelNode.PreferredWidth*
+  name: PreferredWidth
+  href: api/Fantas.LabelNode.html#Fantas_LabelNode_PreferredWidth_
+  commentId: Overload:Fantas.LabelNode.PreferredWidth
+  fullName: Fantas.LabelNode.PreferredWidth
+  nameWithType: LabelNode.PreferredWidth
 - uid: Fantas.LabelNode.SecondaryColor
   name: SecondaryColor
   href: api/Fantas.LabelNode.html#Fantas_LabelNode_SecondaryColor

@@ -6,9 +6,7 @@ items:
   parent: Fantas
   children:
   - Fantas.GameOptions.DontFilterTextures
-  - Fantas.GameOptions.FullScreen
   - Fantas.GameOptions.None
-  - Fantas.GameOptions.UseDisplayResolutionOnFullScreen
   langs:
   - csharp
   - vb
@@ -17,7 +15,7 @@ items:
   fullName: Fantas.GameOptions
   type: Enum
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/GameOptions.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/GameOptions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -48,7 +46,7 @@ items:
   fullName: Fantas.GameOptions.None
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/GameOptions.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/GameOptions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -56,61 +54,6 @@ items:
   example: []
   syntax:
     content: None = 0
-    return:
-      type: Fantas.GameOptions
-- uid: Fantas.GameOptions.FullScreen
-  commentId: F:Fantas.GameOptions.FullScreen
-  id: FullScreen
-  parent: Fantas.GameOptions
-  langs:
-  - csharp
-  - vb
-  name: FullScreen
-  nameWithType: GameOptions.FullScreen
-  fullName: Fantas.GameOptions.FullScreen
-  type: Field
-  source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/GameOptions.cs
-  assemblies:
-  - Fantas
-  namespace: Fantas
-  summary: Use FullScreen (if possible)
-  example: []
-  syntax:
-    content: FullScreen = 1
-    return:
-      type: Fantas.GameOptions
-- uid: Fantas.GameOptions.UseDisplayResolutionOnFullScreen
-  commentId: F:Fantas.GameOptions.UseDisplayResolutionOnFullScreen
-  id: UseDisplayResolutionOnFullScreen
-  parent: Fantas.GameOptions
-  langs:
-  - csharp
-  - vb
-  name: UseDisplayResolutionOnFullScreen
-  nameWithType: GameOptions.UseDisplayResolutionOnFullScreen
-  fullName: Fantas.GameOptions.UseDisplayResolutionOnFullScreen
-  type: Field
-  source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/GameOptions.cs
-  assemblies:
-  - Fantas
-  namespace: Fantas
-  summary: >-
-    Use this flag to DON'T change the Graphics device
-
-    resolution on FullScreen mode
-
-    This can be used when you want to avoid failure asking
-
-    for a resolution that is not available on FS.
-
-    On the other hand if you have a HighDPI display your
-
-    frame rate can drop a lot
-  example: []
-  syntax:
-    content: UseDisplayResolutionOnFullScreen = 2
     return:
       type: Fantas.GameOptions
 - uid: Fantas.GameOptions.DontFilterTextures
@@ -125,7 +68,7 @@ items:
   fullName: Fantas.GameOptions.DontFilterTextures
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/GameOptions.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/GameOptions.cs
   assemblies:
   - Fantas
   namespace: Fantas

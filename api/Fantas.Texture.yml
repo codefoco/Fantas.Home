@@ -42,7 +42,7 @@ items:
   fullName: Fantas.Texture
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -74,7 +74,7 @@ items:
   fullName: Fantas.Texture.EncodeToPNG()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -99,7 +99,7 @@ items:
   fullName: Fantas.Texture.FromAsset(string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -142,7 +142,7 @@ items:
   fullName: Fantas.Texture.FromResource(System.Reflection.Assembly, string, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -183,7 +183,7 @@ items:
   fullName: Fantas.Texture.FromResourceCached(System.Reflection.Assembly, string, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -221,7 +221,7 @@ items:
   fullName: Fantas.Texture.RemoveTextureFromCache(Fantas.Texture)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -247,7 +247,7 @@ items:
   fullName: Fantas.Texture.CreateSubTexture(System.Drawing.RectangleF, Fantas.Texture)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -279,7 +279,7 @@ items:
   fullName: Fantas.Texture.CreateSubTexture(int, int, int, int, Fantas.Texture)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -323,7 +323,7 @@ items:
   fullName: Fantas.Texture.FromResource(string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -358,7 +358,7 @@ items:
   fullName: Fantas.Texture.FromResource(string, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -396,7 +396,7 @@ items:
   fullName: Fantas.Texture.FromStream(System.IO.Stream, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -434,7 +434,7 @@ items:
   fullName: Fantas.Texture.FromPixelData(int[], int, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -476,7 +476,7 @@ items:
   fullName: Fantas.Texture.FromColorPixel(System.Drawing.Color)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -505,7 +505,7 @@ items:
   fullName: Fantas.Texture.FromPixelData(System.Drawing.Color[], int, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -550,7 +550,7 @@ items:
   fullName: Fantas.Texture.FromFile(string, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -585,7 +585,7 @@ items:
   fullName: Fantas.Texture.FromFile(string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -617,7 +617,7 @@ items:
   fullName: Fantas.Texture.FromName(string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -660,7 +660,7 @@ items:
   fullName: Fantas.Texture.~Texture()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -685,7 +685,7 @@ items:
   fullName: Fantas.Texture.Dispose()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -709,7 +709,7 @@ items:
   fullName: Fantas.Texture.PixelTexture
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -734,7 +734,7 @@ items:
   fullName: Fantas.Texture.SparkTexture
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -759,7 +759,7 @@ items:
   fullName: Fantas.Texture.Size
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -784,7 +784,7 @@ items:
   fullName: Fantas.Texture.Width
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -809,7 +809,7 @@ items:
   fullName: Fantas.Texture.RawWidth
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -834,7 +834,7 @@ items:
   fullName: Fantas.Texture.Height
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -859,7 +859,7 @@ items:
   fullName: Fantas.Texture.RawHeight
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -884,7 +884,7 @@ items:
   fullName: Fantas.Texture.RawSize
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -909,7 +909,7 @@ items:
   fullName: Fantas.Texture.TextureRectangle
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -934,7 +934,7 @@ items:
   fullName: Fantas.Texture.PixelData
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -959,7 +959,7 @@ items:
   fullName: Fantas.Texture.ColorPixelData
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Texture/Texture.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/Texture.cs
   assemblies:
   - Fantas
   namespace: Fantas

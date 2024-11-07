@@ -17,7 +17,7 @@ items:
   fullName: Fantas.Input.PinchEventArgs
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/PinchEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Touch/PinchEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -50,7 +50,7 @@ items:
   fullName: Fantas.Input.PinchEventArgs.PinchEventArgs(System.Drawing.PointF, System.Drawing.PointF, float)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/PinchEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Touch/PinchEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -82,7 +82,7 @@ items:
   fullName: Fantas.Input.PinchEventArgs.Location1
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/PinchEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Touch/PinchEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -107,7 +107,7 @@ items:
   fullName: Fantas.Input.PinchEventArgs.Location2
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/PinchEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Touch/PinchEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -132,7 +132,7 @@ items:
   fullName: Fantas.Input.PinchEventArgs.Scale
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Input/Touch/PinchEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Touch/PinchEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input

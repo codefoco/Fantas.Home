@@ -17,7 +17,7 @@ items:
   fullName: Fantas.SceneScaleMode
   type: Enum
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/SceneScaleMode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/SceneScaleMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -43,7 +43,7 @@ items:
   fullName: Fantas.SceneScaleMode.Fill
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/SceneScaleMode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/SceneScaleMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -70,7 +70,7 @@ items:
   fullName: Fantas.SceneScaleMode.AspectFill
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/SceneScaleMode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/SceneScaleMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -92,7 +92,7 @@ items:
   fullName: Fantas.SceneScaleMode.AspectFit
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/SceneScaleMode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/SceneScaleMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -114,7 +114,7 @@ items:
   fullName: Fantas.SceneScaleMode.ResizeFill
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/SceneScaleMode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/SceneScaleMode.cs
   assemblies:
   - Fantas
   namespace: Fantas

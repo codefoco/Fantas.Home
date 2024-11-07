@@ -16,6 +16,7 @@ items:
   - Fantas.LabelNode.Copy
   - Fantas.LabelNode.Font
   - Fantas.LabelNode.HorizontalAlignmentMode
+  - Fantas.LabelNode.MaxLength
   - Fantas.LabelNode.Outline
   - Fantas.LabelNode.OutlineBottomColor
   - Fantas.LabelNode.OutlineBottomSecondaryColor
@@ -27,6 +28,7 @@ items:
   - Fantas.LabelNode.OutlineSecondaryColor
   - Fantas.LabelNode.OutlineTopColor
   - Fantas.LabelNode.OutlineTopSecondaryColor
+  - Fantas.LabelNode.PreferredWidth
   - Fantas.LabelNode.SecondaryColor
   - Fantas.LabelNode.Text
   - Fantas.LabelNode.TopColor
@@ -40,7 +42,7 @@ items:
   fullName: Fantas.LabelNode
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -177,7 +179,7 @@ items:
   fullName: Fantas.LabelNode.LabelNode()
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -202,7 +204,7 @@ items:
   fullName: Fantas.LabelNode.LabelNode(string)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -230,7 +232,7 @@ items:
   fullName: Fantas.LabelNode.LabelNode(Fantas.LabelNode)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -258,7 +260,7 @@ items:
   fullName: Fantas.LabelNode.Copy()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -284,7 +286,7 @@ items:
   fullName: Fantas.LabelNode.Text
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -309,7 +311,7 @@ items:
   fullName: Fantas.LabelNode.Font
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -334,7 +336,7 @@ items:
   fullName: Fantas.LabelNode.Color
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -359,7 +361,7 @@ items:
   fullName: Fantas.LabelNode.TopColor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -384,7 +386,7 @@ items:
   fullName: Fantas.LabelNode.BottomColor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -409,7 +411,7 @@ items:
   fullName: Fantas.LabelNode.SecondaryColor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -434,7 +436,7 @@ items:
   fullName: Fantas.LabelNode.TopSecondaryColor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -459,7 +461,7 @@ items:
   fullName: Fantas.LabelNode.BottomSecondaryColor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -484,7 +486,7 @@ items:
   fullName: Fantas.LabelNode.ColorBlendFactor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -509,7 +511,7 @@ items:
   fullName: Fantas.LabelNode.BlendMode
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -534,7 +536,7 @@ items:
   fullName: Fantas.LabelNode.HorizontalAlignmentMode
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -559,7 +561,7 @@ items:
   fullName: Fantas.LabelNode.VerticalAlignmentMode
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -572,6 +574,56 @@ items:
       type: Fantas.LabelVerticalAlignmentMode
     content.vb: Public Property VerticalAlignmentMode As LabelVerticalAlignmentMode
   overload: Fantas.LabelNode.VerticalAlignmentMode*
+- uid: Fantas.LabelNode.MaxLength
+  commentId: P:Fantas.LabelNode.MaxLength
+  id: MaxLength
+  parent: Fantas.LabelNode
+  langs:
+  - csharp
+  - vb
+  name: MaxLength
+  nameWithType: LabelNode.MaxLength
+  fullName: Fantas.LabelNode.MaxLength
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Maximum number of character in the LabelNode
+  example: []
+  syntax:
+    content: public int MaxLength { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxLength As Integer
+  overload: Fantas.LabelNode.MaxLength*
+- uid: Fantas.LabelNode.PreferredWidth
+  commentId: P:Fantas.LabelNode.PreferredWidth
+  id: PreferredWidth
+  parent: Fantas.LabelNode
+  langs:
+  - csharp
+  - vb
+  name: PreferredWidth
+  nameWithType: LabelNode.PreferredWidth
+  fullName: Fantas.LabelNode.PreferredWidth
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Preferred label width, when set the LabelNode will wrap the words
+  example: []
+  syntax:
+    content: public float PreferredWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property PreferredWidth As Single
+  overload: Fantas.LabelNode.PreferredWidth*
 - uid: Fantas.LabelNode.Outline
   commentId: P:Fantas.LabelNode.Outline
   id: Outline
@@ -584,7 +636,7 @@ items:
   fullName: Fantas.LabelNode.Outline
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -609,7 +661,7 @@ items:
   fullName: Fantas.LabelNode.OutlineFlags
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -634,7 +686,7 @@ items:
   fullName: Fantas.LabelNode.OutlineDelta
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -659,7 +711,7 @@ items:
   fullName: Fantas.LabelNode.OutlineOffset
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -684,7 +736,7 @@ items:
   fullName: Fantas.LabelNode.OutlineColor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -709,7 +761,7 @@ items:
   fullName: Fantas.LabelNode.OutlineSecondaryColor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -734,7 +786,7 @@ items:
   fullName: Fantas.LabelNode.OutlineColorBlendFactor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -759,7 +811,7 @@ items:
   fullName: Fantas.LabelNode.OutlineTopColor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -784,7 +836,7 @@ items:
   fullName: Fantas.LabelNode.OutlineBottomColor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -809,7 +861,7 @@ items:
   fullName: Fantas.LabelNode.OutlineTopSecondaryColor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -834,7 +886,7 @@ items:
   fullName: Fantas.LabelNode.OutlineBottomSecondaryColor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Nodes/LabelNode.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/LabelNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -3290,6 +3342,31 @@ references:
   name: LabelVerticalAlignmentMode
   nameWithType: LabelVerticalAlignmentMode
   fullName: Fantas.LabelVerticalAlignmentMode
+- uid: Fantas.LabelNode.MaxLength*
+  commentId: Overload:Fantas.LabelNode.MaxLength
+  isExternal: true
+  href: Fantas.LabelNode.html#Fantas_LabelNode_MaxLength
+  name: MaxLength
+  nameWithType: LabelNode.MaxLength
+  fullName: Fantas.LabelNode.MaxLength
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Fantas.LabelNode.PreferredWidth*
+  commentId: Overload:Fantas.LabelNode.PreferredWidth
+  isExternal: true
+  href: Fantas.LabelNode.html#Fantas_LabelNode_PreferredWidth
+  name: PreferredWidth
+  nameWithType: LabelNode.PreferredWidth
+  fullName: Fantas.LabelNode.PreferredWidth
 - uid: Fantas.LabelNode.Outline*
   commentId: Overload:Fantas.LabelNode.Outline
   isExternal: true

@@ -6,14 +6,13 @@ items:
   parent: Fantas
   children:
   - Fantas.Game.#ctor
-  - Fantas.Game.#ctor(Fantas.GameOptions)
   - Fantas.Game.#ctor(System.Drawing.Size)
-  - Fantas.Game.#ctor(System.Drawing.Size,Fantas.GameOptions)
   - Fantas.Game.CurrentScene
   - Fantas.Game.Exit
   - Fantas.Game.GameOptions
   - Fantas.Game.GetSceneSnapshot
   - Fantas.Game.Instance
+  - Fantas.Game.IsFullScreen
   - Fantas.Game.PresentScene(Fantas.Scene)
   - Fantas.Game.Run
   - Fantas.Game.RunOneFrame
@@ -29,7 +28,7 @@ items:
   fullName: Fantas.Game
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -48,67 +47,6 @@ items:
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.GetHashCode
-- uid: Fantas.Game.#ctor(System.Drawing.Size,Fantas.GameOptions)
-  commentId: M:Fantas.Game.#ctor(System.Drawing.Size,Fantas.GameOptions)
-  id: '#ctor(System.Drawing.Size,Fantas.GameOptions)'
-  parent: Fantas.Game
-  langs:
-  - csharp
-  - vb
-  name: Game(Size, GameOptions)
-  nameWithType: Game.Game(Size, GameOptions)
-  fullName: Fantas.Game.Game(System.Drawing.Size, Fantas.GameOptions)
-  type: Constructor
-  source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Game.cs
-  assemblies:
-  - Fantas
-  namespace: Fantas
-  summary: ''
-  example: []
-  syntax:
-    content: public Game(Size preferredWindowSize, GameOptions options)
-    parameters:
-    - id: preferredWindowSize
-      type: System.Drawing.Size
-      description: on Desktop the preferred window size (in points)
-    - id: options
-      type: Fantas.GameOptions
-      description: ''
-    content.vb: Public Sub New(preferredWindowSize As Size, options As GameOptions)
-  overload: Fantas.Game.#ctor*
-  nameWithType.vb: Game.New(Size, GameOptions)
-  fullName.vb: Fantas.Game.New(System.Drawing.Size, Fantas.GameOptions)
-  name.vb: New(Size, GameOptions)
-- uid: Fantas.Game.#ctor(Fantas.GameOptions)
-  commentId: M:Fantas.Game.#ctor(Fantas.GameOptions)
-  id: '#ctor(Fantas.GameOptions)'
-  parent: Fantas.Game
-  langs:
-  - csharp
-  - vb
-  name: Game(GameOptions)
-  nameWithType: Game.Game(GameOptions)
-  fullName: Fantas.Game.Game(Fantas.GameOptions)
-  type: Constructor
-  source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Game.cs
-  assemblies:
-  - Fantas
-  namespace: Fantas
-  summary: ''
-  example: []
-  syntax:
-    content: public Game(GameOptions options)
-    parameters:
-    - id: options
-      type: Fantas.GameOptions
-      description: ''
-    content.vb: Public Sub New(options As GameOptions)
-  overload: Fantas.Game.#ctor*
-  nameWithType.vb: Game.New(GameOptions)
-  fullName.vb: Fantas.Game.New(Fantas.GameOptions)
-  name.vb: New(GameOptions)
 - uid: Fantas.Game.#ctor(System.Drawing.Size)
   commentId: M:Fantas.Game.#ctor(System.Drawing.Size)
   id: '#ctor(System.Drawing.Size)'
@@ -121,7 +59,7 @@ items:
   fullName: Fantas.Game.Game(System.Drawing.Size)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -150,7 +88,7 @@ items:
   fullName: Fantas.Game.Game()
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -175,7 +113,7 @@ items:
   fullName: Fantas.Game.PresentScene(Fantas.Scene)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -205,7 +143,7 @@ items:
   fullName: Fantas.Game.WindowSizeChanged()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -227,7 +165,7 @@ items:
   fullName: Fantas.Game.GetSceneSnapshot()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -252,7 +190,7 @@ items:
   fullName: Fantas.Game.Run()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -274,7 +212,7 @@ items:
   fullName: Fantas.Game.Exit()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -299,7 +237,7 @@ items:
   fullName: Fantas.Game.Instance
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -324,7 +262,7 @@ items:
   fullName: Fantas.Game.CurrentScene
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -349,7 +287,7 @@ items:
   fullName: Fantas.Game.WindowSize
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -365,6 +303,31 @@ items:
       type: System.Drawing.Size
     content.vb: Public Property WindowSize As Size
   overload: Fantas.Game.WindowSize*
+- uid: Fantas.Game.IsFullScreen
+  commentId: P:Fantas.Game.IsFullScreen
+  id: IsFullScreen
+  parent: Fantas.Game
+  langs:
+  - csharp
+  - vb
+  name: IsFullScreen
+  nameWithType: Game.IsFullScreen
+  fullName: Fantas.Game.IsFullScreen
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Game.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Change/Get Window Full Screen mode
+  example: []
+  syntax:
+    content: public bool IsFullScreen { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsFullScreen As Boolean
+  overload: Fantas.Game.IsFullScreen*
 - uid: Fantas.Game.ScaleMode
   commentId: P:Fantas.Game.ScaleMode
   id: ScaleMode
@@ -377,7 +340,7 @@ items:
   fullName: Fantas.Game.ScaleMode
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -402,7 +365,7 @@ items:
   fullName: Fantas.Game.GameOptions
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -427,7 +390,7 @@ items:
   fullName: Fantas.Game.WindowTitle
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -455,7 +418,7 @@ items:
   fullName: Fantas.Game.RunOneFrame
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/abce7e8aa6e9fdc67723eb603874de23806741c5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -719,7 +682,7 @@ references:
 - uid: Fantas.Game.#ctor*
   commentId: Overload:Fantas.Game.#ctor
   isExternal: true
-  href: Fantas.Game.html#Fantas_Game__ctor_System_Drawing_Size_Fantas_GameOptions_
+  href: Fantas.Game.html#Fantas_Game__ctor_System_Drawing_Size_
   name: Game
   nameWithType: Game.Game
   fullName: Fantas.Game.Game
@@ -734,14 +697,6 @@ references:
   name: Size
   nameWithType: Size
   fullName: System.Drawing.Size
-- uid: Fantas.GameOptions
-  commentId: T:Fantas.GameOptions
-  parent: Fantas
-  isExternal: true
-  href: Fantas.GameOptions.html
-  name: GameOptions
-  nameWithType: GameOptions
-  fullName: Fantas.GameOptions
 - uid: System.Drawing
   commentId: N:System.Drawing
   isExternal: true
@@ -871,6 +826,24 @@ references:
   name: WindowSize
   nameWithType: Game.WindowSize
   fullName: Fantas.Game.WindowSize
+- uid: Fantas.Game.IsFullScreen*
+  commentId: Overload:Fantas.Game.IsFullScreen
+  isExternal: true
+  href: Fantas.Game.html#Fantas_Game_IsFullScreen
+  name: IsFullScreen
+  nameWithType: Game.IsFullScreen
+  fullName: Fantas.Game.IsFullScreen
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: Fantas.Game.ScaleMode*
   commentId: Overload:Fantas.Game.ScaleMode
   isExternal: true
@@ -893,6 +866,14 @@ references:
   name: GameOptions
   nameWithType: Game.GameOptions
   fullName: Fantas.Game.GameOptions
+- uid: Fantas.GameOptions
+  commentId: T:Fantas.GameOptions
+  parent: Fantas
+  isExternal: true
+  href: Fantas.GameOptions.html
+  name: GameOptions
+  nameWithType: GameOptions
+  fullName: Fantas.GameOptions
 - uid: Fantas.Game.WindowTitle*
   commentId: Overload:Fantas.Game.WindowTitle
   isExternal: true
@@ -918,14 +899,3 @@ references:
   name: RunOneFrame
   nameWithType: Game.RunOneFrame
   fullName: Fantas.Game.RunOneFrame
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
