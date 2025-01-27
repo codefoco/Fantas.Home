@@ -2,213 +2,316 @@
 items:
 - uid: Fantas
   name: Fantas
+  type: Namespace
   items:
   - uid: Fantas.Animation
     name: Animation
+    type: Class
   - uid: Fantas.AnimationTimingFunction
     name: AnimationTimingFunction
+    type: Delegate
   - uid: Fantas.AnimationTimingMode
     name: AnimationTimingMode
+    type: Enum
   - uid: Fantas.BlendMode
     name: BlendMode
+    type: Enum
   - uid: Fantas.CameraNode
     name: CameraNode
+    type: Class
   - uid: Fantas.CircleNode
     name: CircleNode
+    type: Class
   - uid: Fantas.ColorExtensions
     name: ColorExtensions
+    type: Class
   - uid: Fantas.CropNode
     name: CropNode
+    type: Class
   - uid: Fantas.CurrentSystemPlatform
     name: CurrentSystemPlatform
+    type: Class
   - uid: Fantas.EllipseNode
     name: EllipseNode
+    type: Class
   - uid: Fantas.Font
     name: Font
+    type: Class
   - uid: Fantas.Game
     name: Game
+    type: Class
   - uid: Fantas.GameOptions
     name: GameOptions
+    type: Enum
   - uid: Fantas.LabelHorizontalAlignmentMode
     name: LabelHorizontalAlignmentMode
+    type: Enum
   - uid: Fantas.LabelNode
     name: LabelNode
+    type: Class
   - uid: Fantas.LabelVerticalAlignmentMode
     name: LabelVerticalAlignmentMode
+    type: Enum
   - uid: Fantas.MathClamp
     name: MathClamp
+    type: Class
   - uid: Fantas.MathLerp
     name: MathLerp
+    type: Class
   - uid: Fantas.Node
     name: Node
+    type: Class
   - uid: Fantas.OutlinePosition
     name: OutlinePosition
+    type: Enum
   - uid: Fantas.ParticleEmitterNode
     name: ParticleEmitterNode
+    type: Class
   - uid: Fantas.PointExtension
     name: PointExtension
+    type: Class
   - uid: Fantas.PolygonNode
     name: PolygonNode
+    type: Class
   - uid: Fantas.RandomExtensions
     name: RandomExtensions
+    type: Class
   - uid: Fantas.RectangleExtensions
     name: RectangleExtensions
+    type: Class
   - uid: Fantas.RectangleNode
     name: RectangleNode
+    type: Class
   - uid: Fantas.Scene
     name: Scene
+    type: Class
   - uid: Fantas.SceneScaleMode
     name: SceneScaleMode
+    type: Enum
   - uid: Fantas.ShapeNode
     name: ShapeNode
+    type: Class
   - uid: Fantas.SpriteFrameNode
     name: SpriteFrameNode
+    type: Class
   - uid: Fantas.SpriteLineNode
     name: SpriteLineNode
+    type: Class
   - uid: Fantas.SpriteNode
     name: SpriteNode
+    type: Class
   - uid: Fantas.SpritePolylineNode
     name: SpritePolylineNode
+    type: Class
   - uid: Fantas.SystemPlatform
     name: SystemPlatform
+    type: Enum
   - uid: Fantas.Texture
     name: Texture
+    type: Class
   - uid: Fantas.TextureAtlas
     name: TextureAtlas
+    type: Class
   - uid: Fantas.TileAdjacencyMask
     name: TileAdjacencyMask
+    type: Enum
   - uid: Fantas.TileDefinition
     name: TileDefinition
+    type: Class
   - uid: Fantas.TileDefinitionRotation
     name: TileDefinitionRotation
+    type: Enum
   - uid: Fantas.TileGroup
     name: TileGroup
+    type: Class
   - uid: Fantas.TileGroupRule
     name: TileGroupRule
+    type: Class
   - uid: Fantas.TileMapNode
     name: TileMapNode
+    type: Class
   - uid: Fantas.TileSet
     name: TileSet
+    type: Class
   - uid: Fantas.TileSetType
     name: TileSetType
+    type: Enum
   - uid: Fantas.Time
     name: Time
+    type: Class
   - uid: Fantas.TriangleNode
     name: TriangleNode
+    type: Class
   - uid: Fantas.Vector2Extensions
     name: Vector2Extensions
+    type: Class
 - uid: Fantas.Audio
   name: Fantas.Audio
+  type: Namespace
   items:
   - uid: Fantas.Audio.AudioSession
     name: AudioSession
+    type: Class
   - uid: Fantas.Audio.Music
     name: Music
+    type: Class
   - uid: Fantas.Audio.MusicPlayer
     name: MusicPlayer
+    type: Class
   - uid: Fantas.Audio.SoundEffect
     name: SoundEffect
+    type: Class
 - uid: Fantas.Input
   name: Fantas.Input
+  type: Namespace
   items:
   - uid: Fantas.Input.Controller
     name: Controller
+    type: Class
   - uid: Fantas.Input.ControllerButtonEventArgs
     name: ControllerButtonEventArgs
+    type: Class
   - uid: Fantas.Input.ControllerButtons
     name: ControllerButtons
+    type: Enum
   - uid: Fantas.Input.ControllerChangedEventArgs
     name: ControllerChangedEventArgs
+    type: Class
   - uid: Fantas.Input.ControllerInput
     name: ControllerInput
+    type: Class
   - uid: Fantas.Input.ControllerThumbstickChangedEventArgs
     name: ControllerThumbstickChangedEventArgs
+    type: Class
   - uid: Fantas.Input.ControllerTriggerChangedEventArgs
     name: ControllerTriggerChangedEventArgs
+    type: Class
   - uid: Fantas.Input.Cursor
     name: Cursor
+    type: Class
   - uid: Fantas.Input.Cursors
     name: Cursors
+    type: Class
   - uid: Fantas.Input.KeyEventArgs
     name: KeyEventArgs
+    type: Class
   - uid: Fantas.Input.KeyboardInput
     name: KeyboardInput
+    type: Class
   - uid: Fantas.Input.Keys
     name: Keys
+    type: Enum
   - uid: Fantas.Input.MouseButtons
     name: MouseButtons
+    type: Enum
   - uid: Fantas.Input.MouseEventArgs
     name: MouseEventArgs
+    type: Class
   - uid: Fantas.Input.MouseInput
     name: MouseInput
+    type: Class
   - uid: Fantas.Input.PanEventArgs
     name: PanEventArgs
+    type: Class
   - uid: Fantas.Input.PinchEventArgs
     name: PinchEventArgs
+    type: Class
   - uid: Fantas.Input.SwipeDirection
     name: SwipeDirection
+    type: Enum
   - uid: Fantas.Input.SwipeEventArgs
     name: SwipeEventArgs
+    type: Class
   - uid: Fantas.Input.TapEventArgs
     name: TapEventArgs
+    type: Class
   - uid: Fantas.Input.TouchDevice
     name: TouchDevice
+    type: Enum
   - uid: Fantas.Input.TouchEventArgs
     name: TouchEventArgs
+    type: Class
   - uid: Fantas.Input.TouchInfo
     name: TouchInfo
+    type: Class
   - uid: Fantas.Input.TouchInput
     name: TouchInput
+    type: Class
   - uid: Fantas.Input.TouchState
     name: TouchState
+    type: Enum
 - uid: Fantas.Physics
   name: Fantas.Physics
+  type: Namespace
   items:
   - uid: Fantas.Physics.CircleBody
     name: CircleBody
+    type: Class
   - uid: Fantas.Physics.ContactEvent
     name: ContactEvent
+    type: Delegate
   - uid: Fantas.Physics.ContactHandler
     name: ContactHandler
+    type: Class
   - uid: Fantas.Physics.ContactInfo
     name: ContactInfo
+    type: Class
   - uid: Fantas.Physics.Edge
     name: Edge
+    type: Class
   - uid: Fantas.Physics.NodeExtensions
     name: NodeExtensions
+    type: Class
   - uid: Fantas.Physics.PhysicsBody
     name: PhysicsBody
+    type: Class
   - uid: Fantas.Physics.PhysicsJoint
     name: PhysicsJoint
+    type: Class
   - uid: Fantas.Physics.PhysicsJointFixed
     name: PhysicsJointFixed
+    type: Class
   - uid: Fantas.Physics.PhysicsJointLimit
     name: PhysicsJointLimit
+    type: Class
   - uid: Fantas.Physics.PhysicsJointPin
     name: PhysicsJointPin
+    type: Class
   - uid: Fantas.Physics.PhysicsJointSliding
     name: PhysicsJointSliding
+    type: Class
   - uid: Fantas.Physics.PhysicsJointSpring
     name: PhysicsJointSpring
+    type: Class
   - uid: Fantas.Physics.PhysicsWorld
     name: PhysicsWorld
+    type: Class
   - uid: Fantas.Physics.PolygonBody
     name: PolygonBody
+    type: Class
   - uid: Fantas.Physics.PolygonEdge
     name: PolygonEdge
+    type: Class
   - uid: Fantas.Physics.RaycastHit
     name: RaycastHit
+    type: Class
   - uid: Fantas.Physics.RectangleBody
     name: RectangleBody
+    type: Class
   - uid: Fantas.Physics.RectangleEdge
     name: RectangleEdge
+    type: Class
 - uid: Fantas.UI
   name: Fantas.UI
+  type: Namespace
   items:
   - uid: Fantas.UI.ButtonNode
     name: ButtonNode
+    type: Class
   - uid: Fantas.UI.ControlNode
     name: ControlNode
+    type: Class
   - uid: Fantas.UI.ControlState
     name: ControlState
+    type: Enum
 memberLayout: SamePage

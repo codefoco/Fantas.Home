@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="Fantas_CircleNode" data-uid="Fantas.CircleNode" class="text-break">
-Class CircleNode  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/ShapeNodes/CircleNode.cs"><i class="bi bi-code-slash"></i></a>
+Class CircleNode  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/ShapeNodes/CircleNode.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -173,6 +173,9 @@ Class CircleNode  <a class="header-action link-secondary" title="View source" hr
       <a class="xref" href="Fantas.Node.html#Fantas_Node_SetScale_System_Numerics_Vector2_">Node.SetScale(Vector2)</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_LookAt_System_Drawing_PointF_">Node.LookAt(PointF)</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_AddChild_Fantas_Node_">Node.AddChild(Node)</a>
     </div>
     <div>
@@ -210,6 +213,9 @@ Class CircleNode  <a class="header-action link-secondary" title="View source" hr
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_GetAnimationForKey_System_String_">Node.GetAnimationForKey(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_HasAnimationKey_System_String_">Node.HasAnimationKey(string)</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_RemoveAnimationForKey_System_String_">Node.RemoveAnimationForKey(string)</a>
@@ -260,6 +266,15 @@ Class CircleNode  <a class="header-action link-secondary" title="View source" hr
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnDoubleTap_Fantas_Input_TapEventArgs_">Node.OnDoubleTap(TapEventArgs)</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnPanStart_Fantas_Input_PanEventArgs_">Node.OnPanStart(PanEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnPan_Fantas_Input_PanEventArgs_">Node.OnPan(PanEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnPanComplete_Fantas_Input_PanEventArgs_">Node.OnPanComplete(PanEventArgs)</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnTouchDownInside_Fantas_Input_TouchEventArgs_">Node.OnTouchDownInside(TouchEventArgs)</a>
     </div>
     <div>
@@ -285,6 +300,9 @@ Class CircleNode  <a class="header-action link-secondary" title="View source" hr
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnMouseUp_Fantas_Input_MouseEventArgs_">Node.OnMouseUp(MouseEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnMouseWheel_Fantas_Input_MouseEventArgs_">Node.OnMouseWheel(MouseEventArgs)</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnClick_Fantas_Input_MouseEventArgs_">Node.OnClick(MouseEventArgs)</a>
@@ -416,6 +434,15 @@ Class CircleNode  <a class="header-action link-secondary" title="View source" hr
       <a class="xref" href="Fantas.Node.html#Fantas_Node_LongPress">Node.LongPress</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_PanStart">Node.PanStart</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Pan">Node.Pan</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_PanComplete">Node.PanComplete</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_TouchDownInside">Node.TouchDownInside</a>
     </div>
     <div>
@@ -441,6 +468,9 @@ Class CircleNode  <a class="header-action link-secondary" title="View source" hr
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseUp">Node.MouseUp</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseWheel">Node.MouseWheel</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_Click">Node.Click</a>
@@ -497,7 +527,7 @@ Class CircleNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_CircleNode__ctor_Fantas_CircleNode_" data-uid="Fantas.CircleNode.#ctor(Fantas.CircleNode)">
   CircleNode(CircleNode)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/ShapeNodes/CircleNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/ShapeNodes/CircleNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Copy a circle node</p>
@@ -529,7 +559,7 @@ Class CircleNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_CircleNode__ctor_System_Single_" data-uid="Fantas.CircleNode.#ctor(System.Single)">
   CircleNode(float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/ShapeNodes/CircleNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/ShapeNodes/CircleNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a circle node with given radius</p>
@@ -565,7 +595,7 @@ Class CircleNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_CircleNode_Copy" data-uid="Fantas.CircleNode.Copy">
   Copy()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/ShapeNodes/CircleNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/ShapeNodes/CircleNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Copy this circle node</p>
@@ -597,7 +627,7 @@ Class CircleNode  <a class="header-action link-secondary" title="View source" hr
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/ShapeNodes/CircleNode.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/ShapeNodes/CircleNode.cs" class="edit-link">Edit this page</a>
         </div>
 
 

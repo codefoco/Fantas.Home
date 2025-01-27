@@ -9,6 +9,7 @@ items:
   - Fantas.TextureAtlas.Finalize
   - Fantas.TextureAtlas.FromName(System.String)
   - Fantas.TextureAtlas.Load(System.String)
+  - Fantas.TextureAtlas.LoadBinaryFromResource(System.Reflection.Assembly,System.String,System.Single)
   - Fantas.TextureAtlas.TextureNames
   langs:
   - csharp
@@ -18,7 +19,7 @@ items:
   fullName: Fantas.TextureAtlas
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/TextureAtlas.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Texture/TextureAtlas.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -61,7 +62,7 @@ items:
   fullName: Fantas.TextureAtlas.Load(string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/TextureAtlas.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Texture/TextureAtlas.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -81,6 +82,44 @@ items:
   nameWithType.vb: TextureAtlas.Load(String)
   fullName.vb: Fantas.TextureAtlas.Load(String)
   name.vb: Load(String)
+- uid: Fantas.TextureAtlas.LoadBinaryFromResource(System.Reflection.Assembly,System.String,System.Single)
+  commentId: M:Fantas.TextureAtlas.LoadBinaryFromResource(System.Reflection.Assembly,System.String,System.Single)
+  id: LoadBinaryFromResource(System.Reflection.Assembly,System.String,System.Single)
+  parent: Fantas.TextureAtlas
+  langs:
+  - csharp
+  - vb
+  name: LoadBinaryFromResource(Assembly, string, float)
+  nameWithType: TextureAtlas.LoadBinaryFromResource(Assembly, string, float)
+  fullName: Fantas.TextureAtlas.LoadBinaryFromResource(System.Reflection.Assembly, string, float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Texture/TextureAtlas.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Load binary Atlas (with Crunch format) from resource
+  example: []
+  syntax:
+    content: public static TextureAtlas LoadBinaryFromResource(Assembly assembly, string name, float scale)
+    parameters:
+    - id: assembly
+      type: System.Reflection.Assembly
+      description: Assembly with .bin and the image resource
+    - id: name
+      type: System.String
+      description: asset lookup name
+    - id: scale
+      type: System.Single
+      description: texture scale
+    return:
+      type: Fantas.TextureAtlas
+      description: ''
+    content.vb: Public Shared Function LoadBinaryFromResource(assembly As Assembly, name As String, scale As Single) As TextureAtlas
+  overload: Fantas.TextureAtlas.LoadBinaryFromResource*
+  nameWithType.vb: TextureAtlas.LoadBinaryFromResource(Assembly, String, Single)
+  fullName.vb: Fantas.TextureAtlas.LoadBinaryFromResource(System.Reflection.Assembly, String, Single)
+  name.vb: LoadBinaryFromResource(Assembly, String, Single)
 - uid: Fantas.TextureAtlas.FromName(System.String)
   commentId: M:Fantas.TextureAtlas.FromName(System.String)
   id: FromName(System.String)
@@ -93,7 +132,7 @@ items:
   fullName: Fantas.TextureAtlas.FromName(string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/TextureAtlas.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Texture/TextureAtlas.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -130,7 +169,7 @@ items:
   fullName: Fantas.TextureAtlas.~TextureAtlas()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/TextureAtlas.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Texture/TextureAtlas.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -155,7 +194,7 @@ items:
   fullName: Fantas.TextureAtlas.Dispose()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/TextureAtlas.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Texture/TextureAtlas.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -179,7 +218,7 @@ items:
   fullName: Fantas.TextureAtlas.TextureNames
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Texture/TextureAtlas.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Texture/TextureAtlas.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -447,6 +486,59 @@ references:
   name: TextureAtlas
   nameWithType: TextureAtlas
   fullName: Fantas.TextureAtlas
+- uid: Fantas.TextureAtlas.LoadBinaryFromResource*
+  commentId: Overload:Fantas.TextureAtlas.LoadBinaryFromResource
+  isExternal: true
+  href: Fantas.TextureAtlas.html#Fantas_TextureAtlas_LoadBinaryFromResource_System_Reflection_Assembly_System_String_System_Single_
+  name: LoadBinaryFromResource
+  nameWithType: TextureAtlas.LoadBinaryFromResource
+  fullName: Fantas.TextureAtlas.LoadBinaryFromResource
+- uid: System.Reflection.Assembly
+  commentId: T:System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  name: Assembly
+  nameWithType: Assembly
+  fullName: System.Reflection.Assembly
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
 - uid: Fantas.TextureAtlas.FromName*
   commentId: Overload:Fantas.TextureAtlas.FromName
   isExternal: true

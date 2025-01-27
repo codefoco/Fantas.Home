@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="Fantas_UI_ControlNode" data-uid="Fantas.UI.ControlNode" class="text-break">
-Class ControlNode  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
+Class ControlNode  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -232,6 +232,9 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
       <a class="xref" href="Fantas.Node.html#Fantas_Node_SetScale_System_Numerics_Vector2_">Node.SetScale(Vector2)</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_LookAt_System_Drawing_PointF_">Node.LookAt(PointF)</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_AddChild_Fantas_Node_">Node.AddChild(Node)</a>
     </div>
     <div>
@@ -269,6 +272,9 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_GetAnimationForKey_System_String_">Node.GetAnimationForKey(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_HasAnimationKey_System_String_">Node.HasAnimationKey(string)</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_RemoveAnimationForKey_System_String_">Node.RemoveAnimationForKey(string)</a>
@@ -319,6 +325,15 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnDoubleTap_Fantas_Input_TapEventArgs_">Node.OnDoubleTap(TapEventArgs)</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnPanStart_Fantas_Input_PanEventArgs_">Node.OnPanStart(PanEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnPan_Fantas_Input_PanEventArgs_">Node.OnPan(PanEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnPanComplete_Fantas_Input_PanEventArgs_">Node.OnPanComplete(PanEventArgs)</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnTouchDragInside_Fantas_Input_TouchEventArgs_">Node.OnTouchDragInside(TouchEventArgs)</a>
     </div>
     <div>
@@ -326,6 +341,9 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnTouchUpOutside_Fantas_Input_TouchEventArgs_">Node.OnTouchUpOutside(TouchEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnMouseWheel_Fantas_Input_MouseEventArgs_">Node.OnMouseWheel(MouseEventArgs)</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnClick_Fantas_Input_MouseEventArgs_">Node.OnClick(MouseEventArgs)</a>
@@ -451,6 +469,15 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
       <a class="xref" href="Fantas.Node.html#Fantas_Node_LongPress">Node.LongPress</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_PanStart">Node.PanStart</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Pan">Node.Pan</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_PanComplete">Node.PanComplete</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_TouchDownInside">Node.TouchDownInside</a>
     </div>
     <div>
@@ -476,6 +503,9 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseUp">Node.MouseUp</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseWheel">Node.MouseWheel</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_Click">Node.Click</a>
@@ -535,7 +565,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_UI_ControlNode__ctor" data-uid="Fantas.UI.ControlNode.#ctor">
   ControlNode()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Control ctor</p>
@@ -566,7 +596,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_UI_ControlNode_Enabled" data-uid="Fantas.UI.ControlNode.Enabled">
   Enabled
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Enable/Disable user interaction on Control</p>
@@ -598,7 +628,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_UI_ControlNode_State" data-uid="Fantas.UI.ControlNode.State">
   State
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get Control current state</p>
@@ -634,7 +664,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_UI_ControlNode_OnMouseDown_Fantas_Input_MouseEventArgs_" data-uid="Fantas.UI.ControlNode.OnMouseDown(Fantas.Input.MouseEventArgs)">
   OnMouseDown(MouseEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>OnMouseDown override</p>
@@ -666,7 +696,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_UI_ControlNode_OnMouseEnter" data-uid="Fantas.UI.ControlNode.OnMouseEnter">
   OnMouseEnter()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>OnMouseEnter override</p>
@@ -693,7 +723,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_UI_ControlNode_OnMouseLeave" data-uid="Fantas.UI.ControlNode.OnMouseLeave">
   OnMouseLeave()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>OnMouseLeave override</p>
@@ -720,7 +750,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_UI_ControlNode_OnMouseUp_Fantas_Input_MouseEventArgs_" data-uid="Fantas.UI.ControlNode.OnMouseUp(Fantas.Input.MouseEventArgs)">
   OnMouseUp(MouseEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>OnMouseDown override</p>
@@ -752,7 +782,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_UI_ControlNode_OnStateChanged" data-uid="Fantas.UI.ControlNode.OnStateChanged">
   OnStateChanged()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when control state change</p>
@@ -779,7 +809,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_UI_ControlNode_OnTouchDownInside_Fantas_Input_TouchEventArgs_" data-uid="Fantas.UI.ControlNode.OnTouchDownInside(Fantas.Input.TouchEventArgs)">
   OnTouchDownInside(TouchEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>OnTouchDownInside override</p>
@@ -812,7 +842,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_UI_ControlNode_OnTouchDragEnter_Fantas_Input_TouchEventArgs_" data-uid="Fantas.UI.ControlNode.OnTouchDragEnter(Fantas.Input.TouchEventArgs)">
   OnTouchDragEnter(TouchEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>OnTouchDragEnter override</p>
@@ -845,7 +875,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_UI_ControlNode_OnTouchDragExit_Fantas_Input_TouchEventArgs_" data-uid="Fantas.UI.ControlNode.OnTouchDragExit(Fantas.Input.TouchEventArgs)">
   OnTouchDragExit(TouchEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>OnTouchDragExit override</p>
@@ -878,7 +908,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_UI_ControlNode_OnTouchUpInside_Fantas_Input_TouchEventArgs_" data-uid="Fantas.UI.ControlNode.OnTouchUpInside(Fantas.Input.TouchEventArgs)">
   OnTouchUpInside(TouchEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/UI/ControlNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>OnTouchUpInside override</p>
@@ -911,7 +941,7 @@ Class ControlNode  <a class="header-action link-secondary" title="View source" h
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/UI/ControlNode.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/UI/ControlNode.cs" class="edit-link">Edit this page</a>
         </div>
 
 

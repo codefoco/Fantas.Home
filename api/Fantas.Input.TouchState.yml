@@ -17,7 +17,7 @@ items:
   fullName: Fantas.Input.TouchState
   type: Enum
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Touch/TouchState.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/TouchState.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -38,7 +38,7 @@ items:
   fullName: Fantas.Input.TouchState.Invalid
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Touch/TouchState.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/TouchState.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -60,7 +60,7 @@ items:
   fullName: Fantas.Input.TouchState.Moved
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Touch/TouchState.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/TouchState.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -82,7 +82,7 @@ items:
   fullName: Fantas.Input.TouchState.Down
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Touch/TouchState.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/TouchState.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -104,7 +104,7 @@ items:
   fullName: Fantas.Input.TouchState.Up
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Touch/TouchState.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/TouchState.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input

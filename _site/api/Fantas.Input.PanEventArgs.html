@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="Fantas_Input_PanEventArgs" data-uid="Fantas.Input.PanEventArgs" class="text-break">
-Class PanEventArgs  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Touch/PanEventArgs.cs"><i class="bi bi-code-slash"></i></a>
+Class PanEventArgs  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/PanEventArgs.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -159,9 +159,9 @@ Class PanEventArgs  <a class="header-action link-secondary" title="View source" 
 
   <a id="Fantas_Input_PanEventArgs__ctor_" data-uid="Fantas.Input.PanEventArgs.#ctor*"></a>
 
-  <h3 id="Fantas_Input_PanEventArgs__ctor_System_Drawing_PointF_" data-uid="Fantas.Input.PanEventArgs.#ctor(System.Drawing.PointF)">
-  PanEventArgs(PointF)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Touch/PanEventArgs.cs"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Fantas_Input_PanEventArgs__ctor_System_Drawing_PointF_System_Numerics_Vector2_System_Numerics_Vector2_" data-uid="Fantas.Input.PanEventArgs.#ctor(System.Drawing.PointF,System.Numerics.Vector2,System.Numerics.Vector2)">
+  PanEventArgs(PointF, Vector2, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/PanEventArgs.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initialize Pan event args</p>
@@ -169,12 +169,16 @@ Class PanEventArgs  <a class="header-action link-secondary" title="View source" 
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PanEventArgs(PointF location)</code></pre>
+    <pre><code class="lang-csharp hljs">public PanEventArgs(PointF location, Vector2 velocity, Vector2 delta)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>location</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+    <dt><code>velocity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
     <dd></dd>
   </dl>
 
@@ -193,14 +197,46 @@ Class PanEventArgs  <a class="header-action link-secondary" title="View source" 
 </h2>
 
 
+  <a id="Fantas_Input_PanEventArgs_Delta_" data-uid="Fantas.Input.PanEventArgs.Delta*"></a>
+
+  <h3 id="Fantas_Input_PanEventArgs_Delta" data-uid="Fantas.Input.PanEventArgs.Delta">
+  Delta
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/PanEventArgs.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Translation delta since the begining of Pan event</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 Delta { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Fantas_Input_PanEventArgs_Location_" data-uid="Fantas.Input.PanEventArgs.Location*"></a>
 
   <h3 id="Fantas_Input_PanEventArgs_Location" data-uid="Fantas.Input.PanEventArgs.Location">
   Location
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Touch/PanEventArgs.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/PanEventArgs.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Cursor position on pan event (Scene coordinates)</p>
+  <div class="markdown level1 summary"><p>Position on pan event (Scene coordinates)</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -225,11 +261,43 @@ Class PanEventArgs  <a class="header-action link-secondary" title="View source" 
 
 
 
+  <a id="Fantas_Input_PanEventArgs_Velocity_" data-uid="Fantas.Input.PanEventArgs.Velocity*"></a>
+
+  <h3 id="Fantas_Input_PanEventArgs_Velocity" data-uid="Fantas.Input.PanEventArgs.Velocity">
+  Velocity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/PanEventArgs.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Velocity on pan event</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 Velocity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Touch/PanEventArgs.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/PanEventArgs.cs" class="edit-link">Edit this page</a>
         </div>
 
 

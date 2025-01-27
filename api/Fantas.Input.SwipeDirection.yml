@@ -18,7 +18,7 @@ items:
   fullName: Fantas.Input.SwipeDirection
   type: Enum
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Touch/SwipeDirection.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/SwipeDirection.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -49,7 +49,7 @@ items:
   fullName: Fantas.Input.SwipeDirection.None
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Touch/SwipeDirection.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/SwipeDirection.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -71,7 +71,7 @@ items:
   fullName: Fantas.Input.SwipeDirection.Right
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Touch/SwipeDirection.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/SwipeDirection.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -93,7 +93,7 @@ items:
   fullName: Fantas.Input.SwipeDirection.Left
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Touch/SwipeDirection.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/SwipeDirection.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -115,7 +115,7 @@ items:
   fullName: Fantas.Input.SwipeDirection.Up
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Touch/SwipeDirection.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/SwipeDirection.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -137,7 +137,7 @@ items:
   fullName: Fantas.Input.SwipeDirection.Down
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Touch/SwipeDirection.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/SwipeDirection.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input

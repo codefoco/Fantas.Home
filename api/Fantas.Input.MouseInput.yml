@@ -10,7 +10,7 @@ items:
   - Fantas.Input.MouseInput.Cursor
   - Fantas.Input.MouseInput.CursorPosition
   - Fantas.Input.MouseInput.InvokeMouseDown(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32)
-  - Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32)
+  - Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32,System.Numerics.Vector2)
   - Fantas.Input.MouseInput.InvokeMouseMove(System.Drawing.PointF)
   - Fantas.Input.MouseInput.InvokeMouseUp(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32)
   - Fantas.Input.MouseInput.InvokeMouseWheel(System.Numerics.Vector2,System.Drawing.PointF,System.Boolean)
@@ -42,7 +42,7 @@ items:
   fullName: Fantas.Input.MouseInput
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -73,7 +73,7 @@ items:
   fullName: Fantas.Input.MouseInput.PushCursor(Fantas.Input.Cursor)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -99,7 +99,7 @@ items:
   fullName: Fantas.Input.MouseInput.PopCursor()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -121,7 +121,7 @@ items:
   fullName: Fantas.Input.MouseInput.InvokeMouseDown(Fantas.Input.MouseButtons, System.Drawing.PointF, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -156,7 +156,7 @@ items:
   fullName: Fantas.Input.MouseInput.InvokeMouseUp(Fantas.Input.MouseButtons, System.Drawing.PointF, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -179,26 +179,26 @@ items:
   nameWithType.vb: MouseInput.InvokeMouseUp(MouseButtons, PointF, Integer)
   fullName.vb: Fantas.Input.MouseInput.InvokeMouseUp(Fantas.Input.MouseButtons, System.Drawing.PointF, Integer)
   name.vb: InvokeMouseUp(MouseButtons, PointF, Integer)
-- uid: Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32)
-  commentId: M:Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32)
-  id: InvokeMouseDrag(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32)
+- uid: Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32,System.Numerics.Vector2)
+  commentId: M:Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32,System.Numerics.Vector2)
+  id: InvokeMouseDrag(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32,System.Numerics.Vector2)
   parent: Fantas.Input.MouseInput
   langs:
   - csharp
   - vb
-  name: InvokeMouseDrag(MouseButtons, PointF, int)
-  nameWithType: MouseInput.InvokeMouseDrag(MouseButtons, PointF, int)
-  fullName: Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons, System.Drawing.PointF, int)
+  name: InvokeMouseDrag(MouseButtons, PointF, int, Vector2)
+  nameWithType: MouseInput.InvokeMouseDrag(MouseButtons, PointF, int, Vector2)
+  fullName: Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons, System.Drawing.PointF, int, System.Numerics.Vector2)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Invoke Drag event handlers
   example: []
   syntax:
-    content: public static void InvokeMouseDrag(MouseButtons button, PointF position, int clicks)
+    content: public static void InvokeMouseDrag(MouseButtons button, PointF position, int clicks, Vector2 dragDelta)
     parameters:
     - id: button
       type: Fantas.Input.MouseButtons
@@ -209,11 +209,14 @@ items:
     - id: clicks
       type: System.Int32
       description: ''
-    content.vb: Public Shared Sub InvokeMouseDrag(button As MouseButtons, position As PointF, clicks As Integer)
+    - id: dragDelta
+      type: System.Numerics.Vector2
+      description: ''
+    content.vb: Public Shared Sub InvokeMouseDrag(button As MouseButtons, position As PointF, clicks As Integer, dragDelta As Vector2)
   overload: Fantas.Input.MouseInput.InvokeMouseDrag*
-  nameWithType.vb: MouseInput.InvokeMouseDrag(MouseButtons, PointF, Integer)
-  fullName.vb: Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons, System.Drawing.PointF, Integer)
-  name.vb: InvokeMouseDrag(MouseButtons, PointF, Integer)
+  nameWithType.vb: MouseInput.InvokeMouseDrag(MouseButtons, PointF, Integer, Vector2)
+  fullName.vb: Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons, System.Drawing.PointF, Integer, System.Numerics.Vector2)
+  name.vb: InvokeMouseDrag(MouseButtons, PointF, Integer, Vector2)
 - uid: Fantas.Input.MouseInput.InvokeMouseWheel(System.Numerics.Vector2,System.Drawing.PointF,System.Boolean)
   commentId: M:Fantas.Input.MouseInput.InvokeMouseWheel(System.Numerics.Vector2,System.Drawing.PointF,System.Boolean)
   id: InvokeMouseWheel(System.Numerics.Vector2,System.Drawing.PointF,System.Boolean)
@@ -226,7 +229,7 @@ items:
   fullName: Fantas.Input.MouseInput.InvokeMouseWheel(System.Numerics.Vector2, System.Drawing.PointF, bool)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -261,7 +264,7 @@ items:
   fullName: Fantas.Input.MouseInput.InvokeMouseMove(System.Drawing.PointF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -287,7 +290,7 @@ items:
   fullName: Fantas.Input.MouseInput.Cursor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -312,7 +315,7 @@ items:
   fullName: Fantas.Input.MouseInput.CursorPosition
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -337,7 +340,7 @@ items:
   fullName: Fantas.Input.MouseInput.IsCursorVisible
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -362,7 +365,7 @@ items:
   fullName: Fantas.Input.MouseInput.WheelDelta
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -387,7 +390,7 @@ items:
   fullName: Fantas.Input.MouseInput.IsNodeEventsEnabled
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -415,7 +418,7 @@ items:
   fullName: Fantas.Input.MouseInput.IsLeftButtonDown
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -440,7 +443,7 @@ items:
   fullName: Fantas.Input.MouseInput.IsRightButtonDown
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -465,7 +468,7 @@ items:
   fullName: Fantas.Input.MouseInput.IsMiddleButtonDown
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -490,7 +493,7 @@ items:
   fullName: Fantas.Input.MouseInput.IsXButton1Down
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -515,7 +518,7 @@ items:
   fullName: Fantas.Input.MouseInput.IsXButton2Down
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -540,7 +543,7 @@ items:
   fullName: Fantas.Input.MouseInput.IsLeftButtonPressed
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -565,7 +568,7 @@ items:
   fullName: Fantas.Input.MouseInput.IsRightButtonPressed
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -590,7 +593,7 @@ items:
   fullName: Fantas.Input.MouseInput.IsMiddleButtonPressed
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -615,7 +618,7 @@ items:
   fullName: Fantas.Input.MouseInput.IsXButton1Pressed
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -640,7 +643,7 @@ items:
   fullName: Fantas.Input.MouseInput.IsXButton2Pressed
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -665,7 +668,7 @@ items:
   fullName: Fantas.Input.MouseInput.AnyButtonPressed
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -690,7 +693,7 @@ items:
   fullName: Fantas.Input.MouseInput.IsLeftButtonReleased
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -715,7 +718,7 @@ items:
   fullName: Fantas.Input.MouseInput.IsRightButtonReleased
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -740,7 +743,7 @@ items:
   fullName: Fantas.Input.MouseInput.IsMiddleButtonReleased
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -765,7 +768,7 @@ items:
   fullName: Fantas.Input.MouseInput.IsXButton1Released
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -790,7 +793,7 @@ items:
   fullName: Fantas.Input.MouseInput.IsXButton2Released
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -815,7 +818,7 @@ items:
   fullName: Fantas.Input.MouseInput.AnyButtonReleased
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseInput.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -1186,17 +1189,10 @@ references:
 - uid: Fantas.Input.MouseInput.InvokeMouseDrag*
   commentId: Overload:Fantas.Input.MouseInput.InvokeMouseDrag
   isExternal: true
-  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_InvokeMouseDrag_Fantas_Input_MouseButtons_System_Drawing_PointF_System_Int32_
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_InvokeMouseDrag_Fantas_Input_MouseButtons_System_Drawing_PointF_System_Int32_System_Numerics_Vector2_
   name: InvokeMouseDrag
   nameWithType: MouseInput.InvokeMouseDrag
   fullName: Fantas.Input.MouseInput.InvokeMouseDrag
-- uid: Fantas.Input.MouseInput.InvokeMouseWheel*
-  commentId: Overload:Fantas.Input.MouseInput.InvokeMouseWheel
-  isExternal: true
-  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_InvokeMouseWheel_System_Numerics_Vector2_System_Drawing_PointF_System_Boolean_
-  name: InvokeMouseWheel
-  nameWithType: MouseInput.InvokeMouseWheel
-  fullName: Fantas.Input.MouseInput.InvokeMouseWheel
 - uid: System.Numerics.Vector2
   commentId: T:System.Numerics.Vector2
   parent: System.Numerics
@@ -1205,17 +1201,6 @@ references:
   name: Vector2
   nameWithType: Vector2
   fullName: System.Numerics.Vector2
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
 - uid: System.Numerics
   commentId: N:System.Numerics
   isExternal: true
@@ -1243,6 +1228,24 @@ references:
     name: Numerics
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: Fantas.Input.MouseInput.InvokeMouseWheel*
+  commentId: Overload:Fantas.Input.MouseInput.InvokeMouseWheel
+  isExternal: true
+  href: Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_InvokeMouseWheel_System_Numerics_Vector2_System_Drawing_PointF_System_Boolean_
+  name: InvokeMouseWheel
+  nameWithType: MouseInput.InvokeMouseWheel
+  fullName: Fantas.Input.MouseInput.InvokeMouseWheel
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: Fantas.Input.MouseInput.InvokeMouseMove*
   commentId: Overload:Fantas.Input.MouseInput.InvokeMouseMove
   isExternal: true

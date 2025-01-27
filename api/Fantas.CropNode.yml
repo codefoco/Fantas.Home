@@ -18,7 +18,7 @@ items:
   fullName: Fantas.CropNode
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/CropNode.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/CropNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -40,6 +40,7 @@ items:
   - Fantas.Node.RenderToTexture
   - Fantas.Node.SetScale(System.Single)
   - Fantas.Node.SetScale(System.Numerics.Vector2)
+  - Fantas.Node.LookAt(System.Drawing.PointF)
   - Fantas.Node.AddChild(Fantas.Node)
   - Fantas.Node.InsertChild(System.Int32,Fantas.Node)
   - Fantas.Node.MoveToParent(Fantas.Node)
@@ -53,6 +54,7 @@ items:
   - Fantas.Node.RunAnimation(Fantas.Animation,System.String)
   - Fantas.Node.RunAnimationAsync(Fantas.Animation)
   - Fantas.Node.GetAnimationForKey(System.String)
+  - Fantas.Node.HasAnimationKey(System.String)
   - Fantas.Node.RemoveAnimationForKey(System.String)
   - Fantas.Node.RemoveAllAnimations
   - Fantas.Node.ContainsPoint(System.Drawing.PointF)
@@ -69,6 +71,9 @@ items:
   - Fantas.Node.OnTap(Fantas.Input.TapEventArgs)
   - Fantas.Node.OnLongPress(Fantas.Input.TapEventArgs)
   - Fantas.Node.OnDoubleTap(Fantas.Input.TapEventArgs)
+  - Fantas.Node.OnPanStart(Fantas.Input.PanEventArgs)
+  - Fantas.Node.OnPan(Fantas.Input.PanEventArgs)
+  - Fantas.Node.OnPanComplete(Fantas.Input.PanEventArgs)
   - Fantas.Node.OnTouchDownInside(Fantas.Input.TouchEventArgs)
   - Fantas.Node.OnTouchDragEnter(Fantas.Input.TouchEventArgs)
   - Fantas.Node.OnTouchDragExit(Fantas.Input.TouchEventArgs)
@@ -78,6 +83,7 @@ items:
   - Fantas.Node.OnTouchUpOutside(Fantas.Input.TouchEventArgs)
   - Fantas.Node.OnMouseDown(Fantas.Input.MouseEventArgs)
   - Fantas.Node.OnMouseUp(Fantas.Input.MouseEventArgs)
+  - Fantas.Node.OnMouseWheel(Fantas.Input.MouseEventArgs)
   - Fantas.Node.OnClick(Fantas.Input.MouseEventArgs)
   - Fantas.Node.OnDoubleClick(Fantas.Input.MouseEventArgs)
   - Fantas.Node.OnMouseEnter
@@ -123,6 +129,9 @@ items:
   - Fantas.Node.Tap
   - Fantas.Node.DoubleTap
   - Fantas.Node.LongPress
+  - Fantas.Node.PanStart
+  - Fantas.Node.Pan
+  - Fantas.Node.PanComplete
   - Fantas.Node.TouchDownInside
   - Fantas.Node.TouchDragEnter
   - Fantas.Node.TouchDragExit
@@ -132,6 +141,7 @@ items:
   - Fantas.Node.TouchUpOutside
   - Fantas.Node.MouseDown
   - Fantas.Node.MouseUp
+  - Fantas.Node.MouseWheel
   - Fantas.Node.Click
   - Fantas.Node.DoubleClick
   - Fantas.Node.MouseEnter
@@ -155,7 +165,7 @@ items:
   fullName: Fantas.CropNode.CropNode(System.Drawing.SizeF)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/CropNode.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/CropNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -183,7 +193,7 @@ items:
   fullName: Fantas.CropNode.CropNode(Fantas.CropNode)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/CropNode.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/CropNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -211,7 +221,7 @@ items:
   fullName: Fantas.CropNode.Copy()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/CropNode.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/CropNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -237,7 +247,7 @@ items:
   fullName: Fantas.CropNode.AnchorPoint
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/CropNode.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/CropNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -262,7 +272,7 @@ items:
   fullName: Fantas.CropNode.MaskSize
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/CropNode.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/CropNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -571,6 +581,36 @@ references:
     name: Vector2
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: )
+- uid: Fantas.Node.LookAt(System.Drawing.PointF)
+  commentId: M:Fantas.Node.LookAt(System.Drawing.PointF)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_LookAt_System_Drawing_PointF_
+  name: LookAt(PointF)
+  nameWithType: Node.LookAt(PointF)
+  fullName: Fantas.Node.LookAt(System.Drawing.PointF)
+  spec.csharp:
+  - uid: Fantas.Node.LookAt(System.Drawing.PointF)
+    name: LookAt
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_LookAt_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.LookAt(System.Drawing.PointF)
+    name: LookAt
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_LookAt_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
   - name: )
 - uid: Fantas.Node.AddChild(Fantas.Node)
   commentId: M:Fantas.Node.AddChild(Fantas.Node)
@@ -992,6 +1032,39 @@ references:
     name: GetAnimationForKey
     isExternal: true
     href: Fantas.Node.html#Fantas_Node_GetAnimationForKey_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Fantas.Node.HasAnimationKey(System.String)
+  commentId: M:Fantas.Node.HasAnimationKey(System.String)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_HasAnimationKey_System_String_
+  name: HasAnimationKey(string)
+  nameWithType: Node.HasAnimationKey(string)
+  fullName: Fantas.Node.HasAnimationKey(string)
+  nameWithType.vb: Node.HasAnimationKey(String)
+  fullName.vb: Fantas.Node.HasAnimationKey(String)
+  name.vb: HasAnimationKey(String)
+  spec.csharp:
+  - uid: Fantas.Node.HasAnimationKey(System.String)
+    name: HasAnimationKey
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_HasAnimationKey_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.HasAnimationKey(System.String)
+    name: HasAnimationKey
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_HasAnimationKey_System_String_
   - name: (
   - uid: System.String
     name: String
@@ -1468,6 +1541,96 @@ references:
     isExternal: true
     href: Fantas.Input.TapEventArgs.html
   - name: )
+- uid: Fantas.Node.OnPanStart(Fantas.Input.PanEventArgs)
+  commentId: M:Fantas.Node.OnPanStart(Fantas.Input.PanEventArgs)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnPanStart_Fantas_Input_PanEventArgs_
+  name: OnPanStart(PanEventArgs)
+  nameWithType: Node.OnPanStart(PanEventArgs)
+  fullName: Fantas.Node.OnPanStart(Fantas.Input.PanEventArgs)
+  spec.csharp:
+  - uid: Fantas.Node.OnPanStart(Fantas.Input.PanEventArgs)
+    name: OnPanStart
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnPanStart_Fantas_Input_PanEventArgs_
+  - name: (
+  - uid: Fantas.Input.PanEventArgs
+    name: PanEventArgs
+    isExternal: true
+    href: Fantas.Input.PanEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnPanStart(Fantas.Input.PanEventArgs)
+    name: OnPanStart
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnPanStart_Fantas_Input_PanEventArgs_
+  - name: (
+  - uid: Fantas.Input.PanEventArgs
+    name: PanEventArgs
+    isExternal: true
+    href: Fantas.Input.PanEventArgs.html
+  - name: )
+- uid: Fantas.Node.OnPan(Fantas.Input.PanEventArgs)
+  commentId: M:Fantas.Node.OnPan(Fantas.Input.PanEventArgs)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnPan_Fantas_Input_PanEventArgs_
+  name: OnPan(PanEventArgs)
+  nameWithType: Node.OnPan(PanEventArgs)
+  fullName: Fantas.Node.OnPan(Fantas.Input.PanEventArgs)
+  spec.csharp:
+  - uid: Fantas.Node.OnPan(Fantas.Input.PanEventArgs)
+    name: OnPan
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnPan_Fantas_Input_PanEventArgs_
+  - name: (
+  - uid: Fantas.Input.PanEventArgs
+    name: PanEventArgs
+    isExternal: true
+    href: Fantas.Input.PanEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnPan(Fantas.Input.PanEventArgs)
+    name: OnPan
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnPan_Fantas_Input_PanEventArgs_
+  - name: (
+  - uid: Fantas.Input.PanEventArgs
+    name: PanEventArgs
+    isExternal: true
+    href: Fantas.Input.PanEventArgs.html
+  - name: )
+- uid: Fantas.Node.OnPanComplete(Fantas.Input.PanEventArgs)
+  commentId: M:Fantas.Node.OnPanComplete(Fantas.Input.PanEventArgs)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnPanComplete_Fantas_Input_PanEventArgs_
+  name: OnPanComplete(PanEventArgs)
+  nameWithType: Node.OnPanComplete(PanEventArgs)
+  fullName: Fantas.Node.OnPanComplete(Fantas.Input.PanEventArgs)
+  spec.csharp:
+  - uid: Fantas.Node.OnPanComplete(Fantas.Input.PanEventArgs)
+    name: OnPanComplete
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnPanComplete_Fantas_Input_PanEventArgs_
+  - name: (
+  - uid: Fantas.Input.PanEventArgs
+    name: PanEventArgs
+    isExternal: true
+    href: Fantas.Input.PanEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnPanComplete(Fantas.Input.PanEventArgs)
+    name: OnPanComplete
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnPanComplete_Fantas_Input_PanEventArgs_
+  - name: (
+  - uid: Fantas.Input.PanEventArgs
+    name: PanEventArgs
+    isExternal: true
+    href: Fantas.Input.PanEventArgs.html
+  - name: )
 - uid: Fantas.Node.OnTouchDownInside(Fantas.Input.TouchEventArgs)
   commentId: M:Fantas.Node.OnTouchDownInside(Fantas.Input.TouchEventArgs)
   parent: Fantas.Node
@@ -1732,6 +1895,36 @@ references:
     name: OnMouseUp
     isExternal: true
     href: Fantas.Node.html#Fantas_Node_OnMouseUp_Fantas_Input_MouseEventArgs_
+  - name: (
+  - uid: Fantas.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: Fantas.Input.MouseEventArgs.html
+  - name: )
+- uid: Fantas.Node.OnMouseWheel(Fantas.Input.MouseEventArgs)
+  commentId: M:Fantas.Node.OnMouseWheel(Fantas.Input.MouseEventArgs)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnMouseWheel_Fantas_Input_MouseEventArgs_
+  name: OnMouseWheel(MouseEventArgs)
+  nameWithType: Node.OnMouseWheel(MouseEventArgs)
+  fullName: Fantas.Node.OnMouseWheel(Fantas.Input.MouseEventArgs)
+  spec.csharp:
+  - uid: Fantas.Node.OnMouseWheel(Fantas.Input.MouseEventArgs)
+    name: OnMouseWheel
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnMouseWheel_Fantas_Input_MouseEventArgs_
+  - name: (
+  - uid: Fantas.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: Fantas.Input.MouseEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnMouseWheel(Fantas.Input.MouseEventArgs)
+    name: OnMouseWheel
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnMouseWheel_Fantas_Input_MouseEventArgs_
   - name: (
   - uid: Fantas.Input.MouseEventArgs
     name: MouseEventArgs
@@ -2184,6 +2377,30 @@ references:
   name: LongPress
   nameWithType: Node.LongPress
   fullName: Fantas.Node.LongPress
+- uid: Fantas.Node.PanStart
+  commentId: E:Fantas.Node.PanStart
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_PanStart
+  name: PanStart
+  nameWithType: Node.PanStart
+  fullName: Fantas.Node.PanStart
+- uid: Fantas.Node.Pan
+  commentId: E:Fantas.Node.Pan
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Pan
+  name: Pan
+  nameWithType: Node.Pan
+  fullName: Fantas.Node.Pan
+- uid: Fantas.Node.PanComplete
+  commentId: E:Fantas.Node.PanComplete
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_PanComplete
+  name: PanComplete
+  nameWithType: Node.PanComplete
+  fullName: Fantas.Node.PanComplete
 - uid: Fantas.Node.TouchDownInside
   commentId: E:Fantas.Node.TouchDownInside
   parent: Fantas.Node
@@ -2256,6 +2473,14 @@ references:
   name: MouseUp
   nameWithType: Node.MouseUp
   fullName: Fantas.Node.MouseUp
+- uid: Fantas.Node.MouseWheel
+  commentId: E:Fantas.Node.MouseWheel
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_MouseWheel
+  name: MouseWheel
+  nameWithType: Node.MouseWheel
+  fullName: Fantas.Node.MouseWheel
 - uid: Fantas.Node.Click
   commentId: E:Fantas.Node.Click
   parent: Fantas.Node

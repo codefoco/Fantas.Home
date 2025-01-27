@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="Fantas_PolygonNode" data-uid="Fantas.PolygonNode" class="text-break">
-Class PolygonNode  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/ShapeNodes/PolygonNode.cs"><i class="bi bi-code-slash"></i></a>
+Class PolygonNode  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/ShapeNodes/PolygonNode.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -166,6 +166,9 @@ Class PolygonNode  <a class="header-action link-secondary" title="View source" h
       <a class="xref" href="Fantas.Node.html#Fantas_Node_SetScale_System_Numerics_Vector2_">Node.SetScale(Vector2)</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_LookAt_System_Drawing_PointF_">Node.LookAt(PointF)</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_AddChild_Fantas_Node_">Node.AddChild(Node)</a>
     </div>
     <div>
@@ -203,6 +206,9 @@ Class PolygonNode  <a class="header-action link-secondary" title="View source" h
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_GetAnimationForKey_System_String_">Node.GetAnimationForKey(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_HasAnimationKey_System_String_">Node.HasAnimationKey(string)</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_RemoveAnimationForKey_System_String_">Node.RemoveAnimationForKey(string)</a>
@@ -253,6 +259,15 @@ Class PolygonNode  <a class="header-action link-secondary" title="View source" h
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnDoubleTap_Fantas_Input_TapEventArgs_">Node.OnDoubleTap(TapEventArgs)</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnPanStart_Fantas_Input_PanEventArgs_">Node.OnPanStart(PanEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnPan_Fantas_Input_PanEventArgs_">Node.OnPan(PanEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnPanComplete_Fantas_Input_PanEventArgs_">Node.OnPanComplete(PanEventArgs)</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnTouchDownInside_Fantas_Input_TouchEventArgs_">Node.OnTouchDownInside(TouchEventArgs)</a>
     </div>
     <div>
@@ -278,6 +293,9 @@ Class PolygonNode  <a class="header-action link-secondary" title="View source" h
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnMouseUp_Fantas_Input_MouseEventArgs_">Node.OnMouseUp(MouseEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnMouseWheel_Fantas_Input_MouseEventArgs_">Node.OnMouseWheel(MouseEventArgs)</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnClick_Fantas_Input_MouseEventArgs_">Node.OnClick(MouseEventArgs)</a>
@@ -415,6 +433,15 @@ Class PolygonNode  <a class="header-action link-secondary" title="View source" h
       <a class="xref" href="Fantas.Node.html#Fantas_Node_LongPress">Node.LongPress</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_PanStart">Node.PanStart</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Pan">Node.Pan</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_PanComplete">Node.PanComplete</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_TouchDownInside">Node.TouchDownInside</a>
     </div>
     <div>
@@ -440,6 +467,9 @@ Class PolygonNode  <a class="header-action link-secondary" title="View source" h
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseUp">Node.MouseUp</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseWheel">Node.MouseWheel</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_Click">Node.Click</a>
@@ -496,7 +526,7 @@ Class PolygonNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_PolygonNode__ctor_Fantas_PolygonNode_" data-uid="Fantas.PolygonNode.#ctor(Fantas.PolygonNode)">
   PolygonNode(PolygonNode)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/ShapeNodes/PolygonNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/ShapeNodes/PolygonNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Copy polygon node</p>
@@ -528,7 +558,7 @@ Class PolygonNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_PolygonNode__ctor_System_Drawing_PointF___" data-uid="Fantas.PolygonNode.#ctor(System.Drawing.PointF[])">
   PolygonNode(PointF[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/ShapeNodes/PolygonNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/ShapeNodes/PolygonNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Create a Polygon node with the given points</p>
@@ -564,7 +594,7 @@ Class PolygonNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_PolygonNode_Points" data-uid="Fantas.PolygonNode.Points">
   Points
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/ShapeNodes/PolygonNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/ShapeNodes/PolygonNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Return the points from the polygon</p>
@@ -600,7 +630,7 @@ Class PolygonNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_PolygonNode_Copy" data-uid="Fantas.PolygonNode.Copy">
   Copy()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/ShapeNodes/PolygonNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/ShapeNodes/PolygonNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Copy this Polygon node</p>
@@ -632,7 +662,7 @@ Class PolygonNode  <a class="header-action link-secondary" title="View source" h
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/ShapeNodes/PolygonNode.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/ShapeNodes/PolygonNode.cs" class="edit-link">Edit this page</a>
         </div>
 
 

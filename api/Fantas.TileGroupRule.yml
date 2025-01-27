@@ -17,7 +17,7 @@ items:
   fullName: Fantas.TileGroupRule
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileGroupRule.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Tiles/TileGroupRule.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -47,7 +47,7 @@ items:
   fullName: Fantas.TileGroupRule.TileGroupRule(Fantas.TileAdjacencyMask, Fantas.TileDefinition[])
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileGroupRule.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Tiles/TileGroupRule.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -79,7 +79,7 @@ items:
   fullName: Fantas.TileGroupRule.Adjacency
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileGroupRule.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Tiles/TileGroupRule.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -104,7 +104,7 @@ items:
   fullName: Fantas.TileGroupRule.Name
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileGroupRule.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Tiles/TileGroupRule.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -129,7 +129,7 @@ items:
   fullName: Fantas.TileGroupRule.TileDefinitions
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Tiles/TileGroupRule.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Tiles/TileGroupRule.cs
   assemblies:
   - Fantas
   namespace: Fantas

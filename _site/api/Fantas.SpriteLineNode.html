@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="Fantas_SpriteLineNode" data-uid="Fantas.SpriteLineNode" class="text-break">
-Class SpriteLineNode  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
+Class SpriteLineNode  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -225,6 +225,9 @@ Sprite drawing can be batched.</p>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_SetScale_System_Numerics_Vector2_">Node.SetScale(Vector2)</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_LookAt_System_Drawing_PointF_">Node.LookAt(PointF)</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_AddChild_Fantas_Node_">Node.AddChild(Node)</a>
     </div>
     <div>
@@ -262,6 +265,9 @@ Sprite drawing can be batched.</p>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_GetAnimationForKey_System_String_">Node.GetAnimationForKey(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_HasAnimationKey_System_String_">Node.HasAnimationKey(string)</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_RemoveAnimationForKey_System_String_">Node.RemoveAnimationForKey(string)</a>
@@ -312,6 +318,15 @@ Sprite drawing can be batched.</p>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnDoubleTap_Fantas_Input_TapEventArgs_">Node.OnDoubleTap(TapEventArgs)</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnPanStart_Fantas_Input_PanEventArgs_">Node.OnPanStart(PanEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnPan_Fantas_Input_PanEventArgs_">Node.OnPan(PanEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnPanComplete_Fantas_Input_PanEventArgs_">Node.OnPanComplete(PanEventArgs)</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnTouchDownInside_Fantas_Input_TouchEventArgs_">Node.OnTouchDownInside(TouchEventArgs)</a>
     </div>
     <div>
@@ -337,6 +352,9 @@ Sprite drawing can be batched.</p>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnMouseUp_Fantas_Input_MouseEventArgs_">Node.OnMouseUp(MouseEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnMouseWheel_Fantas_Input_MouseEventArgs_">Node.OnMouseWheel(MouseEventArgs)</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnClick_Fantas_Input_MouseEventArgs_">Node.OnClick(MouseEventArgs)</a>
@@ -468,6 +486,15 @@ Sprite drawing can be batched.</p>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_LongPress">Node.LongPress</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_PanStart">Node.PanStart</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Pan">Node.Pan</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_PanComplete">Node.PanComplete</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_TouchDownInside">Node.TouchDownInside</a>
     </div>
     <div>
@@ -493,6 +520,9 @@ Sprite drawing can be batched.</p>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseUp">Node.MouseUp</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseWheel">Node.MouseWheel</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_Click">Node.Click</a>
@@ -552,7 +582,7 @@ Sprite drawing can be batched.</p>
 
   <h3 id="Fantas_SpriteLineNode__ctor" data-uid="Fantas.SpriteLineNode.#ctor">
   SpriteLineNode()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Construct SpriteLineNode (White, thickness:1)</p>
@@ -579,7 +609,7 @@ Sprite drawing can be batched.</p>
 
   <h3 id="Fantas_SpriteLineNode__ctor_Fantas_SpriteLineNode_" data-uid="Fantas.SpriteLineNode.#ctor(Fantas.SpriteLineNode)">
   SpriteLineNode(SpriteLineNode)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Copy SpriteLineNode</p>
@@ -611,7 +641,7 @@ Sprite drawing can be batched.</p>
 
   <h3 id="Fantas_SpriteLineNode__ctor_System_Drawing_PointF_System_Drawing_PointF_" data-uid="Fantas.SpriteLineNode.#ctor(System.Drawing.PointF,System.Drawing.PointF)">
   SpriteLineNode(PointF, PointF)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Construct SpriteLineNode from startPoint to endPoint</p>
@@ -645,7 +675,7 @@ Sprite drawing can be batched.</p>
 
   <h3 id="Fantas_SpriteLineNode__ctor_System_Drawing_PointF_System_Drawing_PointF_System_Drawing_Color_" data-uid="Fantas.SpriteLineNode.#ctor(System.Drawing.PointF,System.Drawing.PointF,System.Drawing.Color)">
   SpriteLineNode(PointF, PointF, Color)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Construct SpriteLineNode from startPoint to endPoint with color</p>
@@ -681,7 +711,7 @@ Sprite drawing can be batched.</p>
 
   <h3 id="Fantas_SpriteLineNode__ctor_System_Drawing_PointF_System_Drawing_PointF_System_Drawing_Color_System_Single_" data-uid="Fantas.SpriteLineNode.#ctor(System.Drawing.PointF,System.Drawing.PointF,System.Drawing.Color,System.Single)">
   SpriteLineNode(PointF, PointF, Color, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Construct SpriteLineNode from startPoint to endPoint with color and thickness</p>
@@ -723,7 +753,7 @@ Sprite drawing can be batched.</p>
 
   <h3 id="Fantas_SpriteLineNode_EndColor" data-uid="Fantas.SpriteLineNode.EndColor">
   EndColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>End line color</p>
@@ -755,7 +785,7 @@ Sprite drawing can be batched.</p>
 
   <h3 id="Fantas_SpriteLineNode_EndPoint" data-uid="Fantas.SpriteLineNode.EndPoint">
   EndPoint
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>End line location</p>
@@ -787,7 +817,7 @@ Sprite drawing can be batched.</p>
 
   <h3 id="Fantas_SpriteLineNode_StartColor" data-uid="Fantas.SpriteLineNode.StartColor">
   StartColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Start line color</p>
@@ -819,7 +849,7 @@ Sprite drawing can be batched.</p>
 
   <h3 id="Fantas_SpriteLineNode_StartPoint" data-uid="Fantas.SpriteLineNode.StartPoint">
   StartPoint
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Start line location</p>
@@ -851,7 +881,7 @@ Sprite drawing can be batched.</p>
 
   <h3 id="Fantas_SpriteLineNode_Thickness" data-uid="Fantas.SpriteLineNode.Thickness">
   Thickness
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get line thickness</p>
@@ -887,7 +917,7 @@ Sprite drawing can be batched.</p>
 
   <h3 id="Fantas_SpriteLineNode_Copy" data-uid="Fantas.SpriteLineNode.Copy">
   Copy()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Copy this sprite line node</p>
@@ -919,7 +949,7 @@ Sprite drawing can be batched.</p>
 
   <h3 id="Fantas_SpriteLineNode_UpdatePoints_System_Drawing_PointF_System_Drawing_PointF_" data-uid="Fantas.SpriteLineNode.UpdatePoints(System.Drawing.PointF,System.Drawing.PointF)">
   UpdatePoints(PointF, PointF)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteLineNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Update SpriteLine Start and End</p>
@@ -953,7 +983,7 @@ Sprite drawing can be batched.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteLineNode.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteLineNode.cs" class="edit-link">Edit this page</a>
         </div>
 
 

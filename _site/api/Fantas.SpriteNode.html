@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="Fantas_SpriteNode" data-uid="Fantas.SpriteNode" class="text-break">
-Class SpriteNode  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+Class SpriteNode  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -158,6 +158,9 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
       <a class="xref" href="Fantas.Node.html#Fantas_Node_SetScale_System_Numerics_Vector2_">Node.SetScale(Vector2)</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_LookAt_System_Drawing_PointF_">Node.LookAt(PointF)</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_AddChild_Fantas_Node_">Node.AddChild(Node)</a>
     </div>
     <div>
@@ -195,6 +198,9 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_GetAnimationForKey_System_String_">Node.GetAnimationForKey(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_HasAnimationKey_System_String_">Node.HasAnimationKey(string)</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_RemoveAnimationForKey_System_String_">Node.RemoveAnimationForKey(string)</a>
@@ -245,6 +251,15 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnDoubleTap_Fantas_Input_TapEventArgs_">Node.OnDoubleTap(TapEventArgs)</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnPanStart_Fantas_Input_PanEventArgs_">Node.OnPanStart(PanEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnPan_Fantas_Input_PanEventArgs_">Node.OnPan(PanEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnPanComplete_Fantas_Input_PanEventArgs_">Node.OnPanComplete(PanEventArgs)</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnTouchDownInside_Fantas_Input_TouchEventArgs_">Node.OnTouchDownInside(TouchEventArgs)</a>
     </div>
     <div>
@@ -270,6 +285,9 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnMouseUp_Fantas_Input_MouseEventArgs_">Node.OnMouseUp(MouseEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnMouseWheel_Fantas_Input_MouseEventArgs_">Node.OnMouseWheel(MouseEventArgs)</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnClick_Fantas_Input_MouseEventArgs_">Node.OnClick(MouseEventArgs)</a>
@@ -401,6 +419,15 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
       <a class="xref" href="Fantas.Node.html#Fantas_Node_LongPress">Node.LongPress</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_PanStart">Node.PanStart</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_Pan">Node.Pan</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_PanComplete">Node.PanComplete</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_TouchDownInside">Node.TouchDownInside</a>
     </div>
     <div>
@@ -426,6 +453,9 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseUp">Node.MouseUp</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseWheel">Node.MouseWheel</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_Click">Node.Click</a>
@@ -485,7 +515,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode__ctor" data-uid="Fantas.SpriteNode.#ctor">
   SpriteNode()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates an SpriteNode without Texture and empty size</p>
@@ -512,7 +542,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode__ctor_Fantas_SpriteNode_" data-uid="Fantas.SpriteNode.#ctor(Fantas.SpriteNode)">
   SpriteNode(SpriteNode)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Copy a SpriteNode</p>
@@ -544,7 +574,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode__ctor_Fantas_Texture_" data-uid="Fantas.SpriteNode.#ctor(Fantas.Texture)">
   SpriteNode(Texture)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a SpriteNode with the given texture</p>
@@ -576,7 +606,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode__ctor_Fantas_Texture_System_Drawing_SizeF_" data-uid="Fantas.SpriteNode.#ctor(Fantas.Texture,System.Drawing.SizeF)">
   SpriteNode(Texture, SizeF)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a SpriteNode with the given texture and size</p>
@@ -610,7 +640,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode__ctor_System_Drawing_Color_System_Drawing_SizeF_" data-uid="Fantas.SpriteNode.#ctor(System.Drawing.Color,System.Drawing.SizeF)">
   SpriteNode(Color, SizeF)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a SpriteNode from a Color</p>
@@ -649,7 +679,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_AnchorPoint" data-uid="Fantas.SpriteNode.AnchorPoint">
   AnchorPoint
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Reference anchor point for drawing and rotation</p>
@@ -681,7 +711,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_BlendMode" data-uid="Fantas.SpriteNode.BlendMode">
   BlendMode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Set the blend operation for the Sprite node</p>
@@ -713,7 +743,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_BottomColor" data-uid="Fantas.SpriteNode.BottomColor">
   BottomColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sprite tint Bottom Color</p>
@@ -745,7 +775,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_BottomLeftColor" data-uid="Fantas.SpriteNode.BottomLeftColor">
   BottomLeftColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sprite tint BottomLeft Color</p>
@@ -777,7 +807,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_BottomRightColor" data-uid="Fantas.SpriteNode.BottomRightColor">
   BottomRightColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sprite tint BottomRight Color</p>
@@ -809,7 +839,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_CenterRect" data-uid="Fantas.SpriteNode.CenterRect">
   CenterRect
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Define the center rect used in 9-way scale operations</p>
@@ -841,7 +871,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_Color" data-uid="Fantas.SpriteNode.Color">
   Color
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sprite tint Color</p>
@@ -873,7 +903,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_ColorBlendFactor" data-uid="Fantas.SpriteNode.ColorBlendFactor">
   ColorBlendFactor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Color blend factor (0f-1f)</p>
@@ -905,7 +935,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_Height" data-uid="Fantas.SpriteNode.Height">
   Height
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Height of SpriteNode</p>
@@ -937,7 +967,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_LeftColor" data-uid="Fantas.SpriteNode.LeftColor">
   LeftColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sprite tint Left Color</p>
@@ -969,7 +999,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_RightColor" data-uid="Fantas.SpriteNode.RightColor">
   RightColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sprite tint Right Color</p>
@@ -1001,7 +1031,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_Size" data-uid="Fantas.SpriteNode.Size">
   Size
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sprite node size</p>
@@ -1033,7 +1063,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_Texture" data-uid="Fantas.SpriteNode.Texture">
   Texture
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>SpriteNode current texture</p>
@@ -1065,7 +1095,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_TopColor" data-uid="Fantas.SpriteNode.TopColor">
   TopColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sprite tint TopColor</p>
@@ -1097,7 +1127,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_TopLeftColor" data-uid="Fantas.SpriteNode.TopLeftColor">
   TopLeftColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sprite tint TopLeft Color</p>
@@ -1129,7 +1159,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_TopRightColor" data-uid="Fantas.SpriteNode.TopRightColor">
   TopRightColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sprite tint TopRight Color</p>
@@ -1161,7 +1191,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_Width" data-uid="Fantas.SpriteNode.Width">
   Width
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Width of SpriteNode</p>
@@ -1197,7 +1227,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_Copy" data-uid="Fantas.SpriteNode.Copy">
   Copy()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Copy this SpriteNode</p>
@@ -1229,7 +1259,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_ExpandHeight_System_Single_" data-uid="Fantas.SpriteNode.ExpandHeight(System.Single)">
   ExpandHeight(float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Increase the Height of SpriteNode</p>
@@ -1261,7 +1291,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_ExpandWidth_System_Single_" data-uid="Fantas.SpriteNode.ExpandWidth(System.Single)">
   ExpandWidth(float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Increase the Width of SpriteNode</p>
@@ -1293,7 +1323,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_Inflate_System_Numerics_Vector2_" data-uid="Fantas.SpriteNode.Inflate(System.Numerics.Vector2)">
   Inflate(Vector2)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Increase the size of SpriteNode</p>
@@ -1325,7 +1355,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_Inflate_System_Single_" data-uid="Fantas.SpriteNode.Inflate(System.Single)">
   Inflate(float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Increase the size of SpriteNode</p>
@@ -1357,7 +1387,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_Inflate_System_Single_System_Single_" data-uid="Fantas.SpriteNode.Inflate(System.Single,System.Single)">
   Inflate(float, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Increase the size of SpriteNode</p>
@@ -1393,7 +1423,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_OnSizeChanged" data-uid="Fantas.SpriteNode.OnSizeChanged">
   OnSizeChanged()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when SpriteNode Size is explicitly change</p>
@@ -1420,7 +1450,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_SpriteNode_ScaleTo_System_Drawing_SizeF_" data-uid="Fantas.SpriteNode.ScaleTo(System.Drawing.SizeF)">
   ScaleTo(SizeF)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Scale the SpriteNode to a new size</p>
@@ -1452,7 +1482,7 @@ Class SpriteNode  <a class="header-action link-secondary" title="View source" hr
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Nodes/SpriteNode.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/SpriteNode.cs" class="edit-link">Edit this page</a>
         </div>
 
 

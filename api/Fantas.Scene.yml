@@ -46,7 +46,7 @@ items:
   - Fantas.Scene.OnMouseUp(Fantas.Input.MouseEventArgs)
   - Fantas.Scene.OnMouseWheel(Fantas.Input.MouseEventArgs)
   - Fantas.Scene.OnPan(Fantas.Input.PanEventArgs)
-  - Fantas.Scene.OnPanComplete
+  - Fantas.Scene.OnPanComplete(Fantas.Input.PanEventArgs)
   - Fantas.Scene.OnPanStart(Fantas.Input.PanEventArgs)
   - Fantas.Scene.OnPinch(Fantas.Input.PinchEventArgs)
   - Fantas.Scene.OnPinchComplete
@@ -80,7 +80,7 @@ items:
   fullName: Fantas.Scene
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -102,6 +102,7 @@ items:
   - Fantas.Node.RenderToTexture
   - Fantas.Node.SetScale(System.Single)
   - Fantas.Node.SetScale(System.Numerics.Vector2)
+  - Fantas.Node.LookAt(System.Drawing.PointF)
   - Fantas.Node.AddChild(Fantas.Node)
   - Fantas.Node.InsertChild(System.Int32,Fantas.Node)
   - Fantas.Node.MoveToParent(Fantas.Node)
@@ -115,6 +116,7 @@ items:
   - Fantas.Node.RunAnimation(Fantas.Animation,System.String)
   - Fantas.Node.RunAnimationAsync(Fantas.Animation)
   - Fantas.Node.GetAnimationForKey(System.String)
+  - Fantas.Node.HasAnimationKey(System.String)
   - Fantas.Node.RemoveAnimationForKey(System.String)
   - Fantas.Node.RemoveAllAnimations
   - Fantas.Node.ContainsPoint(System.Drawing.PointF)
@@ -207,7 +209,7 @@ items:
   fullName: Fantas.Scene.Scene(System.Drawing.SizeF)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -239,7 +241,7 @@ items:
   fullName: Fantas.Scene.Scene()
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -273,7 +275,7 @@ items:
   fullName: Fantas.Scene.Scene(Fantas.Scene)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -301,7 +303,7 @@ items:
   fullName: Fantas.Scene.Copy()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -327,7 +329,7 @@ items:
   fullName: Fantas.Scene.Update()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -352,7 +354,7 @@ items:
   fullName: Fantas.Scene.Start()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -374,7 +376,7 @@ items:
   fullName: Fantas.Scene.Finish()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -396,7 +398,7 @@ items:
   fullName: Fantas.Scene.SizeChanged()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -418,7 +420,7 @@ items:
   fullName: Fantas.Scene.ConvertPointFromWindow(System.Drawing.Point)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -447,7 +449,7 @@ items:
   fullName: Fantas.Scene.ConvertPointToWindow(System.Drawing.PointF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -476,7 +478,7 @@ items:
   fullName: Fantas.Scene.FirstHitTest(System.Drawing.PointF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -505,7 +507,7 @@ items:
   fullName: Fantas.Scene.OnMouseDown(Fantas.Input.MouseEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -531,7 +533,7 @@ items:
   fullName: Fantas.Scene.OnMouseUp(Fantas.Input.MouseEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -557,7 +559,7 @@ items:
   fullName: Fantas.Scene.OnDoubleClick(Fantas.Input.MouseEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -583,7 +585,7 @@ items:
   fullName: Fantas.Scene.OnMouseMove(Fantas.Input.MouseEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -609,7 +611,7 @@ items:
   fullName: Fantas.Scene.OnMouseDrag(Fantas.Input.MouseEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -635,7 +637,7 @@ items:
   fullName: Fantas.Scene.OnMouseWheel(Fantas.Input.MouseEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -661,7 +663,7 @@ items:
   fullName: Fantas.Scene.OnTouchDown(Fantas.Input.TouchEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -687,7 +689,7 @@ items:
   fullName: Fantas.Scene.OnTouchMove(Fantas.Input.TouchEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -713,7 +715,7 @@ items:
   fullName: Fantas.Scene.OnTouchUp(Fantas.Input.TouchEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -739,7 +741,7 @@ items:
   fullName: Fantas.Scene.OnTap(Fantas.Input.TapEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -765,7 +767,7 @@ items:
   fullName: Fantas.Scene.OnDoubleTap(Fantas.Input.TapEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -791,7 +793,7 @@ items:
   fullName: Fantas.Scene.OnLongPress(Fantas.Input.TapEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -817,7 +819,7 @@ items:
   fullName: Fantas.Scene.OnSwipe(Fantas.Input.SwipeEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -843,7 +845,7 @@ items:
   fullName: Fantas.Scene.OnPanStart(Fantas.Input.PanEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -869,7 +871,7 @@ items:
   fullName: Fantas.Scene.OnPan(Fantas.Input.PanEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -883,27 +885,30 @@ items:
       description: ''
     content.vb: Public Overridable Sub OnPan(args As PanEventArgs)
   overload: Fantas.Scene.OnPan*
-- uid: Fantas.Scene.OnPanComplete
-  commentId: M:Fantas.Scene.OnPanComplete
-  id: OnPanComplete
+- uid: Fantas.Scene.OnPanComplete(Fantas.Input.PanEventArgs)
+  commentId: M:Fantas.Scene.OnPanComplete(Fantas.Input.PanEventArgs)
+  id: OnPanComplete(Fantas.Input.PanEventArgs)
   parent: Fantas.Scene
   langs:
   - csharp
   - vb
-  name: OnPanComplete()
-  nameWithType: Scene.OnPanComplete()
-  fullName: Fantas.Scene.OnPanComplete()
+  name: OnPanComplete(PanEventArgs)
+  nameWithType: Scene.OnPanComplete(PanEventArgs)
+  fullName: Fantas.Scene.OnPanComplete(Fantas.Input.PanEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Called on pan complete gesture
   example: []
   syntax:
-    content: public virtual void OnPanComplete()
-    content.vb: Public Overridable Sub OnPanComplete()
+    content: public virtual void OnPanComplete(PanEventArgs args)
+    parameters:
+    - id: args
+      type: Fantas.Input.PanEventArgs
+    content.vb: Public Overridable Sub OnPanComplete(args As PanEventArgs)
   overload: Fantas.Scene.OnPanComplete*
 - uid: Fantas.Scene.OnPinchStart(Fantas.Input.PinchEventArgs)
   commentId: M:Fantas.Scene.OnPinchStart(Fantas.Input.PinchEventArgs)
@@ -917,7 +922,7 @@ items:
   fullName: Fantas.Scene.OnPinchStart(Fantas.Input.PinchEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -943,7 +948,7 @@ items:
   fullName: Fantas.Scene.OnPinch(Fantas.Input.PinchEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -969,7 +974,7 @@ items:
   fullName: Fantas.Scene.OnPinchComplete()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -991,7 +996,7 @@ items:
   fullName: Fantas.Scene.OnKeyDown(Fantas.Input.KeyEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1017,7 +1022,7 @@ items:
   fullName: Fantas.Scene.OnKeyUp(Fantas.Input.KeyEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1043,7 +1048,7 @@ items:
   fullName: Fantas.Scene.OnControllerConnected(Fantas.Input.ControllerChangedEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1069,7 +1074,7 @@ items:
   fullName: Fantas.Scene.OnControllerDisconnected(Fantas.Input.ControllerChangedEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1095,7 +1100,7 @@ items:
   fullName: Fantas.Scene.OnControllerButtonPressed(Fantas.Input.ControllerButtonEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1121,7 +1126,7 @@ items:
   fullName: Fantas.Scene.OnControllerButtonReleased(Fantas.Input.ControllerButtonEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1147,7 +1152,7 @@ items:
   fullName: Fantas.Scene.OnControllerLeftThumbstickChanged(Fantas.Input.ControllerThumbstickChangedEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1173,7 +1178,7 @@ items:
   fullName: Fantas.Scene.OnControllerRightThumbstickChanged(Fantas.Input.ControllerThumbstickChangedEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1199,7 +1204,7 @@ items:
   fullName: Fantas.Scene.OnControllerLeftTriggerChanged(Fantas.Input.ControllerTriggerChangedEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1225,7 +1230,7 @@ items:
   fullName: Fantas.Scene.OnControllerRightTriggerChanged(Fantas.Input.ControllerTriggerChangedEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1251,7 +1256,7 @@ items:
   fullName: Fantas.Scene.CurrentScene
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1276,7 +1281,7 @@ items:
   fullName: Fantas.Scene.BackgroundColor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1301,7 +1306,7 @@ items:
   fullName: Fantas.Scene.Camera
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1326,7 +1331,7 @@ items:
   fullName: Fantas.Scene.AnchorPoint
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1351,7 +1356,7 @@ items:
   fullName: Fantas.Scene.Size
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1376,7 +1381,7 @@ items:
   fullName: Fantas.Scene.PhysicsWorld
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1401,7 +1406,7 @@ items:
   fullName: Fantas.Scene.MouseDown
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1424,7 +1429,7 @@ items:
   fullName: Fantas.Scene.MouseUp
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1447,7 +1452,7 @@ items:
   fullName: Fantas.Scene.DoubleClick
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1470,7 +1475,7 @@ items:
   fullName: Fantas.Scene.MouseMove
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1493,7 +1498,7 @@ items:
   fullName: Fantas.Scene.MouseDrag
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1516,7 +1521,7 @@ items:
   fullName: Fantas.Scene.MouseWheel
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1539,7 +1544,7 @@ items:
   fullName: Fantas.Scene.TouchDown
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1562,7 +1567,7 @@ items:
   fullName: Fantas.Scene.TouchMove
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1585,7 +1590,7 @@ items:
   fullName: Fantas.Scene.TouchUp
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1608,7 +1613,7 @@ items:
   fullName: Fantas.Scene.Tap
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1631,7 +1636,7 @@ items:
   fullName: Fantas.Scene.DoubleTap
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1654,7 +1659,7 @@ items:
   fullName: Fantas.Scene.LongPress
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1677,7 +1682,7 @@ items:
   fullName: Fantas.Scene.Swipe
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1700,7 +1705,7 @@ items:
   fullName: Fantas.Scene.PanStart
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1723,7 +1728,7 @@ items:
   fullName: Fantas.Scene.Pan
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1746,17 +1751,17 @@ items:
   fullName: Fantas.Scene.PanComplete
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Called on Pan complete gesture
   example: []
   syntax:
-    content: public event EventHandler PanComplete
+    content: public event EventHandler<PanEventArgs> PanComplete
     return:
-      type: System.EventHandler
-    content.vb: Public Event PanComplete As EventHandler
+      type: System.EventHandler{Fantas.Input.PanEventArgs}
+    content.vb: Public Event PanComplete As EventHandler(Of PanEventArgs)
 - uid: Fantas.Scene.PinchStart
   commentId: E:Fantas.Scene.PinchStart
   id: PinchStart
@@ -1769,7 +1774,7 @@ items:
   fullName: Fantas.Scene.PinchStart
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1792,7 +1797,7 @@ items:
   fullName: Fantas.Scene.Pinch
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1815,7 +1820,7 @@ items:
   fullName: Fantas.Scene.PinchComplete
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1838,7 +1843,7 @@ items:
   fullName: Fantas.Scene.KeyDown
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1861,7 +1866,7 @@ items:
   fullName: Fantas.Scene.KeyUp
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2168,6 +2173,36 @@ references:
     name: Vector2
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: )
+- uid: Fantas.Node.LookAt(System.Drawing.PointF)
+  commentId: M:Fantas.Node.LookAt(System.Drawing.PointF)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_LookAt_System_Drawing_PointF_
+  name: LookAt(PointF)
+  nameWithType: Node.LookAt(PointF)
+  fullName: Fantas.Node.LookAt(System.Drawing.PointF)
+  spec.csharp:
+  - uid: Fantas.Node.LookAt(System.Drawing.PointF)
+    name: LookAt
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_LookAt_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.LookAt(System.Drawing.PointF)
+    name: LookAt
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_LookAt_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
   - name: )
 - uid: Fantas.Node.AddChild(Fantas.Node)
   commentId: M:Fantas.Node.AddChild(Fantas.Node)
@@ -2589,6 +2624,39 @@ references:
     name: GetAnimationForKey
     isExternal: true
     href: Fantas.Node.html#Fantas_Node_GetAnimationForKey_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Fantas.Node.HasAnimationKey(System.String)
+  commentId: M:Fantas.Node.HasAnimationKey(System.String)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_HasAnimationKey_System_String_
+  name: HasAnimationKey(string)
+  nameWithType: Node.HasAnimationKey(string)
+  fullName: Fantas.Node.HasAnimationKey(string)
+  nameWithType.vb: Node.HasAnimationKey(String)
+  fullName.vb: Fantas.Node.HasAnimationKey(String)
+  name.vb: HasAnimationKey(String)
+  spec.csharp:
+  - uid: Fantas.Node.HasAnimationKey(System.String)
+    name: HasAnimationKey
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_HasAnimationKey_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.HasAnimationKey(System.String)
+    name: HasAnimationKey
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_HasAnimationKey_System_String_
   - name: (
   - uid: System.String
     name: String
@@ -4313,7 +4381,7 @@ references:
 - uid: Fantas.Scene.OnPanComplete*
   commentId: Overload:Fantas.Scene.OnPanComplete
   isExternal: true
-  href: Fantas.Scene.html#Fantas_Scene_OnPanComplete
+  href: Fantas.Scene.html#Fantas_Scene_OnPanComplete_Fantas_Input_PanEventArgs_
   name: OnPanComplete
   nameWithType: Scene.OnPanComplete
   fullName: Fantas.Scene.OnPanComplete
@@ -4725,14 +4793,6 @@ references:
     isExternal: true
     href: Fantas.Input.PanEventArgs.html
   - name: )
-- uid: System.EventHandler
-  commentId: T:System.EventHandler
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.eventhandler
-  name: EventHandler
-  nameWithType: EventHandler
-  fullName: System.EventHandler
 - uid: System.EventHandler{Fantas.Input.PinchEventArgs}
   commentId: T:System.EventHandler{Fantas.Input.PinchEventArgs}
   parent: System
@@ -4768,6 +4828,14 @@ references:
     isExternal: true
     href: Fantas.Input.PinchEventArgs.html
   - name: )
+- uid: System.EventHandler
+  commentId: T:System.EventHandler
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler
+  name: EventHandler
+  nameWithType: EventHandler
+  fullName: System.EventHandler
 - uid: System.EventHandler{Fantas.Input.KeyEventArgs}
   commentId: T:System.EventHandler{Fantas.Input.KeyEventArgs}
   parent: System

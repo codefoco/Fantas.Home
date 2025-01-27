@@ -6,9 +6,10 @@ items:
   parent: Fantas
   children:
   - Fantas.Time.CurrentFramesPerSecond
-  - Fantas.Time.CurrentTime
   - Fantas.Time.DeltaFactor
   - Fantas.Time.DeltaTime
+  - Fantas.Time.Elapsed
+  - Fantas.Time.ElapsedSeconds
   - Fantas.Time.TimePerFrame
   langs:
   - csharp
@@ -18,7 +19,7 @@ items:
   fullName: Fantas.Time
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Time.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Time.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -49,7 +50,7 @@ items:
   fullName: Fantas.Time.TimePerFrame
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Time.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Time.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -75,7 +76,7 @@ items:
   fullName: Fantas.Time.CurrentFramesPerSecond
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Time.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Time.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -88,31 +89,56 @@ items:
       type: System.Int32
     content.vb: Public Shared ReadOnly Property CurrentFramesPerSecond As Integer
   overload: Fantas.Time.CurrentFramesPerSecond*
-- uid: Fantas.Time.CurrentTime
-  commentId: P:Fantas.Time.CurrentTime
-  id: CurrentTime
+- uid: Fantas.Time.ElapsedSeconds
+  commentId: P:Fantas.Time.ElapsedSeconds
+  id: ElapsedSeconds
   parent: Fantas.Time
   langs:
   - csharp
   - vb
-  name: CurrentTime
-  nameWithType: Time.CurrentTime
-  fullName: Fantas.Time.CurrentTime
+  name: ElapsedSeconds
+  nameWithType: Time.ElapsedSeconds
+  fullName: Fantas.Time.ElapsedSeconds
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Time.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Time.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Current time in seconds since start of the game
   example: []
   syntax:
-    content: public static double CurrentTime { get; }
+    content: public static double ElapsedSeconds { get; }
     parameters: []
     return:
       type: System.Double
-    content.vb: Public Shared ReadOnly Property CurrentTime As Double
-  overload: Fantas.Time.CurrentTime*
+    content.vb: Public Shared ReadOnly Property ElapsedSeconds As Double
+  overload: Fantas.Time.ElapsedSeconds*
+- uid: Fantas.Time.Elapsed
+  commentId: P:Fantas.Time.Elapsed
+  id: Elapsed
+  parent: Fantas.Time
+  langs:
+  - csharp
+  - vb
+  name: Elapsed
+  nameWithType: Time.Elapsed
+  fullName: Fantas.Time.Elapsed
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Time.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Current time since start of the game
+  example: []
+  syntax:
+    content: public static TimeSpan Elapsed { get; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared ReadOnly Property Elapsed As TimeSpan
+  overload: Fantas.Time.Elapsed*
 - uid: Fantas.Time.DeltaTime
   commentId: P:Fantas.Time.DeltaTime
   id: DeltaTime
@@ -125,7 +151,7 @@ items:
   fullName: Fantas.Time.DeltaTime
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Time.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Time.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -150,7 +176,7 @@ items:
   fullName: Fantas.Time.DeltaFactor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Time.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Time.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -437,13 +463,28 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: Fantas.Time.CurrentTime*
-  commentId: Overload:Fantas.Time.CurrentTime
+- uid: Fantas.Time.ElapsedSeconds*
+  commentId: Overload:Fantas.Time.ElapsedSeconds
   isExternal: true
-  href: Fantas.Time.html#Fantas_Time_CurrentTime
-  name: CurrentTime
-  nameWithType: Time.CurrentTime
-  fullName: Fantas.Time.CurrentTime
+  href: Fantas.Time.html#Fantas_Time_ElapsedSeconds
+  name: ElapsedSeconds
+  nameWithType: Time.ElapsedSeconds
+  fullName: Fantas.Time.ElapsedSeconds
+- uid: Fantas.Time.Elapsed*
+  commentId: Overload:Fantas.Time.Elapsed
+  isExternal: true
+  href: Fantas.Time.html#Fantas_Time_Elapsed
+  name: Elapsed
+  nameWithType: Time.Elapsed
+  fullName: Fantas.Time.Elapsed
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
 - uid: Fantas.Time.DeltaTime*
   commentId: Overload:Fantas.Time.DeltaTime
   isExternal: true

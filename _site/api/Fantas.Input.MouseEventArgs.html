@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="Fantas_Input_MouseEventArgs" data-uid="Fantas.Input.MouseEventArgs" class="text-break">
-Class MouseEventArgs  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseEventArgs.cs"><i class="bi bi-code-slash"></i></a>
+Class MouseEventArgs  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -159,9 +159,9 @@ Class MouseEventArgs  <a class="header-action link-secondary" title="View source
 
   <a id="Fantas_Input_MouseEventArgs__ctor_" data-uid="Fantas.Input.MouseEventArgs.#ctor*"></a>
 
-  <h3 id="Fantas_Input_MouseEventArgs__ctor_Fantas_Input_MouseButtons_System_Int32_System_Numerics_Vector2_System_Drawing_PointF_System_Boolean_" data-uid="Fantas.Input.MouseEventArgs.#ctor(Fantas.Input.MouseButtons,System.Int32,System.Numerics.Vector2,System.Drawing.PointF,System.Boolean)">
-  MouseEventArgs(MouseButtons, int, Vector2, PointF, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseEventArgs.cs"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Fantas_Input_MouseEventArgs__ctor_Fantas_Input_MouseButtons_System_Int32_System_Numerics_Vector2_System_Drawing_PointF_System_Numerics_Vector2_System_Boolean_" data-uid="Fantas.Input.MouseEventArgs.#ctor(Fantas.Input.MouseButtons,System.Int32,System.Numerics.Vector2,System.Drawing.PointF,System.Numerics.Vector2,System.Boolean)">
+  MouseEventArgs(MouseButtons, int, Vector2, PointF, Vector2, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initialize Mouse event args</p>
@@ -169,7 +169,7 @@ Class MouseEventArgs  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MouseEventArgs(MouseButtons button, int clicks, Vector2 wheelDelta, PointF location, bool hasPreciseScrollingDeltas = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public MouseEventArgs(MouseButtons button, int clicks, Vector2 wheelDelta, PointF location, Vector2 dragDelta, bool hasPreciseScrollingDeltas = false)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -181,6 +181,8 @@ Class MouseEventArgs  <a class="header-action link-secondary" title="View source
     <dt><code>wheelDelta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
     <dd></dd>
     <dt><code>location</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+    <dt><code>dragDelta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
     <dd></dd>
     <dt><code>hasPreciseScrollingDeltas</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
@@ -205,7 +207,7 @@ Class MouseEventArgs  <a class="header-action link-secondary" title="View source
 
   <h3 id="Fantas_Input_MouseEventArgs_Button" data-uid="Fantas.Input.MouseEventArgs.Button">
   Button
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseEventArgs.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Button pressed or None if there was no button pressed</p>
@@ -237,7 +239,7 @@ Class MouseEventArgs  <a class="header-action link-secondary" title="View source
 
   <h3 id="Fantas_Input_MouseEventArgs_Clicks" data-uid="Fantas.Input.MouseEventArgs.Clicks">
   Clicks
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseEventArgs.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Total of times button was clicked</p>
@@ -265,11 +267,43 @@ Class MouseEventArgs  <a class="header-action link-secondary" title="View source
 
 
 
+  <a id="Fantas_Input_MouseEventArgs_DragDelta_" data-uid="Fantas.Input.MouseEventArgs.DragDelta*"></a>
+
+  <h3 id="Fantas_Input_MouseEventArgs_DragDelta" data-uid="Fantas.Input.MouseEventArgs.DragDelta">
+  DragDelta
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delta from begin drag and current position (Scene scale)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 DragDelta { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Fantas_Input_MouseEventArgs_HasPreciseScrollingDeltas_" data-uid="Fantas.Input.MouseEventArgs.HasPreciseScrollingDeltas*"></a>
 
   <h3 id="Fantas_Input_MouseEventArgs_HasPreciseScrollingDeltas" data-uid="Fantas.Input.MouseEventArgs.HasPreciseScrollingDeltas">
   HasPreciseScrollingDeltas
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseEventArgs.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Used on Mac to detect if Wheel event have precise scroll values
@@ -302,7 +336,7 @@ for instance when using touch pad scrolling</p>
 
   <h3 id="Fantas_Input_MouseEventArgs_Location" data-uid="Fantas.Input.MouseEventArgs.Location">
   Location
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseEventArgs.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Cursor position on mouse event (Scene coordinates)</p>
@@ -334,7 +368,7 @@ for instance when using touch pad scrolling</p>
 
   <h3 id="Fantas_Input_MouseEventArgs_WheelDelta" data-uid="Fantas.Input.MouseEventArgs.WheelDelta">
   WheelDelta
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseEventArgs.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Mouse Wheel Delta</p>
@@ -366,7 +400,7 @@ for instance when using touch pad scrolling</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseEventArgs.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs" class="edit-link">Edit this page</a>
         </div>
 
 

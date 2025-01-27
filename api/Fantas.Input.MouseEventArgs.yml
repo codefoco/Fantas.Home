@@ -5,9 +5,10 @@ items:
   id: MouseEventArgs
   parent: Fantas.Input
   children:
-  - Fantas.Input.MouseEventArgs.#ctor(Fantas.Input.MouseButtons,System.Int32,System.Numerics.Vector2,System.Drawing.PointF,System.Boolean)
+  - Fantas.Input.MouseEventArgs.#ctor(Fantas.Input.MouseButtons,System.Int32,System.Numerics.Vector2,System.Drawing.PointF,System.Numerics.Vector2,System.Boolean)
   - Fantas.Input.MouseEventArgs.Button
   - Fantas.Input.MouseEventArgs.Clicks
+  - Fantas.Input.MouseEventArgs.DragDelta
   - Fantas.Input.MouseEventArgs.HasPreciseScrollingDeltas
   - Fantas.Input.MouseEventArgs.Location
   - Fantas.Input.MouseEventArgs.WheelDelta
@@ -19,7 +20,7 @@ items:
   fullName: Fantas.Input.MouseEventArgs
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -40,26 +41,26 @@ items:
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.GetHashCode
-- uid: Fantas.Input.MouseEventArgs.#ctor(Fantas.Input.MouseButtons,System.Int32,System.Numerics.Vector2,System.Drawing.PointF,System.Boolean)
-  commentId: M:Fantas.Input.MouseEventArgs.#ctor(Fantas.Input.MouseButtons,System.Int32,System.Numerics.Vector2,System.Drawing.PointF,System.Boolean)
-  id: '#ctor(Fantas.Input.MouseButtons,System.Int32,System.Numerics.Vector2,System.Drawing.PointF,System.Boolean)'
+- uid: Fantas.Input.MouseEventArgs.#ctor(Fantas.Input.MouseButtons,System.Int32,System.Numerics.Vector2,System.Drawing.PointF,System.Numerics.Vector2,System.Boolean)
+  commentId: M:Fantas.Input.MouseEventArgs.#ctor(Fantas.Input.MouseButtons,System.Int32,System.Numerics.Vector2,System.Drawing.PointF,System.Numerics.Vector2,System.Boolean)
+  id: '#ctor(Fantas.Input.MouseButtons,System.Int32,System.Numerics.Vector2,System.Drawing.PointF,System.Numerics.Vector2,System.Boolean)'
   parent: Fantas.Input.MouseEventArgs
   langs:
   - csharp
   - vb
-  name: MouseEventArgs(MouseButtons, int, Vector2, PointF, bool)
-  nameWithType: MouseEventArgs.MouseEventArgs(MouseButtons, int, Vector2, PointF, bool)
-  fullName: Fantas.Input.MouseEventArgs.MouseEventArgs(Fantas.Input.MouseButtons, int, System.Numerics.Vector2, System.Drawing.PointF, bool)
+  name: MouseEventArgs(MouseButtons, int, Vector2, PointF, Vector2, bool)
+  nameWithType: MouseEventArgs.MouseEventArgs(MouseButtons, int, Vector2, PointF, Vector2, bool)
+  fullName: Fantas.Input.MouseEventArgs.MouseEventArgs(Fantas.Input.MouseButtons, int, System.Numerics.Vector2, System.Drawing.PointF, System.Numerics.Vector2, bool)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Initialize Mouse event args
   example: []
   syntax:
-    content: public MouseEventArgs(MouseButtons button, int clicks, Vector2 wheelDelta, PointF location, bool hasPreciseScrollingDeltas = false)
+    content: public MouseEventArgs(MouseButtons button, int clicks, Vector2 wheelDelta, PointF location, Vector2 dragDelta, bool hasPreciseScrollingDeltas = false)
     parameters:
     - id: button
       type: Fantas.Input.MouseButtons
@@ -73,14 +74,17 @@ items:
     - id: location
       type: System.Drawing.PointF
       description: ''
+    - id: dragDelta
+      type: System.Numerics.Vector2
+      description: ''
     - id: hasPreciseScrollingDeltas
       type: System.Boolean
       description: ''
-    content.vb: Public Sub New(button As MouseButtons, clicks As Integer, wheelDelta As Vector2, location As PointF, hasPreciseScrollingDeltas As Boolean = False)
+    content.vb: Public Sub New(button As MouseButtons, clicks As Integer, wheelDelta As Vector2, location As PointF, dragDelta As Vector2, hasPreciseScrollingDeltas As Boolean = False)
   overload: Fantas.Input.MouseEventArgs.#ctor*
-  nameWithType.vb: MouseEventArgs.New(MouseButtons, Integer, Vector2, PointF, Boolean)
-  fullName.vb: Fantas.Input.MouseEventArgs.New(Fantas.Input.MouseButtons, Integer, System.Numerics.Vector2, System.Drawing.PointF, Boolean)
-  name.vb: New(MouseButtons, Integer, Vector2, PointF, Boolean)
+  nameWithType.vb: MouseEventArgs.New(MouseButtons, Integer, Vector2, PointF, Vector2, Boolean)
+  fullName.vb: Fantas.Input.MouseEventArgs.New(Fantas.Input.MouseButtons, Integer, System.Numerics.Vector2, System.Drawing.PointF, System.Numerics.Vector2, Boolean)
+  name.vb: New(MouseButtons, Integer, Vector2, PointF, Vector2, Boolean)
 - uid: Fantas.Input.MouseEventArgs.Button
   commentId: P:Fantas.Input.MouseEventArgs.Button
   id: Button
@@ -93,7 +97,7 @@ items:
   fullName: Fantas.Input.MouseEventArgs.Button
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -118,7 +122,7 @@ items:
   fullName: Fantas.Input.MouseEventArgs.Clicks
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -143,7 +147,7 @@ items:
   fullName: Fantas.Input.MouseEventArgs.WheelDelta
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -168,7 +172,7 @@ items:
   fullName: Fantas.Input.MouseEventArgs.Location
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -193,7 +197,7 @@ items:
   fullName: Fantas.Input.MouseEventArgs.HasPreciseScrollingDeltas
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Input/Mouse/MouseEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -209,6 +213,31 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property HasPreciseScrollingDeltas As Boolean
   overload: Fantas.Input.MouseEventArgs.HasPreciseScrollingDeltas*
+- uid: Fantas.Input.MouseEventArgs.DragDelta
+  commentId: P:Fantas.Input.MouseEventArgs.DragDelta
+  id: DragDelta
+  parent: Fantas.Input.MouseEventArgs
+  langs:
+  - csharp
+  - vb
+  name: DragDelta
+  nameWithType: MouseEventArgs.DragDelta
+  fullName: Fantas.Input.MouseEventArgs.DragDelta
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  summary: Delta from begin drag and current position (Scene scale)
+  example: []
+  syntax:
+    content: public Vector2 DragDelta { get; }
+    parameters: []
+    return:
+      type: System.Numerics.Vector2
+    content.vb: Public ReadOnly Property DragDelta As Vector2
+  overload: Fantas.Input.MouseEventArgs.DragDelta*
 references:
 - uid: Fantas.Input
   commentId: N:Fantas.Input
@@ -493,7 +522,7 @@ references:
 - uid: Fantas.Input.MouseEventArgs.#ctor*
   commentId: Overload:Fantas.Input.MouseEventArgs.#ctor
   isExternal: true
-  href: Fantas.Input.MouseEventArgs.html#Fantas_Input_MouseEventArgs__ctor_Fantas_Input_MouseButtons_System_Int32_System_Numerics_Vector2_System_Drawing_PointF_System_Boolean_
+  href: Fantas.Input.MouseEventArgs.html#Fantas_Input_MouseEventArgs__ctor_Fantas_Input_MouseButtons_System_Int32_System_Numerics_Vector2_System_Drawing_PointF_System_Numerics_Vector2_System_Boolean_
   name: MouseEventArgs
   nameWithType: MouseEventArgs.MouseEventArgs
   fullName: Fantas.Input.MouseEventArgs.MouseEventArgs
@@ -635,3 +664,10 @@ references:
   name: HasPreciseScrollingDeltas
   nameWithType: MouseEventArgs.HasPreciseScrollingDeltas
   fullName: Fantas.Input.MouseEventArgs.HasPreciseScrollingDeltas
+- uid: Fantas.Input.MouseEventArgs.DragDelta*
+  commentId: Overload:Fantas.Input.MouseEventArgs.DragDelta
+  isExternal: true
+  href: Fantas.Input.MouseEventArgs.html#Fantas_Input_MouseEventArgs_DragDelta
+  name: DragDelta
+  nameWithType: MouseEventArgs.DragDelta
+  fullName: Fantas.Input.MouseEventArgs.DragDelta

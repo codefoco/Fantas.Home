@@ -22,7 +22,7 @@ items:
   fullName: Fantas.Audio.SoundEffect
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Audio/SoundEffect.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Audio/SoundEffect.cs
   assemblies:
   - Fantas
   namespace: Fantas.Audio
@@ -57,7 +57,7 @@ items:
   fullName: Fantas.Audio.SoundEffect.FromFile(string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Audio/SoundEffect.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Audio/SoundEffect.cs
   assemblies:
   - Fantas
   namespace: Fantas.Audio
@@ -89,7 +89,7 @@ items:
   fullName: Fantas.Audio.SoundEffect.FromName(string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Audio/SoundEffect.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Audio/SoundEffect.cs
   assemblies:
   - Fantas
   namespace: Fantas.Audio
@@ -121,7 +121,7 @@ items:
   fullName: Fantas.Audio.SoundEffect.FromResource(string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Audio/SoundEffect.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Audio/SoundEffect.cs
   assemblies:
   - Fantas
   namespace: Fantas.Audio
@@ -157,7 +157,7 @@ items:
   fullName: Fantas.Audio.SoundEffect.FromResource(System.Reflection.Assembly, string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Audio/SoundEffect.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Audio/SoundEffect.cs
   assemblies:
   - Fantas
   namespace: Fantas.Audio
@@ -196,7 +196,7 @@ items:
   fullName: Fantas.Audio.SoundEffect.FromStream(string, System.IO.Stream)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Audio/SoundEffect.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Audio/SoundEffect.cs
   assemblies:
   - Fantas
   namespace: Fantas.Audio
@@ -231,7 +231,7 @@ items:
   fullName: Fantas.Audio.SoundEffect.Play()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Audio/SoundEffect.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Audio/SoundEffect.cs
   assemblies:
   - Fantas
   namespace: Fantas.Audio
@@ -253,7 +253,7 @@ items:
   fullName: Fantas.Audio.SoundEffect.Play(float, float, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Audio/SoundEffect.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Audio/SoundEffect.cs
   assemblies:
   - Fantas
   namespace: Fantas.Audio
@@ -295,7 +295,7 @@ items:
   fullName: Fantas.Audio.SoundEffect.Name
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Audio/SoundEffect.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Audio/SoundEffect.cs
   assemblies:
   - Fantas
   namespace: Fantas.Audio
@@ -320,7 +320,7 @@ items:
   fullName: Fantas.Audio.SoundEffect.Duration
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Audio/SoundEffect.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Audio/SoundEffect.cs
   assemblies:
   - Fantas
   namespace: Fantas.Audio

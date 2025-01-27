@@ -202,6 +202,21 @@ references:
   commentId: Overload:Fantas.Animation.Hide
   fullName: Fantas.Animation.Hide
   nameWithType: Animation.Hide
+- uid: Fantas.Animation.LookAt(System.Drawing.PointF,System.Double)
+  name: LookAt(PointF, double)
+  href: api/Fantas.Animation.html#Fantas_Animation_LookAt_System_Drawing_PointF_System_Double_
+  commentId: M:Fantas.Animation.LookAt(System.Drawing.PointF,System.Double)
+  name.vb: LookAt(PointF, Double)
+  fullName: Fantas.Animation.LookAt(System.Drawing.PointF, double)
+  fullName.vb: Fantas.Animation.LookAt(System.Drawing.PointF, Double)
+  nameWithType: Animation.LookAt(PointF, double)
+  nameWithType.vb: Animation.LookAt(PointF, Double)
+- uid: Fantas.Animation.LookAt*
+  name: LookAt
+  href: api/Fantas.Animation.html#Fantas_Animation_LookAt_
+  commentId: Overload:Fantas.Animation.LookAt
+  fullName: Fantas.Animation.LookAt
+  nameWithType: Animation.LookAt
 - uid: Fantas.Animation.MoveBy(System.Numerics.Vector2,System.Double)
   name: MoveBy(Vector2, double)
   href: api/Fantas.Animation.html#Fantas_Animation_MoveBy_System_Numerics_Vector2_System_Double_
@@ -583,6 +598,21 @@ references:
   commentId: Overload:Fantas.Animation.SetTexture
   fullName: Fantas.Animation.SetTexture
   nameWithType: Animation.SetTexture
+- uid: Fantas.Animation.Shake(System.Double,System.Numerics.Vector2)
+  name: Shake(double, Vector2)
+  href: api/Fantas.Animation.html#Fantas_Animation_Shake_System_Double_System_Numerics_Vector2_
+  commentId: M:Fantas.Animation.Shake(System.Double,System.Numerics.Vector2)
+  name.vb: Shake(Double, Vector2)
+  fullName: Fantas.Animation.Shake(double, System.Numerics.Vector2)
+  fullName.vb: Fantas.Animation.Shake(Double, System.Numerics.Vector2)
+  nameWithType: Animation.Shake(double, Vector2)
+  nameWithType.vb: Animation.Shake(Double, Vector2)
+- uid: Fantas.Animation.Shake*
+  name: Shake
+  href: api/Fantas.Animation.html#Fantas_Animation_Shake_
+  commentId: Overload:Fantas.Animation.Shake
+  fullName: Fantas.Animation.Shake
+  nameWithType: Animation.Shake
 - uid: Fantas.Animation.SineHorizontal(System.Single,System.Single,System.Double)
   name: SineHorizontal(float, float, double)
   href: api/Fantas.Animation.html#Fantas_Animation_SineHorizontal_System_Single_System_Single_System_Double_
@@ -820,12 +850,36 @@ references:
   commentId: F:Fantas.AnimationTimingMode.EaseInOutExpo
   fullName: Fantas.AnimationTimingMode.EaseInOutExpo
   nameWithType: AnimationTimingMode.EaseInOutExpo
+- uid: Fantas.AnimationTimingMode.EaseInOutQuart
+  name: EaseInOutQuart
+  href: api/Fantas.AnimationTimingMode.html#Fantas_AnimationTimingMode_EaseInOutQuart
+  commentId: F:Fantas.AnimationTimingMode.EaseInOutQuart
+  fullName: Fantas.AnimationTimingMode.EaseInOutQuart
+  nameWithType: AnimationTimingMode.EaseInOutQuart
+- uid: Fantas.AnimationTimingMode.EaseInOutQuint
+  name: EaseInOutQuint
+  href: api/Fantas.AnimationTimingMode.html#Fantas_AnimationTimingMode_EaseInOutQuint
+  commentId: F:Fantas.AnimationTimingMode.EaseInOutQuint
+  fullName: Fantas.AnimationTimingMode.EaseInOutQuint
+  nameWithType: AnimationTimingMode.EaseInOutQuint
 - uid: Fantas.AnimationTimingMode.EaseInOutSine
   name: EaseInOutSine
   href: api/Fantas.AnimationTimingMode.html#Fantas_AnimationTimingMode_EaseInOutSine
   commentId: F:Fantas.AnimationTimingMode.EaseInOutSine
   fullName: Fantas.AnimationTimingMode.EaseInOutSine
   nameWithType: AnimationTimingMode.EaseInOutSine
+- uid: Fantas.AnimationTimingMode.EaseInQuart
+  name: EaseInQuart
+  href: api/Fantas.AnimationTimingMode.html#Fantas_AnimationTimingMode_EaseInQuart
+  commentId: F:Fantas.AnimationTimingMode.EaseInQuart
+  fullName: Fantas.AnimationTimingMode.EaseInQuart
+  nameWithType: AnimationTimingMode.EaseInQuart
+- uid: Fantas.AnimationTimingMode.EaseInQuint
+  name: EaseInQuint
+  href: api/Fantas.AnimationTimingMode.html#Fantas_AnimationTimingMode_EaseInQuint
+  commentId: F:Fantas.AnimationTimingMode.EaseInQuint
+  fullName: Fantas.AnimationTimingMode.EaseInQuint
+  nameWithType: AnimationTimingMode.EaseInQuint
 - uid: Fantas.AnimationTimingMode.EaseInSine
   name: EaseInSine
   href: api/Fantas.AnimationTimingMode.html#Fantas_AnimationTimingMode_EaseInSine
@@ -868,6 +922,18 @@ references:
   commentId: F:Fantas.AnimationTimingMode.EaseOutExpo
   fullName: Fantas.AnimationTimingMode.EaseOutExpo
   nameWithType: AnimationTimingMode.EaseOutExpo
+- uid: Fantas.AnimationTimingMode.EaseOutQuart
+  name: EaseOutQuart
+  href: api/Fantas.AnimationTimingMode.html#Fantas_AnimationTimingMode_EaseOutQuart
+  commentId: F:Fantas.AnimationTimingMode.EaseOutQuart
+  fullName: Fantas.AnimationTimingMode.EaseOutQuart
+  nameWithType: AnimationTimingMode.EaseOutQuart
+- uid: Fantas.AnimationTimingMode.EaseOutQuint
+  name: EaseOutQuint
+  href: api/Fantas.AnimationTimingMode.html#Fantas_AnimationTimingMode_EaseOutQuint
+  commentId: F:Fantas.AnimationTimingMode.EaseOutQuint
+  fullName: Fantas.AnimationTimingMode.EaseOutQuint
+  nameWithType: AnimationTimingMode.EaseOutQuint
 - uid: Fantas.AnimationTimingMode.EaseOutSine
   name: EaseOutSine
   href: api/Fantas.AnimationTimingMode.html#Fantas_AnimationTimingMode_EaseOutSine
@@ -1336,6 +1402,54 @@ references:
   commentId: Overload:Fantas.CameraNode.Copy
   fullName: Fantas.CameraNode.Copy
   nameWithType: CameraNode.Copy
+- uid: Fantas.CameraNode.IsShaking
+  name: IsShaking
+  href: api/Fantas.CameraNode.html#Fantas_CameraNode_IsShaking
+  commentId: P:Fantas.CameraNode.IsShaking
+  fullName: Fantas.CameraNode.IsShaking
+  nameWithType: CameraNode.IsShaking
+- uid: Fantas.CameraNode.IsShaking*
+  name: IsShaking
+  href: api/Fantas.CameraNode.html#Fantas_CameraNode_IsShaking_
+  commentId: Overload:Fantas.CameraNode.IsShaking
+  fullName: Fantas.CameraNode.IsShaking
+  nameWithType: CameraNode.IsShaking
+- uid: Fantas.CameraNode.Shake(System.Double)
+  name: Shake(double)
+  href: api/Fantas.CameraNode.html#Fantas_CameraNode_Shake_System_Double_
+  commentId: M:Fantas.CameraNode.Shake(System.Double)
+  name.vb: Shake(Double)
+  fullName: Fantas.CameraNode.Shake(double)
+  fullName.vb: Fantas.CameraNode.Shake(Double)
+  nameWithType: CameraNode.Shake(double)
+  nameWithType.vb: CameraNode.Shake(Double)
+- uid: Fantas.CameraNode.Shake(System.Double,System.Numerics.Vector2)
+  name: Shake(double, Vector2)
+  href: api/Fantas.CameraNode.html#Fantas_CameraNode_Shake_System_Double_System_Numerics_Vector2_
+  commentId: M:Fantas.CameraNode.Shake(System.Double,System.Numerics.Vector2)
+  name.vb: Shake(Double, Vector2)
+  fullName: Fantas.CameraNode.Shake(double, System.Numerics.Vector2)
+  fullName.vb: Fantas.CameraNode.Shake(Double, System.Numerics.Vector2)
+  nameWithType: CameraNode.Shake(double, Vector2)
+  nameWithType.vb: CameraNode.Shake(Double, Vector2)
+- uid: Fantas.CameraNode.Shake*
+  name: Shake
+  href: api/Fantas.CameraNode.html#Fantas_CameraNode_Shake_
+  commentId: Overload:Fantas.CameraNode.Shake
+  fullName: Fantas.CameraNode.Shake
+  nameWithType: CameraNode.Shake
+- uid: Fantas.CameraNode.StopShake
+  name: StopShake()
+  href: api/Fantas.CameraNode.html#Fantas_CameraNode_StopShake
+  commentId: M:Fantas.CameraNode.StopShake
+  fullName: Fantas.CameraNode.StopShake()
+  nameWithType: CameraNode.StopShake()
+- uid: Fantas.CameraNode.StopShake*
+  name: StopShake
+  href: api/Fantas.CameraNode.html#Fantas_CameraNode_StopShake_
+  commentId: Overload:Fantas.CameraNode.StopShake
+  fullName: Fantas.CameraNode.StopShake
+  nameWithType: CameraNode.StopShake
 - uid: Fantas.CircleNode
   name: CircleNode
   href: api/Fantas.CircleNode.html
@@ -3781,15 +3895,15 @@ references:
   commentId: T:Fantas.Input.MouseEventArgs
   fullName: Fantas.Input.MouseEventArgs
   nameWithType: MouseEventArgs
-- uid: Fantas.Input.MouseEventArgs.#ctor(Fantas.Input.MouseButtons,System.Int32,System.Numerics.Vector2,System.Drawing.PointF,System.Boolean)
-  name: MouseEventArgs(MouseButtons, int, Vector2, PointF, bool)
-  href: api/Fantas.Input.MouseEventArgs.html#Fantas_Input_MouseEventArgs__ctor_Fantas_Input_MouseButtons_System_Int32_System_Numerics_Vector2_System_Drawing_PointF_System_Boolean_
-  commentId: M:Fantas.Input.MouseEventArgs.#ctor(Fantas.Input.MouseButtons,System.Int32,System.Numerics.Vector2,System.Drawing.PointF,System.Boolean)
-  name.vb: New(MouseButtons, Integer, Vector2, PointF, Boolean)
-  fullName: Fantas.Input.MouseEventArgs.MouseEventArgs(Fantas.Input.MouseButtons, int, System.Numerics.Vector2, System.Drawing.PointF, bool)
-  fullName.vb: Fantas.Input.MouseEventArgs.New(Fantas.Input.MouseButtons, Integer, System.Numerics.Vector2, System.Drawing.PointF, Boolean)
-  nameWithType: MouseEventArgs.MouseEventArgs(MouseButtons, int, Vector2, PointF, bool)
-  nameWithType.vb: MouseEventArgs.New(MouseButtons, Integer, Vector2, PointF, Boolean)
+- uid: Fantas.Input.MouseEventArgs.#ctor(Fantas.Input.MouseButtons,System.Int32,System.Numerics.Vector2,System.Drawing.PointF,System.Numerics.Vector2,System.Boolean)
+  name: MouseEventArgs(MouseButtons, int, Vector2, PointF, Vector2, bool)
+  href: api/Fantas.Input.MouseEventArgs.html#Fantas_Input_MouseEventArgs__ctor_Fantas_Input_MouseButtons_System_Int32_System_Numerics_Vector2_System_Drawing_PointF_System_Numerics_Vector2_System_Boolean_
+  commentId: M:Fantas.Input.MouseEventArgs.#ctor(Fantas.Input.MouseButtons,System.Int32,System.Numerics.Vector2,System.Drawing.PointF,System.Numerics.Vector2,System.Boolean)
+  name.vb: New(MouseButtons, Integer, Vector2, PointF, Vector2, Boolean)
+  fullName: Fantas.Input.MouseEventArgs.MouseEventArgs(Fantas.Input.MouseButtons, int, System.Numerics.Vector2, System.Drawing.PointF, System.Numerics.Vector2, bool)
+  fullName.vb: Fantas.Input.MouseEventArgs.New(Fantas.Input.MouseButtons, Integer, System.Numerics.Vector2, System.Drawing.PointF, System.Numerics.Vector2, Boolean)
+  nameWithType: MouseEventArgs.MouseEventArgs(MouseButtons, int, Vector2, PointF, Vector2, bool)
+  nameWithType.vb: MouseEventArgs.New(MouseButtons, Integer, Vector2, PointF, Vector2, Boolean)
 - uid: Fantas.Input.MouseEventArgs.#ctor*
   name: MouseEventArgs
   href: api/Fantas.Input.MouseEventArgs.html#Fantas_Input_MouseEventArgs__ctor_
@@ -3823,6 +3937,18 @@ references:
   commentId: Overload:Fantas.Input.MouseEventArgs.Clicks
   fullName: Fantas.Input.MouseEventArgs.Clicks
   nameWithType: MouseEventArgs.Clicks
+- uid: Fantas.Input.MouseEventArgs.DragDelta
+  name: DragDelta
+  href: api/Fantas.Input.MouseEventArgs.html#Fantas_Input_MouseEventArgs_DragDelta
+  commentId: P:Fantas.Input.MouseEventArgs.DragDelta
+  fullName: Fantas.Input.MouseEventArgs.DragDelta
+  nameWithType: MouseEventArgs.DragDelta
+- uid: Fantas.Input.MouseEventArgs.DragDelta*
+  name: DragDelta
+  href: api/Fantas.Input.MouseEventArgs.html#Fantas_Input_MouseEventArgs_DragDelta_
+  commentId: Overload:Fantas.Input.MouseEventArgs.DragDelta
+  fullName: Fantas.Input.MouseEventArgs.DragDelta
+  nameWithType: MouseEventArgs.DragDelta
 - uid: Fantas.Input.MouseEventArgs.HasPreciseScrollingDeltas
   name: HasPreciseScrollingDeltas
   href: api/Fantas.Input.MouseEventArgs.html#Fantas_Input_MouseEventArgs_HasPreciseScrollingDeltas
@@ -3928,15 +4054,15 @@ references:
   commentId: Overload:Fantas.Input.MouseInput.InvokeMouseDown
   fullName: Fantas.Input.MouseInput.InvokeMouseDown
   nameWithType: MouseInput.InvokeMouseDown
-- uid: Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32)
-  name: InvokeMouseDrag(MouseButtons, PointF, int)
-  href: api/Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_InvokeMouseDrag_Fantas_Input_MouseButtons_System_Drawing_PointF_System_Int32_
-  commentId: M:Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32)
-  name.vb: InvokeMouseDrag(MouseButtons, PointF, Integer)
-  fullName: Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons, System.Drawing.PointF, int)
-  fullName.vb: Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons, System.Drawing.PointF, Integer)
-  nameWithType: MouseInput.InvokeMouseDrag(MouseButtons, PointF, int)
-  nameWithType.vb: MouseInput.InvokeMouseDrag(MouseButtons, PointF, Integer)
+- uid: Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32,System.Numerics.Vector2)
+  name: InvokeMouseDrag(MouseButtons, PointF, int, Vector2)
+  href: api/Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_InvokeMouseDrag_Fantas_Input_MouseButtons_System_Drawing_PointF_System_Int32_System_Numerics_Vector2_
+  commentId: M:Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons,System.Drawing.PointF,System.Int32,System.Numerics.Vector2)
+  name.vb: InvokeMouseDrag(MouseButtons, PointF, Integer, Vector2)
+  fullName: Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons, System.Drawing.PointF, int, System.Numerics.Vector2)
+  fullName.vb: Fantas.Input.MouseInput.InvokeMouseDrag(Fantas.Input.MouseButtons, System.Drawing.PointF, Integer, System.Numerics.Vector2)
+  nameWithType: MouseInput.InvokeMouseDrag(MouseButtons, PointF, int, Vector2)
+  nameWithType.vb: MouseInput.InvokeMouseDrag(MouseButtons, PointF, Integer, Vector2)
 - uid: Fantas.Input.MouseInput.InvokeMouseDrag*
   name: InvokeMouseDrag
   href: api/Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_InvokeMouseDrag_
@@ -4231,15 +4357,15 @@ references:
   commentId: T:Fantas.Input.PanEventArgs
   fullName: Fantas.Input.PanEventArgs
   nameWithType: PanEventArgs
-- uid: Fantas.Input.PanEventArgs.#ctor(System.Drawing.PointF)
-  name: PanEventArgs(PointF)
-  href: api/Fantas.Input.PanEventArgs.html#Fantas_Input_PanEventArgs__ctor_System_Drawing_PointF_
-  commentId: M:Fantas.Input.PanEventArgs.#ctor(System.Drawing.PointF)
-  name.vb: New(PointF)
-  fullName: Fantas.Input.PanEventArgs.PanEventArgs(System.Drawing.PointF)
-  fullName.vb: Fantas.Input.PanEventArgs.New(System.Drawing.PointF)
-  nameWithType: PanEventArgs.PanEventArgs(PointF)
-  nameWithType.vb: PanEventArgs.New(PointF)
+- uid: Fantas.Input.PanEventArgs.#ctor(System.Drawing.PointF,System.Numerics.Vector2,System.Numerics.Vector2)
+  name: PanEventArgs(PointF, Vector2, Vector2)
+  href: api/Fantas.Input.PanEventArgs.html#Fantas_Input_PanEventArgs__ctor_System_Drawing_PointF_System_Numerics_Vector2_System_Numerics_Vector2_
+  commentId: M:Fantas.Input.PanEventArgs.#ctor(System.Drawing.PointF,System.Numerics.Vector2,System.Numerics.Vector2)
+  name.vb: New(PointF, Vector2, Vector2)
+  fullName: Fantas.Input.PanEventArgs.PanEventArgs(System.Drawing.PointF, System.Numerics.Vector2, System.Numerics.Vector2)
+  fullName.vb: Fantas.Input.PanEventArgs.New(System.Drawing.PointF, System.Numerics.Vector2, System.Numerics.Vector2)
+  nameWithType: PanEventArgs.PanEventArgs(PointF, Vector2, Vector2)
+  nameWithType.vb: PanEventArgs.New(PointF, Vector2, Vector2)
 - uid: Fantas.Input.PanEventArgs.#ctor*
   name: PanEventArgs
   href: api/Fantas.Input.PanEventArgs.html#Fantas_Input_PanEventArgs__ctor_
@@ -4249,6 +4375,18 @@ references:
   fullName.vb: Fantas.Input.PanEventArgs.New
   nameWithType: PanEventArgs.PanEventArgs
   nameWithType.vb: PanEventArgs.New
+- uid: Fantas.Input.PanEventArgs.Delta
+  name: Delta
+  href: api/Fantas.Input.PanEventArgs.html#Fantas_Input_PanEventArgs_Delta
+  commentId: P:Fantas.Input.PanEventArgs.Delta
+  fullName: Fantas.Input.PanEventArgs.Delta
+  nameWithType: PanEventArgs.Delta
+- uid: Fantas.Input.PanEventArgs.Delta*
+  name: Delta
+  href: api/Fantas.Input.PanEventArgs.html#Fantas_Input_PanEventArgs_Delta_
+  commentId: Overload:Fantas.Input.PanEventArgs.Delta
+  fullName: Fantas.Input.PanEventArgs.Delta
+  nameWithType: PanEventArgs.Delta
 - uid: Fantas.Input.PanEventArgs.Location
   name: Location
   href: api/Fantas.Input.PanEventArgs.html#Fantas_Input_PanEventArgs_Location
@@ -4261,6 +4399,18 @@ references:
   commentId: Overload:Fantas.Input.PanEventArgs.Location
   fullName: Fantas.Input.PanEventArgs.Location
   nameWithType: PanEventArgs.Location
+- uid: Fantas.Input.PanEventArgs.Velocity
+  name: Velocity
+  href: api/Fantas.Input.PanEventArgs.html#Fantas_Input_PanEventArgs_Velocity
+  commentId: P:Fantas.Input.PanEventArgs.Velocity
+  fullName: Fantas.Input.PanEventArgs.Velocity
+  nameWithType: PanEventArgs.Velocity
+- uid: Fantas.Input.PanEventArgs.Velocity*
+  name: Velocity
+  href: api/Fantas.Input.PanEventArgs.html#Fantas_Input_PanEventArgs_Velocity_
+  commentId: Overload:Fantas.Input.PanEventArgs.Velocity
+  fullName: Fantas.Input.PanEventArgs.Velocity
+  nameWithType: PanEventArgs.Velocity
 - uid: Fantas.Input.PinchEventArgs
   name: PinchEventArgs
   href: api/Fantas.Input.PinchEventArgs.html
@@ -5680,6 +5830,21 @@ references:
   commentId: Overload:Fantas.Node.HasAnimation
   fullName: Fantas.Node.HasAnimation
   nameWithType: Node.HasAnimation
+- uid: Fantas.Node.HasAnimationKey(System.String)
+  name: HasAnimationKey(string)
+  href: api/Fantas.Node.html#Fantas_Node_HasAnimationKey_System_String_
+  commentId: M:Fantas.Node.HasAnimationKey(System.String)
+  name.vb: HasAnimationKey(String)
+  fullName: Fantas.Node.HasAnimationKey(string)
+  fullName.vb: Fantas.Node.HasAnimationKey(String)
+  nameWithType: Node.HasAnimationKey(string)
+  nameWithType.vb: Node.HasAnimationKey(String)
+- uid: Fantas.Node.HasAnimationKey*
+  name: HasAnimationKey
+  href: api/Fantas.Node.html#Fantas_Node_HasAnimationKey_
+  commentId: Overload:Fantas.Node.HasAnimationKey
+  fullName: Fantas.Node.HasAnimationKey
+  nameWithType: Node.HasAnimationKey
 - uid: Fantas.Node.HasChildren
   name: HasChildren
   href: api/Fantas.Node.html#Fantas_Node_HasChildren
@@ -5821,6 +5986,18 @@ references:
   commentId: E:Fantas.Node.LongPress
   fullName: Fantas.Node.LongPress
   nameWithType: Node.LongPress
+- uid: Fantas.Node.LookAt(System.Drawing.PointF)
+  name: LookAt(PointF)
+  href: api/Fantas.Node.html#Fantas_Node_LookAt_System_Drawing_PointF_
+  commentId: M:Fantas.Node.LookAt(System.Drawing.PointF)
+  fullName: Fantas.Node.LookAt(System.Drawing.PointF)
+  nameWithType: Node.LookAt(PointF)
+- uid: Fantas.Node.LookAt*
+  name: LookAt
+  href: api/Fantas.Node.html#Fantas_Node_LookAt_
+  commentId: Overload:Fantas.Node.LookAt
+  fullName: Fantas.Node.LookAt
+  nameWithType: Node.LookAt
 - uid: Fantas.Node.MouseButtonPressed
   name: MouseButtonPressed
   href: api/Fantas.Node.html#Fantas_Node_MouseButtonPressed
@@ -5863,6 +6040,12 @@ references:
   commentId: E:Fantas.Node.MouseUp
   fullName: Fantas.Node.MouseUp
   nameWithType: Node.MouseUp
+- uid: Fantas.Node.MouseWheel
+  name: MouseWheel
+  href: api/Fantas.Node.html#Fantas_Node_MouseWheel
+  commentId: E:Fantas.Node.MouseWheel
+  fullName: Fantas.Node.MouseWheel
+  nameWithType: Node.MouseWheel
 - uid: Fantas.Node.MoveToParent(Fantas.Node)
   name: MoveToParent(Node)
   href: api/Fantas.Node.html#Fantas_Node_MoveToParent_Fantas_Node_
@@ -6046,6 +6229,54 @@ references:
   commentId: Overload:Fantas.Node.OnMouseUp
   fullName: Fantas.Node.OnMouseUp
   nameWithType: Node.OnMouseUp
+- uid: Fantas.Node.OnMouseWheel(Fantas.Input.MouseEventArgs)
+  name: OnMouseWheel(MouseEventArgs)
+  href: api/Fantas.Node.html#Fantas_Node_OnMouseWheel_Fantas_Input_MouseEventArgs_
+  commentId: M:Fantas.Node.OnMouseWheel(Fantas.Input.MouseEventArgs)
+  fullName: Fantas.Node.OnMouseWheel(Fantas.Input.MouseEventArgs)
+  nameWithType: Node.OnMouseWheel(MouseEventArgs)
+- uid: Fantas.Node.OnMouseWheel*
+  name: OnMouseWheel
+  href: api/Fantas.Node.html#Fantas_Node_OnMouseWheel_
+  commentId: Overload:Fantas.Node.OnMouseWheel
+  fullName: Fantas.Node.OnMouseWheel
+  nameWithType: Node.OnMouseWheel
+- uid: Fantas.Node.OnPan(Fantas.Input.PanEventArgs)
+  name: OnPan(PanEventArgs)
+  href: api/Fantas.Node.html#Fantas_Node_OnPan_Fantas_Input_PanEventArgs_
+  commentId: M:Fantas.Node.OnPan(Fantas.Input.PanEventArgs)
+  fullName: Fantas.Node.OnPan(Fantas.Input.PanEventArgs)
+  nameWithType: Node.OnPan(PanEventArgs)
+- uid: Fantas.Node.OnPan*
+  name: OnPan
+  href: api/Fantas.Node.html#Fantas_Node_OnPan_
+  commentId: Overload:Fantas.Node.OnPan
+  fullName: Fantas.Node.OnPan
+  nameWithType: Node.OnPan
+- uid: Fantas.Node.OnPanComplete(Fantas.Input.PanEventArgs)
+  name: OnPanComplete(PanEventArgs)
+  href: api/Fantas.Node.html#Fantas_Node_OnPanComplete_Fantas_Input_PanEventArgs_
+  commentId: M:Fantas.Node.OnPanComplete(Fantas.Input.PanEventArgs)
+  fullName: Fantas.Node.OnPanComplete(Fantas.Input.PanEventArgs)
+  nameWithType: Node.OnPanComplete(PanEventArgs)
+- uid: Fantas.Node.OnPanComplete*
+  name: OnPanComplete
+  href: api/Fantas.Node.html#Fantas_Node_OnPanComplete_
+  commentId: Overload:Fantas.Node.OnPanComplete
+  fullName: Fantas.Node.OnPanComplete
+  nameWithType: Node.OnPanComplete
+- uid: Fantas.Node.OnPanStart(Fantas.Input.PanEventArgs)
+  name: OnPanStart(PanEventArgs)
+  href: api/Fantas.Node.html#Fantas_Node_OnPanStart_Fantas_Input_PanEventArgs_
+  commentId: M:Fantas.Node.OnPanStart(Fantas.Input.PanEventArgs)
+  fullName: Fantas.Node.OnPanStart(Fantas.Input.PanEventArgs)
+  nameWithType: Node.OnPanStart(PanEventArgs)
+- uid: Fantas.Node.OnPanStart*
+  name: OnPanStart
+  href: api/Fantas.Node.html#Fantas_Node_OnPanStart_
+  commentId: Overload:Fantas.Node.OnPanStart
+  fullName: Fantas.Node.OnPanStart
+  nameWithType: Node.OnPanStart
 - uid: Fantas.Node.OnTap(Fantas.Input.TapEventArgs)
   name: OnTap(TapEventArgs)
   href: api/Fantas.Node.html#Fantas_Node_OnTap_Fantas_Input_TapEventArgs_
@@ -6142,6 +6373,24 @@ references:
   commentId: Overload:Fantas.Node.OnTouchUpOutside
   fullName: Fantas.Node.OnTouchUpOutside
   nameWithType: Node.OnTouchUpOutside
+- uid: Fantas.Node.Pan
+  name: Pan
+  href: api/Fantas.Node.html#Fantas_Node_Pan
+  commentId: E:Fantas.Node.Pan
+  fullName: Fantas.Node.Pan
+  nameWithType: Node.Pan
+- uid: Fantas.Node.PanComplete
+  name: PanComplete
+  href: api/Fantas.Node.html#Fantas_Node_PanComplete
+  commentId: E:Fantas.Node.PanComplete
+  fullName: Fantas.Node.PanComplete
+  nameWithType: Node.PanComplete
+- uid: Fantas.Node.PanStart
+  name: PanStart
+  href: api/Fantas.Node.html#Fantas_Node_PanStart
+  commentId: E:Fantas.Node.PanStart
+  fullName: Fantas.Node.PanStart
+  nameWithType: Node.PanStart
 - uid: Fantas.Node.Parent
   name: Parent
   href: api/Fantas.Node.html#Fantas_Node_Parent
@@ -8569,6 +8818,18 @@ references:
   commentId: Overload:Fantas.PointExtension.Offset
   fullName: Fantas.PointExtension.Offset
   nameWithType: PointExtension.Offset
+- uid: Fantas.PointExtension.Subtract(System.Drawing.PointF,System.Numerics.Vector2)
+  name: Subtract(PointF, Vector2)
+  href: api/Fantas.PointExtension.html#Fantas_PointExtension_Subtract_System_Drawing_PointF_System_Numerics_Vector2_
+  commentId: M:Fantas.PointExtension.Subtract(System.Drawing.PointF,System.Numerics.Vector2)
+  fullName: Fantas.PointExtension.Subtract(System.Drawing.PointF, System.Numerics.Vector2)
+  nameWithType: PointExtension.Subtract(PointF, Vector2)
+- uid: Fantas.PointExtension.Subtract*
+  name: Subtract
+  href: api/Fantas.PointExtension.html#Fantas_PointExtension_Subtract_
+  commentId: Overload:Fantas.PointExtension.Subtract
+  fullName: Fantas.PointExtension.Subtract
+  nameWithType: PointExtension.Subtract
 - uid: Fantas.PolygonNode
   name: PolygonNode
   href: api/Fantas.PolygonNode.html
@@ -9277,12 +9538,12 @@ references:
   commentId: Overload:Fantas.Scene.OnPan
   fullName: Fantas.Scene.OnPan
   nameWithType: Scene.OnPan
-- uid: Fantas.Scene.OnPanComplete
-  name: OnPanComplete()
-  href: api/Fantas.Scene.html#Fantas_Scene_OnPanComplete
-  commentId: M:Fantas.Scene.OnPanComplete
-  fullName: Fantas.Scene.OnPanComplete()
-  nameWithType: Scene.OnPanComplete()
+- uid: Fantas.Scene.OnPanComplete(Fantas.Input.PanEventArgs)
+  name: OnPanComplete(PanEventArgs)
+  href: api/Fantas.Scene.html#Fantas_Scene_OnPanComplete_Fantas_Input_PanEventArgs_
+  commentId: M:Fantas.Scene.OnPanComplete(Fantas.Input.PanEventArgs)
+  fullName: Fantas.Scene.OnPanComplete(Fantas.Input.PanEventArgs)
+  nameWithType: Scene.OnPanComplete(PanEventArgs)
 - uid: Fantas.Scene.OnPanComplete*
   name: OnPanComplete
   href: api/Fantas.Scene.html#Fantas_Scene_OnPanComplete_
@@ -10831,6 +11092,21 @@ references:
   commentId: Overload:Fantas.TextureAtlas.Load
   fullName: Fantas.TextureAtlas.Load
   nameWithType: TextureAtlas.Load
+- uid: Fantas.TextureAtlas.LoadBinaryFromResource(System.Reflection.Assembly,System.String,System.Single)
+  name: LoadBinaryFromResource(Assembly, string, float)
+  href: api/Fantas.TextureAtlas.html#Fantas_TextureAtlas_LoadBinaryFromResource_System_Reflection_Assembly_System_String_System_Single_
+  commentId: M:Fantas.TextureAtlas.LoadBinaryFromResource(System.Reflection.Assembly,System.String,System.Single)
+  name.vb: LoadBinaryFromResource(Assembly, String, Single)
+  fullName: Fantas.TextureAtlas.LoadBinaryFromResource(System.Reflection.Assembly, string, float)
+  fullName.vb: Fantas.TextureAtlas.LoadBinaryFromResource(System.Reflection.Assembly, String, Single)
+  nameWithType: TextureAtlas.LoadBinaryFromResource(Assembly, string, float)
+  nameWithType.vb: TextureAtlas.LoadBinaryFromResource(Assembly, String, Single)
+- uid: Fantas.TextureAtlas.LoadBinaryFromResource*
+  name: LoadBinaryFromResource
+  href: api/Fantas.TextureAtlas.html#Fantas_TextureAtlas_LoadBinaryFromResource_
+  commentId: Overload:Fantas.TextureAtlas.LoadBinaryFromResource
+  fullName: Fantas.TextureAtlas.LoadBinaryFromResource
+  nameWithType: TextureAtlas.LoadBinaryFromResource
 - uid: Fantas.TextureAtlas.TextureNames
   name: TextureNames
   href: api/Fantas.TextureAtlas.html#Fantas_TextureAtlas_TextureNames
@@ -11683,18 +11959,6 @@ references:
   commentId: Overload:Fantas.Time.CurrentFramesPerSecond
   fullName: Fantas.Time.CurrentFramesPerSecond
   nameWithType: Time.CurrentFramesPerSecond
-- uid: Fantas.Time.CurrentTime
-  name: CurrentTime
-  href: api/Fantas.Time.html#Fantas_Time_CurrentTime
-  commentId: P:Fantas.Time.CurrentTime
-  fullName: Fantas.Time.CurrentTime
-  nameWithType: Time.CurrentTime
-- uid: Fantas.Time.CurrentTime*
-  name: CurrentTime
-  href: api/Fantas.Time.html#Fantas_Time_CurrentTime_
-  commentId: Overload:Fantas.Time.CurrentTime
-  fullName: Fantas.Time.CurrentTime
-  nameWithType: Time.CurrentTime
 - uid: Fantas.Time.DeltaFactor
   name: DeltaFactor
   href: api/Fantas.Time.html#Fantas_Time_DeltaFactor
@@ -11719,6 +11983,30 @@ references:
   commentId: Overload:Fantas.Time.DeltaTime
   fullName: Fantas.Time.DeltaTime
   nameWithType: Time.DeltaTime
+- uid: Fantas.Time.Elapsed
+  name: Elapsed
+  href: api/Fantas.Time.html#Fantas_Time_Elapsed
+  commentId: P:Fantas.Time.Elapsed
+  fullName: Fantas.Time.Elapsed
+  nameWithType: Time.Elapsed
+- uid: Fantas.Time.Elapsed*
+  name: Elapsed
+  href: api/Fantas.Time.html#Fantas_Time_Elapsed_
+  commentId: Overload:Fantas.Time.Elapsed
+  fullName: Fantas.Time.Elapsed
+  nameWithType: Time.Elapsed
+- uid: Fantas.Time.ElapsedSeconds
+  name: ElapsedSeconds
+  href: api/Fantas.Time.html#Fantas_Time_ElapsedSeconds
+  commentId: P:Fantas.Time.ElapsedSeconds
+  fullName: Fantas.Time.ElapsedSeconds
+  nameWithType: Time.ElapsedSeconds
+- uid: Fantas.Time.ElapsedSeconds*
+  name: ElapsedSeconds
+  href: api/Fantas.Time.html#Fantas_Time_ElapsedSeconds_
+  commentId: Overload:Fantas.Time.ElapsedSeconds
+  fullName: Fantas.Time.ElapsedSeconds
+  nameWithType: Time.ElapsedSeconds
 - uid: Fantas.Time.TimePerFrame
   name: TimePerFrame
   href: api/Fantas.Time.html#Fantas_Time_TimePerFrame

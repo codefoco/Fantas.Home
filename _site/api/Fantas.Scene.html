@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="Fantas_Scene" data-uid="Fantas.Scene" class="text-break">
-Class Scene  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+Class Scene  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -150,6 +150,9 @@ Class Scene  <a class="header-action link-secondary" title="View source" href="h
       <a class="xref" href="Fantas.Node.html#Fantas_Node_SetScale_System_Numerics_Vector2_">Node.SetScale(Vector2)</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_LookAt_System_Drawing_PointF_">Node.LookAt(PointF)</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_AddChild_Fantas_Node_">Node.AddChild(Node)</a>
     </div>
     <div>
@@ -187,6 +190,9 @@ Class Scene  <a class="header-action link-secondary" title="View source" href="h
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_GetAnimationForKey_System_String_">Node.GetAnimationForKey(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_HasAnimationKey_System_String_">Node.HasAnimationKey(string)</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_RemoveAnimationForKey_System_String_">Node.RemoveAnimationForKey(string)</a>
@@ -444,7 +450,7 @@ Class Scene  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="Fantas_Scene__ctor" data-uid="Fantas.Scene.#ctor">
   Scene()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Create a scene
@@ -475,7 +481,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene__ctor_Fantas_Scene_" data-uid="Fantas.Scene.#ctor(Fantas.Scene)">
   Scene(Scene)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Copy scene constructor</p>
@@ -507,7 +513,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene__ctor_System_Drawing_SizeF_" data-uid="Fantas.Scene.#ctor(System.Drawing.SizeF)">
   Scene(SizeF)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Create a Scene with the given logical size
@@ -544,7 +550,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_AnchorPoint" data-uid="Fantas.Scene.AnchorPoint">
   AnchorPoint
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Scene origin in the viewport</p>
@@ -576,7 +582,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_BackgroundColor" data-uid="Fantas.Scene.BackgroundColor">
   BackgroundColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>BackgroundColor of the scene</p>
@@ -608,7 +614,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_Camera" data-uid="Fantas.Scene.Camera">
   Camera
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -639,7 +645,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_CurrentScene" data-uid="Fantas.Scene.CurrentScene">
   CurrentScene
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Current scene running in the game</p>
@@ -671,7 +677,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_PhysicsWorld" data-uid="Fantas.Scene.PhysicsWorld">
   PhysicsWorld
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get/Create PhysicsWorld</p>
@@ -703,7 +709,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_Size" data-uid="Fantas.Scene.Size">
   Size
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Size of the scene (points)</p>
@@ -739,7 +745,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_ConvertPointFromWindow_System_Drawing_Point_" data-uid="Fantas.Scene.ConvertPointFromWindow(System.Drawing.Point)">
   ConvertPointFromWindow(Point)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Convert from Windows coordinates to Scene</p>
@@ -777,7 +783,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_ConvertPointToWindow_System_Drawing_PointF_" data-uid="Fantas.Scene.ConvertPointToWindow(System.Drawing.PointF)">
   ConvertPointToWindow(PointF)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Convert from Scene coordinates to Window</p>
@@ -815,7 +821,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_Copy" data-uid="Fantas.Scene.Copy">
   Copy()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Copy this scene</p>
@@ -847,7 +853,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_Finish" data-uid="Fantas.Scene.Finish">
   Finish()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when the scene is no longer being presented</p>
@@ -874,7 +880,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_FirstHitTest_System_Drawing_PointF_" data-uid="Fantas.Scene.FirstHitTest(System.Drawing.PointF)">
   FirstHitTest(PointF)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Return the first Node that have HitTest = true, that intersects the scene point</p>
@@ -911,7 +917,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnControllerButtonPressed_Fantas_Input_ControllerButtonEventArgs_" data-uid="Fantas.Scene.OnControllerButtonPressed(Fantas.Input.ControllerButtonEventArgs)">
   OnControllerButtonPressed(ControllerButtonEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when the controller button is pressed</p>
@@ -943,7 +949,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnControllerButtonReleased_Fantas_Input_ControllerButtonEventArgs_" data-uid="Fantas.Scene.OnControllerButtonReleased(Fantas.Input.ControllerButtonEventArgs)">
   OnControllerButtonReleased(ControllerButtonEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when the controller button is released</p>
@@ -975,7 +981,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnControllerConnected_Fantas_Input_ControllerChangedEventArgs_" data-uid="Fantas.Scene.OnControllerConnected(Fantas.Input.ControllerChangedEventArgs)">
   OnControllerConnected(ControllerChangedEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when the controller is connected</p>
@@ -1007,7 +1013,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnControllerDisconnected_Fantas_Input_ControllerChangedEventArgs_" data-uid="Fantas.Scene.OnControllerDisconnected(Fantas.Input.ControllerChangedEventArgs)">
   OnControllerDisconnected(ControllerChangedEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when the controller is disconnected</p>
@@ -1039,7 +1045,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnControllerLeftThumbstickChanged_Fantas_Input_ControllerThumbstickChangedEventArgs_" data-uid="Fantas.Scene.OnControllerLeftThumbstickChanged(Fantas.Input.ControllerThumbstickChangedEventArgs)">
   OnControllerLeftThumbstickChanged(ControllerThumbstickChangedEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when the controller left thumbstick is position changed</p>
@@ -1071,7 +1077,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnControllerLeftTriggerChanged_Fantas_Input_ControllerTriggerChangedEventArgs_" data-uid="Fantas.Scene.OnControllerLeftTriggerChanged(Fantas.Input.ControllerTriggerChangedEventArgs)">
   OnControllerLeftTriggerChanged(ControllerTriggerChangedEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when the controller left trigger is position changed</p>
@@ -1103,7 +1109,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnControllerRightThumbstickChanged_Fantas_Input_ControllerThumbstickChangedEventArgs_" data-uid="Fantas.Scene.OnControllerRightThumbstickChanged(Fantas.Input.ControllerThumbstickChangedEventArgs)">
   OnControllerRightThumbstickChanged(ControllerThumbstickChangedEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when the controller right thumbstick is position changed</p>
@@ -1135,7 +1141,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnControllerRightTriggerChanged_Fantas_Input_ControllerTriggerChangedEventArgs_" data-uid="Fantas.Scene.OnControllerRightTriggerChanged(Fantas.Input.ControllerTriggerChangedEventArgs)">
   OnControllerRightTriggerChanged(ControllerTriggerChangedEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when the controller right trigger is position changed</p>
@@ -1167,7 +1173,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnDoubleClick_Fantas_Input_MouseEventArgs_" data-uid="Fantas.Scene.OnDoubleClick(Fantas.Input.MouseEventArgs)">
   OnDoubleClick(MouseEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when mouse button double-clicked</p>
@@ -1199,7 +1205,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnDoubleTap_Fantas_Input_TapEventArgs_" data-uid="Fantas.Scene.OnDoubleTap(Fantas.Input.TapEventArgs)">
   OnDoubleTap(TapEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on double tap gesture</p>
@@ -1231,7 +1237,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnKeyDown_Fantas_Input_KeyEventArgs_" data-uid="Fantas.Scene.OnKeyDown(Fantas.Input.KeyEventArgs)">
   OnKeyDown(KeyEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when keyboard key is pressed</p>
@@ -1263,7 +1269,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnKeyUp_Fantas_Input_KeyEventArgs_" data-uid="Fantas.Scene.OnKeyUp(Fantas.Input.KeyEventArgs)">
   OnKeyUp(KeyEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when keyboard key is released</p>
@@ -1295,7 +1301,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnLongPress_Fantas_Input_TapEventArgs_" data-uid="Fantas.Scene.OnLongPress(Fantas.Input.TapEventArgs)">
   OnLongPress(TapEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on long press gesture</p>
@@ -1327,7 +1333,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnMouseDown_Fantas_Input_MouseEventArgs_" data-uid="Fantas.Scene.OnMouseDown(Fantas.Input.MouseEventArgs)">
   OnMouseDown(MouseEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when mouse button is pressed</p>
@@ -1359,7 +1365,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnMouseDrag_Fantas_Input_MouseEventArgs_" data-uid="Fantas.Scene.OnMouseDrag(Fantas.Input.MouseEventArgs)">
   OnMouseDrag(MouseEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on mouse drag (click + move)</p>
@@ -1391,7 +1397,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnMouseMove_Fantas_Input_MouseEventArgs_" data-uid="Fantas.Scene.OnMouseMove(Fantas.Input.MouseEventArgs)">
   OnMouseMove(MouseEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on mouse moved</p>
@@ -1423,7 +1429,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnMouseUp_Fantas_Input_MouseEventArgs_" data-uid="Fantas.Scene.OnMouseUp(Fantas.Input.MouseEventArgs)">
   OnMouseUp(MouseEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when mouse button is released</p>
@@ -1455,7 +1461,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnMouseWheel_Fantas_Input_MouseEventArgs_" data-uid="Fantas.Scene.OnMouseWheel(Fantas.Input.MouseEventArgs)">
   OnMouseWheel(MouseEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Mouse scroll wheel changed</p>
@@ -1487,7 +1493,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnPan_Fantas_Input_PanEventArgs_" data-uid="Fantas.Scene.OnPan(Fantas.Input.PanEventArgs)">
   OnPan(PanEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on pan gesture</p>
@@ -1517,9 +1523,9 @@ The origin will be on the bottom left</p>
 
   <a id="Fantas_Scene_OnPanComplete_" data-uid="Fantas.Scene.OnPanComplete*"></a>
 
-  <h3 id="Fantas_Scene_OnPanComplete" data-uid="Fantas.Scene.OnPanComplete">
-  OnPanComplete()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Fantas_Scene_OnPanComplete_Fantas_Input_PanEventArgs_" data-uid="Fantas.Scene.OnPanComplete(Fantas.Input.PanEventArgs)">
+  OnPanComplete(PanEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on pan complete gesture</p>
@@ -1527,9 +1533,14 @@ The origin will be on the bottom left</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void OnPanComplete()</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void OnPanComplete(PanEventArgs args)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.PanEventArgs.html">PanEventArgs</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
@@ -1546,7 +1557,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnPanStart_Fantas_Input_PanEventArgs_" data-uid="Fantas.Scene.OnPanStart(Fantas.Input.PanEventArgs)">
   OnPanStart(PanEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on pan start gesture</p>
@@ -1578,7 +1589,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnPinch_Fantas_Input_PinchEventArgs_" data-uid="Fantas.Scene.OnPinch(Fantas.Input.PinchEventArgs)">
   OnPinch(PinchEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on pinch gesture</p>
@@ -1610,7 +1621,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnPinchComplete" data-uid="Fantas.Scene.OnPinchComplete">
   OnPinchComplete()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on pinch complete gesture</p>
@@ -1637,7 +1648,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnPinchStart_Fantas_Input_PinchEventArgs_" data-uid="Fantas.Scene.OnPinchStart(Fantas.Input.PinchEventArgs)">
   OnPinchStart(PinchEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on pinch start gesture</p>
@@ -1669,7 +1680,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnSwipe_Fantas_Input_SwipeEventArgs_" data-uid="Fantas.Scene.OnSwipe(Fantas.Input.SwipeEventArgs)">
   OnSwipe(SwipeEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on swipe gesture</p>
@@ -1701,7 +1712,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnTap_Fantas_Input_TapEventArgs_" data-uid="Fantas.Scene.OnTap(Fantas.Input.TapEventArgs)">
   OnTap(TapEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on tap gesture</p>
@@ -1733,7 +1744,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnTouchDown_Fantas_Input_TouchEventArgs_" data-uid="Fantas.Scene.OnTouchDown(Fantas.Input.TouchEventArgs)">
   OnTouchDown(TouchEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when screen touch begin</p>
@@ -1765,7 +1776,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnTouchMove_Fantas_Input_TouchEventArgs_" data-uid="Fantas.Scene.OnTouchMove(Fantas.Input.TouchEventArgs)">
   OnTouchMove(TouchEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when screen touch move</p>
@@ -1797,7 +1808,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_OnTouchUp_Fantas_Input_TouchEventArgs_" data-uid="Fantas.Scene.OnTouchUp(Fantas.Input.TouchEventArgs)">
   OnTouchUp(TouchEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when screen touch ends</p>
@@ -1829,7 +1840,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_SizeChanged" data-uid="Fantas.Scene.SizeChanged">
   SizeChanged()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when scene size was changed</p>
@@ -1856,7 +1867,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_Start" data-uid="Fantas.Scene.Start">
   Start()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when Scene scene is presented</p>
@@ -1883,7 +1894,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_Update" data-uid="Fantas.Scene.Update">
   Update()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called every time the scene needs to update the game logic
@@ -1914,7 +1925,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_DoubleClick" data-uid="Fantas.Scene.DoubleClick">
   DoubleClick
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when mouse button double-clicked</p>
@@ -1945,7 +1956,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_DoubleTap" data-uid="Fantas.Scene.DoubleTap">
   DoubleTap
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on double tap gesture</p>
@@ -1976,7 +1987,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_KeyDown" data-uid="Fantas.Scene.KeyDown">
   KeyDown
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when keyboard key is pressed</p>
@@ -2007,7 +2018,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_KeyUp" data-uid="Fantas.Scene.KeyUp">
   KeyUp
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when keyboard key is released</p>
@@ -2038,7 +2049,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_LongPress" data-uid="Fantas.Scene.LongPress">
   LongPress
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on long press gesture</p>
@@ -2069,7 +2080,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_MouseDown" data-uid="Fantas.Scene.MouseDown">
   MouseDown
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when mouse button is pressed</p>
@@ -2100,7 +2111,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_MouseDrag" data-uid="Fantas.Scene.MouseDrag">
   MouseDrag
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on mouse drag (click + move)</p>
@@ -2131,7 +2142,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_MouseMove" data-uid="Fantas.Scene.MouseMove">
   MouseMove
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on mouse move</p>
@@ -2162,7 +2173,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_MouseUp" data-uid="Fantas.Scene.MouseUp">
   MouseUp
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when mouse button is released</p>
@@ -2193,7 +2204,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_MouseWheel" data-uid="Fantas.Scene.MouseWheel">
   MouseWheel
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Mouse scroll wheel changed</p>
@@ -2224,7 +2235,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_Pan" data-uid="Fantas.Scene.Pan">
   Pan
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on Pan gesture</p>
@@ -2255,7 +2266,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_PanComplete" data-uid="Fantas.Scene.PanComplete">
   PanComplete
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on Pan complete gesture</p>
@@ -2263,7 +2274,7 @@ The origin will be on the bottom left</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event EventHandler PanComplete</code></pre>
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;PanEventArgs&gt; PanComplete</code></pre>
   </div>
 
 
@@ -2273,7 +2284,7 @@ The origin will be on the bottom left</p>
 
   <h4 class="section">Event Type</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Fantas.Input.PanEventArgs.html">PanEventArgs</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -2286,7 +2297,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_PanStart" data-uid="Fantas.Scene.PanStart">
   PanStart
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on Pan start gesture</p>
@@ -2317,7 +2328,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_Pinch" data-uid="Fantas.Scene.Pinch">
   Pinch
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on pinch gesture</p>
@@ -2348,7 +2359,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_PinchComplete" data-uid="Fantas.Scene.PinchComplete">
   PinchComplete
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on pinch complete gesture</p>
@@ -2379,7 +2390,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_PinchStart" data-uid="Fantas.Scene.PinchStart">
   PinchStart
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on pinch start gesture</p>
@@ -2410,7 +2421,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_Swipe" data-uid="Fantas.Scene.Swipe">
   Swipe
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on swipe gesture</p>
@@ -2441,7 +2452,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_Tap" data-uid="Fantas.Scene.Tap">
   Tap
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on tap gesture</p>
@@ -2472,7 +2483,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_TouchDown" data-uid="Fantas.Scene.TouchDown">
   TouchDown
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when screen touch begin</p>
@@ -2503,7 +2514,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_TouchMove" data-uid="Fantas.Scene.TouchMove">
   TouchMove
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when screen touch move</p>
@@ -2534,7 +2545,7 @@ The origin will be on the bottom left</p>
 
   <h3 id="Fantas_Scene_TouchUp" data-uid="Fantas.Scene.TouchUp">
   TouchUp
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when screen touch ends</p>
@@ -2566,7 +2577,7 @@ The origin will be on the bottom left</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Scene.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Scene.cs" class="edit-link">Edit this page</a>
         </div>
 
 

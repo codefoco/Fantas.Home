@@ -7,6 +7,7 @@ items:
   children:
   - Fantas.PointExtension.Add(System.Drawing.PointF,System.Numerics.Vector2)
   - Fantas.PointExtension.Offset(System.Drawing.PointF,System.Single,System.Single)
+  - Fantas.PointExtension.Subtract(System.Drawing.PointF,System.Numerics.Vector2)
   langs:
   - csharp
   - vb
@@ -15,7 +16,7 @@ items:
   fullName: Fantas.PointExtension
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Extensions/PointExtension.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Extensions/PointExtension.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -47,7 +48,7 @@ items:
   fullName: Fantas.PointExtension.Add(System.Drawing.PointF, System.Numerics.Vector2)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Extensions/PointExtension.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Extensions/PointExtension.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -67,6 +68,39 @@ items:
       description: ''
     content.vb: Public Shared Function Add(point As PointF, displacement As Vector2) As PointF
   overload: Fantas.PointExtension.Add*
+- uid: Fantas.PointExtension.Subtract(System.Drawing.PointF,System.Numerics.Vector2)
+  commentId: M:Fantas.PointExtension.Subtract(System.Drawing.PointF,System.Numerics.Vector2)
+  id: Subtract(System.Drawing.PointF,System.Numerics.Vector2)
+  isExtensionMethod: true
+  parent: Fantas.PointExtension
+  langs:
+  - csharp
+  - vb
+  name: Subtract(PointF, Vector2)
+  nameWithType: PointExtension.Subtract(PointF, Vector2)
+  fullName: Fantas.PointExtension.Subtract(System.Drawing.PointF, System.Numerics.Vector2)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Extensions/PointExtension.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Move point using Vector
+  example: []
+  syntax:
+    content: public static PointF Subtract(this PointF point, Vector2 displacement)
+    parameters:
+    - id: point
+      type: System.Drawing.PointF
+      description: ''
+    - id: displacement
+      type: System.Numerics.Vector2
+      description: ''
+    return:
+      type: System.Drawing.PointF
+      description: ''
+    content.vb: Public Shared Function Subtract(point As PointF, displacement As Vector2) As PointF
+  overload: Fantas.PointExtension.Subtract*
 - uid: Fantas.PointExtension.Offset(System.Drawing.PointF,System.Single,System.Single)
   commentId: M:Fantas.PointExtension.Offset(System.Drawing.PointF,System.Single,System.Single)
   id: Offset(System.Drawing.PointF,System.Single,System.Single)
@@ -80,7 +114,7 @@ items:
   fullName: Fantas.PointExtension.Offset(System.Drawing.PointF, float, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/2e531df826a7ffbb24865ba37e61e9bf8acfbf91/src/Extensions/PointExtension.cs
+    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Extensions/PointExtension.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -428,6 +462,13 @@ references:
     name: Numerics
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: Fantas.PointExtension.Subtract*
+  commentId: Overload:Fantas.PointExtension.Subtract
+  isExternal: true
+  href: Fantas.PointExtension.html#Fantas_PointExtension_Subtract_System_Drawing_PointF_System_Numerics_Vector2_
+  name: Subtract
+  nameWithType: PointExtension.Subtract
+  fullName: Fantas.PointExtension.Subtract
 - uid: Fantas.PointExtension.Offset*
   commentId: Overload:Fantas.PointExtension.Offset
   isExternal: true
