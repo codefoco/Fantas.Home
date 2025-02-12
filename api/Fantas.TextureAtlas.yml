@@ -19,7 +19,7 @@ items:
   fullName: Fantas.TextureAtlas
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Texture/TextureAtlas.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Texture/TextureAtlas.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -62,7 +62,7 @@ items:
   fullName: Fantas.TextureAtlas.Load(string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Texture/TextureAtlas.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Texture/TextureAtlas.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -94,7 +94,7 @@ items:
   fullName: Fantas.TextureAtlas.LoadBinaryFromResource(System.Reflection.Assembly, string, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Texture/TextureAtlas.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Texture/TextureAtlas.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -132,7 +132,7 @@ items:
   fullName: Fantas.TextureAtlas.FromName(string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Texture/TextureAtlas.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Texture/TextureAtlas.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -169,7 +169,7 @@ items:
   fullName: Fantas.TextureAtlas.~TextureAtlas()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Texture/TextureAtlas.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Texture/TextureAtlas.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -194,7 +194,7 @@ items:
   fullName: Fantas.TextureAtlas.Dispose()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Texture/TextureAtlas.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Texture/TextureAtlas.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -218,7 +218,7 @@ items:
   fullName: Fantas.TextureAtlas.TextureNames
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Texture/TextureAtlas.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Texture/TextureAtlas.cs
   assemblies:
   - Fantas
   namespace: Fantas

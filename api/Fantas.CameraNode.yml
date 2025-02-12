@@ -11,7 +11,7 @@ items:
   - Fantas.CameraNode.Copy
   - Fantas.CameraNode.IsShaking
   - Fantas.CameraNode.Shake(System.Double)
-  - Fantas.CameraNode.Shake(System.Double,System.Numerics.Vector2)
+  - Fantas.CameraNode.Shake(System.Numerics.Vector2,System.Double)
   - Fantas.CameraNode.StopShake
   langs:
   - csharp
@@ -21,7 +21,7 @@ items:
   fullName: Fantas.CameraNode
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/CameraNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/CameraNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -168,7 +168,7 @@ items:
   fullName: Fantas.CameraNode.CameraNode()
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/CameraNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/CameraNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -193,7 +193,7 @@ items:
   fullName: Fantas.CameraNode.CameraNode(Fantas.CameraNode)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/CameraNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/CameraNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -221,7 +221,7 @@ items:
   fullName: Fantas.CameraNode.Copy()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/CameraNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/CameraNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -247,7 +247,7 @@ items:
   fullName: Fantas.CameraNode.Contains(Fantas.Node)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/CameraNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/CameraNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -276,7 +276,7 @@ items:
   fullName: Fantas.CameraNode.Shake(double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/CameraNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/CameraNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -293,38 +293,38 @@ items:
   nameWithType.vb: CameraNode.Shake(Double)
   fullName.vb: Fantas.CameraNode.Shake(Double)
   name.vb: Shake(Double)
-- uid: Fantas.CameraNode.Shake(System.Double,System.Numerics.Vector2)
-  commentId: M:Fantas.CameraNode.Shake(System.Double,System.Numerics.Vector2)
-  id: Shake(System.Double,System.Numerics.Vector2)
+- uid: Fantas.CameraNode.Shake(System.Numerics.Vector2,System.Double)
+  commentId: M:Fantas.CameraNode.Shake(System.Numerics.Vector2,System.Double)
+  id: Shake(System.Numerics.Vector2,System.Double)
   parent: Fantas.CameraNode
   langs:
   - csharp
   - vb
-  name: Shake(double, Vector2)
-  nameWithType: CameraNode.Shake(double, Vector2)
-  fullName: Fantas.CameraNode.Shake(double, System.Numerics.Vector2)
+  name: Shake(Vector2, double)
+  nameWithType: CameraNode.Shake(Vector2, double)
+  fullName: Fantas.CameraNode.Shake(System.Numerics.Vector2, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/CameraNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/CameraNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Start shaking camera animation
   example: []
   syntax:
-    content: public void Shake(double duration, Vector2 delta)
+    content: public void Shake(Vector2 delta, double duration)
     parameters:
-    - id: duration
-      type: System.Double
-      description: ''
     - id: delta
       type: System.Numerics.Vector2
       description: ''
-    content.vb: Public Sub Shake(duration As Double, delta As Vector2)
+    - id: duration
+      type: System.Double
+      description: ''
+    content.vb: Public Sub Shake(delta As Vector2, duration As Double)
   overload: Fantas.CameraNode.Shake*
-  nameWithType.vb: CameraNode.Shake(Double, Vector2)
-  fullName.vb: Fantas.CameraNode.Shake(Double, System.Numerics.Vector2)
-  name.vb: Shake(Double, Vector2)
+  nameWithType.vb: CameraNode.Shake(Vector2, Double)
+  fullName.vb: Fantas.CameraNode.Shake(System.Numerics.Vector2, Double)
+  name.vb: Shake(Vector2, Double)
 - uid: Fantas.CameraNode.StopShake
   commentId: M:Fantas.CameraNode.StopShake
   id: StopShake
@@ -337,7 +337,7 @@ items:
   fullName: Fantas.CameraNode.StopShake()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/CameraNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/CameraNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -359,7 +359,7 @@ items:
   fullName: Fantas.CameraNode.IsShaking
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/CameraNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/CameraNode.cs
   assemblies:
   - Fantas
   namespace: Fantas

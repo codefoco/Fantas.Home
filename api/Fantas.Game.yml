@@ -28,7 +28,7 @@ items:
   fullName: Fantas.Game
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -59,7 +59,7 @@ items:
   fullName: Fantas.Game.Game(System.Drawing.Size)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -88,7 +88,7 @@ items:
   fullName: Fantas.Game.Game()
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -113,7 +113,7 @@ items:
   fullName: Fantas.Game.PresentScene(Fantas.Scene)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -143,7 +143,7 @@ items:
   fullName: Fantas.Game.WindowSizeChanged()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -165,7 +165,7 @@ items:
   fullName: Fantas.Game.GetSceneSnapshot()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -190,7 +190,7 @@ items:
   fullName: Fantas.Game.Run()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -212,7 +212,7 @@ items:
   fullName: Fantas.Game.Exit()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -237,7 +237,7 @@ items:
   fullName: Fantas.Game.Instance
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -262,7 +262,7 @@ items:
   fullName: Fantas.Game.CurrentScene
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -287,7 +287,7 @@ items:
   fullName: Fantas.Game.WindowSize
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -315,7 +315,7 @@ items:
   fullName: Fantas.Game.IsFullScreen
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -340,7 +340,7 @@ items:
   fullName: Fantas.Game.ScaleMode
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -365,7 +365,7 @@ items:
   fullName: Fantas.Game.GameOptions
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -390,7 +390,7 @@ items:
   fullName: Fantas.Game.WindowTitle
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -418,7 +418,7 @@ items:
   fullName: Fantas.Game.RunOneFrame
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Game.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Game.cs
   assemblies:
   - Fantas
   namespace: Fantas

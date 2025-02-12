@@ -15,7 +15,7 @@ items:
   fullName: Fantas.Input.ControllerInput
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/ControllerInput.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -46,7 +46,7 @@ items:
   fullName: Fantas.Input.ControllerInput.GetController(int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/ControllerInput.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -78,7 +78,7 @@ items:
   fullName: Fantas.Input.ControllerInput.IgnoreAppleTVRemote
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/ControllerInput.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerInput.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input

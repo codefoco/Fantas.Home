@@ -19,7 +19,7 @@ items:
   fullName: Fantas.ShapeNode
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/ShapeNodes/ShapeNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/ShapeNodes/ShapeNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -172,7 +172,7 @@ items:
   fullName: Fantas.ShapeNode.ShapeNode(Fantas.ShapeNode)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/ShapeNodes/ShapeNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/ShapeNodes/ShapeNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -201,7 +201,7 @@ items:
   fullName: Fantas.ShapeNode.StrokeColor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/ShapeNodes/ShapeNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/ShapeNodes/ShapeNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -226,7 +226,7 @@ items:
   fullName: Fantas.ShapeNode.FillColor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/ShapeNodes/ShapeNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/ShapeNodes/ShapeNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -251,7 +251,7 @@ items:
   fullName: Fantas.ShapeNode.BlendMode
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/ShapeNodes/ShapeNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/ShapeNodes/ShapeNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -276,7 +276,7 @@ items:
   fullName: Fantas.ShapeNode.LineWidth
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/ShapeNodes/ShapeNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/ShapeNodes/ShapeNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -301,7 +301,7 @@ items:
   fullName: Fantas.ShapeNode.Antialiased
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/ShapeNodes/ShapeNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/ShapeNodes/ShapeNode.cs
   assemblies:
   - Fantas
   namespace: Fantas

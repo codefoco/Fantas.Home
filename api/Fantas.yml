@@ -49,6 +49,7 @@ items:
   - Fantas.TileSet
   - Fantas.TileSetType
   - Fantas.Time
+  - Fantas.Timer
   - Fantas.TriangleNode
   - Fantas.Vector2Extensions
   langs:
@@ -254,6 +255,14 @@ references:
   name: Time
   nameWithType: Time
   fullName: Fantas.Time
+- uid: Fantas.Timer
+  commentId: T:Fantas.Timer
+  parent: Fantas
+  isExternal: true
+  href: Fantas.Timer.html
+  name: Timer
+  nameWithType: Timer
+  fullName: Fantas.Timer
 - uid: Fantas.LabelVerticalAlignmentMode
   commentId: T:Fantas.LabelVerticalAlignmentMode
   parent: Fantas

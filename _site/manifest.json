@@ -992,6 +992,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Timer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Timer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Fantas.TriangleNode.yml",
       "output": {
         ".html": {

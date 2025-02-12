@@ -46,6 +46,15 @@ references:
   fullName.vb: Fantas.Animation.Colorize(System.Drawing.Color, Single, Double)
   nameWithType: Animation.Colorize(Color, float, double)
   nameWithType.vb: Animation.Colorize(Color, Single, Double)
+- uid: Fantas.Animation.Colorize(System.Drawing.Color,System.Single,System.TimeSpan)
+  name: Colorize(Color, float, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_Colorize_System_Drawing_Color_System_Single_System_TimeSpan_
+  commentId: M:Fantas.Animation.Colorize(System.Drawing.Color,System.Single,System.TimeSpan)
+  name.vb: Colorize(Color, Single, TimeSpan)
+  fullName: Fantas.Animation.Colorize(System.Drawing.Color, float, System.TimeSpan)
+  fullName.vb: Fantas.Animation.Colorize(System.Drawing.Color, Single, System.TimeSpan)
+  nameWithType: Animation.Colorize(Color, float, TimeSpan)
+  nameWithType.vb: Animation.Colorize(Color, Single, TimeSpan)
 - uid: Fantas.Animation.Colorize(System.Single,System.Double)
   name: Colorize(float, double)
   href: api/Fantas.Animation.html#Fantas_Animation_Colorize_System_Single_System_Double_
@@ -55,6 +64,15 @@ references:
   fullName.vb: Fantas.Animation.Colorize(Single, Double)
   nameWithType: Animation.Colorize(float, double)
   nameWithType.vb: Animation.Colorize(Single, Double)
+- uid: Fantas.Animation.Colorize(System.Single,System.TimeSpan)
+  name: Colorize(float, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_Colorize_System_Single_System_TimeSpan_
+  commentId: M:Fantas.Animation.Colorize(System.Single,System.TimeSpan)
+  name.vb: Colorize(Single, TimeSpan)
+  fullName: Fantas.Animation.Colorize(float, System.TimeSpan)
+  fullName.vb: Fantas.Animation.Colorize(Single, System.TimeSpan)
+  nameWithType: Animation.Colorize(float, TimeSpan)
+  nameWithType.vb: Animation.Colorize(Single, TimeSpan)
 - uid: Fantas.Animation.Colorize*
   name: Colorize
   href: api/Fantas.Animation.html#Fantas_Animation_Colorize_
@@ -70,6 +88,15 @@ references:
   fullName.vb: Fantas.Animation.Custom(Double, System.Action(Of Fantas.Node, Single))
   nameWithType: Animation.Custom(double, Action<Node, float>)
   nameWithType.vb: Animation.Custom(Double, Action(Of Node, Single))
+- uid: Fantas.Animation.Custom(System.TimeSpan,System.Action{Fantas.Node,System.Single})
+  name: Custom(TimeSpan, Action<Node, float>)
+  href: api/Fantas.Animation.html#Fantas_Animation_Custom_System_TimeSpan_System_Action_Fantas_Node_System_Single__
+  commentId: M:Fantas.Animation.Custom(System.TimeSpan,System.Action{Fantas.Node,System.Single})
+  name.vb: Custom(TimeSpan, Action(Of Node, Single))
+  fullName: Fantas.Animation.Custom(System.TimeSpan, System.Action<Fantas.Node, float>)
+  fullName.vb: Fantas.Animation.Custom(System.TimeSpan, System.Action(Of Fantas.Node, Single))
+  nameWithType: Animation.Custom(TimeSpan, Action<Node, float>)
+  nameWithType.vb: Animation.Custom(TimeSpan, Action(Of Node, Single))
 - uid: Fantas.Animation.Custom*
   name: Custom
   href: api/Fantas.Animation.html#Fantas_Animation_Custom_
@@ -88,6 +115,18 @@ references:
   commentId: Overload:Fantas.Animation.Duration
   fullName: Fantas.Animation.Duration
   nameWithType: Animation.Duration
+- uid: Fantas.Animation.DurationSeconds
+  name: DurationSeconds
+  href: api/Fantas.Animation.html#Fantas_Animation_DurationSeconds
+  commentId: P:Fantas.Animation.DurationSeconds
+  fullName: Fantas.Animation.DurationSeconds
+  nameWithType: Animation.DurationSeconds
+- uid: Fantas.Animation.DurationSeconds*
+  name: DurationSeconds
+  href: api/Fantas.Animation.html#Fantas_Animation_DurationSeconds_
+  commentId: Overload:Fantas.Animation.DurationSeconds
+  fullName: Fantas.Animation.DurationSeconds
+  nameWithType: Animation.DurationSeconds
 - uid: Fantas.Animation.Equals(System.Object)
   name: Equals(object)
   href: api/Fantas.Animation.html#Fantas_Animation_Equals_System_Object_
@@ -112,6 +151,15 @@ references:
   fullName.vb: Fantas.Animation.FadeAlphaBy(Single, Double)
   nameWithType: Animation.FadeAlphaBy(float, double)
   nameWithType.vb: Animation.FadeAlphaBy(Single, Double)
+- uid: Fantas.Animation.FadeAlphaBy(System.Single,System.TimeSpan)
+  name: FadeAlphaBy(float, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_FadeAlphaBy_System_Single_System_TimeSpan_
+  commentId: M:Fantas.Animation.FadeAlphaBy(System.Single,System.TimeSpan)
+  name.vb: FadeAlphaBy(Single, TimeSpan)
+  fullName: Fantas.Animation.FadeAlphaBy(float, System.TimeSpan)
+  fullName.vb: Fantas.Animation.FadeAlphaBy(Single, System.TimeSpan)
+  nameWithType: Animation.FadeAlphaBy(float, TimeSpan)
+  nameWithType.vb: Animation.FadeAlphaBy(Single, TimeSpan)
 - uid: Fantas.Animation.FadeAlphaBy*
   name: FadeAlphaBy
   href: api/Fantas.Animation.html#Fantas_Animation_FadeAlphaBy_
@@ -127,6 +175,15 @@ references:
   fullName.vb: Fantas.Animation.FadeAlphaTo(Single, Double)
   nameWithType: Animation.FadeAlphaTo(float, double)
   nameWithType.vb: Animation.FadeAlphaTo(Single, Double)
+- uid: Fantas.Animation.FadeAlphaTo(System.Single,System.TimeSpan)
+  name: FadeAlphaTo(float, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_FadeAlphaTo_System_Single_System_TimeSpan_
+  commentId: M:Fantas.Animation.FadeAlphaTo(System.Single,System.TimeSpan)
+  name.vb: FadeAlphaTo(Single, TimeSpan)
+  fullName: Fantas.Animation.FadeAlphaTo(float, System.TimeSpan)
+  fullName.vb: Fantas.Animation.FadeAlphaTo(Single, System.TimeSpan)
+  nameWithType: Animation.FadeAlphaTo(float, TimeSpan)
+  nameWithType.vb: Animation.FadeAlphaTo(Single, TimeSpan)
 - uid: Fantas.Animation.FadeAlphaTo*
   name: FadeAlphaTo
   href: api/Fantas.Animation.html#Fantas_Animation_FadeAlphaTo_
@@ -142,6 +199,12 @@ references:
   fullName.vb: Fantas.Animation.FadeIn(Double)
   nameWithType: Animation.FadeIn(double)
   nameWithType.vb: Animation.FadeIn(Double)
+- uid: Fantas.Animation.FadeIn(System.TimeSpan)
+  name: FadeIn(TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_FadeIn_System_TimeSpan_
+  commentId: M:Fantas.Animation.FadeIn(System.TimeSpan)
+  fullName: Fantas.Animation.FadeIn(System.TimeSpan)
+  nameWithType: Animation.FadeIn(TimeSpan)
 - uid: Fantas.Animation.FadeIn*
   name: FadeIn
   href: api/Fantas.Animation.html#Fantas_Animation_FadeIn_
@@ -157,6 +220,12 @@ references:
   fullName.vb: Fantas.Animation.FadeOut(Double)
   nameWithType: Animation.FadeOut(double)
   nameWithType.vb: Animation.FadeOut(Double)
+- uid: Fantas.Animation.FadeOut(System.TimeSpan)
+  name: FadeOut(TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_FadeOut_System_TimeSpan_
+  commentId: M:Fantas.Animation.FadeOut(System.TimeSpan)
+  fullName: Fantas.Animation.FadeOut(System.TimeSpan)
+  nameWithType: Animation.FadeOut(TimeSpan)
 - uid: Fantas.Animation.FadeOut*
   name: FadeOut
   href: api/Fantas.Animation.html#Fantas_Animation_FadeOut_
@@ -211,6 +280,12 @@ references:
   fullName.vb: Fantas.Animation.LookAt(System.Drawing.PointF, Double)
   nameWithType: Animation.LookAt(PointF, double)
   nameWithType.vb: Animation.LookAt(PointF, Double)
+- uid: Fantas.Animation.LookAt(System.Drawing.PointF,System.TimeSpan)
+  name: LookAt(PointF, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_LookAt_System_Drawing_PointF_System_TimeSpan_
+  commentId: M:Fantas.Animation.LookAt(System.Drawing.PointF,System.TimeSpan)
+  fullName: Fantas.Animation.LookAt(System.Drawing.PointF, System.TimeSpan)
+  nameWithType: Animation.LookAt(PointF, TimeSpan)
 - uid: Fantas.Animation.LookAt*
   name: LookAt
   href: api/Fantas.Animation.html#Fantas_Animation_LookAt_
@@ -226,6 +301,12 @@ references:
   fullName.vb: Fantas.Animation.MoveBy(System.Numerics.Vector2, Double)
   nameWithType: Animation.MoveBy(Vector2, double)
   nameWithType.vb: Animation.MoveBy(Vector2, Double)
+- uid: Fantas.Animation.MoveBy(System.Numerics.Vector2,System.TimeSpan)
+  name: MoveBy(Vector2, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_MoveBy_System_Numerics_Vector2_System_TimeSpan_
+  commentId: M:Fantas.Animation.MoveBy(System.Numerics.Vector2,System.TimeSpan)
+  fullName: Fantas.Animation.MoveBy(System.Numerics.Vector2, System.TimeSpan)
+  nameWithType: Animation.MoveBy(Vector2, TimeSpan)
 - uid: Fantas.Animation.MoveBy(System.Single,System.Single,System.Double)
   name: MoveBy(float, float, double)
   href: api/Fantas.Animation.html#Fantas_Animation_MoveBy_System_Single_System_Single_System_Double_
@@ -235,12 +316,33 @@ references:
   fullName.vb: Fantas.Animation.MoveBy(Single, Single, Double)
   nameWithType: Animation.MoveBy(float, float, double)
   nameWithType.vb: Animation.MoveBy(Single, Single, Double)
+- uid: Fantas.Animation.MoveBy(System.Single,System.Single,System.TimeSpan)
+  name: MoveBy(float, float, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_MoveBy_System_Single_System_Single_System_TimeSpan_
+  commentId: M:Fantas.Animation.MoveBy(System.Single,System.Single,System.TimeSpan)
+  name.vb: MoveBy(Single, Single, TimeSpan)
+  fullName: Fantas.Animation.MoveBy(float, float, System.TimeSpan)
+  fullName.vb: Fantas.Animation.MoveBy(Single, Single, System.TimeSpan)
+  nameWithType: Animation.MoveBy(float, float, TimeSpan)
+  nameWithType.vb: Animation.MoveBy(Single, Single, TimeSpan)
 - uid: Fantas.Animation.MoveBy*
   name: MoveBy
   href: api/Fantas.Animation.html#Fantas_Animation_MoveBy_
   commentId: Overload:Fantas.Animation.MoveBy
   fullName: Fantas.Animation.MoveBy
   nameWithType: Animation.MoveBy
+- uid: Fantas.Animation.MoveForever(System.Numerics.Vector2)
+  name: MoveForever(Vector2)
+  href: api/Fantas.Animation.html#Fantas_Animation_MoveForever_System_Numerics_Vector2_
+  commentId: M:Fantas.Animation.MoveForever(System.Numerics.Vector2)
+  fullName: Fantas.Animation.MoveForever(System.Numerics.Vector2)
+  nameWithType: Animation.MoveForever(Vector2)
+- uid: Fantas.Animation.MoveForever*
+  name: MoveForever
+  href: api/Fantas.Animation.html#Fantas_Animation_MoveForever_
+  commentId: Overload:Fantas.Animation.MoveForever
+  fullName: Fantas.Animation.MoveForever
+  nameWithType: Animation.MoveForever
 - uid: Fantas.Animation.MoveTo(System.Drawing.PointF,System.Double)
   name: MoveTo(PointF, double)
   href: api/Fantas.Animation.html#Fantas_Animation_MoveTo_System_Drawing_PointF_System_Double_
@@ -250,6 +352,12 @@ references:
   fullName.vb: Fantas.Animation.MoveTo(System.Drawing.PointF, Double)
   nameWithType: Animation.MoveTo(PointF, double)
   nameWithType.vb: Animation.MoveTo(PointF, Double)
+- uid: Fantas.Animation.MoveTo(System.Drawing.PointF,System.TimeSpan)
+  name: MoveTo(PointF, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_MoveTo_System_Drawing_PointF_System_TimeSpan_
+  commentId: M:Fantas.Animation.MoveTo(System.Drawing.PointF,System.TimeSpan)
+  fullName: Fantas.Animation.MoveTo(System.Drawing.PointF, System.TimeSpan)
+  nameWithType: Animation.MoveTo(PointF, TimeSpan)
 - uid: Fantas.Animation.MoveTo*
   name: MoveTo
   href: api/Fantas.Animation.html#Fantas_Animation_MoveTo_
@@ -265,6 +373,15 @@ references:
   fullName.vb: Fantas.Animation.MoveToX(Single, Double)
   nameWithType: Animation.MoveToX(float, double)
   nameWithType.vb: Animation.MoveToX(Single, Double)
+- uid: Fantas.Animation.MoveToX(System.Single,System.TimeSpan)
+  name: MoveToX(float, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_MoveToX_System_Single_System_TimeSpan_
+  commentId: M:Fantas.Animation.MoveToX(System.Single,System.TimeSpan)
+  name.vb: MoveToX(Single, TimeSpan)
+  fullName: Fantas.Animation.MoveToX(float, System.TimeSpan)
+  fullName.vb: Fantas.Animation.MoveToX(Single, System.TimeSpan)
+  nameWithType: Animation.MoveToX(float, TimeSpan)
+  nameWithType.vb: Animation.MoveToX(Single, TimeSpan)
 - uid: Fantas.Animation.MoveToX*
   name: MoveToX
   href: api/Fantas.Animation.html#Fantas_Animation_MoveToX_
@@ -280,6 +397,15 @@ references:
   fullName.vb: Fantas.Animation.MoveToY(Single, Double)
   nameWithType: Animation.MoveToY(float, double)
   nameWithType.vb: Animation.MoveToY(Single, Double)
+- uid: Fantas.Animation.MoveToY(System.Single,System.TimeSpan)
+  name: MoveToY(float, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_MoveToY_System_Single_System_TimeSpan_
+  commentId: M:Fantas.Animation.MoveToY(System.Single,System.TimeSpan)
+  name.vb: MoveToY(Single, TimeSpan)
+  fullName: Fantas.Animation.MoveToY(float, System.TimeSpan)
+  fullName.vb: Fantas.Animation.MoveToY(Single, System.TimeSpan)
+  nameWithType: Animation.MoveToY(float, TimeSpan)
+  nameWithType.vb: Animation.MoveToY(Single, TimeSpan)
 - uid: Fantas.Animation.MoveToY*
   name: MoveToY
   href: api/Fantas.Animation.html#Fantas_Animation_MoveToY_
@@ -295,12 +421,36 @@ references:
   fullName.vb: Fantas.Animation.MoveXBy(Single, Double)
   nameWithType: Animation.MoveXBy(float, double)
   nameWithType.vb: Animation.MoveXBy(Single, Double)
+- uid: Fantas.Animation.MoveXBy(System.Single,System.TimeSpan)
+  name: MoveXBy(float, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_MoveXBy_System_Single_System_TimeSpan_
+  commentId: M:Fantas.Animation.MoveXBy(System.Single,System.TimeSpan)
+  name.vb: MoveXBy(Single, TimeSpan)
+  fullName: Fantas.Animation.MoveXBy(float, System.TimeSpan)
+  fullName.vb: Fantas.Animation.MoveXBy(Single, System.TimeSpan)
+  nameWithType: Animation.MoveXBy(float, TimeSpan)
+  nameWithType.vb: Animation.MoveXBy(Single, TimeSpan)
 - uid: Fantas.Animation.MoveXBy*
   name: MoveXBy
   href: api/Fantas.Animation.html#Fantas_Animation_MoveXBy_
   commentId: Overload:Fantas.Animation.MoveXBy
   fullName: Fantas.Animation.MoveXBy
   nameWithType: Animation.MoveXBy
+- uid: Fantas.Animation.MoveXForever(System.Single)
+  name: MoveXForever(float)
+  href: api/Fantas.Animation.html#Fantas_Animation_MoveXForever_System_Single_
+  commentId: M:Fantas.Animation.MoveXForever(System.Single)
+  name.vb: MoveXForever(Single)
+  fullName: Fantas.Animation.MoveXForever(float)
+  fullName.vb: Fantas.Animation.MoveXForever(Single)
+  nameWithType: Animation.MoveXForever(float)
+  nameWithType.vb: Animation.MoveXForever(Single)
+- uid: Fantas.Animation.MoveXForever*
+  name: MoveXForever
+  href: api/Fantas.Animation.html#Fantas_Animation_MoveXForever_
+  commentId: Overload:Fantas.Animation.MoveXForever
+  fullName: Fantas.Animation.MoveXForever
+  nameWithType: Animation.MoveXForever
 - uid: Fantas.Animation.MoveYBy(System.Single,System.Double)
   name: MoveYBy(float, double)
   href: api/Fantas.Animation.html#Fantas_Animation_MoveYBy_System_Single_System_Double_
@@ -310,12 +460,36 @@ references:
   fullName.vb: Fantas.Animation.MoveYBy(Single, Double)
   nameWithType: Animation.MoveYBy(float, double)
   nameWithType.vb: Animation.MoveYBy(Single, Double)
+- uid: Fantas.Animation.MoveYBy(System.Single,System.TimeSpan)
+  name: MoveYBy(float, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_MoveYBy_System_Single_System_TimeSpan_
+  commentId: M:Fantas.Animation.MoveYBy(System.Single,System.TimeSpan)
+  name.vb: MoveYBy(Single, TimeSpan)
+  fullName: Fantas.Animation.MoveYBy(float, System.TimeSpan)
+  fullName.vb: Fantas.Animation.MoveYBy(Single, System.TimeSpan)
+  nameWithType: Animation.MoveYBy(float, TimeSpan)
+  nameWithType.vb: Animation.MoveYBy(Single, TimeSpan)
 - uid: Fantas.Animation.MoveYBy*
   name: MoveYBy
   href: api/Fantas.Animation.html#Fantas_Animation_MoveYBy_
   commentId: Overload:Fantas.Animation.MoveYBy
   fullName: Fantas.Animation.MoveYBy
   nameWithType: Animation.MoveYBy
+- uid: Fantas.Animation.MoveYForever(System.Single)
+  name: MoveYForever(float)
+  href: api/Fantas.Animation.html#Fantas_Animation_MoveYForever_System_Single_
+  commentId: M:Fantas.Animation.MoveYForever(System.Single)
+  name.vb: MoveYForever(Single)
+  fullName: Fantas.Animation.MoveYForever(float)
+  fullName.vb: Fantas.Animation.MoveYForever(Single)
+  nameWithType: Animation.MoveYForever(float)
+  nameWithType.vb: Animation.MoveYForever(Single)
+- uid: Fantas.Animation.MoveYForever*
+  name: MoveYForever
+  href: api/Fantas.Animation.html#Fantas_Animation_MoveYForever_
+  commentId: Overload:Fantas.Animation.MoveYForever
+  fullName: Fantas.Animation.MoveYForever
+  nameWithType: Animation.MoveYForever
 - uid: Fantas.Animation.OrbitNode(Fantas.Node,System.Double,System.Double,System.Double)
   name: OrbitNode(Node, double, double, double)
   href: api/Fantas.Animation.html#Fantas_Animation_OrbitNode_Fantas_Node_System_Double_System_Double_System_Double_
@@ -325,6 +499,15 @@ references:
   fullName.vb: Fantas.Animation.OrbitNode(Fantas.Node, Double, Double, Double)
   nameWithType: Animation.OrbitNode(Node, double, double, double)
   nameWithType.vb: Animation.OrbitNode(Node, Double, Double, Double)
+- uid: Fantas.Animation.OrbitNode(Fantas.Node,System.Double,System.TimeSpan,System.Double)
+  name: OrbitNode(Node, double, TimeSpan, double)
+  href: api/Fantas.Animation.html#Fantas_Animation_OrbitNode_Fantas_Node_System_Double_System_TimeSpan_System_Double_
+  commentId: M:Fantas.Animation.OrbitNode(Fantas.Node,System.Double,System.TimeSpan,System.Double)
+  name.vb: OrbitNode(Node, Double, TimeSpan, Double)
+  fullName: Fantas.Animation.OrbitNode(Fantas.Node, double, System.TimeSpan, double)
+  fullName.vb: Fantas.Animation.OrbitNode(Fantas.Node, Double, System.TimeSpan, Double)
+  nameWithType: Animation.OrbitNode(Node, double, TimeSpan, double)
+  nameWithType.vb: Animation.OrbitNode(Node, Double, TimeSpan, Double)
 - uid: Fantas.Animation.OrbitNode*
   name: OrbitNode
   href: api/Fantas.Animation.html#Fantas_Animation_OrbitNode_
@@ -340,6 +523,15 @@ references:
   fullName.vb: Fantas.Animation.OrbitPoint(System.Drawing.PointF, Double, Double, Double)
   nameWithType: Animation.OrbitPoint(PointF, double, double, double)
   nameWithType.vb: Animation.OrbitPoint(PointF, Double, Double, Double)
+- uid: Fantas.Animation.OrbitPoint(System.Drawing.PointF,System.Double,System.TimeSpan,System.Double)
+  name: OrbitPoint(PointF, double, TimeSpan, double)
+  href: api/Fantas.Animation.html#Fantas_Animation_OrbitPoint_System_Drawing_PointF_System_Double_System_TimeSpan_System_Double_
+  commentId: M:Fantas.Animation.OrbitPoint(System.Drawing.PointF,System.Double,System.TimeSpan,System.Double)
+  name.vb: OrbitPoint(PointF, Double, TimeSpan, Double)
+  fullName: Fantas.Animation.OrbitPoint(System.Drawing.PointF, double, System.TimeSpan, double)
+  fullName.vb: Fantas.Animation.OrbitPoint(System.Drawing.PointF, Double, System.TimeSpan, Double)
+  nameWithType: Animation.OrbitPoint(PointF, double, TimeSpan, double)
+  nameWithType.vb: Animation.OrbitPoint(PointF, Double, TimeSpan, Double)
 - uid: Fantas.Animation.OrbitPoint*
   name: OrbitPoint
   href: api/Fantas.Animation.html#Fantas_Animation_OrbitPoint_
@@ -394,6 +586,12 @@ references:
   fullName.vb: Fantas.Animation.ResizeTo(System.Drawing.SizeF, Double)
   nameWithType: Animation.ResizeTo(SizeF, double)
   nameWithType.vb: Animation.ResizeTo(SizeF, Double)
+- uid: Fantas.Animation.ResizeTo(System.Drawing.SizeF,System.TimeSpan)
+  name: ResizeTo(SizeF, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_ResizeTo_System_Drawing_SizeF_System_TimeSpan_
+  commentId: M:Fantas.Animation.ResizeTo(System.Drawing.SizeF,System.TimeSpan)
+  fullName: Fantas.Animation.ResizeTo(System.Drawing.SizeF, System.TimeSpan)
+  nameWithType: Animation.ResizeTo(SizeF, TimeSpan)
 - uid: Fantas.Animation.ResizeTo*
   name: ResizeTo
   href: api/Fantas.Animation.html#Fantas_Animation_ResizeTo_
@@ -409,6 +607,15 @@ references:
   fullName.vb: Fantas.Animation.ResizeToHeight(Single, Double)
   nameWithType: Animation.ResizeToHeight(float, double)
   nameWithType.vb: Animation.ResizeToHeight(Single, Double)
+- uid: Fantas.Animation.ResizeToHeight(System.Single,System.TimeSpan)
+  name: ResizeToHeight(float, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_ResizeToHeight_System_Single_System_TimeSpan_
+  commentId: M:Fantas.Animation.ResizeToHeight(System.Single,System.TimeSpan)
+  name.vb: ResizeToHeight(Single, TimeSpan)
+  fullName: Fantas.Animation.ResizeToHeight(float, System.TimeSpan)
+  fullName.vb: Fantas.Animation.ResizeToHeight(Single, System.TimeSpan)
+  nameWithType: Animation.ResizeToHeight(float, TimeSpan)
+  nameWithType.vb: Animation.ResizeToHeight(Single, TimeSpan)
 - uid: Fantas.Animation.ResizeToHeight*
   name: ResizeToHeight
   href: api/Fantas.Animation.html#Fantas_Animation_ResizeToHeight_
@@ -424,6 +631,15 @@ references:
   fullName.vb: Fantas.Animation.ResizeToWidth(Single, Double)
   nameWithType: Animation.ResizeToWidth(float, double)
   nameWithType.vb: Animation.ResizeToWidth(Single, Double)
+- uid: Fantas.Animation.ResizeToWidth(System.Single,System.TimeSpan)
+  name: ResizeToWidth(float, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_ResizeToWidth_System_Single_System_TimeSpan_
+  commentId: M:Fantas.Animation.ResizeToWidth(System.Single,System.TimeSpan)
+  name.vb: ResizeToWidth(Single, TimeSpan)
+  fullName: Fantas.Animation.ResizeToWidth(float, System.TimeSpan)
+  fullName.vb: Fantas.Animation.ResizeToWidth(Single, System.TimeSpan)
+  nameWithType: Animation.ResizeToWidth(float, TimeSpan)
+  nameWithType.vb: Animation.ResizeToWidth(Single, TimeSpan)
 - uid: Fantas.Animation.ResizeToWidth*
   name: ResizeToWidth
   href: api/Fantas.Animation.html#Fantas_Animation_ResizeToWidth_
@@ -451,12 +667,36 @@ references:
   fullName.vb: Fantas.Animation.RotateBy(Double, Double)
   nameWithType: Animation.RotateBy(double, double)
   nameWithType.vb: Animation.RotateBy(Double, Double)
+- uid: Fantas.Animation.RotateBy(System.Double,System.TimeSpan)
+  name: RotateBy(double, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_RotateBy_System_Double_System_TimeSpan_
+  commentId: M:Fantas.Animation.RotateBy(System.Double,System.TimeSpan)
+  name.vb: RotateBy(Double, TimeSpan)
+  fullName: Fantas.Animation.RotateBy(double, System.TimeSpan)
+  fullName.vb: Fantas.Animation.RotateBy(Double, System.TimeSpan)
+  nameWithType: Animation.RotateBy(double, TimeSpan)
+  nameWithType.vb: Animation.RotateBy(Double, TimeSpan)
 - uid: Fantas.Animation.RotateBy*
   name: RotateBy
   href: api/Fantas.Animation.html#Fantas_Animation_RotateBy_
   commentId: Overload:Fantas.Animation.RotateBy
   fullName: Fantas.Animation.RotateBy
   nameWithType: Animation.RotateBy
+- uid: Fantas.Animation.RotateForever(System.Double)
+  name: RotateForever(double)
+  href: api/Fantas.Animation.html#Fantas_Animation_RotateForever_System_Double_
+  commentId: M:Fantas.Animation.RotateForever(System.Double)
+  name.vb: RotateForever(Double)
+  fullName: Fantas.Animation.RotateForever(double)
+  fullName.vb: Fantas.Animation.RotateForever(Double)
+  nameWithType: Animation.RotateForever(double)
+  nameWithType.vb: Animation.RotateForever(Double)
+- uid: Fantas.Animation.RotateForever*
+  name: RotateForever
+  href: api/Fantas.Animation.html#Fantas_Animation_RotateForever_
+  commentId: Overload:Fantas.Animation.RotateForever
+  fullName: Fantas.Animation.RotateForever
+  nameWithType: Animation.RotateForever
 - uid: Fantas.Animation.RotateTo(System.Double,System.Double)
   name: RotateTo(double, double)
   href: api/Fantas.Animation.html#Fantas_Animation_RotateTo_System_Double_System_Double_
@@ -466,6 +706,15 @@ references:
   fullName.vb: Fantas.Animation.RotateTo(Double, Double)
   nameWithType: Animation.RotateTo(double, double)
   nameWithType.vb: Animation.RotateTo(Double, Double)
+- uid: Fantas.Animation.RotateTo(System.Double,System.TimeSpan)
+  name: RotateTo(double, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_RotateTo_System_Double_System_TimeSpan_
+  commentId: M:Fantas.Animation.RotateTo(System.Double,System.TimeSpan)
+  name.vb: RotateTo(Double, TimeSpan)
+  fullName: Fantas.Animation.RotateTo(double, System.TimeSpan)
+  fullName.vb: Fantas.Animation.RotateTo(Double, System.TimeSpan)
+  nameWithType: Animation.RotateTo(double, TimeSpan)
+  nameWithType.vb: Animation.RotateTo(Double, TimeSpan)
 - uid: Fantas.Animation.RotateTo*
   name: RotateTo
   href: api/Fantas.Animation.html#Fantas_Animation_RotateTo_
@@ -493,6 +742,15 @@ references:
   fullName.vb: Fantas.Animation.ScaleBy(Single, Double)
   nameWithType: Animation.ScaleBy(float, double)
   nameWithType.vb: Animation.ScaleBy(Single, Double)
+- uid: Fantas.Animation.ScaleBy(System.Single,System.TimeSpan)
+  name: ScaleBy(float, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_ScaleBy_System_Single_System_TimeSpan_
+  commentId: M:Fantas.Animation.ScaleBy(System.Single,System.TimeSpan)
+  name.vb: ScaleBy(Single, TimeSpan)
+  fullName: Fantas.Animation.ScaleBy(float, System.TimeSpan)
+  fullName.vb: Fantas.Animation.ScaleBy(Single, System.TimeSpan)
+  nameWithType: Animation.ScaleBy(float, TimeSpan)
+  nameWithType.vb: Animation.ScaleBy(Single, TimeSpan)
 - uid: Fantas.Animation.ScaleBy*
   name: ScaleBy
   href: api/Fantas.Animation.html#Fantas_Animation_ScaleBy_
@@ -508,6 +766,12 @@ references:
   fullName.vb: Fantas.Animation.ScaleTo(System.Drawing.SizeF, Double)
   nameWithType: Animation.ScaleTo(SizeF, double)
   nameWithType.vb: Animation.ScaleTo(SizeF, Double)
+- uid: Fantas.Animation.ScaleTo(System.Drawing.SizeF,System.TimeSpan)
+  name: ScaleTo(SizeF, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_ScaleTo_System_Drawing_SizeF_System_TimeSpan_
+  commentId: M:Fantas.Animation.ScaleTo(System.Drawing.SizeF,System.TimeSpan)
+  fullName: Fantas.Animation.ScaleTo(System.Drawing.SizeF, System.TimeSpan)
+  nameWithType: Animation.ScaleTo(SizeF, TimeSpan)
 - uid: Fantas.Animation.ScaleTo(System.Single,System.Double)
   name: ScaleTo(float, double)
   href: api/Fantas.Animation.html#Fantas_Animation_ScaleTo_System_Single_System_Double_
@@ -526,6 +790,24 @@ references:
   fullName.vb: Fantas.Animation.ScaleTo(Single, Single, Double)
   nameWithType: Animation.ScaleTo(float, float, double)
   nameWithType.vb: Animation.ScaleTo(Single, Single, Double)
+- uid: Fantas.Animation.ScaleTo(System.Single,System.Single,System.TimeSpan)
+  name: ScaleTo(float, float, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_ScaleTo_System_Single_System_Single_System_TimeSpan_
+  commentId: M:Fantas.Animation.ScaleTo(System.Single,System.Single,System.TimeSpan)
+  name.vb: ScaleTo(Single, Single, TimeSpan)
+  fullName: Fantas.Animation.ScaleTo(float, float, System.TimeSpan)
+  fullName.vb: Fantas.Animation.ScaleTo(Single, Single, System.TimeSpan)
+  nameWithType: Animation.ScaleTo(float, float, TimeSpan)
+  nameWithType.vb: Animation.ScaleTo(Single, Single, TimeSpan)
+- uid: Fantas.Animation.ScaleTo(System.Single,System.TimeSpan)
+  name: ScaleTo(float, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_ScaleTo_System_Single_System_TimeSpan_
+  commentId: M:Fantas.Animation.ScaleTo(System.Single,System.TimeSpan)
+  name.vb: ScaleTo(Single, TimeSpan)
+  fullName: Fantas.Animation.ScaleTo(float, System.TimeSpan)
+  fullName.vb: Fantas.Animation.ScaleTo(Single, System.TimeSpan)
+  nameWithType: Animation.ScaleTo(float, TimeSpan)
+  nameWithType.vb: Animation.ScaleTo(Single, TimeSpan)
 - uid: Fantas.Animation.ScaleTo*
   name: ScaleTo
   href: api/Fantas.Animation.html#Fantas_Animation_ScaleTo_
@@ -541,6 +823,15 @@ references:
   fullName.vb: Fantas.Animation.ScaleXTo(Single, Double)
   nameWithType: Animation.ScaleXTo(float, double)
   nameWithType.vb: Animation.ScaleXTo(Single, Double)
+- uid: Fantas.Animation.ScaleXTo(System.Single,System.TimeSpan)
+  name: ScaleXTo(float, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_ScaleXTo_System_Single_System_TimeSpan_
+  commentId: M:Fantas.Animation.ScaleXTo(System.Single,System.TimeSpan)
+  name.vb: ScaleXTo(Single, TimeSpan)
+  fullName: Fantas.Animation.ScaleXTo(float, System.TimeSpan)
+  fullName.vb: Fantas.Animation.ScaleXTo(Single, System.TimeSpan)
+  nameWithType: Animation.ScaleXTo(float, TimeSpan)
+  nameWithType.vb: Animation.ScaleXTo(Single, TimeSpan)
 - uid: Fantas.Animation.ScaleXTo*
   name: ScaleXTo
   href: api/Fantas.Animation.html#Fantas_Animation_ScaleXTo_
@@ -556,6 +847,15 @@ references:
   fullName.vb: Fantas.Animation.ScaleYTo(Single, Double)
   nameWithType: Animation.ScaleYTo(float, double)
   nameWithType.vb: Animation.ScaleYTo(Single, Double)
+- uid: Fantas.Animation.ScaleYTo(System.Single,System.TimeSpan)
+  name: ScaleYTo(float, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_ScaleYTo_System_Single_System_TimeSpan_
+  commentId: M:Fantas.Animation.ScaleYTo(System.Single,System.TimeSpan)
+  name.vb: ScaleYTo(Single, TimeSpan)
+  fullName: Fantas.Animation.ScaleYTo(float, System.TimeSpan)
+  fullName.vb: Fantas.Animation.ScaleYTo(Single, System.TimeSpan)
+  nameWithType: Animation.ScaleYTo(float, TimeSpan)
+  nameWithType.vb: Animation.ScaleYTo(Single, TimeSpan)
 - uid: Fantas.Animation.ScaleYTo*
   name: ScaleYTo
   href: api/Fantas.Animation.html#Fantas_Animation_ScaleYTo_
@@ -598,15 +898,36 @@ references:
   commentId: Overload:Fantas.Animation.SetTexture
   fullName: Fantas.Animation.SetTexture
   nameWithType: Animation.SetTexture
-- uid: Fantas.Animation.Shake(System.Double,System.Numerics.Vector2)
-  name: Shake(double, Vector2)
-  href: api/Fantas.Animation.html#Fantas_Animation_Shake_System_Double_System_Numerics_Vector2_
-  commentId: M:Fantas.Animation.Shake(System.Double,System.Numerics.Vector2)
-  name.vb: Shake(Double, Vector2)
-  fullName: Fantas.Animation.Shake(double, System.Numerics.Vector2)
-  fullName.vb: Fantas.Animation.Shake(Double, System.Numerics.Vector2)
-  nameWithType: Animation.Shake(double, Vector2)
-  nameWithType.vb: Animation.Shake(Double, Vector2)
+- uid: Fantas.Animation.Shake(System.Double)
+  name: Shake(double)
+  href: api/Fantas.Animation.html#Fantas_Animation_Shake_System_Double_
+  commentId: M:Fantas.Animation.Shake(System.Double)
+  name.vb: Shake(Double)
+  fullName: Fantas.Animation.Shake(double)
+  fullName.vb: Fantas.Animation.Shake(Double)
+  nameWithType: Animation.Shake(double)
+  nameWithType.vb: Animation.Shake(Double)
+- uid: Fantas.Animation.Shake(System.Numerics.Vector2,System.Double)
+  name: Shake(Vector2, double)
+  href: api/Fantas.Animation.html#Fantas_Animation_Shake_System_Numerics_Vector2_System_Double_
+  commentId: M:Fantas.Animation.Shake(System.Numerics.Vector2,System.Double)
+  name.vb: Shake(Vector2, Double)
+  fullName: Fantas.Animation.Shake(System.Numerics.Vector2, double)
+  fullName.vb: Fantas.Animation.Shake(System.Numerics.Vector2, Double)
+  nameWithType: Animation.Shake(Vector2, double)
+  nameWithType.vb: Animation.Shake(Vector2, Double)
+- uid: Fantas.Animation.Shake(System.Numerics.Vector2,System.TimeSpan)
+  name: Shake(Vector2, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_Shake_System_Numerics_Vector2_System_TimeSpan_
+  commentId: M:Fantas.Animation.Shake(System.Numerics.Vector2,System.TimeSpan)
+  fullName: Fantas.Animation.Shake(System.Numerics.Vector2, System.TimeSpan)
+  nameWithType: Animation.Shake(Vector2, TimeSpan)
+- uid: Fantas.Animation.Shake(System.TimeSpan)
+  name: Shake(TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_Shake_System_TimeSpan_
+  commentId: M:Fantas.Animation.Shake(System.TimeSpan)
+  fullName: Fantas.Animation.Shake(System.TimeSpan)
+  nameWithType: Animation.Shake(TimeSpan)
 - uid: Fantas.Animation.Shake*
   name: Shake
   href: api/Fantas.Animation.html#Fantas_Animation_Shake_
@@ -622,6 +943,15 @@ references:
   fullName.vb: Fantas.Animation.SineHorizontal(Single, Single, Double)
   nameWithType: Animation.SineHorizontal(float, float, double)
   nameWithType.vb: Animation.SineHorizontal(Single, Single, Double)
+- uid: Fantas.Animation.SineHorizontal(System.Single,System.Single,System.TimeSpan)
+  name: SineHorizontal(float, float, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_SineHorizontal_System_Single_System_Single_System_TimeSpan_
+  commentId: M:Fantas.Animation.SineHorizontal(System.Single,System.Single,System.TimeSpan)
+  name.vb: SineHorizontal(Single, Single, TimeSpan)
+  fullName: Fantas.Animation.SineHorizontal(float, float, System.TimeSpan)
+  fullName.vb: Fantas.Animation.SineHorizontal(Single, Single, System.TimeSpan)
+  nameWithType: Animation.SineHorizontal(float, float, TimeSpan)
+  nameWithType.vb: Animation.SineHorizontal(Single, Single, TimeSpan)
 - uid: Fantas.Animation.SineHorizontal*
   name: SineHorizontal
   href: api/Fantas.Animation.html#Fantas_Animation_SineHorizontal_
@@ -637,6 +967,15 @@ references:
   fullName.vb: Fantas.Animation.SineVertical(Single, Single, Double)
   nameWithType: Animation.SineVertical(float, float, double)
   nameWithType.vb: Animation.SineVertical(Single, Single, Double)
+- uid: Fantas.Animation.SineVertical(System.Single,System.Single,System.TimeSpan)
+  name: SineVertical(float, float, TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_SineVertical_System_Single_System_Single_System_TimeSpan_
+  commentId: M:Fantas.Animation.SineVertical(System.Single,System.Single,System.TimeSpan)
+  name.vb: SineVertical(Single, Single, TimeSpan)
+  fullName: Fantas.Animation.SineVertical(float, float, System.TimeSpan)
+  fullName.vb: Fantas.Animation.SineVertical(Single, Single, System.TimeSpan)
+  nameWithType: Animation.SineVertical(float, float, TimeSpan)
+  nameWithType.vb: Animation.SineVertical(Single, Single, TimeSpan)
 - uid: Fantas.Animation.SineVertical*
   name: SineVertical
   href: api/Fantas.Animation.html#Fantas_Animation_SineVertical_
@@ -700,6 +1039,12 @@ references:
   fullName.vb: Fantas.Animation.Wait(Double)
   nameWithType: Animation.Wait(double)
   nameWithType.vb: Animation.Wait(Double)
+- uid: Fantas.Animation.Wait(System.TimeSpan)
+  name: Wait(TimeSpan)
+  href: api/Fantas.Animation.html#Fantas_Animation_Wait_System_TimeSpan_
+  commentId: M:Fantas.Animation.Wait(System.TimeSpan)
+  fullName: Fantas.Animation.Wait(System.TimeSpan)
+  nameWithType: Animation.Wait(TimeSpan)
 - uid: Fantas.Animation.Wait*
   name: Wait
   href: api/Fantas.Animation.html#Fantas_Animation_Wait_
@@ -1423,15 +1768,15 @@ references:
   fullName.vb: Fantas.CameraNode.Shake(Double)
   nameWithType: CameraNode.Shake(double)
   nameWithType.vb: CameraNode.Shake(Double)
-- uid: Fantas.CameraNode.Shake(System.Double,System.Numerics.Vector2)
-  name: Shake(double, Vector2)
-  href: api/Fantas.CameraNode.html#Fantas_CameraNode_Shake_System_Double_System_Numerics_Vector2_
-  commentId: M:Fantas.CameraNode.Shake(System.Double,System.Numerics.Vector2)
-  name.vb: Shake(Double, Vector2)
-  fullName: Fantas.CameraNode.Shake(double, System.Numerics.Vector2)
-  fullName.vb: Fantas.CameraNode.Shake(Double, System.Numerics.Vector2)
-  nameWithType: CameraNode.Shake(double, Vector2)
-  nameWithType.vb: CameraNode.Shake(Double, Vector2)
+- uid: Fantas.CameraNode.Shake(System.Numerics.Vector2,System.Double)
+  name: Shake(Vector2, double)
+  href: api/Fantas.CameraNode.html#Fantas_CameraNode_Shake_System_Numerics_Vector2_System_Double_
+  commentId: M:Fantas.CameraNode.Shake(System.Numerics.Vector2,System.Double)
+  name.vb: Shake(Vector2, Double)
+  fullName: Fantas.CameraNode.Shake(System.Numerics.Vector2, double)
+  fullName.vb: Fantas.CameraNode.Shake(System.Numerics.Vector2, Double)
+  nameWithType: CameraNode.Shake(Vector2, double)
+  nameWithType.vb: CameraNode.Shake(Vector2, Double)
 - uid: Fantas.CameraNode.Shake*
   name: Shake
   href: api/Fantas.CameraNode.html#Fantas_CameraNode_Shake_
@@ -12013,6 +12358,144 @@ references:
   commentId: F:Fantas.Time.TimePerFrame
   fullName: Fantas.Time.TimePerFrame
   nameWithType: Time.TimePerFrame
+- uid: Fantas.Timer
+  name: Timer
+  href: api/Fantas.Timer.html
+  commentId: T:Fantas.Timer
+  fullName: Fantas.Timer
+  nameWithType: Timer
+- uid: Fantas.Timer.CreatePeriodicTimer(System.String,System.Double,Fantas.Node,System.Action{Fantas.Timer})
+  name: CreatePeriodicTimer(string, double, Node, Action<Timer>)
+  href: api/Fantas.Timer.html#Fantas_Timer_CreatePeriodicTimer_System_String_System_Double_Fantas_Node_System_Action_Fantas_Timer__
+  commentId: M:Fantas.Timer.CreatePeriodicTimer(System.String,System.Double,Fantas.Node,System.Action{Fantas.Timer})
+  name.vb: CreatePeriodicTimer(String, Double, Node, Action(Of Timer))
+  fullName: Fantas.Timer.CreatePeriodicTimer(string, double, Fantas.Node, System.Action<Fantas.Timer>)
+  fullName.vb: Fantas.Timer.CreatePeriodicTimer(String, Double, Fantas.Node, System.Action(Of Fantas.Timer))
+  nameWithType: Timer.CreatePeriodicTimer(string, double, Node, Action<Timer>)
+  nameWithType.vb: Timer.CreatePeriodicTimer(String, Double, Node, Action(Of Timer))
+- uid: Fantas.Timer.CreatePeriodicTimer(System.String,System.TimeSpan,Fantas.Node,System.Action{Fantas.Timer})
+  name: CreatePeriodicTimer(string, TimeSpan, Node, Action<Timer>)
+  href: api/Fantas.Timer.html#Fantas_Timer_CreatePeriodicTimer_System_String_System_TimeSpan_Fantas_Node_System_Action_Fantas_Timer__
+  commentId: M:Fantas.Timer.CreatePeriodicTimer(System.String,System.TimeSpan,Fantas.Node,System.Action{Fantas.Timer})
+  name.vb: CreatePeriodicTimer(String, TimeSpan, Node, Action(Of Timer))
+  fullName: Fantas.Timer.CreatePeriodicTimer(string, System.TimeSpan, Fantas.Node, System.Action<Fantas.Timer>)
+  fullName.vb: Fantas.Timer.CreatePeriodicTimer(String, System.TimeSpan, Fantas.Node, System.Action(Of Fantas.Timer))
+  nameWithType: Timer.CreatePeriodicTimer(string, TimeSpan, Node, Action<Timer>)
+  nameWithType.vb: Timer.CreatePeriodicTimer(String, TimeSpan, Node, Action(Of Timer))
+- uid: Fantas.Timer.CreatePeriodicTimer*
+  name: CreatePeriodicTimer
+  href: api/Fantas.Timer.html#Fantas_Timer_CreatePeriodicTimer_
+  commentId: Overload:Fantas.Timer.CreatePeriodicTimer
+  fullName: Fantas.Timer.CreatePeriodicTimer
+  nameWithType: Timer.CreatePeriodicTimer
+- uid: Fantas.Timer.CreateRepeatedTimer(System.String,System.Double,System.Int32,Fantas.Node,System.Action{Fantas.Timer})
+  name: CreateRepeatedTimer(string, double, int, Node, Action<Timer>)
+  href: api/Fantas.Timer.html#Fantas_Timer_CreateRepeatedTimer_System_String_System_Double_System_Int32_Fantas_Node_System_Action_Fantas_Timer__
+  commentId: M:Fantas.Timer.CreateRepeatedTimer(System.String,System.Double,System.Int32,Fantas.Node,System.Action{Fantas.Timer})
+  name.vb: CreateRepeatedTimer(String, Double, Integer, Node, Action(Of Timer))
+  fullName: Fantas.Timer.CreateRepeatedTimer(string, double, int, Fantas.Node, System.Action<Fantas.Timer>)
+  fullName.vb: Fantas.Timer.CreateRepeatedTimer(String, Double, Integer, Fantas.Node, System.Action(Of Fantas.Timer))
+  nameWithType: Timer.CreateRepeatedTimer(string, double, int, Node, Action<Timer>)
+  nameWithType.vb: Timer.CreateRepeatedTimer(String, Double, Integer, Node, Action(Of Timer))
+- uid: Fantas.Timer.CreateRepeatedTimer(System.String,System.TimeSpan,System.Int32,Fantas.Node,System.Action{Fantas.Timer})
+  name: CreateRepeatedTimer(string, TimeSpan, int, Node, Action<Timer>)
+  href: api/Fantas.Timer.html#Fantas_Timer_CreateRepeatedTimer_System_String_System_TimeSpan_System_Int32_Fantas_Node_System_Action_Fantas_Timer__
+  commentId: M:Fantas.Timer.CreateRepeatedTimer(System.String,System.TimeSpan,System.Int32,Fantas.Node,System.Action{Fantas.Timer})
+  name.vb: CreateRepeatedTimer(String, TimeSpan, Integer, Node, Action(Of Timer))
+  fullName: Fantas.Timer.CreateRepeatedTimer(string, System.TimeSpan, int, Fantas.Node, System.Action<Fantas.Timer>)
+  fullName.vb: Fantas.Timer.CreateRepeatedTimer(String, System.TimeSpan, Integer, Fantas.Node, System.Action(Of Fantas.Timer))
+  nameWithType: Timer.CreateRepeatedTimer(string, TimeSpan, int, Node, Action<Timer>)
+  nameWithType.vb: Timer.CreateRepeatedTimer(String, TimeSpan, Integer, Node, Action(Of Timer))
+- uid: Fantas.Timer.CreateRepeatedTimer*
+  name: CreateRepeatedTimer
+  href: api/Fantas.Timer.html#Fantas_Timer_CreateRepeatedTimer_
+  commentId: Overload:Fantas.Timer.CreateRepeatedTimer
+  fullName: Fantas.Timer.CreateRepeatedTimer
+  nameWithType: Timer.CreateRepeatedTimer
+- uid: Fantas.Timer.CreateSingleTimer(System.String,System.Double,Fantas.Node,System.Action{Fantas.Timer})
+  name: CreateSingleTimer(string, double, Node, Action<Timer>)
+  href: api/Fantas.Timer.html#Fantas_Timer_CreateSingleTimer_System_String_System_Double_Fantas_Node_System_Action_Fantas_Timer__
+  commentId: M:Fantas.Timer.CreateSingleTimer(System.String,System.Double,Fantas.Node,System.Action{Fantas.Timer})
+  name.vb: CreateSingleTimer(String, Double, Node, Action(Of Timer))
+  fullName: Fantas.Timer.CreateSingleTimer(string, double, Fantas.Node, System.Action<Fantas.Timer>)
+  fullName.vb: Fantas.Timer.CreateSingleTimer(String, Double, Fantas.Node, System.Action(Of Fantas.Timer))
+  nameWithType: Timer.CreateSingleTimer(string, double, Node, Action<Timer>)
+  nameWithType.vb: Timer.CreateSingleTimer(String, Double, Node, Action(Of Timer))
+- uid: Fantas.Timer.CreateSingleTimer(System.String,System.TimeSpan,Fantas.Node,System.Action{Fantas.Timer})
+  name: CreateSingleTimer(string, TimeSpan, Node, Action<Timer>)
+  href: api/Fantas.Timer.html#Fantas_Timer_CreateSingleTimer_System_String_System_TimeSpan_Fantas_Node_System_Action_Fantas_Timer__
+  commentId: M:Fantas.Timer.CreateSingleTimer(System.String,System.TimeSpan,Fantas.Node,System.Action{Fantas.Timer})
+  name.vb: CreateSingleTimer(String, TimeSpan, Node, Action(Of Timer))
+  fullName: Fantas.Timer.CreateSingleTimer(string, System.TimeSpan, Fantas.Node, System.Action<Fantas.Timer>)
+  fullName.vb: Fantas.Timer.CreateSingleTimer(String, System.TimeSpan, Fantas.Node, System.Action(Of Fantas.Timer))
+  nameWithType: Timer.CreateSingleTimer(string, TimeSpan, Node, Action<Timer>)
+  nameWithType.vb: Timer.CreateSingleTimer(String, TimeSpan, Node, Action(Of Timer))
+- uid: Fantas.Timer.CreateSingleTimer*
+  name: CreateSingleTimer
+  href: api/Fantas.Timer.html#Fantas_Timer_CreateSingleTimer_
+  commentId: Overload:Fantas.Timer.CreateSingleTimer
+  fullName: Fantas.Timer.CreateSingleTimer
+  nameWithType: Timer.CreateSingleTimer
+- uid: Fantas.Timer.Elapsed
+  name: Elapsed
+  href: api/Fantas.Timer.html#Fantas_Timer_Elapsed
+  commentId: P:Fantas.Timer.Elapsed
+  fullName: Fantas.Timer.Elapsed
+  nameWithType: Timer.Elapsed
+- uid: Fantas.Timer.Elapsed*
+  name: Elapsed
+  href: api/Fantas.Timer.html#Fantas_Timer_Elapsed_
+  commentId: Overload:Fantas.Timer.Elapsed
+  fullName: Fantas.Timer.Elapsed
+  nameWithType: Timer.Elapsed
+- uid: Fantas.Timer.ElapsedSeconds
+  name: ElapsedSeconds
+  href: api/Fantas.Timer.html#Fantas_Timer_ElapsedSeconds
+  commentId: P:Fantas.Timer.ElapsedSeconds
+  fullName: Fantas.Timer.ElapsedSeconds
+  nameWithType: Timer.ElapsedSeconds
+- uid: Fantas.Timer.ElapsedSeconds*
+  name: ElapsedSeconds
+  href: api/Fantas.Timer.html#Fantas_Timer_ElapsedSeconds_
+  commentId: Overload:Fantas.Timer.ElapsedSeconds
+  fullName: Fantas.Timer.ElapsedSeconds
+  nameWithType: Timer.ElapsedSeconds
+- uid: Fantas.Timer.Name
+  name: Name
+  href: api/Fantas.Timer.html#Fantas_Timer_Name
+  commentId: P:Fantas.Timer.Name
+  fullName: Fantas.Timer.Name
+  nameWithType: Timer.Name
+- uid: Fantas.Timer.Name*
+  name: Name
+  href: api/Fantas.Timer.html#Fantas_Timer_Name_
+  commentId: Overload:Fantas.Timer.Name
+  fullName: Fantas.Timer.Name
+  nameWithType: Timer.Name
+- uid: Fantas.Timer.Stop
+  name: Stop()
+  href: api/Fantas.Timer.html#Fantas_Timer_Stop
+  commentId: M:Fantas.Timer.Stop
+  fullName: Fantas.Timer.Stop()
+  nameWithType: Timer.Stop()
+- uid: Fantas.Timer.Stop*
+  name: Stop
+  href: api/Fantas.Timer.html#Fantas_Timer_Stop_
+  commentId: Overload:Fantas.Timer.Stop
+  fullName: Fantas.Timer.Stop
+  nameWithType: Timer.Stop
+- uid: Fantas.Timer.StopRequested
+  name: StopRequested
+  href: api/Fantas.Timer.html#Fantas_Timer_StopRequested
+  commentId: P:Fantas.Timer.StopRequested
+  fullName: Fantas.Timer.StopRequested
+  nameWithType: Timer.StopRequested
+- uid: Fantas.Timer.StopRequested*
+  name: StopRequested
+  href: api/Fantas.Timer.html#Fantas_Timer_StopRequested_
+  commentId: Overload:Fantas.Timer.StopRequested
+  fullName: Fantas.Timer.StopRequested
+  nameWithType: Timer.StopRequested
 - uid: Fantas.TriangleNode
   name: TriangleNode
   href: api/Fantas.TriangleNode.html

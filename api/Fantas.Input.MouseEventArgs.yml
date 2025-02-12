@@ -20,7 +20,7 @@ items:
   fullName: Fantas.Input.MouseEventArgs
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Mouse/MouseEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -53,7 +53,7 @@ items:
   fullName: Fantas.Input.MouseEventArgs.MouseEventArgs(Fantas.Input.MouseButtons, int, System.Numerics.Vector2, System.Drawing.PointF, System.Numerics.Vector2, bool)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Mouse/MouseEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -97,7 +97,7 @@ items:
   fullName: Fantas.Input.MouseEventArgs.Button
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Mouse/MouseEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -122,7 +122,7 @@ items:
   fullName: Fantas.Input.MouseEventArgs.Clicks
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Mouse/MouseEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -147,7 +147,7 @@ items:
   fullName: Fantas.Input.MouseEventArgs.WheelDelta
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Mouse/MouseEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -172,7 +172,7 @@ items:
   fullName: Fantas.Input.MouseEventArgs.Location
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Mouse/MouseEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -197,7 +197,7 @@ items:
   fullName: Fantas.Input.MouseEventArgs.HasPreciseScrollingDeltas
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Mouse/MouseEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -225,7 +225,7 @@ items:
   fullName: Fantas.Input.MouseEventArgs.DragDelta
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Mouse/MouseEventArgs.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Mouse/MouseEventArgs.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input

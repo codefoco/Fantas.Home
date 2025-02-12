@@ -16,7 +16,7 @@ items:
   fullName: Fantas.Physics.PhysicsJointSpring
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Physics/Joints/PhysicsJointSpring.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Joints/PhysicsJointSpring.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -49,7 +49,7 @@ items:
   fullName: Fantas.Physics.PhysicsJointSpring.PhysicsJointSpring(Fantas.Physics.PhysicsBody, Fantas.Physics.PhysicsBody, System.Drawing.PointF, System.Drawing.PointF)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Physics/Joints/PhysicsJointSpring.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Joints/PhysicsJointSpring.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -87,7 +87,7 @@ items:
   fullName: Fantas.Physics.PhysicsJointSpring.Damping
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Physics/Joints/PhysicsJointSpring.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Joints/PhysicsJointSpring.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -112,7 +112,7 @@ items:
   fullName: Fantas.Physics.PhysicsJointSpring.Frequency
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Physics/Joints/PhysicsJointSpring.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Joints/PhysicsJointSpring.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics

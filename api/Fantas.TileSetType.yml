@@ -17,7 +17,7 @@ items:
   fullName: Fantas.TileSetType
   type: Enum
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Tiles/TileSetType.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileSetType.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -38,7 +38,7 @@ items:
   fullName: Fantas.TileSetType.Grid
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Tiles/TileSetType.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileSetType.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -60,7 +60,7 @@ items:
   fullName: Fantas.TileSetType.HexagonalFlat
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Tiles/TileSetType.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileSetType.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -82,7 +82,7 @@ items:
   fullName: Fantas.TileSetType.HexagonalPointy
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Tiles/TileSetType.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileSetType.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -104,7 +104,7 @@ items:
   fullName: Fantas.TileSetType.Isometric
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Tiles/TileSetType.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileSetType.cs
   assemblies:
   - Fantas
   namespace: Fantas

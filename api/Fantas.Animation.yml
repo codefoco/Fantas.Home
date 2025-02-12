@@ -8,54 +8,93 @@ items:
   - Fantas.Animation.Animate(Fantas.Texture[],System.Double)
   - Fantas.Animation.Animate(Fantas.Texture[],System.Double,System.Boolean,System.Boolean)
   - Fantas.Animation.Colorize(System.Drawing.Color,System.Single,System.Double)
+  - Fantas.Animation.Colorize(System.Drawing.Color,System.Single,System.TimeSpan)
   - Fantas.Animation.Colorize(System.Single,System.Double)
+  - Fantas.Animation.Colorize(System.Single,System.TimeSpan)
   - Fantas.Animation.Custom(System.Double,System.Action{Fantas.Node,System.Single})
+  - Fantas.Animation.Custom(System.TimeSpan,System.Action{Fantas.Node,System.Single})
   - Fantas.Animation.Duration
+  - Fantas.Animation.DurationSeconds
   - Fantas.Animation.Equals(System.Object)
   - Fantas.Animation.FadeAlphaBy(System.Single,System.Double)
+  - Fantas.Animation.FadeAlphaBy(System.Single,System.TimeSpan)
   - Fantas.Animation.FadeAlphaTo(System.Single,System.Double)
+  - Fantas.Animation.FadeAlphaTo(System.Single,System.TimeSpan)
   - Fantas.Animation.FadeIn(System.Double)
+  - Fantas.Animation.FadeIn(System.TimeSpan)
   - Fantas.Animation.FadeOut(System.Double)
+  - Fantas.Animation.FadeOut(System.TimeSpan)
   - Fantas.Animation.GetHashCode
   - Fantas.Animation.Group(Fantas.Animation[])
   - Fantas.Animation.Hide
   - Fantas.Animation.LookAt(System.Drawing.PointF,System.Double)
+  - Fantas.Animation.LookAt(System.Drawing.PointF,System.TimeSpan)
   - Fantas.Animation.MoveBy(System.Numerics.Vector2,System.Double)
+  - Fantas.Animation.MoveBy(System.Numerics.Vector2,System.TimeSpan)
   - Fantas.Animation.MoveBy(System.Single,System.Single,System.Double)
+  - Fantas.Animation.MoveBy(System.Single,System.Single,System.TimeSpan)
+  - Fantas.Animation.MoveForever(System.Numerics.Vector2)
   - Fantas.Animation.MoveTo(System.Drawing.PointF,System.Double)
+  - Fantas.Animation.MoveTo(System.Drawing.PointF,System.TimeSpan)
   - Fantas.Animation.MoveToX(System.Single,System.Double)
+  - Fantas.Animation.MoveToX(System.Single,System.TimeSpan)
   - Fantas.Animation.MoveToY(System.Single,System.Double)
+  - Fantas.Animation.MoveToY(System.Single,System.TimeSpan)
   - Fantas.Animation.MoveXBy(System.Single,System.Double)
+  - Fantas.Animation.MoveXBy(System.Single,System.TimeSpan)
+  - Fantas.Animation.MoveXForever(System.Single)
   - Fantas.Animation.MoveYBy(System.Single,System.Double)
+  - Fantas.Animation.MoveYBy(System.Single,System.TimeSpan)
+  - Fantas.Animation.MoveYForever(System.Single)
   - Fantas.Animation.OrbitNode(Fantas.Node,System.Double,System.Double,System.Double)
+  - Fantas.Animation.OrbitNode(Fantas.Node,System.Double,System.TimeSpan,System.Double)
   - Fantas.Animation.OrbitPoint(System.Drawing.PointF,System.Double,System.Double,System.Double)
+  - Fantas.Animation.OrbitPoint(System.Drawing.PointF,System.Double,System.TimeSpan,System.Double)
   - Fantas.Animation.RemoveFromParent
   - Fantas.Animation.Repeat(Fantas.Animation,System.Int32)
   - Fantas.Animation.RepeatForever(Fantas.Animation)
   - Fantas.Animation.ResizeTo(System.Drawing.SizeF,System.Double)
+  - Fantas.Animation.ResizeTo(System.Drawing.SizeF,System.TimeSpan)
   - Fantas.Animation.ResizeToHeight(System.Single,System.Double)
+  - Fantas.Animation.ResizeToHeight(System.Single,System.TimeSpan)
   - Fantas.Animation.ResizeToWidth(System.Single,System.Double)
+  - Fantas.Animation.ResizeToWidth(System.Single,System.TimeSpan)
   - Fantas.Animation.ReversedAnimation
   - Fantas.Animation.RotateBy(System.Double,System.Double)
+  - Fantas.Animation.RotateBy(System.Double,System.TimeSpan)
+  - Fantas.Animation.RotateForever(System.Double)
   - Fantas.Animation.RotateTo(System.Double,System.Double)
+  - Fantas.Animation.RotateTo(System.Double,System.TimeSpan)
   - Fantas.Animation.RunAction(System.Action)
   - Fantas.Animation.ScaleBy(System.Single,System.Double)
+  - Fantas.Animation.ScaleBy(System.Single,System.TimeSpan)
   - Fantas.Animation.ScaleTo(System.Drawing.SizeF,System.Double)
+  - Fantas.Animation.ScaleTo(System.Drawing.SizeF,System.TimeSpan)
   - Fantas.Animation.ScaleTo(System.Single,System.Double)
   - Fantas.Animation.ScaleTo(System.Single,System.Single,System.Double)
+  - Fantas.Animation.ScaleTo(System.Single,System.Single,System.TimeSpan)
+  - Fantas.Animation.ScaleTo(System.Single,System.TimeSpan)
   - Fantas.Animation.ScaleXTo(System.Single,System.Double)
+  - Fantas.Animation.ScaleXTo(System.Single,System.TimeSpan)
   - Fantas.Animation.ScaleYTo(System.Single,System.Double)
+  - Fantas.Animation.ScaleYTo(System.Single,System.TimeSpan)
   - Fantas.Animation.Sequence(Fantas.Animation[])
   - Fantas.Animation.SetTexture(Fantas.Texture)
   - Fantas.Animation.SetTexture(Fantas.Texture,System.Boolean)
-  - Fantas.Animation.Shake(System.Double,System.Numerics.Vector2)
+  - Fantas.Animation.Shake(System.Double)
+  - Fantas.Animation.Shake(System.Numerics.Vector2,System.Double)
+  - Fantas.Animation.Shake(System.Numerics.Vector2,System.TimeSpan)
+  - Fantas.Animation.Shake(System.TimeSpan)
   - Fantas.Animation.SineHorizontal(System.Single,System.Single,System.Double)
+  - Fantas.Animation.SineHorizontal(System.Single,System.Single,System.TimeSpan)
   - Fantas.Animation.SineVertical(System.Single,System.Single,System.Double)
+  - Fantas.Animation.SineVertical(System.Single,System.Single,System.TimeSpan)
   - Fantas.Animation.Speed
   - Fantas.Animation.TimingFunction
   - Fantas.Animation.TimingMode
   - Fantas.Animation.Unhide
   - Fantas.Animation.Wait(System.Double)
+  - Fantas.Animation.Wait(System.TimeSpan)
   langs:
   - csharp
   - vb
@@ -64,7 +103,7 @@ items:
   fullName: Fantas.Animation
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -92,7 +131,7 @@ items:
   fullName: Fantas.Animation.Equals(object)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -125,7 +164,7 @@ items:
   fullName: Fantas.Animation.GetHashCode()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -151,7 +190,7 @@ items:
   fullName: Fantas.Animation.Animate(Fantas.Texture[], double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -186,7 +225,7 @@ items:
   fullName: Fantas.Animation.Animate(Fantas.Texture[], double, bool, bool)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -227,7 +266,7 @@ items:
   fullName: Fantas.Animation.Colorize(System.Drawing.Color, float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -253,6 +292,44 @@ items:
   nameWithType.vb: Animation.Colorize(Color, Single, Double)
   fullName.vb: Fantas.Animation.Colorize(System.Drawing.Color, Single, Double)
   name.vb: Colorize(Color, Single, Double)
+- uid: Fantas.Animation.Colorize(System.Drawing.Color,System.Single,System.TimeSpan)
+  commentId: M:Fantas.Animation.Colorize(System.Drawing.Color,System.Single,System.TimeSpan)
+  id: Colorize(System.Drawing.Color,System.Single,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: Colorize(Color, float, TimeSpan)
+  nameWithType: Animation.Colorize(Color, float, TimeSpan)
+  fullName: Fantas.Animation.Colorize(System.Drawing.Color, float, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Animate sprite tint color
+  example: []
+  syntax:
+    content: public static Animation Colorize(Color color, float colorBlendFactor, TimeSpan duration)
+    parameters:
+    - id: color
+      type: System.Drawing.Color
+      description: Final tint color of Sprite
+    - id: colorBlendFactor
+      type: System.Single
+      description: Final color blend factor
+    - id: duration
+      type: System.TimeSpan
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a SpriteNode
+    content.vb: Public Shared Function Colorize(color As Color, colorBlendFactor As Single, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.Colorize*
+  nameWithType.vb: Animation.Colorize(Color, Single, TimeSpan)
+  fullName.vb: Fantas.Animation.Colorize(System.Drawing.Color, Single, System.TimeSpan)
+  name.vb: Colorize(Color, Single, TimeSpan)
 - uid: Fantas.Animation.Colorize(System.Single,System.Double)
   commentId: M:Fantas.Animation.Colorize(System.Single,System.Double)
   id: Colorize(System.Single,System.Double)
@@ -265,7 +342,7 @@ items:
   fullName: Fantas.Animation.Colorize(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -288,6 +365,41 @@ items:
   nameWithType.vb: Animation.Colorize(Single, Double)
   fullName.vb: Fantas.Animation.Colorize(Single, Double)
   name.vb: Colorize(Single, Double)
+- uid: Fantas.Animation.Colorize(System.Single,System.TimeSpan)
+  commentId: M:Fantas.Animation.Colorize(System.Single,System.TimeSpan)
+  id: Colorize(System.Single,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: Colorize(float, TimeSpan)
+  nameWithType: Animation.Colorize(float, TimeSpan)
+  fullName: Fantas.Animation.Colorize(float, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Animate sprite tint color
+  example: []
+  syntax:
+    content: public static Animation Colorize(float colorBlendFactor, TimeSpan duration)
+    parameters:
+    - id: colorBlendFactor
+      type: System.Single
+      description: Final color blend factor
+    - id: duration
+      type: System.TimeSpan
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a SpriteNode
+    content.vb: Public Shared Function Colorize(colorBlendFactor As Single, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.Colorize*
+  nameWithType.vb: Animation.Colorize(Single, TimeSpan)
+  fullName.vb: Fantas.Animation.Colorize(Single, System.TimeSpan)
+  name.vb: Colorize(Single, TimeSpan)
 - uid: Fantas.Animation.Custom(System.Double,System.Action{Fantas.Node,System.Single})
   commentId: M:Fantas.Animation.Custom(System.Double,System.Action{Fantas.Node,System.Single})
   id: Custom(System.Double,System.Action{Fantas.Node,System.Single})
@@ -300,7 +412,7 @@ items:
   fullName: Fantas.Animation.Custom(double, System.Action<Fantas.Node, float>)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -323,6 +435,41 @@ items:
   nameWithType.vb: Animation.Custom(Double, Action(Of Node, Single))
   fullName.vb: Fantas.Animation.Custom(Double, System.Action(Of Fantas.Node, Single))
   name.vb: Custom(Double, Action(Of Node, Single))
+- uid: Fantas.Animation.Custom(System.TimeSpan,System.Action{Fantas.Node,System.Single})
+  commentId: M:Fantas.Animation.Custom(System.TimeSpan,System.Action{Fantas.Node,System.Single})
+  id: Custom(System.TimeSpan,System.Action{Fantas.Node,System.Single})
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: Custom(TimeSpan, Action<Node, float>)
+  nameWithType: Animation.Custom(TimeSpan, Action<Node, float>)
+  fullName: Fantas.Animation.Custom(System.TimeSpan, System.Action<Fantas.Node, float>)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Execute the callback over the execution of animation
+  example: []
+  syntax:
+    content: public static Animation Custom(TimeSpan duration, Action<Node, float> callback)
+    parameters:
+    - id: duration
+      type: System.TimeSpan
+      description: Duration in seconds
+    - id: callback
+      type: System.Action{Fantas.Node,System.Single}
+      description: Called along the execution of the animation
+    return:
+      type: Fantas.Animation
+      description: Custom animation object
+    content.vb: Public Shared Function Custom(duration As TimeSpan, callback As Action(Of Node, Single)) As Animation
+  overload: Fantas.Animation.Custom*
+  nameWithType.vb: Animation.Custom(TimeSpan, Action(Of Node, Single))
+  fullName.vb: Fantas.Animation.Custom(System.TimeSpan, System.Action(Of Fantas.Node, Single))
+  name.vb: Custom(TimeSpan, Action(Of Node, Single))
 - uid: Fantas.Animation.FadeAlphaBy(System.Single,System.Double)
   commentId: M:Fantas.Animation.FadeAlphaBy(System.Single,System.Double)
   id: FadeAlphaBy(System.Single,System.Double)
@@ -335,7 +482,7 @@ items:
   fullName: Fantas.Animation.FadeAlphaBy(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -358,6 +505,41 @@ items:
   nameWithType.vb: Animation.FadeAlphaBy(Single, Double)
   fullName.vb: Fantas.Animation.FadeAlphaBy(Single, Double)
   name.vb: FadeAlphaBy(Single, Double)
+- uid: Fantas.Animation.FadeAlphaBy(System.Single,System.TimeSpan)
+  commentId: M:Fantas.Animation.FadeAlphaBy(System.Single,System.TimeSpan)
+  id: FadeAlphaBy(System.Single,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: FadeAlphaBy(float, TimeSpan)
+  nameWithType: Animation.FadeAlphaBy(float, TimeSpan)
+  fullName: Fantas.Animation.FadeAlphaBy(float, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Change the alpha of node
+  example: []
+  syntax:
+    content: public static Animation FadeAlphaBy(float delta, TimeSpan duration)
+    parameters:
+    - id: delta
+      type: System.Single
+      description: alpha factor
+    - id: duration
+      type: System.TimeSpan
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function FadeAlphaBy(delta As Single, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.FadeAlphaBy*
+  nameWithType.vb: Animation.FadeAlphaBy(Single, TimeSpan)
+  fullName.vb: Fantas.Animation.FadeAlphaBy(Single, System.TimeSpan)
+  name.vb: FadeAlphaBy(Single, TimeSpan)
 - uid: Fantas.Animation.FadeAlphaTo(System.Single,System.Double)
   commentId: M:Fantas.Animation.FadeAlphaTo(System.Single,System.Double)
   id: FadeAlphaTo(System.Single,System.Double)
@@ -370,7 +552,7 @@ items:
   fullName: Fantas.Animation.FadeAlphaTo(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -393,6 +575,41 @@ items:
   nameWithType.vb: Animation.FadeAlphaTo(Single, Double)
   fullName.vb: Fantas.Animation.FadeAlphaTo(Single, Double)
   name.vb: FadeAlphaTo(Single, Double)
+- uid: Fantas.Animation.FadeAlphaTo(System.Single,System.TimeSpan)
+  commentId: M:Fantas.Animation.FadeAlphaTo(System.Single,System.TimeSpan)
+  id: FadeAlphaTo(System.Single,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: FadeAlphaTo(float, TimeSpan)
+  nameWithType: Animation.FadeAlphaTo(float, TimeSpan)
+  fullName: Fantas.Animation.FadeAlphaTo(float, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Animate new alpha of node
+  example: []
+  syntax:
+    content: public static Animation FadeAlphaTo(float alpha, TimeSpan duration)
+    parameters:
+    - id: alpha
+      type: System.Single
+      description: Final alpha
+    - id: duration
+      type: System.TimeSpan
+      description: Duration
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function FadeAlphaTo(alpha As Single, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.FadeAlphaTo*
+  nameWithType.vb: Animation.FadeAlphaTo(Single, TimeSpan)
+  fullName.vb: Fantas.Animation.FadeAlphaTo(Single, System.TimeSpan)
+  name.vb: FadeAlphaTo(Single, TimeSpan)
 - uid: Fantas.Animation.FadeIn(System.Double)
   commentId: M:Fantas.Animation.FadeIn(System.Double)
   id: FadeIn(System.Double)
@@ -405,7 +622,7 @@ items:
   fullName: Fantas.Animation.FadeIn(double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -425,6 +642,35 @@ items:
   nameWithType.vb: Animation.FadeIn(Double)
   fullName.vb: Fantas.Animation.FadeIn(Double)
   name.vb: FadeIn(Double)
+- uid: Fantas.Animation.FadeIn(System.TimeSpan)
+  commentId: M:Fantas.Animation.FadeIn(System.TimeSpan)
+  id: FadeIn(System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: FadeIn(TimeSpan)
+  nameWithType: Animation.FadeIn(TimeSpan)
+  fullName: Fantas.Animation.FadeIn(System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Change the alpha to 1.0
+  example: []
+  syntax:
+    content: public static Animation FadeIn(TimeSpan duration)
+    parameters:
+    - id: duration
+      type: System.TimeSpan
+      description: duration
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function FadeIn(duration As TimeSpan) As Animation
+  overload: Fantas.Animation.FadeIn*
 - uid: Fantas.Animation.FadeOut(System.Double)
   commentId: M:Fantas.Animation.FadeOut(System.Double)
   id: FadeOut(System.Double)
@@ -437,7 +683,7 @@ items:
   fullName: Fantas.Animation.FadeOut(double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -457,6 +703,35 @@ items:
   nameWithType.vb: Animation.FadeOut(Double)
   fullName.vb: Fantas.Animation.FadeOut(Double)
   name.vb: FadeOut(Double)
+- uid: Fantas.Animation.FadeOut(System.TimeSpan)
+  commentId: M:Fantas.Animation.FadeOut(System.TimeSpan)
+  id: FadeOut(System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: FadeOut(TimeSpan)
+  nameWithType: Animation.FadeOut(TimeSpan)
+  fullName: Fantas.Animation.FadeOut(System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Change the alpha to 0.0
+  example: []
+  syntax:
+    content: public static Animation FadeOut(TimeSpan duration)
+    parameters:
+    - id: duration
+      type: System.TimeSpan
+      description: Duration
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function FadeOut(duration As TimeSpan) As Animation
+  overload: Fantas.Animation.FadeOut*
 - uid: Fantas.Animation.Group(Fantas.Animation[])
   commentId: M:Fantas.Animation.Group(Fantas.Animation[])
   id: Group(Fantas.Animation[])
@@ -469,7 +744,7 @@ items:
   fullName: Fantas.Animation.Group(params Fantas.Animation[])
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -506,7 +781,7 @@ items:
   fullName: Fantas.Animation.Hide()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -531,7 +806,7 @@ items:
   fullName: Fantas.Animation.LookAt(System.Drawing.PointF, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -554,6 +829,38 @@ items:
   nameWithType.vb: Animation.LookAt(PointF, Double)
   fullName.vb: Fantas.Animation.LookAt(System.Drawing.PointF, Double)
   name.vb: LookAt(PointF, Double)
+- uid: Fantas.Animation.LookAt(System.Drawing.PointF,System.TimeSpan)
+  commentId: M:Fantas.Animation.LookAt(System.Drawing.PointF,System.TimeSpan)
+  id: LookAt(System.Drawing.PointF,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: LookAt(PointF, TimeSpan)
+  nameWithType: Animation.LookAt(PointF, TimeSpan)
+  fullName: Fantas.Animation.LookAt(System.Drawing.PointF, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Rotate node facing target point
+  example: []
+  syntax:
+    content: public static Animation LookAt(PointF target, TimeSpan duration)
+    parameters:
+    - id: target
+      type: System.Drawing.PointF
+      description: ''
+    - id: duration
+      type: System.TimeSpan
+      description: ''
+    return:
+      type: Fantas.Animation
+      description: ''
+    content.vb: Public Shared Function LookAt(target As PointF, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.LookAt*
 - uid: Fantas.Animation.MoveBy(System.Numerics.Vector2,System.Double)
   commentId: M:Fantas.Animation.MoveBy(System.Numerics.Vector2,System.Double)
   id: MoveBy(System.Numerics.Vector2,System.Double)
@@ -566,7 +873,7 @@ items:
   fullName: Fantas.Animation.MoveBy(System.Numerics.Vector2, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -589,6 +896,131 @@ items:
   nameWithType.vb: Animation.MoveBy(Vector2, Double)
   fullName.vb: Fantas.Animation.MoveBy(System.Numerics.Vector2, Double)
   name.vb: MoveBy(Vector2, Double)
+- uid: Fantas.Animation.MoveBy(System.Numerics.Vector2,System.TimeSpan)
+  commentId: M:Fantas.Animation.MoveBy(System.Numerics.Vector2,System.TimeSpan)
+  id: MoveBy(System.Numerics.Vector2,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: MoveBy(Vector2, TimeSpan)
+  nameWithType: Animation.MoveBy(Vector2, TimeSpan)
+  fullName: Fantas.Animation.MoveBy(System.Numerics.Vector2, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Move a node vertically and horizontally relative to the current position
+  example: []
+  syntax:
+    content: public static Animation MoveBy(Vector2 delta, TimeSpan duration)
+    parameters:
+    - id: delta
+      type: System.Numerics.Vector2
+      description: Delta to move
+    - id: duration
+      type: System.TimeSpan
+      description: Duration
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function MoveBy(delta As Vector2, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.MoveBy*
+- uid: Fantas.Animation.MoveForever(System.Numerics.Vector2)
+  commentId: M:Fantas.Animation.MoveForever(System.Numerics.Vector2)
+  id: MoveForever(System.Numerics.Vector2)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: MoveForever(Vector2)
+  nameWithType: Animation.MoveForever(Vector2)
+  fullName: Fantas.Animation.MoveForever(System.Numerics.Vector2)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Move node with given velocity indefinitely
+  example: []
+  syntax:
+    content: public static Animation MoveForever(Vector2 velocity)
+    parameters:
+    - id: velocity
+      type: System.Numerics.Vector2
+      description: Velocity in points/second
+    return:
+      type: Fantas.Animation
+      description: ''
+    content.vb: Public Shared Function MoveForever(velocity As Vector2) As Animation
+  overload: Fantas.Animation.MoveForever*
+- uid: Fantas.Animation.MoveXForever(System.Single)
+  commentId: M:Fantas.Animation.MoveXForever(System.Single)
+  id: MoveXForever(System.Single)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: MoveXForever(float)
+  nameWithType: Animation.MoveXForever(float)
+  fullName: Fantas.Animation.MoveXForever(float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Move node with given X velocity indefinitely
+  example: []
+  syntax:
+    content: public static Animation MoveXForever(float xVelocity)
+    parameters:
+    - id: xVelocity
+      type: System.Single
+      description: Speed in points/second
+    return:
+      type: Fantas.Animation
+      description: ''
+    content.vb: Public Shared Function MoveXForever(xVelocity As Single) As Animation
+  overload: Fantas.Animation.MoveXForever*
+  nameWithType.vb: Animation.MoveXForever(Single)
+  fullName.vb: Fantas.Animation.MoveXForever(Single)
+  name.vb: MoveXForever(Single)
+- uid: Fantas.Animation.MoveYForever(System.Single)
+  commentId: M:Fantas.Animation.MoveYForever(System.Single)
+  id: MoveYForever(System.Single)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: MoveYForever(float)
+  nameWithType: Animation.MoveYForever(float)
+  fullName: Fantas.Animation.MoveYForever(float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Move node with given Y velocity indefinitely
+  example: []
+  syntax:
+    content: public static Animation MoveYForever(float yVelocity)
+    parameters:
+    - id: yVelocity
+      type: System.Single
+      description: Speed in points/second
+    return:
+      type: Fantas.Animation
+      description: ''
+    content.vb: Public Shared Function MoveYForever(yVelocity As Single) As Animation
+  overload: Fantas.Animation.MoveYForever*
+  nameWithType.vb: Animation.MoveYForever(Single)
+  fullName.vb: Fantas.Animation.MoveYForever(Single)
+  name.vb: MoveYForever(Single)
 - uid: Fantas.Animation.MoveBy(System.Single,System.Single,System.Double)
   commentId: M:Fantas.Animation.MoveBy(System.Single,System.Single,System.Double)
   id: MoveBy(System.Single,System.Single,System.Double)
@@ -601,7 +1033,7 @@ items:
   fullName: Fantas.Animation.MoveBy(float, float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -627,6 +1059,44 @@ items:
   nameWithType.vb: Animation.MoveBy(Single, Single, Double)
   fullName.vb: Fantas.Animation.MoveBy(Single, Single, Double)
   name.vb: MoveBy(Single, Single, Double)
+- uid: Fantas.Animation.MoveBy(System.Single,System.Single,System.TimeSpan)
+  commentId: M:Fantas.Animation.MoveBy(System.Single,System.Single,System.TimeSpan)
+  id: MoveBy(System.Single,System.Single,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: MoveBy(float, float, TimeSpan)
+  nameWithType: Animation.MoveBy(float, float, TimeSpan)
+  fullName: Fantas.Animation.MoveBy(float, float, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Move a node vertically and horizontally relative to the current position
+  example: []
+  syntax:
+    content: public static Animation MoveBy(float deltaX, float deltaY, TimeSpan duration)
+    parameters:
+    - id: deltaX
+      type: System.Single
+      description: Delta X
+    - id: deltaY
+      type: System.Single
+      description: Delta Y
+    - id: duration
+      type: System.TimeSpan
+      description: Duration
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function MoveBy(deltaX As Single, deltaY As Single, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.MoveBy*
+  nameWithType.vb: Animation.MoveBy(Single, Single, TimeSpan)
+  fullName.vb: Fantas.Animation.MoveBy(Single, Single, System.TimeSpan)
+  name.vb: MoveBy(Single, Single, TimeSpan)
 - uid: Fantas.Animation.MoveXBy(System.Single,System.Double)
   commentId: M:Fantas.Animation.MoveXBy(System.Single,System.Double)
   id: MoveXBy(System.Single,System.Double)
@@ -639,7 +1109,7 @@ items:
   fullName: Fantas.Animation.MoveXBy(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -662,6 +1132,41 @@ items:
   nameWithType.vb: Animation.MoveXBy(Single, Double)
   fullName.vb: Fantas.Animation.MoveXBy(Single, Double)
   name.vb: MoveXBy(Single, Double)
+- uid: Fantas.Animation.MoveXBy(System.Single,System.TimeSpan)
+  commentId: M:Fantas.Animation.MoveXBy(System.Single,System.TimeSpan)
+  id: MoveXBy(System.Single,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: MoveXBy(float, TimeSpan)
+  nameWithType: Animation.MoveXBy(float, TimeSpan)
+  fullName: Fantas.Animation.MoveXBy(float, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Move a node horizontally relative to the current position
+  example: []
+  syntax:
+    content: public static Animation MoveXBy(float deltaX, TimeSpan duration)
+    parameters:
+    - id: deltaX
+      type: System.Single
+      description: Delta X
+    - id: duration
+      type: System.TimeSpan
+      description: Duration
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function MoveXBy(deltaX As Single, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.MoveXBy*
+  nameWithType.vb: Animation.MoveXBy(Single, TimeSpan)
+  fullName.vb: Fantas.Animation.MoveXBy(Single, System.TimeSpan)
+  name.vb: MoveXBy(Single, TimeSpan)
 - uid: Fantas.Animation.MoveYBy(System.Single,System.Double)
   commentId: M:Fantas.Animation.MoveYBy(System.Single,System.Double)
   id: MoveYBy(System.Single,System.Double)
@@ -674,7 +1179,7 @@ items:
   fullName: Fantas.Animation.MoveYBy(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -688,7 +1193,7 @@ items:
       description: Delta Y
     - id: duration
       type: System.Double
-      description: Duration (in Seconds)
+      description: Duration
     return:
       type: Fantas.Animation
       description: Animation object that can be executed on a Node
@@ -697,6 +1202,41 @@ items:
   nameWithType.vb: Animation.MoveYBy(Single, Double)
   fullName.vb: Fantas.Animation.MoveYBy(Single, Double)
   name.vb: MoveYBy(Single, Double)
+- uid: Fantas.Animation.MoveYBy(System.Single,System.TimeSpan)
+  commentId: M:Fantas.Animation.MoveYBy(System.Single,System.TimeSpan)
+  id: MoveYBy(System.Single,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: MoveYBy(float, TimeSpan)
+  nameWithType: Animation.MoveYBy(float, TimeSpan)
+  fullName: Fantas.Animation.MoveYBy(float, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Move a node vertically relative to the current position
+  example: []
+  syntax:
+    content: public static Animation MoveYBy(float deltaY, TimeSpan duration)
+    parameters:
+    - id: deltaY
+      type: System.Single
+      description: Delta Y
+    - id: duration
+      type: System.TimeSpan
+      description: Duration
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function MoveYBy(deltaY As Single, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.MoveYBy*
+  nameWithType.vb: Animation.MoveYBy(Single, TimeSpan)
+  fullName.vb: Fantas.Animation.MoveYBy(Single, System.TimeSpan)
+  name.vb: MoveYBy(Single, TimeSpan)
 - uid: Fantas.Animation.MoveTo(System.Drawing.PointF,System.Double)
   commentId: M:Fantas.Animation.MoveTo(System.Drawing.PointF,System.Double)
   id: MoveTo(System.Drawing.PointF,System.Double)
@@ -709,7 +1249,7 @@ items:
   fullName: Fantas.Animation.MoveTo(System.Drawing.PointF, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -732,6 +1272,38 @@ items:
   nameWithType.vb: Animation.MoveTo(PointF, Double)
   fullName.vb: Fantas.Animation.MoveTo(System.Drawing.PointF, Double)
   name.vb: MoveTo(PointF, Double)
+- uid: Fantas.Animation.MoveTo(System.Drawing.PointF,System.TimeSpan)
+  commentId: M:Fantas.Animation.MoveTo(System.Drawing.PointF,System.TimeSpan)
+  id: MoveTo(System.Drawing.PointF,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: MoveTo(PointF, TimeSpan)
+  nameWithType: Animation.MoveTo(PointF, TimeSpan)
+  fullName: Fantas.Animation.MoveTo(System.Drawing.PointF, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Move node to a new position
+  example: []
+  syntax:
+    content: public static Animation MoveTo(PointF location, TimeSpan duration)
+    parameters:
+    - id: location
+      type: System.Drawing.PointF
+      description: New node position
+    - id: duration
+      type: System.TimeSpan
+      description: Duration
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function MoveTo(location As PointF, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.MoveTo*
 - uid: Fantas.Animation.MoveToX(System.Single,System.Double)
   commentId: M:Fantas.Animation.MoveToX(System.Single,System.Double)
   id: MoveToX(System.Single,System.Double)
@@ -744,7 +1316,7 @@ items:
   fullName: Fantas.Animation.MoveToX(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -767,6 +1339,41 @@ items:
   nameWithType.vb: Animation.MoveToX(Single, Double)
   fullName.vb: Fantas.Animation.MoveToX(Single, Double)
   name.vb: MoveToX(Single, Double)
+- uid: Fantas.Animation.MoveToX(System.Single,System.TimeSpan)
+  commentId: M:Fantas.Animation.MoveToX(System.Single,System.TimeSpan)
+  id: MoveToX(System.Single,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: MoveToX(float, TimeSpan)
+  nameWithType: Animation.MoveToX(float, TimeSpan)
+  fullName: Fantas.Animation.MoveToX(float, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Move node horizontally
+  example: []
+  syntax:
+    content: public static Animation MoveToX(float x, TimeSpan duration)
+    parameters:
+    - id: x
+      type: System.Single
+      description: New node X position
+    - id: duration
+      type: System.TimeSpan
+      description: Duration
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function MoveToX(x As Single, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.MoveToX*
+  nameWithType.vb: Animation.MoveToX(Single, TimeSpan)
+  fullName.vb: Fantas.Animation.MoveToX(Single, System.TimeSpan)
+  name.vb: MoveToX(Single, TimeSpan)
 - uid: Fantas.Animation.MoveToY(System.Single,System.Double)
   commentId: M:Fantas.Animation.MoveToY(System.Single,System.Double)
   id: MoveToY(System.Single,System.Double)
@@ -779,7 +1386,7 @@ items:
   fullName: Fantas.Animation.MoveToY(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -802,41 +1409,169 @@ items:
   nameWithType.vb: Animation.MoveToY(Single, Double)
   fullName.vb: Fantas.Animation.MoveToY(Single, Double)
   name.vb: MoveToY(Single, Double)
-- uid: Fantas.Animation.Shake(System.Double,System.Numerics.Vector2)
-  commentId: M:Fantas.Animation.Shake(System.Double,System.Numerics.Vector2)
-  id: Shake(System.Double,System.Numerics.Vector2)
+- uid: Fantas.Animation.MoveToY(System.Single,System.TimeSpan)
+  commentId: M:Fantas.Animation.MoveToY(System.Single,System.TimeSpan)
+  id: MoveToY(System.Single,System.TimeSpan)
   parent: Fantas.Animation
   langs:
   - csharp
   - vb
-  name: Shake(double, Vector2)
-  nameWithType: Animation.Shake(double, Vector2)
-  fullName: Fantas.Animation.Shake(double, System.Numerics.Vector2)
+  name: MoveToY(float, TimeSpan)
+  nameWithType: Animation.MoveToY(float, TimeSpan)
+  fullName: Fantas.Animation.MoveToY(float, System.TimeSpan)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Move node vertically
+  example: []
+  syntax:
+    content: public static Animation MoveToY(float y, TimeSpan duration)
+    parameters:
+    - id: y
+      type: System.Single
+      description: New node Y position
+    - id: duration
+      type: System.TimeSpan
+      description: Duration
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function MoveToY(y As Single, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.MoveToY*
+  nameWithType.vb: Animation.MoveToY(Single, TimeSpan)
+  fullName.vb: Fantas.Animation.MoveToY(Single, System.TimeSpan)
+  name.vb: MoveToY(Single, TimeSpan)
+- uid: Fantas.Animation.Shake(System.Double)
+  commentId: M:Fantas.Animation.Shake(System.Double)
+  id: Shake(System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: Shake(double)
+  nameWithType: Animation.Shake(double)
+  fullName: Fantas.Animation.Shake(double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Shake node animation
   example: []
   syntax:
-    content: public static Animation Shake(double duration, Vector2 delta)
+    content: public static Animation Shake(double duration)
     parameters:
     - id: duration
       type: System.Double
       description: ''
-    - id: delta
-      type: System.Numerics.Vector2
+    return:
+      type: Fantas.Animation
+      description: ''
+    content.vb: Public Shared Function Shake(duration As Double) As Animation
+  overload: Fantas.Animation.Shake*
+  nameWithType.vb: Animation.Shake(Double)
+  fullName.vb: Fantas.Animation.Shake(Double)
+  name.vb: Shake(Double)
+- uid: Fantas.Animation.Shake(System.TimeSpan)
+  commentId: M:Fantas.Animation.Shake(System.TimeSpan)
+  id: Shake(System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: Shake(TimeSpan)
+  nameWithType: Animation.Shake(TimeSpan)
+  fullName: Fantas.Animation.Shake(System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Shake node animation
+  example: []
+  syntax:
+    content: public static Animation Shake(TimeSpan duration)
+    parameters:
+    - id: duration
+      type: System.TimeSpan
       description: ''
     return:
       type: Fantas.Animation
       description: ''
-    content.vb: Public Shared Function Shake(duration As Double, delta As Vector2) As Animation
+    content.vb: Public Shared Function Shake(duration As TimeSpan) As Animation
   overload: Fantas.Animation.Shake*
-  nameWithType.vb: Animation.Shake(Double, Vector2)
-  fullName.vb: Fantas.Animation.Shake(Double, System.Numerics.Vector2)
-  name.vb: Shake(Double, Vector2)
+- uid: Fantas.Animation.Shake(System.Numerics.Vector2,System.TimeSpan)
+  commentId: M:Fantas.Animation.Shake(System.Numerics.Vector2,System.TimeSpan)
+  id: Shake(System.Numerics.Vector2,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: Shake(Vector2, TimeSpan)
+  nameWithType: Animation.Shake(Vector2, TimeSpan)
+  fullName: Fantas.Animation.Shake(System.Numerics.Vector2, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Shake node animation
+  example: []
+  syntax:
+    content: public static Animation Shake(Vector2 delta, TimeSpan duration)
+    parameters:
+    - id: delta
+      type: System.Numerics.Vector2
+      description: ''
+    - id: duration
+      type: System.TimeSpan
+      description: ''
+    return:
+      type: Fantas.Animation
+      description: ''
+    content.vb: Public Shared Function Shake(delta As Vector2, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.Shake*
+- uid: Fantas.Animation.Shake(System.Numerics.Vector2,System.Double)
+  commentId: M:Fantas.Animation.Shake(System.Numerics.Vector2,System.Double)
+  id: Shake(System.Numerics.Vector2,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: Shake(Vector2, double)
+  nameWithType: Animation.Shake(Vector2, double)
+  fullName: Fantas.Animation.Shake(System.Numerics.Vector2, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Shake node animation
+  example: []
+  syntax:
+    content: public static Animation Shake(Vector2 delta, double duration)
+    parameters:
+    - id: delta
+      type: System.Numerics.Vector2
+      description: ''
+    - id: duration
+      type: System.Double
+      description: ''
+    return:
+      type: Fantas.Animation
+      description: ''
+    content.vb: Public Shared Function Shake(delta As Vector2, duration As Double) As Animation
+  overload: Fantas.Animation.Shake*
+  nameWithType.vb: Animation.Shake(Vector2, Double)
+  fullName.vb: Fantas.Animation.Shake(System.Numerics.Vector2, Double)
+  name.vb: Shake(Vector2, Double)
 - uid: Fantas.Animation.SineVertical(System.Single,System.Single,System.Double)
   commentId: M:Fantas.Animation.SineVertical(System.Single,System.Single,System.Double)
   id: SineVertical(System.Single,System.Single,System.Double)
@@ -849,7 +1584,7 @@ items:
   fullName: Fantas.Animation.SineVertical(float, float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -875,6 +1610,44 @@ items:
   nameWithType.vb: Animation.SineVertical(Single, Single, Double)
   fullName.vb: Fantas.Animation.SineVertical(Single, Single, Double)
   name.vb: SineVertical(Single, Single, Double)
+- uid: Fantas.Animation.SineVertical(System.Single,System.Single,System.TimeSpan)
+  commentId: M:Fantas.Animation.SineVertical(System.Single,System.Single,System.TimeSpan)
+  id: SineVertical(System.Single,System.Single,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: SineVertical(float, float, TimeSpan)
+  nameWithType: Animation.SineVertical(float, float, TimeSpan)
+  fullName: Fantas.Animation.SineVertical(float, float, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Oscillate node vertical position using a Sine wave
+  example: []
+  syntax:
+    content: public static Animation SineVertical(float amplitude, float frequency, TimeSpan duration)
+    parameters:
+    - id: amplitude
+      type: System.Single
+      description: Amplitude of sine movement
+    - id: frequency
+      type: System.Single
+      description: Frequency of oscillation
+    - id: duration
+      type: System.TimeSpan
+      description: Duration of oscillation in seconds
+    return:
+      type: Fantas.Animation
+      description: ''
+    content.vb: Public Shared Function SineVertical(amplitude As Single, frequency As Single, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.SineVertical*
+  nameWithType.vb: Animation.SineVertical(Single, Single, TimeSpan)
+  fullName.vb: Fantas.Animation.SineVertical(Single, Single, System.TimeSpan)
+  name.vb: SineVertical(Single, Single, TimeSpan)
 - uid: Fantas.Animation.SineHorizontal(System.Single,System.Single,System.Double)
   commentId: M:Fantas.Animation.SineHorizontal(System.Single,System.Single,System.Double)
   id: SineHorizontal(System.Single,System.Single,System.Double)
@@ -887,7 +1660,7 @@ items:
   fullName: Fantas.Animation.SineHorizontal(float, float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -913,6 +1686,44 @@ items:
   nameWithType.vb: Animation.SineHorizontal(Single, Single, Double)
   fullName.vb: Fantas.Animation.SineHorizontal(Single, Single, Double)
   name.vb: SineHorizontal(Single, Single, Double)
+- uid: Fantas.Animation.SineHorizontal(System.Single,System.Single,System.TimeSpan)
+  commentId: M:Fantas.Animation.SineHorizontal(System.Single,System.Single,System.TimeSpan)
+  id: SineHorizontal(System.Single,System.Single,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: SineHorizontal(float, float, TimeSpan)
+  nameWithType: Animation.SineHorizontal(float, float, TimeSpan)
+  fullName: Fantas.Animation.SineHorizontal(float, float, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Oscillate node vertical position using a Sine wave
+  example: []
+  syntax:
+    content: public static Animation SineHorizontal(float amplitude, float frequency, TimeSpan duration)
+    parameters:
+    - id: amplitude
+      type: System.Single
+      description: Amplitude of sine movement
+    - id: frequency
+      type: System.Single
+      description: Frequency of oscillation
+    - id: duration
+      type: System.TimeSpan
+      description: Duration of oscillation
+    return:
+      type: Fantas.Animation
+      description: ''
+    content.vb: Public Shared Function SineHorizontal(amplitude As Single, frequency As Single, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.SineHorizontal*
+  nameWithType.vb: Animation.SineHorizontal(Single, Single, TimeSpan)
+  fullName.vb: Fantas.Animation.SineHorizontal(Single, Single, System.TimeSpan)
+  name.vb: SineHorizontal(Single, Single, TimeSpan)
 - uid: Fantas.Animation.OrbitPoint(System.Drawing.PointF,System.Double,System.Double,System.Double)
   commentId: M:Fantas.Animation.OrbitPoint(System.Drawing.PointF,System.Double,System.Double,System.Double)
   id: OrbitPoint(System.Drawing.PointF,System.Double,System.Double,System.Double)
@@ -925,7 +1736,7 @@ items:
   fullName: Fantas.Animation.OrbitPoint(System.Drawing.PointF, double, double, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -954,6 +1765,47 @@ items:
   nameWithType.vb: Animation.OrbitPoint(PointF, Double, Double, Double)
   fullName.vb: Fantas.Animation.OrbitPoint(System.Drawing.PointF, Double, Double, Double)
   name.vb: OrbitPoint(PointF, Double, Double, Double)
+- uid: Fantas.Animation.OrbitPoint(System.Drawing.PointF,System.Double,System.TimeSpan,System.Double)
+  commentId: M:Fantas.Animation.OrbitPoint(System.Drawing.PointF,System.Double,System.TimeSpan,System.Double)
+  id: OrbitPoint(System.Drawing.PointF,System.Double,System.TimeSpan,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: OrbitPoint(PointF, double, TimeSpan, double)
+  nameWithType: Animation.OrbitPoint(PointF, double, TimeSpan, double)
+  fullName: Fantas.Animation.OrbitPoint(System.Drawing.PointF, double, System.TimeSpan, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Rotate Node around a pivot
+  example: []
+  syntax:
+    content: public static Animation OrbitPoint(PointF center, double angle, TimeSpan duration, double factor = 1)
+    parameters:
+    - id: center
+      type: System.Drawing.PointF
+      description: ''
+    - id: angle
+      type: System.Double
+      description: ''
+    - id: duration
+      type: System.TimeSpan
+      description: ''
+    - id: factor
+      type: System.Double
+      description: Radius factor for the end of the orbit (1 remain same)
+    return:
+      type: Fantas.Animation
+      description: ''
+    content.vb: Public Shared Function OrbitPoint(center As PointF, angle As Double, duration As TimeSpan, factor As Double = 1) As Animation
+  overload: Fantas.Animation.OrbitPoint*
+  nameWithType.vb: Animation.OrbitPoint(PointF, Double, TimeSpan, Double)
+  fullName.vb: Fantas.Animation.OrbitPoint(System.Drawing.PointF, Double, System.TimeSpan, Double)
+  name.vb: OrbitPoint(PointF, Double, TimeSpan, Double)
 - uid: Fantas.Animation.OrbitNode(Fantas.Node,System.Double,System.Double,System.Double)
   commentId: M:Fantas.Animation.OrbitNode(Fantas.Node,System.Double,System.Double,System.Double)
   id: OrbitNode(Fantas.Node,System.Double,System.Double,System.Double)
@@ -966,7 +1818,7 @@ items:
   fullName: Fantas.Animation.OrbitNode(Fantas.Node, double, double, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -995,6 +1847,47 @@ items:
   nameWithType.vb: Animation.OrbitNode(Node, Double, Double, Double)
   fullName.vb: Fantas.Animation.OrbitNode(Fantas.Node, Double, Double, Double)
   name.vb: OrbitNode(Node, Double, Double, Double)
+- uid: Fantas.Animation.OrbitNode(Fantas.Node,System.Double,System.TimeSpan,System.Double)
+  commentId: M:Fantas.Animation.OrbitNode(Fantas.Node,System.Double,System.TimeSpan,System.Double)
+  id: OrbitNode(Fantas.Node,System.Double,System.TimeSpan,System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: OrbitNode(Node, double, TimeSpan, double)
+  nameWithType: Animation.OrbitNode(Node, double, TimeSpan, double)
+  fullName: Fantas.Animation.OrbitNode(Fantas.Node, double, System.TimeSpan, double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Rotate Node around another Node
+  example: []
+  syntax:
+    content: public static Animation OrbitNode(Node center, double angle, TimeSpan duration, double factor = 1)
+    parameters:
+    - id: center
+      type: Fantas.Node
+      description: ''
+    - id: angle
+      type: System.Double
+      description: ''
+    - id: duration
+      type: System.TimeSpan
+      description: ''
+    - id: factor
+      type: System.Double
+      description: Radius factor for the end of the orbit (1 remain same)
+    return:
+      type: Fantas.Animation
+      description: ''
+    content.vb: Public Shared Function OrbitNode(center As Node, angle As Double, duration As TimeSpan, factor As Double = 1) As Animation
+  overload: Fantas.Animation.OrbitNode*
+  nameWithType.vb: Animation.OrbitNode(Node, Double, TimeSpan, Double)
+  fullName.vb: Fantas.Animation.OrbitNode(Fantas.Node, Double, System.TimeSpan, Double)
+  name.vb: OrbitNode(Node, Double, TimeSpan, Double)
 - uid: Fantas.Animation.RemoveFromParent
   commentId: M:Fantas.Animation.RemoveFromParent
   id: RemoveFromParent
@@ -1007,7 +1900,7 @@ items:
   fullName: Fantas.Animation.RemoveFromParent()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1032,7 +1925,7 @@ items:
   fullName: Fantas.Animation.Repeat(Fantas.Animation, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1067,7 +1960,7 @@ items:
   fullName: Fantas.Animation.RepeatForever(Fantas.Animation)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1096,7 +1989,7 @@ items:
   fullName: Fantas.Animation.ResizeTo(System.Drawing.SizeF, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1119,6 +2012,38 @@ items:
   nameWithType.vb: Animation.ResizeTo(SizeF, Double)
   fullName.vb: Fantas.Animation.ResizeTo(System.Drawing.SizeF, Double)
   name.vb: ResizeTo(SizeF, Double)
+- uid: Fantas.Animation.ResizeTo(System.Drawing.SizeF,System.TimeSpan)
+  commentId: M:Fantas.Animation.ResizeTo(System.Drawing.SizeF,System.TimeSpan)
+  id: ResizeTo(System.Drawing.SizeF,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: ResizeTo(SizeF, TimeSpan)
+  nameWithType: Animation.ResizeTo(SizeF, TimeSpan)
+  fullName: Fantas.Animation.ResizeTo(System.Drawing.SizeF, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Resize a SpriteNode
+  example: []
+  syntax:
+    content: public static Animation ResizeTo(SizeF size, TimeSpan duration)
+    parameters:
+    - id: size
+      type: System.Drawing.SizeF
+      description: New size of SpriteNode
+    - id: duration
+      type: System.TimeSpan
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a SpriteNode
+    content.vb: Public Shared Function ResizeTo(size As SizeF, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.ResizeTo*
 - uid: Fantas.Animation.ResizeToHeight(System.Single,System.Double)
   commentId: M:Fantas.Animation.ResizeToHeight(System.Single,System.Double)
   id: ResizeToHeight(System.Single,System.Double)
@@ -1131,7 +2056,7 @@ items:
   fullName: Fantas.Animation.ResizeToHeight(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1154,6 +2079,41 @@ items:
   nameWithType.vb: Animation.ResizeToHeight(Single, Double)
   fullName.vb: Fantas.Animation.ResizeToHeight(Single, Double)
   name.vb: ResizeToHeight(Single, Double)
+- uid: Fantas.Animation.ResizeToHeight(System.Single,System.TimeSpan)
+  commentId: M:Fantas.Animation.ResizeToHeight(System.Single,System.TimeSpan)
+  id: ResizeToHeight(System.Single,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: ResizeToHeight(float, TimeSpan)
+  nameWithType: Animation.ResizeToHeight(float, TimeSpan)
+  fullName: Fantas.Animation.ResizeToHeight(float, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Change SpriteNode Height
+  example: []
+  syntax:
+    content: public static Animation ResizeToHeight(float height, TimeSpan duration)
+    parameters:
+    - id: height
+      type: System.Single
+      description: New height of SpriteNode
+    - id: duration
+      type: System.TimeSpan
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a SpriteNode
+    content.vb: Public Shared Function ResizeToHeight(height As Single, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.ResizeToHeight*
+  nameWithType.vb: Animation.ResizeToHeight(Single, TimeSpan)
+  fullName.vb: Fantas.Animation.ResizeToHeight(Single, System.TimeSpan)
+  name.vb: ResizeToHeight(Single, TimeSpan)
 - uid: Fantas.Animation.ResizeToWidth(System.Single,System.Double)
   commentId: M:Fantas.Animation.ResizeToWidth(System.Single,System.Double)
   id: ResizeToWidth(System.Single,System.Double)
@@ -1166,7 +2126,7 @@ items:
   fullName: Fantas.Animation.ResizeToWidth(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1189,6 +2149,41 @@ items:
   nameWithType.vb: Animation.ResizeToWidth(Single, Double)
   fullName.vb: Fantas.Animation.ResizeToWidth(Single, Double)
   name.vb: ResizeToWidth(Single, Double)
+- uid: Fantas.Animation.ResizeToWidth(System.Single,System.TimeSpan)
+  commentId: M:Fantas.Animation.ResizeToWidth(System.Single,System.TimeSpan)
+  id: ResizeToWidth(System.Single,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: ResizeToWidth(float, TimeSpan)
+  nameWithType: Animation.ResizeToWidth(float, TimeSpan)
+  fullName: Fantas.Animation.ResizeToWidth(float, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Change SpriteNode width
+  example: []
+  syntax:
+    content: public static Animation ResizeToWidth(float width, TimeSpan duration)
+    parameters:
+    - id: width
+      type: System.Single
+      description: New width of SpriteNode
+    - id: duration
+      type: System.TimeSpan
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a SpriteNode
+    content.vb: Public Shared Function ResizeToWidth(width As Single, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.ResizeToWidth*
+  nameWithType.vb: Animation.ResizeToWidth(Single, TimeSpan)
+  fullName.vb: Fantas.Animation.ResizeToWidth(Single, System.TimeSpan)
+  name.vb: ResizeToWidth(Single, TimeSpan)
 - uid: Fantas.Animation.RotateBy(System.Double,System.Double)
   commentId: M:Fantas.Animation.RotateBy(System.Double,System.Double)
   id: RotateBy(System.Double,System.Double)
@@ -1201,7 +2196,7 @@ items:
   fullName: Fantas.Animation.RotateBy(double, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1224,6 +2219,73 @@ items:
   nameWithType.vb: Animation.RotateBy(Double, Double)
   fullName.vb: Fantas.Animation.RotateBy(Double, Double)
   name.vb: RotateBy(Double, Double)
+- uid: Fantas.Animation.RotateBy(System.Double,System.TimeSpan)
+  commentId: M:Fantas.Animation.RotateBy(System.Double,System.TimeSpan)
+  id: RotateBy(System.Double,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: RotateBy(double, TimeSpan)
+  nameWithType: Animation.RotateBy(double, TimeSpan)
+  fullName: Fantas.Animation.RotateBy(double, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Rotate by a angle delta
+  example: []
+  syntax:
+    content: public static Animation RotateBy(double radians, TimeSpan duration)
+    parameters:
+    - id: radians
+      type: System.Double
+      description: delta angle in radians
+    - id: duration
+      type: System.TimeSpan
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function RotateBy(radians As Double, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.RotateBy*
+  nameWithType.vb: Animation.RotateBy(Double, TimeSpan)
+  fullName.vb: Fantas.Animation.RotateBy(Double, System.TimeSpan)
+  name.vb: RotateBy(Double, TimeSpan)
+- uid: Fantas.Animation.RotateForever(System.Double)
+  commentId: M:Fantas.Animation.RotateForever(System.Double)
+  id: RotateForever(System.Double)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: RotateForever(double)
+  nameWithType: Animation.RotateForever(double)
+  fullName: Fantas.Animation.RotateForever(double)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Rotate indefinitely given with angular velocity
+  example: []
+  syntax:
+    content: public static Animation RotateForever(double angularVelocity)
+    parameters:
+    - id: angularVelocity
+      type: System.Double
+      description: Angular velocity in radians/second
+    return:
+      type: Fantas.Animation
+      description: ''
+    content.vb: Public Shared Function RotateForever(angularVelocity As Double) As Animation
+  overload: Fantas.Animation.RotateForever*
+  nameWithType.vb: Animation.RotateForever(Double)
+  fullName.vb: Fantas.Animation.RotateForever(Double)
+  name.vb: RotateForever(Double)
 - uid: Fantas.Animation.RotateTo(System.Double,System.Double)
   commentId: M:Fantas.Animation.RotateTo(System.Double,System.Double)
   id: RotateTo(System.Double,System.Double)
@@ -1236,7 +2298,7 @@ items:
   fullName: Fantas.Animation.RotateTo(double, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1259,6 +2321,41 @@ items:
   nameWithType.vb: Animation.RotateTo(Double, Double)
   fullName.vb: Fantas.Animation.RotateTo(Double, Double)
   name.vb: RotateTo(Double, Double)
+- uid: Fantas.Animation.RotateTo(System.Double,System.TimeSpan)
+  commentId: M:Fantas.Animation.RotateTo(System.Double,System.TimeSpan)
+  id: RotateTo(System.Double,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: RotateTo(double, TimeSpan)
+  nameWithType: Animation.RotateTo(double, TimeSpan)
+  fullName: Fantas.Animation.RotateTo(double, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Rotate to the given angle
+  example: []
+  syntax:
+    content: public static Animation RotateTo(double radians, TimeSpan duration)
+    parameters:
+    - id: radians
+      type: System.Double
+      description: Final angle in radians
+    - id: duration
+      type: System.TimeSpan
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function RotateTo(radians As Double, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.RotateTo*
+  nameWithType.vb: Animation.RotateTo(Double, TimeSpan)
+  fullName.vb: Fantas.Animation.RotateTo(Double, System.TimeSpan)
+  name.vb: RotateTo(Double, TimeSpan)
 - uid: Fantas.Animation.RunAction(System.Action)
   commentId: M:Fantas.Animation.RunAction(System.Action)
   id: RunAction(System.Action)
@@ -1271,7 +2368,7 @@ items:
   fullName: Fantas.Animation.RunAction(System.Action)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1300,7 +2397,7 @@ items:
   fullName: Fantas.Animation.ScaleBy(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1323,6 +2420,41 @@ items:
   nameWithType.vb: Animation.ScaleBy(Single, Double)
   fullName.vb: Fantas.Animation.ScaleBy(Single, Double)
   name.vb: ScaleBy(Single, Double)
+- uid: Fantas.Animation.ScaleBy(System.Single,System.TimeSpan)
+  commentId: M:Fantas.Animation.ScaleBy(System.Single,System.TimeSpan)
+  id: ScaleBy(System.Single,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: ScaleBy(float, TimeSpan)
+  nameWithType: Animation.ScaleBy(float, TimeSpan)
+  fullName: Fantas.Animation.ScaleBy(float, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Animate node applying a new scale
+  example: []
+  syntax:
+    content: public static Animation ScaleBy(float scale, TimeSpan duration)
+    parameters:
+    - id: scale
+      type: System.Single
+      description: Scale factor
+    - id: duration
+      type: System.TimeSpan
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function ScaleBy(scale As Single, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.ScaleBy*
+  nameWithType.vb: Animation.ScaleBy(Single, TimeSpan)
+  fullName.vb: Fantas.Animation.ScaleBy(Single, System.TimeSpan)
+  name.vb: ScaleBy(Single, TimeSpan)
 - uid: Fantas.Animation.ScaleTo(System.Single,System.Double)
   commentId: M:Fantas.Animation.ScaleTo(System.Single,System.Double)
   id: ScaleTo(System.Single,System.Double)
@@ -1335,7 +2467,7 @@ items:
   fullName: Fantas.Animation.ScaleTo(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1358,6 +2490,41 @@ items:
   nameWithType.vb: Animation.ScaleTo(Single, Double)
   fullName.vb: Fantas.Animation.ScaleTo(Single, Double)
   name.vb: ScaleTo(Single, Double)
+- uid: Fantas.Animation.ScaleTo(System.Single,System.TimeSpan)
+  commentId: M:Fantas.Animation.ScaleTo(System.Single,System.TimeSpan)
+  id: ScaleTo(System.Single,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: ScaleTo(float, TimeSpan)
+  nameWithType: Animation.ScaleTo(float, TimeSpan)
+  fullName: Fantas.Animation.ScaleTo(float, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Set node to a new scale
+  example: []
+  syntax:
+    content: public static Animation ScaleTo(float newScale, TimeSpan duration)
+    parameters:
+    - id: newScale
+      type: System.Single
+      description: Final scale of Node
+    - id: duration
+      type: System.TimeSpan
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function ScaleTo(newScale As Single, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.ScaleTo*
+  nameWithType.vb: Animation.ScaleTo(Single, TimeSpan)
+  fullName.vb: Fantas.Animation.ScaleTo(Single, System.TimeSpan)
+  name.vb: ScaleTo(Single, TimeSpan)
 - uid: Fantas.Animation.ScaleTo(System.Single,System.Single,System.Double)
   commentId: M:Fantas.Animation.ScaleTo(System.Single,System.Single,System.Double)
   id: ScaleTo(System.Single,System.Single,System.Double)
@@ -1370,7 +2537,7 @@ items:
   fullName: Fantas.Animation.ScaleTo(float, float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1396,6 +2563,44 @@ items:
   nameWithType.vb: Animation.ScaleTo(Single, Single, Double)
   fullName.vb: Fantas.Animation.ScaleTo(Single, Single, Double)
   name.vb: ScaleTo(Single, Single, Double)
+- uid: Fantas.Animation.ScaleTo(System.Single,System.Single,System.TimeSpan)
+  commentId: M:Fantas.Animation.ScaleTo(System.Single,System.Single,System.TimeSpan)
+  id: ScaleTo(System.Single,System.Single,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: ScaleTo(float, float, TimeSpan)
+  nameWithType: Animation.ScaleTo(float, float, TimeSpan)
+  fullName: Fantas.Animation.ScaleTo(float, float, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Set node to a new scale
+  example: []
+  syntax:
+    content: public static Animation ScaleTo(float xScale, float yScale, TimeSpan duration)
+    parameters:
+    - id: xScale
+      type: System.Single
+      description: Final xscale of Node
+    - id: yScale
+      type: System.Single
+      description: Final yscale of Node
+    - id: duration
+      type: System.TimeSpan
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function ScaleTo(xScale As Single, yScale As Single, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.ScaleTo*
+  nameWithType.vb: Animation.ScaleTo(Single, Single, TimeSpan)
+  fullName.vb: Fantas.Animation.ScaleTo(Single, Single, System.TimeSpan)
+  name.vb: ScaleTo(Single, Single, TimeSpan)
 - uid: Fantas.Animation.ScaleTo(System.Drawing.SizeF,System.Double)
   commentId: M:Fantas.Animation.ScaleTo(System.Drawing.SizeF,System.Double)
   id: ScaleTo(System.Drawing.SizeF,System.Double)
@@ -1408,7 +2613,7 @@ items:
   fullName: Fantas.Animation.ScaleTo(System.Drawing.SizeF, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1431,6 +2636,38 @@ items:
   nameWithType.vb: Animation.ScaleTo(SizeF, Double)
   fullName.vb: Fantas.Animation.ScaleTo(System.Drawing.SizeF, Double)
   name.vb: ScaleTo(SizeF, Double)
+- uid: Fantas.Animation.ScaleTo(System.Drawing.SizeF,System.TimeSpan)
+  commentId: M:Fantas.Animation.ScaleTo(System.Drawing.SizeF,System.TimeSpan)
+  id: ScaleTo(System.Drawing.SizeF,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: ScaleTo(SizeF, TimeSpan)
+  nameWithType: Animation.ScaleTo(SizeF, TimeSpan)
+  fullName: Fantas.Animation.ScaleTo(System.Drawing.SizeF, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Change scale to make node reach new size
+  example: []
+  syntax:
+    content: public static Animation ScaleTo(SizeF size, TimeSpan duration)
+    parameters:
+    - id: size
+      type: System.Drawing.SizeF
+      description: New size of Node
+    - id: duration
+      type: System.TimeSpan
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function ScaleTo(size As SizeF, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.ScaleTo*
 - uid: Fantas.Animation.ScaleXTo(System.Single,System.Double)
   commentId: M:Fantas.Animation.ScaleXTo(System.Single,System.Double)
   id: ScaleXTo(System.Single,System.Double)
@@ -1443,7 +2680,7 @@ items:
   fullName: Fantas.Animation.ScaleXTo(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1466,6 +2703,41 @@ items:
   nameWithType.vb: Animation.ScaleXTo(Single, Double)
   fullName.vb: Fantas.Animation.ScaleXTo(Single, Double)
   name.vb: ScaleXTo(Single, Double)
+- uid: Fantas.Animation.ScaleXTo(System.Single,System.TimeSpan)
+  commentId: M:Fantas.Animation.ScaleXTo(System.Single,System.TimeSpan)
+  id: ScaleXTo(System.Single,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: ScaleXTo(float, TimeSpan)
+  nameWithType: Animation.ScaleXTo(float, TimeSpan)
+  fullName: Fantas.Animation.ScaleXTo(float, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Change X scale
+  example: []
+  syntax:
+    content: public static Animation ScaleXTo(float xscale, TimeSpan duration)
+    parameters:
+    - id: xscale
+      type: System.Single
+      description: Final xscale of Node
+    - id: duration
+      type: System.TimeSpan
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function ScaleXTo(xscale As Single, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.ScaleXTo*
+  nameWithType.vb: Animation.ScaleXTo(Single, TimeSpan)
+  fullName.vb: Fantas.Animation.ScaleXTo(Single, System.TimeSpan)
+  name.vb: ScaleXTo(Single, TimeSpan)
 - uid: Fantas.Animation.ScaleYTo(System.Single,System.Double)
   commentId: M:Fantas.Animation.ScaleYTo(System.Single,System.Double)
   id: ScaleYTo(System.Single,System.Double)
@@ -1478,7 +2750,7 @@ items:
   fullName: Fantas.Animation.ScaleYTo(float, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1501,6 +2773,41 @@ items:
   nameWithType.vb: Animation.ScaleYTo(Single, Double)
   fullName.vb: Fantas.Animation.ScaleYTo(Single, Double)
   name.vb: ScaleYTo(Single, Double)
+- uid: Fantas.Animation.ScaleYTo(System.Single,System.TimeSpan)
+  commentId: M:Fantas.Animation.ScaleYTo(System.Single,System.TimeSpan)
+  id: ScaleYTo(System.Single,System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: ScaleYTo(float, TimeSpan)
+  nameWithType: Animation.ScaleYTo(float, TimeSpan)
+  fullName: Fantas.Animation.ScaleYTo(float, System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Change Y scale
+  example: []
+  syntax:
+    content: public static Animation ScaleYTo(float yscale, TimeSpan duration)
+    parameters:
+    - id: yscale
+      type: System.Single
+      description: Final yscale of Node
+    - id: duration
+      type: System.TimeSpan
+      description: Duration in seconds
+    return:
+      type: Fantas.Animation
+      description: Animation object that can be executed on a Node
+    content.vb: Public Shared Function ScaleYTo(yscale As Single, duration As TimeSpan) As Animation
+  overload: Fantas.Animation.ScaleYTo*
+  nameWithType.vb: Animation.ScaleYTo(Single, TimeSpan)
+  fullName.vb: Fantas.Animation.ScaleYTo(Single, System.TimeSpan)
+  name.vb: ScaleYTo(Single, TimeSpan)
 - uid: Fantas.Animation.Sequence(Fantas.Animation[])
   commentId: M:Fantas.Animation.Sequence(Fantas.Animation[])
   id: Sequence(Fantas.Animation[])
@@ -1513,7 +2820,7 @@ items:
   fullName: Fantas.Animation.Sequence(params Fantas.Animation[])
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1550,7 +2857,7 @@ items:
   fullName: Fantas.Animation.SetTexture(Fantas.Texture)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1579,7 +2886,7 @@ items:
   fullName: Fantas.Animation.SetTexture(Fantas.Texture, bool)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1614,7 +2921,7 @@ items:
   fullName: Fantas.Animation.Unhide()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1639,7 +2946,7 @@ items:
   fullName: Fantas.Animation.Wait(double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1662,6 +2969,68 @@ items:
   nameWithType.vb: Animation.Wait(Double)
   fullName.vb: Fantas.Animation.Wait(Double)
   name.vb: Wait(Double)
+- uid: Fantas.Animation.Wait(System.TimeSpan)
+  commentId: M:Fantas.Animation.Wait(System.TimeSpan)
+  id: Wait(System.TimeSpan)
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: Wait(TimeSpan)
+  nameWithType: Animation.Wait(TimeSpan)
+  fullName: Fantas.Animation.Wait(System.TimeSpan)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Wait, useful to chain with other animations
+
+    (e.g Rotate then Wait then Fade Out)
+  example: []
+  syntax:
+    content: public static Animation Wait(TimeSpan duration)
+    parameters:
+    - id: duration
+      type: System.TimeSpan
+      description: ''
+    return:
+      type: Fantas.Animation
+      description: ''
+    content.vb: Public Shared Function Wait(duration As TimeSpan) As Animation
+  overload: Fantas.Animation.Wait*
+- uid: Fantas.Animation.DurationSeconds
+  commentId: P:Fantas.Animation.DurationSeconds
+  id: DurationSeconds
+  parent: Fantas.Animation
+  langs:
+  - csharp
+  - vb
+  name: DurationSeconds
+  nameWithType: Animation.DurationSeconds
+  fullName: Fantas.Animation.DurationSeconds
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Duration to complete the animation.
+
+    WARNING: Some animation might ignore the change to this value
+
+    after the animation is created
+  example: []
+  syntax:
+    content: public double DurationSeconds { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property DurationSeconds As Double
+  overload: Fantas.Animation.DurationSeconds*
 - uid: Fantas.Animation.Duration
   commentId: P:Fantas.Animation.Duration
   id: Duration
@@ -1674,7 +3043,7 @@ items:
   fullName: Fantas.Animation.Duration
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1686,11 +3055,11 @@ items:
     after the animation is created
   example: []
   syntax:
-    content: public double Duration { get; set; }
+    content: public TimeSpan Duration { get; set; }
     parameters: []
     return:
-      type: System.Double
-    content.vb: Public Property Duration As Double
+      type: System.TimeSpan
+    content.vb: Public Property Duration As TimeSpan
   overload: Fantas.Animation.Duration*
 - uid: Fantas.Animation.ReversedAnimation
   commentId: P:Fantas.Animation.ReversedAnimation
@@ -1704,7 +3073,7 @@ items:
   fullName: Fantas.Animation.ReversedAnimation
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1734,7 +3103,7 @@ items:
   fullName: Fantas.Animation.Speed
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1759,7 +3128,7 @@ items:
   fullName: Fantas.Animation.TimingFunction
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1784,7 +3153,7 @@ items:
   fullName: Fantas.Animation.TimingMode
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Animation.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2156,6 +3525,14 @@ references:
     name: Drawing
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
 - uid: Fantas.Animation.Custom*
   commentId: Overload:Fantas.Animation.Custom
   isExternal: true
@@ -2366,6 +3743,27 @@ references:
     name: Numerics
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: Fantas.Animation.MoveForever*
+  commentId: Overload:Fantas.Animation.MoveForever
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_MoveForever_System_Numerics_Vector2_
+  name: MoveForever
+  nameWithType: Animation.MoveForever
+  fullName: Fantas.Animation.MoveForever
+- uid: Fantas.Animation.MoveXForever*
+  commentId: Overload:Fantas.Animation.MoveXForever
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_MoveXForever_System_Single_
+  name: MoveXForever
+  nameWithType: Animation.MoveXForever
+  fullName: Fantas.Animation.MoveXForever
+- uid: Fantas.Animation.MoveYForever*
+  commentId: Overload:Fantas.Animation.MoveYForever
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_MoveYForever_System_Single_
+  name: MoveYForever
+  nameWithType: Animation.MoveYForever
+  fullName: Fantas.Animation.MoveYForever
 - uid: Fantas.Animation.MoveXBy*
   commentId: Overload:Fantas.Animation.MoveXBy
   isExternal: true
@@ -2404,7 +3802,7 @@ references:
 - uid: Fantas.Animation.Shake*
   commentId: Overload:Fantas.Animation.Shake
   isExternal: true
-  href: Fantas.Animation.html#Fantas_Animation_Shake_System_Double_System_Numerics_Vector2_
+  href: Fantas.Animation.html#Fantas_Animation_Shake_System_Double_
   name: Shake
   nameWithType: Animation.Shake
   fullName: Fantas.Animation.Shake
@@ -2501,6 +3899,13 @@ references:
   name: RotateBy
   nameWithType: Animation.RotateBy
   fullName: Fantas.Animation.RotateBy
+- uid: Fantas.Animation.RotateForever*
+  commentId: Overload:Fantas.Animation.RotateForever
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_RotateForever_System_Double_
+  name: RotateForever
+  nameWithType: Animation.RotateForever
+  fullName: Fantas.Animation.RotateForever
 - uid: Fantas.Animation.RotateTo*
   commentId: Overload:Fantas.Animation.RotateTo
   isExternal: true
@@ -2587,6 +3992,13 @@ references:
   name: Wait
   nameWithType: Animation.Wait
   fullName: Fantas.Animation.Wait
+- uid: Fantas.Animation.DurationSeconds*
+  commentId: Overload:Fantas.Animation.DurationSeconds
+  isExternal: true
+  href: Fantas.Animation.html#Fantas_Animation_DurationSeconds
+  name: DurationSeconds
+  nameWithType: Animation.DurationSeconds
+  fullName: Fantas.Animation.DurationSeconds
 - uid: Fantas.Animation.Duration*
   commentId: Overload:Fantas.Animation.Duration
   isExternal: true

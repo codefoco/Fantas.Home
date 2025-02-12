@@ -139,6 +139,9 @@ items:
   - uid: Fantas.Time
     name: Time
     type: Class
+  - uid: Fantas.Timer
+    name: Timer
+    type: Class
   - uid: Fantas.TriangleNode
     name: TriangleNode
     type: Class

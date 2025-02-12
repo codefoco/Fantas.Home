@@ -23,7 +23,7 @@ items:
   fullName: Fantas.Input.TouchInfo
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/TouchInfo.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Touch/TouchInfo.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -53,7 +53,7 @@ items:
   fullName: Fantas.Input.TouchInfo.Equals(Fantas.Input.TouchInfo)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/TouchInfo.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Touch/TouchInfo.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -84,7 +84,7 @@ items:
   fullName: Fantas.Input.TouchInfo.Equals(object)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/TouchInfo.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Touch/TouchInfo.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -117,7 +117,7 @@ items:
   fullName: Fantas.Input.TouchInfo.GetHashCode()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/TouchInfo.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Touch/TouchInfo.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -143,7 +143,7 @@ items:
   fullName: Fantas.Input.TouchInfo.TouchInfo(int, Fantas.Input.TouchState, System.Drawing.PointF, Fantas.Input.TouchDevice, float, float)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/TouchInfo.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Touch/TouchInfo.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -187,7 +187,7 @@ items:
   fullName: Fantas.Input.TouchInfo.Id
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/TouchInfo.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Touch/TouchInfo.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -212,7 +212,7 @@ items:
   fullName: Fantas.Input.TouchInfo.State
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/TouchInfo.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Touch/TouchInfo.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -237,7 +237,7 @@ items:
   fullName: Fantas.Input.TouchInfo.Location
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/TouchInfo.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Touch/TouchInfo.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -262,7 +262,7 @@ items:
   fullName: Fantas.Input.TouchInfo.Device
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/TouchInfo.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Touch/TouchInfo.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -287,7 +287,7 @@ items:
   fullName: Fantas.Input.TouchInfo.Pressure
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/TouchInfo.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Touch/TouchInfo.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -319,7 +319,7 @@ items:
   fullName: Fantas.Input.TouchInfo.Rotation
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Touch/TouchInfo.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Touch/TouchInfo.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input

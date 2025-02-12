@@ -44,7 +44,7 @@ items:
   fullName: Fantas.Input.Controller
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -74,7 +74,7 @@ items:
   fullName: Fantas.Input.Controller.IsButtonDown(Fantas.Input.ControllerButtons)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -103,7 +103,7 @@ items:
   fullName: Fantas.Input.Controller.IsButtonUp(Fantas.Input.ControllerButtons)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -132,7 +132,7 @@ items:
   fullName: Fantas.Input.Controller.IsButtonReleased(Fantas.Input.ControllerButtons)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -161,7 +161,7 @@ items:
   fullName: Fantas.Input.Controller.IsButtonPressed(Fantas.Input.ControllerButtons)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -190,7 +190,7 @@ items:
   fullName: Fantas.Input.Controller.SetVibration(float, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -222,7 +222,7 @@ items:
   fullName: Fantas.Input.Controller.DisplayName
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -247,7 +247,7 @@ items:
   fullName: Fantas.Input.Controller.IsConnected
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -272,7 +272,7 @@ items:
   fullName: Fantas.Input.Controller.Index
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -297,7 +297,7 @@ items:
   fullName: Fantas.Input.Controller.HasYButton
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -322,7 +322,7 @@ items:
   fullName: Fantas.Input.Controller.HasXButton
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -347,7 +347,7 @@ items:
   fullName: Fantas.Input.Controller.HasAButton
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -372,7 +372,7 @@ items:
   fullName: Fantas.Input.Controller.HasBButton
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -397,7 +397,7 @@ items:
   fullName: Fantas.Input.Controller.HasMenuButton
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -422,7 +422,7 @@ items:
   fullName: Fantas.Input.Controller.HasOptionsButton
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -447,7 +447,7 @@ items:
   fullName: Fantas.Input.Controller.HasLeftShoulderButton
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -472,7 +472,7 @@ items:
   fullName: Fantas.Input.Controller.HasRightShoulderButton
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -497,7 +497,7 @@ items:
   fullName: Fantas.Input.Controller.HasLeftThumbstickButton
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -522,7 +522,7 @@ items:
   fullName: Fantas.Input.Controller.HasRightThumbstickButton
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -547,7 +547,7 @@ items:
   fullName: Fantas.Input.Controller.HasLeftTriggerButton
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -572,7 +572,7 @@ items:
   fullName: Fantas.Input.Controller.LeftTriggerValue
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -597,7 +597,7 @@ items:
   fullName: Fantas.Input.Controller.HasRightTriggerButton
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -622,7 +622,7 @@ items:
   fullName: Fantas.Input.Controller.RightTriggerValue
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -647,7 +647,7 @@ items:
   fullName: Fantas.Input.Controller.HasLeftThumbstick
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -672,7 +672,7 @@ items:
   fullName: Fantas.Input.Controller.LeftThumbstickValue
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -697,7 +697,7 @@ items:
   fullName: Fantas.Input.Controller.HasRightThumbstick
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -722,7 +722,7 @@ items:
   fullName: Fantas.Input.Controller.RightThumbstickValue
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -747,7 +747,7 @@ items:
   fullName: Fantas.Input.Controller.CurrentButtonsState
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -772,7 +772,7 @@ items:
   fullName: Fantas.Input.Controller.AnyButtonPressed
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -797,7 +797,7 @@ items:
   fullName: Fantas.Input.Controller.AnyButtonReleased
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -822,7 +822,7 @@ items:
   fullName: Fantas.Input.Controller.Connected
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
@@ -845,7 +845,7 @@ items:
   fullName: Fantas.Input.Controller.Disconnected
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Input/Controller/Controller.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/Controller.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input

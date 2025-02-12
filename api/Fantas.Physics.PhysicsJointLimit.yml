@@ -15,7 +15,7 @@ items:
   fullName: Fantas.Physics.PhysicsJointLimit
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Physics/Joints/PhysicsJointLimit.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Joints/PhysicsJointLimit.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -48,7 +48,7 @@ items:
   fullName: Fantas.Physics.PhysicsJointLimit.PhysicsJointLimit(Fantas.Physics.PhysicsBody, Fantas.Physics.PhysicsBody, System.Drawing.PointF, System.Drawing.PointF)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Physics/Joints/PhysicsJointLimit.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Joints/PhysicsJointLimit.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -86,7 +86,7 @@ items:
   fullName: Fantas.Physics.PhysicsJointLimit.MaxLength
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Physics/Joints/PhysicsJointLimit.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Joints/PhysicsJointLimit.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics

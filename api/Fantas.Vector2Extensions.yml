@@ -20,7 +20,7 @@ items:
   fullName: Fantas.Vector2Extensions
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Extensions/Vector2Extensions.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Extensions/Vector2Extensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -52,7 +52,7 @@ items:
   fullName: Fantas.Vector2Extensions.Rotation(System.Numerics.Vector2)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Extensions/Vector2Extensions.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Extensions/Vector2Extensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -82,7 +82,7 @@ items:
   fullName: Fantas.Vector2Extensions.Perpendicular(System.Numerics.Vector2)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Extensions/Vector2Extensions.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Extensions/Vector2Extensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -112,7 +112,7 @@ items:
   fullName: Fantas.Vector2Extensions.RotateTo(System.Numerics.Vector2, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Extensions/Vector2Extensions.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Extensions/Vector2Extensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -148,7 +148,7 @@ items:
   fullName: Fantas.Vector2Extensions.Rotate(System.Numerics.Vector2, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Extensions/Vector2Extensions.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Extensions/Vector2Extensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -184,7 +184,7 @@ items:
   fullName: Fantas.Vector2Extensions.RotateAround(System.Numerics.Vector2, System.Numerics.Vector2, double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Extensions/Vector2Extensions.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Extensions/Vector2Extensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -221,7 +221,7 @@ items:
   fullName: Fantas.Vector2Extensions.FromRotation(double, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Extensions/Vector2Extensions.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Extensions/Vector2Extensions.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -257,7 +257,7 @@ items:
   fullName: Fantas.Vector2Extensions.ToPointF(System.Numerics.Vector2)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Extensions/Vector2Extensions.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Extensions/Vector2Extensions.cs
   assemblies:
   - Fantas
   namespace: Fantas

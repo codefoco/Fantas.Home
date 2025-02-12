@@ -132,7 +132,7 @@ items:
   fullName: Fantas.Node
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -172,7 +172,7 @@ items:
   fullName: Fantas.Node.Node()
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -200,7 +200,7 @@ items:
   fullName: Fantas.Node.Node(Fantas.Node)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -228,7 +228,7 @@ items:
   fullName: Fantas.Node.Copy()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -253,7 +253,7 @@ items:
   fullName: Fantas.Node.ToString()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -279,7 +279,7 @@ items:
   fullName: Fantas.Node.Offset(System.Numerics.Vector2)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -305,7 +305,7 @@ items:
   fullName: Fantas.Node.Offset(float, float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -337,7 +337,7 @@ items:
   fullName: Fantas.Node.OffsetX(float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -366,7 +366,7 @@ items:
   fullName: Fantas.Node.OffsetY(float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -395,7 +395,7 @@ items:
   fullName: Fantas.Node.CalculateAccumulatedFrame()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -419,7 +419,7 @@ items:
   fullName: Fantas.Node.RenderToTexture()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -444,7 +444,7 @@ items:
   fullName: Fantas.Node.SetScale(float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -473,7 +473,7 @@ items:
   fullName: Fantas.Node.SetScale(System.Numerics.Vector2)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -499,7 +499,7 @@ items:
   fullName: Fantas.Node.LookAt(System.Drawing.PointF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -525,7 +525,7 @@ items:
   fullName: Fantas.Node.AddChild(Fantas.Node)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -551,7 +551,7 @@ items:
   fullName: Fantas.Node.InsertChild(int, Fantas.Node)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -583,7 +583,7 @@ items:
   fullName: Fantas.Node.MoveToParent(Fantas.Node)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -609,7 +609,7 @@ items:
   fullName: Fantas.Node.RemoveFromParent()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -631,7 +631,7 @@ items:
   fullName: Fantas.Node.RemoveAllChildren()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -653,7 +653,7 @@ items:
   fullName: Fantas.Node.RemoveChildren(Fantas.Node[])
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -682,7 +682,7 @@ items:
   fullName: Fantas.Node.RemoveChild(Fantas.Node)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -708,7 +708,7 @@ items:
   fullName: Fantas.Node.InParentHierarchy(Fantas.Node)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -736,7 +736,7 @@ items:
   fullName: Fantas.Node.RunAnimation(Fantas.Animation)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -762,7 +762,7 @@ items:
   fullName: Fantas.Node.RunAnimation(Fantas.Animation, System.Action)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -794,7 +794,7 @@ items:
   fullName: Fantas.Node.RunAnimation(Fantas.Animation, string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -826,7 +826,7 @@ items:
   fullName: Fantas.Node.RunAnimationAsync(Fantas.Animation)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -855,7 +855,7 @@ items:
   fullName: Fantas.Node.GetAnimationForKey(string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -887,7 +887,7 @@ items:
   fullName: Fantas.Node.HasAnimationKey(string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -918,7 +918,7 @@ items:
   fullName: Fantas.Node.RemoveAnimationForKey(string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -947,7 +947,7 @@ items:
   fullName: Fantas.Node.RemoveAllAnimations()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -969,7 +969,7 @@ items:
   fullName: Fantas.Node.ContainsPoint(System.Drawing.PointF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -998,7 +998,7 @@ items:
   fullName: Fantas.Node.GetNodeAtPoint(System.Drawing.PointF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1027,7 +1027,7 @@ items:
   fullName: Fantas.Node.GetChildNode(string)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1059,7 +1059,7 @@ items:
   fullName: Fantas.Node.GetNodesAtPoint(System.Drawing.PointF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1088,7 +1088,7 @@ items:
   fullName: Fantas.Node.IntersectsNode(Fantas.Node)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1117,7 +1117,7 @@ items:
   fullName: Fantas.Node.ConvertPointFromNode(System.Drawing.PointF, Fantas.Node)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1149,7 +1149,7 @@ items:
   fullName: Fantas.Node.ConvertPointToNode(System.Drawing.PointF, Fantas.Node)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1181,7 +1181,7 @@ items:
   fullName: Fantas.Node.BringForward()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1203,7 +1203,7 @@ items:
   fullName: Fantas.Node.BringToFront()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1225,7 +1225,7 @@ items:
   fullName: Fantas.Node.SendBackward()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1247,7 +1247,7 @@ items:
   fullName: Fantas.Node.SendToBack()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1269,7 +1269,7 @@ items:
   fullName: Fantas.Node.OnTap(Fantas.Input.TapEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1298,7 +1298,7 @@ items:
   fullName: Fantas.Node.OnLongPress(Fantas.Input.TapEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1327,7 +1327,7 @@ items:
   fullName: Fantas.Node.OnDoubleTap(Fantas.Input.TapEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1356,7 +1356,7 @@ items:
   fullName: Fantas.Node.OnPanStart(Fantas.Input.PanEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1385,7 +1385,7 @@ items:
   fullName: Fantas.Node.OnPan(Fantas.Input.PanEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1414,7 +1414,7 @@ items:
   fullName: Fantas.Node.OnPanComplete(Fantas.Input.PanEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1443,7 +1443,7 @@ items:
   fullName: Fantas.Node.OnTouchDownInside(Fantas.Input.TouchEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1469,7 +1469,7 @@ items:
   fullName: Fantas.Node.OnTouchDragEnter(Fantas.Input.TouchEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1495,7 +1495,7 @@ items:
   fullName: Fantas.Node.OnTouchDragExit(Fantas.Input.TouchEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1521,7 +1521,7 @@ items:
   fullName: Fantas.Node.OnTouchDragInside(Fantas.Input.TouchEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1547,7 +1547,7 @@ items:
   fullName: Fantas.Node.OnTouchDragOutside(Fantas.Input.TouchEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1573,7 +1573,7 @@ items:
   fullName: Fantas.Node.OnTouchUpInside(Fantas.Input.TouchEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1599,7 +1599,7 @@ items:
   fullName: Fantas.Node.OnTouchUpOutside(Fantas.Input.TouchEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1625,7 +1625,7 @@ items:
   fullName: Fantas.Node.OnMouseDown(Fantas.Input.MouseEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1654,7 +1654,7 @@ items:
   fullName: Fantas.Node.OnMouseUp(Fantas.Input.MouseEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1683,7 +1683,7 @@ items:
   fullName: Fantas.Node.OnMouseWheel(Fantas.Input.MouseEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1712,7 +1712,7 @@ items:
   fullName: Fantas.Node.OnClick(Fantas.Input.MouseEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1745,7 +1745,7 @@ items:
   fullName: Fantas.Node.OnDoubleClick(Fantas.Input.MouseEventArgs)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1774,7 +1774,7 @@ items:
   fullName: Fantas.Node.OnMouseEnter()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1801,7 +1801,7 @@ items:
   fullName: Fantas.Node.OnMouseHover()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1828,7 +1828,7 @@ items:
   fullName: Fantas.Node.OnMouseLeave()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1855,7 +1855,7 @@ items:
   fullName: Fantas.Node.Name
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1880,7 +1880,7 @@ items:
   fullName: Fantas.Node.Tag
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1905,7 +1905,7 @@ items:
   fullName: Fantas.Node.Cursor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1930,7 +1930,7 @@ items:
   fullName: Fantas.Node.Position
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1955,7 +1955,7 @@ items:
   fullName: Fantas.Node.Frame
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1980,7 +1980,7 @@ items:
   fullName: Fantas.Node.X
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2005,7 +2005,7 @@ items:
   fullName: Fantas.Node.Y
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2030,7 +2030,7 @@ items:
   fullName: Fantas.Node.Center
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2055,7 +2055,7 @@ items:
   fullName: Fantas.Node.Width
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2080,7 +2080,7 @@ items:
   fullName: Fantas.Node.Height
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2105,7 +2105,7 @@ items:
   fullName: Fantas.Node.Left
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2133,7 +2133,7 @@ items:
   fullName: Fantas.Node.Right
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2161,7 +2161,7 @@ items:
   fullName: Fantas.Node.Top
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2193,7 +2193,7 @@ items:
   fullName: Fantas.Node.Bottom
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2225,7 +2225,7 @@ items:
   fullName: Fantas.Node.ZPosition
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2250,7 +2250,7 @@ items:
   fullName: Fantas.Node.ZRotation
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2275,7 +2275,7 @@ items:
   fullName: Fantas.Node.XScale
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2300,7 +2300,7 @@ items:
   fullName: Fantas.Node.YScale
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2325,7 +2325,7 @@ items:
   fullName: Fantas.Node.Scale
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2350,7 +2350,7 @@ items:
   fullName: Fantas.Node.Scene
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2375,7 +2375,7 @@ items:
   fullName: Fantas.Node.Parent
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2400,7 +2400,7 @@ items:
   fullName: Fantas.Node.Children
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2425,7 +2425,7 @@ items:
   fullName: Fantas.Node.HasChildren
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2450,7 +2450,7 @@ items:
   fullName: Fantas.Node.HasParent
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2475,7 +2475,7 @@ items:
   fullName: Fantas.Node.PhysicsBody
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2500,7 +2500,7 @@ items:
   fullName: Fantas.Node.Hidden
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2525,7 +2525,7 @@ items:
   fullName: Fantas.Node.Alpha
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2550,7 +2550,7 @@ items:
   fullName: Fantas.Node.HasAnimation
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2575,7 +2575,7 @@ items:
   fullName: Fantas.Node.Paused
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2600,7 +2600,7 @@ items:
   fullName: Fantas.Node.Speed
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2625,7 +2625,7 @@ items:
   fullName: Fantas.Node.IsHitTestEnabled
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2650,7 +2650,7 @@ items:
   fullName: Fantas.Node.CanBringForward
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2676,7 +2676,7 @@ items:
   fullName: Fantas.Node.CanSendBackward
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2702,7 +2702,7 @@ items:
   fullName: Fantas.Node.IsMouseOver
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2727,7 +2727,7 @@ items:
   fullName: Fantas.Node.MouseButtonPressed
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2752,7 +2752,7 @@ items:
   fullName: Fantas.Node.IsTouchOver
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2777,7 +2777,7 @@ items:
   fullName: Fantas.Node.TouchCount
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2802,7 +2802,7 @@ items:
   fullName: Fantas.Node.Tap
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2828,7 +2828,7 @@ items:
   fullName: Fantas.Node.DoubleTap
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2854,7 +2854,7 @@ items:
   fullName: Fantas.Node.LongPress
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2880,7 +2880,7 @@ items:
   fullName: Fantas.Node.PanStart
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2906,7 +2906,7 @@ items:
   fullName: Fantas.Node.Pan
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2932,7 +2932,7 @@ items:
   fullName: Fantas.Node.PanComplete
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2958,7 +2958,7 @@ items:
   fullName: Fantas.Node.TouchDownInside
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -2981,7 +2981,7 @@ items:
   fullName: Fantas.Node.TouchDragEnter
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -3004,7 +3004,7 @@ items:
   fullName: Fantas.Node.TouchDragExit
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -3027,7 +3027,7 @@ items:
   fullName: Fantas.Node.TouchDragInside
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -3050,7 +3050,7 @@ items:
   fullName: Fantas.Node.TouchDragOutside
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -3073,7 +3073,7 @@ items:
   fullName: Fantas.Node.TouchUpInside
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -3096,7 +3096,7 @@ items:
   fullName: Fantas.Node.TouchUpOutside
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -3119,7 +3119,7 @@ items:
   fullName: Fantas.Node.MouseDown
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -3145,7 +3145,7 @@ items:
   fullName: Fantas.Node.MouseUp
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -3171,7 +3171,7 @@ items:
   fullName: Fantas.Node.MouseWheel
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -3197,7 +3197,7 @@ items:
   fullName: Fantas.Node.Click
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -3225,7 +3225,7 @@ items:
   fullName: Fantas.Node.DoubleClick
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -3251,7 +3251,7 @@ items:
   fullName: Fantas.Node.MouseEnter
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -3277,7 +3277,7 @@ items:
   fullName: Fantas.Node.MouseHover
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -3303,7 +3303,7 @@ items:
   fullName: Fantas.Node.MouseLeave
   type: Event
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/Node.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs
   assemblies:
   - Fantas
   namespace: Fantas

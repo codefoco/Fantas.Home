@@ -31,7 +31,7 @@ items:
   fullName: Fantas.TileMapNode
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/TileMapNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -179,7 +179,7 @@ items:
   fullName: Fantas.TileMapNode.TileMapNode()
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/TileMapNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -204,7 +204,7 @@ items:
   fullName: Fantas.TileMapNode.TileMapNode(Fantas.TileSet, int, int, System.Drawing.SizeF)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/TileMapNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -242,7 +242,7 @@ items:
   fullName: Fantas.TileMapNode.TileMapNode(Fantas.TileSet, int, int)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/TileMapNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -277,7 +277,7 @@ items:
   fullName: Fantas.TileMapNode.GetTileColumnIndex(System.Drawing.PointF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/TileMapNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -306,7 +306,7 @@ items:
   fullName: Fantas.TileMapNode.GetTileRowIndex(System.Drawing.PointF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/TileMapNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -335,7 +335,7 @@ items:
   fullName: Fantas.TileMapNode.GetTileDefinition(int, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/TileMapNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -370,7 +370,7 @@ items:
   fullName: Fantas.TileMapNode.GetTileGroup(int, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/TileMapNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -405,7 +405,7 @@ items:
   fullName: Fantas.TileMapNode.Fill(Fantas.TileGroup)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/TileMapNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -431,7 +431,7 @@ items:
   fullName: Fantas.TileMapNode.SetTileGroup(Fantas.TileGroup, int, int)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/TileMapNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -466,7 +466,7 @@ items:
   fullName: Fantas.TileMapNode.BlendMode
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/TileMapNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -491,7 +491,7 @@ items:
   fullName: Fantas.TileMapNode.AnchorPoint
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/TileMapNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -516,7 +516,7 @@ items:
   fullName: Fantas.TileMapNode.Color
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/TileMapNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -541,7 +541,7 @@ items:
   fullName: Fantas.TileMapNode.ColorBlendFactor
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/TileMapNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -566,7 +566,7 @@ items:
   fullName: Fantas.TileMapNode.TileSize
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/TileMapNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -591,7 +591,7 @@ items:
   fullName: Fantas.TileMapNode.TileSet
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/TileMapNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -616,7 +616,7 @@ items:
   fullName: Fantas.TileMapNode.NumberOfColumns
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/TileMapNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -641,7 +641,7 @@ items:
   fullName: Fantas.TileMapNode.NumberOfRows
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/TileMapNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -666,7 +666,7 @@ items:
   fullName: Fantas.TileMapNode.MapSize
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/181d70dd3b83f90647af5a47f09a4f5cd9c5ebc5/src/Nodes/TileMapNode.cs
+    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
