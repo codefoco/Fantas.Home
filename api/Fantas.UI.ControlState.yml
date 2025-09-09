@@ -9,23 +9,47 @@ items:
   - Fantas.UI.ControlState.Hovered
   - Fantas.UI.ControlState.Normal
   - Fantas.UI.ControlState.Pressed
+  - Fantas.UI.ControlState.value__
   langs:
   - csharp
   - vb
   name: ControlState
   nameWithType: ControlState
   fullName: Fantas.UI.ControlState
-  type: Enum
+  type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/UI/ControlState.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ControlState.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
   summary: Control states
   example: []
   syntax:
-    content: public enum ControlState
-    content.vb: Public Enum ControlState
+    content: 'public sealed class ControlState : Enum'
+    content.vb: Public NotInheritable Class ControlState Inherits Enum
+  inheritance:
+  - System.Object
+- uid: Fantas.UI.ControlState.value__
+  commentId: F:Fantas.UI.ControlState.value__
+  id: value__
+  parent: Fantas.UI.ControlState
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ControlState.value__
+  fullName: Fantas.UI.ControlState.value__
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ControlState.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
 - uid: Fantas.UI.ControlState.Normal
   commentId: F:Fantas.UI.ControlState.Normal
   id: Normal
@@ -38,16 +62,17 @@ items:
   fullName: Fantas.UI.ControlState.Normal
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/UI/ControlState.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ControlState.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
   summary: Normal state
   example: []
   syntax:
-    content: Normal = 0
+    content: public const ControlState Normal = 0
     return:
       type: Fantas.UI.ControlState
+    content.vb: Public Const Normal As ControlState = 0
 - uid: Fantas.UI.ControlState.Hovered
   commentId: F:Fantas.UI.ControlState.Hovered
   id: Hovered
@@ -60,16 +85,17 @@ items:
   fullName: Fantas.UI.ControlState.Hovered
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/UI/ControlState.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ControlState.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
   summary: Hovered, when mouse cursor is hovering over
   example: []
   syntax:
-    content: Hovered = 1
+    content: public const ControlState Hovered = 1
     return:
       type: Fantas.UI.ControlState
+    content.vb: Public Const Hovered As ControlState = 1
 - uid: Fantas.UI.ControlState.Pressed
   commentId: F:Fantas.UI.ControlState.Pressed
   id: Pressed
@@ -82,7 +108,7 @@ items:
   fullName: Fantas.UI.ControlState.Pressed
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/UI/ControlState.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ControlState.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
@@ -92,9 +118,10 @@ items:
     or the control have a touch inside
   example: []
   syntax:
-    content: Pressed = 2
+    content: public const ControlState Pressed = 2
     return:
       type: Fantas.UI.ControlState
+    content.vb: Public Const Pressed As ControlState = 2
 - uid: Fantas.UI.ControlState.Disabled
   commentId: F:Fantas.UI.ControlState.Disabled
   id: Disabled
@@ -107,16 +134,17 @@ items:
   fullName: Fantas.UI.ControlState.Disabled
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/UI/ControlState.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ControlState.cs
   assemblies:
   - Fantas
   namespace: Fantas.UI
   summary: When the control was disabled
   example: []
   syntax:
-    content: Disabled = 3
+    content: public const ControlState Disabled = 3
     return:
       type: Fantas.UI.ControlState
+    content.vb: Public Const Disabled As ControlState = 3
 references:
 - uid: Fantas.UI
   commentId: N:Fantas.UI
@@ -145,6 +173,35 @@ references:
     name: UI
     isExternal: true
     href: Fantas.UI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Fantas.UI.ControlState
   commentId: T:Fantas.UI.ControlState
   parent: Fantas.UI

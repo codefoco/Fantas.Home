@@ -89,7 +89,7 @@
 
 
   <h1 id="Fantas_TileMapNode" data-uid="Fantas.TileMapNode" class="text-break">
-Class TileMapNode  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
+Class TileMapNode  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -207,6 +207,9 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
       <a class="xref" href="Fantas.Node.html#Fantas_Node_ContainsPoint_System_Drawing_PointF_">Node.ContainsPoint(PointF)</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ContainsScenePoint_System_Drawing_PointF_">Node.ContainsScenePoint(PointF)</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_GetNodeAtPoint_System_Drawing_PointF_">Node.GetNodeAtPoint(PointF)</a>
     </div>
     <div>
@@ -225,6 +228,24 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
       <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertPointToNode_System_Drawing_PointF_Fantas_Node_">Node.ConvertPointToNode(PointF, Node)</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertPointToScene_System_Drawing_PointF_">Node.ConvertPointToScene(PointF)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertPointFromScene_System_Drawing_PointF_">Node.ConvertPointFromScene(PointF)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertVectorFromNode_System_Numerics_Vector2_Fantas_Node_">Node.ConvertVectorFromNode(Vector2, Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertVectorToNode_System_Numerics_Vector2_Fantas_Node_">Node.ConvertVectorToNode(Vector2, Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertVectorFromScene_System_Numerics_Vector2_">Node.ConvertVectorFromScene(Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertVectorToScene_System_Numerics_Vector2_">Node.ConvertVectorToScene(Vector2)</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_BringForward">Node.BringForward()</a>
     </div>
     <div>
@@ -235,6 +256,12 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_SendToBack">Node.SendToBack()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_SetMouseCapture">Node.SetMouseCapture()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ReleaseMouseCapture">Node.ReleaseMouseCapture()</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnTap_Fantas_Input_TapEventArgs_">Node.OnTap(TapEventArgs)</a>
@@ -294,7 +321,7 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnMouseEnter">Node.OnMouseEnter()</a>
     </div>
     <div>
-      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnMouseHover">Node.OnMouseHover()</a>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnMouseMove_Fantas_Input_MouseEventArgs_">Node.OnMouseMove(MouseEventArgs)</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnMouseLeave">Node.OnMouseLeave()</a>
@@ -337,6 +364,18 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_Top">Node.Top</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_TopLeft">Node.TopLeft</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_TopRight">Node.TopRight</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_BottomLeft">Node.BottomLeft</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_BottomRight">Node.BottomRight</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_Bottom">Node.Bottom</a>
@@ -397,6 +436,9 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_CanSendBackward">Node.CanSendBackward</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_HasMouseCaputure">Node.HasMouseCaputure</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_IsMouseOver">Node.IsMouseOver</a>
@@ -468,28 +510,10 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
       <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseEnter">Node.MouseEnter</a>
     </div>
     <div>
-      <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseHover">Node.MouseHover</a>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseMove">Node.MouseMove</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseLeave">Node.MouseLeave</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
   </dd></dl>
 
@@ -506,7 +530,7 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_TileMapNode__ctor" data-uid="Fantas.TileMapNode.#ctor">
   TileMapNode()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Create an empty TileMapNode</p>
@@ -533,7 +557,7 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_TileMapNode__ctor_Fantas_TileSet_System_Int32_System_Int32_" data-uid="Fantas.TileMapNode.#ctor(Fantas.TileSet,System.Int32,System.Int32)">
   TileMapNode(TileSet, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Create a TileMapNode with the given tile set and of the size rows x columns</p>
@@ -569,7 +593,7 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_TileMapNode__ctor_Fantas_TileSet_System_Int32_System_Int32_System_Drawing_SizeF_" data-uid="Fantas.TileMapNode.#ctor(Fantas.TileSet,System.Int32,System.Int32,System.Drawing.SizeF)">
   TileMapNode(TileSet, int, int, SizeF)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Create a TileMapNode with the given tile set and of the size rows x columns</p>
@@ -611,7 +635,7 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_TileMapNode_AnchorPoint" data-uid="Fantas.TileMapNode.AnchorPoint">
   AnchorPoint
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Reference anchor point for drawing and rotation</p>
@@ -643,7 +667,7 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_TileMapNode_BlendMode" data-uid="Fantas.TileMapNode.BlendMode">
   BlendMode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Set the blend operation for the Tile map node</p>
@@ -675,7 +699,7 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_TileMapNode_Color" data-uid="Fantas.TileMapNode.Color">
   Color
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Tile map tint Color</p>
@@ -707,7 +731,7 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_TileMapNode_ColorBlendFactor" data-uid="Fantas.TileMapNode.ColorBlendFactor">
   ColorBlendFactor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Color blend factor (0f-1f)</p>
@@ -739,7 +763,7 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_TileMapNode_MapSize" data-uid="Fantas.TileMapNode.MapSize">
   MapSize
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Tile Map total size</p>
@@ -771,7 +795,7 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_TileMapNode_NumberOfColumns" data-uid="Fantas.TileMapNode.NumberOfColumns">
   NumberOfColumns
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Number of columns in the tile map</p>
@@ -803,7 +827,7 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_TileMapNode_NumberOfRows" data-uid="Fantas.TileMapNode.NumberOfRows">
   NumberOfRows
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Number of rows in the tile map</p>
@@ -835,7 +859,7 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_TileMapNode_TileSet" data-uid="Fantas.TileMapNode.TileSet">
   TileSet
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Tile set used in this tile map</p>
@@ -867,7 +891,7 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_TileMapNode_TileSize" data-uid="Fantas.TileMapNode.TileSize">
   TileSize
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Size of each tile</p>
@@ -903,7 +927,7 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_TileMapNode_Fill_Fantas_TileGroup_" data-uid="Fantas.TileMapNode.Fill(Fantas.TileGroup)">
   Fill(TileGroup)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fill tile map with the given group</p>
@@ -935,7 +959,7 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_TileMapNode_GetTileColumnIndex_System_Drawing_PointF_" data-uid="Fantas.TileMapNode.GetTileColumnIndex(System.Drawing.PointF)">
   GetTileColumnIndex(PointF)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get tile column index</p>
@@ -972,7 +996,7 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_TileMapNode_GetTileDefinition_System_Int32_System_Int32_" data-uid="Fantas.TileMapNode.GetTileDefinition(System.Int32,System.Int32)">
   GetTileDefinition(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get tile definition of given position</p>
@@ -1011,7 +1035,7 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_TileMapNode_GetTileGroup_System_Int32_System_Int32_" data-uid="Fantas.TileMapNode.GetTileGroup(System.Int32,System.Int32)">
   GetTileGroup(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get tile definition of given position</p>
@@ -1050,7 +1074,7 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_TileMapNode_GetTileRowIndex_System_Drawing_PointF_" data-uid="Fantas.TileMapNode.GetTileRowIndex(System.Drawing.PointF)">
   GetTileRowIndex(PointF)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get tile column index</p>
@@ -1087,7 +1111,7 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Fantas_TileMapNode_SetTileGroup_Fantas_TileGroup_System_Int32_System_Int32_" data-uid="Fantas.TileMapNode.SetTileGroup(Fantas.TileGroup,System.Int32,System.Int32)">
   SetTileGroup(TileGroup, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/TileMapNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Set the tile group for the specific tile location</p>
@@ -1123,7 +1147,7 @@ Class TileMapNode  <a class="header-action link-secondary" title="View source" h
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/TileMapNode.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/TileMapNode.cs" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -7,16 +7,18 @@ items:
   - Fantas.Animation
   - Fantas.AnimationTimingFunction
   - Fantas.AnimationTimingMode
+  - Fantas.Array
   - Fantas.BlendMode
   - Fantas.CameraNode
   - Fantas.CircleNode
   - Fantas.ColorExtensions
   - Fantas.CropNode
-  - Fantas.CurrentSystemPlatform
   - Fantas.EllipseNode
+  - Fantas.FantasActivity
   - Fantas.Font
   - Fantas.Game
   - Fantas.GameOptions
+  - Fantas.InertiaAnimationBuilder
   - Fantas.LabelHorizontalAlignmentMode
   - Fantas.LabelNode
   - Fantas.LabelVerticalAlignmentMode
@@ -30,14 +32,17 @@ items:
   - Fantas.RandomExtensions
   - Fantas.RectangleExtensions
   - Fantas.RectangleNode
+  - Fantas.Resource
   - Fantas.Scene
   - Fantas.SceneScaleMode
   - Fantas.ShapeNode
+  - Fantas.SizeExtensions
   - Fantas.SpriteFrameNode
   - Fantas.SpriteLineNode
   - Fantas.SpriteNode
   - Fantas.SpritePolylineNode
   - Fantas.SystemPlatform
+  - Fantas.SystemPlatformInformation
   - Fantas.Texture
   - Fantas.TextureAtlas
   - Fantas.TileAdjacencyMask
@@ -84,8 +89,16 @@ references:
   name: PointExtension
   nameWithType: PointExtension
   fullName: Fantas.PointExtension
+- uid: Fantas.SizeExtensions
+  commentId: T:Fantas.SizeExtensions
+  isExternal: true
+  href: Fantas.SizeExtensions.html
+  name: SizeExtensions
+  nameWithType: SizeExtensions
+  fullName: Fantas.SizeExtensions
 - uid: Fantas.Vector2Extensions
   commentId: T:Fantas.Vector2Extensions
+  parent: Fantas
   isExternal: true
   href: Fantas.Vector2Extensions.html
   name: Vector2Extensions
@@ -428,13 +441,42 @@ references:
   name: SystemPlatform
   nameWithType: SystemPlatform
   fullName: Fantas.SystemPlatform
-- uid: Fantas.CurrentSystemPlatform
-  commentId: T:Fantas.CurrentSystemPlatform
+- uid: Fantas.SystemPlatformInformation
+  commentId: T:Fantas.SystemPlatformInformation
   isExternal: true
-  href: Fantas.CurrentSystemPlatform.html
-  name: CurrentSystemPlatform
-  nameWithType: CurrentSystemPlatform
-  fullName: Fantas.CurrentSystemPlatform
+  href: Fantas.SystemPlatformInformation.html
+  name: SystemPlatformInformation
+  nameWithType: SystemPlatformInformation
+  fullName: Fantas.SystemPlatformInformation
+- uid: Fantas.InertiaAnimationBuilder
+  commentId: T:Fantas.InertiaAnimationBuilder
+  isExternal: true
+  href: Fantas.InertiaAnimationBuilder.html
+  name: InertiaAnimationBuilder
+  nameWithType: InertiaAnimationBuilder
+  fullName: Fantas.InertiaAnimationBuilder
+- uid: Fantas.FantasActivity
+  commentId: T:Fantas.FantasActivity
+  parent: Fantas
+  isExternal: true
+  href: Fantas.FantasActivity.html
+  name: FantasActivity
+  nameWithType: FantasActivity
+  fullName: Fantas.FantasActivity
+- uid: Fantas.Resource
+  commentId: T:Fantas.Resource
+  isExternal: true
+  href: Fantas.Resource.html
+  name: Resource
+  nameWithType: Resource
+  fullName: Fantas.Resource
+- uid: Fantas.Array
+  commentId: T:Fantas.Array
+  isExternal: true
+  href: Fantas.Array.html
+  name: Array
+  nameWithType: Array
+  fullName: Fantas.Array
 - uid: Fantas
   commentId: N:Fantas
   isExternal: true

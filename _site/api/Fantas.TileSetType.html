@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Enum TileSetType | Fantas </title>
+      <title>Class TileSetType | Fantas </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Enum TileSetType | Fantas ">
+      <meta name="title" content="Class TileSetType | Fantas ">
       
       <meta name="description" content="Tile Set arrange/geometry">
       <link rel="icon" href="../favicon.ico">
@@ -88,9 +88,8 @@
 
 
 
-
   <h1 id="Fantas_TileSetType" data-uid="Fantas.TileSetType" class="text-break">
-Enum TileSetType  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileSetType.cs"><i class="bi bi-code-slash"></i></a>
+Class TileSetType  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileSetType.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -103,40 +102,191 @@ Enum TileSetType  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum TileSetType</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class TileSetType : Enum</code></pre>
   </div>
 
 
 
 
-
-
-
-
-
-  <h2 id="fields">Fields
-</h2>
-  <dl class="parameters">
-    <dt id="Fantas_TileSetType_Grid"><code>Grid = 0</code></dt>
-    <dd><p>Rectangular Grid</p>
-</dd>
-    <dt id="Fantas_TileSetType_HexagonalFlat"><code>HexagonalFlat = 1</code></dt>
-    <dd><p>Hexagonal Grid (Flat)</p>
-</dd>
-    <dt id="Fantas_TileSetType_HexagonalPointy"><code>HexagonalPointy = 2</code></dt>
-    <dd><p>Hexagonal Pointy (Flat)</p>
-</dd>
-    <dt id="Fantas_TileSetType_Isometric"><code>Isometric = 3</code></dt>
-    <dd><p>Isometric Grid</p>
-</dd>
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">TileSetType</span></div>
+    </dd>
   </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Fantas_TileSetType_Grid" data-uid="Fantas.TileSetType.Grid">
+  Grid
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileSetType.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Rectangular Grid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileSetType Grid = 0</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileSetType.html">TileSetType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileSetType_HexagonalFlat" data-uid="Fantas.TileSetType.HexagonalFlat">
+  HexagonalFlat
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileSetType.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Hexagonal Grid (Flat)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileSetType HexagonalFlat = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileSetType.html">TileSetType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileSetType_HexagonalPointy" data-uid="Fantas.TileSetType.HexagonalPointy">
+  HexagonalPointy
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileSetType.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Hexagonal Pointy (Flat)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileSetType HexagonalPointy = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileSetType.html">TileSetType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileSetType_Isometric" data-uid="Fantas.TileSetType.Isometric">
+  Isometric
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileSetType.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Isometric Grid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileSetType Isometric = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileSetType.html">TileSetType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileSetType_value__" data-uid="Fantas.TileSetType.value__">
+  value__
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileSetType.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int value__</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
 
 
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileSetType.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileSetType.cs" class="edit-link">Edit this page</a>
         </div>
 
 

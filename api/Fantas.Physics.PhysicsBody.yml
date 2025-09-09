@@ -38,15 +38,15 @@ items:
   fullName: Fantas.Physics.PhysicsBody
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
   summary: Physics Body simulation object
   example: []
   syntax:
-    content: public abstract class PhysicsBody
-    content.vb: Public MustInherit Class PhysicsBody
+    content: 'public abstract class PhysicsBody : Object'
+    content.vb: Public MustInherit Class PhysicsBody Inherits Object
   inheritance:
   - System.Object
   derivedClasses:
@@ -56,14 +56,6 @@ items:
   - Fantas.Physics.PolygonEdge
   - Fantas.Physics.RectangleBody
   - Fantas.Physics.RectangleEdge
-  inheritedMembers:
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
 - uid: Fantas.Physics.PhysicsBody.ContactWith(Fantas.Physics.PhysicsBody)
   commentId: M:Fantas.Physics.PhysicsBody.ContactWith(Fantas.Physics.PhysicsBody)
   id: ContactWith(Fantas.Physics.PhysicsBody)
@@ -76,7 +68,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.ContactWith(Fantas.Physics.PhysicsBody)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -105,7 +97,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.ContactWithAny(Fantas.Physics.PhysicsBody[])
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -137,7 +129,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.ContactWithAll(Fantas.Physics.PhysicsBody[])
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -169,7 +161,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.ApplyAngularImpulse(double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -198,7 +190,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -224,7 +216,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.ApplyForce(System.Numerics.Vector2, System.Drawing.PointF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -253,7 +245,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -279,7 +271,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.ApplyImpulse(System.Numerics.Vector2, System.Drawing.PointF)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -308,7 +300,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.ApplyTorque(double)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -337,7 +329,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.AllContactedBodies
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -362,7 +354,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.AllowsRotation
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -387,7 +379,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.AngularVelocity
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -412,7 +404,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.Area
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -437,7 +429,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.Category
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -462,7 +454,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.ContactMask
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -487,7 +479,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.CollisionMask
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -512,7 +504,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.Density
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -537,7 +529,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.Dynamic
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -562,7 +554,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.Friction
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -590,7 +582,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.Joints
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -615,7 +607,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.Mass
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -640,7 +632,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.Node
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -665,7 +657,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.Resting
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -690,7 +682,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.Restitution
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -715,7 +707,7 @@ items:
   fullName: Fantas.Physics.PhysicsBody.Velocity
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Bodies/PhysicsBody.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Bodies/PhysicsBody.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -767,225 +759,6 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
 - uid: System
   commentId: N:System
   isExternal: true

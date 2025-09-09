@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.SystemPlatformInformation
+  commentId: T:Fantas.SystemPlatformInformation
+  id: SystemPlatformInformation
+  parent: Fantas
+  children:
+  - Fantas.SystemPlatformInformation.CurrentPlatform
+  - Fantas.SystemPlatformInformation.CurrentPlatformDescription
+  langs:
+  - csharp
+  - vb
+  name: SystemPlatformInformation
+  nameWithType: SystemPlatformInformation
+  fullName: Fantas.SystemPlatformInformation
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SystemPlatformInformation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: System platform information (Windows, MacOS.. )
+  example: []
+  syntax:
+    content: 'public static class SystemPlatformInformation : Object'
+    content.vb: Public Module SystemPlatformInformation Inherits Object
+  inheritance:
+  - System.Object
+- uid: Fantas.SystemPlatformInformation.CurrentPlatform
+  commentId: P:Fantas.SystemPlatformInformation.CurrentPlatform
+  id: CurrentPlatform
+  parent: Fantas.SystemPlatformInformation
+  langs:
+  - csharp
+  - vb
+  name: CurrentPlatform
+  nameWithType: SystemPlatformInformation.CurrentPlatform
+  fullName: Fantas.SystemPlatformInformation.CurrentPlatform
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SystemPlatformInformation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Return the current system platform (Windows, MacOS.. )
+  example: []
+  syntax:
+    content: public static SystemPlatform CurrentPlatform { get; }
+    parameters: []
+    return:
+      type: Fantas.SystemPlatform
+    content.vb: Public Shared ReadOnly Property CurrentPlatform As SystemPlatform
+  overload: Fantas.SystemPlatformInformation.CurrentPlatform*
+- uid: Fantas.SystemPlatformInformation.CurrentPlatformDescription
+  commentId: P:Fantas.SystemPlatformInformation.CurrentPlatformDescription
+  id: CurrentPlatformDescription
+  parent: Fantas.SystemPlatformInformation
+  langs:
+  - csharp
+  - vb
+  name: CurrentPlatformDescription
+  nameWithType: SystemPlatformInformation.CurrentPlatformDescription
+  fullName: Fantas.SystemPlatformInformation.CurrentPlatformDescription
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SystemPlatformInformation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Get current platform description
+  example: []
+  syntax:
+    content: public static string CurrentPlatformDescription { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property CurrentPlatformDescription As String
+  overload: Fantas.SystemPlatformInformation.CurrentPlatformDescription*
+references:
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.SystemPlatformInformation.CurrentPlatform*
+  commentId: Overload:Fantas.SystemPlatformInformation.CurrentPlatform
+  isExternal: true
+  href: Fantas.SystemPlatformInformation.html#Fantas_SystemPlatformInformation_CurrentPlatform
+  name: CurrentPlatform
+  nameWithType: SystemPlatformInformation.CurrentPlatform
+  fullName: Fantas.SystemPlatformInformation.CurrentPlatform
+- uid: Fantas.SystemPlatform
+  commentId: T:Fantas.SystemPlatform
+  parent: Fantas
+  isExternal: true
+  href: Fantas.SystemPlatform.html
+  name: SystemPlatform
+  nameWithType: SystemPlatform
+  fullName: Fantas.SystemPlatform
+- uid: Fantas.SystemPlatformInformation.CurrentPlatformDescription*
+  commentId: Overload:Fantas.SystemPlatformInformation.CurrentPlatformDescription
+  isExternal: true
+  href: Fantas.SystemPlatformInformation.html#Fantas_SystemPlatformInformation_CurrentPlatformDescription
+  name: CurrentPlatformDescription
+  nameWithType: SystemPlatformInformation.CurrentPlatformDescription
+  fullName: Fantas.SystemPlatformInformation.CurrentPlatformDescription
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

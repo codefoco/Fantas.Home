@@ -31,33 +31,47 @@ items:
   - Fantas.Input.ControllerButtons.RightTrigger
   - Fantas.Input.ControllerButtons.X
   - Fantas.Input.ControllerButtons.Y
+  - Fantas.Input.ControllerButtons.value__
   langs:
   - csharp
   - vb
   name: ControllerButtons
   nameWithType: ControllerButtons
   fullName: Fantas.Input.ControllerButtons
-  type: Enum
+  type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Defines the buttons on gamepad.
   example: []
   syntax:
-    content: >-
-      [Flags]
-
-      public enum ControllerButtons
-    content.vb: >-
-      <Flags>
-
-      Public Enum ControllerButtons
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+    content: 'public sealed class ControllerButtons : Enum'
+    content.vb: Public NotInheritable Class ControllerButtons Inherits Enum
+  inheritance:
+  - System.Object
+- uid: Fantas.Input.ControllerButtons.value__
+  commentId: F:Fantas.Input.ControllerButtons.value__
+  id: value__
+  parent: Fantas.Input.ControllerButtons
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ControllerButtons.value__
+  fullName: Fantas.Input.ControllerButtons.value__
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
 - uid: Fantas.Input.ControllerButtons.None
   commentId: F:Fantas.Input.ControllerButtons.None
   id: None
@@ -70,16 +84,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.None
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Use to flag no button is pressed
   example: []
   syntax:
-    content: None = 0
+    content: public const ControllerButtons None = 0
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const None As ControllerButtons = 0
 - uid: Fantas.Input.ControllerButtons.DPadUp
   commentId: F:Fantas.Input.ControllerButtons.DPadUp
   id: DPadUp
@@ -92,16 +107,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.DPadUp
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Directional pad up.
   example: []
   syntax:
-    content: DPadUp = 1
+    content: public const ControllerButtons DPadUp = 1
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const DPadUp As ControllerButtons = 1
 - uid: Fantas.Input.ControllerButtons.DPadDown
   commentId: F:Fantas.Input.ControllerButtons.DPadDown
   id: DPadDown
@@ -114,16 +130,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.DPadDown
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Directional pad down.
   example: []
   syntax:
-    content: DPadDown = 2
+    content: public const ControllerButtons DPadDown = 2
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const DPadDown As ControllerButtons = 2
 - uid: Fantas.Input.ControllerButtons.DPadLeft
   commentId: F:Fantas.Input.ControllerButtons.DPadLeft
   id: DPadLeft
@@ -136,16 +153,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.DPadLeft
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Directional pad left.
   example: []
   syntax:
-    content: DPadLeft = 4
+    content: public const ControllerButtons DPadLeft = 4
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const DPadLeft As ControllerButtons = 4
 - uid: Fantas.Input.ControllerButtons.DPadRight
   commentId: F:Fantas.Input.ControllerButtons.DPadRight
   id: DPadRight
@@ -158,16 +176,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.DPadRight
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Directional pad right.
   example: []
   syntax:
-    content: DPadRight = 8
+    content: public const ControllerButtons DPadRight = 8
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const DPadRight As ControllerButtons = 8
 - uid: Fantas.Input.ControllerButtons.Menu
   commentId: F:Fantas.Input.ControllerButtons.Menu
   id: Menu
@@ -180,16 +199,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.Menu
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: START or MENU button (depending on your GamePad)
   example: []
   syntax:
-    content: Menu = 16
+    content: public const ControllerButtons Menu = 16
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const Menu As ControllerButtons = 16
 - uid: Fantas.Input.ControllerButtons.Options
   commentId: F:Fantas.Input.ControllerButtons.Options
   id: Options
@@ -202,16 +222,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.Options
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: BACK or Options button (depending on your GamePad)
   example: []
   syntax:
-    content: Options = 32
+    content: public const ControllerButtons Options = 32
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const Options As ControllerButtons = 32
 - uid: Fantas.Input.ControllerButtons.LeftThumbstick
   commentId: F:Fantas.Input.ControllerButtons.LeftThumbstick
   id: LeftThumbstick
@@ -224,16 +245,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.LeftThumbstick
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Left thumb stick button (pressing the left thumb stick).
   example: []
   syntax:
-    content: LeftThumbstick = 64
+    content: public const ControllerButtons LeftThumbstick = 64
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const LeftThumbstick As ControllerButtons = 64
 - uid: Fantas.Input.ControllerButtons.RightThumbstick
   commentId: F:Fantas.Input.ControllerButtons.RightThumbstick
   id: RightThumbstick
@@ -246,16 +268,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.RightThumbstick
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Right thumb stick button (pressing the right thumb stick).
   example: []
   syntax:
-    content: RightThumbstick = 128
+    content: public const ControllerButtons RightThumbstick = 128
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const RightThumbstick As ControllerButtons = 128
 - uid: Fantas.Input.ControllerButtons.LeftShoulder
   commentId: F:Fantas.Input.ControllerButtons.LeftShoulder
   id: LeftShoulder
@@ -268,16 +291,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.LeftShoulder
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Left bumper (shoulder) button.
   example: []
   syntax:
-    content: LeftShoulder = 256
+    content: public const ControllerButtons LeftShoulder = 256
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const LeftShoulder As ControllerButtons = 256
 - uid: Fantas.Input.ControllerButtons.RightShoulder
   commentId: F:Fantas.Input.ControllerButtons.RightShoulder
   id: RightShoulder
@@ -290,16 +314,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.RightShoulder
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Right bumper (shoulder) button.
   example: []
   syntax:
-    content: RightShoulder = 512
+    content: public const ControllerButtons RightShoulder = 512
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const RightShoulder As ControllerButtons = 512
 - uid: Fantas.Input.ControllerButtons.BigButton
   commentId: F:Fantas.Input.ControllerButtons.BigButton
   id: BigButton
@@ -312,16 +337,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.BigButton
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Big button (like the big X in the Xbox 360)
   example: []
   syntax:
-    content: BigButton = 2048
+    content: public const ControllerButtons BigButton = 2048
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const BigButton As ControllerButtons = 2048
 - uid: Fantas.Input.ControllerButtons.A
   commentId: F:Fantas.Input.ControllerButtons.A
   id: A
@@ -334,16 +360,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.A
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: A button (the lower button)
   example: []
   syntax:
-    content: A = 4096
+    content: public const ControllerButtons A = 4096
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const A As ControllerButtons = 4096
 - uid: Fantas.Input.ControllerButtons.B
   commentId: F:Fantas.Input.ControllerButtons.B
   id: B
@@ -356,16 +383,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.B
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: B button (button on the right)
   example: []
   syntax:
-    content: B = 8192
+    content: public const ControllerButtons B = 8192
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const B As ControllerButtons = 8192
 - uid: Fantas.Input.ControllerButtons.X
   commentId: F:Fantas.Input.ControllerButtons.X
   id: X
@@ -378,16 +406,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.X
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: X button (button on the left)
   example: []
   syntax:
-    content: X = 16384
+    content: public const ControllerButtons X = 16384
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const X As ControllerButtons = 16384
 - uid: Fantas.Input.ControllerButtons.Y
   commentId: F:Fantas.Input.ControllerButtons.Y
   id: Y
@@ -400,16 +429,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.Y
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Y button (upper button)
   example: []
   syntax:
-    content: Y = 32768
+    content: public const ControllerButtons Y = 32768
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const Y As ControllerButtons = 32768
 - uid: Fantas.Input.ControllerButtons.LeftThumbstickLeft
   commentId: F:Fantas.Input.ControllerButtons.LeftThumbstickLeft
   id: LeftThumbstickLeft
@@ -422,16 +452,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.LeftThumbstickLeft
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Left thumb stick is towards the left.
   example: []
   syntax:
-    content: LeftThumbstickLeft = 2097152
+    content: public const ControllerButtons LeftThumbstickLeft = 2097152
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const LeftThumbstickLeft As ControllerButtons = 2097152
 - uid: Fantas.Input.ControllerButtons.RightTrigger
   commentId: F:Fantas.Input.ControllerButtons.RightTrigger
   id: RightTrigger
@@ -444,16 +475,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.RightTrigger
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Right trigger.
   example: []
   syntax:
-    content: RightTrigger = 4194304
+    content: public const ControllerButtons RightTrigger = 4194304
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const RightTrigger As ControllerButtons = 4194304
 - uid: Fantas.Input.ControllerButtons.LeftTrigger
   commentId: F:Fantas.Input.ControllerButtons.LeftTrigger
   id: LeftTrigger
@@ -466,16 +498,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.LeftTrigger
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Left trigger
   example: []
   syntax:
-    content: LeftTrigger = 8388608
+    content: public const ControllerButtons LeftTrigger = 8388608
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const LeftTrigger As ControllerButtons = 8388608
 - uid: Fantas.Input.ControllerButtons.RightThumbstickUp
   commentId: F:Fantas.Input.ControllerButtons.RightThumbstickUp
   id: RightThumbstickUp
@@ -488,16 +521,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.RightThumbstickUp
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Right thumb stick is towards up.
   example: []
   syntax:
-    content: RightThumbstickUp = 16777216
+    content: public const ControllerButtons RightThumbstickUp = 16777216
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const RightThumbstickUp As ControllerButtons = 16777216
 - uid: Fantas.Input.ControllerButtons.RightThumbstickDown
   commentId: F:Fantas.Input.ControllerButtons.RightThumbstickDown
   id: RightThumbstickDown
@@ -510,16 +544,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.RightThumbstickDown
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Right thumb stick is towards down.
   example: []
   syntax:
-    content: RightThumbstickDown = 33554432
+    content: public const ControllerButtons RightThumbstickDown = 33554432
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const RightThumbstickDown As ControllerButtons = 33554432
 - uid: Fantas.Input.ControllerButtons.RightThumbstickRight
   commentId: F:Fantas.Input.ControllerButtons.RightThumbstickRight
   id: RightThumbstickRight
@@ -532,16 +567,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.RightThumbstickRight
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Right thumb stick is towards the right.
   example: []
   syntax:
-    content: RightThumbstickRight = 67108864
+    content: public const ControllerButtons RightThumbstickRight = 67108864
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const RightThumbstickRight As ControllerButtons = 67108864
 - uid: Fantas.Input.ControllerButtons.RightThumbstickLeft
   commentId: F:Fantas.Input.ControllerButtons.RightThumbstickLeft
   id: RightThumbstickLeft
@@ -554,16 +590,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.RightThumbstickLeft
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Right thumb stick is towards the left.
   example: []
   syntax:
-    content: RightThumbstickLeft = 134217728
+    content: public const ControllerButtons RightThumbstickLeft = 134217728
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const RightThumbstickLeft As ControllerButtons = 134217728
 - uid: Fantas.Input.ControllerButtons.LeftThumbstickUp
   commentId: F:Fantas.Input.ControllerButtons.LeftThumbstickUp
   id: LeftThumbstickUp
@@ -576,16 +613,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.LeftThumbstickUp
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Left thumb stick is towards up.
   example: []
   syntax:
-    content: LeftThumbstickUp = 268435456
+    content: public const ControllerButtons LeftThumbstickUp = 268435456
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const LeftThumbstickUp As ControllerButtons = 268435456
 - uid: Fantas.Input.ControllerButtons.LeftThumbstickDown
   commentId: F:Fantas.Input.ControllerButtons.LeftThumbstickDown
   id: LeftThumbstickDown
@@ -598,16 +636,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.LeftThumbstickDown
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Left thumb stick is towards down.
   example: []
   syntax:
-    content: LeftThumbstickDown = 536870912
+    content: public const ControllerButtons LeftThumbstickDown = 536870912
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const LeftThumbstickDown As ControllerButtons = 536870912
 - uid: Fantas.Input.ControllerButtons.LeftThumbstickRight
   commentId: F:Fantas.Input.ControllerButtons.LeftThumbstickRight
   id: LeftThumbstickRight
@@ -620,16 +659,17 @@ items:
   fullName: Fantas.Input.ControllerButtons.LeftThumbstickRight
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Left thumb stick is towards the right.
   example: []
   syntax:
-    content: LeftThumbstickRight = 1073741824
+    content: public const ControllerButtons LeftThumbstickRight = 1073741824
     return:
       type: Fantas.Input.ControllerButtons
+    content.vb: Public Const LeftThumbstickRight As ControllerButtons = 1073741824
 references:
 - uid: Fantas.Input
   commentId: N:Fantas.Input
@@ -658,6 +698,35 @@ references:
     name: Input
     isExternal: true
     href: Fantas.Input.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Fantas.Input.ControllerButtons
   commentId: T:Fantas.Input.ControllerButtons
   parent: Fantas.Input

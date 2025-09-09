@@ -11,33 +11,47 @@ items:
   - Fantas.Input.MouseButtons.Right
   - Fantas.Input.MouseButtons.X1
   - Fantas.Input.MouseButtons.X2
+  - Fantas.Input.MouseButtons.value__
   langs:
   - csharp
   - vb
   name: MouseButtons
   nameWithType: MouseButtons
   fullName: Fantas.Input.MouseButtons
-  type: Enum
+  type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Mouse/MouseButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Mouse/MouseButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Mouse buttons
   example: []
   syntax:
-    content: >-
-      [Flags]
-
-      public enum MouseButtons
-    content.vb: >-
-      <Flags>
-
-      Public Enum MouseButtons
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+    content: 'public sealed class MouseButtons : Enum'
+    content.vb: Public NotInheritable Class MouseButtons Inherits Enum
+  inheritance:
+  - System.Object
+- uid: Fantas.Input.MouseButtons.value__
+  commentId: F:Fantas.Input.MouseButtons.value__
+  id: value__
+  parent: Fantas.Input.MouseButtons
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: MouseButtons.value__
+  fullName: Fantas.Input.MouseButtons.value__
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Mouse/MouseButtons.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
 - uid: Fantas.Input.MouseButtons.None
   commentId: F:Fantas.Input.MouseButtons.None
   id: None
@@ -50,16 +64,17 @@ items:
   fullName: Fantas.Input.MouseButtons.None
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Mouse/MouseButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Mouse/MouseButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: None button
   example: []
   syntax:
-    content: None = 0
+    content: public const MouseButtons None = 0
     return:
       type: Fantas.Input.MouseButtons
+    content.vb: Public Const None As MouseButtons = 0
 - uid: Fantas.Input.MouseButtons.Left
   commentId: F:Fantas.Input.MouseButtons.Left
   id: Left
@@ -72,16 +87,17 @@ items:
   fullName: Fantas.Input.MouseButtons.Left
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Mouse/MouseButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Mouse/MouseButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Left mouse button
   example: []
   syntax:
-    content: Left = 1
+    content: public const MouseButtons Left = 1
     return:
       type: Fantas.Input.MouseButtons
+    content.vb: Public Const Left As MouseButtons = 1
 - uid: Fantas.Input.MouseButtons.Right
   commentId: F:Fantas.Input.MouseButtons.Right
   id: Right
@@ -94,16 +110,17 @@ items:
   fullName: Fantas.Input.MouseButtons.Right
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Mouse/MouseButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Mouse/MouseButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Right mouse button
   example: []
   syntax:
-    content: Right = 2
+    content: public const MouseButtons Right = 2
     return:
       type: Fantas.Input.MouseButtons
+    content.vb: Public Const Right As MouseButtons = 2
 - uid: Fantas.Input.MouseButtons.Middle
   commentId: F:Fantas.Input.MouseButtons.Middle
   id: Middle
@@ -116,16 +133,17 @@ items:
   fullName: Fantas.Input.MouseButtons.Middle
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Mouse/MouseButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Mouse/MouseButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Middle mouse button
   example: []
   syntax:
-    content: Middle = 4
+    content: public const MouseButtons Middle = 4
     return:
       type: Fantas.Input.MouseButtons
+    content.vb: Public Const Middle As MouseButtons = 4
 - uid: Fantas.Input.MouseButtons.X1
   commentId: F:Fantas.Input.MouseButtons.X1
   id: X1
@@ -138,16 +156,17 @@ items:
   fullName: Fantas.Input.MouseButtons.X1
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Mouse/MouseButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Mouse/MouseButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Extra button 1
   example: []
   syntax:
-    content: X1 = 8
+    content: public const MouseButtons X1 = 8
     return:
       type: Fantas.Input.MouseButtons
+    content.vb: Public Const X1 As MouseButtons = 8
 - uid: Fantas.Input.MouseButtons.X2
   commentId: F:Fantas.Input.MouseButtons.X2
   id: X2
@@ -160,16 +179,17 @@ items:
   fullName: Fantas.Input.MouseButtons.X2
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Mouse/MouseButtons.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Mouse/MouseButtons.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Extra button 2
   example: []
   syntax:
-    content: X2 = 16
+    content: public const MouseButtons X2 = 16
     return:
       type: Fantas.Input.MouseButtons
+    content.vb: Public Const X2 As MouseButtons = 16
 references:
 - uid: Fantas.Input
   commentId: N:Fantas.Input
@@ -198,6 +218,35 @@ references:
     name: Input
     isExternal: true
     href: Fantas.Input.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Fantas.Input.MouseButtons
   commentId: T:Fantas.Input.MouseButtons
   parent: Fantas.Input

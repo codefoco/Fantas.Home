@@ -1,0 +1,3923 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.UI.ScrollBar
+  commentId: T:Fantas.UI.ScrollBar
+  id: ScrollBar
+  parent: Fantas.UI
+  children:
+  - Fantas.UI.ScrollBar.#ctor(Fantas.UI.Orientation)
+  - Fantas.UI.ScrollBar.MinThumbSize
+  - Fantas.UI.ScrollBar.OnMouseEnter
+  - Fantas.UI.ScrollBar.OnMouseLeave
+  - Fantas.UI.ScrollBar.OnPanStart(Fantas.Input.PanEventArgs)
+  - Fantas.UI.ScrollBar.Scroll
+  - Fantas.UI.ScrollBar.ScrollBarThickness
+  - Fantas.UI.ScrollBar.ScrollThumbMargin
+  - Fantas.UI.ScrollBar.Thumb
+  - Fantas.UI.ScrollBar.ThumbColor
+  - Fantas.UI.ScrollBar.ThumbTrackColor
+  - Fantas.UI.ScrollBar.Value
+  langs:
+  - csharp
+  - vb
+  name: ScrollBar
+  nameWithType: ScrollBar
+  fullName: Fantas.UI.ScrollBar
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ScrollNodes/ScrollBar.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: ScrollNode bar common base
+  example: []
+  syntax:
+    content: 'public abstract class ScrollBar : SpriteNode'
+    content.vb: Public MustInherit Class ScrollBar Inherits SpriteNode
+  inheritance:
+  - System.Object
+  - Fantas.Node
+  - Fantas.SpriteNode
+  derivedClasses:
+  - Fantas.UI.HScrollBar
+  - Fantas.UI.VScrollBar
+  inheritedMembers:
+  - Fantas.SpriteNode.Copy
+  - Fantas.SpriteNode.ScaleTo(System.Drawing.SizeF)
+  - Fantas.SpriteNode.OnSizeChanged
+  - Fantas.SpriteNode.Inflate(System.Numerics.Vector2)
+  - Fantas.SpriteNode.Inflate(System.Single,System.Single)
+  - Fantas.SpriteNode.Inflate(System.Single)
+  - Fantas.SpriteNode.ExpandWidth(System.Single)
+  - Fantas.SpriteNode.ExpandHeight(System.Single)
+  - Fantas.SpriteNode.ExpandBottomRightTo(System.Drawing.PointF)
+  - Fantas.SpriteNode.BlendMode
+  - Fantas.SpriteNode.AnchorPoint
+  - Fantas.SpriteNode.Color
+  - Fantas.SpriteNode.TopLeftColor
+  - Fantas.SpriteNode.TopRightColor
+  - Fantas.SpriteNode.TopColor
+  - Fantas.SpriteNode.BottomRightColor
+  - Fantas.SpriteNode.RightColor
+  - Fantas.SpriteNode.BottomLeftColor
+  - Fantas.SpriteNode.LeftColor
+  - Fantas.SpriteNode.BottomColor
+  - Fantas.SpriteNode.ColorBlendFactor
+  - Fantas.SpriteNode.CenterRect
+  - Fantas.SpriteNode.Size
+  - Fantas.SpriteNode.Width
+  - Fantas.SpriteNode.Height
+  - Fantas.SpriteNode.Texture
+  - Fantas.Node.ToString
+  - Fantas.Node.Offset(System.Numerics.Vector2)
+  - Fantas.Node.Offset(System.Single,System.Single)
+  - Fantas.Node.OffsetX(System.Single)
+  - Fantas.Node.OffsetY(System.Single)
+  - Fantas.Node.CalculateAccumulatedFrame
+  - Fantas.Node.RenderToTexture
+  - Fantas.Node.SetScale(System.Single)
+  - Fantas.Node.SetScale(System.Numerics.Vector2)
+  - Fantas.Node.LookAt(System.Drawing.PointF)
+  - Fantas.Node.AddChild(Fantas.Node)
+  - Fantas.Node.InsertChild(System.Int32,Fantas.Node)
+  - Fantas.Node.MoveToParent(Fantas.Node)
+  - Fantas.Node.RemoveFromParent
+  - Fantas.Node.RemoveAllChildren
+  - Fantas.Node.RemoveChildren(Fantas.Node[])
+  - Fantas.Node.RemoveChild(Fantas.Node)
+  - Fantas.Node.InParentHierarchy(Fantas.Node)
+  - Fantas.Node.RunAnimation(Fantas.Animation)
+  - Fantas.Node.RunAnimation(Fantas.Animation,System.Action)
+  - Fantas.Node.RunAnimation(Fantas.Animation,System.String)
+  - Fantas.Node.RunAnimationAsync(Fantas.Animation)
+  - Fantas.Node.GetAnimationForKey(System.String)
+  - Fantas.Node.HasAnimationKey(System.String)
+  - Fantas.Node.RemoveAnimationForKey(System.String)
+  - Fantas.Node.RemoveAllAnimations
+  - Fantas.Node.ContainsPoint(System.Drawing.PointF)
+  - Fantas.Node.ContainsScenePoint(System.Drawing.PointF)
+  - Fantas.Node.GetNodeAtPoint(System.Drawing.PointF)
+  - Fantas.Node.GetChildNode(System.String)
+  - Fantas.Node.GetNodesAtPoint(System.Drawing.PointF)
+  - Fantas.Node.IntersectsNode(Fantas.Node)
+  - Fantas.Node.ConvertPointFromNode(System.Drawing.PointF,Fantas.Node)
+  - Fantas.Node.ConvertPointToNode(System.Drawing.PointF,Fantas.Node)
+  - Fantas.Node.ConvertPointToScene(System.Drawing.PointF)
+  - Fantas.Node.ConvertPointFromScene(System.Drawing.PointF)
+  - Fantas.Node.ConvertVectorFromNode(System.Numerics.Vector2,Fantas.Node)
+  - Fantas.Node.ConvertVectorToNode(System.Numerics.Vector2,Fantas.Node)
+  - Fantas.Node.ConvertVectorFromScene(System.Numerics.Vector2)
+  - Fantas.Node.ConvertVectorToScene(System.Numerics.Vector2)
+  - Fantas.Node.BringForward
+  - Fantas.Node.BringToFront
+  - Fantas.Node.SendBackward
+  - Fantas.Node.SendToBack
+  - Fantas.Node.SetMouseCapture
+  - Fantas.Node.ReleaseMouseCapture
+  - Fantas.Node.OnTap(Fantas.Input.TapEventArgs)
+  - Fantas.Node.OnLongPress(Fantas.Input.TapEventArgs)
+  - Fantas.Node.OnDoubleTap(Fantas.Input.TapEventArgs)
+  - Fantas.Node.OnPan(Fantas.Input.PanEventArgs)
+  - Fantas.Node.OnPanComplete(Fantas.Input.PanEventArgs)
+  - Fantas.Node.OnTouchDownInside(Fantas.Input.TouchEventArgs)
+  - Fantas.Node.OnTouchDragEnter(Fantas.Input.TouchEventArgs)
+  - Fantas.Node.OnTouchDragExit(Fantas.Input.TouchEventArgs)
+  - Fantas.Node.OnTouchDragInside(Fantas.Input.TouchEventArgs)
+  - Fantas.Node.OnTouchDragOutside(Fantas.Input.TouchEventArgs)
+  - Fantas.Node.OnTouchUpInside(Fantas.Input.TouchEventArgs)
+  - Fantas.Node.OnTouchUpOutside(Fantas.Input.TouchEventArgs)
+  - Fantas.Node.OnMouseDown(Fantas.Input.MouseEventArgs)
+  - Fantas.Node.OnMouseUp(Fantas.Input.MouseEventArgs)
+  - Fantas.Node.OnMouseWheel(Fantas.Input.MouseEventArgs)
+  - Fantas.Node.OnClick(Fantas.Input.MouseEventArgs)
+  - Fantas.Node.OnDoubleClick(Fantas.Input.MouseEventArgs)
+  - Fantas.Node.OnMouseMove(Fantas.Input.MouseEventArgs)
+  - Fantas.Node.Name
+  - Fantas.Node.Tag
+  - Fantas.Node.Cursor
+  - Fantas.Node.Position
+  - Fantas.Node.Frame
+  - Fantas.Node.X
+  - Fantas.Node.Y
+  - Fantas.Node.Center
+  - Fantas.Node.Left
+  - Fantas.Node.Right
+  - Fantas.Node.Top
+  - Fantas.Node.TopLeft
+  - Fantas.Node.TopRight
+  - Fantas.Node.BottomLeft
+  - Fantas.Node.BottomRight
+  - Fantas.Node.Bottom
+  - Fantas.Node.ZPosition
+  - Fantas.Node.ZRotation
+  - Fantas.Node.XScale
+  - Fantas.Node.YScale
+  - Fantas.Node.Scale
+  - Fantas.Node.Scene
+  - Fantas.Node.Parent
+  - Fantas.Node.Children
+  - Fantas.Node.HasChildren
+  - Fantas.Node.HasParent
+  - Fantas.Node.PhysicsBody
+  - Fantas.Node.Hidden
+  - Fantas.Node.Alpha
+  - Fantas.Node.HasAnimation
+  - Fantas.Node.Paused
+  - Fantas.Node.Speed
+  - Fantas.Node.IsHitTestEnabled
+  - Fantas.Node.CanBringForward
+  - Fantas.Node.CanSendBackward
+  - Fantas.Node.HasMouseCaputure
+  - Fantas.Node.IsMouseOver
+  - Fantas.Node.MouseButtonPressed
+  - Fantas.Node.IsTouchOver
+  - Fantas.Node.TouchCount
+  - Fantas.Node.Tap
+  - Fantas.Node.DoubleTap
+  - Fantas.Node.LongPress
+  - Fantas.Node.PanStart
+  - Fantas.Node.Pan
+  - Fantas.Node.PanComplete
+  - Fantas.Node.TouchDownInside
+  - Fantas.Node.TouchDragEnter
+  - Fantas.Node.TouchDragExit
+  - Fantas.Node.TouchDragInside
+  - Fantas.Node.TouchDragOutside
+  - Fantas.Node.TouchUpInside
+  - Fantas.Node.TouchUpOutside
+  - Fantas.Node.MouseDown
+  - Fantas.Node.MouseUp
+  - Fantas.Node.MouseWheel
+  - Fantas.Node.Click
+  - Fantas.Node.DoubleClick
+  - Fantas.Node.MouseEnter
+  - Fantas.Node.MouseMove
+  - Fantas.Node.MouseLeave
+  extensionMethods:
+  - Fantas.SpriteNode.Fantas.Physics.NodeExtensions.SetupBody(System.Int32)
+  - Fantas.SpriteNode.Fantas.Physics.NodeExtensions.SetupEdge(System.Int32)
+- uid: Fantas.UI.ScrollBar.ScrollBarThickness
+  commentId: F:Fantas.UI.ScrollBar.ScrollBarThickness
+  id: ScrollBarThickness
+  parent: Fantas.UI.ScrollBar
+  langs:
+  - csharp
+  - vb
+  name: ScrollBarThickness
+  nameWithType: ScrollBar.ScrollBarThickness
+  fullName: Fantas.UI.ScrollBar.ScrollBarThickness
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ScrollNodes/ScrollBar.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: ScrollBar thickness
+  example: []
+  syntax:
+    content: public const float ScrollBarThickness = 16
+    return:
+      type: System.Single
+    content.vb: Public Const ScrollBarThickness As Single = 16
+- uid: Fantas.UI.ScrollBar.MinThumbSize
+  commentId: F:Fantas.UI.ScrollBar.MinThumbSize
+  id: MinThumbSize
+  parent: Fantas.UI.ScrollBar
+  langs:
+  - csharp
+  - vb
+  name: MinThumbSize
+  nameWithType: ScrollBar.MinThumbSize
+  fullName: Fantas.UI.ScrollBar.MinThumbSize
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ScrollNodes/ScrollBar.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: Minimal thumb size
+  example: []
+  syntax:
+    content: public const float MinThumbSize = 32
+    return:
+      type: System.Single
+    content.vb: Public Const MinThumbSize As Single = 32
+- uid: Fantas.UI.ScrollBar.ScrollThumbMargin
+  commentId: F:Fantas.UI.ScrollBar.ScrollThumbMargin
+  id: ScrollThumbMargin
+  parent: Fantas.UI.ScrollBar
+  langs:
+  - csharp
+  - vb
+  name: ScrollThumbMargin
+  nameWithType: ScrollBar.ScrollThumbMargin
+  fullName: Fantas.UI.ScrollBar.ScrollThumbMargin
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ScrollNodes/ScrollBar.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: Margin for thumb position
+  example: []
+  syntax:
+    content: public const float ScrollThumbMargin = 2
+    return:
+      type: System.Single
+    content.vb: Public Const ScrollThumbMargin As Single = 2
+- uid: Fantas.UI.ScrollBar.#ctor(Fantas.UI.Orientation)
+  commentId: M:Fantas.UI.ScrollBar.#ctor(Fantas.UI.Orientation)
+  id: '#ctor(Fantas.UI.Orientation)'
+  parent: Fantas.UI.ScrollBar
+  langs:
+  - csharp
+  - vb
+  name: ScrollBar(Orientation)
+  nameWithType: ScrollBar.ScrollBar(Orientation)
+  fullName: Fantas.UI.ScrollBar.ScrollBar(Fantas.UI.Orientation)
+  type: Constructor
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ScrollNodes/ScrollBar.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: ctor
+  example: []
+  syntax:
+    content: protected ScrollBar(Orientation orientation)
+    parameters:
+    - id: orientation
+      type: Fantas.UI.Orientation
+    content.vb: Protected Sub New(orientation As Orientation)
+  overload: Fantas.UI.ScrollBar.#ctor*
+  nameWithType.vb: ScrollBar.New(Orientation)
+  fullName.vb: Fantas.UI.ScrollBar.New(Fantas.UI.Orientation)
+  name.vb: New(Orientation)
+- uid: Fantas.UI.ScrollBar.OnPanStart(Fantas.Input.PanEventArgs)
+  commentId: M:Fantas.UI.ScrollBar.OnPanStart(Fantas.Input.PanEventArgs)
+  id: OnPanStart(Fantas.Input.PanEventArgs)
+  parent: Fantas.UI.ScrollBar
+  langs:
+  - csharp
+  - vb
+  name: OnPanStart(PanEventArgs)
+  nameWithType: ScrollBar.OnPanStart(PanEventArgs)
+  fullName: Fantas.UI.ScrollBar.OnPanStart(Fantas.Input.PanEventArgs)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ScrollNodes/ScrollBar.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: ''
+  example: []
+  syntax:
+    content: public override void OnPanStart(PanEventArgs args)
+    parameters:
+    - id: args
+      type: Fantas.Input.PanEventArgs
+      description: ''
+    content.vb: Public Overrides Sub OnPanStart(args As PanEventArgs)
+  overridden: Fantas.Node.OnPanStart(Fantas.Input.PanEventArgs)
+  overload: Fantas.UI.ScrollBar.OnPanStart*
+- uid: Fantas.UI.ScrollBar.OnMouseEnter
+  commentId: M:Fantas.UI.ScrollBar.OnMouseEnter
+  id: OnMouseEnter
+  parent: Fantas.UI.ScrollBar
+  langs:
+  - csharp
+  - vb
+  name: OnMouseEnter()
+  nameWithType: ScrollBar.OnMouseEnter()
+  fullName: Fantas.UI.ScrollBar.OnMouseEnter()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ScrollNodes/ScrollBar.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: ''
+  example: []
+  syntax:
+    content: public override void OnMouseEnter()
+    content.vb: Public Overrides Sub OnMouseEnter()
+  overridden: Fantas.Node.OnMouseEnter
+  overload: Fantas.UI.ScrollBar.OnMouseEnter*
+- uid: Fantas.UI.ScrollBar.OnMouseLeave
+  commentId: M:Fantas.UI.ScrollBar.OnMouseLeave
+  id: OnMouseLeave
+  parent: Fantas.UI.ScrollBar
+  langs:
+  - csharp
+  - vb
+  name: OnMouseLeave()
+  nameWithType: ScrollBar.OnMouseLeave()
+  fullName: Fantas.UI.ScrollBar.OnMouseLeave()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ScrollNodes/ScrollBar.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: ''
+  example: []
+  syntax:
+    content: public override void OnMouseLeave()
+    content.vb: Public Overrides Sub OnMouseLeave()
+  overridden: Fantas.Node.OnMouseLeave
+  overload: Fantas.UI.ScrollBar.OnMouseLeave*
+- uid: Fantas.UI.ScrollBar.Thumb
+  commentId: P:Fantas.UI.ScrollBar.Thumb
+  id: Thumb
+  parent: Fantas.UI.ScrollBar
+  langs:
+  - csharp
+  - vb
+  name: Thumb
+  nameWithType: ScrollBar.Thumb
+  fullName: Fantas.UI.ScrollBar.Thumb
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ScrollNodes/ScrollBar.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: Scroll bar thumb node
+  example: []
+  syntax:
+    content: public ScrollBarThumb Thumb { get; }
+    parameters: []
+    return:
+      type: Fantas.UI.ScrollBarThumb
+    content.vb: Public ReadOnly Property Thumb As ScrollBarThumb
+  overload: Fantas.UI.ScrollBar.Thumb*
+- uid: Fantas.UI.ScrollBar.ThumbTrackColor
+  commentId: P:Fantas.UI.ScrollBar.ThumbTrackColor
+  id: ThumbTrackColor
+  parent: Fantas.UI.ScrollBar
+  langs:
+  - csharp
+  - vb
+  name: ThumbTrackColor
+  nameWithType: ScrollBar.ThumbTrackColor
+  fullName: Fantas.UI.ScrollBar.ThumbTrackColor
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ScrollNodes/ScrollBar.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: Thumb default color
+  example: []
+  syntax:
+    content: public Color ThumbTrackColor { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.Color
+    content.vb: Public Property ThumbTrackColor As Color
+  overload: Fantas.UI.ScrollBar.ThumbTrackColor*
+- uid: Fantas.UI.ScrollBar.ThumbColor
+  commentId: P:Fantas.UI.ScrollBar.ThumbColor
+  id: ThumbColor
+  parent: Fantas.UI.ScrollBar
+  langs:
+  - csharp
+  - vb
+  name: ThumbColor
+  nameWithType: ScrollBar.ThumbColor
+  fullName: Fantas.UI.ScrollBar.ThumbColor
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ScrollNodes/ScrollBar.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: Thumb active tracking color
+  example: []
+  syntax:
+    content: public Color ThumbColor { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.Color
+    content.vb: Public Property ThumbColor As Color
+  overload: Fantas.UI.ScrollBar.ThumbColor*
+- uid: Fantas.UI.ScrollBar.Value
+  commentId: P:Fantas.UI.ScrollBar.Value
+  id: Value
+  parent: Fantas.UI.ScrollBar
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: ScrollBar.Value
+  fullName: Fantas.UI.ScrollBar.Value
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ScrollNodes/ScrollBar.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: Scroll bar position value
+  example: []
+  syntax:
+    content: public abstract float Value { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public MustOverride Property Value As Single
+  overload: Fantas.UI.ScrollBar.Value*
+- uid: Fantas.UI.ScrollBar.Scroll
+  commentId: E:Fantas.UI.ScrollBar.Scroll
+  id: Scroll
+  parent: Fantas.UI.ScrollBar
+  langs:
+  - csharp
+  - vb
+  name: Scroll
+  nameWithType: ScrollBar.Scroll
+  fullName: Fantas.UI.ScrollBar.Scroll
+  type: Event
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ScrollNodes/ScrollBar.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: Scroll event handler when thumb is moved in the ScrollBar
+  example: []
+  syntax:
+    content: public event EventHandler<ScrollEventArgs> Scroll
+    return:
+      type: System.EventHandler{Fantas.UI.ScrollEventArgs}
+    content.vb: Public Event Scroll As EventHandler(Of ScrollEventArgs)
+references:
+- uid: Fantas.UI
+  commentId: N:Fantas.UI
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.UI
+  nameWithType: Fantas.UI
+  fullName: Fantas.UI
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.UI
+    name: UI
+    isExternal: true
+    href: Fantas.UI.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.UI
+    name: UI
+    isExternal: true
+    href: Fantas.UI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Fantas.Node
+  commentId: T:Fantas.Node
+  parent: Fantas
+  isExternal: true
+  href: Fantas.Node.html
+  name: Node
+  nameWithType: Node
+  fullName: Fantas.Node
+- uid: Fantas.SpriteNode
+  commentId: T:Fantas.SpriteNode
+  parent: Fantas
+  isExternal: true
+  href: Fantas.SpriteNode.html
+  name: SpriteNode
+  nameWithType: SpriteNode
+  fullName: Fantas.SpriteNode
+- uid: Fantas.SpriteNode.Copy
+  commentId: M:Fantas.SpriteNode.Copy
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_Copy
+  name: Copy()
+  nameWithType: SpriteNode.Copy()
+  fullName: Fantas.SpriteNode.Copy()
+  spec.csharp:
+  - uid: Fantas.SpriteNode.Copy
+    name: Copy
+    isExternal: true
+    href: Fantas.SpriteNode.html#Fantas_SpriteNode_Copy
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fantas.SpriteNode.Copy
+    name: Copy
+    isExternal: true
+    href: Fantas.SpriteNode.html#Fantas_SpriteNode_Copy
+  - name: (
+  - name: )
+- uid: Fantas.SpriteNode.ScaleTo(System.Drawing.SizeF)
+  commentId: M:Fantas.SpriteNode.ScaleTo(System.Drawing.SizeF)
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_ScaleTo_System_Drawing_SizeF_
+  name: ScaleTo(SizeF)
+  nameWithType: SpriteNode.ScaleTo(SizeF)
+  fullName: Fantas.SpriteNode.ScaleTo(System.Drawing.SizeF)
+  spec.csharp:
+  - uid: Fantas.SpriteNode.ScaleTo(System.Drawing.SizeF)
+    name: ScaleTo
+    isExternal: true
+    href: Fantas.SpriteNode.html#Fantas_SpriteNode_ScaleTo_System_Drawing_SizeF_
+  - name: (
+  - uid: System.Drawing.SizeF
+    name: SizeF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  - name: )
+  spec.vb:
+  - uid: Fantas.SpriteNode.ScaleTo(System.Drawing.SizeF)
+    name: ScaleTo
+    isExternal: true
+    href: Fantas.SpriteNode.html#Fantas_SpriteNode_ScaleTo_System_Drawing_SizeF_
+  - name: (
+  - uid: System.Drawing.SizeF
+    name: SizeF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  - name: )
+- uid: Fantas.SpriteNode.OnSizeChanged
+  commentId: M:Fantas.SpriteNode.OnSizeChanged
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_OnSizeChanged
+  name: OnSizeChanged()
+  nameWithType: SpriteNode.OnSizeChanged()
+  fullName: Fantas.SpriteNode.OnSizeChanged()
+  spec.csharp:
+  - uid: Fantas.SpriteNode.OnSizeChanged
+    name: OnSizeChanged
+    isExternal: true
+    href: Fantas.SpriteNode.html#Fantas_SpriteNode_OnSizeChanged
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fantas.SpriteNode.OnSizeChanged
+    name: OnSizeChanged
+    isExternal: true
+    href: Fantas.SpriteNode.html#Fantas_SpriteNode_OnSizeChanged
+  - name: (
+  - name: )
+- uid: Fantas.SpriteNode.Inflate(System.Numerics.Vector2)
+  commentId: M:Fantas.SpriteNode.Inflate(System.Numerics.Vector2)
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_Inflate_System_Numerics_Vector2_
+  name: Inflate(Vector2)
+  nameWithType: SpriteNode.Inflate(Vector2)
+  fullName: Fantas.SpriteNode.Inflate(System.Numerics.Vector2)
+  spec.csharp:
+  - uid: Fantas.SpriteNode.Inflate(System.Numerics.Vector2)
+    name: Inflate
+    isExternal: true
+    href: Fantas.SpriteNode.html#Fantas_SpriteNode_Inflate_System_Numerics_Vector2_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: )
+  spec.vb:
+  - uid: Fantas.SpriteNode.Inflate(System.Numerics.Vector2)
+    name: Inflate
+    isExternal: true
+    href: Fantas.SpriteNode.html#Fantas_SpriteNode_Inflate_System_Numerics_Vector2_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: )
+- uid: Fantas.SpriteNode.Inflate(System.Single,System.Single)
+  commentId: M:Fantas.SpriteNode.Inflate(System.Single,System.Single)
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_Inflate_System_Single_System_Single_
+  name: Inflate(float, float)
+  nameWithType: SpriteNode.Inflate(float, float)
+  fullName: Fantas.SpriteNode.Inflate(float, float)
+  nameWithType.vb: SpriteNode.Inflate(Single, Single)
+  fullName.vb: Fantas.SpriteNode.Inflate(Single, Single)
+  name.vb: Inflate(Single, Single)
+  spec.csharp:
+  - uid: Fantas.SpriteNode.Inflate(System.Single,System.Single)
+    name: Inflate
+    isExternal: true
+    href: Fantas.SpriteNode.html#Fantas_SpriteNode_Inflate_System_Single_System_Single_
+  - name: (
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: Fantas.SpriteNode.Inflate(System.Single,System.Single)
+    name: Inflate
+    isExternal: true
+    href: Fantas.SpriteNode.html#Fantas_SpriteNode_Inflate_System_Single_System_Single_
+  - name: (
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: Fantas.SpriteNode.Inflate(System.Single)
+  commentId: M:Fantas.SpriteNode.Inflate(System.Single)
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_Inflate_System_Single_
+  name: Inflate(float)
+  nameWithType: SpriteNode.Inflate(float)
+  fullName: Fantas.SpriteNode.Inflate(float)
+  nameWithType.vb: SpriteNode.Inflate(Single)
+  fullName.vb: Fantas.SpriteNode.Inflate(Single)
+  name.vb: Inflate(Single)
+  spec.csharp:
+  - uid: Fantas.SpriteNode.Inflate(System.Single)
+    name: Inflate
+    isExternal: true
+    href: Fantas.SpriteNode.html#Fantas_SpriteNode_Inflate_System_Single_
+  - name: (
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: Fantas.SpriteNode.Inflate(System.Single)
+    name: Inflate
+    isExternal: true
+    href: Fantas.SpriteNode.html#Fantas_SpriteNode_Inflate_System_Single_
+  - name: (
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: Fantas.SpriteNode.ExpandWidth(System.Single)
+  commentId: M:Fantas.SpriteNode.ExpandWidth(System.Single)
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_ExpandWidth_System_Single_
+  name: ExpandWidth(float)
+  nameWithType: SpriteNode.ExpandWidth(float)
+  fullName: Fantas.SpriteNode.ExpandWidth(float)
+  nameWithType.vb: SpriteNode.ExpandWidth(Single)
+  fullName.vb: Fantas.SpriteNode.ExpandWidth(Single)
+  name.vb: ExpandWidth(Single)
+  spec.csharp:
+  - uid: Fantas.SpriteNode.ExpandWidth(System.Single)
+    name: ExpandWidth
+    isExternal: true
+    href: Fantas.SpriteNode.html#Fantas_SpriteNode_ExpandWidth_System_Single_
+  - name: (
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: Fantas.SpriteNode.ExpandWidth(System.Single)
+    name: ExpandWidth
+    isExternal: true
+    href: Fantas.SpriteNode.html#Fantas_SpriteNode_ExpandWidth_System_Single_
+  - name: (
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: Fantas.SpriteNode.ExpandHeight(System.Single)
+  commentId: M:Fantas.SpriteNode.ExpandHeight(System.Single)
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_ExpandHeight_System_Single_
+  name: ExpandHeight(float)
+  nameWithType: SpriteNode.ExpandHeight(float)
+  fullName: Fantas.SpriteNode.ExpandHeight(float)
+  nameWithType.vb: SpriteNode.ExpandHeight(Single)
+  fullName.vb: Fantas.SpriteNode.ExpandHeight(Single)
+  name.vb: ExpandHeight(Single)
+  spec.csharp:
+  - uid: Fantas.SpriteNode.ExpandHeight(System.Single)
+    name: ExpandHeight
+    isExternal: true
+    href: Fantas.SpriteNode.html#Fantas_SpriteNode_ExpandHeight_System_Single_
+  - name: (
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: Fantas.SpriteNode.ExpandHeight(System.Single)
+    name: ExpandHeight
+    isExternal: true
+    href: Fantas.SpriteNode.html#Fantas_SpriteNode_ExpandHeight_System_Single_
+  - name: (
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: Fantas.SpriteNode.ExpandBottomRightTo(System.Drawing.PointF)
+  commentId: M:Fantas.SpriteNode.ExpandBottomRightTo(System.Drawing.PointF)
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_ExpandBottomRightTo_System_Drawing_PointF_
+  name: ExpandBottomRightTo(PointF)
+  nameWithType: SpriteNode.ExpandBottomRightTo(PointF)
+  fullName: Fantas.SpriteNode.ExpandBottomRightTo(System.Drawing.PointF)
+  spec.csharp:
+  - uid: Fantas.SpriteNode.ExpandBottomRightTo(System.Drawing.PointF)
+    name: ExpandBottomRightTo
+    isExternal: true
+    href: Fantas.SpriteNode.html#Fantas_SpriteNode_ExpandBottomRightTo_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+  spec.vb:
+  - uid: Fantas.SpriteNode.ExpandBottomRightTo(System.Drawing.PointF)
+    name: ExpandBottomRightTo
+    isExternal: true
+    href: Fantas.SpriteNode.html#Fantas_SpriteNode_ExpandBottomRightTo_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+- uid: Fantas.SpriteNode.BlendMode
+  commentId: P:Fantas.SpriteNode.BlendMode
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_BlendMode
+  name: BlendMode
+  nameWithType: SpriteNode.BlendMode
+  fullName: Fantas.SpriteNode.BlendMode
+- uid: Fantas.SpriteNode.AnchorPoint
+  commentId: P:Fantas.SpriteNode.AnchorPoint
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_AnchorPoint
+  name: AnchorPoint
+  nameWithType: SpriteNode.AnchorPoint
+  fullName: Fantas.SpriteNode.AnchorPoint
+- uid: Fantas.SpriteNode.Color
+  commentId: P:Fantas.SpriteNode.Color
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_Color
+  name: Color
+  nameWithType: SpriteNode.Color
+  fullName: Fantas.SpriteNode.Color
+- uid: Fantas.SpriteNode.TopLeftColor
+  commentId: P:Fantas.SpriteNode.TopLeftColor
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_TopLeftColor
+  name: TopLeftColor
+  nameWithType: SpriteNode.TopLeftColor
+  fullName: Fantas.SpriteNode.TopLeftColor
+- uid: Fantas.SpriteNode.TopRightColor
+  commentId: P:Fantas.SpriteNode.TopRightColor
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_TopRightColor
+  name: TopRightColor
+  nameWithType: SpriteNode.TopRightColor
+  fullName: Fantas.SpriteNode.TopRightColor
+- uid: Fantas.SpriteNode.TopColor
+  commentId: P:Fantas.SpriteNode.TopColor
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_TopColor
+  name: TopColor
+  nameWithType: SpriteNode.TopColor
+  fullName: Fantas.SpriteNode.TopColor
+- uid: Fantas.SpriteNode.BottomRightColor
+  commentId: P:Fantas.SpriteNode.BottomRightColor
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_BottomRightColor
+  name: BottomRightColor
+  nameWithType: SpriteNode.BottomRightColor
+  fullName: Fantas.SpriteNode.BottomRightColor
+- uid: Fantas.SpriteNode.RightColor
+  commentId: P:Fantas.SpriteNode.RightColor
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_RightColor
+  name: RightColor
+  nameWithType: SpriteNode.RightColor
+  fullName: Fantas.SpriteNode.RightColor
+- uid: Fantas.SpriteNode.BottomLeftColor
+  commentId: P:Fantas.SpriteNode.BottomLeftColor
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_BottomLeftColor
+  name: BottomLeftColor
+  nameWithType: SpriteNode.BottomLeftColor
+  fullName: Fantas.SpriteNode.BottomLeftColor
+- uid: Fantas.SpriteNode.LeftColor
+  commentId: P:Fantas.SpriteNode.LeftColor
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_LeftColor
+  name: LeftColor
+  nameWithType: SpriteNode.LeftColor
+  fullName: Fantas.SpriteNode.LeftColor
+- uid: Fantas.SpriteNode.BottomColor
+  commentId: P:Fantas.SpriteNode.BottomColor
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_BottomColor
+  name: BottomColor
+  nameWithType: SpriteNode.BottomColor
+  fullName: Fantas.SpriteNode.BottomColor
+- uid: Fantas.SpriteNode.ColorBlendFactor
+  commentId: P:Fantas.SpriteNode.ColorBlendFactor
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_ColorBlendFactor
+  name: ColorBlendFactor
+  nameWithType: SpriteNode.ColorBlendFactor
+  fullName: Fantas.SpriteNode.ColorBlendFactor
+- uid: Fantas.SpriteNode.CenterRect
+  commentId: P:Fantas.SpriteNode.CenterRect
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_CenterRect
+  name: CenterRect
+  nameWithType: SpriteNode.CenterRect
+  fullName: Fantas.SpriteNode.CenterRect
+- uid: Fantas.SpriteNode.Size
+  commentId: P:Fantas.SpriteNode.Size
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_Size
+  name: Size
+  nameWithType: SpriteNode.Size
+  fullName: Fantas.SpriteNode.Size
+- uid: Fantas.SpriteNode.Width
+  commentId: P:Fantas.SpriteNode.Width
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_Width
+  name: Width
+  nameWithType: SpriteNode.Width
+  fullName: Fantas.SpriteNode.Width
+- uid: Fantas.SpriteNode.Height
+  commentId: P:Fantas.SpriteNode.Height
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_Height
+  name: Height
+  nameWithType: SpriteNode.Height
+  fullName: Fantas.SpriteNode.Height
+- uid: Fantas.SpriteNode.Texture
+  commentId: P:Fantas.SpriteNode.Texture
+  parent: Fantas.SpriteNode
+  isExternal: true
+  href: Fantas.SpriteNode.html#Fantas_SpriteNode_Texture
+  name: Texture
+  nameWithType: SpriteNode.Texture
+  fullName: Fantas.SpriteNode.Texture
+- uid: Fantas.Node.ToString
+  commentId: M:Fantas.Node.ToString
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ToString
+  name: ToString()
+  nameWithType: Node.ToString()
+  fullName: Fantas.Node.ToString()
+  spec.csharp:
+  - uid: Fantas.Node.ToString
+    name: ToString
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.ToString
+    name: ToString
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ToString
+  - name: (
+  - name: )
+- uid: Fantas.Node.Offset(System.Numerics.Vector2)
+  commentId: M:Fantas.Node.Offset(System.Numerics.Vector2)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Offset_System_Numerics_Vector2_
+  name: Offset(Vector2)
+  nameWithType: Node.Offset(Vector2)
+  fullName: Fantas.Node.Offset(System.Numerics.Vector2)
+  spec.csharp:
+  - uid: Fantas.Node.Offset(System.Numerics.Vector2)
+    name: Offset
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_Offset_System_Numerics_Vector2_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.Offset(System.Numerics.Vector2)
+    name: Offset
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_Offset_System_Numerics_Vector2_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: )
+- uid: Fantas.Node.Offset(System.Single,System.Single)
+  commentId: M:Fantas.Node.Offset(System.Single,System.Single)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Offset_System_Single_System_Single_
+  name: Offset(float, float)
+  nameWithType: Node.Offset(float, float)
+  fullName: Fantas.Node.Offset(float, float)
+  nameWithType.vb: Node.Offset(Single, Single)
+  fullName.vb: Fantas.Node.Offset(Single, Single)
+  name.vb: Offset(Single, Single)
+  spec.csharp:
+  - uid: Fantas.Node.Offset(System.Single,System.Single)
+    name: Offset
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_Offset_System_Single_System_Single_
+  - name: (
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.Offset(System.Single,System.Single)
+    name: Offset
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_Offset_System_Single_System_Single_
+  - name: (
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: Fantas.Node.OffsetX(System.Single)
+  commentId: M:Fantas.Node.OffsetX(System.Single)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OffsetX_System_Single_
+  name: OffsetX(float)
+  nameWithType: Node.OffsetX(float)
+  fullName: Fantas.Node.OffsetX(float)
+  nameWithType.vb: Node.OffsetX(Single)
+  fullName.vb: Fantas.Node.OffsetX(Single)
+  name.vb: OffsetX(Single)
+  spec.csharp:
+  - uid: Fantas.Node.OffsetX(System.Single)
+    name: OffsetX
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OffsetX_System_Single_
+  - name: (
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OffsetX(System.Single)
+    name: OffsetX
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OffsetX_System_Single_
+  - name: (
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: Fantas.Node.OffsetY(System.Single)
+  commentId: M:Fantas.Node.OffsetY(System.Single)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OffsetY_System_Single_
+  name: OffsetY(float)
+  nameWithType: Node.OffsetY(float)
+  fullName: Fantas.Node.OffsetY(float)
+  nameWithType.vb: Node.OffsetY(Single)
+  fullName.vb: Fantas.Node.OffsetY(Single)
+  name.vb: OffsetY(Single)
+  spec.csharp:
+  - uid: Fantas.Node.OffsetY(System.Single)
+    name: OffsetY
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OffsetY_System_Single_
+  - name: (
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OffsetY(System.Single)
+    name: OffsetY
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OffsetY_System_Single_
+  - name: (
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: Fantas.Node.CalculateAccumulatedFrame
+  commentId: M:Fantas.Node.CalculateAccumulatedFrame
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_CalculateAccumulatedFrame
+  name: CalculateAccumulatedFrame()
+  nameWithType: Node.CalculateAccumulatedFrame()
+  fullName: Fantas.Node.CalculateAccumulatedFrame()
+  spec.csharp:
+  - uid: Fantas.Node.CalculateAccumulatedFrame
+    name: CalculateAccumulatedFrame
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_CalculateAccumulatedFrame
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.CalculateAccumulatedFrame
+    name: CalculateAccumulatedFrame
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_CalculateAccumulatedFrame
+  - name: (
+  - name: )
+- uid: Fantas.Node.RenderToTexture
+  commentId: M:Fantas.Node.RenderToTexture
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_RenderToTexture
+  name: RenderToTexture()
+  nameWithType: Node.RenderToTexture()
+  fullName: Fantas.Node.RenderToTexture()
+  spec.csharp:
+  - uid: Fantas.Node.RenderToTexture
+    name: RenderToTexture
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_RenderToTexture
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.RenderToTexture
+    name: RenderToTexture
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_RenderToTexture
+  - name: (
+  - name: )
+- uid: Fantas.Node.SetScale(System.Single)
+  commentId: M:Fantas.Node.SetScale(System.Single)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_SetScale_System_Single_
+  name: SetScale(float)
+  nameWithType: Node.SetScale(float)
+  fullName: Fantas.Node.SetScale(float)
+  nameWithType.vb: Node.SetScale(Single)
+  fullName.vb: Fantas.Node.SetScale(Single)
+  name.vb: SetScale(Single)
+  spec.csharp:
+  - uid: Fantas.Node.SetScale(System.Single)
+    name: SetScale
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_SetScale_System_Single_
+  - name: (
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.SetScale(System.Single)
+    name: SetScale
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_SetScale_System_Single_
+  - name: (
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: Fantas.Node.SetScale(System.Numerics.Vector2)
+  commentId: M:Fantas.Node.SetScale(System.Numerics.Vector2)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_SetScale_System_Numerics_Vector2_
+  name: SetScale(Vector2)
+  nameWithType: Node.SetScale(Vector2)
+  fullName: Fantas.Node.SetScale(System.Numerics.Vector2)
+  spec.csharp:
+  - uid: Fantas.Node.SetScale(System.Numerics.Vector2)
+    name: SetScale
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_SetScale_System_Numerics_Vector2_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.SetScale(System.Numerics.Vector2)
+    name: SetScale
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_SetScale_System_Numerics_Vector2_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: )
+- uid: Fantas.Node.LookAt(System.Drawing.PointF)
+  commentId: M:Fantas.Node.LookAt(System.Drawing.PointF)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_LookAt_System_Drawing_PointF_
+  name: LookAt(PointF)
+  nameWithType: Node.LookAt(PointF)
+  fullName: Fantas.Node.LookAt(System.Drawing.PointF)
+  spec.csharp:
+  - uid: Fantas.Node.LookAt(System.Drawing.PointF)
+    name: LookAt
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_LookAt_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.LookAt(System.Drawing.PointF)
+    name: LookAt
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_LookAt_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+- uid: Fantas.Node.AddChild(Fantas.Node)
+  commentId: M:Fantas.Node.AddChild(Fantas.Node)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_AddChild_Fantas_Node_
+  name: AddChild(Node)
+  nameWithType: Node.AddChild(Node)
+  fullName: Fantas.Node.AddChild(Fantas.Node)
+  spec.csharp:
+  - uid: Fantas.Node.AddChild(Fantas.Node)
+    name: AddChild
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_AddChild_Fantas_Node_
+  - name: (
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.AddChild(Fantas.Node)
+    name: AddChild
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_AddChild_Fantas_Node_
+  - name: (
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+- uid: Fantas.Node.InsertChild(System.Int32,Fantas.Node)
+  commentId: M:Fantas.Node.InsertChild(System.Int32,Fantas.Node)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_InsertChild_System_Int32_Fantas_Node_
+  name: InsertChild(int, Node)
+  nameWithType: Node.InsertChild(int, Node)
+  fullName: Fantas.Node.InsertChild(int, Fantas.Node)
+  nameWithType.vb: Node.InsertChild(Integer, Node)
+  fullName.vb: Fantas.Node.InsertChild(Integer, Fantas.Node)
+  name.vb: InsertChild(Integer, Node)
+  spec.csharp:
+  - uid: Fantas.Node.InsertChild(System.Int32,Fantas.Node)
+    name: InsertChild
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_InsertChild_System_Int32_Fantas_Node_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.InsertChild(System.Int32,Fantas.Node)
+    name: InsertChild
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_InsertChild_System_Int32_Fantas_Node_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+- uid: Fantas.Node.MoveToParent(Fantas.Node)
+  commentId: M:Fantas.Node.MoveToParent(Fantas.Node)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_MoveToParent_Fantas_Node_
+  name: MoveToParent(Node)
+  nameWithType: Node.MoveToParent(Node)
+  fullName: Fantas.Node.MoveToParent(Fantas.Node)
+  spec.csharp:
+  - uid: Fantas.Node.MoveToParent(Fantas.Node)
+    name: MoveToParent
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_MoveToParent_Fantas_Node_
+  - name: (
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.MoveToParent(Fantas.Node)
+    name: MoveToParent
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_MoveToParent_Fantas_Node_
+  - name: (
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+- uid: Fantas.Node.RemoveFromParent
+  commentId: M:Fantas.Node.RemoveFromParent
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_RemoveFromParent
+  name: RemoveFromParent()
+  nameWithType: Node.RemoveFromParent()
+  fullName: Fantas.Node.RemoveFromParent()
+  spec.csharp:
+  - uid: Fantas.Node.RemoveFromParent
+    name: RemoveFromParent
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_RemoveFromParent
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.RemoveFromParent
+    name: RemoveFromParent
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_RemoveFromParent
+  - name: (
+  - name: )
+- uid: Fantas.Node.RemoveAllChildren
+  commentId: M:Fantas.Node.RemoveAllChildren
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_RemoveAllChildren
+  name: RemoveAllChildren()
+  nameWithType: Node.RemoveAllChildren()
+  fullName: Fantas.Node.RemoveAllChildren()
+  spec.csharp:
+  - uid: Fantas.Node.RemoveAllChildren
+    name: RemoveAllChildren
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_RemoveAllChildren
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.RemoveAllChildren
+    name: RemoveAllChildren
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_RemoveAllChildren
+  - name: (
+  - name: )
+- uid: Fantas.Node.RemoveChildren(Fantas.Node[])
+  commentId: M:Fantas.Node.RemoveChildren(Fantas.Node[])
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_RemoveChildren_Fantas_Node___
+  name: RemoveChildren(Node[])
+  nameWithType: Node.RemoveChildren(Node[])
+  fullName: Fantas.Node.RemoveChildren(Fantas.Node[])
+  nameWithType.vb: Node.RemoveChildren(Node())
+  fullName.vb: Fantas.Node.RemoveChildren(Fantas.Node())
+  name.vb: RemoveChildren(Node())
+  spec.csharp:
+  - uid: Fantas.Node.RemoveChildren(Fantas.Node[])
+    name: RemoveChildren
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_RemoveChildren_Fantas_Node___
+  - name: (
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.RemoveChildren(Fantas.Node[])
+    name: RemoveChildren
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_RemoveChildren_Fantas_Node___
+  - name: (
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: (
+  - name: )
+  - name: )
+- uid: Fantas.Node.RemoveChild(Fantas.Node)
+  commentId: M:Fantas.Node.RemoveChild(Fantas.Node)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_RemoveChild_Fantas_Node_
+  name: RemoveChild(Node)
+  nameWithType: Node.RemoveChild(Node)
+  fullName: Fantas.Node.RemoveChild(Fantas.Node)
+  spec.csharp:
+  - uid: Fantas.Node.RemoveChild(Fantas.Node)
+    name: RemoveChild
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_RemoveChild_Fantas_Node_
+  - name: (
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.RemoveChild(Fantas.Node)
+    name: RemoveChild
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_RemoveChild_Fantas_Node_
+  - name: (
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+- uid: Fantas.Node.InParentHierarchy(Fantas.Node)
+  commentId: M:Fantas.Node.InParentHierarchy(Fantas.Node)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_InParentHierarchy_Fantas_Node_
+  name: InParentHierarchy(Node)
+  nameWithType: Node.InParentHierarchy(Node)
+  fullName: Fantas.Node.InParentHierarchy(Fantas.Node)
+  spec.csharp:
+  - uid: Fantas.Node.InParentHierarchy(Fantas.Node)
+    name: InParentHierarchy
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_InParentHierarchy_Fantas_Node_
+  - name: (
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.InParentHierarchy(Fantas.Node)
+    name: InParentHierarchy
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_InParentHierarchy_Fantas_Node_
+  - name: (
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+- uid: Fantas.Node.RunAnimation(Fantas.Animation)
+  commentId: M:Fantas.Node.RunAnimation(Fantas.Animation)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_RunAnimation_Fantas_Animation_
+  name: RunAnimation(Animation)
+  nameWithType: Node.RunAnimation(Animation)
+  fullName: Fantas.Node.RunAnimation(Fantas.Animation)
+  spec.csharp:
+  - uid: Fantas.Node.RunAnimation(Fantas.Animation)
+    name: RunAnimation
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_RunAnimation_Fantas_Animation_
+  - name: (
+  - uid: Fantas.Animation
+    name: Animation
+    isExternal: true
+    href: Fantas.Animation.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.RunAnimation(Fantas.Animation)
+    name: RunAnimation
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_RunAnimation_Fantas_Animation_
+  - name: (
+  - uid: Fantas.Animation
+    name: Animation
+    isExternal: true
+    href: Fantas.Animation.html
+  - name: )
+- uid: Fantas.Node.RunAnimation(Fantas.Animation,System.Action)
+  commentId: M:Fantas.Node.RunAnimation(Fantas.Animation,System.Action)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_RunAnimation_Fantas_Animation_System_Action_
+  name: RunAnimation(Animation, Action)
+  nameWithType: Node.RunAnimation(Animation, Action)
+  fullName: Fantas.Node.RunAnimation(Fantas.Animation, System.Action)
+  spec.csharp:
+  - uid: Fantas.Node.RunAnimation(Fantas.Animation,System.Action)
+    name: RunAnimation
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_RunAnimation_Fantas_Animation_System_Action_
+  - name: (
+  - uid: Fantas.Animation
+    name: Animation
+    isExternal: true
+    href: Fantas.Animation.html
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.RunAnimation(Fantas.Animation,System.Action)
+    name: RunAnimation
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_RunAnimation_Fantas_Animation_System_Action_
+  - name: (
+  - uid: Fantas.Animation
+    name: Animation
+    isExternal: true
+    href: Fantas.Animation.html
+  - name: ','
+  - name: " "
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: )
+- uid: Fantas.Node.RunAnimation(Fantas.Animation,System.String)
+  commentId: M:Fantas.Node.RunAnimation(Fantas.Animation,System.String)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_RunAnimation_Fantas_Animation_System_String_
+  name: RunAnimation(Animation, string)
+  nameWithType: Node.RunAnimation(Animation, string)
+  fullName: Fantas.Node.RunAnimation(Fantas.Animation, string)
+  nameWithType.vb: Node.RunAnimation(Animation, String)
+  fullName.vb: Fantas.Node.RunAnimation(Fantas.Animation, String)
+  name.vb: RunAnimation(Animation, String)
+  spec.csharp:
+  - uid: Fantas.Node.RunAnimation(Fantas.Animation,System.String)
+    name: RunAnimation
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_RunAnimation_Fantas_Animation_System_String_
+  - name: (
+  - uid: Fantas.Animation
+    name: Animation
+    isExternal: true
+    href: Fantas.Animation.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.RunAnimation(Fantas.Animation,System.String)
+    name: RunAnimation
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_RunAnimation_Fantas_Animation_System_String_
+  - name: (
+  - uid: Fantas.Animation
+    name: Animation
+    isExternal: true
+    href: Fantas.Animation.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Fantas.Node.RunAnimationAsync(Fantas.Animation)
+  commentId: M:Fantas.Node.RunAnimationAsync(Fantas.Animation)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_RunAnimationAsync_Fantas_Animation_
+  name: RunAnimationAsync(Animation)
+  nameWithType: Node.RunAnimationAsync(Animation)
+  fullName: Fantas.Node.RunAnimationAsync(Fantas.Animation)
+  spec.csharp:
+  - uid: Fantas.Node.RunAnimationAsync(Fantas.Animation)
+    name: RunAnimationAsync
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_RunAnimationAsync_Fantas_Animation_
+  - name: (
+  - uid: Fantas.Animation
+    name: Animation
+    isExternal: true
+    href: Fantas.Animation.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.RunAnimationAsync(Fantas.Animation)
+    name: RunAnimationAsync
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_RunAnimationAsync_Fantas_Animation_
+  - name: (
+  - uid: Fantas.Animation
+    name: Animation
+    isExternal: true
+    href: Fantas.Animation.html
+  - name: )
+- uid: Fantas.Node.GetAnimationForKey(System.String)
+  commentId: M:Fantas.Node.GetAnimationForKey(System.String)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_GetAnimationForKey_System_String_
+  name: GetAnimationForKey(string)
+  nameWithType: Node.GetAnimationForKey(string)
+  fullName: Fantas.Node.GetAnimationForKey(string)
+  nameWithType.vb: Node.GetAnimationForKey(String)
+  fullName.vb: Fantas.Node.GetAnimationForKey(String)
+  name.vb: GetAnimationForKey(String)
+  spec.csharp:
+  - uid: Fantas.Node.GetAnimationForKey(System.String)
+    name: GetAnimationForKey
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_GetAnimationForKey_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.GetAnimationForKey(System.String)
+    name: GetAnimationForKey
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_GetAnimationForKey_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Fantas.Node.HasAnimationKey(System.String)
+  commentId: M:Fantas.Node.HasAnimationKey(System.String)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_HasAnimationKey_System_String_
+  name: HasAnimationKey(string)
+  nameWithType: Node.HasAnimationKey(string)
+  fullName: Fantas.Node.HasAnimationKey(string)
+  nameWithType.vb: Node.HasAnimationKey(String)
+  fullName.vb: Fantas.Node.HasAnimationKey(String)
+  name.vb: HasAnimationKey(String)
+  spec.csharp:
+  - uid: Fantas.Node.HasAnimationKey(System.String)
+    name: HasAnimationKey
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_HasAnimationKey_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.HasAnimationKey(System.String)
+    name: HasAnimationKey
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_HasAnimationKey_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Fantas.Node.RemoveAnimationForKey(System.String)
+  commentId: M:Fantas.Node.RemoveAnimationForKey(System.String)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_RemoveAnimationForKey_System_String_
+  name: RemoveAnimationForKey(string)
+  nameWithType: Node.RemoveAnimationForKey(string)
+  fullName: Fantas.Node.RemoveAnimationForKey(string)
+  nameWithType.vb: Node.RemoveAnimationForKey(String)
+  fullName.vb: Fantas.Node.RemoveAnimationForKey(String)
+  name.vb: RemoveAnimationForKey(String)
+  spec.csharp:
+  - uid: Fantas.Node.RemoveAnimationForKey(System.String)
+    name: RemoveAnimationForKey
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_RemoveAnimationForKey_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.RemoveAnimationForKey(System.String)
+    name: RemoveAnimationForKey
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_RemoveAnimationForKey_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Fantas.Node.RemoveAllAnimations
+  commentId: M:Fantas.Node.RemoveAllAnimations
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_RemoveAllAnimations
+  name: RemoveAllAnimations()
+  nameWithType: Node.RemoveAllAnimations()
+  fullName: Fantas.Node.RemoveAllAnimations()
+  spec.csharp:
+  - uid: Fantas.Node.RemoveAllAnimations
+    name: RemoveAllAnimations
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_RemoveAllAnimations
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.RemoveAllAnimations
+    name: RemoveAllAnimations
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_RemoveAllAnimations
+  - name: (
+  - name: )
+- uid: Fantas.Node.ContainsPoint(System.Drawing.PointF)
+  commentId: M:Fantas.Node.ContainsPoint(System.Drawing.PointF)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ContainsPoint_System_Drawing_PointF_
+  name: ContainsPoint(PointF)
+  nameWithType: Node.ContainsPoint(PointF)
+  fullName: Fantas.Node.ContainsPoint(System.Drawing.PointF)
+  spec.csharp:
+  - uid: Fantas.Node.ContainsPoint(System.Drawing.PointF)
+    name: ContainsPoint
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ContainsPoint_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.ContainsPoint(System.Drawing.PointF)
+    name: ContainsPoint
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ContainsPoint_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+- uid: Fantas.Node.ContainsScenePoint(System.Drawing.PointF)
+  commentId: M:Fantas.Node.ContainsScenePoint(System.Drawing.PointF)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ContainsScenePoint_System_Drawing_PointF_
+  name: ContainsScenePoint(PointF)
+  nameWithType: Node.ContainsScenePoint(PointF)
+  fullName: Fantas.Node.ContainsScenePoint(System.Drawing.PointF)
+  spec.csharp:
+  - uid: Fantas.Node.ContainsScenePoint(System.Drawing.PointF)
+    name: ContainsScenePoint
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ContainsScenePoint_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.ContainsScenePoint(System.Drawing.PointF)
+    name: ContainsScenePoint
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ContainsScenePoint_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+- uid: Fantas.Node.GetNodeAtPoint(System.Drawing.PointF)
+  commentId: M:Fantas.Node.GetNodeAtPoint(System.Drawing.PointF)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_GetNodeAtPoint_System_Drawing_PointF_
+  name: GetNodeAtPoint(PointF)
+  nameWithType: Node.GetNodeAtPoint(PointF)
+  fullName: Fantas.Node.GetNodeAtPoint(System.Drawing.PointF)
+  spec.csharp:
+  - uid: Fantas.Node.GetNodeAtPoint(System.Drawing.PointF)
+    name: GetNodeAtPoint
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_GetNodeAtPoint_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.GetNodeAtPoint(System.Drawing.PointF)
+    name: GetNodeAtPoint
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_GetNodeAtPoint_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+- uid: Fantas.Node.GetChildNode(System.String)
+  commentId: M:Fantas.Node.GetChildNode(System.String)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_GetChildNode_System_String_
+  name: GetChildNode(string)
+  nameWithType: Node.GetChildNode(string)
+  fullName: Fantas.Node.GetChildNode(string)
+  nameWithType.vb: Node.GetChildNode(String)
+  fullName.vb: Fantas.Node.GetChildNode(String)
+  name.vb: GetChildNode(String)
+  spec.csharp:
+  - uid: Fantas.Node.GetChildNode(System.String)
+    name: GetChildNode
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_GetChildNode_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.GetChildNode(System.String)
+    name: GetChildNode
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_GetChildNode_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Fantas.Node.GetNodesAtPoint(System.Drawing.PointF)
+  commentId: M:Fantas.Node.GetNodesAtPoint(System.Drawing.PointF)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_GetNodesAtPoint_System_Drawing_PointF_
+  name: GetNodesAtPoint(PointF)
+  nameWithType: Node.GetNodesAtPoint(PointF)
+  fullName: Fantas.Node.GetNodesAtPoint(System.Drawing.PointF)
+  spec.csharp:
+  - uid: Fantas.Node.GetNodesAtPoint(System.Drawing.PointF)
+    name: GetNodesAtPoint
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_GetNodesAtPoint_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.GetNodesAtPoint(System.Drawing.PointF)
+    name: GetNodesAtPoint
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_GetNodesAtPoint_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+- uid: Fantas.Node.IntersectsNode(Fantas.Node)
+  commentId: M:Fantas.Node.IntersectsNode(Fantas.Node)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_IntersectsNode_Fantas_Node_
+  name: IntersectsNode(Node)
+  nameWithType: Node.IntersectsNode(Node)
+  fullName: Fantas.Node.IntersectsNode(Fantas.Node)
+  spec.csharp:
+  - uid: Fantas.Node.IntersectsNode(Fantas.Node)
+    name: IntersectsNode
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_IntersectsNode_Fantas_Node_
+  - name: (
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.IntersectsNode(Fantas.Node)
+    name: IntersectsNode
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_IntersectsNode_Fantas_Node_
+  - name: (
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+- uid: Fantas.Node.ConvertPointFromNode(System.Drawing.PointF,Fantas.Node)
+  commentId: M:Fantas.Node.ConvertPointFromNode(System.Drawing.PointF,Fantas.Node)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ConvertPointFromNode_System_Drawing_PointF_Fantas_Node_
+  name: ConvertPointFromNode(PointF, Node)
+  nameWithType: Node.ConvertPointFromNode(PointF, Node)
+  fullName: Fantas.Node.ConvertPointFromNode(System.Drawing.PointF, Fantas.Node)
+  spec.csharp:
+  - uid: Fantas.Node.ConvertPointFromNode(System.Drawing.PointF,Fantas.Node)
+    name: ConvertPointFromNode
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertPointFromNode_System_Drawing_PointF_Fantas_Node_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: ','
+  - name: " "
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.ConvertPointFromNode(System.Drawing.PointF,Fantas.Node)
+    name: ConvertPointFromNode
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertPointFromNode_System_Drawing_PointF_Fantas_Node_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: ','
+  - name: " "
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+- uid: Fantas.Node.ConvertPointToNode(System.Drawing.PointF,Fantas.Node)
+  commentId: M:Fantas.Node.ConvertPointToNode(System.Drawing.PointF,Fantas.Node)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ConvertPointToNode_System_Drawing_PointF_Fantas_Node_
+  name: ConvertPointToNode(PointF, Node)
+  nameWithType: Node.ConvertPointToNode(PointF, Node)
+  fullName: Fantas.Node.ConvertPointToNode(System.Drawing.PointF, Fantas.Node)
+  spec.csharp:
+  - uid: Fantas.Node.ConvertPointToNode(System.Drawing.PointF,Fantas.Node)
+    name: ConvertPointToNode
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertPointToNode_System_Drawing_PointF_Fantas_Node_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: ','
+  - name: " "
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.ConvertPointToNode(System.Drawing.PointF,Fantas.Node)
+    name: ConvertPointToNode
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertPointToNode_System_Drawing_PointF_Fantas_Node_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: ','
+  - name: " "
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+- uid: Fantas.Node.ConvertPointToScene(System.Drawing.PointF)
+  commentId: M:Fantas.Node.ConvertPointToScene(System.Drawing.PointF)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ConvertPointToScene_System_Drawing_PointF_
+  name: ConvertPointToScene(PointF)
+  nameWithType: Node.ConvertPointToScene(PointF)
+  fullName: Fantas.Node.ConvertPointToScene(System.Drawing.PointF)
+  spec.csharp:
+  - uid: Fantas.Node.ConvertPointToScene(System.Drawing.PointF)
+    name: ConvertPointToScene
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertPointToScene_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.ConvertPointToScene(System.Drawing.PointF)
+    name: ConvertPointToScene
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertPointToScene_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+- uid: Fantas.Node.ConvertPointFromScene(System.Drawing.PointF)
+  commentId: M:Fantas.Node.ConvertPointFromScene(System.Drawing.PointF)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ConvertPointFromScene_System_Drawing_PointF_
+  name: ConvertPointFromScene(PointF)
+  nameWithType: Node.ConvertPointFromScene(PointF)
+  fullName: Fantas.Node.ConvertPointFromScene(System.Drawing.PointF)
+  spec.csharp:
+  - uid: Fantas.Node.ConvertPointFromScene(System.Drawing.PointF)
+    name: ConvertPointFromScene
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertPointFromScene_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.ConvertPointFromScene(System.Drawing.PointF)
+    name: ConvertPointFromScene
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertPointFromScene_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+- uid: Fantas.Node.ConvertVectorFromNode(System.Numerics.Vector2,Fantas.Node)
+  commentId: M:Fantas.Node.ConvertVectorFromNode(System.Numerics.Vector2,Fantas.Node)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ConvertVectorFromNode_System_Numerics_Vector2_Fantas_Node_
+  name: ConvertVectorFromNode(Vector2, Node)
+  nameWithType: Node.ConvertVectorFromNode(Vector2, Node)
+  fullName: Fantas.Node.ConvertVectorFromNode(System.Numerics.Vector2, Fantas.Node)
+  spec.csharp:
+  - uid: Fantas.Node.ConvertVectorFromNode(System.Numerics.Vector2,Fantas.Node)
+    name: ConvertVectorFromNode
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertVectorFromNode_System_Numerics_Vector2_Fantas_Node_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: ','
+  - name: " "
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.ConvertVectorFromNode(System.Numerics.Vector2,Fantas.Node)
+    name: ConvertVectorFromNode
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertVectorFromNode_System_Numerics_Vector2_Fantas_Node_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: ','
+  - name: " "
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+- uid: Fantas.Node.ConvertVectorToNode(System.Numerics.Vector2,Fantas.Node)
+  commentId: M:Fantas.Node.ConvertVectorToNode(System.Numerics.Vector2,Fantas.Node)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ConvertVectorToNode_System_Numerics_Vector2_Fantas_Node_
+  name: ConvertVectorToNode(Vector2, Node)
+  nameWithType: Node.ConvertVectorToNode(Vector2, Node)
+  fullName: Fantas.Node.ConvertVectorToNode(System.Numerics.Vector2, Fantas.Node)
+  spec.csharp:
+  - uid: Fantas.Node.ConvertVectorToNode(System.Numerics.Vector2,Fantas.Node)
+    name: ConvertVectorToNode
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertVectorToNode_System_Numerics_Vector2_Fantas_Node_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: ','
+  - name: " "
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.ConvertVectorToNode(System.Numerics.Vector2,Fantas.Node)
+    name: ConvertVectorToNode
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertVectorToNode_System_Numerics_Vector2_Fantas_Node_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: ','
+  - name: " "
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+- uid: Fantas.Node.ConvertVectorFromScene(System.Numerics.Vector2)
+  commentId: M:Fantas.Node.ConvertVectorFromScene(System.Numerics.Vector2)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ConvertVectorFromScene_System_Numerics_Vector2_
+  name: ConvertVectorFromScene(Vector2)
+  nameWithType: Node.ConvertVectorFromScene(Vector2)
+  fullName: Fantas.Node.ConvertVectorFromScene(System.Numerics.Vector2)
+  spec.csharp:
+  - uid: Fantas.Node.ConvertVectorFromScene(System.Numerics.Vector2)
+    name: ConvertVectorFromScene
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertVectorFromScene_System_Numerics_Vector2_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.ConvertVectorFromScene(System.Numerics.Vector2)
+    name: ConvertVectorFromScene
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertVectorFromScene_System_Numerics_Vector2_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: )
+- uid: Fantas.Node.ConvertVectorToScene(System.Numerics.Vector2)
+  commentId: M:Fantas.Node.ConvertVectorToScene(System.Numerics.Vector2)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ConvertVectorToScene_System_Numerics_Vector2_
+  name: ConvertVectorToScene(Vector2)
+  nameWithType: Node.ConvertVectorToScene(Vector2)
+  fullName: Fantas.Node.ConvertVectorToScene(System.Numerics.Vector2)
+  spec.csharp:
+  - uid: Fantas.Node.ConvertVectorToScene(System.Numerics.Vector2)
+    name: ConvertVectorToScene
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertVectorToScene_System_Numerics_Vector2_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.ConvertVectorToScene(System.Numerics.Vector2)
+    name: ConvertVectorToScene
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertVectorToScene_System_Numerics_Vector2_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: )
+- uid: Fantas.Node.BringForward
+  commentId: M:Fantas.Node.BringForward
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_BringForward
+  name: BringForward()
+  nameWithType: Node.BringForward()
+  fullName: Fantas.Node.BringForward()
+  spec.csharp:
+  - uid: Fantas.Node.BringForward
+    name: BringForward
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_BringForward
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.BringForward
+    name: BringForward
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_BringForward
+  - name: (
+  - name: )
+- uid: Fantas.Node.BringToFront
+  commentId: M:Fantas.Node.BringToFront
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_BringToFront
+  name: BringToFront()
+  nameWithType: Node.BringToFront()
+  fullName: Fantas.Node.BringToFront()
+  spec.csharp:
+  - uid: Fantas.Node.BringToFront
+    name: BringToFront
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_BringToFront
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.BringToFront
+    name: BringToFront
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_BringToFront
+  - name: (
+  - name: )
+- uid: Fantas.Node.SendBackward
+  commentId: M:Fantas.Node.SendBackward
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_SendBackward
+  name: SendBackward()
+  nameWithType: Node.SendBackward()
+  fullName: Fantas.Node.SendBackward()
+  spec.csharp:
+  - uid: Fantas.Node.SendBackward
+    name: SendBackward
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_SendBackward
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.SendBackward
+    name: SendBackward
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_SendBackward
+  - name: (
+  - name: )
+- uid: Fantas.Node.SendToBack
+  commentId: M:Fantas.Node.SendToBack
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_SendToBack
+  name: SendToBack()
+  nameWithType: Node.SendToBack()
+  fullName: Fantas.Node.SendToBack()
+  spec.csharp:
+  - uid: Fantas.Node.SendToBack
+    name: SendToBack
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_SendToBack
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.SendToBack
+    name: SendToBack
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_SendToBack
+  - name: (
+  - name: )
+- uid: Fantas.Node.SetMouseCapture
+  commentId: M:Fantas.Node.SetMouseCapture
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_SetMouseCapture
+  name: SetMouseCapture()
+  nameWithType: Node.SetMouseCapture()
+  fullName: Fantas.Node.SetMouseCapture()
+  spec.csharp:
+  - uid: Fantas.Node.SetMouseCapture
+    name: SetMouseCapture
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_SetMouseCapture
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.SetMouseCapture
+    name: SetMouseCapture
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_SetMouseCapture
+  - name: (
+  - name: )
+- uid: Fantas.Node.ReleaseMouseCapture
+  commentId: M:Fantas.Node.ReleaseMouseCapture
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ReleaseMouseCapture
+  name: ReleaseMouseCapture()
+  nameWithType: Node.ReleaseMouseCapture()
+  fullName: Fantas.Node.ReleaseMouseCapture()
+  spec.csharp:
+  - uid: Fantas.Node.ReleaseMouseCapture
+    name: ReleaseMouseCapture
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ReleaseMouseCapture
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.ReleaseMouseCapture
+    name: ReleaseMouseCapture
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ReleaseMouseCapture
+  - name: (
+  - name: )
+- uid: Fantas.Node.OnTap(Fantas.Input.TapEventArgs)
+  commentId: M:Fantas.Node.OnTap(Fantas.Input.TapEventArgs)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnTap_Fantas_Input_TapEventArgs_
+  name: OnTap(TapEventArgs)
+  nameWithType: Node.OnTap(TapEventArgs)
+  fullName: Fantas.Node.OnTap(Fantas.Input.TapEventArgs)
+  spec.csharp:
+  - uid: Fantas.Node.OnTap(Fantas.Input.TapEventArgs)
+    name: OnTap
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnTap_Fantas_Input_TapEventArgs_
+  - name: (
+  - uid: Fantas.Input.TapEventArgs
+    name: TapEventArgs
+    isExternal: true
+    href: Fantas.Input.TapEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnTap(Fantas.Input.TapEventArgs)
+    name: OnTap
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnTap_Fantas_Input_TapEventArgs_
+  - name: (
+  - uid: Fantas.Input.TapEventArgs
+    name: TapEventArgs
+    isExternal: true
+    href: Fantas.Input.TapEventArgs.html
+  - name: )
+- uid: Fantas.Node.OnLongPress(Fantas.Input.TapEventArgs)
+  commentId: M:Fantas.Node.OnLongPress(Fantas.Input.TapEventArgs)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnLongPress_Fantas_Input_TapEventArgs_
+  name: OnLongPress(TapEventArgs)
+  nameWithType: Node.OnLongPress(TapEventArgs)
+  fullName: Fantas.Node.OnLongPress(Fantas.Input.TapEventArgs)
+  spec.csharp:
+  - uid: Fantas.Node.OnLongPress(Fantas.Input.TapEventArgs)
+    name: OnLongPress
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnLongPress_Fantas_Input_TapEventArgs_
+  - name: (
+  - uid: Fantas.Input.TapEventArgs
+    name: TapEventArgs
+    isExternal: true
+    href: Fantas.Input.TapEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnLongPress(Fantas.Input.TapEventArgs)
+    name: OnLongPress
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnLongPress_Fantas_Input_TapEventArgs_
+  - name: (
+  - uid: Fantas.Input.TapEventArgs
+    name: TapEventArgs
+    isExternal: true
+    href: Fantas.Input.TapEventArgs.html
+  - name: )
+- uid: Fantas.Node.OnDoubleTap(Fantas.Input.TapEventArgs)
+  commentId: M:Fantas.Node.OnDoubleTap(Fantas.Input.TapEventArgs)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnDoubleTap_Fantas_Input_TapEventArgs_
+  name: OnDoubleTap(TapEventArgs)
+  nameWithType: Node.OnDoubleTap(TapEventArgs)
+  fullName: Fantas.Node.OnDoubleTap(Fantas.Input.TapEventArgs)
+  spec.csharp:
+  - uid: Fantas.Node.OnDoubleTap(Fantas.Input.TapEventArgs)
+    name: OnDoubleTap
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnDoubleTap_Fantas_Input_TapEventArgs_
+  - name: (
+  - uid: Fantas.Input.TapEventArgs
+    name: TapEventArgs
+    isExternal: true
+    href: Fantas.Input.TapEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnDoubleTap(Fantas.Input.TapEventArgs)
+    name: OnDoubleTap
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnDoubleTap_Fantas_Input_TapEventArgs_
+  - name: (
+  - uid: Fantas.Input.TapEventArgs
+    name: TapEventArgs
+    isExternal: true
+    href: Fantas.Input.TapEventArgs.html
+  - name: )
+- uid: Fantas.Node.OnPan(Fantas.Input.PanEventArgs)
+  commentId: M:Fantas.Node.OnPan(Fantas.Input.PanEventArgs)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnPan_Fantas_Input_PanEventArgs_
+  name: OnPan(PanEventArgs)
+  nameWithType: Node.OnPan(PanEventArgs)
+  fullName: Fantas.Node.OnPan(Fantas.Input.PanEventArgs)
+  spec.csharp:
+  - uid: Fantas.Node.OnPan(Fantas.Input.PanEventArgs)
+    name: OnPan
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnPan_Fantas_Input_PanEventArgs_
+  - name: (
+  - uid: Fantas.Input.PanEventArgs
+    name: PanEventArgs
+    isExternal: true
+    href: Fantas.Input.PanEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnPan(Fantas.Input.PanEventArgs)
+    name: OnPan
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnPan_Fantas_Input_PanEventArgs_
+  - name: (
+  - uid: Fantas.Input.PanEventArgs
+    name: PanEventArgs
+    isExternal: true
+    href: Fantas.Input.PanEventArgs.html
+  - name: )
+- uid: Fantas.Node.OnPanComplete(Fantas.Input.PanEventArgs)
+  commentId: M:Fantas.Node.OnPanComplete(Fantas.Input.PanEventArgs)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnPanComplete_Fantas_Input_PanEventArgs_
+  name: OnPanComplete(PanEventArgs)
+  nameWithType: Node.OnPanComplete(PanEventArgs)
+  fullName: Fantas.Node.OnPanComplete(Fantas.Input.PanEventArgs)
+  spec.csharp:
+  - uid: Fantas.Node.OnPanComplete(Fantas.Input.PanEventArgs)
+    name: OnPanComplete
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnPanComplete_Fantas_Input_PanEventArgs_
+  - name: (
+  - uid: Fantas.Input.PanEventArgs
+    name: PanEventArgs
+    isExternal: true
+    href: Fantas.Input.PanEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnPanComplete(Fantas.Input.PanEventArgs)
+    name: OnPanComplete
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnPanComplete_Fantas_Input_PanEventArgs_
+  - name: (
+  - uid: Fantas.Input.PanEventArgs
+    name: PanEventArgs
+    isExternal: true
+    href: Fantas.Input.PanEventArgs.html
+  - name: )
+- uid: Fantas.Node.OnTouchDownInside(Fantas.Input.TouchEventArgs)
+  commentId: M:Fantas.Node.OnTouchDownInside(Fantas.Input.TouchEventArgs)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnTouchDownInside_Fantas_Input_TouchEventArgs_
+  name: OnTouchDownInside(TouchEventArgs)
+  nameWithType: Node.OnTouchDownInside(TouchEventArgs)
+  fullName: Fantas.Node.OnTouchDownInside(Fantas.Input.TouchEventArgs)
+  spec.csharp:
+  - uid: Fantas.Node.OnTouchDownInside(Fantas.Input.TouchEventArgs)
+    name: OnTouchDownInside
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnTouchDownInside_Fantas_Input_TouchEventArgs_
+  - name: (
+  - uid: Fantas.Input.TouchEventArgs
+    name: TouchEventArgs
+    isExternal: true
+    href: Fantas.Input.TouchEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnTouchDownInside(Fantas.Input.TouchEventArgs)
+    name: OnTouchDownInside
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnTouchDownInside_Fantas_Input_TouchEventArgs_
+  - name: (
+  - uid: Fantas.Input.TouchEventArgs
+    name: TouchEventArgs
+    isExternal: true
+    href: Fantas.Input.TouchEventArgs.html
+  - name: )
+- uid: Fantas.Node.OnTouchDragEnter(Fantas.Input.TouchEventArgs)
+  commentId: M:Fantas.Node.OnTouchDragEnter(Fantas.Input.TouchEventArgs)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnTouchDragEnter_Fantas_Input_TouchEventArgs_
+  name: OnTouchDragEnter(TouchEventArgs)
+  nameWithType: Node.OnTouchDragEnter(TouchEventArgs)
+  fullName: Fantas.Node.OnTouchDragEnter(Fantas.Input.TouchEventArgs)
+  spec.csharp:
+  - uid: Fantas.Node.OnTouchDragEnter(Fantas.Input.TouchEventArgs)
+    name: OnTouchDragEnter
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnTouchDragEnter_Fantas_Input_TouchEventArgs_
+  - name: (
+  - uid: Fantas.Input.TouchEventArgs
+    name: TouchEventArgs
+    isExternal: true
+    href: Fantas.Input.TouchEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnTouchDragEnter(Fantas.Input.TouchEventArgs)
+    name: OnTouchDragEnter
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnTouchDragEnter_Fantas_Input_TouchEventArgs_
+  - name: (
+  - uid: Fantas.Input.TouchEventArgs
+    name: TouchEventArgs
+    isExternal: true
+    href: Fantas.Input.TouchEventArgs.html
+  - name: )
+- uid: Fantas.Node.OnTouchDragExit(Fantas.Input.TouchEventArgs)
+  commentId: M:Fantas.Node.OnTouchDragExit(Fantas.Input.TouchEventArgs)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnTouchDragExit_Fantas_Input_TouchEventArgs_
+  name: OnTouchDragExit(TouchEventArgs)
+  nameWithType: Node.OnTouchDragExit(TouchEventArgs)
+  fullName: Fantas.Node.OnTouchDragExit(Fantas.Input.TouchEventArgs)
+  spec.csharp:
+  - uid: Fantas.Node.OnTouchDragExit(Fantas.Input.TouchEventArgs)
+    name: OnTouchDragExit
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnTouchDragExit_Fantas_Input_TouchEventArgs_
+  - name: (
+  - uid: Fantas.Input.TouchEventArgs
+    name: TouchEventArgs
+    isExternal: true
+    href: Fantas.Input.TouchEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnTouchDragExit(Fantas.Input.TouchEventArgs)
+    name: OnTouchDragExit
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnTouchDragExit_Fantas_Input_TouchEventArgs_
+  - name: (
+  - uid: Fantas.Input.TouchEventArgs
+    name: TouchEventArgs
+    isExternal: true
+    href: Fantas.Input.TouchEventArgs.html
+  - name: )
+- uid: Fantas.Node.OnTouchDragInside(Fantas.Input.TouchEventArgs)
+  commentId: M:Fantas.Node.OnTouchDragInside(Fantas.Input.TouchEventArgs)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnTouchDragInside_Fantas_Input_TouchEventArgs_
+  name: OnTouchDragInside(TouchEventArgs)
+  nameWithType: Node.OnTouchDragInside(TouchEventArgs)
+  fullName: Fantas.Node.OnTouchDragInside(Fantas.Input.TouchEventArgs)
+  spec.csharp:
+  - uid: Fantas.Node.OnTouchDragInside(Fantas.Input.TouchEventArgs)
+    name: OnTouchDragInside
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnTouchDragInside_Fantas_Input_TouchEventArgs_
+  - name: (
+  - uid: Fantas.Input.TouchEventArgs
+    name: TouchEventArgs
+    isExternal: true
+    href: Fantas.Input.TouchEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnTouchDragInside(Fantas.Input.TouchEventArgs)
+    name: OnTouchDragInside
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnTouchDragInside_Fantas_Input_TouchEventArgs_
+  - name: (
+  - uid: Fantas.Input.TouchEventArgs
+    name: TouchEventArgs
+    isExternal: true
+    href: Fantas.Input.TouchEventArgs.html
+  - name: )
+- uid: Fantas.Node.OnTouchDragOutside(Fantas.Input.TouchEventArgs)
+  commentId: M:Fantas.Node.OnTouchDragOutside(Fantas.Input.TouchEventArgs)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnTouchDragOutside_Fantas_Input_TouchEventArgs_
+  name: OnTouchDragOutside(TouchEventArgs)
+  nameWithType: Node.OnTouchDragOutside(TouchEventArgs)
+  fullName: Fantas.Node.OnTouchDragOutside(Fantas.Input.TouchEventArgs)
+  spec.csharp:
+  - uid: Fantas.Node.OnTouchDragOutside(Fantas.Input.TouchEventArgs)
+    name: OnTouchDragOutside
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnTouchDragOutside_Fantas_Input_TouchEventArgs_
+  - name: (
+  - uid: Fantas.Input.TouchEventArgs
+    name: TouchEventArgs
+    isExternal: true
+    href: Fantas.Input.TouchEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnTouchDragOutside(Fantas.Input.TouchEventArgs)
+    name: OnTouchDragOutside
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnTouchDragOutside_Fantas_Input_TouchEventArgs_
+  - name: (
+  - uid: Fantas.Input.TouchEventArgs
+    name: TouchEventArgs
+    isExternal: true
+    href: Fantas.Input.TouchEventArgs.html
+  - name: )
+- uid: Fantas.Node.OnTouchUpInside(Fantas.Input.TouchEventArgs)
+  commentId: M:Fantas.Node.OnTouchUpInside(Fantas.Input.TouchEventArgs)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnTouchUpInside_Fantas_Input_TouchEventArgs_
+  name: OnTouchUpInside(TouchEventArgs)
+  nameWithType: Node.OnTouchUpInside(TouchEventArgs)
+  fullName: Fantas.Node.OnTouchUpInside(Fantas.Input.TouchEventArgs)
+  spec.csharp:
+  - uid: Fantas.Node.OnTouchUpInside(Fantas.Input.TouchEventArgs)
+    name: OnTouchUpInside
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnTouchUpInside_Fantas_Input_TouchEventArgs_
+  - name: (
+  - uid: Fantas.Input.TouchEventArgs
+    name: TouchEventArgs
+    isExternal: true
+    href: Fantas.Input.TouchEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnTouchUpInside(Fantas.Input.TouchEventArgs)
+    name: OnTouchUpInside
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnTouchUpInside_Fantas_Input_TouchEventArgs_
+  - name: (
+  - uid: Fantas.Input.TouchEventArgs
+    name: TouchEventArgs
+    isExternal: true
+    href: Fantas.Input.TouchEventArgs.html
+  - name: )
+- uid: Fantas.Node.OnTouchUpOutside(Fantas.Input.TouchEventArgs)
+  commentId: M:Fantas.Node.OnTouchUpOutside(Fantas.Input.TouchEventArgs)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnTouchUpOutside_Fantas_Input_TouchEventArgs_
+  name: OnTouchUpOutside(TouchEventArgs)
+  nameWithType: Node.OnTouchUpOutside(TouchEventArgs)
+  fullName: Fantas.Node.OnTouchUpOutside(Fantas.Input.TouchEventArgs)
+  spec.csharp:
+  - uid: Fantas.Node.OnTouchUpOutside(Fantas.Input.TouchEventArgs)
+    name: OnTouchUpOutside
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnTouchUpOutside_Fantas_Input_TouchEventArgs_
+  - name: (
+  - uid: Fantas.Input.TouchEventArgs
+    name: TouchEventArgs
+    isExternal: true
+    href: Fantas.Input.TouchEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnTouchUpOutside(Fantas.Input.TouchEventArgs)
+    name: OnTouchUpOutside
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnTouchUpOutside_Fantas_Input_TouchEventArgs_
+  - name: (
+  - uid: Fantas.Input.TouchEventArgs
+    name: TouchEventArgs
+    isExternal: true
+    href: Fantas.Input.TouchEventArgs.html
+  - name: )
+- uid: Fantas.Node.OnMouseDown(Fantas.Input.MouseEventArgs)
+  commentId: M:Fantas.Node.OnMouseDown(Fantas.Input.MouseEventArgs)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnMouseDown_Fantas_Input_MouseEventArgs_
+  name: OnMouseDown(MouseEventArgs)
+  nameWithType: Node.OnMouseDown(MouseEventArgs)
+  fullName: Fantas.Node.OnMouseDown(Fantas.Input.MouseEventArgs)
+  spec.csharp:
+  - uid: Fantas.Node.OnMouseDown(Fantas.Input.MouseEventArgs)
+    name: OnMouseDown
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnMouseDown_Fantas_Input_MouseEventArgs_
+  - name: (
+  - uid: Fantas.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: Fantas.Input.MouseEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnMouseDown(Fantas.Input.MouseEventArgs)
+    name: OnMouseDown
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnMouseDown_Fantas_Input_MouseEventArgs_
+  - name: (
+  - uid: Fantas.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: Fantas.Input.MouseEventArgs.html
+  - name: )
+- uid: Fantas.Node.OnMouseUp(Fantas.Input.MouseEventArgs)
+  commentId: M:Fantas.Node.OnMouseUp(Fantas.Input.MouseEventArgs)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnMouseUp_Fantas_Input_MouseEventArgs_
+  name: OnMouseUp(MouseEventArgs)
+  nameWithType: Node.OnMouseUp(MouseEventArgs)
+  fullName: Fantas.Node.OnMouseUp(Fantas.Input.MouseEventArgs)
+  spec.csharp:
+  - uid: Fantas.Node.OnMouseUp(Fantas.Input.MouseEventArgs)
+    name: OnMouseUp
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnMouseUp_Fantas_Input_MouseEventArgs_
+  - name: (
+  - uid: Fantas.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: Fantas.Input.MouseEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnMouseUp(Fantas.Input.MouseEventArgs)
+    name: OnMouseUp
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnMouseUp_Fantas_Input_MouseEventArgs_
+  - name: (
+  - uid: Fantas.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: Fantas.Input.MouseEventArgs.html
+  - name: )
+- uid: Fantas.Node.OnMouseWheel(Fantas.Input.MouseEventArgs)
+  commentId: M:Fantas.Node.OnMouseWheel(Fantas.Input.MouseEventArgs)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnMouseWheel_Fantas_Input_MouseEventArgs_
+  name: OnMouseWheel(MouseEventArgs)
+  nameWithType: Node.OnMouseWheel(MouseEventArgs)
+  fullName: Fantas.Node.OnMouseWheel(Fantas.Input.MouseEventArgs)
+  spec.csharp:
+  - uid: Fantas.Node.OnMouseWheel(Fantas.Input.MouseEventArgs)
+    name: OnMouseWheel
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnMouseWheel_Fantas_Input_MouseEventArgs_
+  - name: (
+  - uid: Fantas.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: Fantas.Input.MouseEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnMouseWheel(Fantas.Input.MouseEventArgs)
+    name: OnMouseWheel
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnMouseWheel_Fantas_Input_MouseEventArgs_
+  - name: (
+  - uid: Fantas.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: Fantas.Input.MouseEventArgs.html
+  - name: )
+- uid: Fantas.Node.OnClick(Fantas.Input.MouseEventArgs)
+  commentId: M:Fantas.Node.OnClick(Fantas.Input.MouseEventArgs)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnClick_Fantas_Input_MouseEventArgs_
+  name: OnClick(MouseEventArgs)
+  nameWithType: Node.OnClick(MouseEventArgs)
+  fullName: Fantas.Node.OnClick(Fantas.Input.MouseEventArgs)
+  spec.csharp:
+  - uid: Fantas.Node.OnClick(Fantas.Input.MouseEventArgs)
+    name: OnClick
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnClick_Fantas_Input_MouseEventArgs_
+  - name: (
+  - uid: Fantas.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: Fantas.Input.MouseEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnClick(Fantas.Input.MouseEventArgs)
+    name: OnClick
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnClick_Fantas_Input_MouseEventArgs_
+  - name: (
+  - uid: Fantas.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: Fantas.Input.MouseEventArgs.html
+  - name: )
+- uid: Fantas.Node.OnDoubleClick(Fantas.Input.MouseEventArgs)
+  commentId: M:Fantas.Node.OnDoubleClick(Fantas.Input.MouseEventArgs)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnDoubleClick_Fantas_Input_MouseEventArgs_
+  name: OnDoubleClick(MouseEventArgs)
+  nameWithType: Node.OnDoubleClick(MouseEventArgs)
+  fullName: Fantas.Node.OnDoubleClick(Fantas.Input.MouseEventArgs)
+  spec.csharp:
+  - uid: Fantas.Node.OnDoubleClick(Fantas.Input.MouseEventArgs)
+    name: OnDoubleClick
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnDoubleClick_Fantas_Input_MouseEventArgs_
+  - name: (
+  - uid: Fantas.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: Fantas.Input.MouseEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnDoubleClick(Fantas.Input.MouseEventArgs)
+    name: OnDoubleClick
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnDoubleClick_Fantas_Input_MouseEventArgs_
+  - name: (
+  - uid: Fantas.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: Fantas.Input.MouseEventArgs.html
+  - name: )
+- uid: Fantas.Node.OnMouseMove(Fantas.Input.MouseEventArgs)
+  commentId: M:Fantas.Node.OnMouseMove(Fantas.Input.MouseEventArgs)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnMouseMove_Fantas_Input_MouseEventArgs_
+  name: OnMouseMove(MouseEventArgs)
+  nameWithType: Node.OnMouseMove(MouseEventArgs)
+  fullName: Fantas.Node.OnMouseMove(Fantas.Input.MouseEventArgs)
+  spec.csharp:
+  - uid: Fantas.Node.OnMouseMove(Fantas.Input.MouseEventArgs)
+    name: OnMouseMove
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnMouseMove_Fantas_Input_MouseEventArgs_
+  - name: (
+  - uid: Fantas.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: Fantas.Input.MouseEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnMouseMove(Fantas.Input.MouseEventArgs)
+    name: OnMouseMove
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnMouseMove_Fantas_Input_MouseEventArgs_
+  - name: (
+  - uid: Fantas.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: Fantas.Input.MouseEventArgs.html
+  - name: )
+- uid: Fantas.Node.Name
+  commentId: P:Fantas.Node.Name
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Name
+  name: Name
+  nameWithType: Node.Name
+  fullName: Fantas.Node.Name
+- uid: Fantas.Node.Tag
+  commentId: P:Fantas.Node.Tag
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Tag
+  name: Tag
+  nameWithType: Node.Tag
+  fullName: Fantas.Node.Tag
+- uid: Fantas.Node.Cursor
+  commentId: P:Fantas.Node.Cursor
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Cursor
+  name: Cursor
+  nameWithType: Node.Cursor
+  fullName: Fantas.Node.Cursor
+- uid: Fantas.Node.Position
+  commentId: P:Fantas.Node.Position
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Position
+  name: Position
+  nameWithType: Node.Position
+  fullName: Fantas.Node.Position
+- uid: Fantas.Node.Frame
+  commentId: P:Fantas.Node.Frame
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Frame
+  name: Frame
+  nameWithType: Node.Frame
+  fullName: Fantas.Node.Frame
+- uid: Fantas.Node.X
+  commentId: P:Fantas.Node.X
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_X
+  name: X
+  nameWithType: Node.X
+  fullName: Fantas.Node.X
+- uid: Fantas.Node.Y
+  commentId: P:Fantas.Node.Y
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Y
+  name: Y
+  nameWithType: Node.Y
+  fullName: Fantas.Node.Y
+- uid: Fantas.Node.Center
+  commentId: P:Fantas.Node.Center
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Center
+  name: Center
+  nameWithType: Node.Center
+  fullName: Fantas.Node.Center
+- uid: Fantas.Node.Left
+  commentId: P:Fantas.Node.Left
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Left
+  name: Left
+  nameWithType: Node.Left
+  fullName: Fantas.Node.Left
+- uid: Fantas.Node.Right
+  commentId: P:Fantas.Node.Right
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Right
+  name: Right
+  nameWithType: Node.Right
+  fullName: Fantas.Node.Right
+- uid: Fantas.Node.Top
+  commentId: P:Fantas.Node.Top
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Top
+  name: Top
+  nameWithType: Node.Top
+  fullName: Fantas.Node.Top
+- uid: Fantas.Node.TopLeft
+  commentId: P:Fantas.Node.TopLeft
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_TopLeft
+  name: TopLeft
+  nameWithType: Node.TopLeft
+  fullName: Fantas.Node.TopLeft
+- uid: Fantas.Node.TopRight
+  commentId: P:Fantas.Node.TopRight
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_TopRight
+  name: TopRight
+  nameWithType: Node.TopRight
+  fullName: Fantas.Node.TopRight
+- uid: Fantas.Node.BottomLeft
+  commentId: P:Fantas.Node.BottomLeft
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_BottomLeft
+  name: BottomLeft
+  nameWithType: Node.BottomLeft
+  fullName: Fantas.Node.BottomLeft
+- uid: Fantas.Node.BottomRight
+  commentId: P:Fantas.Node.BottomRight
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_BottomRight
+  name: BottomRight
+  nameWithType: Node.BottomRight
+  fullName: Fantas.Node.BottomRight
+- uid: Fantas.Node.Bottom
+  commentId: P:Fantas.Node.Bottom
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Bottom
+  name: Bottom
+  nameWithType: Node.Bottom
+  fullName: Fantas.Node.Bottom
+- uid: Fantas.Node.ZPosition
+  commentId: P:Fantas.Node.ZPosition
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ZPosition
+  name: ZPosition
+  nameWithType: Node.ZPosition
+  fullName: Fantas.Node.ZPosition
+- uid: Fantas.Node.ZRotation
+  commentId: P:Fantas.Node.ZRotation
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ZRotation
+  name: ZRotation
+  nameWithType: Node.ZRotation
+  fullName: Fantas.Node.ZRotation
+- uid: Fantas.Node.XScale
+  commentId: P:Fantas.Node.XScale
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_XScale
+  name: XScale
+  nameWithType: Node.XScale
+  fullName: Fantas.Node.XScale
+- uid: Fantas.Node.YScale
+  commentId: P:Fantas.Node.YScale
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_YScale
+  name: YScale
+  nameWithType: Node.YScale
+  fullName: Fantas.Node.YScale
+- uid: Fantas.Node.Scale
+  commentId: P:Fantas.Node.Scale
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Scale
+  name: Scale
+  nameWithType: Node.Scale
+  fullName: Fantas.Node.Scale
+- uid: Fantas.Node.Scene
+  commentId: P:Fantas.Node.Scene
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Scene
+  name: Scene
+  nameWithType: Node.Scene
+  fullName: Fantas.Node.Scene
+- uid: Fantas.Node.Parent
+  commentId: P:Fantas.Node.Parent
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Parent
+  name: Parent
+  nameWithType: Node.Parent
+  fullName: Fantas.Node.Parent
+- uid: Fantas.Node.Children
+  commentId: P:Fantas.Node.Children
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Children
+  name: Children
+  nameWithType: Node.Children
+  fullName: Fantas.Node.Children
+- uid: Fantas.Node.HasChildren
+  commentId: P:Fantas.Node.HasChildren
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_HasChildren
+  name: HasChildren
+  nameWithType: Node.HasChildren
+  fullName: Fantas.Node.HasChildren
+- uid: Fantas.Node.HasParent
+  commentId: P:Fantas.Node.HasParent
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_HasParent
+  name: HasParent
+  nameWithType: Node.HasParent
+  fullName: Fantas.Node.HasParent
+- uid: Fantas.Node.PhysicsBody
+  commentId: P:Fantas.Node.PhysicsBody
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_PhysicsBody
+  name: PhysicsBody
+  nameWithType: Node.PhysicsBody
+  fullName: Fantas.Node.PhysicsBody
+- uid: Fantas.Node.Hidden
+  commentId: P:Fantas.Node.Hidden
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Hidden
+  name: Hidden
+  nameWithType: Node.Hidden
+  fullName: Fantas.Node.Hidden
+- uid: Fantas.Node.Alpha
+  commentId: P:Fantas.Node.Alpha
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Alpha
+  name: Alpha
+  nameWithType: Node.Alpha
+  fullName: Fantas.Node.Alpha
+- uid: Fantas.Node.HasAnimation
+  commentId: P:Fantas.Node.HasAnimation
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_HasAnimation
+  name: HasAnimation
+  nameWithType: Node.HasAnimation
+  fullName: Fantas.Node.HasAnimation
+- uid: Fantas.Node.Paused
+  commentId: P:Fantas.Node.Paused
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Paused
+  name: Paused
+  nameWithType: Node.Paused
+  fullName: Fantas.Node.Paused
+- uid: Fantas.Node.Speed
+  commentId: P:Fantas.Node.Speed
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Speed
+  name: Speed
+  nameWithType: Node.Speed
+  fullName: Fantas.Node.Speed
+- uid: Fantas.Node.IsHitTestEnabled
+  commentId: P:Fantas.Node.IsHitTestEnabled
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_IsHitTestEnabled
+  name: IsHitTestEnabled
+  nameWithType: Node.IsHitTestEnabled
+  fullName: Fantas.Node.IsHitTestEnabled
+- uid: Fantas.Node.CanBringForward
+  commentId: P:Fantas.Node.CanBringForward
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_CanBringForward
+  name: CanBringForward
+  nameWithType: Node.CanBringForward
+  fullName: Fantas.Node.CanBringForward
+- uid: Fantas.Node.CanSendBackward
+  commentId: P:Fantas.Node.CanSendBackward
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_CanSendBackward
+  name: CanSendBackward
+  nameWithType: Node.CanSendBackward
+  fullName: Fantas.Node.CanSendBackward
+- uid: Fantas.Node.HasMouseCaputure
+  commentId: P:Fantas.Node.HasMouseCaputure
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_HasMouseCaputure
+  name: HasMouseCaputure
+  nameWithType: Node.HasMouseCaputure
+  fullName: Fantas.Node.HasMouseCaputure
+- uid: Fantas.Node.IsMouseOver
+  commentId: P:Fantas.Node.IsMouseOver
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_IsMouseOver
+  name: IsMouseOver
+  nameWithType: Node.IsMouseOver
+  fullName: Fantas.Node.IsMouseOver
+- uid: Fantas.Node.MouseButtonPressed
+  commentId: P:Fantas.Node.MouseButtonPressed
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_MouseButtonPressed
+  name: MouseButtonPressed
+  nameWithType: Node.MouseButtonPressed
+  fullName: Fantas.Node.MouseButtonPressed
+- uid: Fantas.Node.IsTouchOver
+  commentId: P:Fantas.Node.IsTouchOver
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_IsTouchOver
+  name: IsTouchOver
+  nameWithType: Node.IsTouchOver
+  fullName: Fantas.Node.IsTouchOver
+- uid: Fantas.Node.TouchCount
+  commentId: P:Fantas.Node.TouchCount
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_TouchCount
+  name: TouchCount
+  nameWithType: Node.TouchCount
+  fullName: Fantas.Node.TouchCount
+- uid: Fantas.Node.Tap
+  commentId: E:Fantas.Node.Tap
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Tap
+  name: Tap
+  nameWithType: Node.Tap
+  fullName: Fantas.Node.Tap
+- uid: Fantas.Node.DoubleTap
+  commentId: E:Fantas.Node.DoubleTap
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_DoubleTap
+  name: DoubleTap
+  nameWithType: Node.DoubleTap
+  fullName: Fantas.Node.DoubleTap
+- uid: Fantas.Node.LongPress
+  commentId: E:Fantas.Node.LongPress
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_LongPress
+  name: LongPress
+  nameWithType: Node.LongPress
+  fullName: Fantas.Node.LongPress
+- uid: Fantas.Node.PanStart
+  commentId: E:Fantas.Node.PanStart
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_PanStart
+  name: PanStart
+  nameWithType: Node.PanStart
+  fullName: Fantas.Node.PanStart
+- uid: Fantas.Node.Pan
+  commentId: E:Fantas.Node.Pan
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Pan
+  name: Pan
+  nameWithType: Node.Pan
+  fullName: Fantas.Node.Pan
+- uid: Fantas.Node.PanComplete
+  commentId: E:Fantas.Node.PanComplete
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_PanComplete
+  name: PanComplete
+  nameWithType: Node.PanComplete
+  fullName: Fantas.Node.PanComplete
+- uid: Fantas.Node.TouchDownInside
+  commentId: E:Fantas.Node.TouchDownInside
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_TouchDownInside
+  name: TouchDownInside
+  nameWithType: Node.TouchDownInside
+  fullName: Fantas.Node.TouchDownInside
+- uid: Fantas.Node.TouchDragEnter
+  commentId: E:Fantas.Node.TouchDragEnter
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_TouchDragEnter
+  name: TouchDragEnter
+  nameWithType: Node.TouchDragEnter
+  fullName: Fantas.Node.TouchDragEnter
+- uid: Fantas.Node.TouchDragExit
+  commentId: E:Fantas.Node.TouchDragExit
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_TouchDragExit
+  name: TouchDragExit
+  nameWithType: Node.TouchDragExit
+  fullName: Fantas.Node.TouchDragExit
+- uid: Fantas.Node.TouchDragInside
+  commentId: E:Fantas.Node.TouchDragInside
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_TouchDragInside
+  name: TouchDragInside
+  nameWithType: Node.TouchDragInside
+  fullName: Fantas.Node.TouchDragInside
+- uid: Fantas.Node.TouchDragOutside
+  commentId: E:Fantas.Node.TouchDragOutside
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_TouchDragOutside
+  name: TouchDragOutside
+  nameWithType: Node.TouchDragOutside
+  fullName: Fantas.Node.TouchDragOutside
+- uid: Fantas.Node.TouchUpInside
+  commentId: E:Fantas.Node.TouchUpInside
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_TouchUpInside
+  name: TouchUpInside
+  nameWithType: Node.TouchUpInside
+  fullName: Fantas.Node.TouchUpInside
+- uid: Fantas.Node.TouchUpOutside
+  commentId: E:Fantas.Node.TouchUpOutside
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_TouchUpOutside
+  name: TouchUpOutside
+  nameWithType: Node.TouchUpOutside
+  fullName: Fantas.Node.TouchUpOutside
+- uid: Fantas.Node.MouseDown
+  commentId: E:Fantas.Node.MouseDown
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_MouseDown
+  name: MouseDown
+  nameWithType: Node.MouseDown
+  fullName: Fantas.Node.MouseDown
+- uid: Fantas.Node.MouseUp
+  commentId: E:Fantas.Node.MouseUp
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_MouseUp
+  name: MouseUp
+  nameWithType: Node.MouseUp
+  fullName: Fantas.Node.MouseUp
+- uid: Fantas.Node.MouseWheel
+  commentId: E:Fantas.Node.MouseWheel
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_MouseWheel
+  name: MouseWheel
+  nameWithType: Node.MouseWheel
+  fullName: Fantas.Node.MouseWheel
+- uid: Fantas.Node.Click
+  commentId: E:Fantas.Node.Click
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_Click
+  name: Click
+  nameWithType: Node.Click
+  fullName: Fantas.Node.Click
+- uid: Fantas.Node.DoubleClick
+  commentId: E:Fantas.Node.DoubleClick
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_DoubleClick
+  name: DoubleClick
+  nameWithType: Node.DoubleClick
+  fullName: Fantas.Node.DoubleClick
+- uid: Fantas.Node.MouseEnter
+  commentId: E:Fantas.Node.MouseEnter
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_MouseEnter
+  name: MouseEnter
+  nameWithType: Node.MouseEnter
+  fullName: Fantas.Node.MouseEnter
+- uid: Fantas.Node.MouseMove
+  commentId: E:Fantas.Node.MouseMove
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_MouseMove
+  name: MouseMove
+  nameWithType: Node.MouseMove
+  fullName: Fantas.Node.MouseMove
+- uid: Fantas.Node.MouseLeave
+  commentId: E:Fantas.Node.MouseLeave
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_MouseLeave
+  name: MouseLeave
+  nameWithType: Node.MouseLeave
+  fullName: Fantas.Node.MouseLeave
+- uid: Fantas.SpriteNode.Fantas.Physics.NodeExtensions.SetupBody(System.Int32)
+  commentId: M:Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpriteNode,System.Int32)
+  parent: Fantas.Physics.NodeExtensions
+  definition: Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpriteNode,System.Int32)
+  href: Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupBody_Fantas_SpriteNode_System_Int32_
+  name: SetupBody(SpriteNode, int)
+  nameWithType: NodeExtensions.SetupBody(SpriteNode, int)
+  fullName: Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpriteNode, int)
+  nameWithType.vb: NodeExtensions.SetupBody(SpriteNode, Integer)
+  fullName.vb: Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpriteNode, Integer)
+  name.vb: SetupBody(SpriteNode, Integer)
+  spec.csharp:
+  - uid: Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpriteNode,System.Int32)
+    name: SetupBody
+    isExternal: true
+    href: Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupBody_Fantas_SpriteNode_System_Int32_
+  - name: (
+  - uid: Fantas.SpriteNode
+    name: SpriteNode
+    isExternal: true
+    href: Fantas.SpriteNode.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpriteNode,System.Int32)
+    name: SetupBody
+    isExternal: true
+    href: Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupBody_Fantas_SpriteNode_System_Int32_
+  - name: (
+  - uid: Fantas.SpriteNode
+    name: SpriteNode
+    isExternal: true
+    href: Fantas.SpriteNode.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Fantas.SpriteNode.Fantas.Physics.NodeExtensions.SetupEdge(System.Int32)
+  commentId: M:Fantas.Physics.NodeExtensions.SetupEdge(Fantas.SpriteNode,System.Int32)
+  parent: Fantas.Physics.NodeExtensions
+  definition: Fantas.Physics.NodeExtensions.SetupEdge(Fantas.SpriteNode,System.Int32)
+  href: Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupEdge_Fantas_SpriteNode_System_Int32_
+  name: SetupEdge(SpriteNode, int)
+  nameWithType: NodeExtensions.SetupEdge(SpriteNode, int)
+  fullName: Fantas.Physics.NodeExtensions.SetupEdge(Fantas.SpriteNode, int)
+  nameWithType.vb: NodeExtensions.SetupEdge(SpriteNode, Integer)
+  fullName.vb: Fantas.Physics.NodeExtensions.SetupEdge(Fantas.SpriteNode, Integer)
+  name.vb: SetupEdge(SpriteNode, Integer)
+  spec.csharp:
+  - uid: Fantas.Physics.NodeExtensions.SetupEdge(Fantas.SpriteNode,System.Int32)
+    name: SetupEdge
+    isExternal: true
+    href: Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupEdge_Fantas_SpriteNode_System_Int32_
+  - name: (
+  - uid: Fantas.SpriteNode
+    name: SpriteNode
+    isExternal: true
+    href: Fantas.SpriteNode.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Fantas.Physics.NodeExtensions.SetupEdge(Fantas.SpriteNode,System.Int32)
+    name: SetupEdge
+    isExternal: true
+    href: Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupEdge_Fantas_SpriteNode_System_Int32_
+  - name: (
+  - uid: Fantas.SpriteNode
+    name: SpriteNode
+    isExternal: true
+    href: Fantas.SpriteNode.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpriteNode,System.Int32)
+  commentId: M:Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpriteNode,System.Int32)
+  isExternal: true
+  href: Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupBody_Fantas_SpriteNode_System_Int32_
+  name: SetupBody(SpriteNode, int)
+  nameWithType: NodeExtensions.SetupBody(SpriteNode, int)
+  fullName: Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpriteNode, int)
+  nameWithType.vb: NodeExtensions.SetupBody(SpriteNode, Integer)
+  fullName.vb: Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpriteNode, Integer)
+  name.vb: SetupBody(SpriteNode, Integer)
+  spec.csharp:
+  - uid: Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpriteNode,System.Int32)
+    name: SetupBody
+    isExternal: true
+    href: Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupBody_Fantas_SpriteNode_System_Int32_
+  - name: (
+  - uid: Fantas.SpriteNode
+    name: SpriteNode
+    isExternal: true
+    href: Fantas.SpriteNode.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Fantas.Physics.NodeExtensions.SetupBody(Fantas.SpriteNode,System.Int32)
+    name: SetupBody
+    isExternal: true
+    href: Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupBody_Fantas_SpriteNode_System_Int32_
+  - name: (
+  - uid: Fantas.SpriteNode
+    name: SpriteNode
+    isExternal: true
+    href: Fantas.SpriteNode.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Fantas.Physics.NodeExtensions
+  commentId: T:Fantas.Physics.NodeExtensions
+  parent: Fantas.Physics
+  isExternal: true
+  href: Fantas.Physics.NodeExtensions.html
+  name: NodeExtensions
+  nameWithType: NodeExtensions
+  fullName: Fantas.Physics.NodeExtensions
+- uid: Fantas.Physics.NodeExtensions.SetupEdge(Fantas.SpriteNode,System.Int32)
+  commentId: M:Fantas.Physics.NodeExtensions.SetupEdge(Fantas.SpriteNode,System.Int32)
+  isExternal: true
+  href: Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupEdge_Fantas_SpriteNode_System_Int32_
+  name: SetupEdge(SpriteNode, int)
+  nameWithType: NodeExtensions.SetupEdge(SpriteNode, int)
+  fullName: Fantas.Physics.NodeExtensions.SetupEdge(Fantas.SpriteNode, int)
+  nameWithType.vb: NodeExtensions.SetupEdge(SpriteNode, Integer)
+  fullName.vb: Fantas.Physics.NodeExtensions.SetupEdge(Fantas.SpriteNode, Integer)
+  name.vb: SetupEdge(SpriteNode, Integer)
+  spec.csharp:
+  - uid: Fantas.Physics.NodeExtensions.SetupEdge(Fantas.SpriteNode,System.Int32)
+    name: SetupEdge
+    isExternal: true
+    href: Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupEdge_Fantas_SpriteNode_System_Int32_
+  - name: (
+  - uid: Fantas.SpriteNode
+    name: SpriteNode
+    isExternal: true
+    href: Fantas.SpriteNode.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Fantas.Physics.NodeExtensions.SetupEdge(Fantas.SpriteNode,System.Int32)
+    name: SetupEdge
+    isExternal: true
+    href: Fantas.Physics.NodeExtensions.html#Fantas_Physics_NodeExtensions_SetupEdge_Fantas_SpriteNode_System_Int32_
+  - name: (
+  - uid: Fantas.SpriteNode
+    name: SpriteNode
+    isExternal: true
+    href: Fantas.SpriteNode.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Fantas.Physics
+  commentId: N:Fantas.Physics
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.Physics
+  nameWithType: Fantas.Physics
+  fullName: Fantas.Physics
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Physics
+    name: Physics
+    isExternal: true
+    href: Fantas.Physics.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Physics
+    name: Physics
+    isExternal: true
+    href: Fantas.Physics.html
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Fantas.UI.ScrollBar.#ctor*
+  commentId: Overload:Fantas.UI.ScrollBar.#ctor
+  isExternal: true
+  href: Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar__ctor_Fantas_UI_Orientation_
+  name: ScrollBar
+  nameWithType: ScrollBar.ScrollBar
+  fullName: Fantas.UI.ScrollBar.ScrollBar
+  nameWithType.vb: ScrollBar.New
+  fullName.vb: Fantas.UI.ScrollBar.New
+  name.vb: New
+- uid: Fantas.UI.Orientation
+  commentId: T:Fantas.UI.Orientation
+  parent: Fantas.UI
+  isExternal: true
+  href: Fantas.UI.Orientation.html
+  name: Orientation
+  nameWithType: Orientation
+  fullName: Fantas.UI.Orientation
+- uid: Fantas.Node.OnPanStart(Fantas.Input.PanEventArgs)
+  commentId: M:Fantas.Node.OnPanStart(Fantas.Input.PanEventArgs)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnPanStart_Fantas_Input_PanEventArgs_
+  name: OnPanStart(PanEventArgs)
+  nameWithType: Node.OnPanStart(PanEventArgs)
+  fullName: Fantas.Node.OnPanStart(Fantas.Input.PanEventArgs)
+  spec.csharp:
+  - uid: Fantas.Node.OnPanStart(Fantas.Input.PanEventArgs)
+    name: OnPanStart
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnPanStart_Fantas_Input_PanEventArgs_
+  - name: (
+  - uid: Fantas.Input.PanEventArgs
+    name: PanEventArgs
+    isExternal: true
+    href: Fantas.Input.PanEventArgs.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnPanStart(Fantas.Input.PanEventArgs)
+    name: OnPanStart
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnPanStart_Fantas_Input_PanEventArgs_
+  - name: (
+  - uid: Fantas.Input.PanEventArgs
+    name: PanEventArgs
+    isExternal: true
+    href: Fantas.Input.PanEventArgs.html
+  - name: )
+- uid: Fantas.UI.ScrollBar.OnPanStart*
+  commentId: Overload:Fantas.UI.ScrollBar.OnPanStart
+  isExternal: true
+  href: Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_OnPanStart_Fantas_Input_PanEventArgs_
+  name: OnPanStart
+  nameWithType: ScrollBar.OnPanStart
+  fullName: Fantas.UI.ScrollBar.OnPanStart
+- uid: Fantas.Input.PanEventArgs
+  commentId: T:Fantas.Input.PanEventArgs
+  parent: Fantas.Input
+  isExternal: true
+  href: Fantas.Input.PanEventArgs.html
+  name: PanEventArgs
+  nameWithType: PanEventArgs
+  fullName: Fantas.Input.PanEventArgs
+- uid: Fantas.Input
+  commentId: N:Fantas.Input
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.Input
+  nameWithType: Fantas.Input
+  fullName: Fantas.Input
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.Input
+    name: Input
+    isExternal: true
+    href: Fantas.Input.html
+- uid: Fantas.Node.OnMouseEnter
+  commentId: M:Fantas.Node.OnMouseEnter
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnMouseEnter
+  name: OnMouseEnter()
+  nameWithType: Node.OnMouseEnter()
+  fullName: Fantas.Node.OnMouseEnter()
+  spec.csharp:
+  - uid: Fantas.Node.OnMouseEnter
+    name: OnMouseEnter
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnMouseEnter
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnMouseEnter
+    name: OnMouseEnter
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnMouseEnter
+  - name: (
+  - name: )
+- uid: Fantas.UI.ScrollBar.OnMouseEnter*
+  commentId: Overload:Fantas.UI.ScrollBar.OnMouseEnter
+  isExternal: true
+  href: Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_OnMouseEnter
+  name: OnMouseEnter
+  nameWithType: ScrollBar.OnMouseEnter
+  fullName: Fantas.UI.ScrollBar.OnMouseEnter
+- uid: Fantas.Node.OnMouseLeave
+  commentId: M:Fantas.Node.OnMouseLeave
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_OnMouseLeave
+  name: OnMouseLeave()
+  nameWithType: Node.OnMouseLeave()
+  fullName: Fantas.Node.OnMouseLeave()
+  spec.csharp:
+  - uid: Fantas.Node.OnMouseLeave
+    name: OnMouseLeave
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnMouseLeave
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.OnMouseLeave
+    name: OnMouseLeave
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_OnMouseLeave
+  - name: (
+  - name: )
+- uid: Fantas.UI.ScrollBar.OnMouseLeave*
+  commentId: Overload:Fantas.UI.ScrollBar.OnMouseLeave
+  isExternal: true
+  href: Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_OnMouseLeave
+  name: OnMouseLeave
+  nameWithType: ScrollBar.OnMouseLeave
+  fullName: Fantas.UI.ScrollBar.OnMouseLeave
+- uid: Fantas.UI.ScrollBar.Thumb*
+  commentId: Overload:Fantas.UI.ScrollBar.Thumb
+  isExternal: true
+  href: Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_Thumb
+  name: Thumb
+  nameWithType: ScrollBar.Thumb
+  fullName: Fantas.UI.ScrollBar.Thumb
+- uid: Fantas.UI.ScrollBarThumb
+  commentId: T:Fantas.UI.ScrollBarThumb
+  parent: Fantas.UI
+  isExternal: true
+  href: Fantas.UI.ScrollBarThumb.html
+  name: ScrollBarThumb
+  nameWithType: ScrollBarThumb
+  fullName: Fantas.UI.ScrollBarThumb
+- uid: Fantas.UI.ScrollBar.ThumbTrackColor*
+  commentId: Overload:Fantas.UI.ScrollBar.ThumbTrackColor
+  isExternal: true
+  href: Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_ThumbTrackColor
+  name: ThumbTrackColor
+  nameWithType: ScrollBar.ThumbTrackColor
+  fullName: Fantas.UI.ScrollBar.ThumbTrackColor
+- uid: System.Drawing.Color
+  commentId: T:System.Drawing.Color
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: Fantas.UI.ScrollBar.ThumbColor*
+  commentId: Overload:Fantas.UI.ScrollBar.ThumbColor
+  isExternal: true
+  href: Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_ThumbColor
+  name: ThumbColor
+  nameWithType: ScrollBar.ThumbColor
+  fullName: Fantas.UI.ScrollBar.ThumbColor
+- uid: Fantas.UI.ScrollBar.Value*
+  commentId: Overload:Fantas.UI.ScrollBar.Value
+  isExternal: true
+  href: Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_Value
+  name: Value
+  nameWithType: ScrollBar.Value
+  fullName: Fantas.UI.ScrollBar.Value
+- uid: System.EventHandler{Fantas.UI.ScrollEventArgs}
+  commentId: '!:System.EventHandler{Fantas.UI.ScrollEventArgs}'
+  parent: System
+  definition: System.EventHandler`1
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<ScrollEventArgs>
+  nameWithType: EventHandler<ScrollEventArgs>
+  fullName: System.EventHandler<Fantas.UI.ScrollEventArgs>
+  nameWithType.vb: EventHandler(Of ScrollEventArgs)
+  fullName.vb: System.EventHandler(Of Fantas.UI.ScrollEventArgs)
+  name.vb: EventHandler(Of ScrollEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: <
+  - uid: Fantas.UI.ScrollEventArgs
+    name: ScrollEventArgs
+    isExternal: true
+    href: Fantas.UI.ScrollEventArgs.html
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fantas.UI.ScrollEventArgs
+    name: ScrollEventArgs
+    isExternal: true
+    href: Fantas.UI.ScrollEventArgs.html
+  - name: )
+- uid: System.EventHandler`1
+  commentId: T:System.EventHandler`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  name: EventHandler<>
+  nameWithType: EventHandler<>
+  fullName: System.EventHandler<>
+  nameWithType.vb: EventHandler(Of )
+  fullName.vb: System.EventHandler(Of )
+  name.vb: EventHandler(Of )
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+  - name: <
+  - name: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.eventhandler-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )

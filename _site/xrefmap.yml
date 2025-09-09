@@ -1297,6 +1297,63 @@ references:
   commentId: F:Fantas.AnimationTimingMode.SmoothStep
   fullName: Fantas.AnimationTimingMode.SmoothStep
   nameWithType: AnimationTimingMode.SmoothStep
+- uid: Fantas.AnimationTimingMode.value__
+  name: value__
+  href: api/Fantas.AnimationTimingMode.html#Fantas_AnimationTimingMode_value__
+  commentId: F:Fantas.AnimationTimingMode.value__
+  fullName: Fantas.AnimationTimingMode.value__
+  nameWithType: AnimationTimingMode.value__
+- uid: Fantas.Array
+  name: Array
+  href: api/Fantas.Array.html
+  commentId: T:Fantas.Array
+  fullName: Fantas.Array
+  nameWithType: Array
+- uid: Fantas.Array.Copy(System.Array,System.Array,System.Int32)
+  name: Copy(Array, Array, int)
+  href: api/Fantas.Array.html#Fantas_Array_Copy_System_Array_System_Array_System_Int32_
+  commentId: M:Fantas.Array.Copy(System.Array,System.Array,System.Int32)
+  name.vb: Copy(Array, Array, Integer)
+  fullName: Fantas.Array.Copy(System.Array, System.Array, int)
+  fullName.vb: Fantas.Array.Copy(System.Array, System.Array, Integer)
+  nameWithType: Array.Copy(Array, Array, int)
+  nameWithType.vb: Array.Copy(Array, Array, Integer)
+- uid: Fantas.Array.Copy*
+  name: Copy
+  href: api/Fantas.Array.html#Fantas_Array_Copy_
+  commentId: Overload:Fantas.Array.Copy
+  fullName: Fantas.Array.Copy
+  nameWithType: Array.Copy
+- uid: Fantas.Array.Empty*
+  name: Empty
+  href: api/Fantas.Array.html#Fantas_Array_Empty_
+  commentId: Overload:Fantas.Array.Empty
+  fullName: Fantas.Array.Empty
+  nameWithType: Array.Empty
+- uid: Fantas.Array.Empty``1
+  name: Empty<T>()
+  href: api/Fantas.Array.html#Fantas_Array_Empty__1
+  commentId: M:Fantas.Array.Empty``1
+  name.vb: Empty(Of T)()
+  fullName: Fantas.Array.Empty<T>()
+  fullName.vb: Fantas.Array.Empty(Of T)()
+  nameWithType: Array.Empty<T>()
+  nameWithType.vb: Array.Empty(Of T)()
+- uid: Fantas.Array.Resize*
+  name: Resize
+  href: api/Fantas.Array.html#Fantas_Array_Resize_
+  commentId: Overload:Fantas.Array.Resize
+  fullName: Fantas.Array.Resize
+  nameWithType: Array.Resize
+- uid: Fantas.Array.Resize``1(``0[]@,System.Int32)
+  name: Resize<T>(ref T[], int)
+  href: api/Fantas.Array.html#Fantas_Array_Resize__1___0____System_Int32_
+  commentId: M:Fantas.Array.Resize``1(``0[]@,System.Int32)
+  name.vb: Resize(Of T)(T(), Integer)
+  fullName: Fantas.Array.Resize<T>(ref T[], int)
+  fullName.vb: Fantas.Array.Resize(Of T)(T(), Integer)
+  nameWithType: Array.Resize<T>(ref T[], int)
+  nameWithType.vb: Array.Resize(Of T)(T(), Integer)
 - uid: Fantas.Audio
   name: Fantas.Audio
   href: api/Fantas.Audio.html
@@ -1690,6 +1747,12 @@ references:
   commentId: F:Fantas.BlendMode.Subtract
   fullName: Fantas.BlendMode.Subtract
   nameWithType: BlendMode.Subtract
+- uid: Fantas.BlendMode.value__
+  name: value__
+  href: api/Fantas.BlendMode.html#Fantas_BlendMode_value__
+  commentId: F:Fantas.BlendMode.value__
+  fullName: Fantas.BlendMode.value__
+  nameWithType: BlendMode.value__
 - uid: Fantas.CameraNode
   name: CameraNode
   href: api/Fantas.CameraNode.html
@@ -2119,6 +2182,78 @@ references:
   commentId: Overload:Fantas.EllipseNode.Width
   fullName: Fantas.EllipseNode.Width
   nameWithType: EllipseNode.Width
+- uid: Fantas.FantasActivity
+  name: FantasActivity
+  href: api/Fantas.FantasActivity.html
+  commentId: T:Fantas.FantasActivity
+  fullName: Fantas.FantasActivity
+  nameWithType: FantasActivity
+- uid: Fantas.FantasActivity.#ctor
+  name: FantasActivity()
+  href: api/Fantas.FantasActivity.html#Fantas_FantasActivity__ctor
+  commentId: M:Fantas.FantasActivity.#ctor
+  name.vb: New()
+  fullName: Fantas.FantasActivity.FantasActivity()
+  fullName.vb: Fantas.FantasActivity.New()
+  nameWithType: FantasActivity.FantasActivity()
+  nameWithType.vb: FantasActivity.New()
+- uid: Fantas.FantasActivity.#ctor*
+  name: FantasActivity
+  href: api/Fantas.FantasActivity.html#Fantas_FantasActivity__ctor_
+  commentId: Overload:Fantas.FantasActivity.#ctor
+  name.vb: New
+  fullName: Fantas.FantasActivity.FantasActivity
+  fullName.vb: Fantas.FantasActivity.New
+  nameWithType: FantasActivity.FantasActivity
+  nameWithType.vb: FantasActivity.New
+- uid: Fantas.FantasActivity.MainActivity
+  name: MainActivity
+  href: api/Fantas.FantasActivity.html#Fantas_FantasActivity_MainActivity
+  commentId: P:Fantas.FantasActivity.MainActivity
+  fullName: Fantas.FantasActivity.MainActivity
+  nameWithType: FantasActivity.MainActivity
+- uid: Fantas.FantasActivity.MainActivity*
+  name: MainActivity
+  href: api/Fantas.FantasActivity.html#Fantas_FantasActivity_MainActivity_
+  commentId: Overload:Fantas.FantasActivity.MainActivity
+  fullName: Fantas.FantasActivity.MainActivity
+  nameWithType: FantasActivity.MainActivity
+- uid: Fantas.FantasActivity.OnCreate(Android.OS.Bundle)
+  name: OnCreate(Bundle)
+  href: api/Fantas.FantasActivity.html#Fantas_FantasActivity_OnCreate_Android_OS_Bundle_
+  commentId: M:Fantas.FantasActivity.OnCreate(Android.OS.Bundle)
+  fullName: Fantas.FantasActivity.OnCreate(Android.OS.Bundle)
+  nameWithType: FantasActivity.OnCreate(Bundle)
+- uid: Fantas.FantasActivity.OnCreate*
+  name: OnCreate
+  href: api/Fantas.FantasActivity.html#Fantas_FantasActivity_OnCreate_
+  commentId: Overload:Fantas.FantasActivity.OnCreate
+  fullName: Fantas.FantasActivity.OnCreate
+  nameWithType: FantasActivity.OnCreate
+- uid: Fantas.FantasActivity.OnDestroy
+  name: OnDestroy()
+  href: api/Fantas.FantasActivity.html#Fantas_FantasActivity_OnDestroy
+  commentId: M:Fantas.FantasActivity.OnDestroy
+  fullName: Fantas.FantasActivity.OnDestroy()
+  nameWithType: FantasActivity.OnDestroy()
+- uid: Fantas.FantasActivity.OnDestroy*
+  name: OnDestroy
+  href: api/Fantas.FantasActivity.html#Fantas_FantasActivity_OnDestroy_
+  commentId: Overload:Fantas.FantasActivity.OnDestroy
+  fullName: Fantas.FantasActivity.OnDestroy
+  nameWithType: FantasActivity.OnDestroy
+- uid: Fantas.FantasActivity.SetActivityGame(Microsoft.Xna.Framework.Game)
+  name: SetActivityGame(Game)
+  href: api/Fantas.FantasActivity.html#Fantas_FantasActivity_SetActivityGame_Microsoft_Xna_Framework_Game_
+  commentId: M:Fantas.FantasActivity.SetActivityGame(Microsoft.Xna.Framework.Game)
+  fullName: Fantas.FantasActivity.SetActivityGame(Microsoft.Xna.Framework.Game)
+  nameWithType: FantasActivity.SetActivityGame(Game)
+- uid: Fantas.FantasActivity.SetActivityGame*
+  name: SetActivityGame
+  href: api/Fantas.FantasActivity.html#Fantas_FantasActivity_SetActivityGame_
+  commentId: Overload:Fantas.FantasActivity.SetActivityGame
+  fullName: Fantas.FantasActivity.SetActivityGame
+  nameWithType: FantasActivity.SetActivityGame
 - uid: Fantas.Font
   name: Font
   href: api/Fantas.Font.html
@@ -2404,6 +2539,81 @@ references:
   commentId: F:Fantas.GameOptions.None
   fullName: Fantas.GameOptions.None
   nameWithType: GameOptions.None
+- uid: Fantas.GameOptions.value__
+  name: value__
+  href: api/Fantas.GameOptions.html#Fantas_GameOptions_value__
+  commentId: F:Fantas.GameOptions.value__
+  fullName: Fantas.GameOptions.value__
+  nameWithType: GameOptions.value__
+- uid: Fantas.InertiaAnimationBuilder
+  name: InertiaAnimationBuilder
+  href: api/Fantas.InertiaAnimationBuilder.html
+  commentId: T:Fantas.InertiaAnimationBuilder
+  fullName: Fantas.InertiaAnimationBuilder
+  nameWithType: InertiaAnimationBuilder
+- uid: Fantas.InertiaAnimationBuilder.#ctor
+  name: InertiaAnimationBuilder()
+  href: api/Fantas.InertiaAnimationBuilder.html#Fantas_InertiaAnimationBuilder__ctor
+  commentId: M:Fantas.InertiaAnimationBuilder.#ctor
+  name.vb: New()
+  fullName: Fantas.InertiaAnimationBuilder.InertiaAnimationBuilder()
+  fullName.vb: Fantas.InertiaAnimationBuilder.New()
+  nameWithType: InertiaAnimationBuilder.InertiaAnimationBuilder()
+  nameWithType.vb: InertiaAnimationBuilder.New()
+- uid: Fantas.InertiaAnimationBuilder.#ctor(System.Single,System.Single,System.Single)
+  name: InertiaAnimationBuilder(float, float, float)
+  href: api/Fantas.InertiaAnimationBuilder.html#Fantas_InertiaAnimationBuilder__ctor_System_Single_System_Single_System_Single_
+  commentId: M:Fantas.InertiaAnimationBuilder.#ctor(System.Single,System.Single,System.Single)
+  name.vb: New(Single, Single, Single)
+  fullName: Fantas.InertiaAnimationBuilder.InertiaAnimationBuilder(float, float, float)
+  fullName.vb: Fantas.InertiaAnimationBuilder.New(Single, Single, Single)
+  nameWithType: InertiaAnimationBuilder.InertiaAnimationBuilder(float, float, float)
+  nameWithType.vb: InertiaAnimationBuilder.New(Single, Single, Single)
+- uid: Fantas.InertiaAnimationBuilder.#ctor*
+  name: InertiaAnimationBuilder
+  href: api/Fantas.InertiaAnimationBuilder.html#Fantas_InertiaAnimationBuilder__ctor_
+  commentId: Overload:Fantas.InertiaAnimationBuilder.#ctor
+  name.vb: New
+  fullName: Fantas.InertiaAnimationBuilder.InertiaAnimationBuilder
+  fullName.vb: Fantas.InertiaAnimationBuilder.New
+  nameWithType: InertiaAnimationBuilder.InertiaAnimationBuilder
+  nameWithType.vb: InertiaAnimationBuilder.New
+- uid: Fantas.InertiaAnimationBuilder.ContentSize
+  name: ContentSize
+  href: api/Fantas.InertiaAnimationBuilder.html#Fantas_InertiaAnimationBuilder_ContentSize
+  commentId: P:Fantas.InertiaAnimationBuilder.ContentSize
+  fullName: Fantas.InertiaAnimationBuilder.ContentSize
+  nameWithType: InertiaAnimationBuilder.ContentSize
+- uid: Fantas.InertiaAnimationBuilder.ContentSize*
+  name: ContentSize
+  href: api/Fantas.InertiaAnimationBuilder.html#Fantas_InertiaAnimationBuilder_ContentSize_
+  commentId: Overload:Fantas.InertiaAnimationBuilder.ContentSize
+  fullName: Fantas.InertiaAnimationBuilder.ContentSize
+  nameWithType: InertiaAnimationBuilder.ContentSize
+- uid: Fantas.InertiaAnimationBuilder.CreateInertiaAnimation(System.Numerics.Vector2,System.Drawing.PointF)
+  name: CreateInertiaAnimation(Vector2, PointF)
+  href: api/Fantas.InertiaAnimationBuilder.html#Fantas_InertiaAnimationBuilder_CreateInertiaAnimation_System_Numerics_Vector2_System_Drawing_PointF_
+  commentId: M:Fantas.InertiaAnimationBuilder.CreateInertiaAnimation(System.Numerics.Vector2,System.Drawing.PointF)
+  fullName: Fantas.InertiaAnimationBuilder.CreateInertiaAnimation(System.Numerics.Vector2, System.Drawing.PointF)
+  nameWithType: InertiaAnimationBuilder.CreateInertiaAnimation(Vector2, PointF)
+- uid: Fantas.InertiaAnimationBuilder.CreateInertiaAnimation*
+  name: CreateInertiaAnimation
+  href: api/Fantas.InertiaAnimationBuilder.html#Fantas_InertiaAnimationBuilder_CreateInertiaAnimation_
+  commentId: Overload:Fantas.InertiaAnimationBuilder.CreateInertiaAnimation
+  fullName: Fantas.InertiaAnimationBuilder.CreateInertiaAnimation
+  nameWithType: InertiaAnimationBuilder.CreateInertiaAnimation
+- uid: Fantas.InertiaAnimationBuilder.ViewportSize
+  name: ViewportSize
+  href: api/Fantas.InertiaAnimationBuilder.html#Fantas_InertiaAnimationBuilder_ViewportSize
+  commentId: P:Fantas.InertiaAnimationBuilder.ViewportSize
+  fullName: Fantas.InertiaAnimationBuilder.ViewportSize
+  nameWithType: InertiaAnimationBuilder.ViewportSize
+- uid: Fantas.InertiaAnimationBuilder.ViewportSize*
+  name: ViewportSize
+  href: api/Fantas.InertiaAnimationBuilder.html#Fantas_InertiaAnimationBuilder_ViewportSize_
+  commentId: Overload:Fantas.InertiaAnimationBuilder.ViewportSize
+  fullName: Fantas.InertiaAnimationBuilder.ViewportSize
+  nameWithType: InertiaAnimationBuilder.ViewportSize
 - uid: Fantas.Input
   name: Fantas.Input
   href: api/Fantas.Input.html
@@ -2989,6 +3199,12 @@ references:
   commentId: F:Fantas.Input.ControllerButtons.Y
   fullName: Fantas.Input.ControllerButtons.Y
   nameWithType: ControllerButtons.Y
+- uid: Fantas.Input.ControllerButtons.value__
+  name: value__
+  href: api/Fantas.Input.ControllerButtons.html#Fantas_Input_ControllerButtons_value__
+  commentId: F:Fantas.Input.ControllerButtons.value__
+  fullName: Fantas.Input.ControllerButtons.value__
+  nameWithType: ControllerButtons.value__
 - uid: Fantas.Input.ControllerChangedEventArgs
   name: ControllerChangedEventArgs
   href: api/Fantas.Input.ControllerChangedEventArgs.html
@@ -4192,6 +4408,12 @@ references:
   commentId: F:Fantas.Input.Keys.Z
   fullName: Fantas.Input.Keys.Z
   nameWithType: Keys.Z
+- uid: Fantas.Input.Keys.value__
+  name: value__
+  href: api/Fantas.Input.Keys.html#Fantas_Input_Keys_value__
+  commentId: F:Fantas.Input.Keys.value__
+  fullName: Fantas.Input.Keys.value__
+  nameWithType: Keys.value__
 - uid: Fantas.Input.MouseButtons
   name: MouseButtons
   href: api/Fantas.Input.MouseButtons.html
@@ -4234,6 +4456,12 @@ references:
   commentId: F:Fantas.Input.MouseButtons.X2
   fullName: Fantas.Input.MouseButtons.X2
   nameWithType: MouseButtons.X2
+- uid: Fantas.Input.MouseButtons.value__
+  name: value__
+  href: api/Fantas.Input.MouseButtons.html#Fantas_Input_MouseButtons_value__
+  commentId: F:Fantas.Input.MouseButtons.value__
+  fullName: Fantas.Input.MouseButtons.value__
+  nameWithType: MouseButtons.value__
 - uid: Fantas.Input.MouseEventArgs
   name: MouseEventArgs
   href: api/Fantas.Input.MouseEventArgs.html
@@ -4684,6 +4912,18 @@ references:
   commentId: Overload:Fantas.Input.MouseInput.PushCursor
   fullName: Fantas.Input.MouseInput.PushCursor
   nameWithType: MouseInput.PushCursor
+- uid: Fantas.Input.MouseInput.ReleaseMouseCapture
+  name: ReleaseMouseCapture()
+  href: api/Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_ReleaseMouseCapture
+  commentId: M:Fantas.Input.MouseInput.ReleaseMouseCapture
+  fullName: Fantas.Input.MouseInput.ReleaseMouseCapture()
+  nameWithType: MouseInput.ReleaseMouseCapture()
+- uid: Fantas.Input.MouseInput.ReleaseMouseCapture*
+  name: ReleaseMouseCapture
+  href: api/Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_ReleaseMouseCapture_
+  commentId: Overload:Fantas.Input.MouseInput.ReleaseMouseCapture
+  fullName: Fantas.Input.MouseInput.ReleaseMouseCapture
+  nameWithType: MouseInput.ReleaseMouseCapture
 - uid: Fantas.Input.MouseInput.WheelDelta
   name: WheelDelta
   href: api/Fantas.Input.MouseInput.html#Fantas_Input_MouseInput_WheelDelta
@@ -4852,6 +5092,12 @@ references:
   commentId: F:Fantas.Input.SwipeDirection.Up
   fullName: Fantas.Input.SwipeDirection.Up
   nameWithType: SwipeDirection.Up
+- uid: Fantas.Input.SwipeDirection.value__
+  name: value__
+  href: api/Fantas.Input.SwipeDirection.html#Fantas_Input_SwipeDirection_value__
+  commentId: F:Fantas.Input.SwipeDirection.value__
+  fullName: Fantas.Input.SwipeDirection.value__
+  nameWithType: SwipeDirection.value__
 - uid: Fantas.Input.SwipeEventArgs
   name: SwipeEventArgs
   href: api/Fantas.Input.SwipeEventArgs.html
@@ -4960,6 +5206,12 @@ references:
   commentId: F:Fantas.Input.TouchDevice.Touch
   fullName: Fantas.Input.TouchDevice.Touch
   nameWithType: TouchDevice.Touch
+- uid: Fantas.Input.TouchDevice.value__
+  name: value__
+  href: api/Fantas.Input.TouchDevice.html#Fantas_Input_TouchDevice_value__
+  commentId: F:Fantas.Input.TouchDevice.value__
+  fullName: Fantas.Input.TouchDevice.value__
+  nameWithType: TouchDevice.value__
 - uid: Fantas.Input.TouchEventArgs
   name: TouchEventArgs
   href: api/Fantas.Input.TouchEventArgs.html
@@ -5389,6 +5641,12 @@ references:
   commentId: F:Fantas.Input.TouchState.Up
   fullName: Fantas.Input.TouchState.Up
   nameWithType: TouchState.Up
+- uid: Fantas.Input.TouchState.value__
+  name: value__
+  href: api/Fantas.Input.TouchState.html#Fantas_Input_TouchState_value__
+  commentId: F:Fantas.Input.TouchState.value__
+  fullName: Fantas.Input.TouchState.value__
+  nameWithType: TouchState.value__
 - uid: Fantas.LabelHorizontalAlignmentMode
   name: LabelHorizontalAlignmentMode
   href: api/Fantas.LabelHorizontalAlignmentMode.html
@@ -5413,6 +5671,12 @@ references:
   commentId: F:Fantas.LabelHorizontalAlignmentMode.Right
   fullName: Fantas.LabelHorizontalAlignmentMode.Right
   nameWithType: LabelHorizontalAlignmentMode.Right
+- uid: Fantas.LabelHorizontalAlignmentMode.value__
+  name: value__
+  href: api/Fantas.LabelHorizontalAlignmentMode.html#Fantas_LabelHorizontalAlignmentMode_value__
+  commentId: F:Fantas.LabelHorizontalAlignmentMode.value__
+  fullName: Fantas.LabelHorizontalAlignmentMode.value__
+  nameWithType: LabelHorizontalAlignmentMode.value__
 - uid: Fantas.LabelNode
   name: LabelNode
   href: api/Fantas.LabelNode.html
@@ -5797,6 +6061,12 @@ references:
   commentId: F:Fantas.LabelVerticalAlignmentMode.Top
   fullName: Fantas.LabelVerticalAlignmentMode.Top
   nameWithType: LabelVerticalAlignmentMode.Top
+- uid: Fantas.LabelVerticalAlignmentMode.value__
+  name: value__
+  href: api/Fantas.LabelVerticalAlignmentMode.html#Fantas_LabelVerticalAlignmentMode_value__
+  commentId: F:Fantas.LabelVerticalAlignmentMode.value__
+  fullName: Fantas.LabelVerticalAlignmentMode.value__
+  nameWithType: LabelVerticalAlignmentMode.value__
 - uid: Fantas.MathClamp
   name: MathClamp
   href: api/Fantas.MathClamp.html
@@ -5935,6 +6205,30 @@ references:
   commentId: Overload:Fantas.Node.Bottom
   fullName: Fantas.Node.Bottom
   nameWithType: Node.Bottom
+- uid: Fantas.Node.BottomLeft
+  name: BottomLeft
+  href: api/Fantas.Node.html#Fantas_Node_BottomLeft
+  commentId: P:Fantas.Node.BottomLeft
+  fullName: Fantas.Node.BottomLeft
+  nameWithType: Node.BottomLeft
+- uid: Fantas.Node.BottomLeft*
+  name: BottomLeft
+  href: api/Fantas.Node.html#Fantas_Node_BottomLeft_
+  commentId: Overload:Fantas.Node.BottomLeft
+  fullName: Fantas.Node.BottomLeft
+  nameWithType: Node.BottomLeft
+- uid: Fantas.Node.BottomRight
+  name: BottomRight
+  href: api/Fantas.Node.html#Fantas_Node_BottomRight
+  commentId: P:Fantas.Node.BottomRight
+  fullName: Fantas.Node.BottomRight
+  nameWithType: Node.BottomRight
+- uid: Fantas.Node.BottomRight*
+  name: BottomRight
+  href: api/Fantas.Node.html#Fantas_Node_BottomRight_
+  commentId: Overload:Fantas.Node.BottomRight
+  fullName: Fantas.Node.BottomRight
+  nameWithType: Node.BottomRight
 - uid: Fantas.Node.BringForward
   name: BringForward()
   href: api/Fantas.Node.html#Fantas_Node_BringForward
@@ -6037,6 +6331,18 @@ references:
   commentId: Overload:Fantas.Node.ContainsPoint
   fullName: Fantas.Node.ContainsPoint
   nameWithType: Node.ContainsPoint
+- uid: Fantas.Node.ContainsScenePoint(System.Drawing.PointF)
+  name: ContainsScenePoint(PointF)
+  href: api/Fantas.Node.html#Fantas_Node_ContainsScenePoint_System_Drawing_PointF_
+  commentId: M:Fantas.Node.ContainsScenePoint(System.Drawing.PointF)
+  fullName: Fantas.Node.ContainsScenePoint(System.Drawing.PointF)
+  nameWithType: Node.ContainsScenePoint(PointF)
+- uid: Fantas.Node.ContainsScenePoint*
+  name: ContainsScenePoint
+  href: api/Fantas.Node.html#Fantas_Node_ContainsScenePoint_
+  commentId: Overload:Fantas.Node.ContainsScenePoint
+  fullName: Fantas.Node.ContainsScenePoint
+  nameWithType: Node.ContainsScenePoint
 - uid: Fantas.Node.ConvertPointFromNode(System.Drawing.PointF,Fantas.Node)
   name: ConvertPointFromNode(PointF, Node)
   href: api/Fantas.Node.html#Fantas_Node_ConvertPointFromNode_System_Drawing_PointF_Fantas_Node_
@@ -6049,6 +6355,18 @@ references:
   commentId: Overload:Fantas.Node.ConvertPointFromNode
   fullName: Fantas.Node.ConvertPointFromNode
   nameWithType: Node.ConvertPointFromNode
+- uid: Fantas.Node.ConvertPointFromScene(System.Drawing.PointF)
+  name: ConvertPointFromScene(PointF)
+  href: api/Fantas.Node.html#Fantas_Node_ConvertPointFromScene_System_Drawing_PointF_
+  commentId: M:Fantas.Node.ConvertPointFromScene(System.Drawing.PointF)
+  fullName: Fantas.Node.ConvertPointFromScene(System.Drawing.PointF)
+  nameWithType: Node.ConvertPointFromScene(PointF)
+- uid: Fantas.Node.ConvertPointFromScene*
+  name: ConvertPointFromScene
+  href: api/Fantas.Node.html#Fantas_Node_ConvertPointFromScene_
+  commentId: Overload:Fantas.Node.ConvertPointFromScene
+  fullName: Fantas.Node.ConvertPointFromScene
+  nameWithType: Node.ConvertPointFromScene
 - uid: Fantas.Node.ConvertPointToNode(System.Drawing.PointF,Fantas.Node)
   name: ConvertPointToNode(PointF, Node)
   href: api/Fantas.Node.html#Fantas_Node_ConvertPointToNode_System_Drawing_PointF_Fantas_Node_
@@ -6061,6 +6379,66 @@ references:
   commentId: Overload:Fantas.Node.ConvertPointToNode
   fullName: Fantas.Node.ConvertPointToNode
   nameWithType: Node.ConvertPointToNode
+- uid: Fantas.Node.ConvertPointToScene(System.Drawing.PointF)
+  name: ConvertPointToScene(PointF)
+  href: api/Fantas.Node.html#Fantas_Node_ConvertPointToScene_System_Drawing_PointF_
+  commentId: M:Fantas.Node.ConvertPointToScene(System.Drawing.PointF)
+  fullName: Fantas.Node.ConvertPointToScene(System.Drawing.PointF)
+  nameWithType: Node.ConvertPointToScene(PointF)
+- uid: Fantas.Node.ConvertPointToScene*
+  name: ConvertPointToScene
+  href: api/Fantas.Node.html#Fantas_Node_ConvertPointToScene_
+  commentId: Overload:Fantas.Node.ConvertPointToScene
+  fullName: Fantas.Node.ConvertPointToScene
+  nameWithType: Node.ConvertPointToScene
+- uid: Fantas.Node.ConvertVectorFromNode(System.Numerics.Vector2,Fantas.Node)
+  name: ConvertVectorFromNode(Vector2, Node)
+  href: api/Fantas.Node.html#Fantas_Node_ConvertVectorFromNode_System_Numerics_Vector2_Fantas_Node_
+  commentId: M:Fantas.Node.ConvertVectorFromNode(System.Numerics.Vector2,Fantas.Node)
+  fullName: Fantas.Node.ConvertVectorFromNode(System.Numerics.Vector2, Fantas.Node)
+  nameWithType: Node.ConvertVectorFromNode(Vector2, Node)
+- uid: Fantas.Node.ConvertVectorFromNode*
+  name: ConvertVectorFromNode
+  href: api/Fantas.Node.html#Fantas_Node_ConvertVectorFromNode_
+  commentId: Overload:Fantas.Node.ConvertVectorFromNode
+  fullName: Fantas.Node.ConvertVectorFromNode
+  nameWithType: Node.ConvertVectorFromNode
+- uid: Fantas.Node.ConvertVectorFromScene(System.Numerics.Vector2)
+  name: ConvertVectorFromScene(Vector2)
+  href: api/Fantas.Node.html#Fantas_Node_ConvertVectorFromScene_System_Numerics_Vector2_
+  commentId: M:Fantas.Node.ConvertVectorFromScene(System.Numerics.Vector2)
+  fullName: Fantas.Node.ConvertVectorFromScene(System.Numerics.Vector2)
+  nameWithType: Node.ConvertVectorFromScene(Vector2)
+- uid: Fantas.Node.ConvertVectorFromScene*
+  name: ConvertVectorFromScene
+  href: api/Fantas.Node.html#Fantas_Node_ConvertVectorFromScene_
+  commentId: Overload:Fantas.Node.ConvertVectorFromScene
+  fullName: Fantas.Node.ConvertVectorFromScene
+  nameWithType: Node.ConvertVectorFromScene
+- uid: Fantas.Node.ConvertVectorToNode(System.Numerics.Vector2,Fantas.Node)
+  name: ConvertVectorToNode(Vector2, Node)
+  href: api/Fantas.Node.html#Fantas_Node_ConvertVectorToNode_System_Numerics_Vector2_Fantas_Node_
+  commentId: M:Fantas.Node.ConvertVectorToNode(System.Numerics.Vector2,Fantas.Node)
+  fullName: Fantas.Node.ConvertVectorToNode(System.Numerics.Vector2, Fantas.Node)
+  nameWithType: Node.ConvertVectorToNode(Vector2, Node)
+- uid: Fantas.Node.ConvertVectorToNode*
+  name: ConvertVectorToNode
+  href: api/Fantas.Node.html#Fantas_Node_ConvertVectorToNode_
+  commentId: Overload:Fantas.Node.ConvertVectorToNode
+  fullName: Fantas.Node.ConvertVectorToNode
+  nameWithType: Node.ConvertVectorToNode
+- uid: Fantas.Node.ConvertVectorToScene(System.Numerics.Vector2)
+  name: ConvertVectorToScene(Vector2)
+  href: api/Fantas.Node.html#Fantas_Node_ConvertVectorToScene_System_Numerics_Vector2_
+  commentId: M:Fantas.Node.ConvertVectorToScene(System.Numerics.Vector2)
+  fullName: Fantas.Node.ConvertVectorToScene(System.Numerics.Vector2)
+  nameWithType: Node.ConvertVectorToScene(Vector2)
+- uid: Fantas.Node.ConvertVectorToScene*
+  name: ConvertVectorToScene
+  href: api/Fantas.Node.html#Fantas_Node_ConvertVectorToScene_
+  commentId: Overload:Fantas.Node.ConvertVectorToScene
+  fullName: Fantas.Node.ConvertVectorToScene
+  nameWithType: Node.ConvertVectorToScene
 - uid: Fantas.Node.Copy
   name: Copy()
   href: api/Fantas.Node.html#Fantas_Node_Copy
@@ -6202,6 +6580,18 @@ references:
   commentId: Overload:Fantas.Node.HasChildren
   fullName: Fantas.Node.HasChildren
   nameWithType: Node.HasChildren
+- uid: Fantas.Node.HasMouseCaputure
+  name: HasMouseCaputure
+  href: api/Fantas.Node.html#Fantas_Node_HasMouseCaputure
+  commentId: P:Fantas.Node.HasMouseCaputure
+  fullName: Fantas.Node.HasMouseCaputure
+  nameWithType: Node.HasMouseCaputure
+- uid: Fantas.Node.HasMouseCaputure*
+  name: HasMouseCaputure
+  href: api/Fantas.Node.html#Fantas_Node_HasMouseCaputure_
+  commentId: Overload:Fantas.Node.HasMouseCaputure
+  fullName: Fantas.Node.HasMouseCaputure
+  nameWithType: Node.HasMouseCaputure
 - uid: Fantas.Node.HasParent
   name: HasParent
   href: api/Fantas.Node.html#Fantas_Node_HasParent
@@ -6367,18 +6757,18 @@ references:
   commentId: E:Fantas.Node.MouseEnter
   fullName: Fantas.Node.MouseEnter
   nameWithType: Node.MouseEnter
-- uid: Fantas.Node.MouseHover
-  name: MouseHover
-  href: api/Fantas.Node.html#Fantas_Node_MouseHover
-  commentId: E:Fantas.Node.MouseHover
-  fullName: Fantas.Node.MouseHover
-  nameWithType: Node.MouseHover
 - uid: Fantas.Node.MouseLeave
   name: MouseLeave
   href: api/Fantas.Node.html#Fantas_Node_MouseLeave
   commentId: E:Fantas.Node.MouseLeave
   fullName: Fantas.Node.MouseLeave
   nameWithType: Node.MouseLeave
+- uid: Fantas.Node.MouseMove
+  name: MouseMove
+  href: api/Fantas.Node.html#Fantas_Node_MouseMove
+  commentId: E:Fantas.Node.MouseMove
+  fullName: Fantas.Node.MouseMove
+  nameWithType: Node.MouseMove
 - uid: Fantas.Node.MouseUp
   name: MouseUp
   href: api/Fantas.Node.html#Fantas_Node_MouseUp
@@ -6538,18 +6928,6 @@ references:
   commentId: Overload:Fantas.Node.OnMouseEnter
   fullName: Fantas.Node.OnMouseEnter
   nameWithType: Node.OnMouseEnter
-- uid: Fantas.Node.OnMouseHover
-  name: OnMouseHover()
-  href: api/Fantas.Node.html#Fantas_Node_OnMouseHover
-  commentId: M:Fantas.Node.OnMouseHover
-  fullName: Fantas.Node.OnMouseHover()
-  nameWithType: Node.OnMouseHover()
-- uid: Fantas.Node.OnMouseHover*
-  name: OnMouseHover
-  href: api/Fantas.Node.html#Fantas_Node_OnMouseHover_
-  commentId: Overload:Fantas.Node.OnMouseHover
-  fullName: Fantas.Node.OnMouseHover
-  nameWithType: Node.OnMouseHover
 - uid: Fantas.Node.OnMouseLeave
   name: OnMouseLeave()
   href: api/Fantas.Node.html#Fantas_Node_OnMouseLeave
@@ -6562,6 +6940,18 @@ references:
   commentId: Overload:Fantas.Node.OnMouseLeave
   fullName: Fantas.Node.OnMouseLeave
   nameWithType: Node.OnMouseLeave
+- uid: Fantas.Node.OnMouseMove(Fantas.Input.MouseEventArgs)
+  name: OnMouseMove(MouseEventArgs)
+  href: api/Fantas.Node.html#Fantas_Node_OnMouseMove_Fantas_Input_MouseEventArgs_
+  commentId: M:Fantas.Node.OnMouseMove(Fantas.Input.MouseEventArgs)
+  fullName: Fantas.Node.OnMouseMove(Fantas.Input.MouseEventArgs)
+  nameWithType: Node.OnMouseMove(MouseEventArgs)
+- uid: Fantas.Node.OnMouseMove*
+  name: OnMouseMove
+  href: api/Fantas.Node.html#Fantas_Node_OnMouseMove_
+  commentId: Overload:Fantas.Node.OnMouseMove
+  fullName: Fantas.Node.OnMouseMove
+  nameWithType: Node.OnMouseMove
 - uid: Fantas.Node.OnMouseUp(Fantas.Input.MouseEventArgs)
   name: OnMouseUp(MouseEventArgs)
   href: api/Fantas.Node.html#Fantas_Node_OnMouseUp_Fantas_Input_MouseEventArgs_
@@ -6784,6 +7174,18 @@ references:
   commentId: Overload:Fantas.Node.Position
   fullName: Fantas.Node.Position
   nameWithType: Node.Position
+- uid: Fantas.Node.ReleaseMouseCapture
+  name: ReleaseMouseCapture()
+  href: api/Fantas.Node.html#Fantas_Node_ReleaseMouseCapture
+  commentId: M:Fantas.Node.ReleaseMouseCapture
+  fullName: Fantas.Node.ReleaseMouseCapture()
+  nameWithType: Node.ReleaseMouseCapture()
+- uid: Fantas.Node.ReleaseMouseCapture*
+  name: ReleaseMouseCapture
+  href: api/Fantas.Node.html#Fantas_Node_ReleaseMouseCapture_
+  commentId: Overload:Fantas.Node.ReleaseMouseCapture
+  fullName: Fantas.Node.ReleaseMouseCapture
+  nameWithType: Node.ReleaseMouseCapture
 - uid: Fantas.Node.RemoveAllAnimations
   name: RemoveAllAnimations()
   href: api/Fantas.Node.html#Fantas_Node_RemoveAllAnimations
@@ -6973,6 +7375,18 @@ references:
   commentId: Overload:Fantas.Node.SendToBack
   fullName: Fantas.Node.SendToBack
   nameWithType: Node.SendToBack
+- uid: Fantas.Node.SetMouseCapture
+  name: SetMouseCapture()
+  href: api/Fantas.Node.html#Fantas_Node_SetMouseCapture
+  commentId: M:Fantas.Node.SetMouseCapture
+  fullName: Fantas.Node.SetMouseCapture()
+  nameWithType: Node.SetMouseCapture()
+- uid: Fantas.Node.SetMouseCapture*
+  name: SetMouseCapture
+  href: api/Fantas.Node.html#Fantas_Node_SetMouseCapture_
+  commentId: Overload:Fantas.Node.SetMouseCapture
+  fullName: Fantas.Node.SetMouseCapture
+  nameWithType: Node.SetMouseCapture
 - uid: Fantas.Node.SetScale(System.Numerics.Vector2)
   name: SetScale(Vector2)
   href: api/Fantas.Node.html#Fantas_Node_SetScale_System_Numerics_Vector2_
@@ -7048,6 +7462,30 @@ references:
   commentId: Overload:Fantas.Node.Top
   fullName: Fantas.Node.Top
   nameWithType: Node.Top
+- uid: Fantas.Node.TopLeft
+  name: TopLeft
+  href: api/Fantas.Node.html#Fantas_Node_TopLeft
+  commentId: P:Fantas.Node.TopLeft
+  fullName: Fantas.Node.TopLeft
+  nameWithType: Node.TopLeft
+- uid: Fantas.Node.TopLeft*
+  name: TopLeft
+  href: api/Fantas.Node.html#Fantas_Node_TopLeft_
+  commentId: Overload:Fantas.Node.TopLeft
+  fullName: Fantas.Node.TopLeft
+  nameWithType: Node.TopLeft
+- uid: Fantas.Node.TopRight
+  name: TopRight
+  href: api/Fantas.Node.html#Fantas_Node_TopRight
+  commentId: P:Fantas.Node.TopRight
+  fullName: Fantas.Node.TopRight
+  nameWithType: Node.TopRight
+- uid: Fantas.Node.TopRight*
+  name: TopRight
+  href: api/Fantas.Node.html#Fantas_Node_TopRight_
+  commentId: Overload:Fantas.Node.TopRight
+  fullName: Fantas.Node.TopRight
+  nameWithType: Node.TopRight
 - uid: Fantas.Node.TouchCount
   name: TouchCount
   href: api/Fantas.Node.html#Fantas_Node_TouchCount
@@ -7252,6 +7690,12 @@ references:
   commentId: F:Fantas.OutlinePosition.TopRight
   fullName: Fantas.OutlinePosition.TopRight
   nameWithType: OutlinePosition.TopRight
+- uid: Fantas.OutlinePosition.value__
+  name: value__
+  href: api/Fantas.OutlinePosition.html#Fantas_OutlinePosition_value__
+  commentId: F:Fantas.OutlinePosition.value__
+  fullName: Fantas.OutlinePosition.value__
+  nameWithType: OutlinePosition.value__
 - uid: Fantas.ParticleEmitterNode
   name: ParticleEmitterNode
   href: api/Fantas.ParticleEmitterNode.html
@@ -9148,6 +9592,18 @@ references:
   commentId: Overload:Fantas.PointExtension.Add
   fullName: Fantas.PointExtension.Add
   nameWithType: PointExtension.Add
+- uid: Fantas.PointExtension.Difference(System.Drawing.PointF,System.Drawing.PointF)
+  name: Difference(PointF, PointF)
+  href: api/Fantas.PointExtension.html#Fantas_PointExtension_Difference_System_Drawing_PointF_System_Drawing_PointF_
+  commentId: M:Fantas.PointExtension.Difference(System.Drawing.PointF,System.Drawing.PointF)
+  fullName: Fantas.PointExtension.Difference(System.Drawing.PointF, System.Drawing.PointF)
+  nameWithType: PointExtension.Difference(PointF, PointF)
+- uid: Fantas.PointExtension.Difference*
+  name: Difference
+  href: api/Fantas.PointExtension.html#Fantas_PointExtension_Difference_
+  commentId: Overload:Fantas.PointExtension.Difference
+  fullName: Fantas.PointExtension.Difference
+  nameWithType: PointExtension.Difference
 - uid: Fantas.PointExtension.Offset(System.Drawing.PointF,System.Single,System.Single)
   name: Offset(PointF, float, float)
   href: api/Fantas.PointExtension.html#Fantas_PointExtension_Offset_System_Drawing_PointF_System_Single_System_Single_
@@ -9175,6 +9631,18 @@ references:
   commentId: Overload:Fantas.PointExtension.Subtract
   fullName: Fantas.PointExtension.Subtract
   nameWithType: PointExtension.Subtract
+- uid: Fantas.PointExtension.ToVector2(System.Drawing.PointF)
+  name: ToVector2(PointF)
+  href: api/Fantas.PointExtension.html#Fantas_PointExtension_ToVector2_System_Drawing_PointF_
+  commentId: M:Fantas.PointExtension.ToVector2(System.Drawing.PointF)
+  fullName: Fantas.PointExtension.ToVector2(System.Drawing.PointF)
+  nameWithType: PointExtension.ToVector2(PointF)
+- uid: Fantas.PointExtension.ToVector2*
+  name: ToVector2
+  href: api/Fantas.PointExtension.html#Fantas_PointExtension_ToVector2_
+  commentId: Overload:Fantas.PointExtension.ToVector2
+  fullName: Fantas.PointExtension.ToVector2
+  nameWithType: PointExtension.ToVector2
 - uid: Fantas.PolygonNode
   name: PolygonNode
   href: api/Fantas.PolygonNode.html
@@ -9445,6 +9913,30 @@ references:
   commentId: Overload:Fantas.RectangleNode.Width
   fullName: Fantas.RectangleNode.Width
   nameWithType: RectangleNode.Width
+- uid: Fantas.Resource
+  name: Resource
+  href: api/Fantas.Resource.html
+  commentId: T:Fantas.Resource
+  fullName: Fantas.Resource
+  nameWithType: Resource
+- uid: Fantas.Resource.#ctor
+  name: Resource()
+  href: api/Fantas.Resource.html#Fantas_Resource__ctor
+  commentId: M:Fantas.Resource.#ctor
+  name.vb: New()
+  fullName: Fantas.Resource.Resource()
+  fullName.vb: Fantas.Resource.New()
+  nameWithType: Resource.Resource()
+  nameWithType.vb: Resource.New()
+- uid: Fantas.Resource.#ctor*
+  name: Resource
+  href: api/Fantas.Resource.html#Fantas_Resource__ctor_
+  commentId: Overload:Fantas.Resource.#ctor
+  name.vb: New
+  fullName: Fantas.Resource.Resource
+  fullName.vb: Fantas.Resource.New
+  nameWithType: Resource.Resource
+  nameWithType.vb: Resource.New
 - uid: Fantas.Scene
   name: Scene
   href: api/Fantas.Scene.html
@@ -10159,6 +10651,12 @@ references:
   commentId: F:Fantas.SceneScaleMode.ResizeFill
   fullName: Fantas.SceneScaleMode.ResizeFill
   nameWithType: SceneScaleMode.ResizeFill
+- uid: Fantas.SceneScaleMode.value__
+  name: value__
+  href: api/Fantas.SceneScaleMode.html#Fantas_SceneScaleMode_value__
+  commentId: F:Fantas.SceneScaleMode.value__
+  fullName: Fantas.SceneScaleMode.value__
+  nameWithType: SceneScaleMode.value__
 - uid: Fantas.ShapeNode
   name: ShapeNode
   href: api/Fantas.ShapeNode.html
@@ -10243,6 +10741,36 @@ references:
   commentId: Overload:Fantas.ShapeNode.StrokeColor
   fullName: Fantas.ShapeNode.StrokeColor
   nameWithType: ShapeNode.StrokeColor
+- uid: Fantas.SizeExtensions
+  name: SizeExtensions
+  href: api/Fantas.SizeExtensions.html
+  commentId: T:Fantas.SizeExtensions
+  fullName: Fantas.SizeExtensions
+  nameWithType: SizeExtensions
+- uid: Fantas.SizeExtensions.Inflate(System.Drawing.Size,System.Int32,System.Int32)
+  name: Inflate(Size, int, int)
+  href: api/Fantas.SizeExtensions.html#Fantas_SizeExtensions_Inflate_System_Drawing_Size_System_Int32_System_Int32_
+  commentId: M:Fantas.SizeExtensions.Inflate(System.Drawing.Size,System.Int32,System.Int32)
+  name.vb: Inflate(Size, Integer, Integer)
+  fullName: Fantas.SizeExtensions.Inflate(System.Drawing.Size, int, int)
+  fullName.vb: Fantas.SizeExtensions.Inflate(System.Drawing.Size, Integer, Integer)
+  nameWithType: SizeExtensions.Inflate(Size, int, int)
+  nameWithType.vb: SizeExtensions.Inflate(Size, Integer, Integer)
+- uid: Fantas.SizeExtensions.Inflate(System.Drawing.SizeF,System.Single,System.Single)
+  name: Inflate(SizeF, float, float)
+  href: api/Fantas.SizeExtensions.html#Fantas_SizeExtensions_Inflate_System_Drawing_SizeF_System_Single_System_Single_
+  commentId: M:Fantas.SizeExtensions.Inflate(System.Drawing.SizeF,System.Single,System.Single)
+  name.vb: Inflate(SizeF, Single, Single)
+  fullName: Fantas.SizeExtensions.Inflate(System.Drawing.SizeF, float, float)
+  fullName.vb: Fantas.SizeExtensions.Inflate(System.Drawing.SizeF, Single, Single)
+  nameWithType: SizeExtensions.Inflate(SizeF, float, float)
+  nameWithType.vb: SizeExtensions.Inflate(SizeF, Single, Single)
+- uid: Fantas.SizeExtensions.Inflate*
+  name: Inflate
+  href: api/Fantas.SizeExtensions.html#Fantas_SizeExtensions_Inflate_
+  commentId: Overload:Fantas.SizeExtensions.Inflate
+  fullName: Fantas.SizeExtensions.Inflate
+  nameWithType: SizeExtensions.Inflate
 - uid: Fantas.SpriteFrameNode
   name: SpriteFrameNode
   href: api/Fantas.SpriteFrameNode.html
@@ -10666,6 +11194,18 @@ references:
   commentId: Overload:Fantas.SpriteNode.Copy
   fullName: Fantas.SpriteNode.Copy
   nameWithType: SpriteNode.Copy
+- uid: Fantas.SpriteNode.ExpandBottomRightTo(System.Drawing.PointF)
+  name: ExpandBottomRightTo(PointF)
+  href: api/Fantas.SpriteNode.html#Fantas_SpriteNode_ExpandBottomRightTo_System_Drawing_PointF_
+  commentId: M:Fantas.SpriteNode.ExpandBottomRightTo(System.Drawing.PointF)
+  fullName: Fantas.SpriteNode.ExpandBottomRightTo(System.Drawing.PointF)
+  nameWithType: SpriteNode.ExpandBottomRightTo(PointF)
+- uid: Fantas.SpriteNode.ExpandBottomRightTo*
+  name: ExpandBottomRightTo
+  href: api/Fantas.SpriteNode.html#Fantas_SpriteNode_ExpandBottomRightTo_
+  commentId: Overload:Fantas.SpriteNode.ExpandBottomRightTo
+  fullName: Fantas.SpriteNode.ExpandBottomRightTo
+  nameWithType: SpriteNode.ExpandBottomRightTo
 - uid: Fantas.SpriteNode.ExpandHeight(System.Single)
   name: ExpandHeight(float)
   href: api/Fantas.SpriteNode.html#Fantas_SpriteNode_ExpandHeight_System_Single_
@@ -11011,6 +11551,42 @@ references:
   commentId: F:Fantas.SystemPlatform.tvOS
   fullName: Fantas.SystemPlatform.tvOS
   nameWithType: SystemPlatform.tvOS
+- uid: Fantas.SystemPlatform.value__
+  name: value__
+  href: api/Fantas.SystemPlatform.html#Fantas_SystemPlatform_value__
+  commentId: F:Fantas.SystemPlatform.value__
+  fullName: Fantas.SystemPlatform.value__
+  nameWithType: SystemPlatform.value__
+- uid: Fantas.SystemPlatformInformation
+  name: SystemPlatformInformation
+  href: api/Fantas.SystemPlatformInformation.html
+  commentId: T:Fantas.SystemPlatformInformation
+  fullName: Fantas.SystemPlatformInformation
+  nameWithType: SystemPlatformInformation
+- uid: Fantas.SystemPlatformInformation.CurrentPlatform
+  name: CurrentPlatform
+  href: api/Fantas.SystemPlatformInformation.html#Fantas_SystemPlatformInformation_CurrentPlatform
+  commentId: P:Fantas.SystemPlatformInformation.CurrentPlatform
+  fullName: Fantas.SystemPlatformInformation.CurrentPlatform
+  nameWithType: SystemPlatformInformation.CurrentPlatform
+- uid: Fantas.SystemPlatformInformation.CurrentPlatform*
+  name: CurrentPlatform
+  href: api/Fantas.SystemPlatformInformation.html#Fantas_SystemPlatformInformation_CurrentPlatform_
+  commentId: Overload:Fantas.SystemPlatformInformation.CurrentPlatform
+  fullName: Fantas.SystemPlatformInformation.CurrentPlatform
+  nameWithType: SystemPlatformInformation.CurrentPlatform
+- uid: Fantas.SystemPlatformInformation.CurrentPlatformDescription
+  name: CurrentPlatformDescription
+  href: api/Fantas.SystemPlatformInformation.html#Fantas_SystemPlatformInformation_CurrentPlatformDescription
+  commentId: P:Fantas.SystemPlatformInformation.CurrentPlatformDescription
+  fullName: Fantas.SystemPlatformInformation.CurrentPlatformDescription
+  nameWithType: SystemPlatformInformation.CurrentPlatformDescription
+- uid: Fantas.SystemPlatformInformation.CurrentPlatformDescription*
+  name: CurrentPlatformDescription
+  href: api/Fantas.SystemPlatformInformation.html#Fantas_SystemPlatformInformation_CurrentPlatformDescription_
+  commentId: Overload:Fantas.SystemPlatformInformation.CurrentPlatformDescription
+  fullName: Fantas.SystemPlatformInformation.CurrentPlatformDescription
+  nameWithType: SystemPlatformInformation.CurrentPlatformDescription
 - uid: Fantas.Texture
   name: Texture
   href: api/Fantas.Texture.html
@@ -11075,20 +11651,17 @@ references:
   fullName: Fantas.Texture.EncodeToPNG
   nameWithType: Texture.EncodeToPNG
 - uid: Fantas.Texture.Finalize
-  name: ~Texture()
+  name: Finalize()
   href: api/Fantas.Texture.html#Fantas_Texture_Finalize
   commentId: M:Fantas.Texture.Finalize
-  name.vb: ''
-  fullName: Fantas.Texture.~Texture()
-  fullName.vb: ''
-  nameWithType: Texture.~Texture()
-  nameWithType.vb: ''
+  fullName: Fantas.Texture.Finalize()
+  nameWithType: Texture.Finalize()
 - uid: Fantas.Texture.Finalize*
-  name: ~Texture
+  name: Finalize
   href: api/Fantas.Texture.html#Fantas_Texture_Finalize_
   commentId: Overload:Fantas.Texture.Finalize
-  fullName: Fantas.Texture.~Texture
-  nameWithType: Texture.~Texture
+  fullName: Fantas.Texture.Finalize
+  nameWithType: Texture.Finalize
 - uid: Fantas.Texture.FromAsset(System.String)
   name: FromAsset(string)
   href: api/Fantas.Texture.html#Fantas_Texture_FromAsset_System_String_
@@ -11140,6 +11713,39 @@ references:
   commentId: Overload:Fantas.Texture.FromFile
   fullName: Fantas.Texture.FromFile
   nameWithType: Texture.FromFile
+- uid: Fantas.Texture.FromImage(Android.Graphics.Bitmap,System.Single)
+  name: FromImage(Bitmap, float)
+  href: api/Fantas.Texture.html#Fantas_Texture_FromImage_Android_Graphics_Bitmap_System_Single_
+  commentId: M:Fantas.Texture.FromImage(Android.Graphics.Bitmap,System.Single)
+  name.vb: FromImage(Bitmap, Single)
+  fullName: Fantas.Texture.FromImage(Android.Graphics.Bitmap, float)
+  fullName.vb: Fantas.Texture.FromImage(Android.Graphics.Bitmap, Single)
+  nameWithType: Texture.FromImage(Bitmap, float)
+  nameWithType.vb: Texture.FromImage(Bitmap, Single)
+- uid: Fantas.Texture.FromImage(AppKit.NSImage,System.Single)
+  name: FromImage(NSImage, float)
+  href: api/Fantas.Texture.html#Fantas_Texture_FromImage_AppKit_NSImage_System_Single_
+  commentId: M:Fantas.Texture.FromImage(AppKit.NSImage,System.Single)
+  name.vb: FromImage(NSImage, Single)
+  fullName: Fantas.Texture.FromImage(AppKit.NSImage, float)
+  fullName.vb: Fantas.Texture.FromImage(AppKit.NSImage, Single)
+  nameWithType: Texture.FromImage(NSImage, float)
+  nameWithType.vb: Texture.FromImage(NSImage, Single)
+- uid: Fantas.Texture.FromImage(UIKit.UIImage,System.Single)
+  name: FromImage(UIImage, float)
+  href: api/Fantas.Texture.html#Fantas_Texture_FromImage_UIKit_UIImage_System_Single_
+  commentId: M:Fantas.Texture.FromImage(UIKit.UIImage,System.Single)
+  name.vb: FromImage(UIImage, Single)
+  fullName: Fantas.Texture.FromImage(UIKit.UIImage, float)
+  fullName.vb: Fantas.Texture.FromImage(UIKit.UIImage, Single)
+  nameWithType: Texture.FromImage(UIImage, float)
+  nameWithType.vb: Texture.FromImage(UIImage, Single)
+- uid: Fantas.Texture.FromImage*
+  name: FromImage
+  href: api/Fantas.Texture.html#Fantas_Texture_FromImage_
+  commentId: Overload:Fantas.Texture.FromImage
+  fullName: Fantas.Texture.FromImage
+  nameWithType: Texture.FromImage
 - uid: Fantas.Texture.FromName(System.String)
   name: FromName(string)
   href: api/Fantas.Texture.html#Fantas_Texture_FromName_System_String_
@@ -11362,6 +11968,18 @@ references:
   commentId: Overload:Fantas.Texture.TextureRectangle
   fullName: Fantas.Texture.TextureRectangle
   nameWithType: Texture.TextureRectangle
+- uid: Fantas.Texture.TransparentTexture
+  name: TransparentTexture
+  href: api/Fantas.Texture.html#Fantas_Texture_TransparentTexture
+  commentId: P:Fantas.Texture.TransparentTexture
+  fullName: Fantas.Texture.TransparentTexture
+  nameWithType: Texture.TransparentTexture
+- uid: Fantas.Texture.TransparentTexture*
+  name: TransparentTexture
+  href: api/Fantas.Texture.html#Fantas_Texture_TransparentTexture_
+  commentId: Overload:Fantas.Texture.TransparentTexture
+  fullName: Fantas.Texture.TransparentTexture
+  nameWithType: Texture.TransparentTexture
 - uid: Fantas.Texture.Width
   name: Width
   href: api/Fantas.Texture.html#Fantas_Texture_Width
@@ -11393,20 +12011,17 @@ references:
   fullName: Fantas.TextureAtlas.Dispose
   nameWithType: TextureAtlas.Dispose
 - uid: Fantas.TextureAtlas.Finalize
-  name: ~TextureAtlas()
+  name: Finalize()
   href: api/Fantas.TextureAtlas.html#Fantas_TextureAtlas_Finalize
   commentId: M:Fantas.TextureAtlas.Finalize
-  name.vb: ''
-  fullName: Fantas.TextureAtlas.~TextureAtlas()
-  fullName.vb: ''
-  nameWithType: TextureAtlas.~TextureAtlas()
-  nameWithType.vb: ''
+  fullName: Fantas.TextureAtlas.Finalize()
+  nameWithType: TextureAtlas.Finalize()
 - uid: Fantas.TextureAtlas.Finalize*
-  name: ~TextureAtlas
+  name: Finalize
   href: api/Fantas.TextureAtlas.html#Fantas_TextureAtlas_Finalize_
   commentId: Overload:Fantas.TextureAtlas.Finalize
-  fullName: Fantas.TextureAtlas.~TextureAtlas
-  nameWithType: TextureAtlas.~TextureAtlas
+  fullName: Fantas.TextureAtlas.Finalize
+  nameWithType: TextureAtlas.Finalize
 - uid: Fantas.TextureAtlas.FromName(System.String)
   name: FromName(string)
   href: api/Fantas.TextureAtlas.html#Fantas_TextureAtlas_FromName_System_String_
@@ -11686,6 +12301,12 @@ references:
   commentId: F:Fantas.TileAdjacencyMask.UpperRightEdge
   fullName: Fantas.TileAdjacencyMask.UpperRightEdge
   nameWithType: TileAdjacencyMask.UpperRightEdge
+- uid: Fantas.TileAdjacencyMask.value__
+  name: value__
+  href: api/Fantas.TileAdjacencyMask.html#Fantas_TileAdjacencyMask_value__
+  commentId: F:Fantas.TileAdjacencyMask.value__
+  fullName: Fantas.TileAdjacencyMask.value__
+  nameWithType: TileAdjacencyMask.value__
 - uid: Fantas.TileDefinition
   name: TileDefinition
   href: api/Fantas.TileDefinition.html
@@ -11824,6 +12445,12 @@ references:
   commentId: F:Fantas.TileDefinitionRotation.Rotation90
   fullName: Fantas.TileDefinitionRotation.Rotation90
   nameWithType: TileDefinitionRotation.Rotation90
+- uid: Fantas.TileDefinitionRotation.value__
+  name: value__
+  href: api/Fantas.TileDefinitionRotation.html#Fantas_TileDefinitionRotation_value__
+  commentId: F:Fantas.TileDefinitionRotation.value__
+  fullName: Fantas.TileDefinitionRotation.value__
+  nameWithType: TileDefinitionRotation.value__
 - uid: Fantas.TileGroup
   name: TileGroup
   href: api/Fantas.TileGroup.html
@@ -12286,6 +12913,12 @@ references:
   commentId: F:Fantas.TileSetType.Isometric
   fullName: Fantas.TileSetType.Isometric
   nameWithType: TileSetType.Isometric
+- uid: Fantas.TileSetType.value__
+  name: value__
+  href: api/Fantas.TileSetType.html#Fantas_TileSetType_value__
+  commentId: F:Fantas.TileSetType.value__
+  fullName: Fantas.TileSetType.value__
+  nameWithType: TileSetType.value__
 - uid: Fantas.Time
   name: Time
   href: api/Fantas.Time.html
@@ -12628,30 +13261,6 @@ references:
   fullName.vb: Fantas.UI.ButtonNode.New
   nameWithType: ButtonNode.ButtonNode
   nameWithType.vb: ButtonNode.New
-- uid: Fantas.UI.ButtonNode.DisabledTexture
-  name: DisabledTexture
-  href: api/Fantas.UI.ButtonNode.html#Fantas_UI_ButtonNode_DisabledTexture
-  commentId: P:Fantas.UI.ButtonNode.DisabledTexture
-  fullName: Fantas.UI.ButtonNode.DisabledTexture
-  nameWithType: ButtonNode.DisabledTexture
-- uid: Fantas.UI.ButtonNode.DisabledTexture*
-  name: DisabledTexture
-  href: api/Fantas.UI.ButtonNode.html#Fantas_UI_ButtonNode_DisabledTexture_
-  commentId: Overload:Fantas.UI.ButtonNode.DisabledTexture
-  fullName: Fantas.UI.ButtonNode.DisabledTexture
-  nameWithType: ButtonNode.DisabledTexture
-- uid: Fantas.UI.ButtonNode.HoverTexture
-  name: HoverTexture
-  href: api/Fantas.UI.ButtonNode.html#Fantas_UI_ButtonNode_HoverTexture
-  commentId: P:Fantas.UI.ButtonNode.HoverTexture
-  fullName: Fantas.UI.ButtonNode.HoverTexture
-  nameWithType: ButtonNode.HoverTexture
-- uid: Fantas.UI.ButtonNode.HoverTexture*
-  name: HoverTexture
-  href: api/Fantas.UI.ButtonNode.html#Fantas_UI_ButtonNode_HoverTexture_
-  commentId: Overload:Fantas.UI.ButtonNode.HoverTexture
-  fullName: Fantas.UI.ButtonNode.HoverTexture
-  nameWithType: ButtonNode.HoverTexture
 - uid: Fantas.UI.ButtonNode.LabelNode
   name: LabelNode
   href: api/Fantas.UI.ButtonNode.html#Fantas_UI_ButtonNode_LabelNode
@@ -12664,18 +13273,6 @@ references:
   commentId: Overload:Fantas.UI.ButtonNode.LabelNode
   fullName: Fantas.UI.ButtonNode.LabelNode
   nameWithType: ButtonNode.LabelNode
-- uid: Fantas.UI.ButtonNode.NormalTexture
-  name: NormalTexture
-  href: api/Fantas.UI.ButtonNode.html#Fantas_UI_ButtonNode_NormalTexture
-  commentId: P:Fantas.UI.ButtonNode.NormalTexture
-  fullName: Fantas.UI.ButtonNode.NormalTexture
-  nameWithType: ButtonNode.NormalTexture
-- uid: Fantas.UI.ButtonNode.NormalTexture*
-  name: NormalTexture
-  href: api/Fantas.UI.ButtonNode.html#Fantas_UI_ButtonNode_NormalTexture_
-  commentId: Overload:Fantas.UI.ButtonNode.NormalTexture
-  fullName: Fantas.UI.ButtonNode.NormalTexture
-  nameWithType: ButtonNode.NormalTexture
 - uid: Fantas.UI.ButtonNode.OnClick(Fantas.Input.MouseEventArgs)
   name: OnClick(MouseEventArgs)
   href: api/Fantas.UI.ButtonNode.html#Fantas_UI_ButtonNode_OnClick_Fantas_Input_MouseEventArgs_
@@ -12742,18 +13339,6 @@ references:
   commentId: E:Fantas.UI.ButtonNode.Pressed
   fullName: Fantas.UI.ButtonNode.Pressed
   nameWithType: ButtonNode.Pressed
-- uid: Fantas.UI.ButtonNode.PressedTexture
-  name: PressedTexture
-  href: api/Fantas.UI.ButtonNode.html#Fantas_UI_ButtonNode_PressedTexture
-  commentId: P:Fantas.UI.ButtonNode.PressedTexture
-  fullName: Fantas.UI.ButtonNode.PressedTexture
-  nameWithType: ButtonNode.PressedTexture
-- uid: Fantas.UI.ButtonNode.PressedTexture*
-  name: PressedTexture
-  href: api/Fantas.UI.ButtonNode.html#Fantas_UI_ButtonNode_PressedTexture_
-  commentId: Overload:Fantas.UI.ButtonNode.PressedTexture
-  fullName: Fantas.UI.ButtonNode.PressedTexture
-  nameWithType: ButtonNode.PressedTexture
 - uid: Fantas.UI.ButtonNode.Text
   name: Text
   href: api/Fantas.UI.ButtonNode.html#Fantas_UI_ButtonNode_Text
@@ -12934,6 +13519,18 @@ references:
   commentId: Overload:Fantas.UI.ControlNode.State
   fullName: Fantas.UI.ControlNode.State
   nameWithType: ControlNode.State
+- uid: Fantas.UI.ControlNode.UpdateState
+  name: UpdateState()
+  href: api/Fantas.UI.ControlNode.html#Fantas_UI_ControlNode_UpdateState
+  commentId: M:Fantas.UI.ControlNode.UpdateState
+  fullName: Fantas.UI.ControlNode.UpdateState()
+  nameWithType: ControlNode.UpdateState()
+- uid: Fantas.UI.ControlNode.UpdateState*
+  name: UpdateState
+  href: api/Fantas.UI.ControlNode.html#Fantas_UI_ControlNode_UpdateState_
+  commentId: Overload:Fantas.UI.ControlNode.UpdateState
+  fullName: Fantas.UI.ControlNode.UpdateState
+  nameWithType: ControlNode.UpdateState
 - uid: Fantas.UI.ControlState
   name: ControlState
   href: api/Fantas.UI.ControlState.html
@@ -12964,6 +13561,1080 @@ references:
   commentId: F:Fantas.UI.ControlState.Pressed
   fullName: Fantas.UI.ControlState.Pressed
   nameWithType: ControlState.Pressed
+- uid: Fantas.UI.ControlState.value__
+  name: value__
+  href: api/Fantas.UI.ControlState.html#Fantas_UI_ControlState_value__
+  commentId: F:Fantas.UI.ControlState.value__
+  fullName: Fantas.UI.ControlState.value__
+  nameWithType: ControlState.value__
+- uid: Fantas.UI.HScrollBar
+  name: HScrollBar
+  href: api/Fantas.UI.HScrollBar.html
+  commentId: T:Fantas.UI.HScrollBar
+  fullName: Fantas.UI.HScrollBar
+  nameWithType: HScrollBar
+- uid: Fantas.UI.HScrollBar.#ctor
+  name: HScrollBar()
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar__ctor
+  commentId: M:Fantas.UI.HScrollBar.#ctor
+  name.vb: New()
+  fullName: Fantas.UI.HScrollBar.HScrollBar()
+  fullName.vb: Fantas.UI.HScrollBar.New()
+  nameWithType: HScrollBar.HScrollBar()
+  nameWithType.vb: HScrollBar.New()
+- uid: Fantas.UI.HScrollBar.#ctor*
+  name: HScrollBar
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar__ctor_
+  commentId: Overload:Fantas.UI.HScrollBar.#ctor
+  name.vb: New
+  fullName: Fantas.UI.HScrollBar.HScrollBar
+  fullName.vb: Fantas.UI.HScrollBar.New
+  nameWithType: HScrollBar.HScrollBar
+  nameWithType.vb: HScrollBar.New
+- uid: Fantas.UI.HScrollBar.Maximum
+  name: Maximum
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_Maximum
+  commentId: P:Fantas.UI.HScrollBar.Maximum
+  fullName: Fantas.UI.HScrollBar.Maximum
+  nameWithType: HScrollBar.Maximum
+- uid: Fantas.UI.HScrollBar.Maximum*
+  name: Maximum
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_Maximum_
+  commentId: Overload:Fantas.UI.HScrollBar.Maximum
+  fullName: Fantas.UI.HScrollBar.Maximum
+  nameWithType: HScrollBar.Maximum
+- uid: Fantas.UI.HScrollBar.Minumum
+  name: Minumum
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_Minumum
+  commentId: P:Fantas.UI.HScrollBar.Minumum
+  fullName: Fantas.UI.HScrollBar.Minumum
+  nameWithType: HScrollBar.Minumum
+- uid: Fantas.UI.HScrollBar.Minumum*
+  name: Minumum
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_Minumum_
+  commentId: Overload:Fantas.UI.HScrollBar.Minumum
+  fullName: Fantas.UI.HScrollBar.Minumum
+  nameWithType: HScrollBar.Minumum
+- uid: Fantas.UI.HScrollBar.OnMouseDown(Fantas.Input.MouseEventArgs)
+  name: OnMouseDown(MouseEventArgs)
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_OnMouseDown_Fantas_Input_MouseEventArgs_
+  commentId: M:Fantas.UI.HScrollBar.OnMouseDown(Fantas.Input.MouseEventArgs)
+  fullName: Fantas.UI.HScrollBar.OnMouseDown(Fantas.Input.MouseEventArgs)
+  nameWithType: HScrollBar.OnMouseDown(MouseEventArgs)
+- uid: Fantas.UI.HScrollBar.OnMouseDown*
+  name: OnMouseDown
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_OnMouseDown_
+  commentId: Overload:Fantas.UI.HScrollBar.OnMouseDown
+  fullName: Fantas.UI.HScrollBar.OnMouseDown
+  nameWithType: HScrollBar.OnMouseDown
+- uid: Fantas.UI.HScrollBar.OnMouseLeave
+  name: OnMouseLeave()
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_OnMouseLeave
+  commentId: M:Fantas.UI.HScrollBar.OnMouseLeave
+  fullName: Fantas.UI.HScrollBar.OnMouseLeave()
+  nameWithType: HScrollBar.OnMouseLeave()
+- uid: Fantas.UI.HScrollBar.OnMouseLeave*
+  name: OnMouseLeave
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_OnMouseLeave_
+  commentId: Overload:Fantas.UI.HScrollBar.OnMouseLeave
+  fullName: Fantas.UI.HScrollBar.OnMouseLeave
+  nameWithType: HScrollBar.OnMouseLeave
+- uid: Fantas.UI.HScrollBar.OnMouseMove(Fantas.Input.MouseEventArgs)
+  name: OnMouseMove(MouseEventArgs)
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_OnMouseMove_Fantas_Input_MouseEventArgs_
+  commentId: M:Fantas.UI.HScrollBar.OnMouseMove(Fantas.Input.MouseEventArgs)
+  fullName: Fantas.UI.HScrollBar.OnMouseMove(Fantas.Input.MouseEventArgs)
+  nameWithType: HScrollBar.OnMouseMove(MouseEventArgs)
+- uid: Fantas.UI.HScrollBar.OnMouseMove*
+  name: OnMouseMove
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_OnMouseMove_
+  commentId: Overload:Fantas.UI.HScrollBar.OnMouseMove
+  fullName: Fantas.UI.HScrollBar.OnMouseMove
+  nameWithType: HScrollBar.OnMouseMove
+- uid: Fantas.UI.HScrollBar.OnMouseUp(Fantas.Input.MouseEventArgs)
+  name: OnMouseUp(MouseEventArgs)
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_OnMouseUp_Fantas_Input_MouseEventArgs_
+  commentId: M:Fantas.UI.HScrollBar.OnMouseUp(Fantas.Input.MouseEventArgs)
+  fullName: Fantas.UI.HScrollBar.OnMouseUp(Fantas.Input.MouseEventArgs)
+  nameWithType: HScrollBar.OnMouseUp(MouseEventArgs)
+- uid: Fantas.UI.HScrollBar.OnMouseUp*
+  name: OnMouseUp
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_OnMouseUp_
+  commentId: Overload:Fantas.UI.HScrollBar.OnMouseUp
+  fullName: Fantas.UI.HScrollBar.OnMouseUp
+  nameWithType: HScrollBar.OnMouseUp
+- uid: Fantas.UI.HScrollBar.OnTouchDownInside(Fantas.Input.TouchEventArgs)
+  name: OnTouchDownInside(TouchEventArgs)
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_OnTouchDownInside_Fantas_Input_TouchEventArgs_
+  commentId: M:Fantas.UI.HScrollBar.OnTouchDownInside(Fantas.Input.TouchEventArgs)
+  fullName: Fantas.UI.HScrollBar.OnTouchDownInside(Fantas.Input.TouchEventArgs)
+  nameWithType: HScrollBar.OnTouchDownInside(TouchEventArgs)
+- uid: Fantas.UI.HScrollBar.OnTouchDownInside*
+  name: OnTouchDownInside
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_OnTouchDownInside_
+  commentId: Overload:Fantas.UI.HScrollBar.OnTouchDownInside
+  fullName: Fantas.UI.HScrollBar.OnTouchDownInside
+  nameWithType: HScrollBar.OnTouchDownInside
+- uid: Fantas.UI.HScrollBar.OnTouchDragExit(Fantas.Input.TouchEventArgs)
+  name: OnTouchDragExit(TouchEventArgs)
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_OnTouchDragExit_Fantas_Input_TouchEventArgs_
+  commentId: M:Fantas.UI.HScrollBar.OnTouchDragExit(Fantas.Input.TouchEventArgs)
+  fullName: Fantas.UI.HScrollBar.OnTouchDragExit(Fantas.Input.TouchEventArgs)
+  nameWithType: HScrollBar.OnTouchDragExit(TouchEventArgs)
+- uid: Fantas.UI.HScrollBar.OnTouchDragExit*
+  name: OnTouchDragExit
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_OnTouchDragExit_
+  commentId: Overload:Fantas.UI.HScrollBar.OnTouchDragExit
+  fullName: Fantas.UI.HScrollBar.OnTouchDragExit
+  nameWithType: HScrollBar.OnTouchDragExit
+- uid: Fantas.UI.HScrollBar.OnTouchDragInside(Fantas.Input.TouchEventArgs)
+  name: OnTouchDragInside(TouchEventArgs)
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_OnTouchDragInside_Fantas_Input_TouchEventArgs_
+  commentId: M:Fantas.UI.HScrollBar.OnTouchDragInside(Fantas.Input.TouchEventArgs)
+  fullName: Fantas.UI.HScrollBar.OnTouchDragInside(Fantas.Input.TouchEventArgs)
+  nameWithType: HScrollBar.OnTouchDragInside(TouchEventArgs)
+- uid: Fantas.UI.HScrollBar.OnTouchDragInside*
+  name: OnTouchDragInside
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_OnTouchDragInside_
+  commentId: Overload:Fantas.UI.HScrollBar.OnTouchDragInside
+  fullName: Fantas.UI.HScrollBar.OnTouchDragInside
+  nameWithType: HScrollBar.OnTouchDragInside
+- uid: Fantas.UI.HScrollBar.OnTouchUpInside(Fantas.Input.TouchEventArgs)
+  name: OnTouchUpInside(TouchEventArgs)
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_OnTouchUpInside_Fantas_Input_TouchEventArgs_
+  commentId: M:Fantas.UI.HScrollBar.OnTouchUpInside(Fantas.Input.TouchEventArgs)
+  fullName: Fantas.UI.HScrollBar.OnTouchUpInside(Fantas.Input.TouchEventArgs)
+  nameWithType: HScrollBar.OnTouchUpInside(TouchEventArgs)
+- uid: Fantas.UI.HScrollBar.OnTouchUpInside*
+  name: OnTouchUpInside
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_OnTouchUpInside_
+  commentId: Overload:Fantas.UI.HScrollBar.OnTouchUpInside
+  fullName: Fantas.UI.HScrollBar.OnTouchUpInside
+  nameWithType: HScrollBar.OnTouchUpInside
+- uid: Fantas.UI.HScrollBar.UpdateScrollThumbSize
+  name: UpdateScrollThumbSize()
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_UpdateScrollThumbSize
+  commentId: M:Fantas.UI.HScrollBar.UpdateScrollThumbSize
+  fullName: Fantas.UI.HScrollBar.UpdateScrollThumbSize()
+  nameWithType: HScrollBar.UpdateScrollThumbSize()
+- uid: Fantas.UI.HScrollBar.UpdateScrollThumbSize*
+  name: UpdateScrollThumbSize
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_UpdateScrollThumbSize_
+  commentId: Overload:Fantas.UI.HScrollBar.UpdateScrollThumbSize
+  fullName: Fantas.UI.HScrollBar.UpdateScrollThumbSize
+  nameWithType: HScrollBar.UpdateScrollThumbSize
+- uid: Fantas.UI.HScrollBar.Value
+  name: Value
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_Value
+  commentId: P:Fantas.UI.HScrollBar.Value
+  fullName: Fantas.UI.HScrollBar.Value
+  nameWithType: HScrollBar.Value
+- uid: Fantas.UI.HScrollBar.Value*
+  name: Value
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_Value_
+  commentId: Overload:Fantas.UI.HScrollBar.Value
+  fullName: Fantas.UI.HScrollBar.Value
+  nameWithType: HScrollBar.Value
+- uid: Fantas.UI.HScrollBar.ViewSize
+  name: ViewSize
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_ViewSize
+  commentId: P:Fantas.UI.HScrollBar.ViewSize
+  fullName: Fantas.UI.HScrollBar.ViewSize
+  nameWithType: HScrollBar.ViewSize
+- uid: Fantas.UI.HScrollBar.ViewSize*
+  name: ViewSize
+  href: api/Fantas.UI.HScrollBar.html#Fantas_UI_HScrollBar_ViewSize_
+  commentId: Overload:Fantas.UI.HScrollBar.ViewSize
+  fullName: Fantas.UI.HScrollBar.ViewSize
+  nameWithType: HScrollBar.ViewSize
+- uid: Fantas.UI.Orientation
+  name: Orientation
+  href: api/Fantas.UI.Orientation.html
+  commentId: T:Fantas.UI.Orientation
+  fullName: Fantas.UI.Orientation
+  nameWithType: Orientation
+- uid: Fantas.UI.Orientation.Horizontal
+  name: Horizontal
+  href: api/Fantas.UI.Orientation.html#Fantas_UI_Orientation_Horizontal
+  commentId: F:Fantas.UI.Orientation.Horizontal
+  fullName: Fantas.UI.Orientation.Horizontal
+  nameWithType: Orientation.Horizontal
+- uid: Fantas.UI.Orientation.Vertical
+  name: Vertical
+  href: api/Fantas.UI.Orientation.html#Fantas_UI_Orientation_Vertical
+  commentId: F:Fantas.UI.Orientation.Vertical
+  fullName: Fantas.UI.Orientation.Vertical
+  nameWithType: Orientation.Vertical
+- uid: Fantas.UI.Orientation.value__
+  name: value__
+  href: api/Fantas.UI.Orientation.html#Fantas_UI_Orientation_value__
+  commentId: F:Fantas.UI.Orientation.value__
+  fullName: Fantas.UI.Orientation.value__
+  nameWithType: Orientation.value__
+- uid: Fantas.UI.ProgressRing
+  name: ProgressRing
+  href: api/Fantas.UI.ProgressRing.html
+  commentId: T:Fantas.UI.ProgressRing
+  fullName: Fantas.UI.ProgressRing
+  nameWithType: ProgressRing
+- uid: Fantas.UI.ProgressRing.#ctor
+  name: ProgressRing()
+  href: api/Fantas.UI.ProgressRing.html#Fantas_UI_ProgressRing__ctor
+  commentId: M:Fantas.UI.ProgressRing.#ctor
+  name.vb: New()
+  fullName: Fantas.UI.ProgressRing.ProgressRing()
+  fullName.vb: Fantas.UI.ProgressRing.New()
+  nameWithType: ProgressRing.ProgressRing()
+  nameWithType.vb: ProgressRing.New()
+- uid: Fantas.UI.ProgressRing.#ctor(System.Drawing.Color)
+  name: ProgressRing(Color)
+  href: api/Fantas.UI.ProgressRing.html#Fantas_UI_ProgressRing__ctor_System_Drawing_Color_
+  commentId: M:Fantas.UI.ProgressRing.#ctor(System.Drawing.Color)
+  name.vb: New(Color)
+  fullName: Fantas.UI.ProgressRing.ProgressRing(System.Drawing.Color)
+  fullName.vb: Fantas.UI.ProgressRing.New(System.Drawing.Color)
+  nameWithType: ProgressRing.ProgressRing(Color)
+  nameWithType.vb: ProgressRing.New(Color)
+- uid: Fantas.UI.ProgressRing.#ctor*
+  name: ProgressRing
+  href: api/Fantas.UI.ProgressRing.html#Fantas_UI_ProgressRing__ctor_
+  commentId: Overload:Fantas.UI.ProgressRing.#ctor
+  name.vb: New
+  fullName: Fantas.UI.ProgressRing.ProgressRing
+  fullName.vb: Fantas.UI.ProgressRing.New
+  nameWithType: ProgressRing.ProgressRing
+  nameWithType.vb: ProgressRing.New
+- uid: Fantas.UI.ProgressRing.StartAnimation
+  name: StartAnimation()
+  href: api/Fantas.UI.ProgressRing.html#Fantas_UI_ProgressRing_StartAnimation
+  commentId: M:Fantas.UI.ProgressRing.StartAnimation
+  fullName: Fantas.UI.ProgressRing.StartAnimation()
+  nameWithType: ProgressRing.StartAnimation()
+- uid: Fantas.UI.ProgressRing.StartAnimation*
+  name: StartAnimation
+  href: api/Fantas.UI.ProgressRing.html#Fantas_UI_ProgressRing_StartAnimation_
+  commentId: Overload:Fantas.UI.ProgressRing.StartAnimation
+  fullName: Fantas.UI.ProgressRing.StartAnimation
+  nameWithType: ProgressRing.StartAnimation
+- uid: Fantas.UI.ScrollBar
+  name: ScrollBar
+  href: api/Fantas.UI.ScrollBar.html
+  commentId: T:Fantas.UI.ScrollBar
+  fullName: Fantas.UI.ScrollBar
+  nameWithType: ScrollBar
+- uid: Fantas.UI.ScrollBar.#ctor(Fantas.UI.Orientation)
+  name: ScrollBar(Orientation)
+  href: api/Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar__ctor_Fantas_UI_Orientation_
+  commentId: M:Fantas.UI.ScrollBar.#ctor(Fantas.UI.Orientation)
+  name.vb: New(Orientation)
+  fullName: Fantas.UI.ScrollBar.ScrollBar(Fantas.UI.Orientation)
+  fullName.vb: Fantas.UI.ScrollBar.New(Fantas.UI.Orientation)
+  nameWithType: ScrollBar.ScrollBar(Orientation)
+  nameWithType.vb: ScrollBar.New(Orientation)
+- uid: Fantas.UI.ScrollBar.#ctor*
+  name: ScrollBar
+  href: api/Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar__ctor_
+  commentId: Overload:Fantas.UI.ScrollBar.#ctor
+  name.vb: New
+  fullName: Fantas.UI.ScrollBar.ScrollBar
+  fullName.vb: Fantas.UI.ScrollBar.New
+  nameWithType: ScrollBar.ScrollBar
+  nameWithType.vb: ScrollBar.New
+- uid: Fantas.UI.ScrollBar.MinThumbSize
+  name: MinThumbSize
+  href: api/Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_MinThumbSize
+  commentId: F:Fantas.UI.ScrollBar.MinThumbSize
+  fullName: Fantas.UI.ScrollBar.MinThumbSize
+  nameWithType: ScrollBar.MinThumbSize
+- uid: Fantas.UI.ScrollBar.OnMouseEnter
+  name: OnMouseEnter()
+  href: api/Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_OnMouseEnter
+  commentId: M:Fantas.UI.ScrollBar.OnMouseEnter
+  fullName: Fantas.UI.ScrollBar.OnMouseEnter()
+  nameWithType: ScrollBar.OnMouseEnter()
+- uid: Fantas.UI.ScrollBar.OnMouseEnter*
+  name: OnMouseEnter
+  href: api/Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_OnMouseEnter_
+  commentId: Overload:Fantas.UI.ScrollBar.OnMouseEnter
+  fullName: Fantas.UI.ScrollBar.OnMouseEnter
+  nameWithType: ScrollBar.OnMouseEnter
+- uid: Fantas.UI.ScrollBar.OnMouseLeave
+  name: OnMouseLeave()
+  href: api/Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_OnMouseLeave
+  commentId: M:Fantas.UI.ScrollBar.OnMouseLeave
+  fullName: Fantas.UI.ScrollBar.OnMouseLeave()
+  nameWithType: ScrollBar.OnMouseLeave()
+- uid: Fantas.UI.ScrollBar.OnMouseLeave*
+  name: OnMouseLeave
+  href: api/Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_OnMouseLeave_
+  commentId: Overload:Fantas.UI.ScrollBar.OnMouseLeave
+  fullName: Fantas.UI.ScrollBar.OnMouseLeave
+  nameWithType: ScrollBar.OnMouseLeave
+- uid: Fantas.UI.ScrollBar.OnPanStart(Fantas.Input.PanEventArgs)
+  name: OnPanStart(PanEventArgs)
+  href: api/Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_OnPanStart_Fantas_Input_PanEventArgs_
+  commentId: M:Fantas.UI.ScrollBar.OnPanStart(Fantas.Input.PanEventArgs)
+  fullName: Fantas.UI.ScrollBar.OnPanStart(Fantas.Input.PanEventArgs)
+  nameWithType: ScrollBar.OnPanStart(PanEventArgs)
+- uid: Fantas.UI.ScrollBar.OnPanStart*
+  name: OnPanStart
+  href: api/Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_OnPanStart_
+  commentId: Overload:Fantas.UI.ScrollBar.OnPanStart
+  fullName: Fantas.UI.ScrollBar.OnPanStart
+  nameWithType: ScrollBar.OnPanStart
+- uid: Fantas.UI.ScrollBar.Scroll
+  name: Scroll
+  href: api/Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_Scroll
+  commentId: E:Fantas.UI.ScrollBar.Scroll
+  fullName: Fantas.UI.ScrollBar.Scroll
+  nameWithType: ScrollBar.Scroll
+- uid: Fantas.UI.ScrollBar.ScrollBarThickness
+  name: ScrollBarThickness
+  href: api/Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_ScrollBarThickness
+  commentId: F:Fantas.UI.ScrollBar.ScrollBarThickness
+  fullName: Fantas.UI.ScrollBar.ScrollBarThickness
+  nameWithType: ScrollBar.ScrollBarThickness
+- uid: Fantas.UI.ScrollBar.ScrollThumbMargin
+  name: ScrollThumbMargin
+  href: api/Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_ScrollThumbMargin
+  commentId: F:Fantas.UI.ScrollBar.ScrollThumbMargin
+  fullName: Fantas.UI.ScrollBar.ScrollThumbMargin
+  nameWithType: ScrollBar.ScrollThumbMargin
+- uid: Fantas.UI.ScrollBar.Thumb
+  name: Thumb
+  href: api/Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_Thumb
+  commentId: P:Fantas.UI.ScrollBar.Thumb
+  fullName: Fantas.UI.ScrollBar.Thumb
+  nameWithType: ScrollBar.Thumb
+- uid: Fantas.UI.ScrollBar.Thumb*
+  name: Thumb
+  href: api/Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_Thumb_
+  commentId: Overload:Fantas.UI.ScrollBar.Thumb
+  fullName: Fantas.UI.ScrollBar.Thumb
+  nameWithType: ScrollBar.Thumb
+- uid: Fantas.UI.ScrollBar.ThumbColor
+  name: ThumbColor
+  href: api/Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_ThumbColor
+  commentId: P:Fantas.UI.ScrollBar.ThumbColor
+  fullName: Fantas.UI.ScrollBar.ThumbColor
+  nameWithType: ScrollBar.ThumbColor
+- uid: Fantas.UI.ScrollBar.ThumbColor*
+  name: ThumbColor
+  href: api/Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_ThumbColor_
+  commentId: Overload:Fantas.UI.ScrollBar.ThumbColor
+  fullName: Fantas.UI.ScrollBar.ThumbColor
+  nameWithType: ScrollBar.ThumbColor
+- uid: Fantas.UI.ScrollBar.ThumbTrackColor
+  name: ThumbTrackColor
+  href: api/Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_ThumbTrackColor
+  commentId: P:Fantas.UI.ScrollBar.ThumbTrackColor
+  fullName: Fantas.UI.ScrollBar.ThumbTrackColor
+  nameWithType: ScrollBar.ThumbTrackColor
+- uid: Fantas.UI.ScrollBar.ThumbTrackColor*
+  name: ThumbTrackColor
+  href: api/Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_ThumbTrackColor_
+  commentId: Overload:Fantas.UI.ScrollBar.ThumbTrackColor
+  fullName: Fantas.UI.ScrollBar.ThumbTrackColor
+  nameWithType: ScrollBar.ThumbTrackColor
+- uid: Fantas.UI.ScrollBar.Value
+  name: Value
+  href: api/Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_Value
+  commentId: P:Fantas.UI.ScrollBar.Value
+  fullName: Fantas.UI.ScrollBar.Value
+  nameWithType: ScrollBar.Value
+- uid: Fantas.UI.ScrollBar.Value*
+  name: Value
+  href: api/Fantas.UI.ScrollBar.html#Fantas_UI_ScrollBar_Value_
+  commentId: Overload:Fantas.UI.ScrollBar.Value
+  fullName: Fantas.UI.ScrollBar.Value
+  nameWithType: ScrollBar.Value
+- uid: Fantas.UI.ScrollBarThumb
+  name: ScrollBarThumb
+  href: api/Fantas.UI.ScrollBarThumb.html
+  commentId: T:Fantas.UI.ScrollBarThumb
+  fullName: Fantas.UI.ScrollBarThumb
+  nameWithType: ScrollBarThumb
+- uid: Fantas.UI.ScrollBarThumb.#ctor(Fantas.UI.Orientation)
+  name: ScrollBarThumb(Orientation)
+  href: api/Fantas.UI.ScrollBarThumb.html#Fantas_UI_ScrollBarThumb__ctor_Fantas_UI_Orientation_
+  commentId: M:Fantas.UI.ScrollBarThumb.#ctor(Fantas.UI.Orientation)
+  name.vb: New(Orientation)
+  fullName: Fantas.UI.ScrollBarThumb.ScrollBarThumb(Fantas.UI.Orientation)
+  fullName.vb: Fantas.UI.ScrollBarThumb.New(Fantas.UI.Orientation)
+  nameWithType: ScrollBarThumb.ScrollBarThumb(Orientation)
+  nameWithType.vb: ScrollBarThumb.New(Orientation)
+- uid: Fantas.UI.ScrollBarThumb.#ctor*
+  name: ScrollBarThumb
+  href: api/Fantas.UI.ScrollBarThumb.html#Fantas_UI_ScrollBarThumb__ctor_
+  commentId: Overload:Fantas.UI.ScrollBarThumb.#ctor
+  name.vb: New
+  fullName: Fantas.UI.ScrollBarThumb.ScrollBarThumb
+  fullName.vb: Fantas.UI.ScrollBarThumb.New
+  nameWithType: ScrollBarThumb.ScrollBarThumb
+  nameWithType.vb: ScrollBarThumb.New
+- uid: Fantas.UI.ScrollBarThumb.IsBeingDrag
+  name: IsBeingDrag
+  href: api/Fantas.UI.ScrollBarThumb.html#Fantas_UI_ScrollBarThumb_IsBeingDrag
+  commentId: P:Fantas.UI.ScrollBarThumb.IsBeingDrag
+  fullName: Fantas.UI.ScrollBarThumb.IsBeingDrag
+  nameWithType: ScrollBarThumb.IsBeingDrag
+- uid: Fantas.UI.ScrollBarThumb.IsBeingDrag*
+  name: IsBeingDrag
+  href: api/Fantas.UI.ScrollBarThumb.html#Fantas_UI_ScrollBarThumb_IsBeingDrag_
+  commentId: Overload:Fantas.UI.ScrollBarThumb.IsBeingDrag
+  fullName: Fantas.UI.ScrollBarThumb.IsBeingDrag
+  nameWithType: ScrollBarThumb.IsBeingDrag
+- uid: Fantas.UI.ScrollBarThumb.OnMouseDown(Fantas.Input.MouseEventArgs)
+  name: OnMouseDown(MouseEventArgs)
+  href: api/Fantas.UI.ScrollBarThumb.html#Fantas_UI_ScrollBarThumb_OnMouseDown_Fantas_Input_MouseEventArgs_
+  commentId: M:Fantas.UI.ScrollBarThumb.OnMouseDown(Fantas.Input.MouseEventArgs)
+  fullName: Fantas.UI.ScrollBarThumb.OnMouseDown(Fantas.Input.MouseEventArgs)
+  nameWithType: ScrollBarThumb.OnMouseDown(MouseEventArgs)
+- uid: Fantas.UI.ScrollBarThumb.OnMouseDown*
+  name: OnMouseDown
+  href: api/Fantas.UI.ScrollBarThumb.html#Fantas_UI_ScrollBarThumb_OnMouseDown_
+  commentId: Overload:Fantas.UI.ScrollBarThumb.OnMouseDown
+  fullName: Fantas.UI.ScrollBarThumb.OnMouseDown
+  nameWithType: ScrollBarThumb.OnMouseDown
+- uid: Fantas.UI.ScrollBarThumb.OnMouseMove(Fantas.Input.MouseEventArgs)
+  name: OnMouseMove(MouseEventArgs)
+  href: api/Fantas.UI.ScrollBarThumb.html#Fantas_UI_ScrollBarThumb_OnMouseMove_Fantas_Input_MouseEventArgs_
+  commentId: M:Fantas.UI.ScrollBarThumb.OnMouseMove(Fantas.Input.MouseEventArgs)
+  fullName: Fantas.UI.ScrollBarThumb.OnMouseMove(Fantas.Input.MouseEventArgs)
+  nameWithType: ScrollBarThumb.OnMouseMove(MouseEventArgs)
+- uid: Fantas.UI.ScrollBarThumb.OnMouseMove*
+  name: OnMouseMove
+  href: api/Fantas.UI.ScrollBarThumb.html#Fantas_UI_ScrollBarThumb_OnMouseMove_
+  commentId: Overload:Fantas.UI.ScrollBarThumb.OnMouseMove
+  fullName: Fantas.UI.ScrollBarThumb.OnMouseMove
+  nameWithType: ScrollBarThumb.OnMouseMove
+- uid: Fantas.UI.ScrollBarThumb.OnMouseUp(Fantas.Input.MouseEventArgs)
+  name: OnMouseUp(MouseEventArgs)
+  href: api/Fantas.UI.ScrollBarThumb.html#Fantas_UI_ScrollBarThumb_OnMouseUp_Fantas_Input_MouseEventArgs_
+  commentId: M:Fantas.UI.ScrollBarThumb.OnMouseUp(Fantas.Input.MouseEventArgs)
+  fullName: Fantas.UI.ScrollBarThumb.OnMouseUp(Fantas.Input.MouseEventArgs)
+  nameWithType: ScrollBarThumb.OnMouseUp(MouseEventArgs)
+- uid: Fantas.UI.ScrollBarThumb.OnMouseUp*
+  name: OnMouseUp
+  href: api/Fantas.UI.ScrollBarThumb.html#Fantas_UI_ScrollBarThumb_OnMouseUp_
+  commentId: Overload:Fantas.UI.ScrollBarThumb.OnMouseUp
+  fullName: Fantas.UI.ScrollBarThumb.OnMouseUp
+  nameWithType: ScrollBarThumb.OnMouseUp
+- uid: Fantas.UI.ScrollBarThumb.OnPan(Fantas.Input.PanEventArgs)
+  name: OnPan(PanEventArgs)
+  href: api/Fantas.UI.ScrollBarThumb.html#Fantas_UI_ScrollBarThumb_OnPan_Fantas_Input_PanEventArgs_
+  commentId: M:Fantas.UI.ScrollBarThumb.OnPan(Fantas.Input.PanEventArgs)
+  fullName: Fantas.UI.ScrollBarThumb.OnPan(Fantas.Input.PanEventArgs)
+  nameWithType: ScrollBarThumb.OnPan(PanEventArgs)
+- uid: Fantas.UI.ScrollBarThumb.OnPan*
+  name: OnPan
+  href: api/Fantas.UI.ScrollBarThumb.html#Fantas_UI_ScrollBarThumb_OnPan_
+  commentId: Overload:Fantas.UI.ScrollBarThumb.OnPan
+  fullName: Fantas.UI.ScrollBarThumb.OnPan
+  nameWithType: ScrollBarThumb.OnPan
+- uid: Fantas.UI.ScrollBarThumb.OnPanComplete(Fantas.Input.PanEventArgs)
+  name: OnPanComplete(PanEventArgs)
+  href: api/Fantas.UI.ScrollBarThumb.html#Fantas_UI_ScrollBarThumb_OnPanComplete_Fantas_Input_PanEventArgs_
+  commentId: M:Fantas.UI.ScrollBarThumb.OnPanComplete(Fantas.Input.PanEventArgs)
+  fullName: Fantas.UI.ScrollBarThumb.OnPanComplete(Fantas.Input.PanEventArgs)
+  nameWithType: ScrollBarThumb.OnPanComplete(PanEventArgs)
+- uid: Fantas.UI.ScrollBarThumb.OnPanComplete*
+  name: OnPanComplete
+  href: api/Fantas.UI.ScrollBarThumb.html#Fantas_UI_ScrollBarThumb_OnPanComplete_
+  commentId: Overload:Fantas.UI.ScrollBarThumb.OnPanComplete
+  fullName: Fantas.UI.ScrollBarThumb.OnPanComplete
+  nameWithType: ScrollBarThumb.OnPanComplete
+- uid: Fantas.UI.ScrollBarThumb.OnPanStart(Fantas.Input.PanEventArgs)
+  name: OnPanStart(PanEventArgs)
+  href: api/Fantas.UI.ScrollBarThumb.html#Fantas_UI_ScrollBarThumb_OnPanStart_Fantas_Input_PanEventArgs_
+  commentId: M:Fantas.UI.ScrollBarThumb.OnPanStart(Fantas.Input.PanEventArgs)
+  fullName: Fantas.UI.ScrollBarThumb.OnPanStart(Fantas.Input.PanEventArgs)
+  nameWithType: ScrollBarThumb.OnPanStart(PanEventArgs)
+- uid: Fantas.UI.ScrollBarThumb.OnPanStart*
+  name: OnPanStart
+  href: api/Fantas.UI.ScrollBarThumb.html#Fantas_UI_ScrollBarThumb_OnPanStart_
+  commentId: Overload:Fantas.UI.ScrollBarThumb.OnPanStart
+  fullName: Fantas.UI.ScrollBarThumb.OnPanStart
+  nameWithType: ScrollBarThumb.OnPanStart
+- uid: Fantas.UI.ScrollBarThumb.OnTouchDownInside(Fantas.Input.TouchEventArgs)
+  name: OnTouchDownInside(TouchEventArgs)
+  href: api/Fantas.UI.ScrollBarThumb.html#Fantas_UI_ScrollBarThumb_OnTouchDownInside_Fantas_Input_TouchEventArgs_
+  commentId: M:Fantas.UI.ScrollBarThumb.OnTouchDownInside(Fantas.Input.TouchEventArgs)
+  fullName: Fantas.UI.ScrollBarThumb.OnTouchDownInside(Fantas.Input.TouchEventArgs)
+  nameWithType: ScrollBarThumb.OnTouchDownInside(TouchEventArgs)
+- uid: Fantas.UI.ScrollBarThumb.OnTouchDownInside*
+  name: OnTouchDownInside
+  href: api/Fantas.UI.ScrollBarThumb.html#Fantas_UI_ScrollBarThumb_OnTouchDownInside_
+  commentId: Overload:Fantas.UI.ScrollBarThumb.OnTouchDownInside
+  fullName: Fantas.UI.ScrollBarThumb.OnTouchDownInside
+  nameWithType: ScrollBarThumb.OnTouchDownInside
+- uid: Fantas.UI.ScrollBarThumb.OnTouchDragInside(Fantas.Input.TouchEventArgs)
+  name: OnTouchDragInside(TouchEventArgs)
+  href: api/Fantas.UI.ScrollBarThumb.html#Fantas_UI_ScrollBarThumb_OnTouchDragInside_Fantas_Input_TouchEventArgs_
+  commentId: M:Fantas.UI.ScrollBarThumb.OnTouchDragInside(Fantas.Input.TouchEventArgs)
+  fullName: Fantas.UI.ScrollBarThumb.OnTouchDragInside(Fantas.Input.TouchEventArgs)
+  nameWithType: ScrollBarThumb.OnTouchDragInside(TouchEventArgs)
+- uid: Fantas.UI.ScrollBarThumb.OnTouchDragInside*
+  name: OnTouchDragInside
+  href: api/Fantas.UI.ScrollBarThumb.html#Fantas_UI_ScrollBarThumb_OnTouchDragInside_
+  commentId: Overload:Fantas.UI.ScrollBarThumb.OnTouchDragInside
+  fullName: Fantas.UI.ScrollBarThumb.OnTouchDragInside
+  nameWithType: ScrollBarThumb.OnTouchDragInside
+- uid: Fantas.UI.ScrollBarThumb.OnTouchUpInside(Fantas.Input.TouchEventArgs)
+  name: OnTouchUpInside(TouchEventArgs)
+  href: api/Fantas.UI.ScrollBarThumb.html#Fantas_UI_ScrollBarThumb_OnTouchUpInside_Fantas_Input_TouchEventArgs_
+  commentId: M:Fantas.UI.ScrollBarThumb.OnTouchUpInside(Fantas.Input.TouchEventArgs)
+  fullName: Fantas.UI.ScrollBarThumb.OnTouchUpInside(Fantas.Input.TouchEventArgs)
+  nameWithType: ScrollBarThumb.OnTouchUpInside(TouchEventArgs)
+- uid: Fantas.UI.ScrollBarThumb.OnTouchUpInside*
+  name: OnTouchUpInside
+  href: api/Fantas.UI.ScrollBarThumb.html#Fantas_UI_ScrollBarThumb_OnTouchUpInside_
+  commentId: Overload:Fantas.UI.ScrollBarThumb.OnTouchUpInside
+  fullName: Fantas.UI.ScrollBarThumb.OnTouchUpInside
+  nameWithType: ScrollBarThumb.OnTouchUpInside
+- uid: Fantas.UI.ScrollBarThumb.ThumbThickness
+  name: ThumbThickness
+  href: api/Fantas.UI.ScrollBarThumb.html#Fantas_UI_ScrollBarThumb_ThumbThickness
+  commentId: F:Fantas.UI.ScrollBarThumb.ThumbThickness
+  fullName: Fantas.UI.ScrollBarThumb.ThumbThickness
+  nameWithType: ScrollBarThumb.ThumbThickness
+- uid: Fantas.UI.ScrollEventArgs
+  name: ScrollEventArgs
+  href: api/Fantas.UI.ScrollEventArgs.html
+  commentId: T:Fantas.UI.ScrollEventArgs
+  fullName: Fantas.UI.ScrollEventArgs
+  nameWithType: ScrollEventArgs
+- uid: Fantas.UI.ScrollEventArgs.#ctor(System.Single)
+  name: ScrollEventArgs(float)
+  href: api/Fantas.UI.ScrollEventArgs.html#Fantas_UI_ScrollEventArgs__ctor_System_Single_
+  commentId: M:Fantas.UI.ScrollEventArgs.#ctor(System.Single)
+  name.vb: New(Single)
+  fullName: Fantas.UI.ScrollEventArgs.ScrollEventArgs(float)
+  fullName.vb: Fantas.UI.ScrollEventArgs.New(Single)
+  nameWithType: ScrollEventArgs.ScrollEventArgs(float)
+  nameWithType.vb: ScrollEventArgs.New(Single)
+- uid: Fantas.UI.ScrollEventArgs.#ctor*
+  name: ScrollEventArgs
+  href: api/Fantas.UI.ScrollEventArgs.html#Fantas_UI_ScrollEventArgs__ctor_
+  commentId: Overload:Fantas.UI.ScrollEventArgs.#ctor
+  name.vb: New
+  fullName: Fantas.UI.ScrollEventArgs.ScrollEventArgs
+  fullName.vb: Fantas.UI.ScrollEventArgs.New
+  nameWithType: ScrollEventArgs.ScrollEventArgs
+  nameWithType.vb: ScrollEventArgs.New
+- uid: Fantas.UI.ScrollEventArgs.NewValue
+  name: NewValue
+  href: api/Fantas.UI.ScrollEventArgs.html#Fantas_UI_ScrollEventArgs_NewValue
+  commentId: P:Fantas.UI.ScrollEventArgs.NewValue
+  fullName: Fantas.UI.ScrollEventArgs.NewValue
+  nameWithType: ScrollEventArgs.NewValue
+- uid: Fantas.UI.ScrollEventArgs.NewValue*
+  name: NewValue
+  href: api/Fantas.UI.ScrollEventArgs.html#Fantas_UI_ScrollEventArgs_NewValue_
+  commentId: Overload:Fantas.UI.ScrollEventArgs.NewValue
+  fullName: Fantas.UI.ScrollEventArgs.NewValue
+  nameWithType: ScrollEventArgs.NewValue
+- uid: Fantas.UI.ScrollNode
+  name: ScrollNode
+  href: api/Fantas.UI.ScrollNode.html
+  commentId: T:Fantas.UI.ScrollNode
+  fullName: Fantas.UI.ScrollNode
+  nameWithType: ScrollNode
+- uid: Fantas.UI.ScrollNode.#ctor(System.Drawing.Color,System.Drawing.SizeF)
+  name: ScrollNode(Color, SizeF)
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode__ctor_System_Drawing_Color_System_Drawing_SizeF_
+  commentId: M:Fantas.UI.ScrollNode.#ctor(System.Drawing.Color,System.Drawing.SizeF)
+  name.vb: New(Color, SizeF)
+  fullName: Fantas.UI.ScrollNode.ScrollNode(System.Drawing.Color, System.Drawing.SizeF)
+  fullName.vb: Fantas.UI.ScrollNode.New(System.Drawing.Color, System.Drawing.SizeF)
+  nameWithType: ScrollNode.ScrollNode(Color, SizeF)
+  nameWithType.vb: ScrollNode.New(Color, SizeF)
+- uid: Fantas.UI.ScrollNode.#ctor(System.Drawing.SizeF)
+  name: ScrollNode(SizeF)
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode__ctor_System_Drawing_SizeF_
+  commentId: M:Fantas.UI.ScrollNode.#ctor(System.Drawing.SizeF)
+  name.vb: New(SizeF)
+  fullName: Fantas.UI.ScrollNode.ScrollNode(System.Drawing.SizeF)
+  fullName.vb: Fantas.UI.ScrollNode.New(System.Drawing.SizeF)
+  nameWithType: ScrollNode.ScrollNode(SizeF)
+  nameWithType.vb: ScrollNode.New(SizeF)
+- uid: Fantas.UI.ScrollNode.#ctor*
+  name: ScrollNode
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode__ctor_
+  commentId: Overload:Fantas.UI.ScrollNode.#ctor
+  name.vb: New
+  fullName: Fantas.UI.ScrollNode.ScrollNode
+  fullName.vb: Fantas.UI.ScrollNode.New
+  nameWithType: ScrollNode.ScrollNode
+  nameWithType.vb: ScrollNode.New
+- uid: Fantas.UI.ScrollNode.AddChild(Fantas.Node)
+  name: AddChild(Node)
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_AddChild_Fantas_Node_
+  commentId: M:Fantas.UI.ScrollNode.AddChild(Fantas.Node)
+  fullName: Fantas.UI.ScrollNode.AddChild(Fantas.Node)
+  nameWithType: ScrollNode.AddChild(Node)
+- uid: Fantas.UI.ScrollNode.AddChild*
+  name: AddChild
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_AddChild_
+  commentId: Overload:Fantas.UI.ScrollNode.AddChild
+  fullName: Fantas.UI.ScrollNode.AddChild
+  nameWithType: ScrollNode.AddChild
+- uid: Fantas.UI.ScrollNode.MaxXScrollPosition
+  name: MaxXScrollPosition
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_MaxXScrollPosition
+  commentId: P:Fantas.UI.ScrollNode.MaxXScrollPosition
+  fullName: Fantas.UI.ScrollNode.MaxXScrollPosition
+  nameWithType: ScrollNode.MaxXScrollPosition
+- uid: Fantas.UI.ScrollNode.MaxXScrollPosition*
+  name: MaxXScrollPosition
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_MaxXScrollPosition_
+  commentId: Overload:Fantas.UI.ScrollNode.MaxXScrollPosition
+  fullName: Fantas.UI.ScrollNode.MaxXScrollPosition
+  nameWithType: ScrollNode.MaxXScrollPosition
+- uid: Fantas.UI.ScrollNode.MaxYScrollPosition
+  name: MaxYScrollPosition
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_MaxYScrollPosition
+  commentId: P:Fantas.UI.ScrollNode.MaxYScrollPosition
+  fullName: Fantas.UI.ScrollNode.MaxYScrollPosition
+  nameWithType: ScrollNode.MaxYScrollPosition
+- uid: Fantas.UI.ScrollNode.MaxYScrollPosition*
+  name: MaxYScrollPosition
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_MaxYScrollPosition_
+  commentId: Overload:Fantas.UI.ScrollNode.MaxYScrollPosition
+  fullName: Fantas.UI.ScrollNode.MaxYScrollPosition
+  nameWithType: ScrollNode.MaxYScrollPosition
+- uid: Fantas.UI.ScrollNode.MinXScrollPosition
+  name: MinXScrollPosition
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_MinXScrollPosition
+  commentId: P:Fantas.UI.ScrollNode.MinXScrollPosition
+  fullName: Fantas.UI.ScrollNode.MinXScrollPosition
+  nameWithType: ScrollNode.MinXScrollPosition
+- uid: Fantas.UI.ScrollNode.MinXScrollPosition*
+  name: MinXScrollPosition
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_MinXScrollPosition_
+  commentId: Overload:Fantas.UI.ScrollNode.MinXScrollPosition
+  fullName: Fantas.UI.ScrollNode.MinXScrollPosition
+  nameWithType: ScrollNode.MinXScrollPosition
+- uid: Fantas.UI.ScrollNode.MinYScrollPosition
+  name: MinYScrollPosition
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_MinYScrollPosition
+  commentId: P:Fantas.UI.ScrollNode.MinYScrollPosition
+  fullName: Fantas.UI.ScrollNode.MinYScrollPosition
+  nameWithType: ScrollNode.MinYScrollPosition
+- uid: Fantas.UI.ScrollNode.MinYScrollPosition*
+  name: MinYScrollPosition
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_MinYScrollPosition_
+  commentId: Overload:Fantas.UI.ScrollNode.MinYScrollPosition
+  fullName: Fantas.UI.ScrollNode.MinYScrollPosition
+  nameWithType: ScrollNode.MinYScrollPosition
+- uid: Fantas.UI.ScrollNode.OnMouseWheel(Fantas.Input.MouseEventArgs)
+  name: OnMouseWheel(MouseEventArgs)
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_OnMouseWheel_Fantas_Input_MouseEventArgs_
+  commentId: M:Fantas.UI.ScrollNode.OnMouseWheel(Fantas.Input.MouseEventArgs)
+  fullName: Fantas.UI.ScrollNode.OnMouseWheel(Fantas.Input.MouseEventArgs)
+  nameWithType: ScrollNode.OnMouseWheel(MouseEventArgs)
+- uid: Fantas.UI.ScrollNode.OnMouseWheel*
+  name: OnMouseWheel
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_OnMouseWheel_
+  commentId: Overload:Fantas.UI.ScrollNode.OnMouseWheel
+  fullName: Fantas.UI.ScrollNode.OnMouseWheel
+  nameWithType: ScrollNode.OnMouseWheel
+- uid: Fantas.UI.ScrollNode.OnPan(Fantas.Input.PanEventArgs)
+  name: OnPan(PanEventArgs)
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_OnPan_Fantas_Input_PanEventArgs_
+  commentId: M:Fantas.UI.ScrollNode.OnPan(Fantas.Input.PanEventArgs)
+  fullName: Fantas.UI.ScrollNode.OnPan(Fantas.Input.PanEventArgs)
+  nameWithType: ScrollNode.OnPan(PanEventArgs)
+- uid: Fantas.UI.ScrollNode.OnPan*
+  name: OnPan
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_OnPan_
+  commentId: Overload:Fantas.UI.ScrollNode.OnPan
+  fullName: Fantas.UI.ScrollNode.OnPan
+  nameWithType: ScrollNode.OnPan
+- uid: Fantas.UI.ScrollNode.OnPanComplete(Fantas.Input.PanEventArgs)
+  name: OnPanComplete(PanEventArgs)
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_OnPanComplete_Fantas_Input_PanEventArgs_
+  commentId: M:Fantas.UI.ScrollNode.OnPanComplete(Fantas.Input.PanEventArgs)
+  fullName: Fantas.UI.ScrollNode.OnPanComplete(Fantas.Input.PanEventArgs)
+  nameWithType: ScrollNode.OnPanComplete(PanEventArgs)
+- uid: Fantas.UI.ScrollNode.OnPanComplete*
+  name: OnPanComplete
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_OnPanComplete_
+  commentId: Overload:Fantas.UI.ScrollNode.OnPanComplete
+  fullName: Fantas.UI.ScrollNode.OnPanComplete
+  nameWithType: ScrollNode.OnPanComplete
+- uid: Fantas.UI.ScrollNode.OnPanStart(Fantas.Input.PanEventArgs)
+  name: OnPanStart(PanEventArgs)
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_OnPanStart_Fantas_Input_PanEventArgs_
+  commentId: M:Fantas.UI.ScrollNode.OnPanStart(Fantas.Input.PanEventArgs)
+  fullName: Fantas.UI.ScrollNode.OnPanStart(Fantas.Input.PanEventArgs)
+  nameWithType: ScrollNode.OnPanStart(PanEventArgs)
+- uid: Fantas.UI.ScrollNode.OnPanStart*
+  name: OnPanStart
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_OnPanStart_
+  commentId: Overload:Fantas.UI.ScrollNode.OnPanStart
+  fullName: Fantas.UI.ScrollNode.OnPanStart
+  nameWithType: ScrollNode.OnPanStart
+- uid: Fantas.UI.ScrollNode.OnSizeChanged
+  name: OnSizeChanged()
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_OnSizeChanged
+  commentId: M:Fantas.UI.ScrollNode.OnSizeChanged
+  fullName: Fantas.UI.ScrollNode.OnSizeChanged()
+  nameWithType: ScrollNode.OnSizeChanged()
+- uid: Fantas.UI.ScrollNode.OnSizeChanged*
+  name: OnSizeChanged
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_OnSizeChanged_
+  commentId: Overload:Fantas.UI.ScrollNode.OnSizeChanged
+  fullName: Fantas.UI.ScrollNode.OnSizeChanged
+  nameWithType: ScrollNode.OnSizeChanged
+- uid: Fantas.UI.ScrollNode.OnTouchDownInside(Fantas.Input.TouchEventArgs)
+  name: OnTouchDownInside(TouchEventArgs)
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_OnTouchDownInside_Fantas_Input_TouchEventArgs_
+  commentId: M:Fantas.UI.ScrollNode.OnTouchDownInside(Fantas.Input.TouchEventArgs)
+  fullName: Fantas.UI.ScrollNode.OnTouchDownInside(Fantas.Input.TouchEventArgs)
+  nameWithType: ScrollNode.OnTouchDownInside(TouchEventArgs)
+- uid: Fantas.UI.ScrollNode.OnTouchDownInside*
+  name: OnTouchDownInside
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_OnTouchDownInside_
+  commentId: Overload:Fantas.UI.ScrollNode.OnTouchDownInside
+  fullName: Fantas.UI.ScrollNode.OnTouchDownInside
+  nameWithType: ScrollNode.OnTouchDownInside
+- uid: Fantas.UI.ScrollNode.ScrollPosition
+  name: ScrollPosition
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_ScrollPosition
+  commentId: P:Fantas.UI.ScrollNode.ScrollPosition
+  fullName: Fantas.UI.ScrollNode.ScrollPosition
+  nameWithType: ScrollNode.ScrollPosition
+- uid: Fantas.UI.ScrollNode.ScrollPosition*
+  name: ScrollPosition
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_ScrollPosition_
+  commentId: Overload:Fantas.UI.ScrollNode.ScrollPosition
+  fullName: Fantas.UI.ScrollNode.ScrollPosition
+  nameWithType: ScrollNode.ScrollPosition
+- uid: Fantas.UI.ScrollNode.UpdateContentArea
+  name: UpdateContentArea()
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_UpdateContentArea
+  commentId: M:Fantas.UI.ScrollNode.UpdateContentArea
+  fullName: Fantas.UI.ScrollNode.UpdateContentArea()
+  nameWithType: ScrollNode.UpdateContentArea()
+- uid: Fantas.UI.ScrollNode.UpdateContentArea*
+  name: UpdateContentArea
+  href: api/Fantas.UI.ScrollNode.html#Fantas_UI_ScrollNode_UpdateContentArea_
+  commentId: Overload:Fantas.UI.ScrollNode.UpdateContentArea
+  fullName: Fantas.UI.ScrollNode.UpdateContentArea
+  nameWithType: ScrollNode.UpdateContentArea
+- uid: Fantas.UI.ScrollNodeOptions
+  name: ScrollNodeOptions
+  href: api/Fantas.UI.ScrollNodeOptions.html
+  commentId: T:Fantas.UI.ScrollNodeOptions
+  fullName: Fantas.UI.ScrollNodeOptions
+  nameWithType: ScrollNodeOptions
+- uid: Fantas.UI.ScrollNodeOptions.Horizontal
+  name: Horizontal
+  href: api/Fantas.UI.ScrollNodeOptions.html#Fantas_UI_ScrollNodeOptions_Horizontal
+  commentId: F:Fantas.UI.ScrollNodeOptions.Horizontal
+  fullName: Fantas.UI.ScrollNodeOptions.Horizontal
+  nameWithType: ScrollNodeOptions.Horizontal
+- uid: Fantas.UI.ScrollNodeOptions.None
+  name: None
+  href: api/Fantas.UI.ScrollNodeOptions.html#Fantas_UI_ScrollNodeOptions_None
+  commentId: F:Fantas.UI.ScrollNodeOptions.None
+  fullName: Fantas.UI.ScrollNodeOptions.None
+  nameWithType: ScrollNodeOptions.None
+- uid: Fantas.UI.ScrollNodeOptions.Vertical
+  name: Vertical
+  href: api/Fantas.UI.ScrollNodeOptions.html#Fantas_UI_ScrollNodeOptions_Vertical
+  commentId: F:Fantas.UI.ScrollNodeOptions.Vertical
+  fullName: Fantas.UI.ScrollNodeOptions.Vertical
+  nameWithType: ScrollNodeOptions.Vertical
+- uid: Fantas.UI.ScrollNodeOptions.value__
+  name: value__
+  href: api/Fantas.UI.ScrollNodeOptions.html#Fantas_UI_ScrollNodeOptions_value__
+  commentId: F:Fantas.UI.ScrollNodeOptions.value__
+  fullName: Fantas.UI.ScrollNodeOptions.value__
+  nameWithType: ScrollNodeOptions.value__
+- uid: Fantas.UI.TexturesUI
+  name: TexturesUI
+  href: api/Fantas.UI.TexturesUI.html
+  commentId: T:Fantas.UI.TexturesUI
+  fullName: Fantas.UI.TexturesUI
+  nameWithType: TexturesUI
+- uid: Fantas.UI.TexturesUI.ButtonDisabledTexture
+  name: ButtonDisabledTexture
+  href: api/Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_ButtonDisabledTexture
+  commentId: P:Fantas.UI.TexturesUI.ButtonDisabledTexture
+  fullName: Fantas.UI.TexturesUI.ButtonDisabledTexture
+  nameWithType: TexturesUI.ButtonDisabledTexture
+- uid: Fantas.UI.TexturesUI.ButtonDisabledTexture*
+  name: ButtonDisabledTexture
+  href: api/Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_ButtonDisabledTexture_
+  commentId: Overload:Fantas.UI.TexturesUI.ButtonDisabledTexture
+  fullName: Fantas.UI.TexturesUI.ButtonDisabledTexture
+  nameWithType: TexturesUI.ButtonDisabledTexture
+- uid: Fantas.UI.TexturesUI.ButtonHoverTexture
+  name: ButtonHoverTexture
+  href: api/Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_ButtonHoverTexture
+  commentId: P:Fantas.UI.TexturesUI.ButtonHoverTexture
+  fullName: Fantas.UI.TexturesUI.ButtonHoverTexture
+  nameWithType: TexturesUI.ButtonHoverTexture
+- uid: Fantas.UI.TexturesUI.ButtonHoverTexture*
+  name: ButtonHoverTexture
+  href: api/Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_ButtonHoverTexture_
+  commentId: Overload:Fantas.UI.TexturesUI.ButtonHoverTexture
+  fullName: Fantas.UI.TexturesUI.ButtonHoverTexture
+  nameWithType: TexturesUI.ButtonHoverTexture
+- uid: Fantas.UI.TexturesUI.ButtonNormalTexture
+  name: ButtonNormalTexture
+  href: api/Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_ButtonNormalTexture
+  commentId: P:Fantas.UI.TexturesUI.ButtonNormalTexture
+  fullName: Fantas.UI.TexturesUI.ButtonNormalTexture
+  nameWithType: TexturesUI.ButtonNormalTexture
+- uid: Fantas.UI.TexturesUI.ButtonNormalTexture*
+  name: ButtonNormalTexture
+  href: api/Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_ButtonNormalTexture_
+  commentId: Overload:Fantas.UI.TexturesUI.ButtonNormalTexture
+  fullName: Fantas.UI.TexturesUI.ButtonNormalTexture
+  nameWithType: TexturesUI.ButtonNormalTexture
+- uid: Fantas.UI.TexturesUI.ButtonPressedTexture
+  name: ButtonPressedTexture
+  href: api/Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_ButtonPressedTexture
+  commentId: P:Fantas.UI.TexturesUI.ButtonPressedTexture
+  fullName: Fantas.UI.TexturesUI.ButtonPressedTexture
+  nameWithType: TexturesUI.ButtonPressedTexture
+- uid: Fantas.UI.TexturesUI.ButtonPressedTexture*
+  name: ButtonPressedTexture
+  href: api/Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_ButtonPressedTexture_
+  commentId: Overload:Fantas.UI.TexturesUI.ButtonPressedTexture
+  fullName: Fantas.UI.TexturesUI.ButtonPressedTexture
+  nameWithType: TexturesUI.ButtonPressedTexture
+- uid: Fantas.UI.TexturesUI.Focus
+  name: Focus
+  href: api/Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_Focus
+  commentId: P:Fantas.UI.TexturesUI.Focus
+  fullName: Fantas.UI.TexturesUI.Focus
+  nameWithType: TexturesUI.Focus
+- uid: Fantas.UI.TexturesUI.Focus*
+  name: Focus
+  href: api/Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_Focus_
+  commentId: Overload:Fantas.UI.TexturesUI.Focus
+  fullName: Fantas.UI.TexturesUI.Focus
+  nameWithType: TexturesUI.Focus
+- uid: Fantas.UI.TexturesUI.HScrollBar
+  name: HScrollBar
+  href: api/Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_HScrollBar
+  commentId: P:Fantas.UI.TexturesUI.HScrollBar
+  fullName: Fantas.UI.TexturesUI.HScrollBar
+  nameWithType: TexturesUI.HScrollBar
+- uid: Fantas.UI.TexturesUI.HScrollBar*
+  name: HScrollBar
+  href: api/Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_HScrollBar_
+  commentId: Overload:Fantas.UI.TexturesUI.HScrollBar
+  fullName: Fantas.UI.TexturesUI.HScrollBar
+  nameWithType: TexturesUI.HScrollBar
+- uid: Fantas.UI.TexturesUI.MenuItem
+  name: MenuItem
+  href: api/Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_MenuItem
+  commentId: P:Fantas.UI.TexturesUI.MenuItem
+  fullName: Fantas.UI.TexturesUI.MenuItem
+  nameWithType: TexturesUI.MenuItem
+- uid: Fantas.UI.TexturesUI.MenuItem*
+  name: MenuItem
+  href: api/Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_MenuItem_
+  commentId: Overload:Fantas.UI.TexturesUI.MenuItem
+  fullName: Fantas.UI.TexturesUI.MenuItem
+  nameWithType: TexturesUI.MenuItem
+- uid: Fantas.UI.TexturesUI.ProgressRing
+  name: ProgressRing
+  href: api/Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_ProgressRing
+  commentId: P:Fantas.UI.TexturesUI.ProgressRing
+  fullName: Fantas.UI.TexturesUI.ProgressRing
+  nameWithType: TexturesUI.ProgressRing
+- uid: Fantas.UI.TexturesUI.ProgressRing*
+  name: ProgressRing
+  href: api/Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_ProgressRing_
+  commentId: Overload:Fantas.UI.TexturesUI.ProgressRing
+  fullName: Fantas.UI.TexturesUI.ProgressRing
+  nameWithType: TexturesUI.ProgressRing
+- uid: Fantas.UI.TexturesUI.VScrollBar
+  name: VScrollBar
+  href: api/Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_VScrollBar
+  commentId: P:Fantas.UI.TexturesUI.VScrollBar
+  fullName: Fantas.UI.TexturesUI.VScrollBar
+  nameWithType: TexturesUI.VScrollBar
+- uid: Fantas.UI.TexturesUI.VScrollBar*
+  name: VScrollBar
+  href: api/Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_VScrollBar_
+  commentId: Overload:Fantas.UI.TexturesUI.VScrollBar
+  fullName: Fantas.UI.TexturesUI.VScrollBar
+  nameWithType: TexturesUI.VScrollBar
+- uid: Fantas.UI.VScrollBar
+  name: VScrollBar
+  href: api/Fantas.UI.VScrollBar.html
+  commentId: T:Fantas.UI.VScrollBar
+  fullName: Fantas.UI.VScrollBar
+  nameWithType: VScrollBar
+- uid: Fantas.UI.VScrollBar.#ctor
+  name: VScrollBar()
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar__ctor
+  commentId: M:Fantas.UI.VScrollBar.#ctor
+  name.vb: New()
+  fullName: Fantas.UI.VScrollBar.VScrollBar()
+  fullName.vb: Fantas.UI.VScrollBar.New()
+  nameWithType: VScrollBar.VScrollBar()
+  nameWithType.vb: VScrollBar.New()
+- uid: Fantas.UI.VScrollBar.#ctor*
+  name: VScrollBar
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar__ctor_
+  commentId: Overload:Fantas.UI.VScrollBar.#ctor
+  name.vb: New
+  fullName: Fantas.UI.VScrollBar.VScrollBar
+  fullName.vb: Fantas.UI.VScrollBar.New
+  nameWithType: VScrollBar.VScrollBar
+  nameWithType.vb: VScrollBar.New
+- uid: Fantas.UI.VScrollBar.Maximum
+  name: Maximum
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_Maximum
+  commentId: P:Fantas.UI.VScrollBar.Maximum
+  fullName: Fantas.UI.VScrollBar.Maximum
+  nameWithType: VScrollBar.Maximum
+- uid: Fantas.UI.VScrollBar.Maximum*
+  name: Maximum
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_Maximum_
+  commentId: Overload:Fantas.UI.VScrollBar.Maximum
+  fullName: Fantas.UI.VScrollBar.Maximum
+  nameWithType: VScrollBar.Maximum
+- uid: Fantas.UI.VScrollBar.Minumum
+  name: Minumum
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_Minumum
+  commentId: P:Fantas.UI.VScrollBar.Minumum
+  fullName: Fantas.UI.VScrollBar.Minumum
+  nameWithType: VScrollBar.Minumum
+- uid: Fantas.UI.VScrollBar.Minumum*
+  name: Minumum
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_Minumum_
+  commentId: Overload:Fantas.UI.VScrollBar.Minumum
+  fullName: Fantas.UI.VScrollBar.Minumum
+  nameWithType: VScrollBar.Minumum
+- uid: Fantas.UI.VScrollBar.OnMouseDown(Fantas.Input.MouseEventArgs)
+  name: OnMouseDown(MouseEventArgs)
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_OnMouseDown_Fantas_Input_MouseEventArgs_
+  commentId: M:Fantas.UI.VScrollBar.OnMouseDown(Fantas.Input.MouseEventArgs)
+  fullName: Fantas.UI.VScrollBar.OnMouseDown(Fantas.Input.MouseEventArgs)
+  nameWithType: VScrollBar.OnMouseDown(MouseEventArgs)
+- uid: Fantas.UI.VScrollBar.OnMouseDown*
+  name: OnMouseDown
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_OnMouseDown_
+  commentId: Overload:Fantas.UI.VScrollBar.OnMouseDown
+  fullName: Fantas.UI.VScrollBar.OnMouseDown
+  nameWithType: VScrollBar.OnMouseDown
+- uid: Fantas.UI.VScrollBar.OnMouseLeave
+  name: OnMouseLeave()
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_OnMouseLeave
+  commentId: M:Fantas.UI.VScrollBar.OnMouseLeave
+  fullName: Fantas.UI.VScrollBar.OnMouseLeave()
+  nameWithType: VScrollBar.OnMouseLeave()
+- uid: Fantas.UI.VScrollBar.OnMouseLeave*
+  name: OnMouseLeave
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_OnMouseLeave_
+  commentId: Overload:Fantas.UI.VScrollBar.OnMouseLeave
+  fullName: Fantas.UI.VScrollBar.OnMouseLeave
+  nameWithType: VScrollBar.OnMouseLeave
+- uid: Fantas.UI.VScrollBar.OnMouseMove(Fantas.Input.MouseEventArgs)
+  name: OnMouseMove(MouseEventArgs)
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_OnMouseMove_Fantas_Input_MouseEventArgs_
+  commentId: M:Fantas.UI.VScrollBar.OnMouseMove(Fantas.Input.MouseEventArgs)
+  fullName: Fantas.UI.VScrollBar.OnMouseMove(Fantas.Input.MouseEventArgs)
+  nameWithType: VScrollBar.OnMouseMove(MouseEventArgs)
+- uid: Fantas.UI.VScrollBar.OnMouseMove*
+  name: OnMouseMove
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_OnMouseMove_
+  commentId: Overload:Fantas.UI.VScrollBar.OnMouseMove
+  fullName: Fantas.UI.VScrollBar.OnMouseMove
+  nameWithType: VScrollBar.OnMouseMove
+- uid: Fantas.UI.VScrollBar.OnMouseUp(Fantas.Input.MouseEventArgs)
+  name: OnMouseUp(MouseEventArgs)
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_OnMouseUp_Fantas_Input_MouseEventArgs_
+  commentId: M:Fantas.UI.VScrollBar.OnMouseUp(Fantas.Input.MouseEventArgs)
+  fullName: Fantas.UI.VScrollBar.OnMouseUp(Fantas.Input.MouseEventArgs)
+  nameWithType: VScrollBar.OnMouseUp(MouseEventArgs)
+- uid: Fantas.UI.VScrollBar.OnMouseUp*
+  name: OnMouseUp
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_OnMouseUp_
+  commentId: Overload:Fantas.UI.VScrollBar.OnMouseUp
+  fullName: Fantas.UI.VScrollBar.OnMouseUp
+  nameWithType: VScrollBar.OnMouseUp
+- uid: Fantas.UI.VScrollBar.OnTouchDownInside(Fantas.Input.TouchEventArgs)
+  name: OnTouchDownInside(TouchEventArgs)
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_OnTouchDownInside_Fantas_Input_TouchEventArgs_
+  commentId: M:Fantas.UI.VScrollBar.OnTouchDownInside(Fantas.Input.TouchEventArgs)
+  fullName: Fantas.UI.VScrollBar.OnTouchDownInside(Fantas.Input.TouchEventArgs)
+  nameWithType: VScrollBar.OnTouchDownInside(TouchEventArgs)
+- uid: Fantas.UI.VScrollBar.OnTouchDownInside*
+  name: OnTouchDownInside
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_OnTouchDownInside_
+  commentId: Overload:Fantas.UI.VScrollBar.OnTouchDownInside
+  fullName: Fantas.UI.VScrollBar.OnTouchDownInside
+  nameWithType: VScrollBar.OnTouchDownInside
+- uid: Fantas.UI.VScrollBar.OnTouchDragExit(Fantas.Input.TouchEventArgs)
+  name: OnTouchDragExit(TouchEventArgs)
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_OnTouchDragExit_Fantas_Input_TouchEventArgs_
+  commentId: M:Fantas.UI.VScrollBar.OnTouchDragExit(Fantas.Input.TouchEventArgs)
+  fullName: Fantas.UI.VScrollBar.OnTouchDragExit(Fantas.Input.TouchEventArgs)
+  nameWithType: VScrollBar.OnTouchDragExit(TouchEventArgs)
+- uid: Fantas.UI.VScrollBar.OnTouchDragExit*
+  name: OnTouchDragExit
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_OnTouchDragExit_
+  commentId: Overload:Fantas.UI.VScrollBar.OnTouchDragExit
+  fullName: Fantas.UI.VScrollBar.OnTouchDragExit
+  nameWithType: VScrollBar.OnTouchDragExit
+- uid: Fantas.UI.VScrollBar.OnTouchDragInside(Fantas.Input.TouchEventArgs)
+  name: OnTouchDragInside(TouchEventArgs)
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_OnTouchDragInside_Fantas_Input_TouchEventArgs_
+  commentId: M:Fantas.UI.VScrollBar.OnTouchDragInside(Fantas.Input.TouchEventArgs)
+  fullName: Fantas.UI.VScrollBar.OnTouchDragInside(Fantas.Input.TouchEventArgs)
+  nameWithType: VScrollBar.OnTouchDragInside(TouchEventArgs)
+- uid: Fantas.UI.VScrollBar.OnTouchDragInside*
+  name: OnTouchDragInside
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_OnTouchDragInside_
+  commentId: Overload:Fantas.UI.VScrollBar.OnTouchDragInside
+  fullName: Fantas.UI.VScrollBar.OnTouchDragInside
+  nameWithType: VScrollBar.OnTouchDragInside
+- uid: Fantas.UI.VScrollBar.OnTouchUpInside(Fantas.Input.TouchEventArgs)
+  name: OnTouchUpInside(TouchEventArgs)
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_OnTouchUpInside_Fantas_Input_TouchEventArgs_
+  commentId: M:Fantas.UI.VScrollBar.OnTouchUpInside(Fantas.Input.TouchEventArgs)
+  fullName: Fantas.UI.VScrollBar.OnTouchUpInside(Fantas.Input.TouchEventArgs)
+  nameWithType: VScrollBar.OnTouchUpInside(TouchEventArgs)
+- uid: Fantas.UI.VScrollBar.OnTouchUpInside*
+  name: OnTouchUpInside
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_OnTouchUpInside_
+  commentId: Overload:Fantas.UI.VScrollBar.OnTouchUpInside
+  fullName: Fantas.UI.VScrollBar.OnTouchUpInside
+  nameWithType: VScrollBar.OnTouchUpInside
+- uid: Fantas.UI.VScrollBar.Value
+  name: Value
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_Value
+  commentId: P:Fantas.UI.VScrollBar.Value
+  fullName: Fantas.UI.VScrollBar.Value
+  nameWithType: VScrollBar.Value
+- uid: Fantas.UI.VScrollBar.Value*
+  name: Value
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_Value_
+  commentId: Overload:Fantas.UI.VScrollBar.Value
+  fullName: Fantas.UI.VScrollBar.Value
+  nameWithType: VScrollBar.Value
+- uid: Fantas.UI.VScrollBar.ViewSize
+  name: ViewSize
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_ViewSize
+  commentId: P:Fantas.UI.VScrollBar.ViewSize
+  fullName: Fantas.UI.VScrollBar.ViewSize
+  nameWithType: VScrollBar.ViewSize
+- uid: Fantas.UI.VScrollBar.ViewSize*
+  name: ViewSize
+  href: api/Fantas.UI.VScrollBar.html#Fantas_UI_VScrollBar_ViewSize_
+  commentId: Overload:Fantas.UI.VScrollBar.ViewSize
+  fullName: Fantas.UI.VScrollBar.ViewSize
+  nameWithType: VScrollBar.ViewSize
 - uid: Fantas.Vector2Extensions
   name: Vector2Extensions
   href: api/Fantas.Vector2Extensions.html
@@ -13066,3 +14737,588 @@ references:
   commentId: Overload:Fantas.Vector2Extensions.ToPointF
   fullName: Fantas.Vector2Extensions.ToPointF
   nameWithType: Vector2Extensions.ToPointF
+- uid: System.Numerics
+  name: System.Numerics
+  href: api/System.Numerics.html
+  commentId: N:System.Numerics
+  fullName: System.Numerics
+  nameWithType: System.Numerics
+- uid: System.Numerics.Vector2
+  name: Vector2
+  href: api/System.Numerics.Vector2.html
+  commentId: T:System.Numerics.Vector2
+  fullName: System.Numerics.Vector2
+  nameWithType: Vector2
+- uid: System.Numerics.Vector2.#ctor(System.Single)
+  name: Vector2(float)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2__ctor_System_Single_
+  commentId: M:System.Numerics.Vector2.#ctor(System.Single)
+  name.vb: New(Single)
+  fullName: System.Numerics.Vector2.Vector2(float)
+  fullName.vb: System.Numerics.Vector2.New(Single)
+  nameWithType: Vector2.Vector2(float)
+  nameWithType.vb: Vector2.New(Single)
+- uid: System.Numerics.Vector2.#ctor(System.Single,System.Single)
+  name: Vector2(float, float)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2__ctor_System_Single_System_Single_
+  commentId: M:System.Numerics.Vector2.#ctor(System.Single,System.Single)
+  name.vb: New(Single, Single)
+  fullName: System.Numerics.Vector2.Vector2(float, float)
+  fullName.vb: System.Numerics.Vector2.New(Single, Single)
+  nameWithType: Vector2.Vector2(float, float)
+  nameWithType.vb: Vector2.New(Single, Single)
+- uid: System.Numerics.Vector2.#ctor*
+  name: Vector2
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2__ctor_
+  commentId: Overload:System.Numerics.Vector2.#ctor
+  name.vb: New
+  fullName: System.Numerics.Vector2.Vector2
+  fullName.vb: System.Numerics.Vector2.New
+  nameWithType: Vector2.Vector2
+  nameWithType.vb: Vector2.New
+- uid: System.Numerics.Vector2.Abs(System.Numerics.Vector2)
+  name: Abs(Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Abs_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.Abs(System.Numerics.Vector2)
+  fullName: System.Numerics.Vector2.Abs(System.Numerics.Vector2)
+  nameWithType: Vector2.Abs(Vector2)
+- uid: System.Numerics.Vector2.Abs*
+  name: Abs
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Abs_
+  commentId: Overload:System.Numerics.Vector2.Abs
+  fullName: System.Numerics.Vector2.Abs
+  nameWithType: Vector2.Abs
+- uid: System.Numerics.Vector2.Add(System.Numerics.Vector2,System.Numerics.Vector2)
+  name: Add(Vector2, Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Add_System_Numerics_Vector2_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.Add(System.Numerics.Vector2,System.Numerics.Vector2)
+  fullName: System.Numerics.Vector2.Add(System.Numerics.Vector2, System.Numerics.Vector2)
+  nameWithType: Vector2.Add(Vector2, Vector2)
+- uid: System.Numerics.Vector2.Add*
+  name: Add
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Add_
+  commentId: Overload:System.Numerics.Vector2.Add
+  fullName: System.Numerics.Vector2.Add
+  nameWithType: Vector2.Add
+- uid: System.Numerics.Vector2.Clamp(System.Numerics.Vector2,System.Numerics.Vector2,System.Numerics.Vector2)
+  name: Clamp(Vector2, Vector2, Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Clamp_System_Numerics_Vector2_System_Numerics_Vector2_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.Clamp(System.Numerics.Vector2,System.Numerics.Vector2,System.Numerics.Vector2)
+  fullName: System.Numerics.Vector2.Clamp(System.Numerics.Vector2, System.Numerics.Vector2, System.Numerics.Vector2)
+  nameWithType: Vector2.Clamp(Vector2, Vector2, Vector2)
+- uid: System.Numerics.Vector2.Clamp*
+  name: Clamp
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Clamp_
+  commentId: Overload:System.Numerics.Vector2.Clamp
+  fullName: System.Numerics.Vector2.Clamp
+  nameWithType: Vector2.Clamp
+- uid: System.Numerics.Vector2.CopyTo(System.Single[])
+  name: CopyTo(float[])
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_CopyTo_System_Single___
+  commentId: M:System.Numerics.Vector2.CopyTo(System.Single[])
+  name.vb: CopyTo(Single())
+  fullName: System.Numerics.Vector2.CopyTo(float[])
+  fullName.vb: System.Numerics.Vector2.CopyTo(Single())
+  nameWithType: Vector2.CopyTo(float[])
+  nameWithType.vb: Vector2.CopyTo(Single())
+- uid: System.Numerics.Vector2.CopyTo(System.Single[],System.Int32)
+  name: CopyTo(float[], int)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_CopyTo_System_Single___System_Int32_
+  commentId: M:System.Numerics.Vector2.CopyTo(System.Single[],System.Int32)
+  name.vb: CopyTo(Single(), Integer)
+  fullName: System.Numerics.Vector2.CopyTo(float[], int)
+  fullName.vb: System.Numerics.Vector2.CopyTo(Single(), Integer)
+  nameWithType: Vector2.CopyTo(float[], int)
+  nameWithType.vb: Vector2.CopyTo(Single(), Integer)
+- uid: System.Numerics.Vector2.CopyTo*
+  name: CopyTo
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_CopyTo_
+  commentId: Overload:System.Numerics.Vector2.CopyTo
+  fullName: System.Numerics.Vector2.CopyTo
+  nameWithType: Vector2.CopyTo
+- uid: System.Numerics.Vector2.Distance(System.Numerics.Vector2,System.Numerics.Vector2)
+  name: Distance(Vector2, Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Distance_System_Numerics_Vector2_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.Distance(System.Numerics.Vector2,System.Numerics.Vector2)
+  fullName: System.Numerics.Vector2.Distance(System.Numerics.Vector2, System.Numerics.Vector2)
+  nameWithType: Vector2.Distance(Vector2, Vector2)
+- uid: System.Numerics.Vector2.Distance*
+  name: Distance
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Distance_
+  commentId: Overload:System.Numerics.Vector2.Distance
+  fullName: System.Numerics.Vector2.Distance
+  nameWithType: Vector2.Distance
+- uid: System.Numerics.Vector2.DistanceSquared(System.Numerics.Vector2,System.Numerics.Vector2)
+  name: DistanceSquared(Vector2, Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_DistanceSquared_System_Numerics_Vector2_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.DistanceSquared(System.Numerics.Vector2,System.Numerics.Vector2)
+  fullName: System.Numerics.Vector2.DistanceSquared(System.Numerics.Vector2, System.Numerics.Vector2)
+  nameWithType: Vector2.DistanceSquared(Vector2, Vector2)
+- uid: System.Numerics.Vector2.DistanceSquared*
+  name: DistanceSquared
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_DistanceSquared_
+  commentId: Overload:System.Numerics.Vector2.DistanceSquared
+  fullName: System.Numerics.Vector2.DistanceSquared
+  nameWithType: Vector2.DistanceSquared
+- uid: System.Numerics.Vector2.Divide(System.Numerics.Vector2,System.Numerics.Vector2)
+  name: Divide(Vector2, Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Divide_System_Numerics_Vector2_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.Divide(System.Numerics.Vector2,System.Numerics.Vector2)
+  fullName: System.Numerics.Vector2.Divide(System.Numerics.Vector2, System.Numerics.Vector2)
+  nameWithType: Vector2.Divide(Vector2, Vector2)
+- uid: System.Numerics.Vector2.Divide(System.Numerics.Vector2,System.Single)
+  name: Divide(Vector2, float)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Divide_System_Numerics_Vector2_System_Single_
+  commentId: M:System.Numerics.Vector2.Divide(System.Numerics.Vector2,System.Single)
+  name.vb: Divide(Vector2, Single)
+  fullName: System.Numerics.Vector2.Divide(System.Numerics.Vector2, float)
+  fullName.vb: System.Numerics.Vector2.Divide(System.Numerics.Vector2, Single)
+  nameWithType: Vector2.Divide(Vector2, float)
+  nameWithType.vb: Vector2.Divide(Vector2, Single)
+- uid: System.Numerics.Vector2.Divide*
+  name: Divide
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Divide_
+  commentId: Overload:System.Numerics.Vector2.Divide
+  fullName: System.Numerics.Vector2.Divide
+  nameWithType: Vector2.Divide
+- uid: System.Numerics.Vector2.Dot(System.Numerics.Vector2,System.Numerics.Vector2)
+  name: Dot(Vector2, Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Dot_System_Numerics_Vector2_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.Dot(System.Numerics.Vector2,System.Numerics.Vector2)
+  fullName: System.Numerics.Vector2.Dot(System.Numerics.Vector2, System.Numerics.Vector2)
+  nameWithType: Vector2.Dot(Vector2, Vector2)
+- uid: System.Numerics.Vector2.Dot*
+  name: Dot
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Dot_
+  commentId: Overload:System.Numerics.Vector2.Dot
+  fullName: System.Numerics.Vector2.Dot
+  nameWithType: Vector2.Dot
+- uid: System.Numerics.Vector2.Equals(System.Numerics.Vector2)
+  name: Equals(Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Equals_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.Equals(System.Numerics.Vector2)
+  fullName: System.Numerics.Vector2.Equals(System.Numerics.Vector2)
+  nameWithType: Vector2.Equals(Vector2)
+- uid: System.Numerics.Vector2.Equals(System.Object)
+  name: Equals(object)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Equals_System_Object_
+  commentId: M:System.Numerics.Vector2.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: System.Numerics.Vector2.Equals(object)
+  fullName.vb: System.Numerics.Vector2.Equals(Object)
+  nameWithType: Vector2.Equals(object)
+  nameWithType.vb: Vector2.Equals(Object)
+- uid: System.Numerics.Vector2.Equals*
+  name: Equals
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Equals_
+  commentId: Overload:System.Numerics.Vector2.Equals
+  fullName: System.Numerics.Vector2.Equals
+  nameWithType: Vector2.Equals
+- uid: System.Numerics.Vector2.GetHashCode
+  name: GetHashCode()
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_GetHashCode
+  commentId: M:System.Numerics.Vector2.GetHashCode
+  fullName: System.Numerics.Vector2.GetHashCode()
+  nameWithType: Vector2.GetHashCode()
+- uid: System.Numerics.Vector2.GetHashCode*
+  name: GetHashCode
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_GetHashCode_
+  commentId: Overload:System.Numerics.Vector2.GetHashCode
+  fullName: System.Numerics.Vector2.GetHashCode
+  nameWithType: Vector2.GetHashCode
+- uid: System.Numerics.Vector2.Length
+  name: Length()
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Length
+  commentId: M:System.Numerics.Vector2.Length
+  fullName: System.Numerics.Vector2.Length()
+  nameWithType: Vector2.Length()
+- uid: System.Numerics.Vector2.Length*
+  name: Length
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Length_
+  commentId: Overload:System.Numerics.Vector2.Length
+  fullName: System.Numerics.Vector2.Length
+  nameWithType: Vector2.Length
+- uid: System.Numerics.Vector2.LengthSquared
+  name: LengthSquared()
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_LengthSquared
+  commentId: M:System.Numerics.Vector2.LengthSquared
+  fullName: System.Numerics.Vector2.LengthSquared()
+  nameWithType: Vector2.LengthSquared()
+- uid: System.Numerics.Vector2.LengthSquared*
+  name: LengthSquared
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_LengthSquared_
+  commentId: Overload:System.Numerics.Vector2.LengthSquared
+  fullName: System.Numerics.Vector2.LengthSquared
+  nameWithType: Vector2.LengthSquared
+- uid: System.Numerics.Vector2.Lerp(System.Numerics.Vector2,System.Numerics.Vector2,System.Single)
+  name: Lerp(Vector2, Vector2, float)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Lerp_System_Numerics_Vector2_System_Numerics_Vector2_System_Single_
+  commentId: M:System.Numerics.Vector2.Lerp(System.Numerics.Vector2,System.Numerics.Vector2,System.Single)
+  name.vb: Lerp(Vector2, Vector2, Single)
+  fullName: System.Numerics.Vector2.Lerp(System.Numerics.Vector2, System.Numerics.Vector2, float)
+  fullName.vb: System.Numerics.Vector2.Lerp(System.Numerics.Vector2, System.Numerics.Vector2, Single)
+  nameWithType: Vector2.Lerp(Vector2, Vector2, float)
+  nameWithType.vb: Vector2.Lerp(Vector2, Vector2, Single)
+- uid: System.Numerics.Vector2.Lerp*
+  name: Lerp
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Lerp_
+  commentId: Overload:System.Numerics.Vector2.Lerp
+  fullName: System.Numerics.Vector2.Lerp
+  nameWithType: Vector2.Lerp
+- uid: System.Numerics.Vector2.Max(System.Numerics.Vector2,System.Numerics.Vector2)
+  name: Max(Vector2, Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Max_System_Numerics_Vector2_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.Max(System.Numerics.Vector2,System.Numerics.Vector2)
+  fullName: System.Numerics.Vector2.Max(System.Numerics.Vector2, System.Numerics.Vector2)
+  nameWithType: Vector2.Max(Vector2, Vector2)
+- uid: System.Numerics.Vector2.Max*
+  name: Max
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Max_
+  commentId: Overload:System.Numerics.Vector2.Max
+  fullName: System.Numerics.Vector2.Max
+  nameWithType: Vector2.Max
+- uid: System.Numerics.Vector2.Min(System.Numerics.Vector2,System.Numerics.Vector2)
+  name: Min(Vector2, Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Min_System_Numerics_Vector2_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.Min(System.Numerics.Vector2,System.Numerics.Vector2)
+  fullName: System.Numerics.Vector2.Min(System.Numerics.Vector2, System.Numerics.Vector2)
+  nameWithType: Vector2.Min(Vector2, Vector2)
+- uid: System.Numerics.Vector2.Min*
+  name: Min
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Min_
+  commentId: Overload:System.Numerics.Vector2.Min
+  fullName: System.Numerics.Vector2.Min
+  nameWithType: Vector2.Min
+- uid: System.Numerics.Vector2.Multiply(System.Numerics.Vector2,System.Numerics.Vector2)
+  name: Multiply(Vector2, Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Multiply_System_Numerics_Vector2_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.Multiply(System.Numerics.Vector2,System.Numerics.Vector2)
+  fullName: System.Numerics.Vector2.Multiply(System.Numerics.Vector2, System.Numerics.Vector2)
+  nameWithType: Vector2.Multiply(Vector2, Vector2)
+- uid: System.Numerics.Vector2.Multiply(System.Numerics.Vector2,System.Single)
+  name: Multiply(Vector2, float)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Multiply_System_Numerics_Vector2_System_Single_
+  commentId: M:System.Numerics.Vector2.Multiply(System.Numerics.Vector2,System.Single)
+  name.vb: Multiply(Vector2, Single)
+  fullName: System.Numerics.Vector2.Multiply(System.Numerics.Vector2, float)
+  fullName.vb: System.Numerics.Vector2.Multiply(System.Numerics.Vector2, Single)
+  nameWithType: Vector2.Multiply(Vector2, float)
+  nameWithType.vb: Vector2.Multiply(Vector2, Single)
+- uid: System.Numerics.Vector2.Multiply(System.Single,System.Numerics.Vector2)
+  name: Multiply(float, Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Multiply_System_Single_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.Multiply(System.Single,System.Numerics.Vector2)
+  name.vb: Multiply(Single, Vector2)
+  fullName: System.Numerics.Vector2.Multiply(float, System.Numerics.Vector2)
+  fullName.vb: System.Numerics.Vector2.Multiply(Single, System.Numerics.Vector2)
+  nameWithType: Vector2.Multiply(float, Vector2)
+  nameWithType.vb: Vector2.Multiply(Single, Vector2)
+- uid: System.Numerics.Vector2.Multiply*
+  name: Multiply
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Multiply_
+  commentId: Overload:System.Numerics.Vector2.Multiply
+  fullName: System.Numerics.Vector2.Multiply
+  nameWithType: Vector2.Multiply
+- uid: System.Numerics.Vector2.Negate(System.Numerics.Vector2)
+  name: Negate(Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Negate_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.Negate(System.Numerics.Vector2)
+  fullName: System.Numerics.Vector2.Negate(System.Numerics.Vector2)
+  nameWithType: Vector2.Negate(Vector2)
+- uid: System.Numerics.Vector2.Negate*
+  name: Negate
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Negate_
+  commentId: Overload:System.Numerics.Vector2.Negate
+  fullName: System.Numerics.Vector2.Negate
+  nameWithType: Vector2.Negate
+- uid: System.Numerics.Vector2.Normalize(System.Numerics.Vector2)
+  name: Normalize(Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Normalize_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.Normalize(System.Numerics.Vector2)
+  fullName: System.Numerics.Vector2.Normalize(System.Numerics.Vector2)
+  nameWithType: Vector2.Normalize(Vector2)
+- uid: System.Numerics.Vector2.Normalize*
+  name: Normalize
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Normalize_
+  commentId: Overload:System.Numerics.Vector2.Normalize
+  fullName: System.Numerics.Vector2.Normalize
+  nameWithType: Vector2.Normalize
+- uid: System.Numerics.Vector2.One
+  name: One
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_One
+  commentId: P:System.Numerics.Vector2.One
+  fullName: System.Numerics.Vector2.One
+  nameWithType: Vector2.One
+- uid: System.Numerics.Vector2.One*
+  name: One
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_One_
+  commentId: Overload:System.Numerics.Vector2.One
+  fullName: System.Numerics.Vector2.One
+  nameWithType: Vector2.One
+- uid: System.Numerics.Vector2.Reflect(System.Numerics.Vector2,System.Numerics.Vector2)
+  name: Reflect(Vector2, Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Reflect_System_Numerics_Vector2_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.Reflect(System.Numerics.Vector2,System.Numerics.Vector2)
+  fullName: System.Numerics.Vector2.Reflect(System.Numerics.Vector2, System.Numerics.Vector2)
+  nameWithType: Vector2.Reflect(Vector2, Vector2)
+- uid: System.Numerics.Vector2.Reflect*
+  name: Reflect
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Reflect_
+  commentId: Overload:System.Numerics.Vector2.Reflect
+  fullName: System.Numerics.Vector2.Reflect
+  nameWithType: Vector2.Reflect
+- uid: System.Numerics.Vector2.SquareRoot(System.Numerics.Vector2)
+  name: SquareRoot(Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_SquareRoot_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.SquareRoot(System.Numerics.Vector2)
+  fullName: System.Numerics.Vector2.SquareRoot(System.Numerics.Vector2)
+  nameWithType: Vector2.SquareRoot(Vector2)
+- uid: System.Numerics.Vector2.SquareRoot*
+  name: SquareRoot
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_SquareRoot_
+  commentId: Overload:System.Numerics.Vector2.SquareRoot
+  fullName: System.Numerics.Vector2.SquareRoot
+  nameWithType: Vector2.SquareRoot
+- uid: System.Numerics.Vector2.Subtract(System.Numerics.Vector2,System.Numerics.Vector2)
+  name: Subtract(Vector2, Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Subtract_System_Numerics_Vector2_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.Subtract(System.Numerics.Vector2,System.Numerics.Vector2)
+  fullName: System.Numerics.Vector2.Subtract(System.Numerics.Vector2, System.Numerics.Vector2)
+  nameWithType: Vector2.Subtract(Vector2, Vector2)
+- uid: System.Numerics.Vector2.Subtract*
+  name: Subtract
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Subtract_
+  commentId: Overload:System.Numerics.Vector2.Subtract
+  fullName: System.Numerics.Vector2.Subtract
+  nameWithType: Vector2.Subtract
+- uid: System.Numerics.Vector2.ToString
+  name: ToString()
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_ToString
+  commentId: M:System.Numerics.Vector2.ToString
+  fullName: System.Numerics.Vector2.ToString()
+  nameWithType: Vector2.ToString()
+- uid: System.Numerics.Vector2.ToString(System.String)
+  name: ToString(string)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_ToString_System_String_
+  commentId: M:System.Numerics.Vector2.ToString(System.String)
+  name.vb: ToString(String)
+  fullName: System.Numerics.Vector2.ToString(string)
+  fullName.vb: System.Numerics.Vector2.ToString(String)
+  nameWithType: Vector2.ToString(string)
+  nameWithType.vb: Vector2.ToString(String)
+- uid: System.Numerics.Vector2.ToString(System.String,System.IFormatProvider)
+  name: ToString(string, IFormatProvider)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_ToString_System_String_System_IFormatProvider_
+  commentId: M:System.Numerics.Vector2.ToString(System.String,System.IFormatProvider)
+  name.vb: ToString(String, IFormatProvider)
+  fullName: System.Numerics.Vector2.ToString(string, System.IFormatProvider)
+  fullName.vb: System.Numerics.Vector2.ToString(String, System.IFormatProvider)
+  nameWithType: Vector2.ToString(string, IFormatProvider)
+  nameWithType.vb: Vector2.ToString(String, IFormatProvider)
+- uid: System.Numerics.Vector2.ToString*
+  name: ToString
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_ToString_
+  commentId: Overload:System.Numerics.Vector2.ToString
+  fullName: System.Numerics.Vector2.ToString
+  nameWithType: Vector2.ToString
+- uid: System.Numerics.Vector2.UnitX
+  name: UnitX
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_UnitX
+  commentId: P:System.Numerics.Vector2.UnitX
+  fullName: System.Numerics.Vector2.UnitX
+  nameWithType: Vector2.UnitX
+- uid: System.Numerics.Vector2.UnitX*
+  name: UnitX
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_UnitX_
+  commentId: Overload:System.Numerics.Vector2.UnitX
+  fullName: System.Numerics.Vector2.UnitX
+  nameWithType: Vector2.UnitX
+- uid: System.Numerics.Vector2.UnitY
+  name: UnitY
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_UnitY
+  commentId: P:System.Numerics.Vector2.UnitY
+  fullName: System.Numerics.Vector2.UnitY
+  nameWithType: Vector2.UnitY
+- uid: System.Numerics.Vector2.UnitY*
+  name: UnitY
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_UnitY_
+  commentId: Overload:System.Numerics.Vector2.UnitY
+  fullName: System.Numerics.Vector2.UnitY
+  nameWithType: Vector2.UnitY
+- uid: System.Numerics.Vector2.X
+  name: X
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_X
+  commentId: F:System.Numerics.Vector2.X
+  fullName: System.Numerics.Vector2.X
+  nameWithType: Vector2.X
+- uid: System.Numerics.Vector2.Y
+  name: Y
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Y
+  commentId: F:System.Numerics.Vector2.Y
+  fullName: System.Numerics.Vector2.Y
+  nameWithType: Vector2.Y
+- uid: System.Numerics.Vector2.Zero
+  name: Zero
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Zero
+  commentId: P:System.Numerics.Vector2.Zero
+  fullName: System.Numerics.Vector2.Zero
+  nameWithType: Vector2.Zero
+- uid: System.Numerics.Vector2.Zero*
+  name: Zero
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_Zero_
+  commentId: Overload:System.Numerics.Vector2.Zero
+  fullName: System.Numerics.Vector2.Zero
+  nameWithType: Vector2.Zero
+- uid: System.Numerics.Vector2.op_Addition(System.Numerics.Vector2,System.Numerics.Vector2)
+  name: operator +(Vector2, Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_op_Addition_System_Numerics_Vector2_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.op_Addition(System.Numerics.Vector2,System.Numerics.Vector2)
+  name.vb: +(Vector2, Vector2)
+  fullName: System.Numerics.Vector2.operator +(System.Numerics.Vector2, System.Numerics.Vector2)
+  fullName.vb: System.Numerics.Vector2.+(System.Numerics.Vector2, System.Numerics.Vector2)
+  nameWithType: Vector2.operator +(Vector2, Vector2)
+  nameWithType.vb: Vector2.+(Vector2, Vector2)
+- uid: System.Numerics.Vector2.op_Addition*
+  name: operator +
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_op_Addition_
+  commentId: Overload:System.Numerics.Vector2.op_Addition
+  name.vb: +
+  fullName: System.Numerics.Vector2.operator +
+  fullName.vb: System.Numerics.Vector2.+
+  nameWithType: Vector2.operator +
+  nameWithType.vb: Vector2.+
+- uid: System.Numerics.Vector2.op_Division(System.Numerics.Vector2,System.Numerics.Vector2)
+  name: operator /(Vector2, Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_op_Division_System_Numerics_Vector2_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.op_Division(System.Numerics.Vector2,System.Numerics.Vector2)
+  name.vb: /(Vector2, Vector2)
+  fullName: System.Numerics.Vector2.operator /(System.Numerics.Vector2, System.Numerics.Vector2)
+  fullName.vb: System.Numerics.Vector2./(System.Numerics.Vector2, System.Numerics.Vector2)
+  nameWithType: Vector2.operator /(Vector2, Vector2)
+  nameWithType.vb: Vector2./(Vector2, Vector2)
+- uid: System.Numerics.Vector2.op_Division(System.Numerics.Vector2,System.Single)
+  name: operator /(Vector2, float)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_op_Division_System_Numerics_Vector2_System_Single_
+  commentId: M:System.Numerics.Vector2.op_Division(System.Numerics.Vector2,System.Single)
+  name.vb: /(Vector2, Single)
+  fullName: System.Numerics.Vector2.operator /(System.Numerics.Vector2, float)
+  fullName.vb: System.Numerics.Vector2./(System.Numerics.Vector2, Single)
+  nameWithType: Vector2.operator /(Vector2, float)
+  nameWithType.vb: Vector2./(Vector2, Single)
+- uid: System.Numerics.Vector2.op_Division*
+  name: operator /
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_op_Division_
+  commentId: Overload:System.Numerics.Vector2.op_Division
+  name.vb: /
+  fullName: System.Numerics.Vector2.operator /
+  fullName.vb: System.Numerics.Vector2./
+  nameWithType: Vector2.operator /
+  nameWithType.vb: Vector2./
+- uid: System.Numerics.Vector2.op_Equality(System.Numerics.Vector2,System.Numerics.Vector2)
+  name: operator ==(Vector2, Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_op_Equality_System_Numerics_Vector2_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.op_Equality(System.Numerics.Vector2,System.Numerics.Vector2)
+  name.vb: =(Vector2, Vector2)
+  fullName: System.Numerics.Vector2.operator ==(System.Numerics.Vector2, System.Numerics.Vector2)
+  fullName.vb: System.Numerics.Vector2.=(System.Numerics.Vector2, System.Numerics.Vector2)
+  nameWithType: Vector2.operator ==(Vector2, Vector2)
+  nameWithType.vb: Vector2.=(Vector2, Vector2)
+- uid: System.Numerics.Vector2.op_Equality*
+  name: operator ==
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_op_Equality_
+  commentId: Overload:System.Numerics.Vector2.op_Equality
+  name.vb: =
+  fullName: System.Numerics.Vector2.operator ==
+  fullName.vb: System.Numerics.Vector2.=
+  nameWithType: Vector2.operator ==
+  nameWithType.vb: Vector2.=
+- uid: System.Numerics.Vector2.op_Inequality(System.Numerics.Vector2,System.Numerics.Vector2)
+  name: operator !=(Vector2, Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_op_Inequality_System_Numerics_Vector2_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.op_Inequality(System.Numerics.Vector2,System.Numerics.Vector2)
+  name.vb: <>(Vector2, Vector2)
+  fullName: System.Numerics.Vector2.operator !=(System.Numerics.Vector2, System.Numerics.Vector2)
+  fullName.vb: System.Numerics.Vector2.<>(System.Numerics.Vector2, System.Numerics.Vector2)
+  nameWithType: Vector2.operator !=(Vector2, Vector2)
+  nameWithType.vb: Vector2.<>(Vector2, Vector2)
+- uid: System.Numerics.Vector2.op_Inequality*
+  name: operator !=
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_op_Inequality_
+  commentId: Overload:System.Numerics.Vector2.op_Inequality
+  name.vb: <>
+  fullName: System.Numerics.Vector2.operator !=
+  fullName.vb: System.Numerics.Vector2.<>
+  nameWithType: Vector2.operator !=
+  nameWithType.vb: Vector2.<>
+- uid: System.Numerics.Vector2.op_Multiply(System.Numerics.Vector2,System.Numerics.Vector2)
+  name: operator *(Vector2, Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_op_Multiply_System_Numerics_Vector2_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.op_Multiply(System.Numerics.Vector2,System.Numerics.Vector2)
+  name.vb: '*(Vector2, Vector2)'
+  fullName: System.Numerics.Vector2.operator *(System.Numerics.Vector2, System.Numerics.Vector2)
+  fullName.vb: System.Numerics.Vector2.*(System.Numerics.Vector2, System.Numerics.Vector2)
+  nameWithType: Vector2.operator *(Vector2, Vector2)
+  nameWithType.vb: Vector2.*(Vector2, Vector2)
+- uid: System.Numerics.Vector2.op_Multiply(System.Numerics.Vector2,System.Single)
+  name: operator *(Vector2, float)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_op_Multiply_System_Numerics_Vector2_System_Single_
+  commentId: M:System.Numerics.Vector2.op_Multiply(System.Numerics.Vector2,System.Single)
+  name.vb: '*(Vector2, Single)'
+  fullName: System.Numerics.Vector2.operator *(System.Numerics.Vector2, float)
+  fullName.vb: System.Numerics.Vector2.*(System.Numerics.Vector2, Single)
+  nameWithType: Vector2.operator *(Vector2, float)
+  nameWithType.vb: Vector2.*(Vector2, Single)
+- uid: System.Numerics.Vector2.op_Multiply(System.Single,System.Numerics.Vector2)
+  name: operator *(float, Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_op_Multiply_System_Single_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.op_Multiply(System.Single,System.Numerics.Vector2)
+  name.vb: '*(Single, Vector2)'
+  fullName: System.Numerics.Vector2.operator *(float, System.Numerics.Vector2)
+  fullName.vb: System.Numerics.Vector2.*(Single, System.Numerics.Vector2)
+  nameWithType: Vector2.operator *(float, Vector2)
+  nameWithType.vb: Vector2.*(Single, Vector2)
+- uid: System.Numerics.Vector2.op_Multiply*
+  name: operator *
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_op_Multiply_
+  commentId: Overload:System.Numerics.Vector2.op_Multiply
+  name.vb: '*'
+  fullName: System.Numerics.Vector2.operator *
+  fullName.vb: System.Numerics.Vector2.*
+  nameWithType: Vector2.operator *
+  nameWithType.vb: Vector2.*
+- uid: System.Numerics.Vector2.op_Subtraction(System.Numerics.Vector2,System.Numerics.Vector2)
+  name: operator -(Vector2, Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_op_Subtraction_System_Numerics_Vector2_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.op_Subtraction(System.Numerics.Vector2,System.Numerics.Vector2)
+  name.vb: -(Vector2, Vector2)
+  fullName: System.Numerics.Vector2.operator -(System.Numerics.Vector2, System.Numerics.Vector2)
+  fullName.vb: System.Numerics.Vector2.-(System.Numerics.Vector2, System.Numerics.Vector2)
+  nameWithType: Vector2.operator -(Vector2, Vector2)
+  nameWithType.vb: Vector2.-(Vector2, Vector2)
+- uid: System.Numerics.Vector2.op_Subtraction*
+  name: operator -
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_op_Subtraction_
+  commentId: Overload:System.Numerics.Vector2.op_Subtraction
+  name.vb: '-'
+  fullName: System.Numerics.Vector2.operator -
+  fullName.vb: System.Numerics.Vector2.-
+  nameWithType: Vector2.operator -
+  nameWithType.vb: Vector2.-
+- uid: System.Numerics.Vector2.op_UnaryNegation(System.Numerics.Vector2)
+  name: operator -(Vector2)
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_op_UnaryNegation_System_Numerics_Vector2_
+  commentId: M:System.Numerics.Vector2.op_UnaryNegation(System.Numerics.Vector2)
+  name.vb: -(Vector2)
+  fullName: System.Numerics.Vector2.operator -(System.Numerics.Vector2)
+  fullName.vb: System.Numerics.Vector2.-(System.Numerics.Vector2)
+  nameWithType: Vector2.operator -(Vector2)
+  nameWithType.vb: Vector2.-(Vector2)
+- uid: System.Numerics.Vector2.op_UnaryNegation*
+  name: operator -
+  href: api/System.Numerics.Vector2.html#System_Numerics_Vector2_op_UnaryNegation_
+  commentId: Overload:System.Numerics.Vector2.op_UnaryNegation
+  name.vb: '-'
+  fullName: System.Numerics.Vector2.operator -
+  fullName.vb: System.Numerics.Vector2.-
+  nameWithType: Vector2.operator -
+  nameWithType.vb: Vector2.-

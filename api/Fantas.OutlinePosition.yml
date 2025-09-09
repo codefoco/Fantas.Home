@@ -15,33 +15,47 @@ items:
   - Fantas.OutlinePosition.Top
   - Fantas.OutlinePosition.TopLeft
   - Fantas.OutlinePosition.TopRight
+  - Fantas.OutlinePosition.value__
   langs:
   - csharp
   - vb
   name: OutlinePosition
   nameWithType: OutlinePosition
   fullName: Fantas.OutlinePosition
-  type: Enum
+  type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/OutlinePosition.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/OutlinePosition.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Outline Position Flags
   example: []
   syntax:
-    content: >-
-      [Flags]
-
-      public enum OutlinePosition
-    content.vb: >-
-      <Flags>
-
-      Public Enum OutlinePosition
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+    content: 'public sealed class OutlinePosition : Enum'
+    content.vb: Public NotInheritable Class OutlinePosition Inherits Enum
+  inheritance:
+  - System.Object
+- uid: Fantas.OutlinePosition.value__
+  commentId: F:Fantas.OutlinePosition.value__
+  id: value__
+  parent: Fantas.OutlinePosition
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: OutlinePosition.value__
+  fullName: Fantas.OutlinePosition.value__
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/OutlinePosition.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
 - uid: Fantas.OutlinePosition.None
   commentId: F:Fantas.OutlinePosition.None
   id: None
@@ -54,16 +68,17 @@ items:
   fullName: Fantas.OutlinePosition.None
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/OutlinePosition.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/OutlinePosition.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: No outline
   example: []
   syntax:
-    content: None = 0
+    content: public const OutlinePosition None = 0
     return:
       type: Fantas.OutlinePosition
+    content.vb: Public Const None As OutlinePosition = 0
 - uid: Fantas.OutlinePosition.TopLeft
   commentId: F:Fantas.OutlinePosition.TopLeft
   id: TopLeft
@@ -76,16 +91,17 @@ items:
   fullName: Fantas.OutlinePosition.TopLeft
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/OutlinePosition.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/OutlinePosition.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: TopLeft outline
   example: []
   syntax:
-    content: TopLeft = 1
+    content: public const OutlinePosition TopLeft = 1
     return:
       type: Fantas.OutlinePosition
+    content.vb: Public Const TopLeft As OutlinePosition = 1
 - uid: Fantas.OutlinePosition.Top
   commentId: F:Fantas.OutlinePosition.Top
   id: Top
@@ -98,16 +114,17 @@ items:
   fullName: Fantas.OutlinePosition.Top
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/OutlinePosition.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/OutlinePosition.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Top
   example: []
   syntax:
-    content: Top = 2
+    content: public const OutlinePosition Top = 2
     return:
       type: Fantas.OutlinePosition
+    content.vb: Public Const Top As OutlinePosition = 2
 - uid: Fantas.OutlinePosition.TopRight
   commentId: F:Fantas.OutlinePosition.TopRight
   id: TopRight
@@ -120,16 +137,17 @@ items:
   fullName: Fantas.OutlinePosition.TopRight
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/OutlinePosition.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/OutlinePosition.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: TopRight
   example: []
   syntax:
-    content: TopRight = 4
+    content: public const OutlinePosition TopRight = 4
     return:
       type: Fantas.OutlinePosition
+    content.vb: Public Const TopRight As OutlinePosition = 4
 - uid: Fantas.OutlinePosition.Right
   commentId: F:Fantas.OutlinePosition.Right
   id: Right
@@ -142,16 +160,17 @@ items:
   fullName: Fantas.OutlinePosition.Right
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/OutlinePosition.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/OutlinePosition.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Right
   example: []
   syntax:
-    content: Right = 8
+    content: public const OutlinePosition Right = 8
     return:
       type: Fantas.OutlinePosition
+    content.vb: Public Const Right As OutlinePosition = 8
 - uid: Fantas.OutlinePosition.BottomRight
   commentId: F:Fantas.OutlinePosition.BottomRight
   id: BottomRight
@@ -164,16 +183,17 @@ items:
   fullName: Fantas.OutlinePosition.BottomRight
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/OutlinePosition.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/OutlinePosition.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: BottomRight
   example: []
   syntax:
-    content: BottomRight = 16
+    content: public const OutlinePosition BottomRight = 16
     return:
       type: Fantas.OutlinePosition
+    content.vb: Public Const BottomRight As OutlinePosition = 16
 - uid: Fantas.OutlinePosition.Bottom
   commentId: F:Fantas.OutlinePosition.Bottom
   id: Bottom
@@ -186,16 +206,17 @@ items:
   fullName: Fantas.OutlinePosition.Bottom
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/OutlinePosition.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/OutlinePosition.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Bottom
   example: []
   syntax:
-    content: Bottom = 32
+    content: public const OutlinePosition Bottom = 32
     return:
       type: Fantas.OutlinePosition
+    content.vb: Public Const Bottom As OutlinePosition = 32
 - uid: Fantas.OutlinePosition.BottomLeft
   commentId: F:Fantas.OutlinePosition.BottomLeft
   id: BottomLeft
@@ -208,16 +229,17 @@ items:
   fullName: Fantas.OutlinePosition.BottomLeft
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/OutlinePosition.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/OutlinePosition.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: BottomLeft
   example: []
   syntax:
-    content: BottomLeft = 64
+    content: public const OutlinePosition BottomLeft = 64
     return:
       type: Fantas.OutlinePosition
+    content.vb: Public Const BottomLeft As OutlinePosition = 64
 - uid: Fantas.OutlinePosition.Left
   commentId: F:Fantas.OutlinePosition.Left
   id: Left
@@ -230,16 +252,17 @@ items:
   fullName: Fantas.OutlinePosition.Left
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/OutlinePosition.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/OutlinePosition.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Left
   example: []
   syntax:
-    content: Left = 128
+    content: public const OutlinePosition Left = 128
     return:
       type: Fantas.OutlinePosition
+    content.vb: Public Const Left As OutlinePosition = 128
 - uid: Fantas.OutlinePosition.All
   commentId: F:Fantas.OutlinePosition.All
   id: All
@@ -252,17 +275,17 @@ items:
   fullName: Fantas.OutlinePosition.All
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/OutlinePosition.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/OutlinePosition.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: ''
   example: []
   syntax:
-    content: All = TopLeft | Top | TopRight | Right | BottomRight | Bottom | BottomLeft | Left
+    content: public const OutlinePosition All = 255
     return:
       type: Fantas.OutlinePosition
-    content.vb: All = TopLeft Or Top Or TopRight Or Right Or BottomRight Or Bottom Or BottomLeft Or Left
+    content.vb: Public Const All As OutlinePosition = 255
 references:
 - uid: Fantas
   commentId: N:Fantas
@@ -271,6 +294,35 @@ references:
   name: Fantas
   nameWithType: Fantas
   fullName: Fantas
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Fantas.OutlinePosition
   commentId: T:Fantas.OutlinePosition
   parent: Fantas

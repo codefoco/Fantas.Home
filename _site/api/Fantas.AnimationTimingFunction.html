@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Delegate AnimationTimingFunction | Fantas </title>
+      <title>Class AnimationTimingFunction | Fantas </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Delegate AnimationTimingFunction | Fantas ">
+      <meta name="title" content="Class AnimationTimingFunction | Fantas ">
       
       <meta name="description" content="Delegate used to customize timing function">
       <link rel="icon" href="../favicon.ico">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Fantas_AnimationTimingFunction" data-uid="Fantas.AnimationTimingFunction" class="text-break">
-Delegate AnimationTimingFunction  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingFunction.cs"><i class="bi bi-code-slash"></i></a>
+Class AnimationTimingFunction  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingFunction.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,22 +102,19 @@ Delegate AnimationTimingFunction  <a class="header-action link-secondary" title=
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate float AnimationTimingFunction(float time)</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class AnimationTimingFunction : MulticastDelegate</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">AnimationTimingFunction</span></div>
+    </dd>
   </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
-  </dl>
-
-
 
 
 
@@ -135,7 +132,7 @@ Delegate AnimationTimingFunction  <a class="header-action link-secondary" title=
 
   <h3 id="Fantas_AnimationTimingFunction__ctor_System_Object_System_IntPtr_" data-uid="Fantas.AnimationTimingFunction.#ctor(System.Object,System.IntPtr)">
   AnimationTimingFunction(object, nint)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingFunction.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingFunction.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -172,7 +169,7 @@ Delegate AnimationTimingFunction  <a class="header-action link-secondary" title=
 
   <h3 id="Fantas_AnimationTimingFunction_BeginInvoke_System_Single_System_AsyncCallback_System_Object_" data-uid="Fantas.AnimationTimingFunction.BeginInvoke(System.Single,System.AsyncCallback,System.Object)">
   BeginInvoke(float, AsyncCallback, object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingFunction.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingFunction.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -212,7 +209,7 @@ Delegate AnimationTimingFunction  <a class="header-action link-secondary" title=
 
   <h3 id="Fantas_AnimationTimingFunction_EndInvoke_System_IAsyncResult_" data-uid="Fantas.AnimationTimingFunction.EndInvoke(System.IAsyncResult)">
   EndInvoke(IAsyncResult)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingFunction.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingFunction.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -248,7 +245,7 @@ Delegate AnimationTimingFunction  <a class="header-action link-secondary" title=
 
   <h3 id="Fantas_AnimationTimingFunction_Invoke_System_Single_" data-uid="Fantas.AnimationTimingFunction.Invoke(System.Single)">
   Invoke(float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingFunction.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingFunction.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -284,7 +281,7 @@ Delegate AnimationTimingFunction  <a class="header-action link-secondary" title=
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingFunction.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingFunction.cs" class="edit-link">Edit this page</a>
         </div>
 
 

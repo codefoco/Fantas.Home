@@ -15,24 +15,19 @@ items:
   name: AnimationTimingFunction
   nameWithType: AnimationTimingFunction
   fullName: Fantas.AnimationTimingFunction
-  type: Delegate
+  type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingFunction.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingFunction.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Delegate used to customize timing function
   example: []
   syntax:
-    content: public delegate float AnimationTimingFunction(float time)
-    parameters:
-    - id: time
-      type: System.Single
-      description: ''
-    return:
-      type: System.Single
-      description: ''
-    content.vb: Public Delegate Function AnimationTimingFunction(time As Single) As Single
+    content: 'public sealed class AnimationTimingFunction : MulticastDelegate'
+    content.vb: Public NotInheritable Class AnimationTimingFunction Inherits MulticastDelegate
+  inheritance:
+  - System.Object
 - uid: Fantas.AnimationTimingFunction.#ctor(System.Object,System.IntPtr)
   commentId: M:Fantas.AnimationTimingFunction.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -45,7 +40,7 @@ items:
   fullName: Fantas.AnimationTimingFunction.AnimationTimingFunction(object, nint)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingFunction.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingFunction.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -73,7 +68,7 @@ items:
   fullName: Fantas.AnimationTimingFunction.Invoke(float)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingFunction.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingFunction.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -101,7 +96,7 @@ items:
   fullName: Fantas.AnimationTimingFunction.BeginInvoke(float, System.AsyncCallback, object)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingFunction.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingFunction.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -133,7 +128,7 @@ items:
   fullName: Fantas.AnimationTimingFunction.EndInvoke(System.IAsyncResult)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingFunction.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingFunction.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -154,17 +149,17 @@ references:
   name: Fantas
   nameWithType: Fantas
   fullName: Fantas
-- uid: System.Single
-  commentId: T:System.Single
+- uid: System.Object
+  commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.single
-  name: float
-  nameWithType: float
-  fullName: float
-  nameWithType.vb: Single
-  fullName.vb: Single
-  name.vb: Single
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System
   commentId: N:System
   isExternal: true
@@ -182,17 +177,6 @@ references:
   nameWithType.vb: AnimationTimingFunction.New
   fullName.vb: Fantas.AnimationTimingFunction.New
   name.vb: New
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
@@ -211,6 +195,17 @@ references:
   name: Invoke
   nameWithType: AnimationTimingFunction.Invoke
   fullName: Fantas.AnimationTimingFunction.Invoke
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
 - uid: Fantas.AnimationTimingFunction.BeginInvoke*
   commentId: Overload:Fantas.AnimationTimingFunction.BeginInvoke
   isExternal: true

@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Enum Keys | Fantas </title>
+      <title>Class Keys | Fantas </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Enum Keys | Fantas ">
+      <meta name="title" content="Class Keys | Fantas ">
       
       <meta name="description" content="Keyboard key codes">
       <link rel="icon" href="../favicon.ico">
@@ -88,9 +88,8 @@
 
 
 
-
   <h1 id="Fantas_Input_Keys" data-uid="Fantas.Input.Keys" class="text-break">
-Enum Keys  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+Class Keys  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -103,367 +102,3570 @@ Enum Keys  <a class="header-action link-secondary" title="View source" href="htt
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum Keys</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class Keys : Enum</code></pre>
   </div>
 
 
 
 
-
-
-
-
-
-  <h2 id="fields">Fields
-</h2>
-  <dl class="parameters">
-    <dt id="Fantas_Input_Keys_A"><code>A = 65</code></dt>
-    <dd><p>A key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Add"><code>Add = 107</code></dt>
-    <dd><p>Add key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Apps"><code>Apps = 93</code></dt>
-    <dd><p>Applications key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_B"><code>B = 66</code></dt>
-    <dd><p>B key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Back"><code>Back = 8</code></dt>
-    <dd><p>BACKSPACE key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Backslash"><code>Backslash = 226</code></dt>
-    <dd><p>The OEM angle bracket or backslash key on the RT 102 key keyboard.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_C"><code>C = 67</code></dt>
-    <dd><p>C key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_CapsLock"><code>CapsLock = 20</code></dt>
-    <dd><p>CAPS LOCK key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_CloseBrackets"><code>CloseBrackets = 221</code></dt>
-    <dd><p>The OEM close bracket key on a US standard keyboard.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Comma"><code>Comma = 188</code></dt>
-    <dd><p>For any country/region, the ',' key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_D"><code>D = 68</code></dt>
-    <dd><p>D key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_D0"><code>D0 = 48</code></dt>
-    <dd><p>D0</p>
-</dd>
-    <dt id="Fantas_Input_Keys_D1"><code>D1 = 49</code></dt>
-    <dd><p>Used for miscellaneous characters; it can vary by keyboard.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_D2"><code>D2 = 50</code></dt>
-    <dd><p>Used for miscellaneous characters; it can vary by keyboard.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_D3"><code>D3 = 51</code></dt>
-    <dd><p>Used for miscellaneous characters; it can vary by keyboard.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_D4"><code>D4 = 52</code></dt>
-    <dd><p>Used for miscellaneous characters; it can vary by keyboard.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_D5"><code>D5 = 53</code></dt>
-    <dd><p>Used for miscellaneous characters; it can vary by keyboard.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_D6"><code>D6 = 54</code></dt>
-    <dd><p>Used for miscellaneous characters; it can vary by keyboard.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_D7"><code>D7 = 55</code></dt>
-    <dd><p>Used for miscellaneous characters; it can vary by keyboard.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_D8"><code>D8 = 56</code></dt>
-    <dd><p>Used for miscellaneous characters; it can vary by keyboard.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_D9"><code>D9 = 57</code></dt>
-    <dd><p>Used for miscellaneous characters; it can vary by keyboard.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Delete"><code>Delete = 46</code></dt>
-    <dd><p>DEL key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Divide"><code>Divide = 111</code></dt>
-    <dd><p>Divide key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Dot"><code>Dot = 110</code></dt>
-    <dd><p>Dot key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Down"><code>Down = 40</code></dt>
-    <dd><p>DOWN ARROW key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_E"><code>E = 69</code></dt>
-    <dd><p>E key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_End"><code>End = 35</code></dt>
-    <dd><p>END key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Enter"><code>Enter = 13</code></dt>
-    <dd><p>ENTER key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Escape"><code>Escape = 27</code></dt>
-    <dd><p>ESC key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Execute"><code>Execute = 43</code></dt>
-    <dd><p>EXECUTE key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_F"><code>F = 70</code></dt>
-    <dd><p>F key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_F1"><code>F1 = 112</code></dt>
-    <dd><p>F1 key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_F10"><code>F10 = 121</code></dt>
-    <dd><p>F10 key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_F11"><code>F11 = 122</code></dt>
-    <dd><p>F11 key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_F12"><code>F12 = 123</code></dt>
-    <dd><p>F12 key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_F2"><code>F2 = 113</code></dt>
-    <dd><p>F2 key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_F3"><code>F3 = 114</code></dt>
-    <dd><p>F3 key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_F4"><code>F4 = 115</code></dt>
-    <dd><p>F4 key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_F5"><code>F5 = 116</code></dt>
-    <dd><p>F5 key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_F6"><code>F6 = 117</code></dt>
-    <dd><p>F6 key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_F7"><code>F7 = 118</code></dt>
-    <dd><p>F7 key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_F8"><code>F8 = 119</code></dt>
-    <dd><p>F8 key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_F9"><code>F9 = 120</code></dt>
-    <dd><p>F9 key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_G"><code>G = 71</code></dt>
-    <dd><p>G key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_H"><code>H = 72</code></dt>
-    <dd><p>H key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Help"><code>Help = 47</code></dt>
-    <dd><p>HELP key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Home"><code>Home = 36</code></dt>
-    <dd><p>HOME key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_I"><code>I = 73</code></dt>
-    <dd><p>I key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Insert"><code>Insert = 45</code></dt>
-    <dd><p>INS key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_J"><code>J = 74</code></dt>
-    <dd><p>J key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_K"><code>K = 75</code></dt>
-    <dd><p>K key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_L"><code>L = 76</code></dt>
-    <dd><p>L key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Left"><code>Left = 37</code></dt>
-    <dd><p>LEFT ARROW key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_LeftAlt"><code>LeftAlt = 164</code></dt>
-    <dd><p>Left ALT key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_LeftControl"><code>LeftControl = 162</code></dt>
-    <dd><p>Left CONTROL key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_LeftShift"><code>LeftShift = 160</code></dt>
-    <dd><p>F13 key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_LeftWindows"><code>LeftWindows = 91</code></dt>
-    <dd><p>Left Windows/Meta/Command key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_M"><code>M = 77</code></dt>
-    <dd><p>M key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Max"><code>Max = 227</code></dt>
-    <dd><p>Last key entry</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Multiply"><code>Multiply = 106</code></dt>
-    <dd><p>Multiply key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_N"><code>N = 78</code></dt>
-    <dd><p>N key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_None"><code>None = 0</code></dt>
-    <dd><p>Reserved.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_NumPad0"><code>NumPad0 = 96</code></dt>
-    <dd><p>Numeric keypad 0 key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_NumPad1"><code>NumPad1 = 97</code></dt>
-    <dd><p>Numeric keypad 1 key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_NumPad2"><code>NumPad2 = 98</code></dt>
-    <dd><p>Numeric keypad 2 key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_NumPad3"><code>NumPad3 = 99</code></dt>
-    <dd><p>Numeric keypad 3 key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_NumPad4"><code>NumPad4 = 100</code></dt>
-    <dd><p>Numeric keypad 4 key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_NumPad5"><code>NumPad5 = 101</code></dt>
-    <dd><p>Numeric keypad 5 key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_NumPad6"><code>NumPad6 = 102</code></dt>
-    <dd><p>Numeric keypad 6 key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_NumPad7"><code>NumPad7 = 103</code></dt>
-    <dd><p>Numeric keypad 7 key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_NumPad8"><code>NumPad8 = 104</code></dt>
-    <dd><p>Numeric keypad 8 key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_NumPad9"><code>NumPad9 = 105</code></dt>
-    <dd><p>Numeric keypad 9 key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_O"><code>O = 79</code></dt>
-    <dd><p>O key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_OemMinus"><code>OemMinus = 189</code></dt>
-    <dd><p>For any country/region, the '-' key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_OemPlus"><code>OemPlus = 187</code></dt>
-    <dd><p>For any country/region, the '+' key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_OpenBrackets"><code>OpenBrackets = 219</code></dt>
-    <dd><p>The OEM open bracket key on a US standard keyboard.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_P"><code>P = 80</code></dt>
-    <dd><p>P key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_PageDown"><code>PageDown = 34</code></dt>
-    <dd><p>PAGE DOWN key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_PageUp"><code>PageUp = 33</code></dt>
-    <dd><p>PAGE UP key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Pause"><code>Pause = 19</code></dt>
-    <dd><p>PAUSE key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Period"><code>Period = 190</code></dt>
-    <dd><p>For any country/region, the '.' key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Pipe"><code>Pipe = 220</code></dt>
-    <dd><p>The OEM pipe key on a US standard keyboard.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Print"><code>Print = 42</code></dt>
-    <dd><p>PRINT key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_PrintScreen"><code>PrintScreen = 44</code></dt>
-    <dd><p>PRINT SCREEN key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Q"><code>Q = 81</code></dt>
-    <dd><p>Q key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Question"><code>Question = 191</code></dt>
-    <dd><p>The OEM question mark key on a US standard keyboard.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Quotes"><code>Quotes = 222</code></dt>
-    <dd><p>The OEM singled/double quote key on a US standard keyboard.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_R"><code>R = 82</code></dt>
-    <dd><p>R key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Right"><code>Right = 39</code></dt>
-    <dd><p>RIGHT ARROW key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_RightAlt"><code>RightAlt = 165</code></dt>
-    <dd><p>Right ALT key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_RightControl"><code>RightControl = 163</code></dt>
-    <dd><p>Right CONTROL key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_RightShift"><code>RightShift = 161</code></dt>
-    <dd><p>Right SHIFT key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_RightWindows"><code>RightWindows = 92</code></dt>
-    <dd><p>Right Windows/Meta/Command key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_S"><code>S = 83</code></dt>
-    <dd><p>S key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Select"><code>Select = 41</code></dt>
-    <dd><p>SELECT key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Semicolon"><code>Semicolon = 186</code></dt>
-    <dd><p>The OEM Semicolon key on a US standard keyboard.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Separator"><code>Separator = 108</code></dt>
-    <dd><p>Separator key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Sleep"><code>Sleep = 95</code></dt>
-    <dd><p>Computer Sleep key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Space"><code>Space = 32</code></dt>
-    <dd><p>SPACE BAR key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Subtract"><code>Subtract = 109</code></dt>
-    <dd><p>Subtract key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_T"><code>T = 84</code></dt>
-    <dd><p>T key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Tab"><code>Tab = 9</code></dt>
-    <dd><p>TAB key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Tilde"><code>Tilde = 192</code></dt>
-    <dd><p>The OEM tilde key on a US standard keyboard.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_U"><code>U = 85</code></dt>
-    <dd><p>U key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Up"><code>Up = 38</code></dt>
-    <dd><p>UP ARROW key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_V"><code>V = 86</code></dt>
-    <dd><p>V key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_VolumeDown"><code>VolumeDown = 174</code></dt>
-    <dd><p>Volume Down key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_VolumeMute"><code>VolumeMute = 173</code></dt>
-    <dd><p>Volume Mute key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_VolumeUp"><code>VolumeUp = 175</code></dt>
-    <dd><p>Volume Up key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_W"><code>W = 87</code></dt>
-    <dd><p>W key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_X"><code>X = 88</code></dt>
-    <dd><p>X key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Y"><code>Y = 89</code></dt>
-    <dd><p>Y key.</p>
-</dd>
-    <dt id="Fantas_Input_Keys_Z"><code>Z = 90</code></dt>
-    <dd><p>Z key.</p>
-</dd>
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Keys</span></div>
+    </dd>
   </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Fantas_Input_Keys_A" data-uid="Fantas.Input.Keys.A">
+  A
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>A key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys A = 65</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Add" data-uid="Fantas.Input.Keys.Add">
+  Add
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Add = 107</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Apps" data-uid="Fantas.Input.Keys.Apps">
+  Apps
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Applications key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Apps = 93</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_B" data-uid="Fantas.Input.Keys.B">
+  B
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>B key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys B = 66</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Back" data-uid="Fantas.Input.Keys.Back">
+  Back
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>BACKSPACE key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Back = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Backslash" data-uid="Fantas.Input.Keys.Backslash">
+  Backslash
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The OEM angle bracket or backslash key on the RT 102 key keyboard.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Backslash = 226</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_C" data-uid="Fantas.Input.Keys.C">
+  C
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>C key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys C = 67</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_CapsLock" data-uid="Fantas.Input.Keys.CapsLock">
+  CapsLock
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>CAPS LOCK key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys CapsLock = 20</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_CloseBrackets" data-uid="Fantas.Input.Keys.CloseBrackets">
+  CloseBrackets
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The OEM close bracket key on a US standard keyboard.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys CloseBrackets = 221</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Comma" data-uid="Fantas.Input.Keys.Comma">
+  Comma
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>For any country/region, the ',' key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Comma = 188</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_D" data-uid="Fantas.Input.Keys.D">
+  D
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>D key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys D = 68</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_D0" data-uid="Fantas.Input.Keys.D0">
+  D0
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>D0</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys D0 = 48</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_D1" data-uid="Fantas.Input.Keys.D1">
+  D1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Used for miscellaneous characters; it can vary by keyboard.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys D1 = 49</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_D2" data-uid="Fantas.Input.Keys.D2">
+  D2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Used for miscellaneous characters; it can vary by keyboard.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys D2 = 50</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_D3" data-uid="Fantas.Input.Keys.D3">
+  D3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Used for miscellaneous characters; it can vary by keyboard.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys D3 = 51</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_D4" data-uid="Fantas.Input.Keys.D4">
+  D4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Used for miscellaneous characters; it can vary by keyboard.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys D4 = 52</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_D5" data-uid="Fantas.Input.Keys.D5">
+  D5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Used for miscellaneous characters; it can vary by keyboard.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys D5 = 53</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_D6" data-uid="Fantas.Input.Keys.D6">
+  D6
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Used for miscellaneous characters; it can vary by keyboard.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys D6 = 54</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_D7" data-uid="Fantas.Input.Keys.D7">
+  D7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Used for miscellaneous characters; it can vary by keyboard.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys D7 = 55</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_D8" data-uid="Fantas.Input.Keys.D8">
+  D8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Used for miscellaneous characters; it can vary by keyboard.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys D8 = 56</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_D9" data-uid="Fantas.Input.Keys.D9">
+  D9
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Used for miscellaneous characters; it can vary by keyboard.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys D9 = 57</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Delete" data-uid="Fantas.Input.Keys.Delete">
+  Delete
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>DEL key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Delete = 46</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Divide" data-uid="Fantas.Input.Keys.Divide">
+  Divide
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Divide key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Divide = 111</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Dot" data-uid="Fantas.Input.Keys.Dot">
+  Dot
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Dot key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Dot = 110</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Down" data-uid="Fantas.Input.Keys.Down">
+  Down
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>DOWN ARROW key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Down = 40</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_E" data-uid="Fantas.Input.Keys.E">
+  E
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>E key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys E = 69</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_End" data-uid="Fantas.Input.Keys.End">
+  End
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>END key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys End = 35</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Enter" data-uid="Fantas.Input.Keys.Enter">
+  Enter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>ENTER / Return key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Enter = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Escape" data-uid="Fantas.Input.Keys.Escape">
+  Escape
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>ESC key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Escape = 27</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Execute" data-uid="Fantas.Input.Keys.Execute">
+  Execute
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>EXECUTE key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Execute = 43</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_F" data-uid="Fantas.Input.Keys.F">
+  F
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>F key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys F = 70</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_F1" data-uid="Fantas.Input.Keys.F1">
+  F1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>F1 key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys F1 = 112</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_F10" data-uid="Fantas.Input.Keys.F10">
+  F10
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>F10 key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys F10 = 121</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_F11" data-uid="Fantas.Input.Keys.F11">
+  F11
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>F11 key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys F11 = 122</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_F12" data-uid="Fantas.Input.Keys.F12">
+  F12
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>F12 key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys F12 = 123</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_F2" data-uid="Fantas.Input.Keys.F2">
+  F2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>F2 key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys F2 = 113</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_F3" data-uid="Fantas.Input.Keys.F3">
+  F3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>F3 key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys F3 = 114</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_F4" data-uid="Fantas.Input.Keys.F4">
+  F4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>F4 key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys F4 = 115</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_F5" data-uid="Fantas.Input.Keys.F5">
+  F5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>F5 key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys F5 = 116</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_F6" data-uid="Fantas.Input.Keys.F6">
+  F6
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>F6 key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys F6 = 117</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_F7" data-uid="Fantas.Input.Keys.F7">
+  F7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>F7 key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys F7 = 118</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_F8" data-uid="Fantas.Input.Keys.F8">
+  F8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>F8 key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys F8 = 119</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_F9" data-uid="Fantas.Input.Keys.F9">
+  F9
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>F9 key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys F9 = 120</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_G" data-uid="Fantas.Input.Keys.G">
+  G
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>G key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys G = 71</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_H" data-uid="Fantas.Input.Keys.H">
+  H
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>H key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys H = 72</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Help" data-uid="Fantas.Input.Keys.Help">
+  Help
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>HELP key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Help = 47</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Home" data-uid="Fantas.Input.Keys.Home">
+  Home
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>HOME key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Home = 36</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_I" data-uid="Fantas.Input.Keys.I">
+  I
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>I key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys I = 73</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Insert" data-uid="Fantas.Input.Keys.Insert">
+  Insert
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>INS key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Insert = 45</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_J" data-uid="Fantas.Input.Keys.J">
+  J
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>J key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys J = 74</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_K" data-uid="Fantas.Input.Keys.K">
+  K
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>K key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys K = 75</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_L" data-uid="Fantas.Input.Keys.L">
+  L
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>L key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys L = 76</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Left" data-uid="Fantas.Input.Keys.Left">
+  Left
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>LEFT ARROW key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Left = 37</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_LeftAlt" data-uid="Fantas.Input.Keys.LeftAlt">
+  LeftAlt
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Left ALT key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys LeftAlt = 164</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_LeftControl" data-uid="Fantas.Input.Keys.LeftControl">
+  LeftControl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Left CONTROL key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys LeftControl = 162</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_LeftShift" data-uid="Fantas.Input.Keys.LeftShift">
+  LeftShift
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>F13 key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys LeftShift = 160</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_LeftWindows" data-uid="Fantas.Input.Keys.LeftWindows">
+  LeftWindows
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Left Windows/Meta/Command key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys LeftWindows = 91</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_M" data-uid="Fantas.Input.Keys.M">
+  M
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>M key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys M = 77</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Max" data-uid="Fantas.Input.Keys.Max">
+  Max
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Last key entry</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Max = 227</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Multiply" data-uid="Fantas.Input.Keys.Multiply">
+  Multiply
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Multiply key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Multiply = 106</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_N" data-uid="Fantas.Input.Keys.N">
+  N
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>N key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys N = 78</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_None" data-uid="Fantas.Input.Keys.None">
+  None
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reserved.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys None = 0</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_NumPad0" data-uid="Fantas.Input.Keys.NumPad0">
+  NumPad0
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Numeric keypad 0 key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys NumPad0 = 96</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_NumPad1" data-uid="Fantas.Input.Keys.NumPad1">
+  NumPad1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Numeric keypad 1 key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys NumPad1 = 97</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_NumPad2" data-uid="Fantas.Input.Keys.NumPad2">
+  NumPad2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Numeric keypad 2 key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys NumPad2 = 98</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_NumPad3" data-uid="Fantas.Input.Keys.NumPad3">
+  NumPad3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Numeric keypad 3 key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys NumPad3 = 99</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_NumPad4" data-uid="Fantas.Input.Keys.NumPad4">
+  NumPad4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Numeric keypad 4 key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys NumPad4 = 100</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_NumPad5" data-uid="Fantas.Input.Keys.NumPad5">
+  NumPad5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Numeric keypad 5 key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys NumPad5 = 101</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_NumPad6" data-uid="Fantas.Input.Keys.NumPad6">
+  NumPad6
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Numeric keypad 6 key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys NumPad6 = 102</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_NumPad7" data-uid="Fantas.Input.Keys.NumPad7">
+  NumPad7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Numeric keypad 7 key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys NumPad7 = 103</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_NumPad8" data-uid="Fantas.Input.Keys.NumPad8">
+  NumPad8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Numeric keypad 8 key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys NumPad8 = 104</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_NumPad9" data-uid="Fantas.Input.Keys.NumPad9">
+  NumPad9
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Numeric keypad 9 key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys NumPad9 = 105</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_O" data-uid="Fantas.Input.Keys.O">
+  O
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>O key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys O = 79</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_OemMinus" data-uid="Fantas.Input.Keys.OemMinus">
+  OemMinus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>For any country/region, the '-' key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys OemMinus = 189</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_OemPlus" data-uid="Fantas.Input.Keys.OemPlus">
+  OemPlus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>For any country/region, the '+' key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys OemPlus = 187</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_OpenBrackets" data-uid="Fantas.Input.Keys.OpenBrackets">
+  OpenBrackets
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The OEM open bracket key on a US standard keyboard.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys OpenBrackets = 219</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_P" data-uid="Fantas.Input.Keys.P">
+  P
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>P key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys P = 80</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_PageDown" data-uid="Fantas.Input.Keys.PageDown">
+  PageDown
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>PAGE DOWN key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys PageDown = 34</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_PageUp" data-uid="Fantas.Input.Keys.PageUp">
+  PageUp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>PAGE UP key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys PageUp = 33</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Pause" data-uid="Fantas.Input.Keys.Pause">
+  Pause
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>PAUSE key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Pause = 19</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Period" data-uid="Fantas.Input.Keys.Period">
+  Period
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>For any country/region, the '.' key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Period = 190</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Pipe" data-uid="Fantas.Input.Keys.Pipe">
+  Pipe
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The OEM pipe key on a US standard keyboard.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Pipe = 220</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Print" data-uid="Fantas.Input.Keys.Print">
+  Print
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>PRINT key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Print = 42</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_PrintScreen" data-uid="Fantas.Input.Keys.PrintScreen">
+  PrintScreen
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>PRINT SCREEN key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys PrintScreen = 44</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Q" data-uid="Fantas.Input.Keys.Q">
+  Q
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Q key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Q = 81</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Question" data-uid="Fantas.Input.Keys.Question">
+  Question
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The OEM question mark key on a US standard keyboard.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Question = 191</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Quotes" data-uid="Fantas.Input.Keys.Quotes">
+  Quotes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The OEM singled/double quote key on a US standard keyboard.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Quotes = 222</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_R" data-uid="Fantas.Input.Keys.R">
+  R
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>R key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys R = 82</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Right" data-uid="Fantas.Input.Keys.Right">
+  Right
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>RIGHT ARROW key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Right = 39</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_RightAlt" data-uid="Fantas.Input.Keys.RightAlt">
+  RightAlt
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Right ALT key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys RightAlt = 165</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_RightControl" data-uid="Fantas.Input.Keys.RightControl">
+  RightControl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Right CONTROL key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys RightControl = 163</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_RightShift" data-uid="Fantas.Input.Keys.RightShift">
+  RightShift
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Right SHIFT key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys RightShift = 161</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_RightWindows" data-uid="Fantas.Input.Keys.RightWindows">
+  RightWindows
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Right Windows/Meta/Command key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys RightWindows = 92</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_S" data-uid="Fantas.Input.Keys.S">
+  S
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>S key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys S = 83</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Select" data-uid="Fantas.Input.Keys.Select">
+  Select
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>SELECT key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Select = 41</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Semicolon" data-uid="Fantas.Input.Keys.Semicolon">
+  Semicolon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The OEM Semicolon key on a US standard keyboard.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Semicolon = 186</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Separator" data-uid="Fantas.Input.Keys.Separator">
+  Separator
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Separator key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Separator = 108</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Sleep" data-uid="Fantas.Input.Keys.Sleep">
+  Sleep
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Computer Sleep key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Sleep = 95</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Space" data-uid="Fantas.Input.Keys.Space">
+  Space
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>SPACE BAR key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Space = 32</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Subtract" data-uid="Fantas.Input.Keys.Subtract">
+  Subtract
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Subtract key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Subtract = 109</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_T" data-uid="Fantas.Input.Keys.T">
+  T
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>T key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys T = 84</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Tab" data-uid="Fantas.Input.Keys.Tab">
+  Tab
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>TAB key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Tab = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Tilde" data-uid="Fantas.Input.Keys.Tilde">
+  Tilde
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The OEM tilde key on a US standard keyboard.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Tilde = 192</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_U" data-uid="Fantas.Input.Keys.U">
+  U
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>U key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys U = 85</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Up" data-uid="Fantas.Input.Keys.Up">
+  Up
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>UP ARROW key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Up = 38</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_V" data-uid="Fantas.Input.Keys.V">
+  V
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>V key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys V = 86</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_VolumeDown" data-uid="Fantas.Input.Keys.VolumeDown">
+  VolumeDown
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Volume Down key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys VolumeDown = 174</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_VolumeMute" data-uid="Fantas.Input.Keys.VolumeMute">
+  VolumeMute
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Volume Mute key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys VolumeMute = 173</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_VolumeUp" data-uid="Fantas.Input.Keys.VolumeUp">
+  VolumeUp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Volume Up key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys VolumeUp = 175</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_W" data-uid="Fantas.Input.Keys.W">
+  W
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>W key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys W = 87</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_X" data-uid="Fantas.Input.Keys.X">
+  X
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>X key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys X = 88</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Y" data-uid="Fantas.Input.Keys.Y">
+  Y
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Y key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Y = 89</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_Z" data-uid="Fantas.Input.Keys.Z">
+  Z
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Z key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const Keys Z = 90</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.Keys.html">Keys</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_Keys_value__" data-uid="Fantas.Input.Keys.value__">
+  value__
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int value__</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
 
 
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs" class="edit-link">Edit this page</a>
         </div>
 
 

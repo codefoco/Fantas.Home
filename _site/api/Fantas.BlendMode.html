@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Enum BlendMode | Fantas </title>
+      <title>Class BlendMode | Fantas </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Enum BlendMode | Fantas ">
+      <meta name="title" content="Class BlendMode | Fantas ">
       
       <meta name="description" content="Blend modes operations">
       <link rel="icon" href="../favicon.ico">
@@ -88,9 +88,8 @@
 
 
 
-
   <h1 id="Fantas_BlendMode" data-uid="Fantas.BlendMode" class="text-break">
-Enum BlendMode  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/BlendMode.cs"><i class="bi bi-code-slash"></i></a>
+Class BlendMode  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/BlendMode.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -103,52 +102,315 @@ Enum BlendMode  <a class="header-action link-secondary" title="View source" href
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum BlendMode</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class BlendMode : Enum</code></pre>
   </div>
 
 
 
 
-
-
-
-
-
-  <h2 id="fields">Fields
-</h2>
-  <dl class="parameters">
-    <dt id="Fantas_BlendMode_Add"><code>Add = 1</code></dt>
-    <dd><p>Add source and destination</p>
-</dd>
-    <dt id="Fantas_BlendMode_Alpha"><code>Alpha = 0</code></dt>
-    <dd><p>Blending source and destination using Alpha</p>
-</dd>
-    <dt id="Fantas_BlendMode_Multiply"><code>Multiply = 3</code></dt>
-    <dd><p>Source multiplied by destination</p>
-</dd>
-    <dt id="Fantas_BlendMode_MultiplyAlpha"><code>MultiplyAlpha = 7</code></dt>
-    <dd><p>Source multiplied by destination, with the alpha channel</p>
-</dd>
-    <dt id="Fantas_BlendMode_MultiplyX2"><code>MultiplyX2 = 4</code></dt>
-    <dd><p>Source multiplied by destination and doubled</p>
-</dd>
-    <dt id="Fantas_BlendMode_Replace"><code>Replace = 6</code></dt>
-    <dd><p>Opaque blend, replacing destination color</p>
-</dd>
-    <dt id="Fantas_BlendMode_Screen"><code>Screen = 5</code></dt>
-    <dd><p>Source added to the destination times the inverse of source</p>
-</dd>
-    <dt id="Fantas_BlendMode_Subtract"><code>Subtract = 2</code></dt>
-    <dd><p>Subtract source from destination</p>
-</dd>
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">BlendMode</span></div>
+    </dd>
   </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Fantas_BlendMode_Add" data-uid="Fantas.BlendMode.Add">
+  Add
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/BlendMode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add source and destination</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const BlendMode Add = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.BlendMode.html">BlendMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_BlendMode_Alpha" data-uid="Fantas.BlendMode.Alpha">
+  Alpha
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/BlendMode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Blending source and destination using Alpha</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const BlendMode Alpha = 0</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.BlendMode.html">BlendMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_BlendMode_Multiply" data-uid="Fantas.BlendMode.Multiply">
+  Multiply
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/BlendMode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Source multiplied by destination</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const BlendMode Multiply = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.BlendMode.html">BlendMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_BlendMode_MultiplyAlpha" data-uid="Fantas.BlendMode.MultiplyAlpha">
+  MultiplyAlpha
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/BlendMode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Source multiplied by destination, with the alpha channel</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const BlendMode MultiplyAlpha = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.BlendMode.html">BlendMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_BlendMode_MultiplyX2" data-uid="Fantas.BlendMode.MultiplyX2">
+  MultiplyX2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/BlendMode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Source multiplied by destination and doubled</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const BlendMode MultiplyX2 = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.BlendMode.html">BlendMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_BlendMode_Replace" data-uid="Fantas.BlendMode.Replace">
+  Replace
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/BlendMode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Opaque blend, replacing destination color</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const BlendMode Replace = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.BlendMode.html">BlendMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_BlendMode_Screen" data-uid="Fantas.BlendMode.Screen">
+  Screen
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/BlendMode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Source added to the destination times the inverse of source</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const BlendMode Screen = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.BlendMode.html">BlendMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_BlendMode_Subtract" data-uid="Fantas.BlendMode.Subtract">
+  Subtract
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/BlendMode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Subtract source from destination</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const BlendMode Subtract = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.BlendMode.html">BlendMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_BlendMode_value__" data-uid="Fantas.BlendMode.value__">
+  value__
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/BlendMode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int value__</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
 
 
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/BlendMode.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/BlendMode.cs" class="edit-link">Edit this page</a>
         </div>
 
 

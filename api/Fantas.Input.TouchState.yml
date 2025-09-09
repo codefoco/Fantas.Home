@@ -9,23 +9,47 @@ items:
   - Fantas.Input.TouchState.Invalid
   - Fantas.Input.TouchState.Moved
   - Fantas.Input.TouchState.Up
+  - Fantas.Input.TouchState.value__
   langs:
   - csharp
   - vb
   name: TouchState
   nameWithType: TouchState
   fullName: Fantas.Input.TouchState
-  type: Enum
+  type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Touch/TouchState.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Touch/TouchState.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Touch state (Down, Up, Moved)
   example: []
   syntax:
-    content: public enum TouchState
-    content.vb: Public Enum TouchState
+    content: 'public sealed class TouchState : Enum'
+    content.vb: Public NotInheritable Class TouchState Inherits Enum
+  inheritance:
+  - System.Object
+- uid: Fantas.Input.TouchState.value__
+  commentId: F:Fantas.Input.TouchState.value__
+  id: value__
+  parent: Fantas.Input.TouchState
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TouchState.value__
+  fullName: Fantas.Input.TouchState.value__
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Touch/TouchState.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
 - uid: Fantas.Input.TouchState.Invalid
   commentId: F:Fantas.Input.TouchState.Invalid
   id: Invalid
@@ -38,16 +62,17 @@ items:
   fullName: Fantas.Input.TouchState.Invalid
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Touch/TouchState.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Touch/TouchState.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Invalid touch
   example: []
   syntax:
-    content: Invalid = 0
+    content: public const TouchState Invalid = 0
     return:
       type: Fantas.Input.TouchState
+    content.vb: Public Const Invalid As TouchState = 0
 - uid: Fantas.Input.TouchState.Moved
   commentId: F:Fantas.Input.TouchState.Moved
   id: Moved
@@ -60,16 +85,17 @@ items:
   fullName: Fantas.Input.TouchState.Moved
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Touch/TouchState.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Touch/TouchState.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Touch moved.
   example: []
   syntax:
-    content: Moved = 1
+    content: public const TouchState Moved = 1
     return:
       type: Fantas.Input.TouchState
+    content.vb: Public Const Moved As TouchState = 1
 - uid: Fantas.Input.TouchState.Down
   commentId: F:Fantas.Input.TouchState.Down
   id: Down
@@ -82,16 +108,17 @@ items:
   fullName: Fantas.Input.TouchState.Down
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Touch/TouchState.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Touch/TouchState.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Touch just started, pressed.
   example: []
   syntax:
-    content: Down = 2
+    content: public const TouchState Down = 2
     return:
       type: Fantas.Input.TouchState
+    content.vb: Public Const Down As TouchState = 2
 - uid: Fantas.Input.TouchState.Up
   commentId: F:Fantas.Input.TouchState.Up
   id: Up
@@ -104,16 +131,17 @@ items:
   fullName: Fantas.Input.TouchState.Up
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Touch/TouchState.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Touch/TouchState.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Touch finish, released
   example: []
   syntax:
-    content: Up = 3
+    content: public const TouchState Up = 3
     return:
       type: Fantas.Input.TouchState
+    content.vb: Public Const Up As TouchState = 3
 references:
 - uid: Fantas.Input
   commentId: N:Fantas.Input
@@ -142,6 +170,35 @@ references:
     name: Input
     isExternal: true
     href: Fantas.Input.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Fantas.Input.TouchState
   commentId: T:Fantas.Input.TouchState
   parent: Fantas.Input

@@ -20,7 +20,7 @@ items:
   fullName: Fantas.RectangleNode
   type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -66,16 +66,25 @@ items:
   - Fantas.Node.RemoveAnimationForKey(System.String)
   - Fantas.Node.RemoveAllAnimations
   - Fantas.Node.ContainsPoint(System.Drawing.PointF)
+  - Fantas.Node.ContainsScenePoint(System.Drawing.PointF)
   - Fantas.Node.GetNodeAtPoint(System.Drawing.PointF)
   - Fantas.Node.GetChildNode(System.String)
   - Fantas.Node.GetNodesAtPoint(System.Drawing.PointF)
   - Fantas.Node.IntersectsNode(Fantas.Node)
   - Fantas.Node.ConvertPointFromNode(System.Drawing.PointF,Fantas.Node)
   - Fantas.Node.ConvertPointToNode(System.Drawing.PointF,Fantas.Node)
+  - Fantas.Node.ConvertPointToScene(System.Drawing.PointF)
+  - Fantas.Node.ConvertPointFromScene(System.Drawing.PointF)
+  - Fantas.Node.ConvertVectorFromNode(System.Numerics.Vector2,Fantas.Node)
+  - Fantas.Node.ConvertVectorToNode(System.Numerics.Vector2,Fantas.Node)
+  - Fantas.Node.ConvertVectorFromScene(System.Numerics.Vector2)
+  - Fantas.Node.ConvertVectorToScene(System.Numerics.Vector2)
   - Fantas.Node.BringForward
   - Fantas.Node.BringToFront
   - Fantas.Node.SendBackward
   - Fantas.Node.SendToBack
+  - Fantas.Node.SetMouseCapture
+  - Fantas.Node.ReleaseMouseCapture
   - Fantas.Node.OnTap(Fantas.Input.TapEventArgs)
   - Fantas.Node.OnLongPress(Fantas.Input.TapEventArgs)
   - Fantas.Node.OnDoubleTap(Fantas.Input.TapEventArgs)
@@ -95,7 +104,7 @@ items:
   - Fantas.Node.OnClick(Fantas.Input.MouseEventArgs)
   - Fantas.Node.OnDoubleClick(Fantas.Input.MouseEventArgs)
   - Fantas.Node.OnMouseEnter
-  - Fantas.Node.OnMouseHover
+  - Fantas.Node.OnMouseMove(Fantas.Input.MouseEventArgs)
   - Fantas.Node.OnMouseLeave
   - Fantas.Node.Name
   - Fantas.Node.Tag
@@ -108,6 +117,10 @@ items:
   - Fantas.Node.Left
   - Fantas.Node.Right
   - Fantas.Node.Top
+  - Fantas.Node.TopLeft
+  - Fantas.Node.TopRight
+  - Fantas.Node.BottomLeft
+  - Fantas.Node.BottomRight
   - Fantas.Node.Bottom
   - Fantas.Node.ZPosition
   - Fantas.Node.ZRotation
@@ -128,6 +141,7 @@ items:
   - Fantas.Node.IsHitTestEnabled
   - Fantas.Node.CanBringForward
   - Fantas.Node.CanSendBackward
+  - Fantas.Node.HasMouseCaputure
   - Fantas.Node.IsMouseOver
   - Fantas.Node.MouseButtonPressed
   - Fantas.Node.IsTouchOver
@@ -151,14 +165,8 @@ items:
   - Fantas.Node.Click
   - Fantas.Node.DoubleClick
   - Fantas.Node.MouseEnter
-  - Fantas.Node.MouseHover
+  - Fantas.Node.MouseMove
   - Fantas.Node.MouseLeave
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
   extensionMethods:
   - Fantas.RectangleNode.Fantas.Physics.NodeExtensions.SetupBody(System.Int32)
   - Fantas.RectangleNode.Fantas.Physics.NodeExtensions.SetupEdge(System.Int32)
@@ -174,7 +182,7 @@ items:
   fullName: Fantas.RectangleNode.RectangleNode(System.Drawing.SizeF)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -203,7 +211,7 @@ items:
   fullName: Fantas.RectangleNode.RectangleNode(System.Drawing.SizeF, float)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -235,7 +243,7 @@ items:
   fullName: Fantas.RectangleNode.RectangleNode(Fantas.RectangleNode)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -264,7 +272,7 @@ items:
   fullName: Fantas.RectangleNode.Copy()
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -290,7 +298,7 @@ items:
   fullName: Fantas.RectangleNode.Size
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -315,7 +323,7 @@ items:
   fullName: Fantas.RectangleNode.Width
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -340,7 +348,7 @@ items:
   fullName: Fantas.RectangleNode.Height
   type: Property
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/ShapeNodes/RectangleNode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/ShapeNodes/RectangleNode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -1272,6 +1280,36 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
   - name: )
+- uid: Fantas.Node.ContainsScenePoint(System.Drawing.PointF)
+  commentId: M:Fantas.Node.ContainsScenePoint(System.Drawing.PointF)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ContainsScenePoint_System_Drawing_PointF_
+  name: ContainsScenePoint(PointF)
+  nameWithType: Node.ContainsScenePoint(PointF)
+  fullName: Fantas.Node.ContainsScenePoint(System.Drawing.PointF)
+  spec.csharp:
+  - uid: Fantas.Node.ContainsScenePoint(System.Drawing.PointF)
+    name: ContainsScenePoint
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ContainsScenePoint_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.ContainsScenePoint(System.Drawing.PointF)
+    name: ContainsScenePoint
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ContainsScenePoint_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
 - uid: Fantas.Node.GetNodeAtPoint(System.Drawing.PointF)
   commentId: M:Fantas.Node.GetNodeAtPoint(System.Drawing.PointF)
   parent: Fantas.Node
@@ -1479,6 +1517,210 @@ references:
     isExternal: true
     href: Fantas.Node.html
   - name: )
+- uid: Fantas.Node.ConvertPointToScene(System.Drawing.PointF)
+  commentId: M:Fantas.Node.ConvertPointToScene(System.Drawing.PointF)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ConvertPointToScene_System_Drawing_PointF_
+  name: ConvertPointToScene(PointF)
+  nameWithType: Node.ConvertPointToScene(PointF)
+  fullName: Fantas.Node.ConvertPointToScene(System.Drawing.PointF)
+  spec.csharp:
+  - uid: Fantas.Node.ConvertPointToScene(System.Drawing.PointF)
+    name: ConvertPointToScene
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertPointToScene_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.ConvertPointToScene(System.Drawing.PointF)
+    name: ConvertPointToScene
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertPointToScene_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+- uid: Fantas.Node.ConvertPointFromScene(System.Drawing.PointF)
+  commentId: M:Fantas.Node.ConvertPointFromScene(System.Drawing.PointF)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ConvertPointFromScene_System_Drawing_PointF_
+  name: ConvertPointFromScene(PointF)
+  nameWithType: Node.ConvertPointFromScene(PointF)
+  fullName: Fantas.Node.ConvertPointFromScene(System.Drawing.PointF)
+  spec.csharp:
+  - uid: Fantas.Node.ConvertPointFromScene(System.Drawing.PointF)
+    name: ConvertPointFromScene
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertPointFromScene_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.ConvertPointFromScene(System.Drawing.PointF)
+    name: ConvertPointFromScene
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertPointFromScene_System_Drawing_PointF_
+  - name: (
+  - uid: System.Drawing.PointF
+    name: PointF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  - name: )
+- uid: Fantas.Node.ConvertVectorFromNode(System.Numerics.Vector2,Fantas.Node)
+  commentId: M:Fantas.Node.ConvertVectorFromNode(System.Numerics.Vector2,Fantas.Node)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ConvertVectorFromNode_System_Numerics_Vector2_Fantas_Node_
+  name: ConvertVectorFromNode(Vector2, Node)
+  nameWithType: Node.ConvertVectorFromNode(Vector2, Node)
+  fullName: Fantas.Node.ConvertVectorFromNode(System.Numerics.Vector2, Fantas.Node)
+  spec.csharp:
+  - uid: Fantas.Node.ConvertVectorFromNode(System.Numerics.Vector2,Fantas.Node)
+    name: ConvertVectorFromNode
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertVectorFromNode_System_Numerics_Vector2_Fantas_Node_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: ','
+  - name: " "
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.ConvertVectorFromNode(System.Numerics.Vector2,Fantas.Node)
+    name: ConvertVectorFromNode
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertVectorFromNode_System_Numerics_Vector2_Fantas_Node_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: ','
+  - name: " "
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+- uid: Fantas.Node.ConvertVectorToNode(System.Numerics.Vector2,Fantas.Node)
+  commentId: M:Fantas.Node.ConvertVectorToNode(System.Numerics.Vector2,Fantas.Node)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ConvertVectorToNode_System_Numerics_Vector2_Fantas_Node_
+  name: ConvertVectorToNode(Vector2, Node)
+  nameWithType: Node.ConvertVectorToNode(Vector2, Node)
+  fullName: Fantas.Node.ConvertVectorToNode(System.Numerics.Vector2, Fantas.Node)
+  spec.csharp:
+  - uid: Fantas.Node.ConvertVectorToNode(System.Numerics.Vector2,Fantas.Node)
+    name: ConvertVectorToNode
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertVectorToNode_System_Numerics_Vector2_Fantas_Node_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: ','
+  - name: " "
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.ConvertVectorToNode(System.Numerics.Vector2,Fantas.Node)
+    name: ConvertVectorToNode
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertVectorToNode_System_Numerics_Vector2_Fantas_Node_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: ','
+  - name: " "
+  - uid: Fantas.Node
+    name: Node
+    isExternal: true
+    href: Fantas.Node.html
+  - name: )
+- uid: Fantas.Node.ConvertVectorFromScene(System.Numerics.Vector2)
+  commentId: M:Fantas.Node.ConvertVectorFromScene(System.Numerics.Vector2)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ConvertVectorFromScene_System_Numerics_Vector2_
+  name: ConvertVectorFromScene(Vector2)
+  nameWithType: Node.ConvertVectorFromScene(Vector2)
+  fullName: Fantas.Node.ConvertVectorFromScene(System.Numerics.Vector2)
+  spec.csharp:
+  - uid: Fantas.Node.ConvertVectorFromScene(System.Numerics.Vector2)
+    name: ConvertVectorFromScene
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertVectorFromScene_System_Numerics_Vector2_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.ConvertVectorFromScene(System.Numerics.Vector2)
+    name: ConvertVectorFromScene
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertVectorFromScene_System_Numerics_Vector2_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: )
+- uid: Fantas.Node.ConvertVectorToScene(System.Numerics.Vector2)
+  commentId: M:Fantas.Node.ConvertVectorToScene(System.Numerics.Vector2)
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ConvertVectorToScene_System_Numerics_Vector2_
+  name: ConvertVectorToScene(Vector2)
+  nameWithType: Node.ConvertVectorToScene(Vector2)
+  fullName: Fantas.Node.ConvertVectorToScene(System.Numerics.Vector2)
+  spec.csharp:
+  - uid: Fantas.Node.ConvertVectorToScene(System.Numerics.Vector2)
+    name: ConvertVectorToScene
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertVectorToScene_System_Numerics_Vector2_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.ConvertVectorToScene(System.Numerics.Vector2)
+    name: ConvertVectorToScene
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ConvertVectorToScene_System_Numerics_Vector2_
+  - name: (
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.vector2
+  - name: )
 - uid: Fantas.Node.BringForward
   commentId: M:Fantas.Node.BringForward
   parent: Fantas.Node
@@ -1565,6 +1807,50 @@ references:
     name: SendToBack
     isExternal: true
     href: Fantas.Node.html#Fantas_Node_SendToBack
+  - name: (
+  - name: )
+- uid: Fantas.Node.SetMouseCapture
+  commentId: M:Fantas.Node.SetMouseCapture
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_SetMouseCapture
+  name: SetMouseCapture()
+  nameWithType: Node.SetMouseCapture()
+  fullName: Fantas.Node.SetMouseCapture()
+  spec.csharp:
+  - uid: Fantas.Node.SetMouseCapture
+    name: SetMouseCapture
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_SetMouseCapture
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.SetMouseCapture
+    name: SetMouseCapture
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_SetMouseCapture
+  - name: (
+  - name: )
+- uid: Fantas.Node.ReleaseMouseCapture
+  commentId: M:Fantas.Node.ReleaseMouseCapture
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_ReleaseMouseCapture
+  name: ReleaseMouseCapture()
+  nameWithType: Node.ReleaseMouseCapture()
+  fullName: Fantas.Node.ReleaseMouseCapture()
+  spec.csharp:
+  - uid: Fantas.Node.ReleaseMouseCapture
+    name: ReleaseMouseCapture
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ReleaseMouseCapture
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fantas.Node.ReleaseMouseCapture
+    name: ReleaseMouseCapture
+    isExternal: true
+    href: Fantas.Node.html#Fantas_Node_ReleaseMouseCapture
   - name: (
   - name: )
 - uid: Fantas.Node.OnTap(Fantas.Input.TapEventArgs)
@@ -2129,27 +2415,35 @@ references:
     href: Fantas.Node.html#Fantas_Node_OnMouseEnter
   - name: (
   - name: )
-- uid: Fantas.Node.OnMouseHover
-  commentId: M:Fantas.Node.OnMouseHover
+- uid: Fantas.Node.OnMouseMove(Fantas.Input.MouseEventArgs)
+  commentId: M:Fantas.Node.OnMouseMove(Fantas.Input.MouseEventArgs)
   parent: Fantas.Node
   isExternal: true
-  href: Fantas.Node.html#Fantas_Node_OnMouseHover
-  name: OnMouseHover()
-  nameWithType: Node.OnMouseHover()
-  fullName: Fantas.Node.OnMouseHover()
+  href: Fantas.Node.html#Fantas_Node_OnMouseMove_Fantas_Input_MouseEventArgs_
+  name: OnMouseMove(MouseEventArgs)
+  nameWithType: Node.OnMouseMove(MouseEventArgs)
+  fullName: Fantas.Node.OnMouseMove(Fantas.Input.MouseEventArgs)
   spec.csharp:
-  - uid: Fantas.Node.OnMouseHover
-    name: OnMouseHover
+  - uid: Fantas.Node.OnMouseMove(Fantas.Input.MouseEventArgs)
+    name: OnMouseMove
     isExternal: true
-    href: Fantas.Node.html#Fantas_Node_OnMouseHover
+    href: Fantas.Node.html#Fantas_Node_OnMouseMove_Fantas_Input_MouseEventArgs_
   - name: (
+  - uid: Fantas.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: Fantas.Input.MouseEventArgs.html
   - name: )
   spec.vb:
-  - uid: Fantas.Node.OnMouseHover
-    name: OnMouseHover
+  - uid: Fantas.Node.OnMouseMove(Fantas.Input.MouseEventArgs)
+    name: OnMouseMove
     isExternal: true
-    href: Fantas.Node.html#Fantas_Node_OnMouseHover
+    href: Fantas.Node.html#Fantas_Node_OnMouseMove_Fantas_Input_MouseEventArgs_
   - name: (
+  - uid: Fantas.Input.MouseEventArgs
+    name: MouseEventArgs
+    isExternal: true
+    href: Fantas.Input.MouseEventArgs.html
   - name: )
 - uid: Fantas.Node.OnMouseLeave
   commentId: M:Fantas.Node.OnMouseLeave
@@ -2261,6 +2555,38 @@ references:
   name: Top
   nameWithType: Node.Top
   fullName: Fantas.Node.Top
+- uid: Fantas.Node.TopLeft
+  commentId: P:Fantas.Node.TopLeft
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_TopLeft
+  name: TopLeft
+  nameWithType: Node.TopLeft
+  fullName: Fantas.Node.TopLeft
+- uid: Fantas.Node.TopRight
+  commentId: P:Fantas.Node.TopRight
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_TopRight
+  name: TopRight
+  nameWithType: Node.TopRight
+  fullName: Fantas.Node.TopRight
+- uid: Fantas.Node.BottomLeft
+  commentId: P:Fantas.Node.BottomLeft
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_BottomLeft
+  name: BottomLeft
+  nameWithType: Node.BottomLeft
+  fullName: Fantas.Node.BottomLeft
+- uid: Fantas.Node.BottomRight
+  commentId: P:Fantas.Node.BottomRight
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_BottomRight
+  name: BottomRight
+  nameWithType: Node.BottomRight
+  fullName: Fantas.Node.BottomRight
 - uid: Fantas.Node.Bottom
   commentId: P:Fantas.Node.Bottom
   parent: Fantas.Node
@@ -2421,6 +2747,14 @@ references:
   name: CanSendBackward
   nameWithType: Node.CanSendBackward
   fullName: Fantas.Node.CanSendBackward
+- uid: Fantas.Node.HasMouseCaputure
+  commentId: P:Fantas.Node.HasMouseCaputure
+  parent: Fantas.Node
+  isExternal: true
+  href: Fantas.Node.html#Fantas_Node_HasMouseCaputure
+  name: HasMouseCaputure
+  nameWithType: Node.HasMouseCaputure
+  fullName: Fantas.Node.HasMouseCaputure
 - uid: Fantas.Node.IsMouseOver
   commentId: P:Fantas.Node.IsMouseOver
   parent: Fantas.Node
@@ -2605,14 +2939,14 @@ references:
   name: MouseEnter
   nameWithType: Node.MouseEnter
   fullName: Fantas.Node.MouseEnter
-- uid: Fantas.Node.MouseHover
-  commentId: E:Fantas.Node.MouseHover
+- uid: Fantas.Node.MouseMove
+  commentId: E:Fantas.Node.MouseMove
   parent: Fantas.Node
   isExternal: true
-  href: Fantas.Node.html#Fantas_Node_MouseHover
-  name: MouseHover
-  nameWithType: Node.MouseHover
-  fullName: Fantas.Node.MouseHover
+  href: Fantas.Node.html#Fantas_Node_MouseMove
+  name: MouseMove
+  nameWithType: Node.MouseMove
+  fullName: Fantas.Node.MouseMove
 - uid: Fantas.Node.MouseLeave
   commentId: E:Fantas.Node.MouseLeave
   parent: Fantas.Node
@@ -2621,201 +2955,6 @@ references:
   name: MouseLeave
   nameWithType: Node.MouseLeave
   fullName: Fantas.Node.MouseLeave
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
 - uid: Fantas.RectangleNode.Fantas.Physics.NodeExtensions.SetupBody(System.Int32)
   commentId: M:Fantas.Physics.NodeExtensions.SetupBody(Fantas.RectangleNode,System.Int32)
   parent: Fantas.Physics.NodeExtensions

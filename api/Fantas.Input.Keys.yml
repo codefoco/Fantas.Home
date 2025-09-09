@@ -118,23 +118,47 @@ items:
   - Fantas.Input.Keys.X
   - Fantas.Input.Keys.Y
   - Fantas.Input.Keys.Z
+  - Fantas.Input.Keys.value__
   langs:
   - csharp
   - vb
   name: Keys
   nameWithType: Keys
   fullName: Fantas.Input.Keys
-  type: Enum
+  type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Keyboard key codes
   example: []
   syntax:
-    content: public enum Keys
-    content.vb: Public Enum Keys
+    content: 'public sealed class Keys : Enum'
+    content.vb: Public NotInheritable Class Keys Inherits Enum
+  inheritance:
+  - System.Object
+- uid: Fantas.Input.Keys.value__
+  commentId: F:Fantas.Input.Keys.value__
+  id: value__
+  parent: Fantas.Input.Keys
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: Keys.value__
+  fullName: Fantas.Input.Keys.value__
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
 - uid: Fantas.Input.Keys.None
   commentId: F:Fantas.Input.Keys.None
   id: None
@@ -147,16 +171,17 @@ items:
   fullName: Fantas.Input.Keys.None
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Reserved.
   example: []
   syntax:
-    content: None = 0
+    content: public const Keys None = 0
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const None As Keys = 0
 - uid: Fantas.Input.Keys.Back
   commentId: F:Fantas.Input.Keys.Back
   id: Back
@@ -169,16 +194,17 @@ items:
   fullName: Fantas.Input.Keys.Back
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: BACKSPACE key.
   example: []
   syntax:
-    content: Back = 8
+    content: public const Keys Back = 8
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Back As Keys = 8
 - uid: Fantas.Input.Keys.Tab
   commentId: F:Fantas.Input.Keys.Tab
   id: Tab
@@ -191,16 +217,17 @@ items:
   fullName: Fantas.Input.Keys.Tab
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: TAB key.
   example: []
   syntax:
-    content: Tab = 9
+    content: public const Keys Tab = 9
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Tab As Keys = 9
 - uid: Fantas.Input.Keys.Enter
   commentId: F:Fantas.Input.Keys.Enter
   id: Enter
@@ -213,16 +240,17 @@ items:
   fullName: Fantas.Input.Keys.Enter
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
-  summary: ENTER key.
+  summary: ENTER / Return key.
   example: []
   syntax:
-    content: Enter = 13
+    content: public const Keys Enter = 13
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Enter As Keys = 13
 - uid: Fantas.Input.Keys.CapsLock
   commentId: F:Fantas.Input.Keys.CapsLock
   id: CapsLock
@@ -235,16 +263,17 @@ items:
   fullName: Fantas.Input.Keys.CapsLock
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: CAPS LOCK key.
   example: []
   syntax:
-    content: CapsLock = 20
+    content: public const Keys CapsLock = 20
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const CapsLock As Keys = 20
 - uid: Fantas.Input.Keys.Escape
   commentId: F:Fantas.Input.Keys.Escape
   id: Escape
@@ -257,16 +286,17 @@ items:
   fullName: Fantas.Input.Keys.Escape
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: ESC key.
   example: []
   syntax:
-    content: Escape = 27
+    content: public const Keys Escape = 27
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Escape As Keys = 27
 - uid: Fantas.Input.Keys.Space
   commentId: F:Fantas.Input.Keys.Space
   id: Space
@@ -279,16 +309,17 @@ items:
   fullName: Fantas.Input.Keys.Space
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: SPACE BAR key.
   example: []
   syntax:
-    content: Space = 32
+    content: public const Keys Space = 32
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Space As Keys = 32
 - uid: Fantas.Input.Keys.PageUp
   commentId: F:Fantas.Input.Keys.PageUp
   id: PageUp
@@ -301,16 +332,17 @@ items:
   fullName: Fantas.Input.Keys.PageUp
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: PAGE UP key.
   example: []
   syntax:
-    content: PageUp = 33
+    content: public const Keys PageUp = 33
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const PageUp As Keys = 33
 - uid: Fantas.Input.Keys.PageDown
   commentId: F:Fantas.Input.Keys.PageDown
   id: PageDown
@@ -323,16 +355,17 @@ items:
   fullName: Fantas.Input.Keys.PageDown
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: PAGE DOWN key.
   example: []
   syntax:
-    content: PageDown = 34
+    content: public const Keys PageDown = 34
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const PageDown As Keys = 34
 - uid: Fantas.Input.Keys.End
   commentId: F:Fantas.Input.Keys.End
   id: End
@@ -345,16 +378,17 @@ items:
   fullName: Fantas.Input.Keys.End
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: END key.
   example: []
   syntax:
-    content: End = 35
+    content: public const Keys End = 35
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const End As Keys = 35
 - uid: Fantas.Input.Keys.Home
   commentId: F:Fantas.Input.Keys.Home
   id: Home
@@ -367,16 +401,17 @@ items:
   fullName: Fantas.Input.Keys.Home
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: HOME key.
   example: []
   syntax:
-    content: Home = 36
+    content: public const Keys Home = 36
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Home As Keys = 36
 - uid: Fantas.Input.Keys.Left
   commentId: F:Fantas.Input.Keys.Left
   id: Left
@@ -389,16 +424,17 @@ items:
   fullName: Fantas.Input.Keys.Left
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: LEFT ARROW key.
   example: []
   syntax:
-    content: Left = 37
+    content: public const Keys Left = 37
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Left As Keys = 37
 - uid: Fantas.Input.Keys.Up
   commentId: F:Fantas.Input.Keys.Up
   id: Up
@@ -411,16 +447,17 @@ items:
   fullName: Fantas.Input.Keys.Up
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: UP ARROW key.
   example: []
   syntax:
-    content: Up = 38
+    content: public const Keys Up = 38
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Up As Keys = 38
 - uid: Fantas.Input.Keys.Right
   commentId: F:Fantas.Input.Keys.Right
   id: Right
@@ -433,16 +470,17 @@ items:
   fullName: Fantas.Input.Keys.Right
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: RIGHT ARROW key.
   example: []
   syntax:
-    content: Right = 39
+    content: public const Keys Right = 39
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Right As Keys = 39
 - uid: Fantas.Input.Keys.Down
   commentId: F:Fantas.Input.Keys.Down
   id: Down
@@ -455,16 +493,17 @@ items:
   fullName: Fantas.Input.Keys.Down
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: DOWN ARROW key.
   example: []
   syntax:
-    content: Down = 40
+    content: public const Keys Down = 40
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Down As Keys = 40
 - uid: Fantas.Input.Keys.Select
   commentId: F:Fantas.Input.Keys.Select
   id: Select
@@ -477,16 +516,17 @@ items:
   fullName: Fantas.Input.Keys.Select
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: SELECT key.
   example: []
   syntax:
-    content: Select = 41
+    content: public const Keys Select = 41
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Select As Keys = 41
 - uid: Fantas.Input.Keys.Print
   commentId: F:Fantas.Input.Keys.Print
   id: Print
@@ -499,16 +539,17 @@ items:
   fullName: Fantas.Input.Keys.Print
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: PRINT key.
   example: []
   syntax:
-    content: Print = 42
+    content: public const Keys Print = 42
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Print As Keys = 42
 - uid: Fantas.Input.Keys.Execute
   commentId: F:Fantas.Input.Keys.Execute
   id: Execute
@@ -521,16 +562,17 @@ items:
   fullName: Fantas.Input.Keys.Execute
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: EXECUTE key.
   example: []
   syntax:
-    content: Execute = 43
+    content: public const Keys Execute = 43
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Execute As Keys = 43
 - uid: Fantas.Input.Keys.PrintScreen
   commentId: F:Fantas.Input.Keys.PrintScreen
   id: PrintScreen
@@ -543,16 +585,17 @@ items:
   fullName: Fantas.Input.Keys.PrintScreen
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: PRINT SCREEN key.
   example: []
   syntax:
-    content: PrintScreen = 44
+    content: public const Keys PrintScreen = 44
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const PrintScreen As Keys = 44
 - uid: Fantas.Input.Keys.Insert
   commentId: F:Fantas.Input.Keys.Insert
   id: Insert
@@ -565,16 +608,17 @@ items:
   fullName: Fantas.Input.Keys.Insert
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: INS key.
   example: []
   syntax:
-    content: Insert = 45
+    content: public const Keys Insert = 45
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Insert As Keys = 45
 - uid: Fantas.Input.Keys.Delete
   commentId: F:Fantas.Input.Keys.Delete
   id: Delete
@@ -587,16 +631,17 @@ items:
   fullName: Fantas.Input.Keys.Delete
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: DEL key.
   example: []
   syntax:
-    content: Delete = 46
+    content: public const Keys Delete = 46
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Delete As Keys = 46
 - uid: Fantas.Input.Keys.Help
   commentId: F:Fantas.Input.Keys.Help
   id: Help
@@ -609,16 +654,17 @@ items:
   fullName: Fantas.Input.Keys.Help
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: HELP key.
   example: []
   syntax:
-    content: Help = 47
+    content: public const Keys Help = 47
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Help As Keys = 47
 - uid: Fantas.Input.Keys.D0
   commentId: F:Fantas.Input.Keys.D0
   id: D0
@@ -631,16 +677,17 @@ items:
   fullName: Fantas.Input.Keys.D0
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: D0
   example: []
   syntax:
-    content: D0 = 48
+    content: public const Keys D0 = 48
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const D0 As Keys = 48
 - uid: Fantas.Input.Keys.D1
   commentId: F:Fantas.Input.Keys.D1
   id: D1
@@ -653,16 +700,17 @@ items:
   fullName: Fantas.Input.Keys.D1
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Used for miscellaneous characters; it can vary by keyboard.
   example: []
   syntax:
-    content: D1 = 49
+    content: public const Keys D1 = 49
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const D1 As Keys = 49
 - uid: Fantas.Input.Keys.D2
   commentId: F:Fantas.Input.Keys.D2
   id: D2
@@ -675,16 +723,17 @@ items:
   fullName: Fantas.Input.Keys.D2
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Used for miscellaneous characters; it can vary by keyboard.
   example: []
   syntax:
-    content: D2 = 50
+    content: public const Keys D2 = 50
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const D2 As Keys = 50
 - uid: Fantas.Input.Keys.D3
   commentId: F:Fantas.Input.Keys.D3
   id: D3
@@ -697,16 +746,17 @@ items:
   fullName: Fantas.Input.Keys.D3
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Used for miscellaneous characters; it can vary by keyboard.
   example: []
   syntax:
-    content: D3 = 51
+    content: public const Keys D3 = 51
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const D3 As Keys = 51
 - uid: Fantas.Input.Keys.D4
   commentId: F:Fantas.Input.Keys.D4
   id: D4
@@ -719,16 +769,17 @@ items:
   fullName: Fantas.Input.Keys.D4
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Used for miscellaneous characters; it can vary by keyboard.
   example: []
   syntax:
-    content: D4 = 52
+    content: public const Keys D4 = 52
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const D4 As Keys = 52
 - uid: Fantas.Input.Keys.D5
   commentId: F:Fantas.Input.Keys.D5
   id: D5
@@ -741,16 +792,17 @@ items:
   fullName: Fantas.Input.Keys.D5
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Used for miscellaneous characters; it can vary by keyboard.
   example: []
   syntax:
-    content: D5 = 53
+    content: public const Keys D5 = 53
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const D5 As Keys = 53
 - uid: Fantas.Input.Keys.D6
   commentId: F:Fantas.Input.Keys.D6
   id: D6
@@ -763,16 +815,17 @@ items:
   fullName: Fantas.Input.Keys.D6
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Used for miscellaneous characters; it can vary by keyboard.
   example: []
   syntax:
-    content: D6 = 54
+    content: public const Keys D6 = 54
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const D6 As Keys = 54
 - uid: Fantas.Input.Keys.D7
   commentId: F:Fantas.Input.Keys.D7
   id: D7
@@ -785,16 +838,17 @@ items:
   fullName: Fantas.Input.Keys.D7
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Used for miscellaneous characters; it can vary by keyboard.
   example: []
   syntax:
-    content: D7 = 55
+    content: public const Keys D7 = 55
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const D7 As Keys = 55
 - uid: Fantas.Input.Keys.D8
   commentId: F:Fantas.Input.Keys.D8
   id: D8
@@ -807,16 +861,17 @@ items:
   fullName: Fantas.Input.Keys.D8
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Used for miscellaneous characters; it can vary by keyboard.
   example: []
   syntax:
-    content: D8 = 56
+    content: public const Keys D8 = 56
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const D8 As Keys = 56
 - uid: Fantas.Input.Keys.D9
   commentId: F:Fantas.Input.Keys.D9
   id: D9
@@ -829,16 +884,17 @@ items:
   fullName: Fantas.Input.Keys.D9
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Used for miscellaneous characters; it can vary by keyboard.
   example: []
   syntax:
-    content: D9 = 57
+    content: public const Keys D9 = 57
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const D9 As Keys = 57
 - uid: Fantas.Input.Keys.A
   commentId: F:Fantas.Input.Keys.A
   id: A
@@ -851,16 +907,17 @@ items:
   fullName: Fantas.Input.Keys.A
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: A key.
   example: []
   syntax:
-    content: A = 65
+    content: public const Keys A = 65
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const A As Keys = 65
 - uid: Fantas.Input.Keys.B
   commentId: F:Fantas.Input.Keys.B
   id: B
@@ -873,16 +930,17 @@ items:
   fullName: Fantas.Input.Keys.B
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: B key.
   example: []
   syntax:
-    content: B = 66
+    content: public const Keys B = 66
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const B As Keys = 66
 - uid: Fantas.Input.Keys.C
   commentId: F:Fantas.Input.Keys.C
   id: C
@@ -895,16 +953,17 @@ items:
   fullName: Fantas.Input.Keys.C
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: C key.
   example: []
   syntax:
-    content: C = 67
+    content: public const Keys C = 67
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const C As Keys = 67
 - uid: Fantas.Input.Keys.D
   commentId: F:Fantas.Input.Keys.D
   id: D
@@ -917,16 +976,17 @@ items:
   fullName: Fantas.Input.Keys.D
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: D key.
   example: []
   syntax:
-    content: D = 68
+    content: public const Keys D = 68
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const D As Keys = 68
 - uid: Fantas.Input.Keys.E
   commentId: F:Fantas.Input.Keys.E
   id: E
@@ -939,16 +999,17 @@ items:
   fullName: Fantas.Input.Keys.E
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: E key.
   example: []
   syntax:
-    content: E = 69
+    content: public const Keys E = 69
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const E As Keys = 69
 - uid: Fantas.Input.Keys.F
   commentId: F:Fantas.Input.Keys.F
   id: F
@@ -961,16 +1022,17 @@ items:
   fullName: Fantas.Input.Keys.F
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: F key.
   example: []
   syntax:
-    content: F = 70
+    content: public const Keys F = 70
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const F As Keys = 70
 - uid: Fantas.Input.Keys.G
   commentId: F:Fantas.Input.Keys.G
   id: G
@@ -983,16 +1045,17 @@ items:
   fullName: Fantas.Input.Keys.G
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: G key.
   example: []
   syntax:
-    content: G = 71
+    content: public const Keys G = 71
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const G As Keys = 71
 - uid: Fantas.Input.Keys.H
   commentId: F:Fantas.Input.Keys.H
   id: H
@@ -1005,16 +1068,17 @@ items:
   fullName: Fantas.Input.Keys.H
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: H key.
   example: []
   syntax:
-    content: H = 72
+    content: public const Keys H = 72
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const H As Keys = 72
 - uid: Fantas.Input.Keys.I
   commentId: F:Fantas.Input.Keys.I
   id: I
@@ -1027,16 +1091,17 @@ items:
   fullName: Fantas.Input.Keys.I
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: I key.
   example: []
   syntax:
-    content: I = 73
+    content: public const Keys I = 73
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const I As Keys = 73
 - uid: Fantas.Input.Keys.J
   commentId: F:Fantas.Input.Keys.J
   id: J
@@ -1049,16 +1114,17 @@ items:
   fullName: Fantas.Input.Keys.J
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: J key.
   example: []
   syntax:
-    content: J = 74
+    content: public const Keys J = 74
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const J As Keys = 74
 - uid: Fantas.Input.Keys.K
   commentId: F:Fantas.Input.Keys.K
   id: K
@@ -1071,16 +1137,17 @@ items:
   fullName: Fantas.Input.Keys.K
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: K key.
   example: []
   syntax:
-    content: K = 75
+    content: public const Keys K = 75
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const K As Keys = 75
 - uid: Fantas.Input.Keys.L
   commentId: F:Fantas.Input.Keys.L
   id: L
@@ -1093,16 +1160,17 @@ items:
   fullName: Fantas.Input.Keys.L
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: L key.
   example: []
   syntax:
-    content: L = 76
+    content: public const Keys L = 76
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const L As Keys = 76
 - uid: Fantas.Input.Keys.M
   commentId: F:Fantas.Input.Keys.M
   id: M
@@ -1115,16 +1183,17 @@ items:
   fullName: Fantas.Input.Keys.M
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: M key.
   example: []
   syntax:
-    content: M = 77
+    content: public const Keys M = 77
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const M As Keys = 77
 - uid: Fantas.Input.Keys.N
   commentId: F:Fantas.Input.Keys.N
   id: N
@@ -1137,16 +1206,17 @@ items:
   fullName: Fantas.Input.Keys.N
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: N key.
   example: []
   syntax:
-    content: N = 78
+    content: public const Keys N = 78
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const N As Keys = 78
 - uid: Fantas.Input.Keys.O
   commentId: F:Fantas.Input.Keys.O
   id: O
@@ -1159,16 +1229,17 @@ items:
   fullName: Fantas.Input.Keys.O
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: O key.
   example: []
   syntax:
-    content: O = 79
+    content: public const Keys O = 79
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const O As Keys = 79
 - uid: Fantas.Input.Keys.P
   commentId: F:Fantas.Input.Keys.P
   id: P
@@ -1181,16 +1252,17 @@ items:
   fullName: Fantas.Input.Keys.P
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: P key.
   example: []
   syntax:
-    content: P = 80
+    content: public const Keys P = 80
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const P As Keys = 80
 - uid: Fantas.Input.Keys.Q
   commentId: F:Fantas.Input.Keys.Q
   id: Q
@@ -1203,16 +1275,17 @@ items:
   fullName: Fantas.Input.Keys.Q
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Q key.
   example: []
   syntax:
-    content: Q = 81
+    content: public const Keys Q = 81
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Q As Keys = 81
 - uid: Fantas.Input.Keys.R
   commentId: F:Fantas.Input.Keys.R
   id: R
@@ -1225,16 +1298,17 @@ items:
   fullName: Fantas.Input.Keys.R
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: R key.
   example: []
   syntax:
-    content: R = 82
+    content: public const Keys R = 82
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const R As Keys = 82
 - uid: Fantas.Input.Keys.S
   commentId: F:Fantas.Input.Keys.S
   id: S
@@ -1247,16 +1321,17 @@ items:
   fullName: Fantas.Input.Keys.S
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: S key.
   example: []
   syntax:
-    content: S = 83
+    content: public const Keys S = 83
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const S As Keys = 83
 - uid: Fantas.Input.Keys.T
   commentId: F:Fantas.Input.Keys.T
   id: T
@@ -1269,16 +1344,17 @@ items:
   fullName: Fantas.Input.Keys.T
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: T key.
   example: []
   syntax:
-    content: T = 84
+    content: public const Keys T = 84
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const T As Keys = 84
 - uid: Fantas.Input.Keys.U
   commentId: F:Fantas.Input.Keys.U
   id: U
@@ -1291,16 +1367,17 @@ items:
   fullName: Fantas.Input.Keys.U
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: U key.
   example: []
   syntax:
-    content: U = 85
+    content: public const Keys U = 85
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const U As Keys = 85
 - uid: Fantas.Input.Keys.V
   commentId: F:Fantas.Input.Keys.V
   id: V
@@ -1313,16 +1390,17 @@ items:
   fullName: Fantas.Input.Keys.V
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: V key.
   example: []
   syntax:
-    content: V = 86
+    content: public const Keys V = 86
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const V As Keys = 86
 - uid: Fantas.Input.Keys.W
   commentId: F:Fantas.Input.Keys.W
   id: W
@@ -1335,16 +1413,17 @@ items:
   fullName: Fantas.Input.Keys.W
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: W key.
   example: []
   syntax:
-    content: W = 87
+    content: public const Keys W = 87
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const W As Keys = 87
 - uid: Fantas.Input.Keys.X
   commentId: F:Fantas.Input.Keys.X
   id: X
@@ -1357,16 +1436,17 @@ items:
   fullName: Fantas.Input.Keys.X
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: X key.
   example: []
   syntax:
-    content: X = 88
+    content: public const Keys X = 88
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const X As Keys = 88
 - uid: Fantas.Input.Keys.Y
   commentId: F:Fantas.Input.Keys.Y
   id: Y
@@ -1379,16 +1459,17 @@ items:
   fullName: Fantas.Input.Keys.Y
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Y key.
   example: []
   syntax:
-    content: Y = 89
+    content: public const Keys Y = 89
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Y As Keys = 89
 - uid: Fantas.Input.Keys.Z
   commentId: F:Fantas.Input.Keys.Z
   id: Z
@@ -1401,16 +1482,17 @@ items:
   fullName: Fantas.Input.Keys.Z
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Z key.
   example: []
   syntax:
-    content: Z = 90
+    content: public const Keys Z = 90
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Z As Keys = 90
 - uid: Fantas.Input.Keys.LeftWindows
   commentId: F:Fantas.Input.Keys.LeftWindows
   id: LeftWindows
@@ -1423,16 +1505,17 @@ items:
   fullName: Fantas.Input.Keys.LeftWindows
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Left Windows/Meta/Command key.
   example: []
   syntax:
-    content: LeftWindows = 91
+    content: public const Keys LeftWindows = 91
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const LeftWindows As Keys = 91
 - uid: Fantas.Input.Keys.RightWindows
   commentId: F:Fantas.Input.Keys.RightWindows
   id: RightWindows
@@ -1445,16 +1528,17 @@ items:
   fullName: Fantas.Input.Keys.RightWindows
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Right Windows/Meta/Command key.
   example: []
   syntax:
-    content: RightWindows = 92
+    content: public const Keys RightWindows = 92
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const RightWindows As Keys = 92
 - uid: Fantas.Input.Keys.Apps
   commentId: F:Fantas.Input.Keys.Apps
   id: Apps
@@ -1467,16 +1551,17 @@ items:
   fullName: Fantas.Input.Keys.Apps
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Applications key.
   example: []
   syntax:
-    content: Apps = 93
+    content: public const Keys Apps = 93
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Apps As Keys = 93
 - uid: Fantas.Input.Keys.Sleep
   commentId: F:Fantas.Input.Keys.Sleep
   id: Sleep
@@ -1489,16 +1574,17 @@ items:
   fullName: Fantas.Input.Keys.Sleep
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Computer Sleep key.
   example: []
   syntax:
-    content: Sleep = 95
+    content: public const Keys Sleep = 95
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Sleep As Keys = 95
 - uid: Fantas.Input.Keys.NumPad0
   commentId: F:Fantas.Input.Keys.NumPad0
   id: NumPad0
@@ -1511,16 +1597,17 @@ items:
   fullName: Fantas.Input.Keys.NumPad0
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Numeric keypad 0 key.
   example: []
   syntax:
-    content: NumPad0 = 96
+    content: public const Keys NumPad0 = 96
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const NumPad0 As Keys = 96
 - uid: Fantas.Input.Keys.NumPad1
   commentId: F:Fantas.Input.Keys.NumPad1
   id: NumPad1
@@ -1533,16 +1620,17 @@ items:
   fullName: Fantas.Input.Keys.NumPad1
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Numeric keypad 1 key.
   example: []
   syntax:
-    content: NumPad1 = 97
+    content: public const Keys NumPad1 = 97
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const NumPad1 As Keys = 97
 - uid: Fantas.Input.Keys.NumPad2
   commentId: F:Fantas.Input.Keys.NumPad2
   id: NumPad2
@@ -1555,16 +1643,17 @@ items:
   fullName: Fantas.Input.Keys.NumPad2
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Numeric keypad 2 key.
   example: []
   syntax:
-    content: NumPad2 = 98
+    content: public const Keys NumPad2 = 98
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const NumPad2 As Keys = 98
 - uid: Fantas.Input.Keys.NumPad3
   commentId: F:Fantas.Input.Keys.NumPad3
   id: NumPad3
@@ -1577,16 +1666,17 @@ items:
   fullName: Fantas.Input.Keys.NumPad3
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Numeric keypad 3 key.
   example: []
   syntax:
-    content: NumPad3 = 99
+    content: public const Keys NumPad3 = 99
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const NumPad3 As Keys = 99
 - uid: Fantas.Input.Keys.NumPad4
   commentId: F:Fantas.Input.Keys.NumPad4
   id: NumPad4
@@ -1599,16 +1689,17 @@ items:
   fullName: Fantas.Input.Keys.NumPad4
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Numeric keypad 4 key.
   example: []
   syntax:
-    content: NumPad4 = 100
+    content: public const Keys NumPad4 = 100
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const NumPad4 As Keys = 100
 - uid: Fantas.Input.Keys.NumPad5
   commentId: F:Fantas.Input.Keys.NumPad5
   id: NumPad5
@@ -1621,16 +1712,17 @@ items:
   fullName: Fantas.Input.Keys.NumPad5
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Numeric keypad 5 key.
   example: []
   syntax:
-    content: NumPad5 = 101
+    content: public const Keys NumPad5 = 101
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const NumPad5 As Keys = 101
 - uid: Fantas.Input.Keys.NumPad6
   commentId: F:Fantas.Input.Keys.NumPad6
   id: NumPad6
@@ -1643,16 +1735,17 @@ items:
   fullName: Fantas.Input.Keys.NumPad6
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Numeric keypad 6 key.
   example: []
   syntax:
-    content: NumPad6 = 102
+    content: public const Keys NumPad6 = 102
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const NumPad6 As Keys = 102
 - uid: Fantas.Input.Keys.NumPad7
   commentId: F:Fantas.Input.Keys.NumPad7
   id: NumPad7
@@ -1665,16 +1758,17 @@ items:
   fullName: Fantas.Input.Keys.NumPad7
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Numeric keypad 7 key.
   example: []
   syntax:
-    content: NumPad7 = 103
+    content: public const Keys NumPad7 = 103
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const NumPad7 As Keys = 103
 - uid: Fantas.Input.Keys.NumPad8
   commentId: F:Fantas.Input.Keys.NumPad8
   id: NumPad8
@@ -1687,16 +1781,17 @@ items:
   fullName: Fantas.Input.Keys.NumPad8
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Numeric keypad 8 key.
   example: []
   syntax:
-    content: NumPad8 = 104
+    content: public const Keys NumPad8 = 104
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const NumPad8 As Keys = 104
 - uid: Fantas.Input.Keys.NumPad9
   commentId: F:Fantas.Input.Keys.NumPad9
   id: NumPad9
@@ -1709,16 +1804,17 @@ items:
   fullName: Fantas.Input.Keys.NumPad9
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Numeric keypad 9 key.
   example: []
   syntax:
-    content: NumPad9 = 105
+    content: public const Keys NumPad9 = 105
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const NumPad9 As Keys = 105
 - uid: Fantas.Input.Keys.Multiply
   commentId: F:Fantas.Input.Keys.Multiply
   id: Multiply
@@ -1731,16 +1827,17 @@ items:
   fullName: Fantas.Input.Keys.Multiply
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Multiply key.
   example: []
   syntax:
-    content: Multiply = 106
+    content: public const Keys Multiply = 106
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Multiply As Keys = 106
 - uid: Fantas.Input.Keys.Add
   commentId: F:Fantas.Input.Keys.Add
   id: Add
@@ -1753,16 +1850,17 @@ items:
   fullName: Fantas.Input.Keys.Add
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Add key.
   example: []
   syntax:
-    content: Add = 107
+    content: public const Keys Add = 107
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Add As Keys = 107
 - uid: Fantas.Input.Keys.Separator
   commentId: F:Fantas.Input.Keys.Separator
   id: Separator
@@ -1775,16 +1873,17 @@ items:
   fullName: Fantas.Input.Keys.Separator
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Separator key.
   example: []
   syntax:
-    content: Separator = 108
+    content: public const Keys Separator = 108
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Separator As Keys = 108
 - uid: Fantas.Input.Keys.Subtract
   commentId: F:Fantas.Input.Keys.Subtract
   id: Subtract
@@ -1797,16 +1896,17 @@ items:
   fullName: Fantas.Input.Keys.Subtract
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Subtract key.
   example: []
   syntax:
-    content: Subtract = 109
+    content: public const Keys Subtract = 109
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Subtract As Keys = 109
 - uid: Fantas.Input.Keys.Dot
   commentId: F:Fantas.Input.Keys.Dot
   id: Dot
@@ -1819,16 +1919,17 @@ items:
   fullName: Fantas.Input.Keys.Dot
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Dot key.
   example: []
   syntax:
-    content: Dot = 110
+    content: public const Keys Dot = 110
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Dot As Keys = 110
 - uid: Fantas.Input.Keys.Divide
   commentId: F:Fantas.Input.Keys.Divide
   id: Divide
@@ -1841,16 +1942,17 @@ items:
   fullName: Fantas.Input.Keys.Divide
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Divide key.
   example: []
   syntax:
-    content: Divide = 111
+    content: public const Keys Divide = 111
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Divide As Keys = 111
 - uid: Fantas.Input.Keys.F1
   commentId: F:Fantas.Input.Keys.F1
   id: F1
@@ -1863,16 +1965,17 @@ items:
   fullName: Fantas.Input.Keys.F1
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: F1 key.
   example: []
   syntax:
-    content: F1 = 112
+    content: public const Keys F1 = 112
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const F1 As Keys = 112
 - uid: Fantas.Input.Keys.F2
   commentId: F:Fantas.Input.Keys.F2
   id: F2
@@ -1885,16 +1988,17 @@ items:
   fullName: Fantas.Input.Keys.F2
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: F2 key.
   example: []
   syntax:
-    content: F2 = 113
+    content: public const Keys F2 = 113
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const F2 As Keys = 113
 - uid: Fantas.Input.Keys.F3
   commentId: F:Fantas.Input.Keys.F3
   id: F3
@@ -1907,16 +2011,17 @@ items:
   fullName: Fantas.Input.Keys.F3
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: F3 key.
   example: []
   syntax:
-    content: F3 = 114
+    content: public const Keys F3 = 114
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const F3 As Keys = 114
 - uid: Fantas.Input.Keys.F4
   commentId: F:Fantas.Input.Keys.F4
   id: F4
@@ -1929,16 +2034,17 @@ items:
   fullName: Fantas.Input.Keys.F4
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: F4 key.
   example: []
   syntax:
-    content: F4 = 115
+    content: public const Keys F4 = 115
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const F4 As Keys = 115
 - uid: Fantas.Input.Keys.F5
   commentId: F:Fantas.Input.Keys.F5
   id: F5
@@ -1951,16 +2057,17 @@ items:
   fullName: Fantas.Input.Keys.F5
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: F5 key.
   example: []
   syntax:
-    content: F5 = 116
+    content: public const Keys F5 = 116
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const F5 As Keys = 116
 - uid: Fantas.Input.Keys.F6
   commentId: F:Fantas.Input.Keys.F6
   id: F6
@@ -1973,16 +2080,17 @@ items:
   fullName: Fantas.Input.Keys.F6
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: F6 key.
   example: []
   syntax:
-    content: F6 = 117
+    content: public const Keys F6 = 117
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const F6 As Keys = 117
 - uid: Fantas.Input.Keys.F7
   commentId: F:Fantas.Input.Keys.F7
   id: F7
@@ -1995,16 +2103,17 @@ items:
   fullName: Fantas.Input.Keys.F7
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: F7 key.
   example: []
   syntax:
-    content: F7 = 118
+    content: public const Keys F7 = 118
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const F7 As Keys = 118
 - uid: Fantas.Input.Keys.F8
   commentId: F:Fantas.Input.Keys.F8
   id: F8
@@ -2017,16 +2126,17 @@ items:
   fullName: Fantas.Input.Keys.F8
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: F8 key.
   example: []
   syntax:
-    content: F8 = 119
+    content: public const Keys F8 = 119
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const F8 As Keys = 119
 - uid: Fantas.Input.Keys.F9
   commentId: F:Fantas.Input.Keys.F9
   id: F9
@@ -2039,16 +2149,17 @@ items:
   fullName: Fantas.Input.Keys.F9
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: F9 key.
   example: []
   syntax:
-    content: F9 = 120
+    content: public const Keys F9 = 120
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const F9 As Keys = 120
 - uid: Fantas.Input.Keys.F10
   commentId: F:Fantas.Input.Keys.F10
   id: F10
@@ -2061,16 +2172,17 @@ items:
   fullName: Fantas.Input.Keys.F10
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: F10 key.
   example: []
   syntax:
-    content: F10 = 121
+    content: public const Keys F10 = 121
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const F10 As Keys = 121
 - uid: Fantas.Input.Keys.F11
   commentId: F:Fantas.Input.Keys.F11
   id: F11
@@ -2083,16 +2195,17 @@ items:
   fullName: Fantas.Input.Keys.F11
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: F11 key.
   example: []
   syntax:
-    content: F11 = 122
+    content: public const Keys F11 = 122
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const F11 As Keys = 122
 - uid: Fantas.Input.Keys.F12
   commentId: F:Fantas.Input.Keys.F12
   id: F12
@@ -2105,16 +2218,17 @@ items:
   fullName: Fantas.Input.Keys.F12
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: F12 key.
   example: []
   syntax:
-    content: F12 = 123
+    content: public const Keys F12 = 123
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const F12 As Keys = 123
 - uid: Fantas.Input.Keys.LeftShift
   commentId: F:Fantas.Input.Keys.LeftShift
   id: LeftShift
@@ -2127,16 +2241,17 @@ items:
   fullName: Fantas.Input.Keys.LeftShift
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: F13 key.
   example: []
   syntax:
-    content: LeftShift = 160
+    content: public const Keys LeftShift = 160
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const LeftShift As Keys = 160
 - uid: Fantas.Input.Keys.RightShift
   commentId: F:Fantas.Input.Keys.RightShift
   id: RightShift
@@ -2149,16 +2264,17 @@ items:
   fullName: Fantas.Input.Keys.RightShift
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Right SHIFT key.
   example: []
   syntax:
-    content: RightShift = 161
+    content: public const Keys RightShift = 161
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const RightShift As Keys = 161
 - uid: Fantas.Input.Keys.LeftControl
   commentId: F:Fantas.Input.Keys.LeftControl
   id: LeftControl
@@ -2171,16 +2287,17 @@ items:
   fullName: Fantas.Input.Keys.LeftControl
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Left CONTROL key.
   example: []
   syntax:
-    content: LeftControl = 162
+    content: public const Keys LeftControl = 162
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const LeftControl As Keys = 162
 - uid: Fantas.Input.Keys.RightControl
   commentId: F:Fantas.Input.Keys.RightControl
   id: RightControl
@@ -2193,16 +2310,17 @@ items:
   fullName: Fantas.Input.Keys.RightControl
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Right CONTROL key.
   example: []
   syntax:
-    content: RightControl = 163
+    content: public const Keys RightControl = 163
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const RightControl As Keys = 163
 - uid: Fantas.Input.Keys.LeftAlt
   commentId: F:Fantas.Input.Keys.LeftAlt
   id: LeftAlt
@@ -2215,16 +2333,17 @@ items:
   fullName: Fantas.Input.Keys.LeftAlt
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Left ALT key.
   example: []
   syntax:
-    content: LeftAlt = 164
+    content: public const Keys LeftAlt = 164
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const LeftAlt As Keys = 164
 - uid: Fantas.Input.Keys.RightAlt
   commentId: F:Fantas.Input.Keys.RightAlt
   id: RightAlt
@@ -2237,16 +2356,17 @@ items:
   fullName: Fantas.Input.Keys.RightAlt
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Right ALT key.
   example: []
   syntax:
-    content: RightAlt = 165
+    content: public const Keys RightAlt = 165
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const RightAlt As Keys = 165
 - uid: Fantas.Input.Keys.Pause
   commentId: F:Fantas.Input.Keys.Pause
   id: Pause
@@ -2259,16 +2379,17 @@ items:
   fullName: Fantas.Input.Keys.Pause
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: PAUSE key.
   example: []
   syntax:
-    content: Pause = 19
+    content: public const Keys Pause = 19
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Pause As Keys = 19
 - uid: Fantas.Input.Keys.VolumeMute
   commentId: F:Fantas.Input.Keys.VolumeMute
   id: VolumeMute
@@ -2281,16 +2402,17 @@ items:
   fullName: Fantas.Input.Keys.VolumeMute
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Volume Mute key.
   example: []
   syntax:
-    content: VolumeMute = 173
+    content: public const Keys VolumeMute = 173
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const VolumeMute As Keys = 173
 - uid: Fantas.Input.Keys.VolumeDown
   commentId: F:Fantas.Input.Keys.VolumeDown
   id: VolumeDown
@@ -2303,16 +2425,17 @@ items:
   fullName: Fantas.Input.Keys.VolumeDown
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Volume Down key.
   example: []
   syntax:
-    content: VolumeDown = 174
+    content: public const Keys VolumeDown = 174
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const VolumeDown As Keys = 174
 - uid: Fantas.Input.Keys.VolumeUp
   commentId: F:Fantas.Input.Keys.VolumeUp
   id: VolumeUp
@@ -2325,16 +2448,17 @@ items:
   fullName: Fantas.Input.Keys.VolumeUp
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Volume Up key.
   example: []
   syntax:
-    content: VolumeUp = 175
+    content: public const Keys VolumeUp = 175
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const VolumeUp As Keys = 175
 - uid: Fantas.Input.Keys.Semicolon
   commentId: F:Fantas.Input.Keys.Semicolon
   id: Semicolon
@@ -2347,16 +2471,17 @@ items:
   fullName: Fantas.Input.Keys.Semicolon
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: The OEM Semicolon key on a US standard keyboard.
   example: []
   syntax:
-    content: Semicolon = 186
+    content: public const Keys Semicolon = 186
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Semicolon As Keys = 186
 - uid: Fantas.Input.Keys.OemPlus
   commentId: F:Fantas.Input.Keys.OemPlus
   id: OemPlus
@@ -2369,16 +2494,17 @@ items:
   fullName: Fantas.Input.Keys.OemPlus
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: For any country/region, the '+' key.
   example: []
   syntax:
-    content: OemPlus = 187
+    content: public const Keys OemPlus = 187
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const OemPlus As Keys = 187
 - uid: Fantas.Input.Keys.Comma
   commentId: F:Fantas.Input.Keys.Comma
   id: Comma
@@ -2391,16 +2517,17 @@ items:
   fullName: Fantas.Input.Keys.Comma
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: For any country/region, the ',' key.
   example: []
   syntax:
-    content: Comma = 188
+    content: public const Keys Comma = 188
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Comma As Keys = 188
 - uid: Fantas.Input.Keys.OemMinus
   commentId: F:Fantas.Input.Keys.OemMinus
   id: OemMinus
@@ -2413,16 +2540,17 @@ items:
   fullName: Fantas.Input.Keys.OemMinus
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: For any country/region, the '-' key.
   example: []
   syntax:
-    content: OemMinus = 189
+    content: public const Keys OemMinus = 189
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const OemMinus As Keys = 189
 - uid: Fantas.Input.Keys.Period
   commentId: F:Fantas.Input.Keys.Period
   id: Period
@@ -2435,16 +2563,17 @@ items:
   fullName: Fantas.Input.Keys.Period
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: For any country/region, the '.' key.
   example: []
   syntax:
-    content: Period = 190
+    content: public const Keys Period = 190
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Period As Keys = 190
 - uid: Fantas.Input.Keys.Question
   commentId: F:Fantas.Input.Keys.Question
   id: Question
@@ -2457,16 +2586,17 @@ items:
   fullName: Fantas.Input.Keys.Question
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: The OEM question mark key on a US standard keyboard.
   example: []
   syntax:
-    content: Question = 191
+    content: public const Keys Question = 191
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Question As Keys = 191
 - uid: Fantas.Input.Keys.Tilde
   commentId: F:Fantas.Input.Keys.Tilde
   id: Tilde
@@ -2479,16 +2609,17 @@ items:
   fullName: Fantas.Input.Keys.Tilde
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: The OEM tilde key on a US standard keyboard.
   example: []
   syntax:
-    content: Tilde = 192
+    content: public const Keys Tilde = 192
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Tilde As Keys = 192
 - uid: Fantas.Input.Keys.OpenBrackets
   commentId: F:Fantas.Input.Keys.OpenBrackets
   id: OpenBrackets
@@ -2501,16 +2632,17 @@ items:
   fullName: Fantas.Input.Keys.OpenBrackets
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: The OEM open bracket key on a US standard keyboard.
   example: []
   syntax:
-    content: OpenBrackets = 219
+    content: public const Keys OpenBrackets = 219
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const OpenBrackets As Keys = 219
 - uid: Fantas.Input.Keys.Pipe
   commentId: F:Fantas.Input.Keys.Pipe
   id: Pipe
@@ -2523,16 +2655,17 @@ items:
   fullName: Fantas.Input.Keys.Pipe
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: The OEM pipe key on a US standard keyboard.
   example: []
   syntax:
-    content: Pipe = 220
+    content: public const Keys Pipe = 220
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Pipe As Keys = 220
 - uid: Fantas.Input.Keys.CloseBrackets
   commentId: F:Fantas.Input.Keys.CloseBrackets
   id: CloseBrackets
@@ -2545,16 +2678,17 @@ items:
   fullName: Fantas.Input.Keys.CloseBrackets
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: The OEM close bracket key on a US standard keyboard.
   example: []
   syntax:
-    content: CloseBrackets = 221
+    content: public const Keys CloseBrackets = 221
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const CloseBrackets As Keys = 221
 - uid: Fantas.Input.Keys.Quotes
   commentId: F:Fantas.Input.Keys.Quotes
   id: Quotes
@@ -2567,16 +2701,17 @@ items:
   fullName: Fantas.Input.Keys.Quotes
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: The OEM singled/double quote key on a US standard keyboard.
   example: []
   syntax:
-    content: Quotes = 222
+    content: public const Keys Quotes = 222
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Quotes As Keys = 222
 - uid: Fantas.Input.Keys.Backslash
   commentId: F:Fantas.Input.Keys.Backslash
   id: Backslash
@@ -2589,16 +2724,17 @@ items:
   fullName: Fantas.Input.Keys.Backslash
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: The OEM angle bracket or backslash key on the RT 102 key keyboard.
   example: []
   syntax:
-    content: Backslash = 226
+    content: public const Keys Backslash = 226
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Backslash As Keys = 226
 - uid: Fantas.Input.Keys.Max
   commentId: F:Fantas.Input.Keys.Max
   id: Max
@@ -2611,16 +2747,17 @@ items:
   fullName: Fantas.Input.Keys.Max
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Keyboard/Keys.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Keyboard/Keys.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Last key entry
   example: []
   syntax:
-    content: Max = 227
+    content: public const Keys Max = 227
     return:
       type: Fantas.Input.Keys
+    content.vb: Public Const Max As Keys = 227
 references:
 - uid: Fantas.Input
   commentId: N:Fantas.Input
@@ -2649,6 +2786,35 @@ references:
     name: Input
     isExternal: true
     href: Fantas.Input.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Fantas.Input.Keys
   commentId: T:Fantas.Input.Keys
   parent: Fantas.Input

@@ -41,33 +41,47 @@ items:
   - Fantas.TileAdjacencyMask.UpperRight
   - Fantas.TileAdjacencyMask.UpperRightCorner
   - Fantas.TileAdjacencyMask.UpperRightEdge
+  - Fantas.TileAdjacencyMask.value__
   langs:
   - csharp
   - vb
   name: TileAdjacencyMask
   nameWithType: TileAdjacencyMask
   fullName: Fantas.TileAdjacencyMask
-  type: Enum
+  type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Tile Adjacency Mask
   example: []
   syntax:
-    content: >-
-      [Flags]
-
-      public enum TileAdjacencyMask
-    content.vb: >-
-      <Flags>
-
-      Public Enum TileAdjacencyMask
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+    content: 'public sealed class TileAdjacencyMask : Enum'
+    content.vb: Public NotInheritable Class TileAdjacencyMask Inherits Enum
+  inheritance:
+  - System.Object
+- uid: Fantas.TileAdjacencyMask.value__
+  commentId: F:Fantas.TileAdjacencyMask.value__
+  id: value__
+  parent: Fantas.TileAdjacencyMask
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TileAdjacencyMask.value__
+  fullName: Fantas.TileAdjacencyMask.value__
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
 - uid: Fantas.TileAdjacencyMask.None
   commentId: F:Fantas.TileAdjacencyMask.None
   id: None
@@ -80,16 +94,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.None
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: None
   example: []
   syntax:
-    content: None = 0
+    content: public const TileAdjacencyMask None = 0
     return:
       type: Fantas.TileAdjacencyMask
+    content.vb: Public Const None As TileAdjacencyMask = 0
 - uid: Fantas.TileAdjacencyMask.HexFlatUp
   commentId: F:Fantas.TileAdjacencyMask.HexFlatUp
   id: HexFlatUp
@@ -102,16 +117,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexFlatUp
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: HexFlatUp
   example: []
   syntax:
-    content: HexFlatUp = 1
+    content: public const TileAdjacencyMask HexFlatUp = 1
     return:
       type: Fantas.TileAdjacencyMask
+    content.vb: Public Const HexFlatUp As TileAdjacencyMask = 1
 - uid: Fantas.TileAdjacencyMask.HexPointyUpperLeft
   commentId: F:Fantas.TileAdjacencyMask.HexPointyUpperLeft
   id: HexPointyUpperLeft
@@ -124,16 +140,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexPointyUpperLeft
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: HexPointyUpperLeft
   example: []
   syntax:
-    content: HexPointyUpperLeft = 1
+    content: public const TileAdjacencyMask HexPointyUpperLeft = 1
     return:
       type: Fantas.TileAdjacencyMask
+    content.vb: Public Const HexPointyUpperLeft As TileAdjacencyMask = 1
 - uid: Fantas.TileAdjacencyMask.Up
   commentId: F:Fantas.TileAdjacencyMask.Up
   id: Up
@@ -146,16 +163,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.Up
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Up
   example: []
   syntax:
-    content: Up = 1
+    content: public const TileAdjacencyMask Up = 1
     return:
       type: Fantas.TileAdjacencyMask
+    content.vb: Public Const Up As TileAdjacencyMask = 1
 - uid: Fantas.TileAdjacencyMask.HexFlatUpperRight
   commentId: F:Fantas.TileAdjacencyMask.HexFlatUpperRight
   id: HexFlatUpperRight
@@ -168,16 +186,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexFlatUpperRight
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: HexFlatUpperRight
   example: []
   syntax:
-    content: HexFlatUpperRight = 2
+    content: public const TileAdjacencyMask HexFlatUpperRight = 2
     return:
       type: Fantas.TileAdjacencyMask
+    content.vb: Public Const HexFlatUpperRight As TileAdjacencyMask = 2
 - uid: Fantas.TileAdjacencyMask.HexPointyUpperRight
   commentId: F:Fantas.TileAdjacencyMask.HexPointyUpperRight
   id: HexPointyUpperRight
@@ -190,16 +209,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexPointyUpperRight
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: HexPointyUpperRight
   example: []
   syntax:
-    content: HexPointyUpperRight = 2
+    content: public const TileAdjacencyMask HexPointyUpperRight = 2
     return:
       type: Fantas.TileAdjacencyMask
+    content.vb: Public Const HexPointyUpperRight As TileAdjacencyMask = 2
 - uid: Fantas.TileAdjacencyMask.UpperRight
   commentId: F:Fantas.TileAdjacencyMask.UpperRight
   id: UpperRight
@@ -212,16 +232,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.UpperRight
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: UpperRight
   example: []
   syntax:
-    content: UpperRight = 2
+    content: public const TileAdjacencyMask UpperRight = 2
     return:
       type: Fantas.TileAdjacencyMask
+    content.vb: Public Const UpperRight As TileAdjacencyMask = 2
 - uid: Fantas.TileAdjacencyMask.HexFlatLowerRight
   commentId: F:Fantas.TileAdjacencyMask.HexFlatLowerRight
   id: HexFlatLowerRight
@@ -234,16 +255,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexFlatLowerRight
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: HexFlatLowerRight
   example: []
   syntax:
-    content: HexFlatLowerRight = 4
+    content: public const TileAdjacencyMask HexFlatLowerRight = 4
     return:
       type: Fantas.TileAdjacencyMask
+    content.vb: Public Const HexFlatLowerRight As TileAdjacencyMask = 4
 - uid: Fantas.TileAdjacencyMask.HexPointyRight
   commentId: F:Fantas.TileAdjacencyMask.HexPointyRight
   id: HexPointyRight
@@ -256,16 +278,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexPointyRight
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: HexPointyRight
   example: []
   syntax:
-    content: HexPointyRight = 4
+    content: public const TileAdjacencyMask HexPointyRight = 4
     return:
       type: Fantas.TileAdjacencyMask
+    content.vb: Public Const HexPointyRight As TileAdjacencyMask = 4
 - uid: Fantas.TileAdjacencyMask.Right
   commentId: F:Fantas.TileAdjacencyMask.Right
   id: Right
@@ -278,16 +301,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.Right
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Right
   example: []
   syntax:
-    content: Right = 4
+    content: public const TileAdjacencyMask Right = 4
     return:
       type: Fantas.TileAdjacencyMask
+    content.vb: Public Const Right As TileAdjacencyMask = 4
 - uid: Fantas.TileAdjacencyMask.LowerLeftEdge
   commentId: F:Fantas.TileAdjacencyMask.LowerLeftEdge
   id: LowerLeftEdge
@@ -300,17 +324,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.LowerLeftEdge
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: LowerLeftEdge
   example: []
   syntax:
-    content: LowerLeftEdge = HexFlatUp | HexFlatUpperRight | HexFlatLowerRight
+    content: public const TileAdjacencyMask LowerLeftEdge = 7
     return:
       type: Fantas.TileAdjacencyMask
-    content.vb: LowerLeftEdge = HexFlatUp Or HexFlatUpperRight Or HexFlatLowerRight
+    content.vb: Public Const LowerLeftEdge As TileAdjacencyMask = 7
 - uid: Fantas.TileAdjacencyMask.HexFlatDown
   commentId: F:Fantas.TileAdjacencyMask.HexFlatDown
   id: HexFlatDown
@@ -323,16 +347,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexFlatDown
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: HexFlatDown
   example: []
   syntax:
-    content: HexFlatDown = 8
+    content: public const TileAdjacencyMask HexFlatDown = 8
     return:
       type: Fantas.TileAdjacencyMask
+    content.vb: Public Const HexFlatDown As TileAdjacencyMask = 8
 - uid: Fantas.TileAdjacencyMask.HexPointyLowerRight
   commentId: F:Fantas.TileAdjacencyMask.HexPointyLowerRight
   id: HexPointyLowerRight
@@ -345,16 +370,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexPointyLowerRight
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: HexPointyLowerRight
   example: []
   syntax:
-    content: HexPointyLowerRight = 8
+    content: public const TileAdjacencyMask HexPointyLowerRight = 8
     return:
       type: Fantas.TileAdjacencyMask
+    content.vb: Public Const HexPointyLowerRight As TileAdjacencyMask = 8
 - uid: Fantas.TileAdjacencyMask.LowerRight
   commentId: F:Fantas.TileAdjacencyMask.LowerRight
   id: LowerRight
@@ -367,16 +393,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.LowerRight
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: LowerRight
   example: []
   syntax:
-    content: LowerRight = 8
+    content: public const TileAdjacencyMask LowerRight = 8
     return:
       type: Fantas.TileAdjacencyMask
+    content.vb: Public Const LowerRight As TileAdjacencyMask = 8
 - uid: Fantas.TileAdjacencyMask.Down
   commentId: F:Fantas.TileAdjacencyMask.Down
   id: Down
@@ -389,16 +416,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.Down
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Down
   example: []
   syntax:
-    content: Down = 16
+    content: public const TileAdjacencyMask Down = 16
     return:
       type: Fantas.TileAdjacencyMask
+    content.vb: Public Const Down As TileAdjacencyMask = 16
 - uid: Fantas.TileAdjacencyMask.HexFlatLowerLeft
   commentId: F:Fantas.TileAdjacencyMask.HexFlatLowerLeft
   id: HexFlatLowerLeft
@@ -411,16 +439,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexFlatLowerLeft
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: HexFlatLowerLeft
   example: []
   syntax:
-    content: HexFlatLowerLeft = 16
+    content: public const TileAdjacencyMask HexFlatLowerLeft = 16
     return:
       type: Fantas.TileAdjacencyMask
+    content.vb: Public Const HexFlatLowerLeft As TileAdjacencyMask = 16
 - uid: Fantas.TileAdjacencyMask.HexPointyLowerLeft
   commentId: F:Fantas.TileAdjacencyMask.HexPointyLowerLeft
   id: HexPointyLowerLeft
@@ -433,16 +462,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexPointyLowerLeft
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: HexPointyLowerLeft
   example: []
   syntax:
-    content: HexPointyLowerLeft = 16
+    content: public const TileAdjacencyMask HexPointyLowerLeft = 16
     return:
       type: Fantas.TileAdjacencyMask
+    content.vb: Public Const HexPointyLowerLeft As TileAdjacencyMask = 16
 - uid: Fantas.TileAdjacencyMask.UpperLeftEdge
   commentId: F:Fantas.TileAdjacencyMask.UpperLeftEdge
   id: UpperLeftEdge
@@ -455,17 +485,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.UpperLeftEdge
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: UpperLeftEdge
   example: []
   syntax:
-    content: UpperLeftEdge = HexFlatLowerRight | HexFlatDown | Down
+    content: public const TileAdjacencyMask UpperLeftEdge = 28
     return:
       type: Fantas.TileAdjacencyMask
-    content.vb: UpperLeftEdge = HexFlatLowerRight Or HexFlatDown Or Down
+    content.vb: Public Const UpperLeftEdge As TileAdjacencyMask = 28
 - uid: Fantas.TileAdjacencyMask.LeftEdge
   commentId: F:Fantas.TileAdjacencyMask.LeftEdge
   id: LeftEdge
@@ -478,17 +508,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.LeftEdge
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: LeftEdge
   example: []
   syntax:
-    content: LeftEdge = HexFlatUp | HexFlatUpperRight | UpperLeftEdge
+    content: public const TileAdjacencyMask LeftEdge = 31
     return:
       type: Fantas.TileAdjacencyMask
-    content.vb: LeftEdge = HexFlatUp Or HexFlatUpperRight Or UpperLeftEdge
+    content.vb: Public Const LeftEdge As TileAdjacencyMask = 31
 - uid: Fantas.TileAdjacencyMask.HexFlatUpperLeft
   commentId: F:Fantas.TileAdjacencyMask.HexFlatUpperLeft
   id: HexFlatUpperLeft
@@ -501,16 +531,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexFlatUpperLeft
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: HexFlatUpperLeft
   example: []
   syntax:
-    content: HexFlatUpperLeft = 32
+    content: public const TileAdjacencyMask HexFlatUpperLeft = 32
     return:
       type: Fantas.TileAdjacencyMask
+    content.vb: Public Const HexFlatUpperLeft As TileAdjacencyMask = 32
 - uid: Fantas.TileAdjacencyMask.HexPointyLeft
   commentId: F:Fantas.TileAdjacencyMask.HexPointyLeft
   id: HexPointyLeft
@@ -523,16 +554,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexPointyLeft
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: HexPointyLeft
   example: []
   syntax:
-    content: HexPointyLeft = 32
+    content: public const TileAdjacencyMask HexPointyLeft = 32
     return:
       type: Fantas.TileAdjacencyMask
+    content.vb: Public Const HexPointyLeft As TileAdjacencyMask = 32
 - uid: Fantas.TileAdjacencyMask.LowerLeft
   commentId: F:Fantas.TileAdjacencyMask.LowerLeft
   id: LowerLeft
@@ -545,16 +577,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.LowerLeft
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: LowerLeft
   example: []
   syntax:
-    content: LowerLeft = 32
+    content: public const TileAdjacencyMask LowerLeft = 32
     return:
       type: Fantas.TileAdjacencyMask
+    content.vb: Public Const LowerLeft As TileAdjacencyMask = 32
 - uid: Fantas.TileAdjacencyMask.HexFlatAll
   commentId: F:Fantas.TileAdjacencyMask.HexFlatAll
   id: HexFlatAll
@@ -567,17 +600,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexFlatAll
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: HexFlatAll
   example: []
   syntax:
-    content: HexFlatAll = LeftEdge | HexFlatUpperLeft
+    content: public const TileAdjacencyMask HexFlatAll = 63
     return:
       type: Fantas.TileAdjacencyMask
-    content.vb: HexFlatAll = LeftEdge Or HexFlatUpperLeft
+    content.vb: Public Const HexFlatAll As TileAdjacencyMask = 63
 - uid: Fantas.TileAdjacencyMask.HexPointyAll
   commentId: F:Fantas.TileAdjacencyMask.HexPointyAll
   id: HexPointyAll
@@ -590,17 +623,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.HexPointyAll
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: HexPointyAll
   example: []
   syntax:
-    content: HexPointyAll = LeftEdge | HexFlatUpperLeft
+    content: public const TileAdjacencyMask HexPointyAll = 63
     return:
       type: Fantas.TileAdjacencyMask
-    content.vb: HexPointyAll = LeftEdge Or HexFlatUpperLeft
+    content.vb: Public Const HexPointyAll As TileAdjacencyMask = 63
 - uid: Fantas.TileAdjacencyMask.Left
   commentId: F:Fantas.TileAdjacencyMask.Left
   id: Left
@@ -613,16 +646,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.Left
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Left
   example: []
   syntax:
-    content: Left = 64
+    content: public const TileAdjacencyMask Left = 64
     return:
       type: Fantas.TileAdjacencyMask
+    content.vb: Public Const Left As TileAdjacencyMask = 64
 - uid: Fantas.TileAdjacencyMask.UpperRightEdge
   commentId: F:Fantas.TileAdjacencyMask.UpperRightEdge
   id: UpperRightEdge
@@ -635,17 +669,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.UpperRightEdge
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: UpperRightEdge
   example: []
   syntax:
-    content: UpperRightEdge = Down | HexFlatUpperLeft | Left
+    content: public const TileAdjacencyMask UpperRightEdge = 112
     return:
       type: Fantas.TileAdjacencyMask
-    content.vb: UpperRightEdge = Down Or HexFlatUpperLeft Or Left
+    content.vb: Public Const UpperRightEdge As TileAdjacencyMask = 112
 - uid: Fantas.TileAdjacencyMask.UpEdge
   commentId: F:Fantas.TileAdjacencyMask.UpEdge
   id: UpEdge
@@ -658,17 +692,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.UpEdge
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: UpEdge
   example: []
   syntax:
-    content: UpEdge = HexFlatLowerRight | HexFlatDown | UpperRightEdge
+    content: public const TileAdjacencyMask UpEdge = 124
     return:
       type: Fantas.TileAdjacencyMask
-    content.vb: UpEdge = HexFlatLowerRight Or HexFlatDown Or UpperRightEdge
+    content.vb: Public Const UpEdge As TileAdjacencyMask = 124
 - uid: Fantas.TileAdjacencyMask.LowerRightCorner
   commentId: F:Fantas.TileAdjacencyMask.LowerRightCorner
   id: LowerRightCorner
@@ -681,17 +715,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.LowerRightCorner
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: LowerRightCorner
   example: []
   syntax:
-    content: LowerRightCorner = HexFlatUp | HexFlatUpperRight | UpEdge
+    content: public const TileAdjacencyMask LowerRightCorner = 127
     return:
       type: Fantas.TileAdjacencyMask
-    content.vb: LowerRightCorner = HexFlatUp Or HexFlatUpperRight Or UpEdge
+    content.vb: Public Const LowerRightCorner As TileAdjacencyMask = 127
 - uid: Fantas.TileAdjacencyMask.UpperLeft
   commentId: F:Fantas.TileAdjacencyMask.UpperLeft
   id: UpperLeft
@@ -704,16 +738,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.UpperLeft
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: UpperLeft
   example: []
   syntax:
-    content: UpperLeft = 128
+    content: public const TileAdjacencyMask UpperLeft = 128
     return:
       type: Fantas.TileAdjacencyMask
+    content.vb: Public Const UpperLeft As TileAdjacencyMask = 128
 - uid: Fantas.TileAdjacencyMask.LowerRightEdge
   commentId: F:Fantas.TileAdjacencyMask.LowerRightEdge
   id: LowerRightEdge
@@ -726,17 +761,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.LowerRightEdge
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: LowerRightEdge
   example: []
   syntax:
-    content: LowerRightEdge = HexFlatUp | Left | UpperLeft
+    content: public const TileAdjacencyMask LowerRightEdge = 193
     return:
       type: Fantas.TileAdjacencyMask
-    content.vb: LowerRightEdge = HexFlatUp Or Left Or UpperLeft
+    content.vb: Public Const LowerRightEdge As TileAdjacencyMask = 193
 - uid: Fantas.TileAdjacencyMask.DownEdge
   commentId: F:Fantas.TileAdjacencyMask.DownEdge
   id: DownEdge
@@ -749,17 +784,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.DownEdge
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: DownEdge
   example: []
   syntax:
-    content: DownEdge = HexFlatUpperRight | HexFlatLowerRight | LowerRightEdge
+    content: public const TileAdjacencyMask DownEdge = 199
     return:
       type: Fantas.TileAdjacencyMask
-    content.vb: DownEdge = HexFlatUpperRight Or HexFlatLowerRight Or LowerRightEdge
+    content.vb: Public Const DownEdge As TileAdjacencyMask = 199
 - uid: Fantas.TileAdjacencyMask.UpperRightCorner
   commentId: F:Fantas.TileAdjacencyMask.UpperRightCorner
   id: UpperRightCorner
@@ -772,17 +807,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.UpperRightCorner
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: UpperRightCorner
   example: []
   syntax:
-    content: UpperRightCorner = HexFlatDown | Down | DownEdge
+    content: public const TileAdjacencyMask UpperRightCorner = 223
     return:
       type: Fantas.TileAdjacencyMask
-    content.vb: UpperRightCorner = HexFlatDown Or Down Or DownEdge
+    content.vb: Public Const UpperRightCorner As TileAdjacencyMask = 223
 - uid: Fantas.TileAdjacencyMask.RightEdge
   commentId: F:Fantas.TileAdjacencyMask.RightEdge
   id: RightEdge
@@ -795,17 +830,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.RightEdge
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: RightEdge
   example: []
   syntax:
-    content: RightEdge = Down | HexFlatUpperLeft | LowerRightEdge
+    content: public const TileAdjacencyMask RightEdge = 241
     return:
       type: Fantas.TileAdjacencyMask
-    content.vb: RightEdge = Down Or HexFlatUpperLeft Or LowerRightEdge
+    content.vb: Public Const RightEdge As TileAdjacencyMask = 241
 - uid: Fantas.TileAdjacencyMask.UpperLeftCorner
   commentId: F:Fantas.TileAdjacencyMask.UpperLeftCorner
   id: UpperLeftCorner
@@ -818,17 +853,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.UpperLeftCorner
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: UpperLeftCorner
   example: []
   syntax:
-    content: UpperLeftCorner = HexFlatUpperRight | HexFlatLowerRight | RightEdge
+    content: public const TileAdjacencyMask UpperLeftCorner = 247
     return:
       type: Fantas.TileAdjacencyMask
-    content.vb: UpperLeftCorner = HexFlatUpperRight Or HexFlatLowerRight Or RightEdge
+    content.vb: Public Const UpperLeftCorner As TileAdjacencyMask = 247
 - uid: Fantas.TileAdjacencyMask.LowerLeftCorner
   commentId: F:Fantas.TileAdjacencyMask.LowerLeftCorner
   id: LowerLeftCorner
@@ -841,17 +876,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.LowerLeftCorner
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: LowerLeftCorner
   example: []
   syntax:
-    content: LowerLeftCorner = HexFlatLowerRight | HexFlatDown | RightEdge
+    content: public const TileAdjacencyMask LowerLeftCorner = 253
     return:
       type: Fantas.TileAdjacencyMask
-    content.vb: LowerLeftCorner = HexFlatLowerRight Or HexFlatDown Or RightEdge
+    content.vb: Public Const LowerLeftCorner As TileAdjacencyMask = 253
 - uid: Fantas.TileAdjacencyMask.All
   commentId: F:Fantas.TileAdjacencyMask.All
   id: All
@@ -864,17 +899,17 @@ items:
   fullName: Fantas.TileAdjacencyMask.All
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: All
   example: []
   syntax:
-    content: All = HexFlatUpperRight | LowerLeftCorner
+    content: public const TileAdjacencyMask All = 255
     return:
       type: Fantas.TileAdjacencyMask
-    content.vb: All = HexFlatUpperRight Or LowerLeftCorner
+    content.vb: Public Const All As TileAdjacencyMask = 255
 references:
 - uid: Fantas
   commentId: N:Fantas
@@ -883,6 +918,35 @@ references:
   name: Fantas
   nameWithType: Fantas
   fullName: Fantas
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Fantas.TileAdjacencyMask
   commentId: T:Fantas.TileAdjacencyMask
   parent: Fantas

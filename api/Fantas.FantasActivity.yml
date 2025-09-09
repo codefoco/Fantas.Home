@@ -1,0 +1,235 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.FantasActivity
+  commentId: T:Fantas.FantasActivity
+  id: FantasActivity
+  parent: Fantas
+  children:
+  - Fantas.FantasActivity.#ctor
+  - Fantas.FantasActivity.MainActivity
+  - Fantas.FantasActivity.OnCreate(Android.OS.Bundle)
+  - Fantas.FantasActivity.OnDestroy
+  - Fantas.FantasActivity.SetActivityGame(Microsoft.Xna.Framework.Game)
+  langs:
+  - csharp
+  - vb
+  name: FantasActivity
+  nameWithType: FantasActivity
+  fullName: Fantas.FantasActivity
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/build/MonoGame/Android/FantasActivity.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Fantas Android Activity
+  example: []
+  syntax:
+    content: 'public class FantasActivity : AndroidGameActivity'
+    content.vb: Public Class FantasActivity Inherits AndroidGameActivity
+  inheritance:
+  - System.Object
+- uid: Fantas.FantasActivity.OnCreate(Android.OS.Bundle)
+  commentId: M:Fantas.FantasActivity.OnCreate(Android.OS.Bundle)
+  id: OnCreate(Android.OS.Bundle)
+  parent: Fantas.FantasActivity
+  langs:
+  - csharp
+  - vb
+  name: OnCreate(Bundle)
+  nameWithType: FantasActivity.OnCreate(Bundle)
+  fullName: Fantas.FantasActivity.OnCreate(Android.OS.Bundle)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/build/MonoGame/Android/FantasActivity.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: OnCreate
+  example: []
+  syntax:
+    content: protected override void OnCreate(Bundle savedInstanceState)
+    parameters:
+    - id: savedInstanceState
+      type: Android.OS.Bundle
+      description: ''
+    content.vb: Protected Overrides Sub OnCreate(savedInstanceState As Bundle)
+  overload: Fantas.FantasActivity.OnCreate*
+- uid: Fantas.FantasActivity.OnDestroy
+  commentId: M:Fantas.FantasActivity.OnDestroy
+  id: OnDestroy
+  parent: Fantas.FantasActivity
+  langs:
+  - csharp
+  - vb
+  name: OnDestroy()
+  nameWithType: FantasActivity.OnDestroy()
+  fullName: Fantas.FantasActivity.OnDestroy()
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/build/MonoGame/Android/FantasActivity.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Destroy Activity
+  example: []
+  syntax:
+    content: protected override void OnDestroy()
+    content.vb: Protected Overrides Sub OnDestroy()
+  overload: Fantas.FantasActivity.OnDestroy*
+- uid: Fantas.FantasActivity.SetActivityGame(Microsoft.Xna.Framework.Game)
+  commentId: M:Fantas.FantasActivity.SetActivityGame(Microsoft.Xna.Framework.Game)
+  id: SetActivityGame(Microsoft.Xna.Framework.Game)
+  parent: Fantas.FantasActivity
+  langs:
+  - csharp
+  - vb
+  name: SetActivityGame(Game)
+  nameWithType: FantasActivity.SetActivityGame(Game)
+  fullName: Fantas.FantasActivity.SetActivityGame(Microsoft.Xna.Framework.Game)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/build/MonoGame/Android/FantasActivity.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Called by IGame.Run to set the MonoGame View
+  example: []
+  syntax:
+    content: public static void SetActivityGame(Game game)
+    parameters:
+    - id: game
+      type: Microsoft.Xna.Framework.Game
+      description: ''
+    content.vb: Public Shared Sub SetActivityGame(game As Game)
+  overload: Fantas.FantasActivity.SetActivityGame*
+- uid: Fantas.FantasActivity.#ctor
+  commentId: M:Fantas.FantasActivity.#ctor
+  id: '#ctor'
+  parent: Fantas.FantasActivity
+  langs:
+  - csharp
+  - vb
+  name: FantasActivity()
+  nameWithType: FantasActivity.FantasActivity()
+  fullName: Fantas.FantasActivity.FantasActivity()
+  type: Constructor
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/build/MonoGame/Android/FantasActivity.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  syntax:
+    content: public FantasActivity()
+    content.vb: Public Sub New()
+  overload: Fantas.FantasActivity.#ctor*
+  nameWithType.vb: FantasActivity.New()
+  fullName.vb: Fantas.FantasActivity.New()
+  name.vb: New()
+- uid: Fantas.FantasActivity.MainActivity
+  commentId: P:Fantas.FantasActivity.MainActivity
+  id: MainActivity
+  parent: Fantas.FantasActivity
+  langs:
+  - csharp
+  - vb
+  name: MainActivity
+  nameWithType: FantasActivity.MainActivity
+  fullName: Fantas.FantasActivity.MainActivity
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/build/MonoGame/Android/FantasActivity.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Get Android main Activity
+  example: []
+  syntax:
+    content: public static FantasActivity MainActivity { get; set; }
+    parameters: []
+    return:
+      type: Fantas.FantasActivity
+    content.vb: Public Shared Property MainActivity As FantasActivity
+  overload: Fantas.FantasActivity.MainActivity*
+references:
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.FantasActivity.OnCreate*
+  commentId: Overload:Fantas.FantasActivity.OnCreate
+  isExternal: true
+  href: Fantas.FantasActivity.html#Fantas_FantasActivity_OnCreate_Android_OS_Bundle_
+  name: OnCreate
+  nameWithType: FantasActivity.OnCreate
+  fullName: Fantas.FantasActivity.OnCreate
+- uid: Android.OS.Bundle
+  isExternal: true
+  name: Bundle
+  nameWithType: Bundle
+  fullName: Android.OS.Bundle
+- uid: Fantas.FantasActivity.OnDestroy*
+  commentId: Overload:Fantas.FantasActivity.OnDestroy
+  isExternal: true
+  href: Fantas.FantasActivity.html#Fantas_FantasActivity_OnDestroy
+  name: OnDestroy
+  nameWithType: FantasActivity.OnDestroy
+  fullName: Fantas.FantasActivity.OnDestroy
+- uid: Fantas.FantasActivity.SetActivityGame*
+  commentId: Overload:Fantas.FantasActivity.SetActivityGame
+  isExternal: true
+  href: Fantas.FantasActivity.html#Fantas_FantasActivity_SetActivityGame_Microsoft_Xna_Framework_Game_
+  name: SetActivityGame
+  nameWithType: FantasActivity.SetActivityGame
+  fullName: Fantas.FantasActivity.SetActivityGame
+- uid: Microsoft.Xna.Framework.Game
+  isExternal: true
+  name: Game
+  nameWithType: Game
+  fullName: Microsoft.Xna.Framework.Game
+- uid: Fantas.FantasActivity.#ctor*
+  commentId: Overload:Fantas.FantasActivity.#ctor
+  isExternal: true
+  href: Fantas.FantasActivity.html#Fantas_FantasActivity__ctor
+  name: FantasActivity
+  nameWithType: FantasActivity.FantasActivity
+  fullName: Fantas.FantasActivity.FantasActivity
+  nameWithType.vb: FantasActivity.New
+  fullName.vb: Fantas.FantasActivity.New
+  name.vb: New
+- uid: Fantas.FantasActivity.MainActivity*
+  commentId: Overload:Fantas.FantasActivity.MainActivity
+  isExternal: true
+  href: Fantas.FantasActivity.html#Fantas_FantasActivity_MainActivity
+  name: MainActivity
+  nameWithType: FantasActivity.MainActivity
+  fullName: Fantas.FantasActivity.MainActivity
+- uid: Fantas.FantasActivity
+  commentId: T:Fantas.FantasActivity
+  parent: Fantas
+  isExternal: true
+  href: Fantas.FantasActivity.html
+  name: FantasActivity
+  nameWithType: FantasActivity
+  fullName: Fantas.FantasActivity

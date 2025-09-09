@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Enum SceneScaleMode | Fantas </title>
+      <title>Class SceneScaleMode | Fantas </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Enum SceneScaleMode | Fantas ">
+      <meta name="title" content="Class SceneScaleMode | Fantas ">
       
       <meta name="description" content="SceneScale configure how the current Scene will be scaled when the window or view is resized. The resize could happen because the user resized the window or rotated the device">
       <link rel="icon" href="../favicon.ico">
@@ -88,9 +88,8 @@
 
 
 
-
   <h1 id="Fantas_SceneScaleMode" data-uid="Fantas.SceneScaleMode" class="text-break">
-Enum SceneScaleMode  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/SceneScaleMode.cs"><i class="bi bi-code-slash"></i></a>
+Class SceneScaleMode  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SceneScaleMode.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -105,42 +104,193 @@ The resize could happen because the user resized the window or rotated the devic
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum SceneScaleMode</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class SceneScaleMode : Enum</code></pre>
   </div>
 
 
 
 
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">SceneScaleMode</span></div>
+    </dd>
+  </dl>
 
 
 
 
 
-  <h2 id="fields">Fields
+
+
+
+
+  <h2 class="section" id="fields">Fields
 </h2>
+
+
+
+  <h3 id="Fantas_SceneScaleMode_AspectFill" data-uid="Fantas.SceneScaleMode.AspectFill">
+  AspectFill
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SceneScaleMode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Preserve the aspect ratio of scene, and fill the whole visible area, cropping edges</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SceneScaleMode AspectFill = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt id="Fantas_SceneScaleMode_AspectFill"><code>AspectFill = 1</code></dt>
-    <dd><p>Preserve the aspect ratio of scene, and fill the whole visible area, cropping edges</p>
-</dd>
-    <dt id="Fantas_SceneScaleMode_AspectFit"><code>AspectFit = 2</code></dt>
-    <dd><p>Show the whole scene preserving aspect ratio, and showing letter box to display if needed</p>
-</dd>
-    <dt id="Fantas_SceneScaleMode_Fill"><code>Fill = 0</code></dt>
-    <dd><p>Fill is the default value, when the scaleMode is set to fill the
+    <dt><a class="xref" href="Fantas.SceneScaleMode.html">SceneScaleMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_SceneScaleMode_AspectFit" data-uid="Fantas.SceneScaleMode.AspectFit">
+  AspectFit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SceneScaleMode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Show the whole scene preserving aspect ratio, and showing letter box to display if needed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SceneScaleMode AspectFit = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.SceneScaleMode.html">SceneScaleMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_SceneScaleMode_Fill" data-uid="Fantas.SceneScaleMode.Fill">
+  Fill
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SceneScaleMode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Fill is the default value, when the scaleMode is set to fill the
 size set to the scene will be preserved and scaled to fill the contents
 of the window, the Scene.SizeChanged will not be called</p>
-</dd>
-    <dt id="Fantas_SceneScaleMode_ResizeFill"><code>ResizeFill = 3</code></dt>
-    <dd><p>Resize the scene to fill the viewport.</p>
-</dd>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SceneScaleMode Fill = 0</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.SceneScaleMode.html">SceneScaleMode</a></dt>
+    <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_SceneScaleMode_ResizeFill" data-uid="Fantas.SceneScaleMode.ResizeFill">
+  ResizeFill
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SceneScaleMode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Resize the scene to fill the viewport.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const SceneScaleMode ResizeFill = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.SceneScaleMode.html">SceneScaleMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_SceneScaleMode_value__" data-uid="Fantas.SceneScaleMode.value__">
+  value__
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SceneScaleMode.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int value__</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
 
 
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/SceneScaleMode.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SceneScaleMode.cs" class="edit-link">Edit this page</a>
         </div>
 
 

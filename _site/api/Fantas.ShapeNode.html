@@ -89,7 +89,7 @@
 
 
   <h1 id="Fantas_ShapeNode" data-uid="Fantas.ShapeNode" class="text-break">
-Class ShapeNode  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/ShapeNodes/ShapeNode.cs"><i class="bi bi-code-slash"></i></a>
+Class ShapeNode  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/ShapeNodes/ShapeNode.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -216,6 +216,9 @@ Class ShapeNode  <a class="header-action link-secondary" title="View source" hre
       <a class="xref" href="Fantas.Node.html#Fantas_Node_ContainsPoint_System_Drawing_PointF_">Node.ContainsPoint(PointF)</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ContainsScenePoint_System_Drawing_PointF_">Node.ContainsScenePoint(PointF)</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_GetNodeAtPoint_System_Drawing_PointF_">Node.GetNodeAtPoint(PointF)</a>
     </div>
     <div>
@@ -234,6 +237,24 @@ Class ShapeNode  <a class="header-action link-secondary" title="View source" hre
       <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertPointToNode_System_Drawing_PointF_Fantas_Node_">Node.ConvertPointToNode(PointF, Node)</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertPointToScene_System_Drawing_PointF_">Node.ConvertPointToScene(PointF)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertPointFromScene_System_Drawing_PointF_">Node.ConvertPointFromScene(PointF)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertVectorFromNode_System_Numerics_Vector2_Fantas_Node_">Node.ConvertVectorFromNode(Vector2, Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertVectorToNode_System_Numerics_Vector2_Fantas_Node_">Node.ConvertVectorToNode(Vector2, Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertVectorFromScene_System_Numerics_Vector2_">Node.ConvertVectorFromScene(Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertVectorToScene_System_Numerics_Vector2_">Node.ConvertVectorToScene(Vector2)</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_BringForward">Node.BringForward()</a>
     </div>
     <div>
@@ -244,6 +265,12 @@ Class ShapeNode  <a class="header-action link-secondary" title="View source" hre
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_SendToBack">Node.SendToBack()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_SetMouseCapture">Node.SetMouseCapture()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ReleaseMouseCapture">Node.ReleaseMouseCapture()</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnTap_Fantas_Input_TapEventArgs_">Node.OnTap(TapEventArgs)</a>
@@ -303,7 +330,7 @@ Class ShapeNode  <a class="header-action link-secondary" title="View source" hre
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnMouseEnter">Node.OnMouseEnter()</a>
     </div>
     <div>
-      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnMouseHover">Node.OnMouseHover()</a>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnMouseMove_Fantas_Input_MouseEventArgs_">Node.OnMouseMove(MouseEventArgs)</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnMouseLeave">Node.OnMouseLeave()</a>
@@ -346,6 +373,18 @@ Class ShapeNode  <a class="header-action link-secondary" title="View source" hre
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_Top">Node.Top</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_TopLeft">Node.TopLeft</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_TopRight">Node.TopRight</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_BottomLeft">Node.BottomLeft</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_BottomRight">Node.BottomRight</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_Bottom">Node.Bottom</a>
@@ -406,6 +445,9 @@ Class ShapeNode  <a class="header-action link-secondary" title="View source" hre
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_CanSendBackward">Node.CanSendBackward</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_HasMouseCaputure">Node.HasMouseCaputure</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_IsMouseOver">Node.IsMouseOver</a>
@@ -477,28 +519,10 @@ Class ShapeNode  <a class="header-action link-secondary" title="View source" hre
       <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseEnter">Node.MouseEnter</a>
     </div>
     <div>
-      <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseHover">Node.MouseHover</a>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseMove">Node.MouseMove</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseLeave">Node.MouseLeave</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
   </dd></dl>
 
@@ -515,7 +539,7 @@ Class ShapeNode  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Fantas_ShapeNode__ctor_Fantas_ShapeNode_" data-uid="Fantas.ShapeNode.#ctor(Fantas.ShapeNode)">
   ShapeNode(ShapeNode)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/ShapeNodes/ShapeNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/ShapeNodes/ShapeNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a clone from another ShapeNode</p>
@@ -551,7 +575,7 @@ Class ShapeNode  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Fantas_ShapeNode_Antialiased" data-uid="Fantas.ShapeNode.Antialiased">
   Antialiased
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/ShapeNodes/ShapeNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/ShapeNodes/ShapeNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Draw Shape using antialias edges</p>
@@ -583,7 +607,7 @@ Class ShapeNode  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Fantas_ShapeNode_BlendMode" data-uid="Fantas.ShapeNode.BlendMode">
   BlendMode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/ShapeNodes/ShapeNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/ShapeNodes/ShapeNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Set the blend operation for the Shape node</p>
@@ -615,7 +639,7 @@ Class ShapeNode  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Fantas_ShapeNode_FillColor" data-uid="Fantas.ShapeNode.FillColor">
   FillColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/ShapeNodes/ShapeNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/ShapeNodes/ShapeNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Shape fill color</p>
@@ -647,7 +671,7 @@ Class ShapeNode  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Fantas_ShapeNode_LineWidth" data-uid="Fantas.ShapeNode.LineWidth">
   LineWidth
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/ShapeNodes/ShapeNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/ShapeNodes/ShapeNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Stroke line width</p>
@@ -679,7 +703,7 @@ Class ShapeNode  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Fantas_ShapeNode_StrokeColor" data-uid="Fantas.ShapeNode.StrokeColor">
   StrokeColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/ShapeNodes/ShapeNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/ShapeNodes/ShapeNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Stroke (border) color of shape</p>
@@ -711,7 +735,7 @@ Class ShapeNode  <a class="header-action link-secondary" title="View source" hre
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/ShapeNodes/ShapeNode.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/ShapeNodes/ShapeNode.cs" class="edit-link">Edit this page</a>
         </div>
 
 

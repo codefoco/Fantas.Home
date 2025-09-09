@@ -9,15 +9,16 @@ items:
   - Fantas.SceneScaleMode.AspectFit
   - Fantas.SceneScaleMode.Fill
   - Fantas.SceneScaleMode.ResizeFill
+  - Fantas.SceneScaleMode.value__
   langs:
   - csharp
   - vb
   name: SceneScaleMode
   nameWithType: SceneScaleMode
   fullName: Fantas.SceneScaleMode
-  type: Enum
+  type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/SceneScaleMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SceneScaleMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -29,8 +30,31 @@ items:
     The resize could happen because the user resized the window or rotated the device
   example: []
   syntax:
-    content: public enum SceneScaleMode
-    content.vb: Public Enum SceneScaleMode
+    content: 'public sealed class SceneScaleMode : Enum'
+    content.vb: Public NotInheritable Class SceneScaleMode Inherits Enum
+  inheritance:
+  - System.Object
+- uid: Fantas.SceneScaleMode.value__
+  commentId: F:Fantas.SceneScaleMode.value__
+  id: value__
+  parent: Fantas.SceneScaleMode
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: SceneScaleMode.value__
+  fullName: Fantas.SceneScaleMode.value__
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SceneScaleMode.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
 - uid: Fantas.SceneScaleMode.Fill
   commentId: F:Fantas.SceneScaleMode.Fill
   id: Fill
@@ -43,7 +67,7 @@ items:
   fullName: Fantas.SceneScaleMode.Fill
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/SceneScaleMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SceneScaleMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
@@ -55,9 +79,10 @@ items:
     of the window, the Scene.SizeChanged will not be called
   example: []
   syntax:
-    content: Fill = 0
+    content: public const SceneScaleMode Fill = 0
     return:
       type: Fantas.SceneScaleMode
+    content.vb: Public Const Fill As SceneScaleMode = 0
 - uid: Fantas.SceneScaleMode.AspectFill
   commentId: F:Fantas.SceneScaleMode.AspectFill
   id: AspectFill
@@ -70,16 +95,17 @@ items:
   fullName: Fantas.SceneScaleMode.AspectFill
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/SceneScaleMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SceneScaleMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Preserve the aspect ratio of scene, and fill the whole visible area, cropping edges
   example: []
   syntax:
-    content: AspectFill = 1
+    content: public const SceneScaleMode AspectFill = 1
     return:
       type: Fantas.SceneScaleMode
+    content.vb: Public Const AspectFill As SceneScaleMode = 1
 - uid: Fantas.SceneScaleMode.AspectFit
   commentId: F:Fantas.SceneScaleMode.AspectFit
   id: AspectFit
@@ -92,16 +118,17 @@ items:
   fullName: Fantas.SceneScaleMode.AspectFit
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/SceneScaleMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SceneScaleMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Show the whole scene preserving aspect ratio, and showing letter box to display if needed
   example: []
   syntax:
-    content: AspectFit = 2
+    content: public const SceneScaleMode AspectFit = 2
     return:
       type: Fantas.SceneScaleMode
+    content.vb: Public Const AspectFit As SceneScaleMode = 2
 - uid: Fantas.SceneScaleMode.ResizeFill
   commentId: F:Fantas.SceneScaleMode.ResizeFill
   id: ResizeFill
@@ -114,16 +141,17 @@ items:
   fullName: Fantas.SceneScaleMode.ResizeFill
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/SceneScaleMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SceneScaleMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Resize the scene to fill the viewport.
   example: []
   syntax:
-    content: ResizeFill = 3
+    content: public const SceneScaleMode ResizeFill = 3
     return:
       type: Fantas.SceneScaleMode
+    content.vb: Public Const ResizeFill As SceneScaleMode = 3
 references:
 - uid: Fantas
   commentId: N:Fantas
@@ -132,6 +160,35 @@ references:
   name: Fantas
   nameWithType: Fantas
   fullName: Fantas
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Fantas.SceneScaleMode
   commentId: T:Fantas.SceneScaleMode
   parent: Fantas

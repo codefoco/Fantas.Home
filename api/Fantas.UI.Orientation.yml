@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.UI.Orientation
+  commentId: T:Fantas.UI.Orientation
+  id: Orientation
+  parent: Fantas.UI
+  children:
+  - Fantas.UI.Orientation.Horizontal
+  - Fantas.UI.Orientation.Vertical
+  - Fantas.UI.Orientation.value__
+  langs:
+  - csharp
+  - vb
+  name: Orientation
+  nameWithType: Orientation
+  fullName: Fantas.UI.Orientation
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/Orientation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: Orientation for UI node
+  example: []
+  syntax:
+    content: 'public sealed class Orientation : Enum'
+    content.vb: Public NotInheritable Class Orientation Inherits Enum
+  inheritance:
+  - System.Object
+- uid: Fantas.UI.Orientation.value__
+  commentId: F:Fantas.UI.Orientation.value__
+  id: value__
+  parent: Fantas.UI.Orientation
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: Orientation.value__
+  fullName: Fantas.UI.Orientation.value__
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/Orientation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+- uid: Fantas.UI.Orientation.Horizontal
+  commentId: F:Fantas.UI.Orientation.Horizontal
+  id: Horizontal
+  parent: Fantas.UI.Orientation
+  langs:
+  - csharp
+  - vb
+  name: Horizontal
+  nameWithType: Orientation.Horizontal
+  fullName: Fantas.UI.Orientation.Horizontal
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/Orientation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: Horizontal
+  example: []
+  syntax:
+    content: public const Orientation Horizontal = 0
+    return:
+      type: Fantas.UI.Orientation
+    content.vb: Public Const Horizontal As Orientation = 0
+- uid: Fantas.UI.Orientation.Vertical
+  commentId: F:Fantas.UI.Orientation.Vertical
+  id: Vertical
+  parent: Fantas.UI.Orientation
+  langs:
+  - csharp
+  - vb
+  name: Vertical
+  nameWithType: Orientation.Vertical
+  fullName: Fantas.UI.Orientation.Vertical
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/Orientation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: Vertical
+  example: []
+  syntax:
+    content: public const Orientation Vertical = 1
+    return:
+      type: Fantas.UI.Orientation
+    content.vb: Public Const Vertical As Orientation = 1
+references:
+- uid: Fantas.UI
+  commentId: N:Fantas.UI
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.UI
+  nameWithType: Fantas.UI
+  fullName: Fantas.UI
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.UI
+    name: UI
+    isExternal: true
+    href: Fantas.UI.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.UI
+    name: UI
+    isExternal: true
+    href: Fantas.UI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Fantas.UI.Orientation
+  commentId: T:Fantas.UI.Orientation
+  parent: Fantas.UI
+  isExternal: true
+  href: Fantas.UI.Orientation.html
+  name: Orientation
+  nameWithType: Orientation
+  fullName: Fantas.UI.Orientation

@@ -1,0 +1,185 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.UI.ScrollNodeOptions
+  commentId: T:Fantas.UI.ScrollNodeOptions
+  id: ScrollNodeOptions
+  parent: Fantas.UI
+  children:
+  - Fantas.UI.ScrollNodeOptions.Horizontal
+  - Fantas.UI.ScrollNodeOptions.None
+  - Fantas.UI.ScrollNodeOptions.Vertical
+  - Fantas.UI.ScrollNodeOptions.value__
+  langs:
+  - csharp
+  - vb
+  name: ScrollNodeOptions
+  nameWithType: ScrollNodeOptions
+  fullName: Fantas.UI.ScrollNodeOptions
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ScrollNodes/ScrollBarFlags.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: ScrollBar flags
+  example: []
+  syntax:
+    content: 'public sealed class ScrollNodeOptions : Enum'
+    content.vb: Public NotInheritable Class ScrollNodeOptions Inherits Enum
+  inheritance:
+  - System.Object
+- uid: Fantas.UI.ScrollNodeOptions.value__
+  commentId: F:Fantas.UI.ScrollNodeOptions.value__
+  id: value__
+  parent: Fantas.UI.ScrollNodeOptions
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ScrollNodeOptions.value__
+  fullName: Fantas.UI.ScrollNodeOptions.value__
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ScrollNodes/ScrollBarFlags.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+- uid: Fantas.UI.ScrollNodeOptions.None
+  commentId: F:Fantas.UI.ScrollNodeOptions.None
+  id: None
+  parent: Fantas.UI.ScrollNodeOptions
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ScrollNodeOptions.None
+  fullName: Fantas.UI.ScrollNodeOptions.None
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ScrollNodes/ScrollBarFlags.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: None
+  example: []
+  syntax:
+    content: public const ScrollNodeOptions None = 0
+    return:
+      type: Fantas.UI.ScrollNodeOptions
+    content.vb: Public Const None As ScrollNodeOptions = 0
+- uid: Fantas.UI.ScrollNodeOptions.Vertical
+  commentId: F:Fantas.UI.ScrollNodeOptions.Vertical
+  id: Vertical
+  parent: Fantas.UI.ScrollNodeOptions
+  langs:
+  - csharp
+  - vb
+  name: Vertical
+  nameWithType: ScrollNodeOptions.Vertical
+  fullName: Fantas.UI.ScrollNodeOptions.Vertical
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ScrollNodes/ScrollBarFlags.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: Vertical
+  example: []
+  syntax:
+    content: public const ScrollNodeOptions Vertical = 1
+    return:
+      type: Fantas.UI.ScrollNodeOptions
+    content.vb: Public Const Vertical As ScrollNodeOptions = 1
+- uid: Fantas.UI.ScrollNodeOptions.Horizontal
+  commentId: F:Fantas.UI.ScrollNodeOptions.Horizontal
+  id: Horizontal
+  parent: Fantas.UI.ScrollNodeOptions
+  langs:
+  - csharp
+  - vb
+  name: Horizontal
+  nameWithType: ScrollNodeOptions.Horizontal
+  fullName: Fantas.UI.ScrollNodeOptions.Horizontal
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ScrollNodes/ScrollBarFlags.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: Horizontal
+  example: []
+  syntax:
+    content: public const ScrollNodeOptions Horizontal = 2
+    return:
+      type: Fantas.UI.ScrollNodeOptions
+    content.vb: Public Const Horizontal As ScrollNodeOptions = 2
+references:
+- uid: Fantas.UI
+  commentId: N:Fantas.UI
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.UI
+  nameWithType: Fantas.UI
+  fullName: Fantas.UI
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.UI
+    name: UI
+    isExternal: true
+    href: Fantas.UI.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.UI
+    name: UI
+    isExternal: true
+    href: Fantas.UI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Fantas.UI.ScrollNodeOptions
+  commentId: T:Fantas.UI.ScrollNodeOptions
+  parent: Fantas.UI
+  isExternal: true
+  href: Fantas.UI.ScrollNodeOptions.html
+  name: ScrollNodeOptions
+  nameWithType: ScrollNodeOptions
+  fullName: Fantas.UI.ScrollNodeOptions

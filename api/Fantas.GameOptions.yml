@@ -7,33 +7,47 @@ items:
   children:
   - Fantas.GameOptions.DontFilterTextures
   - Fantas.GameOptions.None
+  - Fantas.GameOptions.value__
   langs:
   - csharp
   - vb
   name: GameOptions
   nameWithType: GameOptions
   fullName: Fantas.GameOptions
-  type: Enum
+  type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/GameOptions.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/GameOptions.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Game Flags used on game creation object
   example: []
   syntax:
-    content: >-
-      [Flags]
-
-      public enum GameOptions
-    content.vb: >-
-      <Flags>
-
-      Public Enum GameOptions
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+    content: 'public sealed class GameOptions : Enum'
+    content.vb: Public NotInheritable Class GameOptions Inherits Enum
+  inheritance:
+  - System.Object
+- uid: Fantas.GameOptions.value__
+  commentId: F:Fantas.GameOptions.value__
+  id: value__
+  parent: Fantas.GameOptions
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: GameOptions.value__
+  fullName: Fantas.GameOptions.value__
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/GameOptions.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
 - uid: Fantas.GameOptions.None
   commentId: F:Fantas.GameOptions.None
   id: None
@@ -46,16 +60,17 @@ items:
   fullName: Fantas.GameOptions.None
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/GameOptions.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/GameOptions.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: No option
   example: []
   syntax:
-    content: None = 0
+    content: public const GameOptions None = 0
     return:
       type: Fantas.GameOptions
+    content.vb: Public Const None As GameOptions = 0
 - uid: Fantas.GameOptions.DontFilterTextures
   commentId: F:Fantas.GameOptions.DontFilterTextures
   id: DontFilterTextures
@@ -68,16 +83,17 @@ items:
   fullName: Fantas.GameOptions.DontFilterTextures
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/GameOptions.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/GameOptions.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Use flag DontFilterTextures to do not apply filtering when scaling textures
   example: []
   syntax:
-    content: DontFilterTextures = 4
+    content: public const GameOptions DontFilterTextures = 4
     return:
       type: Fantas.GameOptions
+    content.vb: Public Const DontFilterTextures As GameOptions = 4
 references:
 - uid: Fantas
   commentId: N:Fantas
@@ -86,6 +102,35 @@ references:
   name: Fantas
   nameWithType: Fantas
   fullName: Fantas
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Fantas.GameOptions
   commentId: T:Fantas.GameOptions
   parent: Fantas

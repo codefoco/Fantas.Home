@@ -13,23 +13,47 @@ items:
   - Fantas.BlendMode.Replace
   - Fantas.BlendMode.Screen
   - Fantas.BlendMode.Subtract
+  - Fantas.BlendMode.value__
   langs:
   - csharp
   - vb
   name: BlendMode
   nameWithType: BlendMode
   fullName: Fantas.BlendMode
-  type: Enum
+  type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/BlendMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/BlendMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Blend modes operations
   example: []
   syntax:
-    content: public enum BlendMode
-    content.vb: Public Enum BlendMode
+    content: 'public sealed class BlendMode : Enum'
+    content.vb: Public NotInheritable Class BlendMode Inherits Enum
+  inheritance:
+  - System.Object
+- uid: Fantas.BlendMode.value__
+  commentId: F:Fantas.BlendMode.value__
+  id: value__
+  parent: Fantas.BlendMode
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: BlendMode.value__
+  fullName: Fantas.BlendMode.value__
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/BlendMode.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
 - uid: Fantas.BlendMode.Alpha
   commentId: F:Fantas.BlendMode.Alpha
   id: Alpha
@@ -42,16 +66,17 @@ items:
   fullName: Fantas.BlendMode.Alpha
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/BlendMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/BlendMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Blending source and destination using Alpha
   example: []
   syntax:
-    content: Alpha = 0
+    content: public const BlendMode Alpha = 0
     return:
       type: Fantas.BlendMode
+    content.vb: Public Const Alpha As BlendMode = 0
 - uid: Fantas.BlendMode.Add
   commentId: F:Fantas.BlendMode.Add
   id: Add
@@ -64,16 +89,17 @@ items:
   fullName: Fantas.BlendMode.Add
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/BlendMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/BlendMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Add source and destination
   example: []
   syntax:
-    content: Add = 1
+    content: public const BlendMode Add = 1
     return:
       type: Fantas.BlendMode
+    content.vb: Public Const Add As BlendMode = 1
 - uid: Fantas.BlendMode.Subtract
   commentId: F:Fantas.BlendMode.Subtract
   id: Subtract
@@ -86,16 +112,17 @@ items:
   fullName: Fantas.BlendMode.Subtract
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/BlendMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/BlendMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Subtract source from destination
   example: []
   syntax:
-    content: Subtract = 2
+    content: public const BlendMode Subtract = 2
     return:
       type: Fantas.BlendMode
+    content.vb: Public Const Subtract As BlendMode = 2
 - uid: Fantas.BlendMode.Multiply
   commentId: F:Fantas.BlendMode.Multiply
   id: Multiply
@@ -108,16 +135,17 @@ items:
   fullName: Fantas.BlendMode.Multiply
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/BlendMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/BlendMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Source multiplied by destination
   example: []
   syntax:
-    content: Multiply = 3
+    content: public const BlendMode Multiply = 3
     return:
       type: Fantas.BlendMode
+    content.vb: Public Const Multiply As BlendMode = 3
 - uid: Fantas.BlendMode.MultiplyX2
   commentId: F:Fantas.BlendMode.MultiplyX2
   id: MultiplyX2
@@ -130,16 +158,17 @@ items:
   fullName: Fantas.BlendMode.MultiplyX2
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/BlendMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/BlendMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Source multiplied by destination and doubled
   example: []
   syntax:
-    content: MultiplyX2 = 4
+    content: public const BlendMode MultiplyX2 = 4
     return:
       type: Fantas.BlendMode
+    content.vb: Public Const MultiplyX2 As BlendMode = 4
 - uid: Fantas.BlendMode.Screen
   commentId: F:Fantas.BlendMode.Screen
   id: Screen
@@ -152,16 +181,17 @@ items:
   fullName: Fantas.BlendMode.Screen
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/BlendMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/BlendMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Source added to the destination times the inverse of source
   example: []
   syntax:
-    content: Screen = 5
+    content: public const BlendMode Screen = 5
     return:
       type: Fantas.BlendMode
+    content.vb: Public Const Screen As BlendMode = 5
 - uid: Fantas.BlendMode.Replace
   commentId: F:Fantas.BlendMode.Replace
   id: Replace
@@ -174,16 +204,17 @@ items:
   fullName: Fantas.BlendMode.Replace
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/BlendMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/BlendMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Opaque blend, replacing destination color
   example: []
   syntax:
-    content: Replace = 6
+    content: public const BlendMode Replace = 6
     return:
       type: Fantas.BlendMode
+    content.vb: Public Const Replace As BlendMode = 6
 - uid: Fantas.BlendMode.MultiplyAlpha
   commentId: F:Fantas.BlendMode.MultiplyAlpha
   id: MultiplyAlpha
@@ -196,16 +227,17 @@ items:
   fullName: Fantas.BlendMode.MultiplyAlpha
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/BlendMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/BlendMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Source multiplied by destination, with the alpha channel
   example: []
   syntax:
-    content: MultiplyAlpha = 7
+    content: public const BlendMode MultiplyAlpha = 7
     return:
       type: Fantas.BlendMode
+    content.vb: Public Const MultiplyAlpha As BlendMode = 7
 references:
 - uid: Fantas
   commentId: N:Fantas
@@ -214,6 +246,35 @@ references:
   name: Fantas
   nameWithType: Fantas
   fullName: Fantas
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Fantas.BlendMode
   commentId: T:Fantas.BlendMode
   parent: Fantas

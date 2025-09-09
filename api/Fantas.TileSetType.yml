@@ -9,23 +9,47 @@ items:
   - Fantas.TileSetType.HexagonalFlat
   - Fantas.TileSetType.HexagonalPointy
   - Fantas.TileSetType.Isometric
+  - Fantas.TileSetType.value__
   langs:
   - csharp
   - vb
   name: TileSetType
   nameWithType: TileSetType
   fullName: Fantas.TileSetType
-  type: Enum
+  type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileSetType.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileSetType.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Tile Set arrange/geometry
   example: []
   syntax:
-    content: public enum TileSetType
-    content.vb: Public Enum TileSetType
+    content: 'public sealed class TileSetType : Enum'
+    content.vb: Public NotInheritable Class TileSetType Inherits Enum
+  inheritance:
+  - System.Object
+- uid: Fantas.TileSetType.value__
+  commentId: F:Fantas.TileSetType.value__
+  id: value__
+  parent: Fantas.TileSetType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TileSetType.value__
+  fullName: Fantas.TileSetType.value__
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileSetType.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
 - uid: Fantas.TileSetType.Grid
   commentId: F:Fantas.TileSetType.Grid
   id: Grid
@@ -38,16 +62,17 @@ items:
   fullName: Fantas.TileSetType.Grid
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileSetType.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileSetType.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Rectangular Grid
   example: []
   syntax:
-    content: Grid = 0
+    content: public const TileSetType Grid = 0
     return:
       type: Fantas.TileSetType
+    content.vb: Public Const Grid As TileSetType = 0
 - uid: Fantas.TileSetType.HexagonalFlat
   commentId: F:Fantas.TileSetType.HexagonalFlat
   id: HexagonalFlat
@@ -60,16 +85,17 @@ items:
   fullName: Fantas.TileSetType.HexagonalFlat
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileSetType.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileSetType.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Hexagonal Grid (Flat)
   example: []
   syntax:
-    content: HexagonalFlat = 1
+    content: public const TileSetType HexagonalFlat = 1
     return:
       type: Fantas.TileSetType
+    content.vb: Public Const HexagonalFlat As TileSetType = 1
 - uid: Fantas.TileSetType.HexagonalPointy
   commentId: F:Fantas.TileSetType.HexagonalPointy
   id: HexagonalPointy
@@ -82,16 +108,17 @@ items:
   fullName: Fantas.TileSetType.HexagonalPointy
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileSetType.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileSetType.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Hexagonal Pointy (Flat)
   example: []
   syntax:
-    content: HexagonalPointy = 2
+    content: public const TileSetType HexagonalPointy = 2
     return:
       type: Fantas.TileSetType
+    content.vb: Public Const HexagonalPointy As TileSetType = 2
 - uid: Fantas.TileSetType.Isometric
   commentId: F:Fantas.TileSetType.Isometric
   id: Isometric
@@ -104,16 +131,17 @@ items:
   fullName: Fantas.TileSetType.Isometric
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileSetType.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileSetType.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Isometric Grid
   example: []
   syntax:
-    content: Isometric = 3
+    content: public const TileSetType Isometric = 3
     return:
       type: Fantas.TileSetType
+    content.vb: Public Const Isometric As TileSetType = 3
 references:
 - uid: Fantas
   commentId: N:Fantas
@@ -122,6 +150,35 @@ references:
   name: Fantas
   nameWithType: Fantas
   fullName: Fantas
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Fantas.TileSetType
   commentId: T:Fantas.TileSetType
   parent: Fantas

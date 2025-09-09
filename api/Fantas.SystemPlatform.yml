@@ -13,23 +13,47 @@ items:
   - Fantas.SystemPlatform.Xbox
   - Fantas.SystemPlatform.iOS
   - Fantas.SystemPlatform.tvOS
+  - Fantas.SystemPlatform.value__
   langs:
   - csharp
   - vb
   name: SystemPlatform
   nameWithType: SystemPlatform
   fullName: Fantas.SystemPlatform
-  type: Enum
+  type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/SystemPlatform.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SystemPlatform.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Enumeration to with runtime system platform
   example: []
   syntax:
-    content: public enum SystemPlatform
-    content.vb: Public Enum SystemPlatform
+    content: 'public sealed class SystemPlatform : Enum'
+    content.vb: Public NotInheritable Class SystemPlatform Inherits Enum
+  inheritance:
+  - System.Object
+- uid: Fantas.SystemPlatform.value__
+  commentId: F:Fantas.SystemPlatform.value__
+  id: value__
+  parent: Fantas.SystemPlatform
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: SystemPlatform.value__
+  fullName: Fantas.SystemPlatform.value__
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SystemPlatform.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
 - uid: Fantas.SystemPlatform.Unknown
   commentId: F:Fantas.SystemPlatform.Unknown
   id: Unknown
@@ -42,16 +66,17 @@ items:
   fullName: Fantas.SystemPlatform.Unknown
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/SystemPlatform.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SystemPlatform.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Unknown platform
   example: []
   syntax:
-    content: Unknown = 0
+    content: public const SystemPlatform Unknown = 0
     return:
       type: Fantas.SystemPlatform
+    content.vb: Public Const Unknown As SystemPlatform = 0
 - uid: Fantas.SystemPlatform.Windows
   commentId: F:Fantas.SystemPlatform.Windows
   id: Windows
@@ -64,16 +89,17 @@ items:
   fullName: Fantas.SystemPlatform.Windows
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/SystemPlatform.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SystemPlatform.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Windows
   example: []
   syntax:
-    content: Windows = 1
+    content: public const SystemPlatform Windows = 1
     return:
       type: Fantas.SystemPlatform
+    content.vb: Public Const Windows As SystemPlatform = 1
 - uid: Fantas.SystemPlatform.Xbox
   commentId: F:Fantas.SystemPlatform.Xbox
   id: Xbox
@@ -86,16 +112,17 @@ items:
   fullName: Fantas.SystemPlatform.Xbox
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/SystemPlatform.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SystemPlatform.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Xbox (UWP)
   example: []
   syntax:
-    content: Xbox = 2
+    content: public const SystemPlatform Xbox = 2
     return:
       type: Fantas.SystemPlatform
+    content.vb: Public Const Xbox As SystemPlatform = 2
 - uid: Fantas.SystemPlatform.MacOS
   commentId: F:Fantas.SystemPlatform.MacOS
   id: MacOS
@@ -108,16 +135,17 @@ items:
   fullName: Fantas.SystemPlatform.MacOS
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/SystemPlatform.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SystemPlatform.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: MacOS
   example: []
   syntax:
-    content: MacOS = 3
+    content: public const SystemPlatform MacOS = 3
     return:
       type: Fantas.SystemPlatform
+    content.vb: Public Const MacOS As SystemPlatform = 3
 - uid: Fantas.SystemPlatform.Linux
   commentId: F:Fantas.SystemPlatform.Linux
   id: Linux
@@ -130,16 +158,17 @@ items:
   fullName: Fantas.SystemPlatform.Linux
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/SystemPlatform.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SystemPlatform.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Linux
   example: []
   syntax:
-    content: Linux = 4
+    content: public const SystemPlatform Linux = 4
     return:
       type: Fantas.SystemPlatform
+    content.vb: Public Const Linux As SystemPlatform = 4
 - uid: Fantas.SystemPlatform.iOS
   commentId: F:Fantas.SystemPlatform.iOS
   id: iOS
@@ -152,16 +181,17 @@ items:
   fullName: Fantas.SystemPlatform.iOS
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/SystemPlatform.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SystemPlatform.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: iOS (notice for tvOS use tvOS)
   example: []
   syntax:
-    content: iOS = 5
+    content: public const SystemPlatform iOS = 5
     return:
       type: Fantas.SystemPlatform
+    content.vb: Public Const iOS As SystemPlatform = 5
 - uid: Fantas.SystemPlatform.tvOS
   commentId: F:Fantas.SystemPlatform.tvOS
   id: tvOS
@@ -174,16 +204,17 @@ items:
   fullName: Fantas.SystemPlatform.tvOS
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/SystemPlatform.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SystemPlatform.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: tvOS
   example: []
   syntax:
-    content: tvOS = 6
+    content: public const SystemPlatform tvOS = 6
     return:
       type: Fantas.SystemPlatform
+    content.vb: Public Const tvOS As SystemPlatform = 6
 - uid: Fantas.SystemPlatform.Android
   commentId: F:Fantas.SystemPlatform.Android
   id: Android
@@ -196,16 +227,17 @@ items:
   fullName: Fantas.SystemPlatform.Android
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/SystemPlatform.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/SystemPlatform.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Android
   example: []
   syntax:
-    content: Android = 7
+    content: public const SystemPlatform Android = 7
     return:
       type: Fantas.SystemPlatform
+    content.vb: Public Const Android As SystemPlatform = 7
 references:
 - uid: Fantas
   commentId: N:Fantas
@@ -214,6 +246,35 @@ references:
   name: Fantas
   nameWithType: Fantas
   fullName: Fantas
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Fantas.SystemPlatform
   commentId: T:Fantas.SystemPlatform
   parent: Fantas

@@ -1,0 +1,204 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.SizeExtensions
+  commentId: T:Fantas.SizeExtensions
+  id: SizeExtensions
+  parent: Fantas
+  children:
+  - Fantas.SizeExtensions.Inflate(System.Drawing.Size,System.Int32,System.Int32)
+  - Fantas.SizeExtensions.Inflate(System.Drawing.SizeF,System.Single,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: SizeExtensions
+  nameWithType: SizeExtensions
+  fullName: Fantas.SizeExtensions
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Extensions/SizeExtensions.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: RectangleF extension methods
+  example: []
+  syntax:
+    content: 'public static class SizeExtensions : Object'
+    content.vb: Public Module SizeExtensions Inherits Object
+  inheritance:
+  - System.Object
+- uid: Fantas.SizeExtensions.Inflate(System.Drawing.Size,System.Int32,System.Int32)
+  commentId: M:Fantas.SizeExtensions.Inflate(System.Drawing.Size,System.Int32,System.Int32)
+  id: Inflate(System.Drawing.Size,System.Int32,System.Int32)
+  isExtensionMethod: true
+  parent: Fantas.SizeExtensions
+  langs:
+  - csharp
+  - vb
+  name: Inflate(Size, int, int)
+  nameWithType: SizeExtensions.Inflate(Size, int, int)
+  fullName: Fantas.SizeExtensions.Inflate(System.Drawing.Size, int, int)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Extensions/SizeExtensions.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Inflate size
+  example: []
+  syntax:
+    content: public static Size Inflate(this Size size, int dx, int dy)
+    parameters:
+    - id: size
+      type: System.Drawing.Size
+      description: ''
+    - id: dx
+      type: System.Int32
+      description: ''
+    - id: dy
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Drawing.Size
+      description: ''
+    content.vb: Public Shared Function Inflate(size As Size, dx As Integer, dy As Integer) As Size
+  overload: Fantas.SizeExtensions.Inflate*
+  nameWithType.vb: SizeExtensions.Inflate(Size, Integer, Integer)
+  fullName.vb: Fantas.SizeExtensions.Inflate(System.Drawing.Size, Integer, Integer)
+  name.vb: Inflate(Size, Integer, Integer)
+- uid: Fantas.SizeExtensions.Inflate(System.Drawing.SizeF,System.Single,System.Single)
+  commentId: M:Fantas.SizeExtensions.Inflate(System.Drawing.SizeF,System.Single,System.Single)
+  id: Inflate(System.Drawing.SizeF,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: Fantas.SizeExtensions
+  langs:
+  - csharp
+  - vb
+  name: Inflate(SizeF, float, float)
+  nameWithType: SizeExtensions.Inflate(SizeF, float, float)
+  fullName: Fantas.SizeExtensions.Inflate(System.Drawing.SizeF, float, float)
+  type: Method
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Extensions/SizeExtensions.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: Inflate size
+  example: []
+  syntax:
+    content: public static SizeF Inflate(this SizeF size, float dx, float dy)
+    parameters:
+    - id: size
+      type: System.Drawing.SizeF
+      description: ''
+    - id: dx
+      type: System.Single
+      description: ''
+    - id: dy
+      type: System.Single
+      description: ''
+    return:
+      type: System.Drawing.SizeF
+      description: ''
+    content.vb: Public Shared Function Inflate(size As SizeF, dx As Single, dy As Single) As SizeF
+  overload: Fantas.SizeExtensions.Inflate*
+  nameWithType.vb: SizeExtensions.Inflate(SizeF, Single, Single)
+  fullName.vb: Fantas.SizeExtensions.Inflate(System.Drawing.SizeF, Single, Single)
+  name.vb: Inflate(SizeF, Single, Single)
+references:
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.SizeExtensions.Inflate*
+  commentId: Overload:Fantas.SizeExtensions.Inflate
+  isExternal: true
+  href: Fantas.SizeExtensions.html#Fantas_SizeExtensions_Inflate_System_Drawing_Size_System_Int32_System_Int32_
+  name: Inflate
+  nameWithType: SizeExtensions.Inflate
+  fullName: Fantas.SizeExtensions.Inflate
+- uid: System.Drawing.Size
+  commentId: T:System.Drawing.Size
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.size
+  name: Size
+  nameWithType: Size
+  fullName: System.Drawing.Size
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: System.Drawing.SizeF
+  commentId: T:System.Drawing.SizeF
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  name: SizeF
+  nameWithType: SizeF
+  fullName: System.Drawing.SizeF
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single

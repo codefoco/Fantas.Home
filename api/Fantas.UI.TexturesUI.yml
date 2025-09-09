@@ -1,0 +1,384 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.UI.TexturesUI
+  commentId: T:Fantas.UI.TexturesUI
+  id: TexturesUI
+  parent: Fantas.UI
+  children:
+  - Fantas.UI.TexturesUI.ButtonDisabledTexture
+  - Fantas.UI.TexturesUI.ButtonHoverTexture
+  - Fantas.UI.TexturesUI.ButtonNormalTexture
+  - Fantas.UI.TexturesUI.ButtonPressedTexture
+  - Fantas.UI.TexturesUI.Focus
+  - Fantas.UI.TexturesUI.HScrollBar
+  - Fantas.UI.TexturesUI.MenuItem
+  - Fantas.UI.TexturesUI.ProgressRing
+  - Fantas.UI.TexturesUI.VScrollBar
+  langs:
+  - csharp
+  - vb
+  name: TexturesUI
+  nameWithType: TexturesUI
+  fullName: Fantas.UI.TexturesUI
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Resources/UI/TexturesUI.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: Textures used by UI nodes
+  example: []
+  syntax:
+    content: 'public static class TexturesUI : Object'
+    content.vb: Public Module TexturesUI Inherits Object
+  inheritance:
+  - System.Object
+- uid: Fantas.UI.TexturesUI.ButtonDisabledTexture
+  commentId: P:Fantas.UI.TexturesUI.ButtonDisabledTexture
+  id: ButtonDisabledTexture
+  parent: Fantas.UI.TexturesUI
+  langs:
+  - csharp
+  - vb
+  name: ButtonDisabledTexture
+  nameWithType: TexturesUI.ButtonDisabledTexture
+  fullName: Fantas.UI.TexturesUI.ButtonDisabledTexture
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Resources/UI/TexturesUI.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: Default Disabled ButtonNode texture
+  example: []
+  syntax:
+    content: public static Texture ButtonDisabledTexture { get; }
+    parameters: []
+    return:
+      type: Fantas.Texture
+    content.vb: Public Shared ReadOnly Property ButtonDisabledTexture As Texture
+  overload: Fantas.UI.TexturesUI.ButtonDisabledTexture*
+- uid: Fantas.UI.TexturesUI.ButtonHoverTexture
+  commentId: P:Fantas.UI.TexturesUI.ButtonHoverTexture
+  id: ButtonHoverTexture
+  parent: Fantas.UI.TexturesUI
+  langs:
+  - csharp
+  - vb
+  name: ButtonHoverTexture
+  nameWithType: TexturesUI.ButtonHoverTexture
+  fullName: Fantas.UI.TexturesUI.ButtonHoverTexture
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Resources/UI/TexturesUI.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: Default Hover ButtonNode texture
+  example: []
+  syntax:
+    content: public static Texture ButtonHoverTexture { get; }
+    parameters: []
+    return:
+      type: Fantas.Texture
+    content.vb: Public Shared ReadOnly Property ButtonHoverTexture As Texture
+  overload: Fantas.UI.TexturesUI.ButtonHoverTexture*
+- uid: Fantas.UI.TexturesUI.ButtonNormalTexture
+  commentId: P:Fantas.UI.TexturesUI.ButtonNormalTexture
+  id: ButtonNormalTexture
+  parent: Fantas.UI.TexturesUI
+  langs:
+  - csharp
+  - vb
+  name: ButtonNormalTexture
+  nameWithType: TexturesUI.ButtonNormalTexture
+  fullName: Fantas.UI.TexturesUI.ButtonNormalTexture
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Resources/UI/TexturesUI.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: Default Normal ButtonNode texture
+  example: []
+  syntax:
+    content: public static Texture ButtonNormalTexture { get; }
+    parameters: []
+    return:
+      type: Fantas.Texture
+    content.vb: Public Shared ReadOnly Property ButtonNormalTexture As Texture
+  overload: Fantas.UI.TexturesUI.ButtonNormalTexture*
+- uid: Fantas.UI.TexturesUI.ButtonPressedTexture
+  commentId: P:Fantas.UI.TexturesUI.ButtonPressedTexture
+  id: ButtonPressedTexture
+  parent: Fantas.UI.TexturesUI
+  langs:
+  - csharp
+  - vb
+  name: ButtonPressedTexture
+  nameWithType: TexturesUI.ButtonPressedTexture
+  fullName: Fantas.UI.TexturesUI.ButtonPressedTexture
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Resources/UI/TexturesUI.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: Default Pressed ButtonNode texture
+  example: []
+  syntax:
+    content: public static Texture ButtonPressedTexture { get; }
+    parameters: []
+    return:
+      type: Fantas.Texture
+    content.vb: Public Shared ReadOnly Property ButtonPressedTexture As Texture
+  overload: Fantas.UI.TexturesUI.ButtonPressedTexture*
+- uid: Fantas.UI.TexturesUI.ProgressRing
+  commentId: P:Fantas.UI.TexturesUI.ProgressRing
+  id: ProgressRing
+  parent: Fantas.UI.TexturesUI
+  langs:
+  - csharp
+  - vb
+  name: ProgressRing
+  nameWithType: TexturesUI.ProgressRing
+  fullName: Fantas.UI.TexturesUI.ProgressRing
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Resources/UI/TexturesUI.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: Ring texture
+  example: []
+  syntax:
+    content: public static Texture ProgressRing { get; }
+    parameters: []
+    return:
+      type: Fantas.Texture
+    content.vb: Public Shared ReadOnly Property ProgressRing As Texture
+  overload: Fantas.UI.TexturesUI.ProgressRing*
+- uid: Fantas.UI.TexturesUI.Focus
+  commentId: P:Fantas.UI.TexturesUI.Focus
+  id: Focus
+  parent: Fantas.UI.TexturesUI
+  langs:
+  - csharp
+  - vb
+  name: Focus
+  nameWithType: TexturesUI.Focus
+  fullName: Fantas.UI.TexturesUI.Focus
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Resources/UI/TexturesUI.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: Focus texture
+  example: []
+  syntax:
+    content: public static Texture Focus { get; }
+    parameters: []
+    return:
+      type: Fantas.Texture
+    content.vb: Public Shared ReadOnly Property Focus As Texture
+  overload: Fantas.UI.TexturesUI.Focus*
+- uid: Fantas.UI.TexturesUI.MenuItem
+  commentId: P:Fantas.UI.TexturesUI.MenuItem
+  id: MenuItem
+  parent: Fantas.UI.TexturesUI
+  langs:
+  - csharp
+  - vb
+  name: MenuItem
+  nameWithType: TexturesUI.MenuItem
+  fullName: Fantas.UI.TexturesUI.MenuItem
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Resources/UI/TexturesUI.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: MenuItem texture
+  example: []
+  syntax:
+    content: public static Texture MenuItem { get; }
+    parameters: []
+    return:
+      type: Fantas.Texture
+    content.vb: Public Shared ReadOnly Property MenuItem As Texture
+  overload: Fantas.UI.TexturesUI.MenuItem*
+- uid: Fantas.UI.TexturesUI.VScrollBar
+  commentId: P:Fantas.UI.TexturesUI.VScrollBar
+  id: VScrollBar
+  parent: Fantas.UI.TexturesUI
+  langs:
+  - csharp
+  - vb
+  name: VScrollBar
+  nameWithType: TexturesUI.VScrollBar
+  fullName: Fantas.UI.TexturesUI.VScrollBar
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Resources/UI/TexturesUI.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: VScrollBar
+  example: []
+  syntax:
+    content: public static Texture VScrollBar { get; }
+    parameters: []
+    return:
+      type: Fantas.Texture
+    content.vb: Public Shared ReadOnly Property VScrollBar As Texture
+  overload: Fantas.UI.TexturesUI.VScrollBar*
+- uid: Fantas.UI.TexturesUI.HScrollBar
+  commentId: P:Fantas.UI.TexturesUI.HScrollBar
+  id: HScrollBar
+  parent: Fantas.UI.TexturesUI
+  langs:
+  - csharp
+  - vb
+  name: HScrollBar
+  nameWithType: TexturesUI.HScrollBar
+  fullName: Fantas.UI.TexturesUI.HScrollBar
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Resources/UI/TexturesUI.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: HScrollBar
+  example: []
+  syntax:
+    content: public static Texture HScrollBar { get; }
+    parameters: []
+    return:
+      type: Fantas.Texture
+    content.vb: Public Shared ReadOnly Property HScrollBar As Texture
+  overload: Fantas.UI.TexturesUI.HScrollBar*
+references:
+- uid: Fantas.UI
+  commentId: N:Fantas.UI
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.UI
+  nameWithType: Fantas.UI
+  fullName: Fantas.UI
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.UI
+    name: UI
+    isExternal: true
+    href: Fantas.UI.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.UI
+    name: UI
+    isExternal: true
+    href: Fantas.UI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.UI.TexturesUI.ButtonDisabledTexture*
+  commentId: Overload:Fantas.UI.TexturesUI.ButtonDisabledTexture
+  isExternal: true
+  href: Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_ButtonDisabledTexture
+  name: ButtonDisabledTexture
+  nameWithType: TexturesUI.ButtonDisabledTexture
+  fullName: Fantas.UI.TexturesUI.ButtonDisabledTexture
+- uid: Fantas.Texture
+  commentId: T:Fantas.Texture
+  parent: Fantas
+  isExternal: true
+  href: Fantas.Texture.html
+  name: Texture
+  nameWithType: Texture
+  fullName: Fantas.Texture
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: Fantas.UI.TexturesUI.ButtonHoverTexture*
+  commentId: Overload:Fantas.UI.TexturesUI.ButtonHoverTexture
+  isExternal: true
+  href: Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_ButtonHoverTexture
+  name: ButtonHoverTexture
+  nameWithType: TexturesUI.ButtonHoverTexture
+  fullName: Fantas.UI.TexturesUI.ButtonHoverTexture
+- uid: Fantas.UI.TexturesUI.ButtonNormalTexture*
+  commentId: Overload:Fantas.UI.TexturesUI.ButtonNormalTexture
+  isExternal: true
+  href: Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_ButtonNormalTexture
+  name: ButtonNormalTexture
+  nameWithType: TexturesUI.ButtonNormalTexture
+  fullName: Fantas.UI.TexturesUI.ButtonNormalTexture
+- uid: Fantas.UI.TexturesUI.ButtonPressedTexture*
+  commentId: Overload:Fantas.UI.TexturesUI.ButtonPressedTexture
+  isExternal: true
+  href: Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_ButtonPressedTexture
+  name: ButtonPressedTexture
+  nameWithType: TexturesUI.ButtonPressedTexture
+  fullName: Fantas.UI.TexturesUI.ButtonPressedTexture
+- uid: Fantas.UI.TexturesUI.ProgressRing*
+  commentId: Overload:Fantas.UI.TexturesUI.ProgressRing
+  isExternal: true
+  href: Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_ProgressRing
+  name: ProgressRing
+  nameWithType: TexturesUI.ProgressRing
+  fullName: Fantas.UI.TexturesUI.ProgressRing
+- uid: Fantas.UI.TexturesUI.Focus*
+  commentId: Overload:Fantas.UI.TexturesUI.Focus
+  isExternal: true
+  href: Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_Focus
+  name: Focus
+  nameWithType: TexturesUI.Focus
+  fullName: Fantas.UI.TexturesUI.Focus
+- uid: Fantas.UI.TexturesUI.MenuItem*
+  commentId: Overload:Fantas.UI.TexturesUI.MenuItem
+  isExternal: true
+  href: Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_MenuItem
+  name: MenuItem
+  nameWithType: TexturesUI.MenuItem
+  fullName: Fantas.UI.TexturesUI.MenuItem
+- uid: Fantas.UI.TexturesUI.VScrollBar*
+  commentId: Overload:Fantas.UI.TexturesUI.VScrollBar
+  isExternal: true
+  href: Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_VScrollBar
+  name: VScrollBar
+  nameWithType: TexturesUI.VScrollBar
+  fullName: Fantas.UI.TexturesUI.VScrollBar
+- uid: Fantas.UI.TexturesUI.HScrollBar*
+  commentId: Overload:Fantas.UI.TexturesUI.HScrollBar
+  isExternal: true
+  href: Fantas.UI.TexturesUI.html#Fantas_UI_TexturesUI_HScrollBar
+  name: HScrollBar
+  nameWithType: TexturesUI.HScrollBar
+  fullName: Fantas.UI.TexturesUI.HScrollBar

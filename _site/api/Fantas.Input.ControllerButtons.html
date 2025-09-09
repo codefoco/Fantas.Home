@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Enum ControllerButtons | Fantas </title>
+      <title>Class ControllerButtons | Fantas </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Enum ControllerButtons | Fantas ">
+      <meta name="title" content="Class ControllerButtons | Fantas ">
       
       <meta name="description" content="Defines the buttons on gamepad.">
       <link rel="icon" href="../favicon.ico">
@@ -88,9 +88,8 @@
 
 
 
-
   <h1 id="Fantas_Input_ControllerButtons" data-uid="Fantas.Input.ControllerButtons" class="text-break">
-Enum ControllerButtons  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+Class ControllerButtons  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -103,107 +102,873 @@ Enum ControllerButtons  <a class="header-action link-secondary" title="View sour
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Flags]
-public enum ControllerButtons</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class ControllerButtons : Enum</code></pre>
   </div>
 
 
 
 
-
-
-
-
-
-  <h2 id="fields">Fields
-</h2>
-  <dl class="parameters">
-    <dt id="Fantas_Input_ControllerButtons_A"><code>A = 4096</code></dt>
-    <dd><p>A button (the lower button)</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_B"><code>B = 8192</code></dt>
-    <dd><p>B button (button on the right)</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_BigButton"><code>BigButton = 2048</code></dt>
-    <dd><p>Big button (like the big X in the Xbox 360)</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_DPadDown"><code>DPadDown = 2</code></dt>
-    <dd><p>Directional pad down.</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_DPadLeft"><code>DPadLeft = 4</code></dt>
-    <dd><p>Directional pad left.</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_DPadRight"><code>DPadRight = 8</code></dt>
-    <dd><p>Directional pad right.</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_DPadUp"><code>DPadUp = 1</code></dt>
-    <dd><p>Directional pad up.</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_LeftShoulder"><code>LeftShoulder = 256</code></dt>
-    <dd><p>Left bumper (shoulder) button.</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_LeftThumbstick"><code>LeftThumbstick = 64</code></dt>
-    <dd><p>Left thumb stick button (pressing the left thumb stick).</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_LeftThumbstickDown"><code>LeftThumbstickDown = 536870912</code></dt>
-    <dd><p>Left thumb stick is towards down.</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_LeftThumbstickLeft"><code>LeftThumbstickLeft = 2097152</code></dt>
-    <dd><p>Left thumb stick is towards the left.</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_LeftThumbstickRight"><code>LeftThumbstickRight = 1073741824</code></dt>
-    <dd><p>Left thumb stick is towards the right.</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_LeftThumbstickUp"><code>LeftThumbstickUp = 268435456</code></dt>
-    <dd><p>Left thumb stick is towards up.</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_LeftTrigger"><code>LeftTrigger = 8388608</code></dt>
-    <dd><p>Left trigger</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_Menu"><code>Menu = 16</code></dt>
-    <dd><p>START or MENU button (depending on your GamePad)</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_None"><code>None = 0</code></dt>
-    <dd><p>Use to flag no button is pressed</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_Options"><code>Options = 32</code></dt>
-    <dd><p>BACK or Options button (depending on your GamePad)</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_RightShoulder"><code>RightShoulder = 512</code></dt>
-    <dd><p>Right bumper (shoulder) button.</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_RightThumbstick"><code>RightThumbstick = 128</code></dt>
-    <dd><p>Right thumb stick button (pressing the right thumb stick).</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_RightThumbstickDown"><code>RightThumbstickDown = 33554432</code></dt>
-    <dd><p>Right thumb stick is towards down.</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_RightThumbstickLeft"><code>RightThumbstickLeft = 134217728</code></dt>
-    <dd><p>Right thumb stick is towards the left.</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_RightThumbstickRight"><code>RightThumbstickRight = 67108864</code></dt>
-    <dd><p>Right thumb stick is towards the right.</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_RightThumbstickUp"><code>RightThumbstickUp = 16777216</code></dt>
-    <dd><p>Right thumb stick is towards up.</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_RightTrigger"><code>RightTrigger = 4194304</code></dt>
-    <dd><p>Right trigger.</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_X"><code>X = 16384</code></dt>
-    <dd><p>X button (button on the left)</p>
-</dd>
-    <dt id="Fantas_Input_ControllerButtons_Y"><code>Y = 32768</code></dt>
-    <dd><p>Y button (upper button)</p>
-</dd>
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ControllerButtons</span></div>
+    </dd>
   </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_A" data-uid="Fantas.Input.ControllerButtons.A">
+  A
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>A button (the lower button)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons A = 4096</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_B" data-uid="Fantas.Input.ControllerButtons.B">
+  B
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>B button (button on the right)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons B = 8192</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_BigButton" data-uid="Fantas.Input.ControllerButtons.BigButton">
+  BigButton
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Big button (like the big X in the Xbox 360)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons BigButton = 2048</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_DPadDown" data-uid="Fantas.Input.ControllerButtons.DPadDown">
+  DPadDown
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Directional pad down.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons DPadDown = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_DPadLeft" data-uid="Fantas.Input.ControllerButtons.DPadLeft">
+  DPadLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Directional pad left.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons DPadLeft = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_DPadRight" data-uid="Fantas.Input.ControllerButtons.DPadRight">
+  DPadRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Directional pad right.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons DPadRight = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_DPadUp" data-uid="Fantas.Input.ControllerButtons.DPadUp">
+  DPadUp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Directional pad up.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons DPadUp = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_LeftShoulder" data-uid="Fantas.Input.ControllerButtons.LeftShoulder">
+  LeftShoulder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Left bumper (shoulder) button.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons LeftShoulder = 256</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_LeftThumbstick" data-uid="Fantas.Input.ControllerButtons.LeftThumbstick">
+  LeftThumbstick
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Left thumb stick button (pressing the left thumb stick).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons LeftThumbstick = 64</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_LeftThumbstickDown" data-uid="Fantas.Input.ControllerButtons.LeftThumbstickDown">
+  LeftThumbstickDown
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Left thumb stick is towards down.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons LeftThumbstickDown = 536870912</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_LeftThumbstickLeft" data-uid="Fantas.Input.ControllerButtons.LeftThumbstickLeft">
+  LeftThumbstickLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Left thumb stick is towards the left.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons LeftThumbstickLeft = 2097152</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_LeftThumbstickRight" data-uid="Fantas.Input.ControllerButtons.LeftThumbstickRight">
+  LeftThumbstickRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Left thumb stick is towards the right.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons LeftThumbstickRight = 1073741824</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_LeftThumbstickUp" data-uid="Fantas.Input.ControllerButtons.LeftThumbstickUp">
+  LeftThumbstickUp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Left thumb stick is towards up.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons LeftThumbstickUp = 268435456</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_LeftTrigger" data-uid="Fantas.Input.ControllerButtons.LeftTrigger">
+  LeftTrigger
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Left trigger</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons LeftTrigger = 8388608</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_Menu" data-uid="Fantas.Input.ControllerButtons.Menu">
+  Menu
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>START or MENU button (depending on your GamePad)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons Menu = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_None" data-uid="Fantas.Input.ControllerButtons.None">
+  None
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Use to flag no button is pressed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons None = 0</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_Options" data-uid="Fantas.Input.ControllerButtons.Options">
+  Options
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>BACK or Options button (depending on your GamePad)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons Options = 32</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_RightShoulder" data-uid="Fantas.Input.ControllerButtons.RightShoulder">
+  RightShoulder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Right bumper (shoulder) button.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons RightShoulder = 512</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_RightThumbstick" data-uid="Fantas.Input.ControllerButtons.RightThumbstick">
+  RightThumbstick
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Right thumb stick button (pressing the right thumb stick).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons RightThumbstick = 128</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_RightThumbstickDown" data-uid="Fantas.Input.ControllerButtons.RightThumbstickDown">
+  RightThumbstickDown
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Right thumb stick is towards down.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons RightThumbstickDown = 33554432</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_RightThumbstickLeft" data-uid="Fantas.Input.ControllerButtons.RightThumbstickLeft">
+  RightThumbstickLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Right thumb stick is towards the left.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons RightThumbstickLeft = 134217728</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_RightThumbstickRight" data-uid="Fantas.Input.ControllerButtons.RightThumbstickRight">
+  RightThumbstickRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Right thumb stick is towards the right.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons RightThumbstickRight = 67108864</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_RightThumbstickUp" data-uid="Fantas.Input.ControllerButtons.RightThumbstickUp">
+  RightThumbstickUp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Right thumb stick is towards up.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons RightThumbstickUp = 16777216</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_RightTrigger" data-uid="Fantas.Input.ControllerButtons.RightTrigger">
+  RightTrigger
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Right trigger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons RightTrigger = 4194304</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_X" data-uid="Fantas.Input.ControllerButtons.X">
+  X
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>X button (button on the left)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons X = 16384</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_Y" data-uid="Fantas.Input.ControllerButtons.Y">
+  Y
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Y button (upper button)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const ControllerButtons Y = 32768</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.Input.ControllerButtons.html">ControllerButtons</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_Input_ControllerButtons_value__" data-uid="Fantas.Input.ControllerButtons.value__">
+  value__
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int value__</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
 
 
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Controller/ControllerButtons.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Controller/ControllerButtons.cs" class="edit-link">Edit this page</a>
         </div>
 
 

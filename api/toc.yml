@@ -9,13 +9,16 @@ items:
     type: Class
   - uid: Fantas.AnimationTimingFunction
     name: AnimationTimingFunction
-    type: Delegate
+    type: Class
   - uid: Fantas.AnimationTimingMode
     name: AnimationTimingMode
-    type: Enum
+    type: Class
+  - uid: Fantas.Array
+    name: Array
+    type: Class
   - uid: Fantas.BlendMode
     name: BlendMode
-    type: Enum
+    type: Class
   - uid: Fantas.CameraNode
     name: CameraNode
     type: Class
@@ -28,11 +31,11 @@ items:
   - uid: Fantas.CropNode
     name: CropNode
     type: Class
-  - uid: Fantas.CurrentSystemPlatform
-    name: CurrentSystemPlatform
-    type: Class
   - uid: Fantas.EllipseNode
     name: EllipseNode
+    type: Class
+  - uid: Fantas.FantasActivity
+    name: FantasActivity
     type: Class
   - uid: Fantas.Font
     name: Font
@@ -42,16 +45,19 @@ items:
     type: Class
   - uid: Fantas.GameOptions
     name: GameOptions
-    type: Enum
+    type: Class
+  - uid: Fantas.InertiaAnimationBuilder
+    name: InertiaAnimationBuilder
+    type: Class
   - uid: Fantas.LabelHorizontalAlignmentMode
     name: LabelHorizontalAlignmentMode
-    type: Enum
+    type: Class
   - uid: Fantas.LabelNode
     name: LabelNode
     type: Class
   - uid: Fantas.LabelVerticalAlignmentMode
     name: LabelVerticalAlignmentMode
-    type: Enum
+    type: Class
   - uid: Fantas.MathClamp
     name: MathClamp
     type: Class
@@ -63,7 +69,7 @@ items:
     type: Class
   - uid: Fantas.OutlinePosition
     name: OutlinePosition
-    type: Enum
+    type: Class
   - uid: Fantas.ParticleEmitterNode
     name: ParticleEmitterNode
     type: Class
@@ -82,14 +88,20 @@ items:
   - uid: Fantas.RectangleNode
     name: RectangleNode
     type: Class
+  - uid: Fantas.Resource
+    name: Resource
+    type: Class
   - uid: Fantas.Scene
     name: Scene
     type: Class
   - uid: Fantas.SceneScaleMode
     name: SceneScaleMode
-    type: Enum
+    type: Class
   - uid: Fantas.ShapeNode
     name: ShapeNode
+    type: Class
+  - uid: Fantas.SizeExtensions
+    name: SizeExtensions
     type: Class
   - uid: Fantas.SpriteFrameNode
     name: SpriteFrameNode
@@ -105,7 +117,10 @@ items:
     type: Class
   - uid: Fantas.SystemPlatform
     name: SystemPlatform
-    type: Enum
+    type: Class
+  - uid: Fantas.SystemPlatformInformation
+    name: SystemPlatformInformation
+    type: Class
   - uid: Fantas.Texture
     name: Texture
     type: Class
@@ -114,13 +129,13 @@ items:
     type: Class
   - uid: Fantas.TileAdjacencyMask
     name: TileAdjacencyMask
-    type: Enum
+    type: Class
   - uid: Fantas.TileDefinition
     name: TileDefinition
     type: Class
   - uid: Fantas.TileDefinitionRotation
     name: TileDefinitionRotation
-    type: Enum
+    type: Class
   - uid: Fantas.TileGroup
     name: TileGroup
     type: Class
@@ -135,7 +150,7 @@ items:
     type: Class
   - uid: Fantas.TileSetType
     name: TileSetType
-    type: Enum
+    type: Class
   - uid: Fantas.Time
     name: Time
     type: Class
@@ -176,7 +191,7 @@ items:
     type: Class
   - uid: Fantas.Input.ControllerButtons
     name: ControllerButtons
-    type: Enum
+    type: Class
   - uid: Fantas.Input.ControllerChangedEventArgs
     name: ControllerChangedEventArgs
     type: Class
@@ -203,10 +218,10 @@ items:
     type: Class
   - uid: Fantas.Input.Keys
     name: Keys
-    type: Enum
+    type: Class
   - uid: Fantas.Input.MouseButtons
     name: MouseButtons
-    type: Enum
+    type: Class
   - uid: Fantas.Input.MouseEventArgs
     name: MouseEventArgs
     type: Class
@@ -221,7 +236,7 @@ items:
     type: Class
   - uid: Fantas.Input.SwipeDirection
     name: SwipeDirection
-    type: Enum
+    type: Class
   - uid: Fantas.Input.SwipeEventArgs
     name: SwipeEventArgs
     type: Class
@@ -230,7 +245,7 @@ items:
     type: Class
   - uid: Fantas.Input.TouchDevice
     name: TouchDevice
-    type: Enum
+    type: Class
   - uid: Fantas.Input.TouchEventArgs
     name: TouchEventArgs
     type: Class
@@ -242,7 +257,7 @@ items:
     type: Class
   - uid: Fantas.Input.TouchState
     name: TouchState
-    type: Enum
+    type: Class
 - uid: Fantas.Physics
   name: Fantas.Physics
   type: Namespace
@@ -252,7 +267,7 @@ items:
     type: Class
   - uid: Fantas.Physics.ContactEvent
     name: ContactEvent
-    type: Delegate
+    type: Class
   - uid: Fantas.Physics.ContactHandler
     name: ContactHandler
     type: Class
@@ -316,5 +331,42 @@ items:
     type: Class
   - uid: Fantas.UI.ControlState
     name: ControlState
-    type: Enum
+    type: Class
+  - uid: Fantas.UI.HScrollBar
+    name: HScrollBar
+    type: Class
+  - uid: Fantas.UI.Orientation
+    name: Orientation
+    type: Class
+  - uid: Fantas.UI.ProgressRing
+    name: ProgressRing
+    type: Class
+  - uid: Fantas.UI.ScrollBar
+    name: ScrollBar
+    type: Class
+  - uid: Fantas.UI.ScrollBarThumb
+    name: ScrollBarThumb
+    type: Class
+  - uid: Fantas.UI.ScrollEventArgs
+    name: ScrollEventArgs
+    type: Class
+  - uid: Fantas.UI.ScrollNode
+    name: ScrollNode
+    type: Class
+  - uid: Fantas.UI.ScrollNodeOptions
+    name: ScrollNodeOptions
+    type: Class
+  - uid: Fantas.UI.TexturesUI
+    name: TexturesUI
+    type: Class
+  - uid: Fantas.UI.VScrollBar
+    name: VScrollBar
+    type: Class
+- uid: System.Numerics
+  name: System.Numerics
+  type: Namespace
+  items:
+  - uid: System.Numerics.Vector2
+    name: Vector2
+    type: Struct
 memberLayout: SamePage

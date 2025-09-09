@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Enum TileAdjacencyMask | Fantas </title>
+      <title>Class TileAdjacencyMask | Fantas </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Enum TileAdjacencyMask | Fantas ">
+      <meta name="title" content="Class TileAdjacencyMask | Fantas ">
       
       <meta name="description" content="Tile Adjacency Mask">
       <link rel="icon" href="../favicon.ico">
@@ -88,9 +88,8 @@
 
 
 
-
   <h1 id="Fantas_TileAdjacencyMask" data-uid="Fantas.TileAdjacencyMask" class="text-break">
-Enum TileAdjacencyMask  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+Class TileAdjacencyMask  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -103,137 +102,1183 @@ Enum TileAdjacencyMask  <a class="header-action link-secondary" title="View sour
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Flags]
-public enum TileAdjacencyMask</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class TileAdjacencyMask : Enum</code></pre>
   </div>
 
 
 
 
-
-
-
-
-
-  <h2 id="fields">Fields
-</h2>
-  <dl class="parameters">
-    <dt id="Fantas_TileAdjacencyMask_All"><code>All = HexFlatUpperRight | LowerLeftCorner</code></dt>
-    <dd><p>All</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_Down"><code>Down = 16</code></dt>
-    <dd><p>Down</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_DownEdge"><code>DownEdge = HexFlatUpperRight | HexFlatLowerRight | LowerRightEdge</code></dt>
-    <dd><p>DownEdge</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_HexFlatAll"><code>HexFlatAll = LeftEdge | HexFlatUpperLeft</code></dt>
-    <dd><p>HexFlatAll</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_HexFlatDown"><code>HexFlatDown = 8</code></dt>
-    <dd><p>HexFlatDown</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_HexFlatLowerLeft"><code>HexFlatLowerLeft = 16</code></dt>
-    <dd><p>HexFlatLowerLeft</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_HexFlatLowerRight"><code>HexFlatLowerRight = 4</code></dt>
-    <dd><p>HexFlatLowerRight</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_HexFlatUp"><code>HexFlatUp = 1</code></dt>
-    <dd><p>HexFlatUp</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_HexFlatUpperLeft"><code>HexFlatUpperLeft = 32</code></dt>
-    <dd><p>HexFlatUpperLeft</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_HexFlatUpperRight"><code>HexFlatUpperRight = 2</code></dt>
-    <dd><p>HexFlatUpperRight</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_HexPointyAll"><code>HexPointyAll = LeftEdge | HexFlatUpperLeft</code></dt>
-    <dd><p>HexPointyAll</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_HexPointyLeft"><code>HexPointyLeft = 32</code></dt>
-    <dd><p>HexPointyLeft</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_HexPointyLowerLeft"><code>HexPointyLowerLeft = 16</code></dt>
-    <dd><p>HexPointyLowerLeft</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_HexPointyLowerRight"><code>HexPointyLowerRight = 8</code></dt>
-    <dd><p>HexPointyLowerRight</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_HexPointyRight"><code>HexPointyRight = 4</code></dt>
-    <dd><p>HexPointyRight</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_HexPointyUpperLeft"><code>HexPointyUpperLeft = 1</code></dt>
-    <dd><p>HexPointyUpperLeft</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_HexPointyUpperRight"><code>HexPointyUpperRight = 2</code></dt>
-    <dd><p>HexPointyUpperRight</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_Left"><code>Left = 64</code></dt>
-    <dd><p>Left</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_LeftEdge"><code>LeftEdge = HexFlatUp | HexFlatUpperRight | UpperLeftEdge</code></dt>
-    <dd><p>LeftEdge</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_LowerLeft"><code>LowerLeft = 32</code></dt>
-    <dd><p>LowerLeft</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_LowerLeftCorner"><code>LowerLeftCorner = HexFlatLowerRight | HexFlatDown | RightEdge</code></dt>
-    <dd><p>LowerLeftCorner</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_LowerLeftEdge"><code>LowerLeftEdge = HexFlatUp | HexFlatUpperRight | HexFlatLowerRight</code></dt>
-    <dd><p>LowerLeftEdge</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_LowerRight"><code>LowerRight = 8</code></dt>
-    <dd><p>LowerRight</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_LowerRightCorner"><code>LowerRightCorner = HexFlatUp | HexFlatUpperRight | UpEdge</code></dt>
-    <dd><p>LowerRightCorner</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_LowerRightEdge"><code>LowerRightEdge = HexFlatUp | Left | UpperLeft</code></dt>
-    <dd><p>LowerRightEdge</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_None"><code>None = 0</code></dt>
-    <dd><p>None</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_Right"><code>Right = 4</code></dt>
-    <dd><p>Right</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_RightEdge"><code>RightEdge = Down | HexFlatUpperLeft | LowerRightEdge</code></dt>
-    <dd><p>RightEdge</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_Up"><code>Up = 1</code></dt>
-    <dd><p>Up</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_UpEdge"><code>UpEdge = HexFlatLowerRight | HexFlatDown | UpperRightEdge</code></dt>
-    <dd><p>UpEdge</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_UpperLeft"><code>UpperLeft = 128</code></dt>
-    <dd><p>UpperLeft</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_UpperLeftCorner"><code>UpperLeftCorner = HexFlatUpperRight | HexFlatLowerRight | RightEdge</code></dt>
-    <dd><p>UpperLeftCorner</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_UpperLeftEdge"><code>UpperLeftEdge = HexFlatLowerRight | HexFlatDown | Down</code></dt>
-    <dd><p>UpperLeftEdge</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_UpperRight"><code>UpperRight = 2</code></dt>
-    <dd><p>UpperRight</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_UpperRightCorner"><code>UpperRightCorner = HexFlatDown | Down | DownEdge</code></dt>
-    <dd><p>UpperRightCorner</p>
-</dd>
-    <dt id="Fantas_TileAdjacencyMask_UpperRightEdge"><code>UpperRightEdge = Down | HexFlatUpperLeft | Left</code></dt>
-    <dd><p>UpperRightEdge</p>
-</dd>
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">TileAdjacencyMask</span></div>
+    </dd>
   </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_All" data-uid="Fantas.TileAdjacencyMask.All">
+  All
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>All</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask All = 255</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_Down" data-uid="Fantas.TileAdjacencyMask.Down">
+  Down
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Down</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask Down = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_DownEdge" data-uid="Fantas.TileAdjacencyMask.DownEdge">
+  DownEdge
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>DownEdge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask DownEdge = 199</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_HexFlatAll" data-uid="Fantas.TileAdjacencyMask.HexFlatAll">
+  HexFlatAll
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>HexFlatAll</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask HexFlatAll = 63</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_HexFlatDown" data-uid="Fantas.TileAdjacencyMask.HexFlatDown">
+  HexFlatDown
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>HexFlatDown</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask HexFlatDown = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_HexFlatLowerLeft" data-uid="Fantas.TileAdjacencyMask.HexFlatLowerLeft">
+  HexFlatLowerLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>HexFlatLowerLeft</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask HexFlatLowerLeft = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_HexFlatLowerRight" data-uid="Fantas.TileAdjacencyMask.HexFlatLowerRight">
+  HexFlatLowerRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>HexFlatLowerRight</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask HexFlatLowerRight = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_HexFlatUp" data-uid="Fantas.TileAdjacencyMask.HexFlatUp">
+  HexFlatUp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>HexFlatUp</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask HexFlatUp = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_HexFlatUpperLeft" data-uid="Fantas.TileAdjacencyMask.HexFlatUpperLeft">
+  HexFlatUpperLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>HexFlatUpperLeft</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask HexFlatUpperLeft = 32</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_HexFlatUpperRight" data-uid="Fantas.TileAdjacencyMask.HexFlatUpperRight">
+  HexFlatUpperRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>HexFlatUpperRight</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask HexFlatUpperRight = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_HexPointyAll" data-uid="Fantas.TileAdjacencyMask.HexPointyAll">
+  HexPointyAll
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>HexPointyAll</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask HexPointyAll = 63</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_HexPointyLeft" data-uid="Fantas.TileAdjacencyMask.HexPointyLeft">
+  HexPointyLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>HexPointyLeft</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask HexPointyLeft = 32</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_HexPointyLowerLeft" data-uid="Fantas.TileAdjacencyMask.HexPointyLowerLeft">
+  HexPointyLowerLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>HexPointyLowerLeft</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask HexPointyLowerLeft = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_HexPointyLowerRight" data-uid="Fantas.TileAdjacencyMask.HexPointyLowerRight">
+  HexPointyLowerRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>HexPointyLowerRight</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask HexPointyLowerRight = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_HexPointyRight" data-uid="Fantas.TileAdjacencyMask.HexPointyRight">
+  HexPointyRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>HexPointyRight</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask HexPointyRight = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_HexPointyUpperLeft" data-uid="Fantas.TileAdjacencyMask.HexPointyUpperLeft">
+  HexPointyUpperLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>HexPointyUpperLeft</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask HexPointyUpperLeft = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_HexPointyUpperRight" data-uid="Fantas.TileAdjacencyMask.HexPointyUpperRight">
+  HexPointyUpperRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>HexPointyUpperRight</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask HexPointyUpperRight = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_Left" data-uid="Fantas.TileAdjacencyMask.Left">
+  Left
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Left</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask Left = 64</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_LeftEdge" data-uid="Fantas.TileAdjacencyMask.LeftEdge">
+  LeftEdge
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>LeftEdge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask LeftEdge = 31</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_LowerLeft" data-uid="Fantas.TileAdjacencyMask.LowerLeft">
+  LowerLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>LowerLeft</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask LowerLeft = 32</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_LowerLeftCorner" data-uid="Fantas.TileAdjacencyMask.LowerLeftCorner">
+  LowerLeftCorner
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>LowerLeftCorner</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask LowerLeftCorner = 253</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_LowerLeftEdge" data-uid="Fantas.TileAdjacencyMask.LowerLeftEdge">
+  LowerLeftEdge
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>LowerLeftEdge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask LowerLeftEdge = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_LowerRight" data-uid="Fantas.TileAdjacencyMask.LowerRight">
+  LowerRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>LowerRight</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask LowerRight = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_LowerRightCorner" data-uid="Fantas.TileAdjacencyMask.LowerRightCorner">
+  LowerRightCorner
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>LowerRightCorner</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask LowerRightCorner = 127</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_LowerRightEdge" data-uid="Fantas.TileAdjacencyMask.LowerRightEdge">
+  LowerRightEdge
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>LowerRightEdge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask LowerRightEdge = 193</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_None" data-uid="Fantas.TileAdjacencyMask.None">
+  None
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>None</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask None = 0</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_Right" data-uid="Fantas.TileAdjacencyMask.Right">
+  Right
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Right</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask Right = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_RightEdge" data-uid="Fantas.TileAdjacencyMask.RightEdge">
+  RightEdge
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>RightEdge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask RightEdge = 241</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_Up" data-uid="Fantas.TileAdjacencyMask.Up">
+  Up
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Up</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask Up = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_UpEdge" data-uid="Fantas.TileAdjacencyMask.UpEdge">
+  UpEdge
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>UpEdge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask UpEdge = 124</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_UpperLeft" data-uid="Fantas.TileAdjacencyMask.UpperLeft">
+  UpperLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>UpperLeft</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask UpperLeft = 128</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_UpperLeftCorner" data-uid="Fantas.TileAdjacencyMask.UpperLeftCorner">
+  UpperLeftCorner
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>UpperLeftCorner</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask UpperLeftCorner = 247</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_UpperLeftEdge" data-uid="Fantas.TileAdjacencyMask.UpperLeftEdge">
+  UpperLeftEdge
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>UpperLeftEdge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask UpperLeftEdge = 28</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_UpperRight" data-uid="Fantas.TileAdjacencyMask.UpperRight">
+  UpperRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>UpperRight</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask UpperRight = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_UpperRightCorner" data-uid="Fantas.TileAdjacencyMask.UpperRightCorner">
+  UpperRightCorner
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>UpperRightCorner</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask UpperRightCorner = 223</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_UpperRightEdge" data-uid="Fantas.TileAdjacencyMask.UpperRightEdge">
+  UpperRightEdge
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>UpperRightEdge</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const TileAdjacencyMask UpperRightEdge = 112</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Fantas.TileAdjacencyMask.html">TileAdjacencyMask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Fantas_TileAdjacencyMask_value__" data-uid="Fantas.TileAdjacencyMask.value__">
+  value__
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int value__</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
 
 
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileAdjacencyMask.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileAdjacencyMask.cs" class="edit-link">Edit this page</a>
         </div>
 
 

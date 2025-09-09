@@ -1,0 +1,156 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.UI.ScrollEventArgs
+  commentId: T:Fantas.UI.ScrollEventArgs
+  id: ScrollEventArgs
+  parent: Fantas.UI
+  children:
+  - Fantas.UI.ScrollEventArgs.#ctor(System.Single)
+  - Fantas.UI.ScrollEventArgs.NewValue
+  langs:
+  - csharp
+  - vb
+  name: ScrollEventArgs
+  nameWithType: ScrollEventArgs
+  fullName: Fantas.UI.ScrollEventArgs
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ScrollNodes/ScrollEventArgs.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: Scroll bar event args
+  example: []
+  syntax:
+    content: 'public class ScrollEventArgs : EventArgs'
+    content.vb: Public Class ScrollEventArgs Inherits EventArgs
+  inheritance:
+  - System.Object
+- uid: Fantas.UI.ScrollEventArgs.#ctor(System.Single)
+  commentId: M:Fantas.UI.ScrollEventArgs.#ctor(System.Single)
+  id: '#ctor(System.Single)'
+  parent: Fantas.UI.ScrollEventArgs
+  langs:
+  - csharp
+  - vb
+  name: ScrollEventArgs(float)
+  nameWithType: ScrollEventArgs.ScrollEventArgs(float)
+  fullName: Fantas.UI.ScrollEventArgs.ScrollEventArgs(float)
+  type: Constructor
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ScrollNodes/ScrollEventArgs.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: ctor
+  example: []
+  syntax:
+    content: public ScrollEventArgs(float value)
+    parameters:
+    - id: value
+      type: System.Single
+      description: ''
+    content.vb: Public Sub New(value As Single)
+  overload: Fantas.UI.ScrollEventArgs.#ctor*
+  nameWithType.vb: ScrollEventArgs.New(Single)
+  fullName.vb: Fantas.UI.ScrollEventArgs.New(Single)
+  name.vb: New(Single)
+- uid: Fantas.UI.ScrollEventArgs.NewValue
+  commentId: P:Fantas.UI.ScrollEventArgs.NewValue
+  id: NewValue
+  parent: Fantas.UI.ScrollEventArgs
+  langs:
+  - csharp
+  - vb
+  name: NewValue
+  nameWithType: ScrollEventArgs.NewValue
+  fullName: Fantas.UI.ScrollEventArgs.NewValue
+  type: Property
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ScrollNodes/ScrollEventArgs.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.UI
+  summary: New Value after ScrollBar Value is changed
+  example: []
+  syntax:
+    content: public float NewValue { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property NewValue As Single
+  overload: Fantas.UI.ScrollEventArgs.NewValue*
+references:
+- uid: Fantas.UI
+  commentId: N:Fantas.UI
+  isExternal: true
+  href: Fantas.html
+  name: Fantas.UI
+  nameWithType: Fantas.UI
+  fullName: Fantas.UI
+  spec.csharp:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.UI
+    name: UI
+    isExternal: true
+    href: Fantas.UI.html
+  spec.vb:
+  - uid: Fantas
+    name: Fantas
+    isExternal: true
+    href: Fantas.html
+  - name: .
+  - uid: Fantas.UI
+    name: UI
+    isExternal: true
+    href: Fantas.UI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.UI.ScrollEventArgs.#ctor*
+  commentId: Overload:Fantas.UI.ScrollEventArgs.#ctor
+  isExternal: true
+  href: Fantas.UI.ScrollEventArgs.html#Fantas_UI_ScrollEventArgs__ctor_System_Single_
+  name: ScrollEventArgs
+  nameWithType: ScrollEventArgs.ScrollEventArgs
+  fullName: Fantas.UI.ScrollEventArgs.ScrollEventArgs
+  nameWithType.vb: ScrollEventArgs.New
+  fullName.vb: Fantas.UI.ScrollEventArgs.New
+  name.vb: New
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Fantas.UI.ScrollEventArgs.NewValue*
+  commentId: Overload:Fantas.UI.ScrollEventArgs.NewValue
+  isExternal: true
+  href: Fantas.UI.ScrollEventArgs.html#Fantas_UI_ScrollEventArgs_NewValue
+  name: NewValue
+  nameWithType: ScrollEventArgs.NewValue
+  fullName: Fantas.UI.ScrollEventArgs.NewValue

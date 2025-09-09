@@ -8,23 +8,47 @@ items:
   - Fantas.Input.TouchDevice.Mouse
   - Fantas.Input.TouchDevice.Pen
   - Fantas.Input.TouchDevice.Touch
+  - Fantas.Input.TouchDevice.value__
   langs:
   - csharp
   - vb
   name: TouchDevice
   nameWithType: TouchDevice
   fullName: Fantas.Input.TouchDevice
-  type: Enum
+  type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Touch/TouchDevice.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Touch/TouchDevice.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Touch Device type (Touch, Mouse, Pen)
   example: []
   syntax:
-    content: public enum TouchDevice
-    content.vb: Public Enum TouchDevice
+    content: 'public sealed class TouchDevice : Enum'
+    content.vb: Public NotInheritable Class TouchDevice Inherits Enum
+  inheritance:
+  - System.Object
+- uid: Fantas.Input.TouchDevice.value__
+  commentId: F:Fantas.Input.TouchDevice.value__
+  id: value__
+  parent: Fantas.Input.TouchDevice
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TouchDevice.value__
+  fullName: Fantas.Input.TouchDevice.value__
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Touch/TouchDevice.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas.Input
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
 - uid: Fantas.Input.TouchDevice.Mouse
   commentId: F:Fantas.Input.TouchDevice.Mouse
   id: Mouse
@@ -37,16 +61,17 @@ items:
   fullName: Fantas.Input.TouchDevice.Mouse
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Touch/TouchDevice.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Touch/TouchDevice.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Mouse pointer event
   example: []
   syntax:
-    content: Mouse = 0
+    content: public const TouchDevice Mouse = 0
     return:
       type: Fantas.Input.TouchDevice
+    content.vb: Public Const Mouse As TouchDevice = 0
 - uid: Fantas.Input.TouchDevice.Touch
   commentId: F:Fantas.Input.TouchDevice.Touch
   id: Touch
@@ -59,16 +84,17 @@ items:
   fullName: Fantas.Input.TouchDevice.Touch
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Touch/TouchDevice.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Touch/TouchDevice.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Touch contact
   example: []
   syntax:
-    content: Touch = 1
+    content: public const TouchDevice Touch = 1
     return:
       type: Fantas.Input.TouchDevice
+    content.vb: Public Const Touch As TouchDevice = 1
 - uid: Fantas.Input.TouchDevice.Pen
   commentId: F:Fantas.Input.TouchDevice.Pen
   id: Pen
@@ -81,16 +107,17 @@ items:
   fullName: Fantas.Input.TouchDevice.Pen
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Input/Touch/TouchDevice.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Input/Touch/TouchDevice.cs
   assemblies:
   - Fantas
   namespace: Fantas.Input
   summary: Pen
   example: []
   syntax:
-    content: Pen = 2
+    content: public const TouchDevice Pen = 2
     return:
       type: Fantas.Input.TouchDevice
+    content.vb: Public Const Pen As TouchDevice = 2
 references:
 - uid: Fantas.Input
   commentId: N:Fantas.Input
@@ -119,6 +146,35 @@ references:
     name: Input
     isExternal: true
     href: Fantas.Input.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Fantas.Input.TouchDevice
   commentId: T:Fantas.Input.TouchDevice
   parent: Fantas.Input

@@ -7,6 +7,16 @@ items:
   - Fantas.UI.ButtonNode
   - Fantas.UI.ControlNode
   - Fantas.UI.ControlState
+  - Fantas.UI.HScrollBar
+  - Fantas.UI.Orientation
+  - Fantas.UI.ProgressRing
+  - Fantas.UI.ScrollBar
+  - Fantas.UI.ScrollBarThumb
+  - Fantas.UI.ScrollEventArgs
+  - Fantas.UI.ScrollNode
+  - Fantas.UI.ScrollNodeOptions
+  - Fantas.UI.TexturesUI
+  - Fantas.UI.VScrollBar
   langs:
   - csharp
   - vb
@@ -17,6 +27,30 @@ items:
   assemblies:
   - Fantas
 references:
+- uid: Fantas.UI.Orientation
+  commentId: T:Fantas.UI.Orientation
+  parent: Fantas.UI
+  isExternal: true
+  href: Fantas.UI.Orientation.html
+  name: Orientation
+  nameWithType: Orientation
+  fullName: Fantas.UI.Orientation
+- uid: Fantas.UI.ScrollNodeOptions
+  commentId: T:Fantas.UI.ScrollNodeOptions
+  parent: Fantas.UI
+  isExternal: true
+  href: Fantas.UI.ScrollNodeOptions.html
+  name: ScrollNodeOptions
+  nameWithType: ScrollNodeOptions
+  fullName: Fantas.UI.ScrollNodeOptions
+- uid: Fantas.UI.ScrollBarThumb
+  commentId: T:Fantas.UI.ScrollBarThumb
+  parent: Fantas.UI
+  isExternal: true
+  href: Fantas.UI.ScrollBarThumb.html
+  name: ScrollBarThumb
+  nameWithType: ScrollBarThumb
+  fullName: Fantas.UI.ScrollBarThumb
 - uid: Fantas.UI.ControlNode
   commentId: T:Fantas.UI.ControlNode
   parent: Fantas.UI
@@ -40,6 +74,56 @@ references:
   name: ButtonNode
   nameWithType: ButtonNode
   fullName: Fantas.UI.ButtonNode
+- uid: Fantas.UI.ProgressRing
+  commentId: T:Fantas.UI.ProgressRing
+  isExternal: true
+  href: Fantas.UI.ProgressRing.html
+  name: ProgressRing
+  nameWithType: ProgressRing
+  fullName: Fantas.UI.ProgressRing
+- uid: Fantas.UI.TexturesUI
+  commentId: T:Fantas.UI.TexturesUI
+  isExternal: true
+  href: Fantas.UI.TexturesUI.html
+  name: TexturesUI
+  nameWithType: TexturesUI
+  fullName: Fantas.UI.TexturesUI
+- uid: Fantas.UI.ScrollNode
+  commentId: T:Fantas.UI.ScrollNode
+  isExternal: true
+  href: Fantas.UI.ScrollNode.html
+  name: ScrollNode
+  nameWithType: ScrollNode
+  fullName: Fantas.UI.ScrollNode
+- uid: Fantas.UI.ScrollBar
+  commentId: T:Fantas.UI.ScrollBar
+  parent: Fantas.UI
+  isExternal: true
+  href: Fantas.UI.ScrollBar.html
+  name: ScrollBar
+  nameWithType: ScrollBar
+  fullName: Fantas.UI.ScrollBar
+- uid: Fantas.UI.HScrollBar
+  commentId: T:Fantas.UI.HScrollBar
+  isExternal: true
+  href: Fantas.UI.HScrollBar.html
+  name: HScrollBar
+  nameWithType: HScrollBar
+  fullName: Fantas.UI.HScrollBar
+- uid: Fantas.UI.ScrollEventArgs
+  commentId: T:Fantas.UI.ScrollEventArgs
+  isExternal: true
+  href: Fantas.UI.ScrollEventArgs.html
+  name: ScrollEventArgs
+  nameWithType: ScrollEventArgs
+  fullName: Fantas.UI.ScrollEventArgs
+- uid: Fantas.UI.VScrollBar
+  commentId: T:Fantas.UI.VScrollBar
+  isExternal: true
+  href: Fantas.UI.VScrollBar.html
+  name: VScrollBar
+  nameWithType: VScrollBar
+  fullName: Fantas.UI.VScrollBar
 - uid: Fantas.UI
   commentId: N:Fantas.UI
   isExternal: true

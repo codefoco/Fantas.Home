@@ -89,7 +89,7 @@
 
 
   <h1 id="Fantas_Node" data-uid="Fantas.Node" class="text-break">
-Class Node  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+Class Node  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class Node  <a class="header-action link-secondary" title="View source" href="ht
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Node</code></pre>
+    <pre><code class="lang-csharp hljs">public class Node : Object</code></pre>
   </div>
 
 
@@ -132,28 +132,6 @@ Class Node  <a class="header-action link-secondary" title="View source" href="ht
     </dd>
   </dl>
 
-  <dl class="typelist inheritedMembers">
-    <dt>Inherited Members</dt>
-    <dd>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-  </dd></dl>
 
 
 
@@ -168,7 +146,7 @@ Class Node  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="Fantas_Node__ctor" data-uid="Fantas.Node.#ctor">
   Node()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Create a generic node
@@ -196,7 +174,7 @@ Usually used as parent for other nodes</p>
 
   <h3 id="Fantas_Node__ctor_Fantas_Node_" data-uid="Fantas.Node.#ctor(Fantas.Node)">
   Node(Node)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Copy the node</p>
@@ -232,7 +210,7 @@ Usually used as parent for other nodes</p>
 
   <h3 id="Fantas_Node_Alpha" data-uid="Fantas.Node.Alpha">
   Alpha
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Transparency applied to the node and children's</p>
@@ -264,7 +242,7 @@ Usually used as parent for other nodes</p>
 
   <h3 id="Fantas_Node_Bottom" data-uid="Fantas.Node.Bottom">
   Bottom
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Bottom side of Node frame
@@ -295,11 +273,75 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
 
 
+  <a id="Fantas_Node_BottomLeft_" data-uid="Fantas.Node.BottomLeft*"></a>
+
+  <h3 id="Fantas_Node_BottomLeft" data-uid="Fantas.Node.BottomLeft">
+  BottomLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>top left position of node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PointF BottomLeft { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Node_BottomRight_" data-uid="Fantas.Node.BottomRight*"></a>
+
+  <h3 id="Fantas_Node_BottomRight" data-uid="Fantas.Node.BottomRight">
+  BottomRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>top right position of node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PointF BottomRight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Fantas_Node_CanBringForward_" data-uid="Fantas.Node.CanBringForward*"></a>
 
   <h3 id="Fantas_Node_CanBringForward" data-uid="Fantas.Node.CanBringForward">
   CanBringForward
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>True if node can be brought forward among siblings</p>
@@ -331,7 +373,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_CanSendBackward" data-uid="Fantas.Node.CanSendBackward">
   CanSendBackward
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>True if node can be sent backward among siblings</p>
@@ -363,7 +405,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_Center" data-uid="Fantas.Node.Center">
   Center
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Center location of Node</p>
@@ -395,7 +437,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_Children" data-uid="Fantas.Node.Children">
   Children
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Children add to this node</p>
@@ -427,7 +469,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_Cursor" data-uid="Fantas.Node.Cursor">
   Cursor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Custom mouse cursor for node</p>
@@ -459,7 +501,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_Frame" data-uid="Fantas.Node.Frame">
   Frame
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Node Frame without children</p>
@@ -491,7 +533,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_HasAnimation" data-uid="Fantas.Node.HasAnimation">
   HasAnimation
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Check if not is running animations</p>
@@ -523,7 +565,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_HasChildren" data-uid="Fantas.Node.HasChildren">
   HasChildren
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Return whether this node has children</p>
@@ -551,11 +593,43 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
 
 
+  <a id="Fantas_Node_HasMouseCaputure_" data-uid="Fantas.Node.HasMouseCaputure*"></a>
+
+  <h3 id="Fantas_Node_HasMouseCaputure" data-uid="Fantas.Node.HasMouseCaputure">
+  HasMouseCaputure
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return true if this Node still have mouse capture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMouseCaputure { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Fantas_Node_HasParent_" data-uid="Fantas.Node.HasParent*"></a>
 
   <h3 id="Fantas_Node_HasParent" data-uid="Fantas.Node.HasParent">
   HasParent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Return whether this node has children</p>
@@ -587,7 +661,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_Height" data-uid="Fantas.Node.Height">
   Height
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Node height</p>
@@ -619,7 +693,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_Hidden" data-uid="Fantas.Node.Hidden">
   Hidden
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Node visibility (when is hidden)</p>
@@ -651,7 +725,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_IsHitTestEnabled" data-uid="Fantas.Node.IsHitTestEnabled">
   IsHitTestEnabled
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Flag to control if Node can be hit-test by Mouse/Touch node events</p>
@@ -683,7 +757,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_IsMouseOver" data-uid="Fantas.Node.IsMouseOver">
   IsMouseOver
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>True if the mouse cursor position is over the node</p>
@@ -715,7 +789,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_IsTouchOver" data-uid="Fantas.Node.IsTouchOver">
   IsTouchOver
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>True if Node is current being touch</p>
@@ -747,7 +821,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_Left" data-uid="Fantas.Node.Left">
   Left
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Left side of Node frame
@@ -780,7 +854,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_MouseButtonPressed" data-uid="Fantas.Node.MouseButtonPressed">
   MouseButtonPressed
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Mouse button that was pressed over the node</p>
@@ -812,7 +886,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_Name" data-uid="Fantas.Node.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>optional name of the node</p>
@@ -844,7 +918,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_Parent" data-uid="Fantas.Node.Parent">
   Parent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Parent node</p>
@@ -876,7 +950,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_Paused" data-uid="Fantas.Node.Paused">
   Paused
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Pause animation of node (and children)</p>
@@ -908,7 +982,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_PhysicsBody" data-uid="Fantas.Node.PhysicsBody">
   PhysicsBody
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>PhysicsBody of node.</p>
@@ -940,7 +1014,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_Position" data-uid="Fantas.Node.Position">
   Position
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Position relative to the parent node</p>
@@ -972,7 +1046,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_Right" data-uid="Fantas.Node.Right">
   Right
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Right side of Node frame
@@ -1005,7 +1079,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_Scale" data-uid="Fantas.Node.Scale">
   Scale
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Node scale factor</p>
@@ -1022,7 +1096,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dt><a class="xref" href="System.Numerics.Vector2.html">Vector2</a></dt>
     <dd></dd>
   </dl>
 
@@ -1037,7 +1111,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_Scene" data-uid="Fantas.Node.Scene">
   Scene
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get the scene the node was added</p>
@@ -1069,7 +1143,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_Speed" data-uid="Fantas.Node.Speed">
   Speed
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Controls the animation speed of node (and children)</p>
@@ -1101,7 +1175,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_Tag" data-uid="Fantas.Node.Tag">
   Tag
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>User defined value to store custom information about this node.</p>
@@ -1133,7 +1207,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_Top" data-uid="Fantas.Node.Top">
   Top
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Top side of Node frame
@@ -1164,11 +1238,75 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
 
 
+  <a id="Fantas_Node_TopLeft_" data-uid="Fantas.Node.TopLeft*"></a>
+
+  <h3 id="Fantas_Node_TopLeft" data-uid="Fantas.Node.TopLeft">
+  TopLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>top left position of node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PointF TopLeft { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Fantas_Node_TopRight_" data-uid="Fantas.Node.TopRight*"></a>
+
+  <h3 id="Fantas_Node_TopRight" data-uid="Fantas.Node.TopRight">
+  TopRight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>top right position of node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PointF TopRight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Fantas_Node_TouchCount_" data-uid="Fantas.Node.TouchCount*"></a>
 
   <h3 id="Fantas_Node_TouchCount" data-uid="Fantas.Node.TouchCount">
   TouchCount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Total of current touches within the Node frame</p>
@@ -1200,7 +1338,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_Width" data-uid="Fantas.Node.Width">
   Width
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Node width</p>
@@ -1232,7 +1370,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_X" data-uid="Fantas.Node.X">
   X
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>X position of Node</p>
@@ -1264,7 +1402,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_XScale" data-uid="Fantas.Node.XScale">
   XScale
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>X scale factor</p>
@@ -1296,7 +1434,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_Y" data-uid="Fantas.Node.Y">
   Y
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Y position of Node</p>
@@ -1328,7 +1466,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_YScale" data-uid="Fantas.Node.YScale">
   YScale
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Y scale factor</p>
@@ -1360,7 +1498,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_ZPosition" data-uid="Fantas.Node.ZPosition">
   ZPosition
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Node Z offset (0-bottom, + closer to camera)</p>
@@ -1392,7 +1530,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_ZRotation" data-uid="Fantas.Node.ZRotation">
   ZRotation
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Z-rotation (euler angle) using anchor as pivot</p>
@@ -1428,7 +1566,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_AddChild_Fantas_Node_" data-uid="Fantas.Node.AddChild(Fantas.Node)">
   AddChild(Node)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Add a new child node</p>
@@ -1460,7 +1598,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_BringForward" data-uid="Fantas.Node.BringForward">
   BringForward()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Move node forward inside parent children</p>
@@ -1487,7 +1625,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_BringToFront" data-uid="Fantas.Node.BringToFront">
   BringToFront()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Move node to the front in the among siblings</p>
@@ -1514,7 +1652,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_CalculateAccumulatedFrame" data-uid="Fantas.Node.CalculateAccumulatedFrame">
   CalculateAccumulatedFrame()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Calculate the frame of this node and all children</p>
@@ -1546,7 +1684,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_ContainsPoint_System_Drawing_PointF_" data-uid="Fantas.Node.ContainsPoint(System.Drawing.PointF)">
   ContainsPoint(PointF)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Check if the point is inside the node frame</p>
@@ -1581,11 +1719,50 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
 
 
+  <a id="Fantas_Node_ContainsScenePoint_" data-uid="Fantas.Node.ContainsScenePoint*"></a>
+
+  <h3 id="Fantas_Node_ContainsScenePoint_System_Drawing_PointF_" data-uid="Fantas.Node.ContainsScenePoint(System.Drawing.PointF)">
+  ContainsScenePoint(PointF)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check if the point (with scene coordinates) is inside the node frame</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsScenePoint(PointF point)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>point</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd><p>point in scene coordinates</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Return true if the node frame contains the point</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Fantas_Node_ConvertPointFromNode_" data-uid="Fantas.Node.ConvertPointFromNode*"></a>
 
   <h3 id="Fantas_Node_ConvertPointFromNode_System_Drawing_PointF_Fantas_Node_" data-uid="Fantas.Node.ConvertPointFromNode(System.Drawing.PointF,Fantas.Node)">
   ConvertPointFromNode(PointF, Node)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Transform point from the from source node to this node</p>
@@ -1623,11 +1800,48 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
 
 
+  <a id="Fantas_Node_ConvertPointFromScene_" data-uid="Fantas.Node.ConvertPointFromScene*"></a>
+
+  <h3 id="Fantas_Node_ConvertPointFromScene_System_Drawing_PointF_" data-uid="Fantas.Node.ConvertPointFromScene(System.Drawing.PointF)">
+  ConvertPointFromScene(PointF)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Convert point from Scene to Node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PointF ConvertPointFromScene(PointF point)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>point</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Fantas_Node_ConvertPointToNode_" data-uid="Fantas.Node.ConvertPointToNode*"></a>
 
   <h3 id="Fantas_Node_ConvertPointToNode_System_Drawing_PointF_Fantas_Node_" data-uid="Fantas.Node.ConvertPointToNode(System.Drawing.PointF,Fantas.Node)">
   ConvertPointToNode(PointF, Node)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Transform point from the from this node to another node</p>
@@ -1665,11 +1879,200 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
 
 
+  <a id="Fantas_Node_ConvertPointToScene_" data-uid="Fantas.Node.ConvertPointToScene*"></a>
+
+  <h3 id="Fantas_Node_ConvertPointToScene_System_Drawing_PointF_" data-uid="Fantas.Node.ConvertPointToScene(System.Drawing.PointF)">
+  ConvertPointToScene(PointF)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Convert point from Node to Scene</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PointF ConvertPointToScene(PointF point)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>point</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Node_ConvertVectorFromNode_" data-uid="Fantas.Node.ConvertVectorFromNode*"></a>
+
+  <h3 id="Fantas_Node_ConvertVectorFromNode_System_Numerics_Vector2_Fantas_Node_" data-uid="Fantas.Node.ConvertVectorFromNode(System.Numerics.Vector2,Fantas.Node)">
+  ConvertVectorFromNode(Vector2, Node)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Convert Vector2 from Node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 ConvertVectorFromNode(Vector2 delta, Node reference)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="System.Numerics.Vector2.html">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>reference</code> <a class="xref" href="Fantas.Node.html">Node</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="System.Numerics.Vector2.html">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Node_ConvertVectorFromScene_" data-uid="Fantas.Node.ConvertVectorFromScene*"></a>
+
+  <h3 id="Fantas_Node_ConvertVectorFromScene_System_Numerics_Vector2_" data-uid="Fantas.Node.ConvertVectorFromScene(System.Numerics.Vector2)">
+  ConvertVectorFromScene(Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Convert Vector from Scene</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 ConvertVectorFromScene(Vector2 delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="System.Numerics.Vector2.html">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="System.Numerics.Vector2.html">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Node_ConvertVectorToNode_" data-uid="Fantas.Node.ConvertVectorToNode*"></a>
+
+  <h3 id="Fantas_Node_ConvertVectorToNode_System_Numerics_Vector2_Fantas_Node_" data-uid="Fantas.Node.ConvertVectorToNode(System.Numerics.Vector2,Fantas.Node)">
+  ConvertVectorToNode(Vector2, Node)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Convert Vector2 to Node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 ConvertVectorToNode(Vector2 delta, Node reference)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="System.Numerics.Vector2.html">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>reference</code> <a class="xref" href="Fantas.Node.html">Node</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="System.Numerics.Vector2.html">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Fantas_Node_ConvertVectorToScene_" data-uid="Fantas.Node.ConvertVectorToScene*"></a>
+
+  <h3 id="Fantas_Node_ConvertVectorToScene_System_Numerics_Vector2_" data-uid="Fantas.Node.ConvertVectorToScene(System.Numerics.Vector2)">
+  ConvertVectorToScene(Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Convert Vector2 to Scene</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 ConvertVectorToScene(Vector2 delta)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>delta</code> <a class="xref" href="System.Numerics.Vector2.html">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="System.Numerics.Vector2.html">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Fantas_Node_Copy_" data-uid="Fantas.Node.Copy*"></a>
 
   <h3 id="Fantas_Node_Copy" data-uid="Fantas.Node.Copy">
   Copy()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Copy this node</p>
@@ -1701,7 +2104,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_GetAnimationForKey_System_String_" data-uid="Fantas.Node.GetAnimationForKey(System.String)">
   GetAnimationForKey(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get the animation for the key</p>
@@ -1740,7 +2143,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_GetChildNode_System_String_" data-uid="Fantas.Node.GetChildNode(System.String)">
   GetChildNode(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Search a child node with the given name</p>
@@ -1779,7 +2182,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_GetNodeAtPoint_System_Drawing_PointF_" data-uid="Fantas.Node.GetNodeAtPoint(System.Drawing.PointF)">
   GetNodeAtPoint(PointF)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get the top visible node from the point</p>
@@ -1817,7 +2220,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_GetNodesAtPoint_System_Drawing_PointF_" data-uid="Fantas.Node.GetNodesAtPoint(System.Drawing.PointF)">
   GetNodesAtPoint(PointF)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get the list of visible nodes at the point</p>
@@ -1856,7 +2259,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_HasAnimationKey_System_String_" data-uid="Fantas.Node.HasAnimationKey(System.String)">
   HasAnimationKey(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Check wheter the node has an animation with the given key</p>
@@ -1893,7 +2296,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_InParentHierarchy_Fantas_Node_" data-uid="Fantas.Node.InParentHierarchy(Fantas.Node)">
   InParentHierarchy(Node)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Check if the node is in the hierarchy under other node</p>
@@ -1930,7 +2333,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_InsertChild_System_Int32_Fantas_Node_" data-uid="Fantas.Node.InsertChild(System.Int32,Fantas.Node)">
   InsertChild(int, Node)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Insert a child into the index position</p>
@@ -1966,7 +2369,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_IntersectsNode_Fantas_Node_" data-uid="Fantas.Node.IntersectsNode(Fantas.Node)">
   IntersectsNode(Node)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Check if one node overlaps with the other</p>
@@ -2005,7 +2408,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_LookAt_System_Drawing_PointF_" data-uid="Fantas.Node.LookAt(System.Drawing.PointF)">
   LookAt(PointF)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Rotate node facing target point</p>
@@ -2037,7 +2440,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_MoveToParent_Fantas_Node_" data-uid="Fantas.Node.MoveToParent(Fantas.Node)">
   MoveToParent(Node)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Change node parent</p>
@@ -2069,7 +2472,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_Offset_System_Numerics_Vector2_" data-uid="Fantas.Node.Offset(System.Numerics.Vector2)">
   Offset(Vector2)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Offset node to a new position</p>
@@ -2082,7 +2485,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dt><code>delta</code> <a class="xref" href="System.Numerics.Vector2.html">Vector2</a></dt>
     <dd></dd>
   </dl>
 
@@ -2101,7 +2504,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_Offset_System_Single_System_Single_" data-uid="Fantas.Node.Offset(System.Single,System.Single)">
   Offset(float, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Offset node to a new position</p>
@@ -2137,7 +2540,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_OffsetX_System_Single_" data-uid="Fantas.Node.OffsetX(System.Single)">
   OffsetX(float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Offset node horizontally</p>
@@ -2169,7 +2572,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_OffsetY_System_Single_" data-uid="Fantas.Node.OffsetY(System.Single)">
   OffsetY(float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Offset node vertically</p>
@@ -2201,7 +2604,7 @@ because System.Drawing.Rectangle assumes Top is always lower than Bottom
 
   <h3 id="Fantas_Node_OnClick_Fantas_Input_MouseEventArgs_" data-uid="Fantas.Node.OnClick(Fantas.Input.MouseEventArgs)">
   OnClick(MouseEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when mouse left button clicked within the children node
@@ -2236,7 +2639,7 @@ Don't override from Scene, use OnMouseButtonDown instead</p>
 
   <h3 id="Fantas_Node_OnDoubleClick_Fantas_Input_MouseEventArgs_" data-uid="Fantas.Node.OnDoubleClick(Fantas.Input.MouseEventArgs)">
   OnDoubleClick(MouseEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when mouse left button double-clicked within the children node
@@ -2269,7 +2672,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_OnDoubleTap_Fantas_Input_TapEventArgs_" data-uid="Fantas.Node.OnDoubleTap(Fantas.Input.TapEventArgs)">
   OnDoubleTap(TapEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when double tap within the children node
@@ -2302,7 +2705,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_OnLongPress_Fantas_Input_TapEventArgs_" data-uid="Fantas.Node.OnLongPress(Fantas.Input.TapEventArgs)">
   OnLongPress(TapEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when tap and hold (long press) the children node
@@ -2335,7 +2738,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_OnMouseDown_Fantas_Input_MouseEventArgs_" data-uid="Fantas.Node.OnMouseDown(Fantas.Input.MouseEventArgs)">
   OnMouseDown(MouseEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when mouse left button is pressed over the children node
@@ -2368,7 +2771,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_OnMouseEnter" data-uid="Fantas.Node.OnMouseEnter">
   OnMouseEnter()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when mouse enter children node frame
@@ -2393,40 +2796,11 @@ This event wont be triggered for Scene, only for children nodes</p>
 
 
 
-  <a id="Fantas_Node_OnMouseHover_" data-uid="Fantas.Node.OnMouseHover*"></a>
-
-  <h3 id="Fantas_Node_OnMouseHover" data-uid="Fantas.Node.OnMouseHover">
-  OnMouseHover()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Called when mouse move over children node
-call back contains the node clicked and the point (scene coordinates)
-This event wont be triggered for Scene, only for children nodes</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void OnMouseHover()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
   <a id="Fantas_Node_OnMouseLeave_" data-uid="Fantas.Node.OnMouseLeave*"></a>
 
   <h3 id="Fantas_Node_OnMouseLeave" data-uid="Fantas.Node.OnMouseLeave">
   OnMouseLeave()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when mouse leave node
@@ -2451,11 +2825,45 @@ This event wont be triggered for Scene, only for children nodes</p>
 
 
 
+  <a id="Fantas_Node_OnMouseMove_" data-uid="Fantas.Node.OnMouseMove*"></a>
+
+  <h3 id="Fantas_Node_OnMouseMove_Fantas_Input_MouseEventArgs_" data-uid="Fantas.Node.OnMouseMove(Fantas.Input.MouseEventArgs)">
+  OnMouseMove(MouseEventArgs)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when mouse move over children node
+call back contains the node clicked and the point (scene coordinates)
+This event wont be triggered for Scene, only for children nodes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnMouseMove(MouseEventArgs args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>args</code> <a class="xref" href="Fantas.Input.MouseEventArgs.html">MouseEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="Fantas_Node_OnMouseUp_" data-uid="Fantas.Node.OnMouseUp*"></a>
 
   <h3 id="Fantas_Node_OnMouseUp_Fantas_Input_MouseEventArgs_" data-uid="Fantas.Node.OnMouseUp(Fantas.Input.MouseEventArgs)">
   OnMouseUp(MouseEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when mouse left button is released over the children node
@@ -2488,7 +2896,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_OnMouseWheel_Fantas_Input_MouseEventArgs_" data-uid="Fantas.Node.OnMouseWheel(Fantas.Input.MouseEventArgs)">
   OnMouseWheel(MouseEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when mouse wheel is changed over the children node
@@ -2521,7 +2929,7 @@ call back contains the node the mouse cursor is current over</p>
 
   <h3 id="Fantas_Node_OnPan_Fantas_Input_PanEventArgs_" data-uid="Fantas.Node.OnPan(Fantas.Input.PanEventArgs)">
   OnPan(PanEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when pan move
@@ -2554,7 +2962,7 @@ call back pan start location (scene coordinates)</p>
 
   <h3 id="Fantas_Node_OnPanComplete_Fantas_Input_PanEventArgs_" data-uid="Fantas.Node.OnPanComplete(Fantas.Input.PanEventArgs)">
   OnPanComplete(PanEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when pan completes
@@ -2587,7 +2995,7 @@ call back pan completes location (scene coordinates)</p>
 
   <h3 id="Fantas_Node_OnPanStart_Fantas_Input_PanEventArgs_" data-uid="Fantas.Node.OnPanStart(Fantas.Input.PanEventArgs)">
   OnPanStart(PanEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when pan start in a children node
@@ -2620,7 +3028,7 @@ call back pan start location (scene coordinates)</p>
 
   <h3 id="Fantas_Node_OnTap_Fantas_Input_TapEventArgs_" data-uid="Fantas.Node.OnTap(Fantas.Input.TapEventArgs)">
   OnTap(TapEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when tap within the children node
@@ -2653,7 +3061,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_OnTouchDownInside_Fantas_Input_TouchEventArgs_" data-uid="Fantas.Node.OnTouchDownInside(Fantas.Input.TouchEventArgs)">
   OnTouchDownInside(TouchEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when user start a touch within the Node bounds</p>
@@ -2685,7 +3093,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_OnTouchDragEnter_Fantas_Input_TouchEventArgs_" data-uid="Fantas.Node.OnTouchDragEnter(Fantas.Input.TouchEventArgs)">
   OnTouchDragEnter(TouchEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when touch is dragged inside back of node frame</p>
@@ -2717,7 +3125,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_OnTouchDragExit_Fantas_Input_TouchEventArgs_" data-uid="Fantas.Node.OnTouchDragExit(Fantas.Input.TouchEventArgs)">
   OnTouchDragExit(TouchEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when touch is dragged outside of node frame</p>
@@ -2749,7 +3157,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_OnTouchDragInside_Fantas_Input_TouchEventArgs_" data-uid="Fantas.Node.OnTouchDragInside(Fantas.Input.TouchEventArgs)">
   OnTouchDragInside(TouchEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when touch is dragged within the Node frame</p>
@@ -2781,7 +3189,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_OnTouchDragOutside_Fantas_Input_TouchEventArgs_" data-uid="Fantas.Node.OnTouchDragOutside(Fantas.Input.TouchEventArgs)">
   OnTouchDragOutside(TouchEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when touch is dragged outside the Node frame (after it start a TouchUpInside operation)</p>
@@ -2813,7 +3221,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_OnTouchUpInside_Fantas_Input_TouchEventArgs_" data-uid="Fantas.Node.OnTouchUpInside(Fantas.Input.TouchEventArgs)">
   OnTouchUpInside(TouchEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on touch up within the Node frame</p>
@@ -2845,7 +3253,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_OnTouchUpOutside_Fantas_Input_TouchEventArgs_" data-uid="Fantas.Node.OnTouchUpOutside(Fantas.Input.TouchEventArgs)">
   OnTouchUpOutside(TouchEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on touch up outside the Node frame</p>
@@ -2873,11 +3281,39 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
 
 
+  <a id="Fantas_Node_ReleaseMouseCapture_" data-uid="Fantas.Node.ReleaseMouseCapture*"></a>
+
+  <h3 id="Fantas_Node_ReleaseMouseCapture" data-uid="Fantas.Node.ReleaseMouseCapture">
+  ReleaseMouseCapture()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Release mouse capture from this node
+no-op when node hasn't capture anymore</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReleaseMouseCapture()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="Fantas_Node_RemoveAllAnimations_" data-uid="Fantas.Node.RemoveAllAnimations*"></a>
 
   <h3 id="Fantas_Node_RemoveAllAnimations" data-uid="Fantas.Node.RemoveAllAnimations">
   RemoveAllAnimations()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Remove all animations from node</p>
@@ -2904,7 +3340,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_RemoveAllChildren" data-uid="Fantas.Node.RemoveAllChildren">
   RemoveAllChildren()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Remove all children from node</p>
@@ -2931,7 +3367,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_RemoveAnimationForKey_System_String_" data-uid="Fantas.Node.RemoveAnimationForKey(System.String)">
   RemoveAnimationForKey(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Remove all animations with the given key</p>
@@ -2964,7 +3400,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_RemoveChild_Fantas_Node_" data-uid="Fantas.Node.RemoveChild(Fantas.Node)">
   RemoveChild(Node)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Remove a single child from node</p>
@@ -2996,7 +3432,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_RemoveChildren_Fantas_Node___" data-uid="Fantas.Node.RemoveChildren(Fantas.Node[])">
   RemoveChildren(Node[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Remove a list of children from this node</p>
@@ -3028,7 +3464,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_RemoveFromParent" data-uid="Fantas.Node.RemoveFromParent">
   RemoveFromParent()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Remove node from parent</p>
@@ -3055,7 +3491,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_RenderToTexture" data-uid="Fantas.Node.RenderToTexture">
   RenderToTexture()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Render node to a Texture</p>
@@ -3088,7 +3524,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_RunAnimation_Fantas_Animation_" data-uid="Fantas.Node.RunAnimation(Fantas.Animation)">
   RunAnimation(Animation)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Adds an animation to the list of actions executed by the node.</p>
@@ -3121,7 +3557,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_RunAnimation_Fantas_Animation_System_Action_" data-uid="Fantas.Node.RunAnimation(Fantas.Animation,System.Action)">
   RunAnimation(Animation, Action)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Adds an animation to the list of actions executed by the node.
@@ -3157,7 +3593,7 @@ And runs the completion handler when the animation is done</p>
 
   <h3 id="Fantas_Node_RunAnimation_Fantas_Animation_System_String_" data-uid="Fantas.Node.RunAnimation(Fantas.Animation,System.String)">
   RunAnimation(Animation, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Adds an animation (with a key) to the list of actions executed by the node,</p>
@@ -3192,7 +3628,7 @@ And runs the completion handler when the animation is done</p>
 
   <h3 id="Fantas_Node_RunAnimationAsync_Fantas_Animation_" data-uid="Fantas.Node.RunAnimationAsync(Fantas.Animation)">
   RunAnimationAsync(Animation)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Create a task to add a animation to the node</p>
@@ -3230,7 +3666,7 @@ And runs the completion handler when the animation is done</p>
 
   <h3 id="Fantas_Node_SendBackward" data-uid="Fantas.Node.SendBackward">
   SendBackward()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Move node backward inside parent children</p>
@@ -3257,7 +3693,7 @@ And runs the completion handler when the animation is done</p>
 
   <h3 id="Fantas_Node_SendToBack" data-uid="Fantas.Node.SendToBack">
   SendToBack()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Move node to the back inside parent children</p>
@@ -3280,11 +3716,40 @@ And runs the completion handler when the animation is done</p>
 
 
 
+  <a id="Fantas_Node_SetMouseCapture_" data-uid="Fantas.Node.SetMouseCapture*"></a>
+
+  <h3 id="Fantas_Node_SetMouseCapture" data-uid="Fantas.Node.SetMouseCapture">
+  SetMouseCapture()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Capture mouse events for this node.
+This node will receive MouseMove events until the mouse is
+released or ReleaseMouseCapture is called</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetMouseCapture()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="Fantas_Node_SetScale_" data-uid="Fantas.Node.SetScale*"></a>
 
   <h3 id="Fantas_Node_SetScale_System_Numerics_Vector2_" data-uid="Fantas.Node.SetScale(System.Numerics.Vector2)">
   SetScale(Vector2)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -3296,7 +3761,7 @@ And runs the completion handler when the animation is done</p>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>scale</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.vector2">Vector2</a></dt>
+    <dt><code>scale</code> <a class="xref" href="System.Numerics.Vector2.html">Vector2</a></dt>
     <dd></dd>
   </dl>
 
@@ -3315,7 +3780,7 @@ And runs the completion handler when the animation is done</p>
 
   <h3 id="Fantas_Node_SetScale_System_Single_" data-uid="Fantas.Node.SetScale(System.Single)">
   SetScale(float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Set X/Y scale</p>
@@ -3348,7 +3813,7 @@ And runs the completion handler when the animation is done</p>
 
   <h3 id="Fantas_Node_ToString" data-uid="Fantas.Node.ToString">
   ToString()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Display node as string</p>
@@ -3384,7 +3849,7 @@ And runs the completion handler when the animation is done</p>
 
   <h3 id="Fantas_Node_Click" data-uid="Fantas.Node.Click">
   Click
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when mouse left button clicked within the children node
@@ -3417,7 +3882,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_DoubleClick" data-uid="Fantas.Node.DoubleClick">
   DoubleClick
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when mouse left button double-clicked within the children node
@@ -3449,7 +3914,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_DoubleTap" data-uid="Fantas.Node.DoubleTap">
   DoubleTap
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when node frame is double tapped
@@ -3481,7 +3946,7 @@ call back contains the node tapped and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_LongPress" data-uid="Fantas.Node.LongPress">
   LongPress
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when node frame is pressed and hold (long press)
@@ -3513,7 +3978,7 @@ call back contains the node tapped and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_MouseDown" data-uid="Fantas.Node.MouseDown">
   MouseDown
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when mouse left button is pressed over the children node
@@ -3545,7 +4010,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_MouseEnter" data-uid="Fantas.Node.MouseEnter">
   MouseEnter
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when mouse enter children node frame
@@ -3575,41 +4040,9 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
 
 
-  <h3 id="Fantas_Node_MouseHover" data-uid="Fantas.Node.MouseHover">
-  MouseHover
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Called when mouse move over children node
-call back contains the node clicked and the point (scene coordinates)</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event EventHandler MouseHover</code></pre>
-  </div>
-
-
-
-
-
-
-  <h4 class="section">Event Type</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <h3 id="Fantas_Node_MouseLeave" data-uid="Fantas.Node.MouseLeave">
   MouseLeave
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when mouse leave node
@@ -3639,9 +4072,41 @@ call back contains the children node clicked and the point (scene coordinates)</
 
 
 
+  <h3 id="Fantas_Node_MouseMove" data-uid="Fantas.Node.MouseMove">
+  MouseMove
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when mouse move over children node
+call back contains the node clicked and the point (scene coordinates)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;MouseEventArgs&gt; MouseMove</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="Fantas.Input.MouseEventArgs.html">MouseEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h3 id="Fantas_Node_MouseUp" data-uid="Fantas.Node.MouseUp">
   MouseUp
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when mouse left button is released over the children node
@@ -3673,7 +4138,7 @@ call back contains the node clicked and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_MouseWheel" data-uid="Fantas.Node.MouseWheel">
   MouseWheel
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when mouse wheel is changed over the children node
@@ -3705,7 +4170,7 @@ call back contains the node the mouse cursor is current over</p>
 
   <h3 id="Fantas_Node_Pan" data-uid="Fantas.Node.Pan">
   Pan
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when pan move happens
@@ -3737,7 +4202,7 @@ call back contains the node pan and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_PanComplete" data-uid="Fantas.Node.PanComplete">
   PanComplete
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when pan gesture ends
@@ -3769,7 +4234,7 @@ call back contains the node pan and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_PanStart" data-uid="Fantas.Node.PanStart">
   PanStart
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when pan gesture start over node
@@ -3801,7 +4266,7 @@ call back contains the node pan and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_Tap" data-uid="Fantas.Node.Tap">
   Tap
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when node frame is tapped
@@ -3833,7 +4298,7 @@ call back contains the node tapped and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_TouchDownInside" data-uid="Fantas.Node.TouchDownInside">
   TouchDownInside
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when touch event starts within the Node frame</p>
@@ -3864,7 +4329,7 @@ call back contains the node tapped and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_TouchDragEnter" data-uid="Fantas.Node.TouchDragEnter">
   TouchDragEnter
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when touch is dragged inside back of node frame</p>
@@ -3895,7 +4360,7 @@ call back contains the node tapped and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_TouchDragExit" data-uid="Fantas.Node.TouchDragExit">
   TouchDragExit
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when touch is dragged outside of node frame</p>
@@ -3926,7 +4391,7 @@ call back contains the node tapped and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_TouchDragInside" data-uid="Fantas.Node.TouchDragInside">
   TouchDragInside
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when touch is dragged within the Node frame</p>
@@ -3957,7 +4422,7 @@ call back contains the node tapped and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_TouchDragOutside" data-uid="Fantas.Node.TouchDragOutside">
   TouchDragOutside
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when touch is dragged outside the Node frame (after it start a TouchUpInside operation)</p>
@@ -3988,7 +4453,7 @@ call back contains the node tapped and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_TouchUpInside" data-uid="Fantas.Node.TouchUpInside">
   TouchUpInside
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on touch up within the Node frame</p>
@@ -4019,7 +4484,7 @@ call back contains the node tapped and the point (scene coordinates)</p>
 
   <h3 id="Fantas_Node_TouchUpOutside" data-uid="Fantas.Node.TouchUpOutside">
   TouchUpOutside
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called on touch up outside the Node frame</p>
@@ -4051,7 +4516,7 @@ call back contains the node tapped and the point (scene coordinates)</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Nodes/Node.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Nodes/Node.cs" class="edit-link">Edit this page</a>
         </div>
 
 

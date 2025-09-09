@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fantas.Resource
+  commentId: T:Fantas.Resource
+  id: Resource
+  parent: Fantas
+  children:
+  - Fantas.Resource.#ctor
+  langs:
+  - csharp
+  - vb
+  name: Resource
+  nameWithType: Resource
+  fullName: Fantas.Resource
+  type: Class
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/build/MonoGame/net10.0-android/obj/Release/net10.0-android/__Microsoft.Android.Resource.Designer.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  summary: >-
+    Android Resource Designer class.
+
+    Exposes the Android Resource designer assembly into the project Namespace.
+  example: []
+  syntax:
+    content: 'public class Resource : Resource'
+    content.vb: Public Class Resource Inherits Resource
+  inheritance:
+  - System.Object
+- uid: Fantas.Resource.#ctor
+  commentId: M:Fantas.Resource.#ctor
+  id: '#ctor'
+  parent: Fantas.Resource
+  langs:
+  - csharp
+  - vb
+  name: Resource()
+  nameWithType: Resource.Resource()
+  fullName: Fantas.Resource.Resource()
+  type: Constructor
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/build/MonoGame/net10.0-android/obj/Release/net10.0-android/__Microsoft.Android.Resource.Designer.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  syntax:
+    content: public Resource()
+    content.vb: Public Sub New()
+  overload: Fantas.Resource.#ctor*
+  nameWithType.vb: Resource.New()
+  fullName.vb: Fantas.Resource.New()
+  name.vb: New()
+references:
+- uid: Fantas
+  commentId: N:Fantas
+  isExternal: true
+  href: Fantas.html
+  name: Fantas
+  nameWithType: Fantas
+  fullName: Fantas
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.Resource.#ctor*
+  commentId: Overload:Fantas.Resource.#ctor
+  isExternal: true
+  href: Fantas.Resource.html#Fantas_Resource__ctor
+  name: Resource
+  nameWithType: Resource.Resource
+  fullName: Fantas.Resource.Resource
+  nameWithType.vb: Resource.New
+  fullName.vb: Fantas.Resource.New
+  name.vb: New

@@ -9,23 +9,47 @@ items:
   - Fantas.TileDefinitionRotation.Rotation180
   - Fantas.TileDefinitionRotation.Rotation270
   - Fantas.TileDefinitionRotation.Rotation90
+  - Fantas.TileDefinitionRotation.value__
   langs:
   - csharp
   - vb
   name: TileDefinitionRotation
   nameWithType: TileDefinitionRotation
   fullName: Fantas.TileDefinitionRotation
-  type: Enum
+  type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileDefinitionRotation.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileDefinitionRotation.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Tile rotation types
   example: []
   syntax:
-    content: public enum TileDefinitionRotation
-    content.vb: Public Enum TileDefinitionRotation
+    content: 'public sealed class TileDefinitionRotation : Enum'
+    content.vb: Public NotInheritable Class TileDefinitionRotation Inherits Enum
+  inheritance:
+  - System.Object
+- uid: Fantas.TileDefinitionRotation.value__
+  commentId: F:Fantas.TileDefinitionRotation.value__
+  id: value__
+  parent: Fantas.TileDefinitionRotation
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TileDefinitionRotation.value__
+  fullName: Fantas.TileDefinitionRotation.value__
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileDefinitionRotation.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
 - uid: Fantas.TileDefinitionRotation.Rotation0
   commentId: F:Fantas.TileDefinitionRotation.Rotation0
   id: Rotation0
@@ -38,16 +62,17 @@ items:
   fullName: Fantas.TileDefinitionRotation.Rotation0
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileDefinitionRotation.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileDefinitionRotation.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: ''
   example: []
   syntax:
-    content: Rotation0 = 0
+    content: public const TileDefinitionRotation Rotation0 = 0
     return:
       type: Fantas.TileDefinitionRotation
+    content.vb: Public Const Rotation0 As TileDefinitionRotation = 0
 - uid: Fantas.TileDefinitionRotation.Rotation90
   commentId: F:Fantas.TileDefinitionRotation.Rotation90
   id: Rotation90
@@ -60,16 +85,17 @@ items:
   fullName: Fantas.TileDefinitionRotation.Rotation90
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileDefinitionRotation.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileDefinitionRotation.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: ''
   example: []
   syntax:
-    content: Rotation90 = 1
+    content: public const TileDefinitionRotation Rotation90 = 1
     return:
       type: Fantas.TileDefinitionRotation
+    content.vb: Public Const Rotation90 As TileDefinitionRotation = 1
 - uid: Fantas.TileDefinitionRotation.Rotation180
   commentId: F:Fantas.TileDefinitionRotation.Rotation180
   id: Rotation180
@@ -82,16 +108,17 @@ items:
   fullName: Fantas.TileDefinitionRotation.Rotation180
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileDefinitionRotation.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileDefinitionRotation.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: ''
   example: []
   syntax:
-    content: Rotation180 = 2
+    content: public const TileDefinitionRotation Rotation180 = 2
     return:
       type: Fantas.TileDefinitionRotation
+    content.vb: Public Const Rotation180 As TileDefinitionRotation = 2
 - uid: Fantas.TileDefinitionRotation.Rotation270
   commentId: F:Fantas.TileDefinitionRotation.Rotation270
   id: Rotation270
@@ -104,16 +131,17 @@ items:
   fullName: Fantas.TileDefinitionRotation.Rotation270
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Tiles/TileDefinitionRotation.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Tiles/TileDefinitionRotation.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: ''
   example: []
   syntax:
-    content: Rotation270 = 3
+    content: public const TileDefinitionRotation Rotation270 = 3
     return:
       type: Fantas.TileDefinitionRotation
+    content.vb: Public Const Rotation270 As TileDefinitionRotation = 3
 references:
 - uid: Fantas
   commentId: N:Fantas
@@ -122,6 +150,35 @@ references:
   name: Fantas
   nameWithType: Fantas
   fullName: Fantas
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Fantas.TileDefinitionRotation
   commentId: T:Fantas.TileDefinitionRotation
   parent: Fantas

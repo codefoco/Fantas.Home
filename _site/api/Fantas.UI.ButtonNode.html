@@ -89,7 +89,7 @@
 
 
   <h1 id="Fantas_UI_ButtonNode" data-uid="Fantas.UI.ButtonNode" class="text-break">
-Class ButtonNode  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+Class ButtonNode  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -146,6 +146,9 @@ Class ButtonNode  <a class="header-action link-secondary" title="View source" hr
       <a class="xref" href="Fantas.UI.ControlNode.html#Fantas_UI_ControlNode_OnTouchDragExit_Fantas_Input_TouchEventArgs_">ControlNode.OnTouchDragExit(TouchEventArgs)</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.UI.ControlNode.html#Fantas_UI_ControlNode_UpdateState">ControlNode.UpdateState()</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.UI.ControlNode.html#Fantas_UI_ControlNode_Enabled">ControlNode.Enabled</a>
     </div>
     <div>
@@ -174,6 +177,9 @@ Class ButtonNode  <a class="header-action link-secondary" title="View source" hr
     </div>
     <div>
       <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_ExpandHeight_System_Single_">SpriteNode.ExpandHeight(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_ExpandBottomRightTo_System_Drawing_PointF_">SpriteNode.ExpandBottomRightTo(PointF)</a>
     </div>
     <div>
       <a class="xref" href="Fantas.SpriteNode.html#Fantas_SpriteNode_BlendMode">SpriteNode.BlendMode</a>
@@ -308,6 +314,9 @@ Class ButtonNode  <a class="header-action link-secondary" title="View source" hr
       <a class="xref" href="Fantas.Node.html#Fantas_Node_ContainsPoint_System_Drawing_PointF_">Node.ContainsPoint(PointF)</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ContainsScenePoint_System_Drawing_PointF_">Node.ContainsScenePoint(PointF)</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_GetNodeAtPoint_System_Drawing_PointF_">Node.GetNodeAtPoint(PointF)</a>
     </div>
     <div>
@@ -326,6 +335,24 @@ Class ButtonNode  <a class="header-action link-secondary" title="View source" hr
       <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertPointToNode_System_Drawing_PointF_Fantas_Node_">Node.ConvertPointToNode(PointF, Node)</a>
     </div>
     <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertPointToScene_System_Drawing_PointF_">Node.ConvertPointToScene(PointF)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertPointFromScene_System_Drawing_PointF_">Node.ConvertPointFromScene(PointF)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertVectorFromNode_System_Numerics_Vector2_Fantas_Node_">Node.ConvertVectorFromNode(Vector2, Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertVectorToNode_System_Numerics_Vector2_Fantas_Node_">Node.ConvertVectorToNode(Vector2, Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertVectorFromScene_System_Numerics_Vector2_">Node.ConvertVectorFromScene(Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ConvertVectorToScene_System_Numerics_Vector2_">Node.ConvertVectorToScene(Vector2)</a>
+    </div>
+    <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_BringForward">Node.BringForward()</a>
     </div>
     <div>
@@ -336,6 +363,12 @@ Class ButtonNode  <a class="header-action link-secondary" title="View source" hr
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_SendToBack">Node.SendToBack()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_SetMouseCapture">Node.SetMouseCapture()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_ReleaseMouseCapture">Node.ReleaseMouseCapture()</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnTap_Fantas_Input_TapEventArgs_">Node.OnTap(TapEventArgs)</a>
@@ -371,7 +404,7 @@ Class ButtonNode  <a class="header-action link-secondary" title="View source" hr
       <a class="xref" href="Fantas.Node.html#Fantas_Node_OnDoubleClick_Fantas_Input_MouseEventArgs_">Node.OnDoubleClick(MouseEventArgs)</a>
     </div>
     <div>
-      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnMouseHover">Node.OnMouseHover()</a>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_OnMouseMove_Fantas_Input_MouseEventArgs_">Node.OnMouseMove(MouseEventArgs)</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_Name">Node.Name</a>
@@ -405,6 +438,18 @@ Class ButtonNode  <a class="header-action link-secondary" title="View source" hr
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_Top">Node.Top</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_TopLeft">Node.TopLeft</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_TopRight">Node.TopRight</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_BottomLeft">Node.BottomLeft</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_BottomRight">Node.BottomRight</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_Bottom">Node.Bottom</a>
@@ -465,6 +510,9 @@ Class ButtonNode  <a class="header-action link-secondary" title="View source" hr
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_CanSendBackward">Node.CanSendBackward</a>
+    </div>
+    <div>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_HasMouseCaputure">Node.HasMouseCaputure</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_IsMouseOver">Node.IsMouseOver</a>
@@ -536,28 +584,10 @@ Class ButtonNode  <a class="header-action link-secondary" title="View source" hr
       <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseEnter">Node.MouseEnter</a>
     </div>
     <div>
-      <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseHover">Node.MouseHover</a>
+      <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseMove">Node.MouseMove</a>
     </div>
     <div>
       <a class="xref" href="Fantas.Node.html#Fantas_Node_MouseLeave">Node.MouseLeave</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
   </dd></dl>
 
@@ -584,7 +614,7 @@ Class ButtonNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_UI_ButtonNode__ctor" data-uid="Fantas.UI.ButtonNode.#ctor">
   ButtonNode()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Construct ButtonNode</p>
@@ -611,75 +641,11 @@ Class ButtonNode  <a class="header-action link-secondary" title="View source" hr
 </h2>
 
 
-  <a id="Fantas_UI_ButtonNode_DisabledTexture_" data-uid="Fantas.UI.ButtonNode.DisabledTexture*"></a>
-
-  <h3 id="Fantas_UI_ButtonNode_DisabledTexture" data-uid="Fantas.UI.ButtonNode.DisabledTexture">
-  DisabledTexture
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Default Disabled ButtonNode texture</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Texture DisabledTexture { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="Fantas.Texture.html">Texture</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="Fantas_UI_ButtonNode_HoverTexture_" data-uid="Fantas.UI.ButtonNode.HoverTexture*"></a>
-
-  <h3 id="Fantas_UI_ButtonNode_HoverTexture" data-uid="Fantas.UI.ButtonNode.HoverTexture">
-  HoverTexture
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Default Hover ButtonNode texture</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Texture HoverTexture { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="Fantas.Texture.html">Texture</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="Fantas_UI_ButtonNode_LabelNode_" data-uid="Fantas.UI.ButtonNode.LabelNode*"></a>
 
   <h3 id="Fantas_UI_ButtonNode_LabelNode" data-uid="Fantas.UI.ButtonNode.LabelNode">
   LabelNode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Button Label</p>
@@ -707,75 +673,11 @@ Class ButtonNode  <a class="header-action link-secondary" title="View source" hr
 
 
 
-  <a id="Fantas_UI_ButtonNode_NormalTexture_" data-uid="Fantas.UI.ButtonNode.NormalTexture*"></a>
-
-  <h3 id="Fantas_UI_ButtonNode_NormalTexture" data-uid="Fantas.UI.ButtonNode.NormalTexture">
-  NormalTexture
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Default Normal ButtonNode texture</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Texture NormalTexture { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="Fantas.Texture.html">Texture</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="Fantas_UI_ButtonNode_PressedTexture_" data-uid="Fantas.UI.ButtonNode.PressedTexture*"></a>
-
-  <h3 id="Fantas_UI_ButtonNode_PressedTexture" data-uid="Fantas.UI.ButtonNode.PressedTexture">
-  PressedTexture
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Default Pressed ButtonNode texture</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Texture PressedTexture { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="Fantas.Texture.html">Texture</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="Fantas_UI_ButtonNode_Text_" data-uid="Fantas.UI.ButtonNode.Text*"></a>
 
   <h3 id="Fantas_UI_ButtonNode_Text" data-uid="Fantas.UI.ButtonNode.Text">
   Text
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Button text</p>
@@ -807,7 +709,7 @@ Class ButtonNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_UI_ButtonNode_TextColor" data-uid="Fantas.UI.ButtonNode.TextColor">
   TextColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Button text color</p>
@@ -843,7 +745,7 @@ Class ButtonNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_UI_ButtonNode_OnClick_Fantas_Input_MouseEventArgs_" data-uid="Fantas.UI.ButtonNode.OnClick(Fantas.Input.MouseEventArgs)">
   OnClick(MouseEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Node override to call Press</p>
@@ -875,7 +777,7 @@ Class ButtonNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_UI_ButtonNode_OnPressed" data-uid="Fantas.UI.ButtonNode.OnPressed">
   OnPressed()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when Button is pressed</p>
@@ -902,7 +804,7 @@ Class ButtonNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_UI_ButtonNode_OnStateChanged" data-uid="Fantas.UI.ButtonNode.OnStateChanged">
   OnStateChanged()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Update Button Texture on state change</p>
@@ -929,7 +831,7 @@ Class ButtonNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_UI_ButtonNode_OnTouchUpInside_Fantas_Input_TouchEventArgs_" data-uid="Fantas.UI.ButtonNode.OnTouchUpInside(Fantas.Input.TouchEventArgs)">
   OnTouchUpInside(TouchEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Node override to call Press</p>
@@ -961,7 +863,7 @@ Class ButtonNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_UI_ButtonNode_Press" data-uid="Fantas.UI.ButtonNode.Press">
   Press()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Trigger button pressed event</p>
@@ -991,7 +893,7 @@ Class ButtonNode  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="Fantas_UI_ButtonNode_Pressed" data-uid="Fantas.UI.ButtonNode.Pressed">
   Pressed
-  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ButtonNode.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Event called when Button is pressed</p>
@@ -1023,7 +925,7 @@ Class ButtonNode  <a class="header-action link-secondary" title="View source" hr
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/UI/ButtonNode.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/UI/ButtonNode.cs" class="edit-link">Edit this page</a>
         </div>
 
 

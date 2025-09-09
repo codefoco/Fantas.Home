@@ -15,9 +15,9 @@ items:
   name: ContactEvent
   nameWithType: ContactEvent
   fullName: Fantas.Physics.ContactEvent
-  type: Delegate
+  type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Contact/ContactEvent.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Contact/ContactEvent.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -27,12 +27,10 @@ items:
     The collisionInfo parameter contains information about the collision
   example: []
   syntax:
-    content: public delegate void ContactEvent(ContactInfo contactInfo)
-    parameters:
-    - id: contactInfo
-      type: Fantas.Physics.ContactInfo
-      description: ''
-    content.vb: Public Delegate Sub ContactEvent(contactInfo As ContactInfo)
+    content: 'public sealed class ContactEvent : MulticastDelegate'
+    content.vb: Public NotInheritable Class ContactEvent Inherits MulticastDelegate
+  inheritance:
+  - System.Object
 - uid: Fantas.Physics.ContactEvent.#ctor(System.Object,System.IntPtr)
   commentId: M:Fantas.Physics.ContactEvent.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -45,7 +43,7 @@ items:
   fullName: Fantas.Physics.ContactEvent.ContactEvent(object, nint)
   type: Constructor
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Contact/ContactEvent.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Contact/ContactEvent.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -73,7 +71,7 @@ items:
   fullName: Fantas.Physics.ContactEvent.Invoke(Fantas.Physics.ContactInfo)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Contact/ContactEvent.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Contact/ContactEvent.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -96,7 +94,7 @@ items:
   fullName: Fantas.Physics.ContactEvent.BeginInvoke(Fantas.Physics.ContactInfo, System.AsyncCallback, object)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Contact/ContactEvent.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Contact/ContactEvent.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -128,7 +126,7 @@ items:
   fullName: Fantas.Physics.ContactEvent.EndInvoke(System.IAsyncResult)
   type: Method
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Physics/Contact/ContactEvent.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Physics/Contact/ContactEvent.cs
   assemblies:
   - Fantas
   namespace: Fantas.Physics
@@ -167,24 +165,6 @@ references:
     name: Physics
     isExternal: true
     href: Fantas.Physics.html
-- uid: Fantas.Physics.ContactInfo
-  commentId: T:Fantas.Physics.ContactInfo
-  parent: Fantas.Physics
-  isExternal: true
-  href: Fantas.Physics.ContactInfo.html
-  name: ContactInfo
-  nameWithType: ContactInfo
-  fullName: Fantas.Physics.ContactInfo
-- uid: Fantas.Physics.ContactEvent.#ctor*
-  commentId: Overload:Fantas.Physics.ContactEvent.#ctor
-  isExternal: true
-  href: Fantas.Physics.ContactEvent.html#Fantas_Physics_ContactEvent__ctor_System_Object_System_IntPtr_
-  name: ContactEvent
-  nameWithType: ContactEvent.ContactEvent
-  fullName: Fantas.Physics.ContactEvent.ContactEvent
-  nameWithType.vb: ContactEvent.New
-  fullName.vb: Fantas.Physics.ContactEvent.New
-  name.vb: New
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -196,6 +176,23 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fantas.Physics.ContactEvent.#ctor*
+  commentId: Overload:Fantas.Physics.ContactEvent.#ctor
+  isExternal: true
+  href: Fantas.Physics.ContactEvent.html#Fantas_Physics_ContactEvent__ctor_System_Object_System_IntPtr_
+  name: ContactEvent
+  nameWithType: ContactEvent.ContactEvent
+  fullName: Fantas.Physics.ContactEvent.ContactEvent
+  nameWithType.vb: ContactEvent.New
+  fullName.vb: Fantas.Physics.ContactEvent.New
+  name.vb: New
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
@@ -207,13 +204,6 @@ references:
   nameWithType.vb: IntPtr
   fullName.vb: System.IntPtr
   name.vb: IntPtr
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: Fantas.Physics.ContactEvent.Invoke*
   commentId: Overload:Fantas.Physics.ContactEvent.Invoke
   isExternal: true
@@ -221,6 +211,14 @@ references:
   name: Invoke
   nameWithType: ContactEvent.Invoke
   fullName: Fantas.Physics.ContactEvent.Invoke
+- uid: Fantas.Physics.ContactInfo
+  commentId: T:Fantas.Physics.ContactInfo
+  parent: Fantas.Physics
+  isExternal: true
+  href: Fantas.Physics.ContactInfo.html
+  name: ContactInfo
+  nameWithType: ContactInfo
+  fullName: Fantas.Physics.ContactInfo
 - uid: Fantas.Physics.ContactEvent.BeginInvoke*
   commentId: Overload:Fantas.Physics.ContactEvent.BeginInvoke
   isExternal: true

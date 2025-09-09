@@ -38,7 +38,11 @@
           "relative_path": "api/Fantas.Animation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Animation",
+      "Summary": "<p sourcefile=\"api/Fantas.Animation.yml\" sourcestartlinenumber=\"1\">Animation class (Move, Scale, Rotate, Fade...)</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -48,7 +52,11 @@
           "relative_path": "api/Fantas.AnimationTimingFunction.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.AnimationTimingFunction",
+      "Summary": "<p sourcefile=\"api/Fantas.AnimationTimingFunction.yml\" sourcestartlinenumber=\"1\">Delegate used to customize timing function</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -58,7 +66,25 @@
           "relative_path": "api/Fantas.AnimationTimingMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.AnimationTimingMode",
+      "Summary": "<p sourcefile=\"api/Fantas.AnimationTimingMode.yml\" sourcestartlinenumber=\"1\">Animation timing modes</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Array.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Array.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Array",
+      "Summary": "<p sourcefile=\"api/Fantas.Array.yml\" sourcestartlinenumber=\"1\">Internal Array class to help port to .NET 4</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -68,7 +94,11 @@
           "relative_path": "api/Fantas.Audio.AudioSession.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Audio.AudioSession",
+      "Summary": "<p sourcefile=\"api/Fantas.Audio.AudioSession.yml\" sourcestartlinenumber=\"1\">Audio session class have helpers to\nquery audio status in the system and\nset global values like MusicVolume</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -78,7 +108,11 @@
           "relative_path": "api/Fantas.Audio.Music.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Audio.Music",
+      "Summary": "<p sourcefile=\"api/Fantas.Audio.Music.yml\" sourcestartlinenumber=\"1\">Background music object\nRecommended formats:\nogg on linux\nm4a (H264/AAC) on Apple and Android\nwma on Windows/UWP\n(mp3 isn't recommended since it has licensing concerns)</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -88,7 +122,11 @@
           "relative_path": "api/Fantas.Audio.MusicPlayer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Audio.MusicPlayer",
+      "Summary": "<p sourcefile=\"api/Fantas.Audio.MusicPlayer.yml\" sourcestartlinenumber=\"1\">Controls background music</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -98,7 +136,11 @@
           "relative_path": "api/Fantas.Audio.SoundEffect.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Audio.SoundEffect",
+      "Summary": "<p sourcefile=\"api/Fantas.Audio.SoundEffect.yml\" sourcestartlinenumber=\"1\">Sound Effect is a short sound, like a click or explosion\nRecommended format:\nWAV or CAF (on Apple platforms)</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -108,7 +150,11 @@
           "relative_path": "api/Fantas.Audio.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Audio",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -118,7 +164,11 @@
           "relative_path": "api/Fantas.BlendMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.BlendMode",
+      "Summary": "<p sourcefile=\"api/Fantas.BlendMode.yml\" sourcestartlinenumber=\"1\">Blend modes operations</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -128,7 +178,11 @@
           "relative_path": "api/Fantas.CameraNode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.CameraNode",
+      "Summary": "<p sourcefile=\"api/Fantas.CameraNode.yml\" sourcestartlinenumber=\"1\">Control which part of the scene is visible in the viewport</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -138,7 +192,11 @@
           "relative_path": "api/Fantas.CircleNode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.CircleNode",
+      "Summary": "<p sourcefile=\"api/Fantas.CircleNode.yml\" sourcestartlinenumber=\"1\">Circle shape node</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -148,7 +206,11 @@
           "relative_path": "api/Fantas.ColorExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.ColorExtensions",
+      "Summary": "<p sourcefile=\"api/Fantas.ColorExtensions.yml\" sourcestartlinenumber=\"1\">Contains Color extensions</p>\n<p sourcefile=\"api/Fantas.ColorExtensions.yml\" sourcestartlinenumber=\"3\">Implementation code took from Allegro and Troll2D:\n<a href=\"https://github.com/liballeg/allegro5/blob/master/addons/color/color.c\" sourcefile=\"api/Fantas.ColorExtensions.yml\" sourcestartlinenumber=\"4\">https://github.com/liballeg/allegro5/blob/master/addons/color/color.c</a>\n<a href=\"https://github.com/viniciusjarina/troll2d/blob/master/include/troll/color.h\" sourcefile=\"api/Fantas.ColorExtensions.yml\" sourcestartlinenumber=\"5\">https://github.com/viniciusjarina/troll2d/blob/master/include/troll/color.h</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -158,7 +220,11 @@
           "relative_path": "api/Fantas.CropNode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.CropNode",
+      "Summary": "<p sourcefile=\"api/Fantas.CropNode.yml\" sourcestartlinenumber=\"1\">Node to Clip/Crop other nodes</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -168,7 +234,11 @@
           "relative_path": "api/Fantas.CurrentSystemPlatform.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.CurrentSystemPlatform",
+      "Summary": "<p sourcefile=\"api/Fantas.CurrentSystemPlatform.yml\" sourcestartlinenumber=\"1\">Current system platform information (Windows, MacOS.. )</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -178,7 +248,25 @@
           "relative_path": "api/Fantas.EllipseNode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.EllipseNode",
+      "Summary": "<p sourcefile=\"api/Fantas.EllipseNode.yml\" sourcestartlinenumber=\"1\">Ellipse shape node</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.FantasActivity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.FantasActivity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.FantasActivity",
+      "Summary": "<p sourcefile=\"api/Fantas.FantasActivity.yml\" sourcestartlinenumber=\"1\">Fantas Android Activity</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -188,7 +276,11 @@
           "relative_path": "api/Fantas.Font.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Font",
+      "Summary": "<p sourcefile=\"api/Fantas.Font.yml\" sourcestartlinenumber=\"1\">Font (TTF font on iOS/tvOS/macOS, and SpriteFont on other platforms)</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -198,7 +290,11 @@
           "relative_path": "api/Fantas.Game.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Game",
+      "Summary": "<p sourcefile=\"api/Fantas.Game.yml\" sourcestartlinenumber=\"1\">Main Game</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -208,7 +304,25 @@
           "relative_path": "api/Fantas.GameOptions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.GameOptions",
+      "Summary": "<p sourcefile=\"api/Fantas.GameOptions.yml\" sourcestartlinenumber=\"1\">Game Flags used on game creation object</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.InertiaAnimationBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.InertiaAnimationBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.InertiaAnimationBuilder",
+      "Summary": ""
     },
     {
       "type": "ManagedReference",
@@ -218,7 +332,11 @@
           "relative_path": "api/Fantas.Input.Controller.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.Controller",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.Controller.yml\" sourcestartlinenumber=\"1\">Controller represent one physical GamePad attached to the system</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -228,7 +346,11 @@
           "relative_path": "api/Fantas.Input.ControllerButtonEventArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.ControllerButtonEventArgs",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.ControllerButtonEventArgs.yml\" sourcestartlinenumber=\"1\">Event data when button is pressed/released</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -238,7 +360,11 @@
           "relative_path": "api/Fantas.Input.ControllerButtons.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.ControllerButtons",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.ControllerButtons.yml\" sourcestartlinenumber=\"1\">Defines the buttons on gamepad.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -248,7 +374,11 @@
           "relative_path": "api/Fantas.Input.ControllerChangedEventArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.ControllerChangedEventArgs",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.ControllerChangedEventArgs.yml\" sourcestartlinenumber=\"1\">Event data when a controller is added or removed</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -258,7 +388,11 @@
           "relative_path": "api/Fantas.Input.ControllerInput.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.ControllerInput",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.ControllerInput.yml\" sourcestartlinenumber=\"1\">ControllerInput is used to manage/get the connected game controllers</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -268,7 +402,11 @@
           "relative_path": "api/Fantas.Input.ControllerThumbstickChangedEventArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.ControllerThumbstickChangedEventArgs",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.ControllerThumbstickChangedEventArgs.yml\" sourcestartlinenumber=\"1\">Event data when thumbstick is changed</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -278,7 +416,11 @@
           "relative_path": "api/Fantas.Input.ControllerTriggerChangedEventArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.ControllerTriggerChangedEventArgs",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.ControllerTriggerChangedEventArgs.yml\" sourcestartlinenumber=\"1\">Event data when trigger is changed</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -288,7 +430,11 @@
           "relative_path": "api/Fantas.Input.Cursor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.Cursor",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.Cursor.yml\" sourcestartlinenumber=\"1\">Mouse Cursor</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -298,7 +444,11 @@
           "relative_path": "api/Fantas.Input.Cursors.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.Cursors",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.Cursors.yml\" sourcestartlinenumber=\"1\">Collection of different Cursor types</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -308,7 +458,11 @@
           "relative_path": "api/Fantas.Input.KeyEventArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.KeyEventArgs",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.KeyEventArgs.yml\" sourcestartlinenumber=\"1\">Event data for Keyboard events</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -318,7 +472,11 @@
           "relative_path": "api/Fantas.Input.KeyboardInput.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.KeyboardInput",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.KeyboardInput.yml\" sourcestartlinenumber=\"1\">Keyboard Input class</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -328,7 +486,11 @@
           "relative_path": "api/Fantas.Input.Keys.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.Keys",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.Keys.yml\" sourcestartlinenumber=\"1\">Keyboard key codes</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -338,7 +500,11 @@
           "relative_path": "api/Fantas.Input.MouseButtons.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.MouseButtons",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.MouseButtons.yml\" sourcestartlinenumber=\"1\">Mouse buttons</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -348,7 +514,11 @@
           "relative_path": "api/Fantas.Input.MouseEventArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.MouseEventArgs",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.MouseEventArgs.yml\" sourcestartlinenumber=\"1\">Event data for Mouse events</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -358,7 +528,11 @@
           "relative_path": "api/Fantas.Input.MouseInput.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.MouseInput",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.MouseInput.yml\" sourcestartlinenumber=\"1\">Mouse Input class</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -368,7 +542,11 @@
           "relative_path": "api/Fantas.Input.PanEventArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.PanEventArgs",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.PanEventArgs.yml\" sourcestartlinenumber=\"1\">Event data for Pan event</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -378,7 +556,11 @@
           "relative_path": "api/Fantas.Input.PinchEventArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.PinchEventArgs",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.PinchEventArgs.yml\" sourcestartlinenumber=\"1\">Event data for Pinch event</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -388,7 +570,11 @@
           "relative_path": "api/Fantas.Input.SwipeDirection.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.SwipeDirection",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.SwipeDirection.yml\" sourcestartlinenumber=\"1\">Touch Swipe Direction</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -398,7 +584,11 @@
           "relative_path": "api/Fantas.Input.SwipeEventArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.SwipeEventArgs",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.SwipeEventArgs.yml\" sourcestartlinenumber=\"1\">Event data for Swipe event</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -408,7 +598,11 @@
           "relative_path": "api/Fantas.Input.TapEventArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.TapEventArgs",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.TapEventArgs.yml\" sourcestartlinenumber=\"1\">Event data for Tap event</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -418,7 +612,11 @@
           "relative_path": "api/Fantas.Input.TouchDevice.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.TouchDevice",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.TouchDevice.yml\" sourcestartlinenumber=\"1\">Touch Device type (Touch, Mouse, Pen)</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -428,7 +626,11 @@
           "relative_path": "api/Fantas.Input.TouchEventArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.TouchEventArgs",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.TouchEventArgs.yml\" sourcestartlinenumber=\"1\">Event data for Touch events</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -438,7 +640,11 @@
           "relative_path": "api/Fantas.Input.TouchInfo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.TouchInfo",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.TouchInfo.yml\" sourcestartlinenumber=\"1\">Contains information about Touch like location, pressure</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -448,7 +654,11 @@
           "relative_path": "api/Fantas.Input.TouchInput.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.TouchInput",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.TouchInput.yml\" sourcestartlinenumber=\"1\">Touch Input (TouchScreen devices)</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -458,7 +668,11 @@
           "relative_path": "api/Fantas.Input.TouchState.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input.TouchState",
+      "Summary": "<p sourcefile=\"api/Fantas.Input.TouchState.yml\" sourcestartlinenumber=\"1\">Touch state (Down, Up, Moved)</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -468,7 +682,11 @@
           "relative_path": "api/Fantas.Input.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Input",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -478,7 +696,11 @@
           "relative_path": "api/Fantas.LabelHorizontalAlignmentMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.LabelHorizontalAlignmentMode",
+      "Summary": "<p sourcefile=\"api/Fantas.LabelHorizontalAlignmentMode.yml\" sourcestartlinenumber=\"1\">Label text horizontal alignment</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -488,7 +710,11 @@
           "relative_path": "api/Fantas.LabelNode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.LabelNode",
+      "Summary": "<p sourcefile=\"api/Fantas.LabelNode.yml\" sourcestartlinenumber=\"1\">Node that contains a text</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -498,7 +724,11 @@
           "relative_path": "api/Fantas.LabelVerticalAlignmentMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.LabelVerticalAlignmentMode",
+      "Summary": "<p sourcefile=\"api/Fantas.LabelVerticalAlignmentMode.yml\" sourcestartlinenumber=\"1\">Label text vertical alignment</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -508,7 +738,11 @@
           "relative_path": "api/Fantas.MathClamp.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.MathClamp",
+      "Summary": "<p sourcefile=\"api/Fantas.MathClamp.yml\" sourcestartlinenumber=\"1\">Contains helper methods for doing Lerp to make it easier port games from MonoGame to Fantas\nSome methods imported from XNA/MonoGame MathHelper <a href=\"https://github.com/MonoGame/MonoGame/blob/develop/MonoGame.Framework/MathHelper.cs\" sourcefile=\"api/Fantas.MathClamp.yml\" sourcestartlinenumber=\"2\">https://github.com/MonoGame/MonoGame/blob/develop/MonoGame.Framework/MathHelper.cs</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -518,7 +752,11 @@
           "relative_path": "api/Fantas.MathLerp.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.MathLerp",
+      "Summary": "<p sourcefile=\"api/Fantas.MathLerp.yml\" sourcestartlinenumber=\"1\">Contains helper methods for doing Lerp to make it easier port games from MonoGame to Fantas\nSome methods imported from XNA/MonoGame MathHelper <a href=\"https://github.com/MonoGame/MonoGame/blob/develop/MonoGame.Framework/MathHelper.cs\" sourcefile=\"api/Fantas.MathLerp.yml\" sourcestartlinenumber=\"2\">https://github.com/MonoGame/MonoGame/blob/develop/MonoGame.Framework/MathHelper.cs</a></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -528,7 +766,11 @@
           "relative_path": "api/Fantas.Node.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Node",
+      "Summary": "<p sourcefile=\"api/Fantas.Node.yml\" sourcestartlinenumber=\"1\">Base Node for other Nodes</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -538,7 +780,11 @@
           "relative_path": "api/Fantas.OutlinePosition.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.OutlinePosition",
+      "Summary": "<p sourcefile=\"api/Fantas.OutlinePosition.yml\" sourcestartlinenumber=\"1\">Outline Position Flags</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -548,7 +794,11 @@
           "relative_path": "api/Fantas.ParticleEmitterNode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.ParticleEmitterNode",
+      "Summary": "<p sourcefile=\"api/Fantas.ParticleEmitterNode.yml\" sourcestartlinenumber=\"1\">Node that emit particles (like fire, smoke, explosion)</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -558,7 +808,11 @@
           "relative_path": "api/Fantas.Physics.CircleBody.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Physics.CircleBody",
+      "Summary": "<p sourcefile=\"api/Fantas.Physics.CircleBody.yml\" sourcestartlinenumber=\"1\">Circular body</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -568,7 +822,11 @@
           "relative_path": "api/Fantas.Physics.ContactEvent.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Physics.ContactEvent",
+      "Summary": "<p sourcefile=\"api/Fantas.Physics.ContactEvent.yml\" sourcestartlinenumber=\"1\">Called when two physics body collide\nThe collisionInfo parameter contains information about the collision</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -578,7 +836,11 @@
           "relative_path": "api/Fantas.Physics.ContactHandler.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Physics.ContactHandler",
+      "Summary": "<p sourcefile=\"api/Fantas.Physics.ContactHandler.yml\" sourcestartlinenumber=\"1\">Contact handler object that contains contact or collision action events</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -588,7 +850,11 @@
           "relative_path": "api/Fantas.Physics.ContactInfo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Physics.ContactInfo",
+      "Summary": "<p sourcefile=\"api/Fantas.Physics.ContactInfo.yml\" sourcestartlinenumber=\"1\">Contains the information of a contact/collision between two PhysicsBodys.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -598,7 +864,11 @@
           "relative_path": "api/Fantas.Physics.Edge.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Physics.Edge",
+      "Summary": "<p sourcefile=\"api/Fantas.Physics.Edge.yml\" sourcestartlinenumber=\"1\">Represent an physical edge for collision with bodies</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -608,7 +878,11 @@
           "relative_path": "api/Fantas.Physics.NodeExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Physics.NodeExtensions",
+      "Summary": "<p sourcefile=\"api/Fantas.Physics.NodeExtensions.yml\" sourcestartlinenumber=\"1\">Convenient methods to setup physics body to a Node</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -618,7 +892,11 @@
           "relative_path": "api/Fantas.Physics.PhysicsBody.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Physics.PhysicsBody",
+      "Summary": "<p sourcefile=\"api/Fantas.Physics.PhysicsBody.yml\" sourcestartlinenumber=\"1\">Physics Body simulation object</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -628,7 +906,11 @@
           "relative_path": "api/Fantas.Physics.PhysicsJoint.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Physics.PhysicsJoint",
+      "Summary": "<p sourcefile=\"api/Fantas.Physics.PhysicsJoint.yml\" sourcestartlinenumber=\"1\">Base joint type</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -638,7 +920,11 @@
           "relative_path": "api/Fantas.Physics.PhysicsJointFixed.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Physics.PhysicsJointFixed",
+      "Summary": "<p sourcefile=\"api/Fantas.Physics.PhysicsJointFixed.yml\" sourcestartlinenumber=\"1\">A PhysicsJoint that rigidly connects two physics bodies.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -648,7 +934,11 @@
           "relative_path": "api/Fantas.Physics.PhysicsJointLimit.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Physics.PhysicsJointLimit",
+      "Summary": "<p sourcefile=\"api/Fantas.Physics.PhysicsJointLimit.yml\" sourcestartlinenumber=\"1\">A PhysicsJoint that connects two physics bodies as if by a rope.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -658,7 +948,11 @@
           "relative_path": "api/Fantas.Physics.PhysicsJointPin.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Physics.PhysicsJointPin",
+      "Summary": "<p sourcefile=\"api/Fantas.Physics.PhysicsJointPin.yml\" sourcestartlinenumber=\"1\">A PhysicsJointPin pins two bodies to a common point.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -668,7 +962,11 @@
           "relative_path": "api/Fantas.Physics.PhysicsJointSliding.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Physics.PhysicsJointSliding",
+      "Summary": "<p sourcefile=\"api/Fantas.Physics.PhysicsJointSliding.yml\" sourcestartlinenumber=\"1\">A PhysicsJointSliding connects two physics bodies as if by a sliding rod.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -678,7 +976,11 @@
           "relative_path": "api/Fantas.Physics.PhysicsJointSpring.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Physics.PhysicsJointSpring",
+      "Summary": "<p sourcefile=\"api/Fantas.Physics.PhysicsJointSpring.yml\" sourcestartlinenumber=\"1\">A PhysicsJointSpring connects two physics bodies as if by a spring.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -688,7 +990,11 @@
           "relative_path": "api/Fantas.Physics.PhysicsWorld.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Physics.PhysicsWorld",
+      "Summary": "<p sourcefile=\"api/Fantas.Physics.PhysicsWorld.yml\" sourcestartlinenumber=\"1\">The PhysicsWorld provides:</p>\n<p sourcefile=\"api/Fantas.Physics.PhysicsWorld.yml\" sourcestartlinenumber=\"3\">Global values such as Gravity.\nConnecting PhysicsBodies with the AddJoint(PhysicsJoint) method.\nRaising events when PhysicsBody begin or end contact with each other(DidBeginContact, DidEndContact).</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -698,7 +1004,11 @@
           "relative_path": "api/Fantas.Physics.PolygonBody.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Physics.PolygonBody",
+      "Summary": "<p sourcefile=\"api/Fantas.Physics.PolygonBody.yml\" sourcestartlinenumber=\"1\">Polygonal body</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -708,7 +1018,11 @@
           "relative_path": "api/Fantas.Physics.PolygonEdge.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Physics.PolygonEdge",
+      "Summary": "<p sourcefile=\"api/Fantas.Physics.PolygonEdge.yml\" sourcestartlinenumber=\"1\">Polygonal physical edge</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -718,7 +1032,11 @@
           "relative_path": "api/Fantas.Physics.RaycastHit.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Physics.RaycastHit",
+      "Summary": "<p sourcefile=\"api/Fantas.Physics.RaycastHit.yml\" sourcestartlinenumber=\"1\">Represent a result of a Raycast query</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -728,7 +1046,11 @@
           "relative_path": "api/Fantas.Physics.RectangleBody.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Physics.RectangleBody",
+      "Summary": "<p sourcefile=\"api/Fantas.Physics.RectangleBody.yml\" sourcestartlinenumber=\"1\">Rectangle body</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -738,7 +1060,11 @@
           "relative_path": "api/Fantas.Physics.RectangleEdge.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Physics.RectangleEdge",
+      "Summary": "<p sourcefile=\"api/Fantas.Physics.RectangleEdge.yml\" sourcestartlinenumber=\"1\">Rectangle physical edge loop</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -748,7 +1074,11 @@
           "relative_path": "api/Fantas.Physics.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Physics",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -758,7 +1088,11 @@
           "relative_path": "api/Fantas.PointExtension.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.PointExtension",
+      "Summary": "<p sourcefile=\"api/Fantas.PointExtension.yml\" sourcestartlinenumber=\"1\">PointF method extensions</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -768,7 +1102,11 @@
           "relative_path": "api/Fantas.PolygonNode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.PolygonNode",
+      "Summary": "<p sourcefile=\"api/Fantas.PolygonNode.yml\" sourcestartlinenumber=\"1\">Create a polygon shape node</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -778,7 +1116,11 @@
           "relative_path": "api/Fantas.RandomExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.RandomExtensions",
+      "Summary": "<p sourcefile=\"api/Fantas.RandomExtensions.yml\" sourcestartlinenumber=\"1\">Random extension methods</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -788,7 +1130,11 @@
           "relative_path": "api/Fantas.RectangleExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.RectangleExtensions",
+      "Summary": "<p sourcefile=\"api/Fantas.RectangleExtensions.yml\" sourcestartlinenumber=\"1\">RectangleF extension methods</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -798,7 +1144,25 @@
           "relative_path": "api/Fantas.RectangleNode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.RectangleNode",
+      "Summary": "<p sourcefile=\"api/Fantas.RectangleNode.yml\" sourcestartlinenumber=\"1\">Rectangle/Round Rectangle shape node</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.Resource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.Resource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Resource",
+      "Summary": "<p sourcefile=\"api/Fantas.Resource.yml\" sourcestartlinenumber=\"1\">Android Resource Designer class.\nExposes the Android Resource designer assembly into the project Namespace.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -808,7 +1172,11 @@
           "relative_path": "api/Fantas.Scene.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Scene",
+      "Summary": "<p sourcefile=\"api/Fantas.Scene.yml\" sourcestartlinenumber=\"1\">Scene is where all nodes are displayed</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -818,7 +1186,11 @@
           "relative_path": "api/Fantas.SceneScaleMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.SceneScaleMode",
+      "Summary": "<p sourcefile=\"api/Fantas.SceneScaleMode.yml\" sourcestartlinenumber=\"1\">SceneScale configure how the current Scene will be scaled when the\nwindow or view is resized.\nThe resize could happen because the user resized the window or rotated the device</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -828,7 +1200,25 @@
           "relative_path": "api/Fantas.ShapeNode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.ShapeNode",
+      "Summary": "<p sourcefile=\"api/Fantas.ShapeNode.yml\" sourcestartlinenumber=\"1\">ShapeNode (Rectangle, Ellipse, Triangle)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.SizeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.SizeExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.SizeExtensions",
+      "Summary": "<p sourcefile=\"api/Fantas.SizeExtensions.yml\" sourcestartlinenumber=\"1\">RectangleF extension methods</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -838,7 +1228,11 @@
           "relative_path": "api/Fantas.SpriteFrameNode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.SpriteFrameNode",
+      "Summary": "<p sourcefile=\"api/Fantas.SpriteFrameNode.yml\" sourcestartlinenumber=\"1\">Frame edge using SpriteNodes</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -848,7 +1242,11 @@
           "relative_path": "api/Fantas.SpriteLineNode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.SpriteLineNode",
+      "Summary": "<p sourcefile=\"api/Fantas.SpriteLineNode.yml\" sourcestartlinenumber=\"1\">Create a line as a SpriteNode\nDrawing a Line using a Sprite can be better for performance reasons since\nSprite drawing can be batched.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -858,7 +1256,11 @@
           "relative_path": "api/Fantas.SpriteNode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.SpriteNode",
+      "Summary": "<p sourcefile=\"api/Fantas.SpriteNode.yml\" sourcestartlinenumber=\"1\">Node that draws a Sprite</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -868,7 +1270,11 @@
           "relative_path": "api/Fantas.SpritePolylineNode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.SpritePolylineNode",
+      "Summary": "<p sourcefile=\"api/Fantas.SpritePolylineNode.yml\" sourcestartlinenumber=\"1\">Polyline made of multiple sprite node lines</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -878,7 +1284,25 @@
           "relative_path": "api/Fantas.SystemPlatform.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.SystemPlatform",
+      "Summary": "<p sourcefile=\"api/Fantas.SystemPlatform.yml\" sourcestartlinenumber=\"1\">Enumeration to with runtime system platform</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.SystemPlatformInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.SystemPlatformInformation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.SystemPlatformInformation",
+      "Summary": "<p sourcefile=\"api/Fantas.SystemPlatformInformation.yml\" sourcestartlinenumber=\"1\">System platform information (Windows, MacOS.. )</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -888,7 +1312,11 @@
           "relative_path": "api/Fantas.Texture.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Texture",
+      "Summary": "<p sourcefile=\"api/Fantas.Texture.yml\" sourcestartlinenumber=\"1\">Texture</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -898,7 +1326,11 @@
           "relative_path": "api/Fantas.TextureAtlas.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.TextureAtlas",
+      "Summary": "<p sourcefile=\"api/Fantas.TextureAtlas.yml\" sourcestartlinenumber=\"1\">A set of Textures grouped\nYou can use Texture atlas when you have a set of textures that need to\nbe loaded together.\nOn old devices this can help to save VRAM, since all only one texture\nis loaded into the GPU and the small textures are bits of the main\ntexture atlas.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -908,7 +1340,11 @@
           "relative_path": "api/Fantas.TileAdjacencyMask.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.TileAdjacencyMask",
+      "Summary": "<p sourcefile=\"api/Fantas.TileAdjacencyMask.yml\" sourcestartlinenumber=\"1\">Tile Adjacency Mask</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -918,7 +1354,11 @@
           "relative_path": "api/Fantas.TileDefinition.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.TileDefinition",
+      "Summary": "<p sourcefile=\"api/Fantas.TileDefinition.yml\" sourcestartlinenumber=\"1\">Tile Definition\nDefines a single tile that can be repeated in a tile map</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -928,7 +1368,11 @@
           "relative_path": "api/Fantas.TileDefinitionRotation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.TileDefinitionRotation",
+      "Summary": "<p sourcefile=\"api/Fantas.TileDefinitionRotation.yml\" sourcestartlinenumber=\"1\">Tile rotation types</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -938,7 +1382,11 @@
           "relative_path": "api/Fantas.TileGroup.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.TileGroup",
+      "Summary": "<p sourcefile=\"api/Fantas.TileGroup.yml\" sourcestartlinenumber=\"1\">Tile Group is either a definition for one tile or a collection of Tile Group Rules with adjacency</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -948,7 +1396,11 @@
           "relative_path": "api/Fantas.TileGroupRule.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.TileGroupRule",
+      "Summary": "<p sourcefile=\"api/Fantas.TileGroupRule.yml\" sourcestartlinenumber=\"1\">Rule on how the tile is placed in a tile map</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -958,7 +1410,11 @@
           "relative_path": "api/Fantas.TileMapNode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.TileMapNode",
+      "Summary": "<p sourcefile=\"api/Fantas.TileMapNode.yml\" sourcestartlinenumber=\"1\">Tile Map node.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -968,7 +1424,11 @@
           "relative_path": "api/Fantas.TileSet.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.TileSet",
+      "Summary": "<p sourcefile=\"api/Fantas.TileSet.yml\" sourcestartlinenumber=\"1\">Contains definitions and group rules to be used in a Tile map</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -978,7 +1438,11 @@
           "relative_path": "api/Fantas.TileSetType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.TileSetType",
+      "Summary": "<p sourcefile=\"api/Fantas.TileSetType.yml\" sourcestartlinenumber=\"1\">Tile Set arrange/geometry</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -988,7 +1452,11 @@
           "relative_path": "api/Fantas.Time.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Time",
+      "Summary": "<p sourcefile=\"api/Fantas.Time.yml\" sourcestartlinenumber=\"1\">Get game time information</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -998,7 +1466,11 @@
           "relative_path": "api/Fantas.Timer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Timer",
+      "Summary": "<p sourcefile=\"api/Fantas.Timer.yml\" sourcestartlinenumber=\"1\">Create timer helper</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1008,7 +1480,11 @@
           "relative_path": "api/Fantas.TriangleNode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.TriangleNode",
+      "Summary": "<p sourcefile=\"api/Fantas.TriangleNode.yml\" sourcestartlinenumber=\"1\">Triangle Node</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1018,7 +1494,11 @@
           "relative_path": "api/Fantas.UI.ButtonNode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.UI.ButtonNode",
+      "Summary": "<p sourcefile=\"api/Fantas.UI.ButtonNode.yml\" sourcestartlinenumber=\"1\">Button Node</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1028,7 +1508,11 @@
           "relative_path": "api/Fantas.UI.ControlNode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.UI.ControlNode",
+      "Summary": "<p sourcefile=\"api/Fantas.UI.ControlNode.yml\" sourcestartlinenumber=\"1\">Base class for UI control nodes</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1038,7 +1522,151 @@
           "relative_path": "api/Fantas.UI.ControlState.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.UI.ControlState",
+      "Summary": "<p sourcefile=\"api/Fantas.UI.ControlState.yml\" sourcestartlinenumber=\"1\">Control states</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.UI.HScrollBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.UI.HScrollBar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.UI.HScrollBar",
+      "Summary": "<p sourcefile=\"api/Fantas.UI.HScrollBar.yml\" sourcestartlinenumber=\"1\">Horizontal ScrollNode bar</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.UI.Orientation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.UI.Orientation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.UI.Orientation",
+      "Summary": "<p sourcefile=\"api/Fantas.UI.Orientation.yml\" sourcestartlinenumber=\"1\">Orientation for UI node</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.UI.ProgressRing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.UI.ProgressRing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.UI.ProgressRing",
+      "Summary": "<p sourcefile=\"api/Fantas.UI.ProgressRing.yml\" sourcestartlinenumber=\"1\">Progress Ring node</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.UI.ScrollBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.UI.ScrollBar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.UI.ScrollBar",
+      "Summary": "<p sourcefile=\"api/Fantas.UI.ScrollBar.yml\" sourcestartlinenumber=\"1\">ScrollNode bar common base</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.UI.ScrollBarThumb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.UI.ScrollBarThumb.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.UI.ScrollBarThumb",
+      "Summary": "<p sourcefile=\"api/Fantas.UI.ScrollBarThumb.yml\" sourcestartlinenumber=\"1\">ScrollBar thumb</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.UI.ScrollEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.UI.ScrollEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.UI.ScrollEventArgs",
+      "Summary": "<p sourcefile=\"api/Fantas.UI.ScrollEventArgs.yml\" sourcestartlinenumber=\"1\">Scroll bar event args</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.UI.ScrollNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.UI.ScrollNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.UI.ScrollNode",
+      "Summary": "<p sourcefile=\"api/Fantas.UI.ScrollNode.yml\" sourcestartlinenumber=\"1\">Scrollable Node</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.UI.ScrollNodeOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.UI.ScrollNodeOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.UI.ScrollNodeOptions",
+      "Summary": "<p sourcefile=\"api/Fantas.UI.ScrollNodeOptions.yml\" sourcestartlinenumber=\"1\">ScrollBar flags</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.UI.TexturesUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.UI.TexturesUI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.UI.TexturesUI",
+      "Summary": "<p sourcefile=\"api/Fantas.UI.TexturesUI.yml\" sourcestartlinenumber=\"1\">Textures used by UI nodes</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fantas.UI.VScrollBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fantas.UI.VScrollBar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.UI.VScrollBar",
+      "Summary": "<p sourcefile=\"api/Fantas.UI.VScrollBar.yml\" sourcestartlinenumber=\"1\">Vertical ScrollNode bar</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1048,7 +1676,11 @@
           "relative_path": "api/Fantas.UI.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.UI",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1058,7 +1690,11 @@
           "relative_path": "api/Fantas.Vector2Extensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas.Vector2Extensions",
+      "Summary": "<p sourcefile=\"api/Fantas.Vector2Extensions.yml\" sourcestartlinenumber=\"1\">Vector2 extension methods</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1068,7 +1704,39 @@
           "relative_path": "api/Fantas.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fantas",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Numerics.Vector2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Numerics.Vector2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "System.Numerics.Vector2",
+      "Summary": "<p sourcefile=\"api/System.Numerics.Vector2.yml\" sourcestartlinenumber=\"1\">Re-implementation of System.Numerics.Vector2 since is missing on .NET 4 framwork</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Numerics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Numerics.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "System.Numerics",
+      "Summary": null
     },
     {
       "type": "Toc",

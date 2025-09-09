@@ -34,23 +34,47 @@ items:
   - Fantas.AnimationTimingMode.EaseOutSine
   - Fantas.AnimationTimingMode.Linear
   - Fantas.AnimationTimingMode.SmoothStep
+  - Fantas.AnimationTimingMode.value__
   langs:
   - csharp
   - vb
   name: AnimationTimingMode
   nameWithType: AnimationTimingMode
   fullName: Fantas.AnimationTimingMode
-  type: Enum
+  type: Class
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Animation timing modes
   example: []
   syntax:
-    content: public enum AnimationTimingMode
-    content.vb: Public Enum AnimationTimingMode
+    content: 'public sealed class AnimationTimingMode : Enum'
+    content.vb: Public NotInheritable Class AnimationTimingMode Inherits Enum
+  inheritance:
+  - System.Object
+- uid: Fantas.AnimationTimingMode.value__
+  commentId: F:Fantas.AnimationTimingMode.value__
+  id: value__
+  parent: Fantas.AnimationTimingMode
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: AnimationTimingMode.value__
+  fullName: Fantas.AnimationTimingMode.value__
+  type: Field
+  source:
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
+  assemblies:
+  - Fantas
+  namespace: Fantas
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
 - uid: Fantas.AnimationTimingMode.Linear
   commentId: F:Fantas.AnimationTimingMode.Linear
   id: Linear
@@ -63,16 +87,17 @@ items:
   fullName: Fantas.AnimationTimingMode.Linear
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Animate frame linearly
   example: []
   syntax:
-    content: Linear = 0
+    content: public const AnimationTimingMode Linear = 0
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const Linear As AnimationTimingMode = 0
 - uid: Fantas.AnimationTimingMode.EaseInCubic
   commentId: F:Fantas.AnimationTimingMode.EaseInCubic
   id: EaseInCubic
@@ -85,16 +110,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInCubic
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EasyIn Cubic
   example: []
   syntax:
-    content: EaseInCubic = 1
+    content: public const AnimationTimingMode EaseInCubic = 1
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseInCubic As AnimationTimingMode = 1
 - uid: Fantas.AnimationTimingMode.EaseOutCubic
   commentId: F:Fantas.AnimationTimingMode.EaseOutCubic
   id: EaseOutCubic
@@ -107,16 +133,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseOutCubic
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EasyOut Cubic - Start fast, slowdown on finish
   example: []
   syntax:
-    content: EaseOutCubic = 2
+    content: public const AnimationTimingMode EaseOutCubic = 2
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseOutCubic As AnimationTimingMode = 2
 - uid: Fantas.AnimationTimingMode.EaseInOutCubic
   commentId: F:Fantas.AnimationTimingMode.EaseInOutCubic
   id: EaseInOutCubic
@@ -129,16 +156,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInOutCubic
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EasyInOut Start and finishes quickly, slow in the middle
   example: []
   syntax:
-    content: EaseInOutCubic = 3
+    content: public const AnimationTimingMode EaseInOutCubic = 3
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseInOutCubic As AnimationTimingMode = 3
 - uid: Fantas.AnimationTimingMode.EaseInSine
   commentId: F:Fantas.AnimationTimingMode.EaseInSine
   id: EaseInSine
@@ -151,16 +179,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInSine
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EasyIn Sine
   example: []
   syntax:
-    content: EaseInSine = 4
+    content: public const AnimationTimingMode EaseInSine = 4
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseInSine As AnimationTimingMode = 4
 - uid: Fantas.AnimationTimingMode.EaseOutSine
   commentId: F:Fantas.AnimationTimingMode.EaseOutSine
   id: EaseOutSine
@@ -173,16 +202,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseOutSine
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EaseOut Sine
   example: []
   syntax:
-    content: EaseOutSine = 5
+    content: public const AnimationTimingMode EaseOutSine = 5
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseOutSine As AnimationTimingMode = 5
 - uid: Fantas.AnimationTimingMode.EaseInOutSine
   commentId: F:Fantas.AnimationTimingMode.EaseInOutSine
   id: EaseInOutSine
@@ -195,16 +225,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInOutSine
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EaseInOut Sine
   example: []
   syntax:
-    content: EaseInOutSine = 6
+    content: public const AnimationTimingMode EaseInOutSine = 6
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseInOutSine As AnimationTimingMode = 6
 - uid: Fantas.AnimationTimingMode.EaseInCirc
   commentId: F:Fantas.AnimationTimingMode.EaseInCirc
   id: EaseInCirc
@@ -217,16 +248,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInCirc
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EaseIn Circ
   example: []
   syntax:
-    content: EaseInCirc = 7
+    content: public const AnimationTimingMode EaseInCirc = 7
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseInCirc As AnimationTimingMode = 7
 - uid: Fantas.AnimationTimingMode.EaseOutCirc
   commentId: F:Fantas.AnimationTimingMode.EaseOutCirc
   id: EaseOutCirc
@@ -239,16 +271,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseOutCirc
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EaseOut Circ
   example: []
   syntax:
-    content: EaseOutCirc = 8
+    content: public const AnimationTimingMode EaseOutCirc = 8
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseOutCirc As AnimationTimingMode = 8
 - uid: Fantas.AnimationTimingMode.EaseInOutCirc
   commentId: F:Fantas.AnimationTimingMode.EaseInOutCirc
   id: EaseInOutCirc
@@ -261,16 +294,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInOutCirc
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EaseInOut Circ
   example: []
   syntax:
-    content: EaseInOutCirc = 9
+    content: public const AnimationTimingMode EaseInOutCirc = 9
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseInOutCirc As AnimationTimingMode = 9
 - uid: Fantas.AnimationTimingMode.EaseInExpo
   commentId: F:Fantas.AnimationTimingMode.EaseInExpo
   id: EaseInExpo
@@ -283,16 +317,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInExpo
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EaseIn Exponential
   example: []
   syntax:
-    content: EaseInExpo = 10
+    content: public const AnimationTimingMode EaseInExpo = 10
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseInExpo As AnimationTimingMode = 10
 - uid: Fantas.AnimationTimingMode.EaseOutExpo
   commentId: F:Fantas.AnimationTimingMode.EaseOutExpo
   id: EaseOutExpo
@@ -305,16 +340,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseOutExpo
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EaseOut Exponential
   example: []
   syntax:
-    content: EaseOutExpo = 11
+    content: public const AnimationTimingMode EaseOutExpo = 11
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseOutExpo As AnimationTimingMode = 11
 - uid: Fantas.AnimationTimingMode.EaseInOutExpo
   commentId: F:Fantas.AnimationTimingMode.EaseInOutExpo
   id: EaseInOutExpo
@@ -327,16 +363,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInOutExpo
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EaseInOut Exponential
   example: []
   syntax:
-    content: EaseInOutExpo = 12
+    content: public const AnimationTimingMode EaseInOutExpo = 12
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseInOutExpo As AnimationTimingMode = 12
 - uid: Fantas.AnimationTimingMode.EaseInBack
   commentId: F:Fantas.AnimationTimingMode.EaseInBack
   id: EaseInBack
@@ -349,16 +386,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInBack
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EasyIn Back
   example: []
   syntax:
-    content: EaseInBack = 13
+    content: public const AnimationTimingMode EaseInBack = 13
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseInBack As AnimationTimingMode = 13
 - uid: Fantas.AnimationTimingMode.EaseOutBack
   commentId: F:Fantas.AnimationTimingMode.EaseOutBack
   id: EaseOutBack
@@ -371,16 +409,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseOutBack
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EaseOut Back
   example: []
   syntax:
-    content: EaseOutBack = 14
+    content: public const AnimationTimingMode EaseOutBack = 14
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseOutBack As AnimationTimingMode = 14
 - uid: Fantas.AnimationTimingMode.EaseInOutBack
   commentId: F:Fantas.AnimationTimingMode.EaseInOutBack
   id: EaseInOutBack
@@ -393,16 +432,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInOutBack
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EaseInOut Back
   example: []
   syntax:
-    content: EaseInOutBack = 15
+    content: public const AnimationTimingMode EaseInOutBack = 15
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseInOutBack As AnimationTimingMode = 15
 - uid: Fantas.AnimationTimingMode.EaseInElastic
   commentId: F:Fantas.AnimationTimingMode.EaseInElastic
   id: EaseInElastic
@@ -415,16 +455,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInElastic
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EaseIn Elastic
   example: []
   syntax:
-    content: EaseInElastic = 16
+    content: public const AnimationTimingMode EaseInElastic = 16
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseInElastic As AnimationTimingMode = 16
 - uid: Fantas.AnimationTimingMode.EaseOutElastic
   commentId: F:Fantas.AnimationTimingMode.EaseOutElastic
   id: EaseOutElastic
@@ -437,16 +478,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseOutElastic
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EaseOut Elastic
   example: []
   syntax:
-    content: EaseOutElastic = 17
+    content: public const AnimationTimingMode EaseOutElastic = 17
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseOutElastic As AnimationTimingMode = 17
 - uid: Fantas.AnimationTimingMode.EaseInOutElastic
   commentId: F:Fantas.AnimationTimingMode.EaseInOutElastic
   id: EaseInOutElastic
@@ -459,16 +501,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInOutElastic
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EaseInOut Elastic
   example: []
   syntax:
-    content: EaseInOutElastic = 18
+    content: public const AnimationTimingMode EaseInOutElastic = 18
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseInOutElastic As AnimationTimingMode = 18
 - uid: Fantas.AnimationTimingMode.EaseInBounce
   commentId: F:Fantas.AnimationTimingMode.EaseInBounce
   id: EaseInBounce
@@ -481,16 +524,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInBounce
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EaseIn Bounce
   example: []
   syntax:
-    content: EaseInBounce = 19
+    content: public const AnimationTimingMode EaseInBounce = 19
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseInBounce As AnimationTimingMode = 19
 - uid: Fantas.AnimationTimingMode.EaseOutBounce
   commentId: F:Fantas.AnimationTimingMode.EaseOutBounce
   id: EaseOutBounce
@@ -503,16 +547,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseOutBounce
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EaseOut Bounce
   example: []
   syntax:
-    content: EaseOutBounce = 20
+    content: public const AnimationTimingMode EaseOutBounce = 20
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseOutBounce As AnimationTimingMode = 20
 - uid: Fantas.AnimationTimingMode.EaseInOutBounce
   commentId: F:Fantas.AnimationTimingMode.EaseInOutBounce
   id: EaseInOutBounce
@@ -525,16 +570,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInOutBounce
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EaseInOut Bounce
   example: []
   syntax:
-    content: EaseInOutBounce = 21
+    content: public const AnimationTimingMode EaseInOutBounce = 21
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseInOutBounce As AnimationTimingMode = 21
 - uid: Fantas.AnimationTimingMode.SmoothStep
   commentId: F:Fantas.AnimationTimingMode.SmoothStep
   id: SmoothStep
@@ -547,16 +593,17 @@ items:
   fullName: Fantas.AnimationTimingMode.SmoothStep
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: Animate frame using smoothstep function
   example: []
   syntax:
-    content: SmoothStep = 22
+    content: public const AnimationTimingMode SmoothStep = 22
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const SmoothStep As AnimationTimingMode = 22
 - uid: Fantas.AnimationTimingMode.EaseInQuart
   commentId: F:Fantas.AnimationTimingMode.EaseInQuart
   id: EaseInQuart
@@ -569,16 +616,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInQuart
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EaseIn Quart
   example: []
   syntax:
-    content: EaseInQuart = 23
+    content: public const AnimationTimingMode EaseInQuart = 23
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseInQuart As AnimationTimingMode = 23
 - uid: Fantas.AnimationTimingMode.EaseOutQuart
   commentId: F:Fantas.AnimationTimingMode.EaseOutQuart
   id: EaseOutQuart
@@ -591,16 +639,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseOutQuart
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EaseOut Quart
   example: []
   syntax:
-    content: EaseOutQuart = 24
+    content: public const AnimationTimingMode EaseOutQuart = 24
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseOutQuart As AnimationTimingMode = 24
 - uid: Fantas.AnimationTimingMode.EaseInOutQuart
   commentId: F:Fantas.AnimationTimingMode.EaseInOutQuart
   id: EaseInOutQuart
@@ -613,16 +662,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInOutQuart
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EaseInOut Quart
   example: []
   syntax:
-    content: EaseInOutQuart = 25
+    content: public const AnimationTimingMode EaseInOutQuart = 25
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseInOutQuart As AnimationTimingMode = 25
 - uid: Fantas.AnimationTimingMode.EaseInQuint
   commentId: F:Fantas.AnimationTimingMode.EaseInQuint
   id: EaseInQuint
@@ -635,16 +685,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInQuint
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EaseIn Quint
   example: []
   syntax:
-    content: EaseInQuint = 26
+    content: public const AnimationTimingMode EaseInQuint = 26
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseInQuint As AnimationTimingMode = 26
 - uid: Fantas.AnimationTimingMode.EaseOutQuint
   commentId: F:Fantas.AnimationTimingMode.EaseOutQuint
   id: EaseOutQuint
@@ -657,16 +708,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseOutQuint
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EaseOut Quint
   example: []
   syntax:
-    content: EaseOutQuint = 27
+    content: public const AnimationTimingMode EaseOutQuint = 27
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseOutQuint As AnimationTimingMode = 27
 - uid: Fantas.AnimationTimingMode.EaseInOutQuint
   commentId: F:Fantas.AnimationTimingMode.EaseInOutQuint
   id: EaseInOutQuint
@@ -679,16 +731,17 @@ items:
   fullName: Fantas.AnimationTimingMode.EaseInOutQuint
   type: Field
   source:
-    href: https://github.com/codefoco/Fantas/blob/88b357e78a7026ad793a446b2876dd393185898d/src/Animation/AnimationTimingMode.cs
+    href: https://github.com/codefoco/Fantas/blob/505d983d64ecd91cc52e88237da8885e47073e31/src/Animation/AnimationTimingMode.cs
   assemblies:
   - Fantas
   namespace: Fantas
   summary: EaseInOut Quint
   example: []
   syntax:
-    content: EaseInOutQuint = 28
+    content: public const AnimationTimingMode EaseInOutQuint = 28
     return:
       type: Fantas.AnimationTimingMode
+    content.vb: Public Const EaseInOutQuint As AnimationTimingMode = 28
 references:
 - uid: Fantas
   commentId: N:Fantas
@@ -697,6 +750,35 @@ references:
   name: Fantas
   nameWithType: Fantas
   fullName: Fantas
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Fantas.AnimationTimingMode
   commentId: T:Fantas.AnimationTimingMode
   parent: Fantas
