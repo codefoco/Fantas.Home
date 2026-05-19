@@ -18,7 +18,8 @@ items:
   assemblies:
   - Fantas
   namespace: Fantas
-  summary: Current system platform information (Windows, MacOS.. )
+  summary: >-
+    Convenience accessor for the platform currently running the Fantas application.
   example: []
   syntax:
     content: public static class CurrentSystemPlatform

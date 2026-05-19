@@ -238,7 +238,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Fantas.CurrentSystemPlatform",
-      "Summary": "<p sourcefile=\"api/Fantas.CurrentSystemPlatform.yml\" sourcestartlinenumber=\"1\">Current system platform information (Windows, MacOS.. )</p>\n"
+      "Summary": "<p sourcefile=\"api/Fantas.CurrentSystemPlatform.yml\" sourcestartlinenumber=\"1\">Convenience accessor for the platform currently running the Fantas application.</p>\n"
     },
     {
       "type": "ManagedReference",

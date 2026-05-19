@@ -87,6 +87,171 @@
         <article data-uid="">
 <h1 id="getting-started">Getting Started</h1>
 
+<p>The fastest way to understand a Fantas application is to look at the two types used by the templates: <code>MainGame</code> and <code>MainScene</code>. <code>MainGame</code> configures the host window and presents the first scene. <code>MainScene</code> builds the scene graph, handles input, and updates game logic.</p>
+<h2 id="1-start-from-a-fantas-template">1. Start from a Fantas template</h2>
+<p>The templates in <code>Fantas.Template.NuGet</code> create the standard project shape for each platform. No matter which template you choose, the flow is the same:</p>
+<ul>
+<li>derive a class from <code>Game</code></li>
+<li>derive a class from <code>Scene</code></li>
+<li>present the scene from your startup code</li>
+<li>add nodes in <code>Start()</code> and game logic in <code>Update()</code></li>
+</ul>
+<h2 id="2-create-the-game-host">2. Create the game host</h2>
+<p>The template <code>MainGame</code> establishes the preferred logical window size and reacts when the window shape changes:</p>
+<pre><code class="lang-csharp">using Fantas;
+using System.Drawing;
+
+namespace ProjectName
+{
+    public class MainGame : Game
+    {
+        public static readonly Size PreferredSize = new Size(960, 540);
+
+        public MainGame() : base(PreferredSize)
+        {
+        }
+
+        public override void WindowSizeChanged()
+        {
+            if (WindowSize.Width &lt; WindowSize.Height)
+                CurrentScene.Size = new SizeF(PreferredSize.Height, PreferredSize.Width);
+            else
+                CurrentScene.Size = PreferredSize;
+        }
+    }
+}
+</code></pre>
+<p>A few details are worth keeping in mind:</p>
+<ul>
+<li>the <code>Game</code> constructor initializes Fantas' input and audio systems</li>
+<li>the size you pass to <code>base(...)</code> defines the preferred logical scene size on desktop targets</li>
+<li><code>WindowSizeChanged()</code> is the right place to adapt your scene when orientation or aspect ratio changes</li>
+</ul>
+<h2 id="3-build-your-first-scene">3. Build your first scene</h2>
+<p>The template <code>MainScene</code> shows the normal Fantas workflow: create nodes in <code>Start()</code>, keep references to the ones you need later, and override input or update methods for behavior.</p>
+<pre><code class="lang-csharp">using System;
+using System.Drawing;
+using Fantas;
+using Fantas.Input;
+
+namespace ProjectName
+{
+    public class MainScene : Scene
+    {
+        private CameraNode? camera;
+        private RectangleNode? border;
+
+        public MainScene() : base(MainGame.PreferredSize)
+        {
+            BackgroundColor = Color.CornflowerBlue;
+        }
+
+        public override void Start()
+        {
+            camera = new CameraNode();
+            Camera = camera;
+            AddChild(camera);
+
+            var square = new SpriteNode(Color.White, new Size(300, 300))
+            {
+                TopLeftColor = Color.Blue,
+                TopRightColor = Color.Red,
+                BottomLeftColor = Color.Yellow,
+                BottomRightColor = Color.Green
+            };
+
+            border = new RectangleNode(Size)
+            {
+                Alpha = 0.5f,
+                FillColor = Color.Transparent,
+                StrokeColor = Color.Purple,
+                LineWidth = 10
+            };
+
+            camera.AddChild(border);
+
+            Texture imageTexture = Texture.FromResource(typeof(MainScene).Assembly, &quot;Image.png&quot;, 2f);
+            var sprite = new SpriteNode(imageTexture);
+
+            var label = new LabelNode
+            {
+                Text = &quot;ProjectName&quot;,
+                TopColor = Color.Red,
+                BottomColor = Color.Yellow,
+                Position = new PointF(0, -100),
+                Outline = true
+            };
+
+            var up = Animation.MoveYBy(20, 0.2);
+            Animation down = up.ReversedAnimation;
+            var bounce = Animation.RepeatForever(Animation.Sequence(up, down));
+
+            sprite.RunAnimation(bounce);
+            square.RunAnimation(Animation.RepeatForever(Animation.RotateBy(Math.PI, 2.0)));
+
+            square.AddChild(sprite);
+            square.AddChild(label);
+            AddChild(square);
+        }
+
+        public override void Update()
+        {
+            if (KeyboardInput.IsKeyDown(Keys.Escape))
+                Game.Instance.Exit();
+        }
+
+        public override void SizeChanged()
+        {
+            if (border == null)
+                return;
+
+            border.Size = Size;
+        }
+
+        public override void OnKeyDown(KeyEventArgs args)
+        {
+            base.OnKeyDown(args);
+
+            if (args.KeyCode == Keys.F11)
+                Game.Instance.IsFullScreen = !Game.Instance.IsFullScreen;
+        }
+    }
+}
+</code></pre>
+<p>This one scene already demonstrates most of the framework:</p>
+<ul>
+<li><code>CameraNode</code> controls the viewport</li>
+<li><code>SpriteNode</code>, <code>RectangleNode</code>, and <code>LabelNode</code> compose the visible content</li>
+<li><code>Texture.FromResource(...)</code> loads an embedded image</li>
+<li><code>Animation</code> objects are attached directly to nodes</li>
+<li><code>KeyboardInput</code> can be polled in <code>Update()</code></li>
+<li>scene callbacks such as <code>SizeChanged()</code> and <code>OnKeyDown(...)</code> handle lifecycle and interaction</li>
+</ul>
+<h2 id="4-present-and-run-the-scene">4. Present and run the scene</h2>
+<p>Your startup code only needs to create the game, present a scene, and run the loop:</p>
+<pre><code class="lang-csharp">var game = new MainGame();
+game.PresentScene(new MainScene());
+game.Run();
+</code></pre>
+<p>From there, most projects grow in the same direction:</p>
+<ol>
+<li>add textures, labels, and shape nodes to build the scene</li>
+<li>respond to input through the scene or the static input facades</li>
+<li>attach animations for motion and transitions</li>
+<li>add physics bodies or joints when gameplay needs simulation</li>
+<li>move reusable UI and gameplay pieces into custom node subclasses</li>
+</ol>
+<h2 id="5-where-to-go-next">5. Where to go next</h2>
+<p>After your first scene is on screen, the next APIs to learn are usually:</p>
+<ul>
+<li><code>Node</code> and <code>SpriteNode</code> for scene composition</li>
+<li><code>Animation</code> for movement and effects</li>
+<li><code>Texture</code> and <code>TextureAtlas</code> for asset loading</li>
+<li><code>TouchInput</code>, <code>MouseInput</code>, <code>KeyboardInput</code>, and <code>ControllerInput</code> for interaction</li>
+<li><code>PhysicsWorld</code> and <code>PhysicsBody</code> for collisions and motion</li>
+<li><code>TileMapNode</code> if your game uses grid, isometric, or hex maps</li>
+</ul>
+<p>That path matches the way Fantas itself is structured: one scene graph, one animation model, and one set of input and rendering concepts across every supported backend.</p>
 
 </article>
 

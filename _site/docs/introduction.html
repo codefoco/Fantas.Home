@@ -87,6 +87,48 @@
         <article data-uid="">
 <h1 id="introduction">Introduction</h1>
 
+<p>Fantas is a cross-platform 2D game framework built around the same scene-graph ideas that make SpriteKit approachable: you create a <code>Game</code>, present a <code>Scene</code>, compose it from <code>Node</code> objects, and bring it to life with animations, input, audio, and physics.</p>
+<p>On Apple platforms, Fantas uses SpriteKit as its rendering model. On desktop and other supported targets, Fantas keeps the same high-level API while providing equivalent behavior through its other backends. The goal is not pixel-perfect parity across every platform; the goal is to let you build gameplay, UI, and tools around one consistent programming model.</p>
+<h2 id="core-concepts">Core concepts</h2>
+<h3 id="game-and-scene-lifecycle">Game and scene lifecycle</h3>
+<p><code>Game</code> is the application host. It initializes the platform backend, input facades, and audio session, and it presents exactly one active <code>Scene</code> at a time. A scene is the root of your game world or screen. Override <code>Start()</code> to build content, <code>Update()</code> to run frame-by-frame logic, <code>Finish()</code> for teardown, and <code>SizeChanged()</code> when the visible area changes.</p>
+<h3 id="scene-graph-and-nodes">Scene graph and nodes</h3>
+<p>Everything drawn in Fantas lives in the scene graph. <code>Node</code> is the common base type for transforms, parenting, ordering, hit testing, animations, and physics integration. Higher-level node types specialize that behavior:</p>
+<ul>
+<li><code>SpriteNode</code> draws textures or solid-color quads.</li>
+<li><code>ShapeNode</code> and its derived types draw vector primitives.</li>
+<li><code>LabelNode</code> renders text.</li>
+<li><code>CameraNode</code> controls the visible region of a scene.</li>
+<li><code>CropNode</code>, <code>TileMapNode</code>, <code>ParticleEmitterNode</code>, and the UI nodes build more specialized behaviors on top of the same hierarchy.</li>
+</ul>
+<p>That shared node model is what makes Fantas feel close to SpriteKit: layout, animation, input, and physics all compose around the same graph.</p>
+<h3 id="actions-and-motion">Actions and motion</h3>
+<p><code>Animation</code> is Fantas' action system. You can move, rotate, scale, fade, tint, sequence, group, repeat, reverse, or run custom callbacks over time. Animations are attached directly to nodes, so visual behavior stays close to the content it controls.</p>
+<h3 id="textures-atlases-and-tiles">Textures, atlases, and tiles</h3>
+<p><code>Texture</code> loads images from assets, files, resources, or streams. <code>TextureAtlas</code> groups named textures for efficient lookup, while the tile types (<code>TileDefinition</code>, <code>TileGroup</code>, <code>TileSet</code>, <code>TileMapNode</code>) build reusable tile-based worlds and editors on top of the same rendering model.</p>
+<h3 id="input-and-ui">Input and UI</h3>
+<p>Fantas exposes input through static facades such as <code>KeyboardInput</code>, <code>MouseInput</code>, <code>TouchInput</code>, and <code>ControllerInput</code>. You can either poll input state directly or override scene/node callbacks to react to interaction events.</p>
+<p>The <code>Fantas.UI</code> namespace builds on the scene graph instead of introducing a separate widget tree. Controls such as <code>ButtonNode</code>, <code>ScrollNode</code>, and the scroll bars are still nodes, so they animate, layer, and compose like the rest of your scene.</p>
+<h3 id="physics-and-audio">Physics and audio</h3>
+<p>Each scene can opt into physics through <code>PhysicsWorld</code>, <code>PhysicsBody</code>, and the joint types. The API mirrors familiar SpriteKit-style concepts: gravity, collision and contact masks, raycasts, queries, and joints.</p>
+<p>Audio follows the same pattern. <code>AudioSession</code> exposes global sound state, <code>MusicPlayer</code> manages longer background tracks, and <code>SoundEffect</code> handles short interactive sounds.</p>
+<h2 id="platform-model">Platform model</h2>
+<p>Fantas targets the same game code at multiple runtimes. The exact backend differs by platform, but the public API is intentionally stable:</p>
+<ul>
+<li>Apple platforms map closely to SpriteKit concepts and behavior.</li>
+<li>Desktop and other supported platforms keep the same scene, node, input, animation, and physics abstractions through Fantas' platform layers.</li>
+<li>Utility types such as <code>SystemPlatform</code>, <code>CurrentSystemPlatform</code>, and <code>SystemPlatformInformation</code> help you adapt when a platform-specific branch is necessary.</li>
+</ul>
+<h2 id="how-to-read-the-api-reference">How to read the API reference</h2>
+<p>The API reference is easiest to approach in layers:</p>
+<ol>
+<li>Start with <code>Game</code>, <code>Scene</code>, <code>Node</code>, <code>SpriteNode</code>, and <code>Animation</code>.</li>
+<li>Add <code>Texture</code>, <code>LabelNode</code>, and the shape nodes for rendering.</li>
+<li>Bring in <code>TouchInput</code>, <code>MouseInput</code>, <code>KeyboardInput</code>, or <code>ControllerInput</code> for interaction.</li>
+<li>Add <code>PhysicsWorld</code> and <code>PhysicsBody</code> when you need simulation.</li>
+<li>Explore tiles, particle effects, and UI controls as your project grows.</li>
+</ol>
+<p>If you already know SpriteKit, you can think of Fantas as a cross-platform scene-graph API that keeps the same mental model while letting your game code travel beyond Apple's platforms.</p>
 
 </article>
 
