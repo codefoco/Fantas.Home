@@ -87,45 +87,47 @@
         <article data-uid="">
 <h1 id="introduction">Introduction</h1>
 
-<p>Fantas is a cross-platform 2D game framework built around the same scene-graph ideas that make SpriteKit approachable: you create a <code>Game</code>, present a <code>Scene</code>, compose it from <code>Node</code> objects, and bring it to life with animations, input, audio, and physics.</p>
-<p>On Apple platforms, Fantas uses SpriteKit as its rendering model. On desktop and other supported targets, Fantas keeps the same high-level API while providing equivalent behavior through its other backends. The goal is not pixel-perfect parity across every platform; the goal is to let you build gameplay, UI, and tools around one consistent programming model.</p>
+<p>Fantas is a cross-platform 2D game framework built around the same scene-graph ideas that make SpriteKit approachable: you create a <a class="xref" href="../api/Fantas.Game.html"><code>Game</code></a>, present a <a class="xref" href="../api/Fantas.Scene.html"><code>Scene</code></a>, compose it from <a class="xref" href="../api/Fantas.Node.html"><code>Node</code></a> objects, and bring it to life with animations, input, audio, and physics.</p>
+<p>On Apple platforms, Fantas uses SpriteKit as its rendering model. On desktop and other supported targets, Fantas keeps the same high-level API while providing equivalent behavior through its other backends. That compatibility-first approach also extends to older .NET and Windows versions, and to Linux handheld or low-end devices that rely on OpenGL ES. The goal is not pixel-perfect parity across every platform; the goal is to let you build gameplay, UI, and tools around one consistent programming model.</p>
+<p>If you want to get a project running first, start with the platform quick starts for <a href="../windows.html">Windows</a>, <a href="../mac.html">macOS</a>, or <a href="../linux.html">Linux</a>.</p>
 <h2 id="core-concepts">Core concepts</h2>
 <h3 id="game-and-scene-lifecycle">Game and scene lifecycle</h3>
-<p><code>Game</code> is the application host. It initializes the platform backend, input facades, and audio session, and it presents exactly one active <code>Scene</code> at a time. A scene is the root of your game world or screen. Override <code>Start()</code> to build content, <code>Update()</code> to run frame-by-frame logic, <code>Finish()</code> for teardown, and <code>SizeChanged()</code> when the visible area changes.</p>
+<p><a class="xref" href="../api/Fantas.Game.html"><code>Game</code></a> is the application host. It initializes the platform backend, input facades, and audio session, and it presents exactly one active <a class="xref" href="../api/Fantas.Scene.html"><code>Scene</code></a> at a time. A scene is the root of your game world or screen. Override <code>Start()</code> to build content, <code>Update()</code> to run frame-by-frame logic, <code>Finish()</code> for teardown, and <code>SizeChanged()</code> when the visible area changes.</p>
 <h3 id="scene-graph-and-nodes">Scene graph and nodes</h3>
-<p>Everything drawn in Fantas lives in the scene graph. <code>Node</code> is the common base type for transforms, parenting, ordering, hit testing, animations, and physics integration. Higher-level node types specialize that behavior:</p>
+<p>Everything drawn in Fantas lives in the scene graph. <a class="xref" href="../api/Fantas.Node.html"><code>Node</code></a> is the common base type for transforms, parenting, ordering, hit testing, animations, and physics integration. Higher-level node types specialize that behavior:</p>
 <ul>
-<li><code>SpriteNode</code> draws textures or solid-color quads.</li>
-<li><code>ShapeNode</code> and its derived types draw vector primitives.</li>
-<li><code>LabelNode</code> renders text.</li>
-<li><code>CameraNode</code> controls the visible region of a scene.</li>
-<li><code>CropNode</code>, <code>TileMapNode</code>, <code>ParticleEmitterNode</code>, and the UI nodes build more specialized behaviors on top of the same hierarchy.</li>
+<li><a class="xref" href="../api/Fantas.SpriteNode.html"><code>SpriteNode</code></a> draws textures or solid-color quads.</li>
+<li><a class="xref" href="../api/Fantas.ShapeNode.html"><code>ShapeNode</code></a> and its derived types draw vector primitives.</li>
+<li><a class="xref" href="../api/Fantas.LabelNode.html"><code>LabelNode</code></a> renders text.</li>
+<li><a class="xref" href="../api/Fantas.CameraNode.html"><code>CameraNode</code></a> controls the visible region of a scene.</li>
+<li><a class="xref" href="../api/Fantas.CropNode.html"><code>CropNode</code></a>, <a class="xref" href="../api/Fantas.TileMapNode.html"><code>TileMapNode</code></a>, <a class="xref" href="../api/Fantas.ParticleEmitterNode.html"><code>ParticleEmitterNode</code></a>, and the UI nodes build more specialized behaviors on top of the same hierarchy.</li>
 </ul>
 <p>That shared node model is what makes Fantas feel close to SpriteKit: layout, animation, input, and physics all compose around the same graph.</p>
 <h3 id="actions-and-motion">Actions and motion</h3>
-<p><code>Animation</code> is Fantas' action system. You can move, rotate, scale, fade, tint, sequence, group, repeat, reverse, or run custom callbacks over time. Animations are attached directly to nodes, so visual behavior stays close to the content it controls.</p>
+<p><a class="xref" href="../api/Fantas.Animation.html"><code>Animation</code></a> is Fantas' action system. You can move, rotate, scale, fade, tint, sequence, group, repeat, reverse, or run custom callbacks over time. Animations are attached directly to nodes, so visual behavior stays close to the content it controls.</p>
 <h3 id="textures-atlases-and-tiles">Textures, atlases, and tiles</h3>
-<p><code>Texture</code> loads images from assets, files, resources, or streams. <code>TextureAtlas</code> groups named textures for efficient lookup, while the tile types (<code>TileDefinition</code>, <code>TileGroup</code>, <code>TileSet</code>, <code>TileMapNode</code>) build reusable tile-based worlds and editors on top of the same rendering model.</p>
+<p><a class="xref" href="../api/Fantas.Texture.html"><code>Texture</code></a> loads images from assets, files, resources, or streams. <a class="xref" href="../api/Fantas.TextureAtlas.html"><code>TextureAtlas</code></a> groups named textures for efficient lookup, while the tile types (<a class="xref" href="../api/Fantas.TileDefinition.html"><code>TileDefinition</code></a>, <a class="xref" href="../api/Fantas.TileGroup.html"><code>TileGroup</code></a>, <a class="xref" href="../api/Fantas.TileSet.html"><code>TileSet</code></a>, <a class="xref" href="../api/Fantas.TileMapNode.html"><code>TileMapNode</code></a>) build reusable tile-based worlds and editors on top of the same rendering model.</p>
 <h3 id="input-and-ui">Input and UI</h3>
-<p>Fantas exposes input through static facades such as <code>KeyboardInput</code>, <code>MouseInput</code>, <code>TouchInput</code>, and <code>ControllerInput</code>. You can either poll input state directly or override scene/node callbacks to react to interaction events.</p>
-<p>The <code>Fantas.UI</code> namespace builds on the scene graph instead of introducing a separate widget tree. Controls such as <code>ButtonNode</code>, <code>ScrollNode</code>, and the scroll bars are still nodes, so they animate, layer, and compose like the rest of your scene.</p>
+<p>Fantas exposes input through static facades such as <a class="xref" href="../api/Fantas.Input.KeyboardInput.html"><code>KeyboardInput</code></a>, <a class="xref" href="../api/Fantas.Input.MouseInput.html"><code>MouseInput</code></a>, <a class="xref" href="../api/Fantas.Input.TouchInput.html"><code>TouchInput</code></a>, and <a class="xref" href="../api/Fantas.Input.ControllerInput.html"><code>ControllerInput</code></a>. You can either poll input state directly or override scene/node callbacks to react to interaction events.</p>
+<p>The <code>Fantas.UI</code> namespace builds on the scene graph instead of introducing a separate widget tree. Controls such as <a class="xref" href="../api/Fantas.UI.ButtonNode.html"><code>ButtonNode</code></a>, <a class="xref" href="../api/Fantas.UI.ScrollNode.html"><code>ScrollNode</code></a>, and the scroll bars are still nodes, so they animate, layer, and compose like the rest of your scene.</p>
 <h3 id="physics-and-audio">Physics and audio</h3>
-<p>Each scene can opt into physics through <code>PhysicsWorld</code>, <code>PhysicsBody</code>, and the joint types. The API mirrors familiar SpriteKit-style concepts: gravity, collision and contact masks, raycasts, queries, and joints.</p>
-<p>Audio follows the same pattern. <code>AudioSession</code> exposes global sound state, <code>MusicPlayer</code> manages longer background tracks, and <code>SoundEffect</code> handles short interactive sounds.</p>
+<p>Each scene can opt into physics through <a class="xref" href="../api/Fantas.Physics.PhysicsWorld.html"><code>PhysicsWorld</code></a>, <a class="xref" href="../api/Fantas.Physics.PhysicsBody.html"><code>PhysicsBody</code></a>, and the joint types. The API mirrors familiar SpriteKit-style concepts: gravity, collision and contact masks, raycasts, queries, and joints.</p>
+<p>Audio follows the same pattern. <a class="xref" href="../api/Fantas.Audio.AudioSession.html"><code>AudioSession</code></a> exposes global sound state, <a class="xref" href="../api/Fantas.Audio.MusicPlayer.html"><code>MusicPlayer</code></a> manages longer background tracks, and <a class="xref" href="../api/Fantas.Audio.SoundEffect.html"><code>SoundEffect</code></a> handles short interactive sounds.</p>
 <h2 id="platform-model">Platform model</h2>
 <p>Fantas targets the same game code at multiple runtimes. The exact backend differs by platform, but the public API is intentionally stable:</p>
 <ul>
 <li>Apple platforms map closely to SpriteKit concepts and behavior.</li>
-<li>Desktop and other supported platforms keep the same scene, node, input, animation, and physics abstractions through Fantas' platform layers.</li>
-<li>Utility types such as <code>SystemPlatform</code>, <code>CurrentSystemPlatform</code>, and <code>SystemPlatformInformation</code> help you adapt when a platform-specific branch is necessary.</li>
+<li>Desktop and other supported platforms keep the same scene, node, input, animation, and physics abstractions through Fantas' platform layers, including older .NET and Windows targets.</li>
+<li>Linux support is practical for handheld and lower-end devices that depend on OpenGL ES.</li>
+<li>Utility types such as <a class="xref" href="../api/Fantas.SystemPlatform.html"><code>SystemPlatform</code></a>, <a class="xref" href="../api/Fantas.CurrentSystemPlatform.html"><code>CurrentSystemPlatform</code></a>, and <a class="xref" href="../api/Fantas.SystemPlatformInformation.html"><code>SystemPlatformInformation</code></a> help you adapt when a platform-specific branch is necessary.</li>
 </ul>
 <h2 id="how-to-read-the-api-reference">How to read the API reference</h2>
 <p>The API reference is easiest to approach in layers:</p>
 <ol>
-<li>Start with <code>Game</code>, <code>Scene</code>, <code>Node</code>, <code>SpriteNode</code>, and <code>Animation</code>.</li>
-<li>Add <code>Texture</code>, <code>LabelNode</code>, and the shape nodes for rendering.</li>
-<li>Bring in <code>TouchInput</code>, <code>MouseInput</code>, <code>KeyboardInput</code>, or <code>ControllerInput</code> for interaction.</li>
-<li>Add <code>PhysicsWorld</code> and <code>PhysicsBody</code> when you need simulation.</li>
+<li>Start with <a class="xref" href="../api/Fantas.Game.html"><code>Game</code></a>, <a class="xref" href="../api/Fantas.Scene.html"><code>Scene</code></a>, <a class="xref" href="../api/Fantas.Node.html"><code>Node</code></a>, <a class="xref" href="../api/Fantas.SpriteNode.html"><code>SpriteNode</code></a>, and <a class="xref" href="../api/Fantas.Animation.html"><code>Animation</code></a>.</li>
+<li>Add <a class="xref" href="../api/Fantas.Texture.html"><code>Texture</code></a>, <a class="xref" href="../api/Fantas.LabelNode.html"><code>LabelNode</code></a>, and the shape nodes for rendering.</li>
+<li>Bring in <a class="xref" href="../api/Fantas.Input.TouchInput.html"><code>TouchInput</code></a>, <a class="xref" href="../api/Fantas.Input.MouseInput.html"><code>MouseInput</code></a>, <a class="xref" href="../api/Fantas.Input.KeyboardInput.html"><code>KeyboardInput</code></a>, or <a class="xref" href="../api/Fantas.Input.ControllerInput.html"><code>ControllerInput</code></a> for interaction.</li>
+<li>Add <a class="xref" href="../api/Fantas.Physics.PhysicsWorld.html"><code>PhysicsWorld</code></a> and <a class="xref" href="../api/Fantas.Physics.PhysicsBody.html"><code>PhysicsBody</code></a> when you need simulation.</li>
 <li>Explore tiles, particle effects, and UI controls as your project grows.</li>
 </ol>
 <p>If you already know SpriteKit, you can think of Fantas as a cross-platform scene-graph API that keeps the same mental model while letting your game code travel beyond Apple's platforms.</p>
